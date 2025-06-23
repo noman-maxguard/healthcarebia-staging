@@ -1,0 +1,50 @@
+#########################################
+# OS-generated clutter
+#########################################
+.DS_Store
+Thumbs.db
+
+#########################################
+# Editor and IDE files
+#########################################
+*.sublime-*
+*.swp
+.vscode/
+.idea/
+
+#########################################
+# Environment and secrets
+#########################################
+.env
+.env.*
+
+#########################################
+# Logs, caches, and temporary data
+#########################################
+logs/
+application/logs/
+application/cache/
+system/cache/
+assets/cache/
+
+#########################################
+# User-uploaded and runtime files
+#########################################
+uploads/
+assets/uploads/
+backup/              # your “backup” directory
+*.bak
+*.tmp
+
+#########################################
+# Dependency directories
+#########################################
+vendor/              # Composer dependencies
+node_modules/        # if you ever add Node tooling
+
+#########################################
+# Build or deploy artifacts
+#########################################
+*.zip
+*.tar
+*.gz

@@ -1,0 +1,1 @@
+<title><?= !empty($websiteTitle) ? $websiteTitle : 'Website Admin Control Panel' ?></title>

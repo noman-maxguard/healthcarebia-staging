@@ -1,0 +1,128 @@
+
+/*Custom css*/
+/*Flash message*/
+
+.flash-messages-error {
+    position: absolute;
+    z-index: 9999;
+    right: 21px;
+    bottom: 50px;
+    height: auto;
+    width: 350px;
+    padding: 10px 15px;
+    background-color: #fb4c42;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.flash-messages-success {
+    position: absolute;
+    z-index: 9999;
+    right: 21px;
+    bottom: 50px;
+    height: auto;
+    width: 350px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.text-error{
+    color: red;
+}
+
+
+.controls img{
+    max-width: 100% !important;
+}
+
+@media (max-width: 768px) {
+.btn-info{
+    width: 100% !important;
+}
+}
+
+
+.textarea{
+    width: 100%;
+    height: 200px;
+    font-size: 14px;
+    line-height: 18px;
+    border: 1px solid #dddddd;
+    padding: 10px;
+}
+
+
+table > tbody > tr > td, table > thead > tr > th {
+    text-align: center !important;
+}
+
+
+.card-footer{
+    text-align: right !important;
+}
+
+
+.pull-right-acc{
+    float: right;
+
+}
+
+
+.badge-info{
+    color: #fff !important;
+    background-color: #007bff !important;
+}
+
+
+
+.icon {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-repeat: no-repeat;
+    background-position: 72px 72px;
+    background-image: url("../image/icons-splits.png");
+    background-size: 324px auto;
+    transition: background-position 150ms; }
+.icon.icon-truck, .icon.icon-truck-w.hover {
+    background-position: 0 0; }
+.icon.icon-truck-w, .icon.icon-truck.hover {
+    background-position: 0 -36px; }
+.icon.icon-plane, .icon.icon-plane-w.hover {
+    background-position: -36px 0; }
+.icon.icon-plane-w, .icon.icon-plane.hover {
+    background-position: -36px -36px; }
+.icon.icon-lorry, .icon.icon-lorry-w.hover {
+    background-position: -72px 0; }
+.icon.icon-lorry-w, .icon.icon-lorry.hover {
+    background-position: -72px -36px; }
+.icon.icon-ship, .icon.icon-ship-w.hover {
+    background-position: -108px 0; }
+.icon.icon-ship-w, .icon.icon-ship.hover {
+    background-position: -108px -36px; }
+.icon.icon-envelope, .icon.icon-envelope-w.hover {
+    background-position: -144px 0; }
+.icon.icon-envelope-w, .icon.icon-envelope.hover {
+    background-position: -144px -36px; }
+.icon.icon-cup, .icon.icon-cup-w.hover {
+    background-position: -180px 0; }
+.icon.icon-cup-w, .icon.icon-cup.hover {
+    background-position: -180px -36px; }
+.icon.icon-track, .icon.icon-track-w.hover {
+    background-position: -216px 0; }
+.icon.icon-track-w, .icon.icon-track.hover {
+    background-position: -216px -36px; }
+.icon.icon-secure, .icon.icon-secure-w.hover {
+    background-position: -252px 0; }
+.icon.icon-secure-w, .icon.icon-secure.hover {
+    background-position: -252px -36px; }
+.icon.icon-lorry2, .icon.icon-lorry2-w.hover {
+    background-position: -288px 0; }
+.icon.icon-lorry2-w, .icon.icon-lorry2.hover {
+    background-position: -288px -36px; }

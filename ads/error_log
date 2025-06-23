@@ -1,0 +1,2 @@
+[25-Apr-2023 16:02:06 Asia/Dubai] PHP Parse error:  syntax error, unexpected end of file in /home/yellowglovusr/public_html/demo/web/application/views/frontend/layouts/main.php on line 598
+[20-May-2023 18:28:06 UTC] PHP Parse error:  syntax error, unexpected ''' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/adzhelthcrbia/public_html/application/controllers/Welcome.php on line 692

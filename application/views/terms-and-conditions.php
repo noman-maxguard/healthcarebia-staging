@@ -1,0 +1,136 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <?php include 'includes/inc_head_tag.php'; ?>
+
+
+
+
+
+</head>
+
+<body>
+
+<?php include 'includes/inc_header.php'; ?>
+
+
+
+
+
+<section class="sub-banner small-banner"
+
+         style="background-image: url(<?= base_url() ?>assets/frontend/img/small-banner.webp);">
+
+    <div class="overlay">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-12"><h2>Terms and Conditions</h2>
+
+                    <nav aria-label="breadcrumb">
+
+                        <ul class="breadcrumb">
+
+                            <li><a href="<?= base_url() ?>">Home</a></li>
+
+                            <li class="active" aria-current="page">Terms and Conditions</li>
+
+                        </ul>
+
+                    </nav>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="light-bg-color section-gap " style="min-height: 50%">
+
+    <div class="container">
+
+        <!-- <h2>Terms and Conditions</h2> -->
+
+        <p>By accessing, browsing and/or using (www.healthcarebia.ae) online payment gateway, you agree to the following terms. This page contains the terms and conditions concerning your use of Healthcarebia Home Health Care Center’s online payment website. By accessing this site, you agree to be bound by the following terms and conditions. TERMS CONDITIONS OF SERVICES, PAYMENT & CONSENT FOR USE AND DISCLOSURE OF PROTECTED HEALTH INFORMATION.</p>
+
+        <p>By acknowledging the information below, you are agreeing to the following Terms and Conditions of our engagement. Your informed consent form will act as a signed approval that you have accepted the below terms and conditions of Healthcarebia Home Health Care Center LLC prior to receiving any services offered. The services recipient is referred to herein as “Client” or “you”. These terms to which you agree are referred to as “Terms and Conditions” or “Agreement”.</p>
+
+        <p>The Client agrees that failure/refusal to sign the informed consent form will result in a charge of 50% of the appointment reservation fee.</p>
+
+        <h4>Payment Methods</h4>
+        <p>We accept the following forms of payment:</p>
+        <ul class="commen-listing mb-3">
+            <li>Visa Debit</li>
+            <li>Visa Credit</li>
+            <li>Mastercard Debit</li>
+            <li>Mastercard Credit</li>
+            <li>Cash</li>
+            <li>Payment via Payment Link</li>
+        </ul>
+        <p>We do NOT Accept American Express</p>
+
+        <p>You agree to provide current, complete, and accurate purchase and account information for all purchases made via the services. You further agree to promptly update account and payment information, including email address, payment methods and payment card expiration date, so that we can complete your transactions and contact you as needed. Sales tax will be added to the price of purchases as deemed required by us. We may change prices at any time. All cash payments shall in be in Emirati Dirhams (AED), where card payments are involved, the currency can be decided as per the Clients discretion. You agree to pay all your charges at the prices then in effect for your purchases and any applicable shipping fees, and you authorise us to charge your chosen payment provider for any such amounts upon placing your order. If your order is subject to recurring charges, then you consent to our charging your payment method on a recurring basis without requiring your prior approval for each recurring charge, until such time as you cancel the applicable order. We reserve the right to correct any errors or mistakes in pricing, even if we have already requested or received payment. We reserve the right to refuse any order placed through our services. We may, in our sole discretion, limit or cancel quantities purchased per person, per household or per order. These restrictions may include orders placed by or under the same customer account. We reserve the right to limit or prohibit orders that, in our sole judgment, appear to be placed by dealers, resellers or distributors.</p>
+
+        <h4>2.Insurance Services</h4>
+        <p> The Client understands and acknowledges that Healthcarebia Home Health Care Center and its personnel are not paid or reimbursed for the services, programs or supplements, vitamins or pharmaceuticals offered by Healthcarebia Home Health Care Center by any medical or non-medical insurance providers or third-party payer programs including your health insurance carrier, and explicitly do not accept insurance for any services offered.</p>
+        <p> Clients will be billed directly and shall be personally responsible for payment, regardless of whether clients are reimbursed by their insurance company, managed care plan or other third-party payer.</p>
+        <h4> 3.Protected Health Information and Service Expectations</h4>
+        <p>In order to carry out treatment, payment, and health care operations (TPO), you hereby grant Healthcarebia Home Health Care Center permission to use and disclose protected health information (PHI) about you. Prior to completing your consent, you have the right to read the Notice of Privacy Practices. Healthcarebia Home Health Care Center has the freedom to modify its Notice of Privacy Practices whenever it sees fit. You can get a new Notice of Privacy Practices by sending Healthcarebia Home Health Care Center a written request. </p>
+
+        <p>With this permission, Healthcarebia Home Health Care Center is permitted to call my home or another alternative location, leave a voicemail message, or visit me in person regarding any matters that help the office carry out TPO, such as appointment reminders, insurance-related matters, and any calls pertaining to my clinical care, including laboratory test results, among others. 
+        With this permission, Healthcarebia Home Health Care Center may mail any materials, such as appointment reminder cards and patient statements that are marked "Personal and Confidential," to my house or a different address. Any materials that help the practice carry out TPO, like appointment reminder cards and patient statements, may be emailed to my home or another alternative place with my permission, according to Healthcarebia Home Health Care Center. You have the right to ask Healthcarebia Home Health Care Center to limit the ways in which it makes use of or discloses your PHI for TPO. The practice is not compelled to accept the restrictions you propose, but if it does, it must abide by the terms of this agreement.</p>
+
+        <p> Except in cases where the practice has previously disclosed information with your prior consent, you have the right to revoke your consent in writing. Healthcarebia Home Health Care Center may refuse to treat you if you do not sign this consent or if you do and afterwards revoke it.</p>
+
+        <p>The Client gives Healthcarebia Home Health Care Center permission to use and disclose PHI in order to complete TPO.</p>
+        <p>You fully represent and warrant that, by agreeing to these Terms and Conditions, you are not appointing Healthcarebia Home Health Care Center or any of its employees with the belief that it or they will identify or treat any sickness, disease, or condition of any kind. Personnel from Healthcarebia Home Health Care Center will not check for, diagnose, treat, or otherwise care for these disorders. Upon your acceptance of these Terms and Conditions and Healthcarebia Home Health Care Center's acceptance of you for the provision of services, Healthcarebia Home Health Care Center is relying on the aforementioned representations and warranties.</p>
+        <p>Healthcarebia Home Health Care Centre does not diagnose or treat any disease, sickness, or medical condition both physical or mental.</p>
+        <h4>4.Pricing</h4>
+        <p>Please note all prices for our services and products are exclusive of VAT. Healthcarebia Home Health Care Center reserves the full right to amend or change its pricing where it seems necessary. This also includes the possibility of being charged for a home visit despite our home visit service being offered as free. Healthcarebia Home Health Care Center may apply these changes at any given moment even including after an appointment reservation is made or paid for.</p>
+        <h4>5.Further Terms of Agreement</h4>
+        <p>The client will inform the medical provider at Healthcarebia Home Health Care Center of any known allergies to medications or other substances and of all current medications and supplements. The client agrees to have fully inform the nurse and/or physician of any medical history.</p>
+
+        <p>The client confirms and guarantees to Healthcarebia Home Health Care Center that they have not received a diagnosis or treatment for any diseases, illnesses, or conditions that could pose a higher risk while engaging in the regimens, programs, or services offered by Healthcarebia Home Health Care Center. Moreover, they are not opting to participate in any of these offerings with the expectation that Healthcarebia Home Health Care Center will examine, diagnose, supervise, or otherwise provide any medical care or treatment for such conditions. </p>
+
+        <p>The Client understands that they have the right to be informed of the procedure, any feasible alternative options, and the risks and benefits. Except in emergencies, procedures are not performed until they have had an opportunity to receive such information and to give their informed consent. 
+        The Client is aware that other unforeseeable complications could occur. The Client does not expect the nurse(s) and/or physician(s) to anticipate and or explain all risk and possible complications. </p>
+
+        <p>The Client relies on the Healthcarebia Home Health Care Center providers to exercise judgment during the course of treatment with regards to their procedure however will not hold them accountable for any misjudgement as a result of inaccurate information provided by the Client. </p>
+
+        <p>The Client understands that they have the right to consent to or refuse any proposed treatment at any time prior to its performance. 
+        By receiving services from Healthcarebia Home Health Care Center, you affirm and guarantee that you do not use illegal drugs or controlled substances, nor are you under their influence or in the process of recovering from their use.</p>
+        <h4>6.Acknowledgment</h4>
+        <p>The Client confirms that they have read this form and fully understand its contents. You acknowledge that no guarantees or assurances have been made to you regarding the results intended from the sessions and programs offered by Healthcarebia Home Health Care Center LLC.  You understand the nature of the sessions and programs and that participating in them carries risks. You have been given an opportunity to ask questions, and all your questions have been answered fully and to your satisfaction.</p>
+        <p>You agree to your assumption of all risks associated with your participation.
+        You have read the above and agree with these terms and consent to participate in the services and products offered by Healthcarebia Home Health Care Center LLC.</p>
+
+    </div>
+
+</section>
+
+
+
+
+
+<?php include 'includes/inc_footer.php'; ?>
+
+
+
+
+
+
+
+<?php include 'includes/inc_footer_scripts.php'; ?>
+
+</body>
+
+</html>

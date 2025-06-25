@@ -653,8 +653,7 @@ window.addEventListener("load", () => {
         scrub: true,
         pin: true,
         anticipatePin: 1,
-        invalidateOnRefresh: true, // recompute x/end on resize/orientation change
-        // markers: true // uncomment to debug start/end positions
+        invalidateOnRefresh: true,
       }
     });
   });

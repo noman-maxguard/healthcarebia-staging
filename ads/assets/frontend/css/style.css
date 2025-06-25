@@ -487,7 +487,6 @@ section {
   align-items: center;
   flex-direction: column;
   padding: 5em;
-  height: 100vh;
   gap: 20px;
   background: url(../../img/hand-faded.png) no-repeat center/cover;
 }
@@ -548,12 +547,11 @@ section {
   font-weight: 100;
   width: 70%;
   margin-top: 4em;
-  text-align: center;
 }
 
 .offerings .left p {
   font-family: 'Poppins', serif;
-  font-size: 18px;
+  font-size: 15px;
   width: 70%;
   color: #545454;
   margin-top: 4em;
@@ -601,7 +599,7 @@ section {
 
 .box2 {
   z-index: 1;
-  bottom: 20em;
+  bottom: 12em;
   left: -6em;
 }
 
@@ -627,11 +625,10 @@ section {
 
   .offerings .left h1 {
     font-size: 24px;
-    text-align: center;
   }
 
   .offerings .left p {
-    font-size: 18px;
+    font-size: 12px;
   }
 
   .offerings .left button {}
@@ -1254,7 +1251,7 @@ ul.checkpoints li::before {
   background: var(--dark-grey);
   position: relative;
   overflow: hidden;
-  min-height: 100vh;
+  /* height: 100vh; */
 }
 
 .banner-section {

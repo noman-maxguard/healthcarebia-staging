@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-//ini_set('display_errors', 1);
+ini_set('display_errors', 0);
 error_reporting(E_ALL);
 ini_set('memory_limit', '4400M');
 ini_set('max_execution_time', '3000');
@@ -259,11 +259,31 @@ else
             {
                 $response_array['flag'] =1;
                 $response_array['status'] ='Enquiry Sent Successfully';
-               
+                $googleScriptUrl = 'https://script.google.com/macros/s/AKfycbwZCaMfeWBd1DKY0stTPGqdlFSvfeljNnff-QDuGES5HydzNAF7N8ulK_5Kd-JrUwun/exec';
+
+                $payload = [
+                    'fname'   => $first_name,
+                    'lname'   => $last_name,
+                    'email'   => $email,
+                    'phone'   => $phone,
+                    'message' => $message_form,
+                    'date'      => date("d-M-Y h:i:s A"),
+                    'form_name' => 'Ads',
+                    'city'      => $this->geoplugin_city,
+
+                ];
+
+                $ch = curl_init($googleScriptUrl);
+                curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
+                curl_setopt($ch, CURLOPT_POSTFIELDS,   json_encode($payload));
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                curl_setopt($ch, CURLOPT_HTTPHEADER,   ['Content-Type: application/json']);
+                $sheetResponse = curl_exec($ch);
+                curl_close($ch);
+                    
             }
             else
             {
-
                 $response_array['flag'] =0;
                 $response_array['status'] ='Enquiry Sent Failed';
             }  

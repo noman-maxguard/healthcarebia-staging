@@ -292,6 +292,7 @@ section {
   background-color: rgba(255, 255, 255, 1);
 }
 
+
 #banner-left {
   display: flex;
   flex-direction: column;
@@ -366,7 +367,7 @@ section {
 }
 
 #banner-left {
-  margin-top: -20px;
+  margin-top: -120px;
 }
 
 #banner-features {
@@ -500,7 +501,8 @@ section {
   font-style: italic;
   color: #422b1c;
   font-size: 52px;
-  font-weight: 600;
+  font-weight: 400;
+  text-align: center;
 }
 
 .about-us h5 {
@@ -509,12 +511,13 @@ section {
   font-weight: 100;
   color: #422b1c;
   font-size: 22px;
+  text-align: center;
 }
 
 .about-us p {
   font-family: 'Poppins', serif;
-  font-size: 14.4px;
-  width: 60%;
+  font-size: 15px;
+  width: 90%;
   color: #545454;
   text-align: center;
 }
@@ -902,11 +905,10 @@ section {
 .drips {
   position: relative;
   overflow: hidden;
-  /* height: 100vh; */
+  height: 100vh;
   display: flex;
   flex-direction: column;
   position: relative;
-  height: auto;
   overflow: hidden;
   background: #fff;
 }
@@ -939,22 +941,24 @@ section {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 2rem;
+  padding-top: 4rem;
+  gap: 1em;
   border-right: 1px dashed #422b1c;
   height: 100%;
 }
 
 .drip-card {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100%;
 }
 
 .drip-card .text {
-  flex: 1;
+  /* flex: 1; */
   margin-left: 2em;
 }
 
@@ -979,6 +983,7 @@ section {
 }
 
 .drip-container a {
+  margin-top: auto;
   width: 40%;
 }
 
@@ -1066,8 +1071,6 @@ ul.checkpoints li::before {
 @media (min-width: 600px) {
   .drip-container {
     max-width: 48%;
-    /* two per row in a flex parent */
-    margin-bottom: 2%;
   }
 
   .drip-card {
@@ -1100,6 +1103,63 @@ ul.checkpoints li::before {
 
   .drip-card .text h6 {
     font-size: 1.75rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 501px) {
+  .drip-container {
+    padding: 1rem;
+    /* tighten overall padding */
+  }
+
+  .drip-card {
+    display: flex !important;
+    flex-direction: column !important;
+    /* stack image → text */
+    align-items: center;
+    text-align: center;
+  }
+
+  .drip-card .img-inner {
+    width: 120px !important;
+    /* smaller image width */
+    margin-bottom: 0.75rem;
+  }
+
+  .drip-card .img-inner img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .drip-card .text {
+    margin-left: 0 !important;
+    /* remove left-margin */
+    margin-bottom: 0.75rem;
+  }
+
+  .drip-card .text h6 {
+    font-size: 1.1rem;
+  }
+
+  .drip-card .text .listing-items li {
+    margin-bottom: 0.5rem;
+    /* padding-left: 1.5em; */
+  }
+
+  /* .drip-container .prices {
+    margin-bottom: 0.75rem;
+  } */
+  ul.checkpoints li::before {
+    display: none;
+  }
+
+  .drip-container .booking {
+    position: static !important;
+    width: 100% !important;
+    margin: 0 auto 1rem !important;
+    padding: 0.5rem !important;
+    font-size: 12px;
   }
 }
 
@@ -1196,7 +1256,7 @@ ul.checkpoints li::before {
   background: var(--dark-grey);
   position: relative;
   overflow: hidden;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .banner-section {
@@ -2114,6 +2174,7 @@ ul.checkpoints li::before {
 
 .banner-contant {
   padding: 155px 0 0 0;
+  min-height: 100vh;
 }
 
 /* .new-banner .form-box {
@@ -2279,6 +2340,20 @@ ul.listing-item2 li::before {
 @media (max-width: 1199.98px) {
   .header-right li {
     display: none !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #banner-left {
+    display: none !important;
+  }
+
+  #banner-right {
+    display: block !important;
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 auto 2rem;
+    padding: 0 1rem;
   }
 }
 

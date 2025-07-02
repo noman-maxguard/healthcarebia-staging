@@ -65,7 +65,7 @@ $route['manage-pages/save_page/(:any)']='admin/manage_page/save_page/$1';
 $route['manage-pages/update_page/(:any)']='admin/manage_page/update_page/$1';
 $route['setup-menu']='admin/menu/add_menu';
 $route['setup-menu/(:any)']='admin/menu/edit_menu/$1';
-$route['welcome/cform'] = 'welcome/cform';
+
 
 $route['admin/setup-service/(:any)']='admin/service/edit/$1';
 

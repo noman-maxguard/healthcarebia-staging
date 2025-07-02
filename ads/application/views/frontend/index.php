@@ -7,7 +7,7 @@
     loop
     playsinline
   >
-    <source src="assets/frontend/landingpage/video/home.mp4" type="video/mp4">
+    <source src="assets/frontend/landingpage/video/home-video.mp4" type="video/mp4">
   </video>
 
   <div class="overly">
@@ -49,82 +49,86 @@
             </ul>
           </div>
 
-          <!-- RIGHT COLUMN -->
           <div id="banner-right" class="col-md-4">
-            <div class="form-box" id="form-box">
-              <div class="contact-form" id="contact-form">
-                <h4 id="form-title">Get a Call Back</h4>
-                <form
-                  id="callback-form"
-                  class="row request-form contact_form_header"
-                  method="post"
-                >
-                  <div class="col-md-6 mb-3">
-                    <input
-                      id="first-name"
-                      class="form-input"
-                      type="text"
-                      placeholder="First Name"
-                      name="first_name"
-                      required
-                    />
-                  </div>
-                  <div class="col-md-6 mb-3">
-                    <input
-                      id="last-name"
-                      class="form-input"
-                      type="text"
-                      placeholder="Last Name"
-                      name="last_name"
-                      required
-                    />
-                  </div>
-                  <div class="col-md-6 mb-3">
-                    <input
-                      id="phone"
-                      class="form-input"
-                      type="text"
-                      placeholder="Phone"
-                      name="mobile"
-                      required
-                      onkeypress="return onlyNumberKey(event)"
-                    />
-                  </div>
-                  <div class="col-md-6 mb-3">
-                    <input
-                      id="email"
-                      class="form-input"
-                      type="email"
-                      placeholder="Email"
-                      name="email"
-                      required
-                    />
-                  </div>
-                  <div class="col-md-12 mb-3">
-                    <textarea
-                      id="message"
-                      class="form-textarea"
-                      placeholder="Message"
-                      name="message"
-                      required
-                    ></textarea>
-                  </div>
-                  <div class="col-md-12">
-                    <input
-                      id="submit-btn"
-                      class="primary-btn"
-                      type="submit"
-                      value="Submit"
-                      name="submit"
-                    />
-                  </div>
-                </form>
-                <div class="msg"></div>
-                <div class="loading"></div>
-              </div>
-            </div>
-          </div>
-
+						<div class="form-box" id="form-box">
+							<div class="contact-form" id="contact-form">
+								<h4 id="form-title">Get a Call Back</h4>
+								<form
+									id="callback-form"
+									class="row request-form contact_form_header"
+									method="post"
+									action="<?= site_url('welcome/cform') ?>"
+								>
+									<div class="col-md-6 mb-3">
+										<input
+											class="form-input"
+											type="text"
+											placeholder="Name"
+											name="name"
+											required
+										/>
+									</div>
+									<div class="col-md-6 mb-3">
+										<input
+											class="form-input"
+											type="text"
+											placeholder="Last Name"
+											name="lastname"
+											required
+										/>
+									</div>
+									<div class="col-md-6 mb-3">
+										<input
+											class="form-input"
+											type="text"
+											placeholder="Phone"
+											name="mobile"
+											required
+											onkeypress="return onlyNumberKey(event)"
+										/>
+									</div>
+									<div class="col-md-6 mb-3">
+										<input
+											class="form-input"
+											type="email"
+											placeholder="Email"
+											name="email"
+											required
+										/>
+									</div>
+									<div class="col-md-12 mb-3">
+										<textarea
+											class="form-textarea"
+											placeholder="Message"
+											name="message"
+											required
+										></textarea>
+										<input
+											type="hidden"
+											name="url_from"
+											value="<?= current_url() ?>"
+										/>
+										<input
+											type="hidden"
+											name="form_name"
+											value="request_a_call_back"
+										/>
+									</div>
+									<div class="col-md-12">
+										<input
+										  id="submit-btn"
+											class="primary-btn"
+											type="submit"
+											value="Submit"
+											name="submit"
+										/>
+									</div>
+								</form>
+								<div class="msg"></div>
+								<div class="loading"></div>
+							</div>
+						</div>
+					</div>
         </div> <!-- /.row -->
       </div> <!-- /.container -->
     </div> <!-- /.banner-contant -->
@@ -362,7 +366,7 @@
 		<div class="drip-container">
 			<div class="drip-card">
 				<div class="img">
-					<div class="img-inner"><img src="https://www.healthcarebia.ae/assets/frontend/img/energy-iv-drip.webp" alt="Myers Cocktail Dubai" class="img-fluid"></div>
+					<div class="img-inner"><img src="https://www.healthcarebia.ae/assets/frontend/img/mega-c-iv-drip.webp" alt="Myers Cocktail Dubai" class="img-fluid"></div>
 				</div>
 				<div class="text">
 					<h6>Mega C IV Drip</h6>
@@ -653,7 +657,8 @@ window.addEventListener("load", () => {
         scrub: true,
         pin: true,
         anticipatePin: 1,
-        invalidateOnRefresh: true,
+        invalidateOnRefresh: true, // recompute x/end on resize/orientation change
+        // markers: true // uncomment to debug start/end positions
       }
     });
   });

@@ -4,9 +4,6 @@ class MY_Controller extends CI_Controller
 
 protected $permission = array();
 protected $userSession;
-public $data = array();
-public $error = '';
-public $success = '';
 public function __construct()
 {
 			parent::__construct();

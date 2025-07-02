@@ -32,8 +32,9 @@ $ctr=$this->uri->segment(1);
 />
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
-<link href="<?=base_url()?>assets/frontend/landingpage/css/style.css" rel="stylesheet">
 <link href="<?=base_url()?>assets/frontend/landingpage/css/responsive.css" rel="stylesheet">
+
+<link href="<?=base_url()?>assets/frontend/landingpage/css/style.css" rel="stylesheet">
 
 <title><?=!empty($page_details->meta_title)?$page_details->meta_title:''?></title>
 
@@ -238,7 +239,7 @@ $(document).ready(function(){
 
       $.ajax({
 
-      url:'<?=base_url()?>welcome/cform',
+      url:'<?= site_url("welcome/cform") ?>',
 
       type:'POST',
 

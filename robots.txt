@@ -1,3 +1,11 @@
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
+
+# Block OpenAI’s GPTBot (web crawler)
+User-agent: GPTBot
+Disallow: /
+
+# Block ChatGPT plugins crawler
+User-agent: ChatGPT-User
+Disallow: /

@@ -3,6 +3,7 @@
 <html lang="en">
 
 <head>
+    <meta name="msvalidate.01" content="4FD335F27089556A6B30B3EEC6440862" />
 
     <?php include 'includes/inc_head_tag.php'; ?>
 

@@ -144,7 +144,7 @@ class Booking extends CI_Controller
                     "email" => $email,
                     "phone" => $phone,
                     "message" => $message_form,
-                    "customer_type"  => $customer_type,
+                    // "customer_type"  => $customer_type,
                     "date" => $enq_date,
 
                     "form_name" => $form_name,

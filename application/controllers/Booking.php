@@ -85,6 +85,7 @@ class Booking extends CI_Controller
             $email = $this->input->post('email');
             $phone = $this->input->post('phone');
             $message_form = $this->input->post('message');
+            $customer_type  = $this->input->post('customer_type');
 
             $form_name = $this->input->post('form_name');
             $form_name_str = $form_name == 'register' ? 'Register Form' : 'Contact Form';
@@ -143,7 +144,7 @@ class Booking extends CI_Controller
                     "email" => $email,
                     "phone" => $phone,
                     "message" => $message_form,
-
+                    "customer_type"  => $customer_type,
                     "date" => $enq_date,
 
                     "form_name" => $form_name,
@@ -181,6 +182,7 @@ class Booking extends CI_Controller
             'email'   => $email,
             'phone'   => $phone,
             'message' => $message_form,
+            'customer_type'=> $customer_type,
             'date'      => date("d-M-Y h:i:s A"),
             'form_name' => $post['form_name'] ?? '',
             'city'      => $this->geoplugin_city,

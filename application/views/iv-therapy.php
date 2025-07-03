@@ -360,7 +360,7 @@
 
 
 
-<section class="section-gap iv-drip-block">
+<!-- <section class="section-gap iv-drip-block">
 
     <div class="container">
 
@@ -647,7 +647,7 @@
 
     </div>
 
-</section>
+</section> -->
 
 
 
@@ -679,7 +679,7 @@
 
                     <div class="img">
 
-                        <div class="img-inner"><img src="<?= base_url() ?>assets/frontend/img/myers-cocktail.webp" alt="Myers Cocktail Dubai" class="img-fluid" loading="lazy"></div>
+                        <div class="img-inner"><a href="<?= base_url() ?>myers-iv-drip"><img src="<?= base_url() ?>assets/frontend/img/myers-cocktail.webp" alt="Myers Cocktail Dubai" class="img-fluid" loading="lazy"></a></div>
 
                     </div>
 
@@ -704,7 +704,7 @@
 
                             <span>From AED</span>
 
-                            <h3>1,495* </h3>
+                            <h3>2,300* </h3>
                             <i>* T&C apply</i> 
                         </div>
 
@@ -720,7 +720,7 @@
 
                     <div class="img">
 
-                        <div class="img-inner"><img src="<?= base_url() ?>assets/frontend/img/hangover-iv-drip.webp" alt="Pre/Post Party IV drip Dubai" class="img-fluid" loading="lazy"></div>
+                        <div class="img-inner"><a href="<?= base_url() ?>hangover-iv-drip"><img src="<?= base_url() ?>assets/frontend/img/hangover-iv-drip.webp" alt="Pre/Post Party IV drip Dubai" class="img-fluid" loading="lazy"</a>></div>
 
                     </div>
 
@@ -743,7 +743,7 @@
 
                             <span>From AED</span>
 
-                            <h3>1040* </h3>
+                            <h3>1,600* </h3>
                             <i>* T&C apply</i> 
                         </div>
 
@@ -759,7 +759,7 @@
 
                     <div class="img">
 
-                        <div class="img-inner"><img src="<?= base_url() ?>assets/frontend/img/nad-iv-drip.webp" alt="NAD+ IV Drip Dubai" class="img-fluid" loading="lazy"></div>
+                        <div class="img-inner"><a href="<?= base_url() ?>nad-iv-drip"><img src="<?= base_url() ?>assets/frontend/img/nad-iv-drip.webp" alt="NAD+ IV Drip Dubai" class="img-fluid" loading="lazy"></a></div>
 
                     </div>
 
@@ -785,7 +785,7 @@
 
                             <span>From AED</span>
 
-                            <h3>1,235* </h3>
+                            <h3>1,900* </h3>
                             <i>* T&C apply</i> 
                         </div>
 
@@ -801,7 +801,7 @@
 
                     <div class="img">
 
-                        <div class="img-inner"><img src="<?= base_url() ?>assets/frontend/img/immune-booster-iv-drip.webp" alt="Immune System Mega Boost IV Drip Dubai" class="img-fluid" loading="lazy">
+                        <div class="img-inner"><a href="<?= base_url() ?>immune-iv-drip"><img src="<?= base_url() ?>assets/frontend/img/immune-booster-iv-drip.webp" alt="Immune System Mega Boost IV Drip Dubai" class="img-fluid" loading="lazy"></a>
 
                         </div>
 
@@ -827,7 +827,7 @@
 
                             <span>From AED</span>
 
-                            <h3>1,105*</h3>
+                            <h3>1,700*</h3>
                             <i>* T&C apply</i> 
                         </div>
 
@@ -847,7 +847,7 @@
 
                         <div class="img-inner">
                             
-                        <img src="<?= base_url() ?>assets/frontend/img/beauty-iv-drip.webp" alt="Beauty IV Drip Dubai" class="img-fluid" loading="lazy">
+                        <a href="<?= base_url() ?>iv-drip-dubai"><img src="<?= base_url() ?>assets/frontend/img/beauty-iv-drip.webp" alt="Beauty IV Drip Dubai" class="img-fluid" loading="lazy"></a>
                     
                     </div>
 
@@ -855,7 +855,7 @@
 
                     <div class="text">
 
-                        <h6>Beauty IV Drip</h6>
+                        <a href="<?= base_url() ?>iv-drip-dubai"><h6>Beauty IV Drip</h6></a>
 
                         <ul class="listing-item2">
 
@@ -871,7 +871,7 @@
 
                             <span>From AED</span>
 
-                            <h3>1,040* </h3>
+                            <h3>1,600* </h3>
                             <i>* T&C apply</i> 
                         </div>
 
@@ -888,7 +888,7 @@
 
                 <div class="img-inner">
                     
-                    <img src="<?= base_url() ?>assets/frontend/img/cold-flu-iv-drip.webp" alt="Cold Flu IV Drip Dubai" class="img-fluid" loading="lazy">
+                    <a href="<?= base_url() ?>iv-drip-dubai"><img src="<?= base_url() ?>assets/frontend/img/cold-flu-iv-drip.webp" alt="Cold Flu IV Drip Dubai" class="img-fluid" loading="lazy"></a>
                 
                 </div>
 
@@ -896,7 +896,7 @@
 
             <div class="text">
 
-                <h6>Cold &amp; Flu IV Drip</h6>
+                <a href="<?= base_url() ?>iv-drip-dubai"><h6>Cold &amp; Flu IV Drip</h6></a>
 
                 <ul class="listing-item2">
 
@@ -912,7 +912,7 @@
 
                     <span>From AED</span>
 
-                    <h3>1,170* </h3>
+                    <h3>1,800* </h3>
                     <i>* T&C apply</i> 
 
                 </div>
@@ -931,7 +931,7 @@
 
                         <div class="img-inner">
                             
-                            <img src="<?= base_url() ?>assets/frontend/img/jet-lag-iv-drip.webp" alt="Jet Lag IV Drip Dubai" class="img-fluid" loading="lazy">
+                            <a href="<?= base_url() ?>iv-drip-dubai"><img src="<?= base_url() ?>assets/frontend/img/jet-lag-iv-drip.webp" alt="Jet Lag IV Drip Dubai" class="img-fluid" loading="lazy"></a>
                         
                         </div>
 
@@ -939,7 +939,7 @@
 
                     <div class="text">
 
-                        <h6>Jet Lag IV Drip</h6>
+                        <a href="<?= base_url() ?>iv-drip-dubai"><h6>Jet Lag IV Drip</h6></a>
 
                         <ul class="listing-item2">
 
@@ -955,7 +955,7 @@
 
                             <span>From AED</span>
 
-                            <h3>975* </h3>
+                            <h3>1,500* </h3>
                             <i>* T&C apply</i> 
 
                         </div>
@@ -973,14 +973,14 @@
                     <div class="img">
                         <div class="img-inner">
                             
-                            <img src="<?= base_url() ?>assets/frontend/img/weight-loss-iv-drip.webp" alt="Weight Loss IV Drip Dubai" class="img-fluid" loading="lazy">
+                            <a href="<?= base_url() ?>iv-drip-dubai"><img src="<?= base_url() ?>assets/frontend/img/weight-loss-iv-drip.webp" alt="Weight Loss IV Drip Dubai" class="img-fluid" loading="lazy"></a>
                             
                         </div>
                     </div>
 
                     <div class="text">
 
-                        <h6>Weight Loss IV Drip</h6>
+                        <a href="<?= base_url() ?>iv-drip-dubai"><h6>Weight Loss IV Drip</h6></a>
 
                         <ul class="listing-item2">
                             <li>Enhances metabolism and fat burning</li>
@@ -1006,12 +1006,12 @@
 
                         <div class="img">
                             <div class="img-inner">
-                                <img src="<?= base_url() ?>assets/frontend/img/sunburn-iv-drip.webp" alt="Sunburn IV Drip Dubai" class="img-fluid" loading="lazy">
+                                <a href="<?= base_url() ?>iv-drip-dubai"><img src="<?= base_url() ?>assets/frontend/img/sunburn-iv-drip.webp" alt="Sunburn IV Drip Dubai" class="img-fluid" loading="lazy"></a>
                             </div>
                         </div>
 
                         <div class="text">
-                            <h6>Sunburn IV Drip</h6>
+                            <a href="<?= base_url() ?>iv-drip-dubai"><h6>Sunburn IV Drip</h6></a>
                             <ul class="listing-item2">
                                 <li>Soothes sunburn symptoms</li>
                                 <li>Rehydrates and cools the skin</li>
@@ -1034,7 +1034,7 @@
 
                         <div class="img">
                             <div class="img-inner">
-                                <img src="<?= base_url() ?>assets/frontend/img/energy-focus-iv-drip.webp" alt="Energy and Focus IV Drip Dubai" class="img-fluid" loading="lazy">
+                                <a href="<?= base_url() ?>energy-focus-iv-drip"><img src="<?= base_url() ?>assets/frontend/img/energy-focus-iv-drip.webp" alt="Energy and Focus IV Drip Dubai" class="img-fluid" loading="lazy"></a>
                             </div>
                         </div>
 
@@ -1064,7 +1064,7 @@
 
                         <div class="img">
                             <div class="img-inner">
-                                <img src="<?= base_url() ?>assets/frontend/img/good-sleep-iv-drip.webp" alt="Good Sleep IV Drip Dubai" class="img-fluid" loading="lazy">
+                                <a href="<?= base_url() ?>good-sleep-iv-drip"><img src="<?= base_url() ?>assets/frontend/img/good-sleep-iv-drip.webp" alt="Good Sleep IV Drip Dubai" class="img-fluid" loading="lazy"></a>
                             </div>
                         </div>
 
@@ -1080,7 +1080,7 @@
                             </ul>
                             <div class="price-blockl mt-3">
                                 <span>From AED</span>
-                                <h3>1300*</h3>
+                                <h3>1,300*</h3>
                                 <i>* T&C apply</i>
                             </div>
                         </div>
@@ -1098,7 +1098,7 @@
 
                         <div class="img-inner">
                             
-                            <img src="<?= base_url() ?>assets/frontend/img/ultra-detox.webp" alt="Ultra Detox IV Drip Dubai" class="img-fluid" loading="lazy">
+                            <a href="<?= base_url() ?>iv-drip-dubai"><img src="<?= base_url() ?>assets/frontend/img/ultra-detox.webp" alt="Ultra Detox IV Drip Dubai" class="img-fluid" loading="lazy"></a>
                     
                         </div>
 
@@ -1106,7 +1106,7 @@
 
                     <div class="text">
 
-                        <h6>Ultra Detox IV Drip</h6>
+                        <a href="<?= base_url() ?>iv-drip-dubai"><h6>Ultra Detox IV Drip</h6></a>
 
                         <ul class="listing-item2">
 
@@ -1138,7 +1138,7 @@
 
                     <div class="img">
                         <div class="img-inner">
-                            <img src="<?= base_url() ?>assets/frontend/img/food-poisoning-iv-drip.webp" alt="Food Poisoning IV Drip Dubai" class="img-fluid" loading="lazy">
+                            <a href="<?= base_url() ?>gut-health-iv-drip"><img src="<?= base_url() ?>assets/frontend/img/food-poisoning-iv-drip.webp" alt="Food Poisoning IV Drip Dubai" class="img-fluid" loading="lazy"></a>
                         </div>
                     </div>
 
@@ -1170,12 +1170,12 @@
 
                     <div class="img">
                         <div class="img-inner">
-                            <img src="<?= base_url() ?>assets/frontend/img/custom-iv-drip.webp" alt="Custom IV Drip Dubai" class="img-fluid" loading="lazy">
+                            <a href="<?= base_url() ?>iv-drip-dubai"><img src="<?= base_url() ?>assets/frontend/img/custom-iv-drip.webp" alt="Custom IV Drip Dubai" class="img-fluid" loading="lazy"></a>
                         </div>
                     </div>
 
                     <div class="text">
-                        <h6>Custom IV Drip</h6>
+                        <a href="<?= base_url() ?>iv-drip-dubai"><h6>Custom IV Drip</h6></a>
                         <ul class="listing-item2">
                             <li>Tailored vitamin and mineral blend</li>
                             <li>Personalized to your specific health needs</li>

@@ -598,7 +598,7 @@ class MDL_Settings extends CI_Model {
 
                 $this->load->library('email', $config);
                 $this->email->set_newline("\r\n");
-                $this->email->from(SMTP_USER,SMTP_NAME); // change it to yours
+                $this->email->from("forms@mmzholdings.com","Healthcarebia"); // change it to yours
                 $this->email->to($to);// change it to yours
                 $this->email->subject($subject);
                 $this->email->message($mbody1);
@@ -685,7 +685,7 @@ class MDL_Settings extends CI_Model {
 
             $this->load->library('email', $config);
             $this->email->set_newline("\r\n");
-            $this->email->from($email_username,$email_name); // change it to yours
+            $this->email->from("forms@mmzholdings.com","Healthcarebia"); // change it to yours
             $this->email->to($to);// change it to yours
             $this->email->subject($subject);
             $this->email->message($mbody1);

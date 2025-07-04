@@ -70,6 +70,7 @@
                                                 <li><a href="<?= base_url() ?>oxygen-therapy" class="hvr-underline-from-left menu-line2">Oxygen Therapy</a></li>
                                                 <li><a href="<?= base_url() ?>doctor-on-call" class="hvr-underline-from-left menu-line2">Doctor on Call</a></li>
                                                 <li><a href="<?= base_url() ?>nurse-at-home" class="hvr-underline-from-left menu-line2">Nurse at Home</a></li>
+                                                <li><a href="<?= base_url() ?>ebook" class="hvr-underline-from-left menu-line2">Download our Ebook</a></li>
                                             </ul>
                                         </div>
                                     </div>

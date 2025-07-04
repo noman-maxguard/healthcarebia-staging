@@ -134,6 +134,7 @@ $route['booking/appointments'] = 'booking/appointments';
 
 
 
+
 $route[':any'] = 'welcome/pages_details';
 
 

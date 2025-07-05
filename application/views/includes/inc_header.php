@@ -1,13 +1,58 @@
+<style>
+    /* pulsating glow for Whatsapp icon */
+    .whatsapp-icon {
+        display: inline-flex;               /* use flex to center */
+        justify-content: center;
+        align-items: center;
+        width: 64px;                        /* larger clickable area */
+        height: 64px;
+        border-radius: 50%;
+        position: relative;
+        animation: pulse-glow 1.5s infinite ease-in-out;
+        overflow: visible;                  /* ensure glow isn't clipped */
+    }
+
+    .whatsapp-icon i {
+        font-size: 40px;                    /* bigger icon */
+        color: #fff;                        /* keep icon white */
+        z-index: 1;
+        position: relative;
+    }
+
+    @keyframes pulse-glow {
+        0% {
+            box-shadow:
+                0 0 5px   rgba(37,211,102,0.6),
+                0 0 10px  rgba(37,211,102,0.4),
+                0 0 20px  rgba(37,211,102,0.2);
+            transform: scale(1);
+        }
+        50% {
+            box-shadow:
+                0 0 15px  rgba(37,211,102,0.8),
+                0 0 30px  rgba(37,211,102,0.6),
+                0 0 45px  rgba(37,211,102,0.4);
+            transform: scale(1.1);
+        }
+        100% {
+            box-shadow:
+                0 0 5px   rgba(37,211,102,0.6),
+                0 0 10px  rgba(37,211,102,0.4),
+                0 0 20px  rgba(37,211,102,0.2);
+            transform: scale(1);
+        }
+    }
+</style>
 <div class="floating-block">
     <ul>
-        <li class="mb-2 d-block d-md-none">
-            <a aria-label="Phone" class="whatsapp-icon phone-icon" href="tel:+971 4 225 0823" target="_blank"> <i class="fa fa-phone" aria-hidden="true"></i> </a></li>
+        <li class="mb-2 d-block d-md-none mb-4">
+            <a aria-label="Phone" class="whatsapp-icon phone-icon" href="tel:+971 4 225 0823" target="_blank"> <i class="fa fa-phone" aria-hidden="true" style="font-size:32px"></i> </a></li>
         <li>
             <div class="d-none d-md-block">
-                <a aria-label="Whatsapp" class="whatsapp-icon" href="<?= $whatsappHref ?>" target="_blank"> <i class="fa fa-whatsapp" aria-hidden="true"></i> </a>
+                <a aria-label="Whatsapp" class="whatsapp-icon" href="<?= $whatsappHref ?>" target="_blank"> <i class="fab fa-whatsapp" aria-hidden="true"></i> </a>
             </div>
             <div class="d-block d-md-none">
-                <a aria-label="Whatsapp" class="whatsapp-icon" href="<?= $whatsappHref ?>" target="_blank"> <i class="fa fa-whatsapp" aria-hidden="true"></i> </a>
+                <a aria-label="Whatsapp" class="whatsapp-icon" href="<?= $whatsappHref ?>" target="_blank"> <i class="fab fa-whatsapp" aria-hidden="true"></i> </a>
             </div>
         </li>
     </ul>

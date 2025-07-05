@@ -92,7 +92,6 @@
       <?php include 'includes/inc_footer.php'; ?>
       <?php include 'includes/inc_footer_scripts.php'; ?>
       <script>
-      // Show the modal when “Download eBook” is clicked
       document.getElementById('downloadBtn').addEventListener('click', function() {
         new bootstrap.Modal(document.getElementById('downloadModal')).show();
       });

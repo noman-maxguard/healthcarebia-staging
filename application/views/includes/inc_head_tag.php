@@ -20,6 +20,13 @@ $whatsappHref = $this->MDL_Settings->renderWhatsappLink($whatsappPhoneString, $w
 <link href="<?= base_url() ?>assets/frontend/css/library.css" rel="stylesheet" media='all' defer as="style">
 <link href="<?= base_url() ?>assets/frontend/css/style.css" rel="stylesheet" media='all' defer as="style">
 <link href="<?= base_url() ?>assets/frontend/css/responsive.css" rel="stylesheet" media='all' defer as="style">
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
 
 
 <title><?= !empty($commonData->meta_title) ? $commonData->meta_title : '' ?></title>

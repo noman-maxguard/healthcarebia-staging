@@ -200,7 +200,6 @@
 <body>
 
 <?php include 'includes/inc_header.php'; ?>
-
 <!--======== banner ======-->
 
 <section class="main-banner">

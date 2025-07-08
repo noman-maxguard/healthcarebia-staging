@@ -43,6 +43,10 @@
         }
     }
 </style>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5SZRK93F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div class="floating-block">
     <ul>
         <li class="mb-2 d-block d-md-none mb-4">

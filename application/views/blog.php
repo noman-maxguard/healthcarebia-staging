@@ -1,6 +1,18 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        "name": "Healthcarebia Blog",
+        "url": "https://healthcarebia.ae/blog",
+        "publisher": {
+            "@type": "MedicalBusiness",
+            "@id": "https://healthcarebia.ae/#medicalbusiness"
+        }
+        }
+    </script>
     <?php include 'includes/inc_head_tag.php'; ?>
 
 

@@ -7,76 +7,76 @@
     <?php include 'includes/inc_head_tag.php'; ?>
 
     <script type="application/ld+json">
-    {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
         {
-        "@type": "Question",
-        "name": "How long does an NAD+ IV drip session typically last?",
-        "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The duration of an NAD+ IV drip session can vary but typically lasts between 2 to 4 hours, depending on the individual and the specific treatment protocol."
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+            "@type": "Question",
+            "name": "How long does an NAD+ IV drip session typically last?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The duration of an NAD+ IV drip session can vary but typically lasts between 2 to 4 hours, depending on the individual and the specific treatment protocol."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "How does NAD+ IV therapy differ from oral NAD+ supplements?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "NAD+ IV therapy delivers NAD+ directly into the bloodstream for maximum absorption, whereas oral supplements must pass through the digestive system, leading to lower bioavailability."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "How does NAD+ IV therapy work in the body?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "NAD+ (Nicotinamide Adenine Dinucleotide) is a coenzyme that plays a crucial role in cellular energy production. When administered intravenously, it bypasses the digestive system and is absorbed directly into the bloodstream, allowing cells to use it more efficiently for repair, energy production, and overall metabolic function."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "How often should I receive NAD+ IV drip therapy?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Experts recommend the optimal frequency of NAD+ IV drip therapy sessions is 5 daily sessions. This will enable long-lasting and complete benefits of NAD+ and can be topped up every 6-8 months."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "How long do the effects of NAD+ IV therapy last?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The effects of NAD+ IV therapy can last anywhere from several days to a few weeks, depending on factors such as dosage, lifestyle, and overall health. Many individuals schedule maintenance sessions every 6-8 months to sustain the benefits."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "How does NAD+ IV therapy compare to other IV drip treatments?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Unlike other IV drips that focus on hydration, vitamins, or minerals, NAD+ therapy specifically targets cellular energy production and DNA repair, making it more specialized for anti-aging, cognitive function, and chronic fatigue relief."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "How soon will I feel the effects of NAD+ IV therapy?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Some people experience immediate benefits, such as increased energy and mental clarity, while others may notice gradual improvements over the course of several sessions. The effects typically become more noticeable after multiple treatments."
+            }
+            },
+            {
+            "@type": "Question",
+            "name": "Is NAD+ IV therapy effective for anti-aging?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, NAD+ IV therapy is highly effective for anti-aging. It promotes cellular rejuvenation, enhances DNA repair, boosts energy levels, improves cognitive function, and reduces signs of aging by increasing NAD+ levels directly in your cells."
+            }
+            }
+        ]
         }
-        },
-        {
-        "@type": "Question",
-        "name": "How does NAD+ IV therapy differ from oral NAD+ supplements?",
-        "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "NAD+ IV therapy delivers NAD+ directly into the bloodstream for maximum absorption, whereas oral supplements must pass through the digestive system, leading to lower bioavailability."
-        }
-        },
-        {
-        "@type": "Question",
-        "name": "How does NAD+ IV therapy work in the body?",
-        "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "NAD+ (Nicotinamide Adenine Dinucleotide) is a coenzyme that plays a crucial role in cellular energy production. When administered intravenously, it bypasses the digestive system and is absorbed directly into the bloodstream, allowing cells to use it more efficiently for repair, energy production, and overall metabolic function."
-        }
-        },
-        {
-        "@type": "Question",
-        "name": "How often should I receive NAD+ IV drip therapy?",
-        "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Experts recommend the optimal frequency of NAD+ IV drip therapy sessions is 5 daily sessions. This will enable long-lasting and complete benefits of NAD+ and can be topped up every 6-8 months."
-        }
-        },
-        {
-        "@type": "Question",
-        "name": "How long do the effects of NAD+ IV therapy last?",
-        "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The effects of NAD+ IV therapy can last anywhere from several days to a few weeks, depending on factors such as dosage, lifestyle, and overall health. Many individuals schedule maintenance sessions every 6-8 months to sustain the benefits."
-        }
-        },
-        {
-        "@type": "Question",
-        "name": "How does NAD+ IV therapy compare to other IV drip treatments?",
-        "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Unlike other IV drips that focus on hydration, vitamins, or minerals, NAD+ therapy specifically targets cellular energy production and DNA repair, making it more specialized for anti-aging, cognitive function, and chronic fatigue relief."
-        }
-        },
-        {
-        "@type": "Question",
-        "name": "How soon will I feel the effects of NAD+ IV therapy?",
-        "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Some people experience immediate benefits, such as increased energy and mental clarity, while others may notice gradual improvements over the course of several sessions. The effects typically become more noticeable after multiple treatments."
-        }
-        },
-        {
-        "@type": "Question",
-        "name": "Is NAD+ IV therapy effective for anti-aging?",
-        "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, NAD+ IV therapy is highly effective for anti-aging. It promotes cellular rejuvenation, enhances DNA repair, boosts energy levels, improves cognitive function, and reduces signs of aging by increasing NAD+ levels directly in your cells."
-        }
-        }
-    ]
-    }
     </script>
 
     <script type="application/ld+json">

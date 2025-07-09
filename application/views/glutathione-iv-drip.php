@@ -3,6 +3,31 @@
 <html lang="en">
 
 <head>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Glutathione IV Drip in Dubai",
+  "serviceType": "Glutathione Intravenous Therapy",
+  "description": "Experience skin brightening and detox benefits with DHA-licensed Glutathione IV therapy in Dubai. Delivered safely at your home or hotel by HealthcareBIA professionals.",
+  "url": "https://healthcarebia.ae/glutathione-iv-drip",
+  "provider": {
+    "@type": "MedicalBusiness",
+    "@id": "https://healthcarebia.ae/#medicalbusiness"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": "Dubai, United Arab Emirates"
+  },
+  "availableChannel": {
+    "@type": "ServiceChannel",
+    "serviceLocation": {
+      "@type": "Place",
+      "name": "At-Home, Hotel, and Office Visits in Dubai"
+    }
+  }
+}
+</script>
 
     <?php include 'includes/inc_head_tag.php'; ?>
 

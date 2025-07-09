@@ -1,9 +1,26 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "NAD+ for Cognitive Function",
+        "url": "https://healthcarebia.ae/blog/nad-for-cognitive-function",
+        "author": {
+          "@type": "MedicalBusiness",
+          "@id": "https://healthcarebia.ae/#medicalbusiness"
+        },
+        "publisher": {
+          "@type": "MedicalBusiness",
+          "@id": "https://healthcarebia.ae/#medicalbusiness"
+        },
+        "mainEntityOfPage": "https://healthcarebia.ae/nad-for-cognitive-function"
+      }
+    </script>
+
     <?php include 'includes/inc_head_tag.php'; ?>
     <style>
-    /* Combined rules for .card-style3 ordered lists */
     .card-style3 ol,
     .card-style3 ol li {
       list-style-type: decimal !important;

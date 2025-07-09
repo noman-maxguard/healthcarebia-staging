@@ -1,6 +1,24 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Power of IV Drips for Immune Enhancement",
+        "url": "https://healthcarebia.ae/power-of-iv-drips-for-immune-enhancement",
+        "author": {
+            "@type": "MedicalBusiness",
+            "@id": "https://healthcarebia.ae/#medicalbusiness"
+        },
+        "publisher": {
+            "@type": "MedicalBusiness",
+            "@id": "https://healthcarebia.ae/#medicalbusiness"
+        },
+        "mainEntityOfPage": "https://healthcarebia.ae/power-of-iv-drips-for-immune-enhancement"
+        }
+    </script>
+
     <?php include 'includes/inc_head_tag.php'; ?>
 </head>
 <body>

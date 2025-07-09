@@ -1,6 +1,24 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "At-Home STD Testing",
+        "url": "https://healthcarebia.ae/at-home-std-testing",
+        "author": {
+            "@type": "MedicalBusiness",
+            "@id": "https://healthcarebia.ae/#medicalbusiness"
+        },
+        "publisher": {
+            "@type": "MedicalBusiness",
+            "@id": "https://healthcarebia.ae/#medicalbusiness"
+        },
+        "mainEntityOfPage": "https://healthcarebia.ae/at-home-std-testing"
+        }
+    </script>
+
     <?php include 'includes/inc_head_tag.php'; ?>
 
 

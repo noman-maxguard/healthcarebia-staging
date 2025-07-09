@@ -3,6 +3,42 @@
 <html lang="en">
 
 <head>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Men's Health Screening at Home",
+  "serviceType": "Home Medical Diagnostics",
+  "description": "Confidential and convenient health screening for men at home in Dubai, including fertility, weight loss, cancer screening, and advanced health profiles by DHA-licensed professionals.",
+  "url": "https://healthcarebia.ae/mens-health",
+  "provider": {
+    "@id": "https://healthcarebia.ae/#medicalorganization"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": "Dubai, United Arab Emirates"
+  },
+  "availableChannel": {
+    "@type": "ServiceChannel",
+    "serviceLocation": {
+      "@type": "Place",
+      "name": "At-Home and Hotel Services in Dubai"
+    }
+  }
+}
+</script>
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://healthcarebia.ae" },
+    { "@type": "ListItem", "position": 2, "name": "Men’s Health", "item": "https://healthcarebia.ae/mens-health" },
+    { "@type": "ListItem", "position": 3, "name": "Male Cancer Screening", "item": "https://healthcarebia.ae/male-cancer-screening" }
+  ]
+}
+</script>
 
     <?php include 'includes/inc_head_tag.php'; ?>
 

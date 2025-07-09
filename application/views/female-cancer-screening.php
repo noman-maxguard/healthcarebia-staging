@@ -5,10 +5,56 @@
 <head>
 
     <?php include 'includes/inc_head_tag.php'; ?>
-
-
-
-
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Women's Health Screening at Home",
+        "serviceType": "Home Medical Diagnostics",
+        "description": "Convenient and private home diagnostic packages for women, including fertility, hormone, thyroid, PCOS and cancer screening profiles by DHA-licensed professionals in Dubai.",
+        "url": "https://healthcarebia.ae/womens-health",
+        "provider": {
+            "@id": "https://healthcarebia.ae/#medicalorganization"
+        },
+        "areaServed": {
+            "@type": "Place",
+            "name": "Dubai, United Arab Emirates"
+        },
+        "availableChannel": {
+            "@type": "ServiceChannel",
+            "serviceLocation": {
+            "@type": "Place",
+            "name": "At-Home and Hotel Services in Dubai"
+            }
+        }
+        }
+    </script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://healthcarebia.ae"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Women’s Health",
+      "item": "https://healthcarebia.ae/womens-health"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Female Cancer Screening",
+      "item": "https://healthcarebia.ae/female-cancer-screening"
+    }
+  ]
+}
+</script>
 
 </head>
 

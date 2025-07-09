@@ -1,6 +1,24 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "IV Therapy for Healthy Skin and Hair",
+        "url": "https://healthcarebia.ae/iv-therapy-for-healthy-skin-and-hair",
+        "author": {
+            "@type": "MedicalBusiness",
+            "@id": "https://healthcarebia.ae/#medicalbusiness"
+        },
+        "publisher": {
+            "@type": "MedicalBusiness",
+            "@id": "https://healthcarebia.ae/#medicalbusiness"
+        },
+        "mainEntityOfPage": "https://healthcarebia.ae/iv-therapy-for-healthy-skin-and-hair"
+        }
+    </script>
+
     <?php include 'includes/inc_head_tag.php'; ?>
 
 

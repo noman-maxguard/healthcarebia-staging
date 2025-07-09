@@ -3,6 +3,43 @@
 <html lang="en">
 
 <head>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Common and Functional Tests at Home",
+  "serviceType": "Home Medical Diagnostics",
+  "description": "Book home collection for functional diagnostic profiles including Cardiac Risk, Immunity, Diabetes, Kidney, Liver and Arthritis screening. DHA-licensed nurses ensure convenience and accuracy in Dubai.",
+  "url": "https://healthcarebia.ae/common-functional-tests",
+  "provider": {
+    "@id": "https://healthcarebia.ae/#medicalorganization"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": "Dubai, United Arab Emirates"
+  },
+  "availableChannel": {
+    "@type": "ServiceChannel",
+    "serviceLocation": {
+      "@type": "Place",
+      "name": "At-Home and Hotel Services in Dubai"
+    }
+  }
+}
+</script>
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://healthcarebia.ae/" },
+    { "@type": "ListItem", "position": 2, "name": "Common and Functional Tests", "item": "https://healthcarebia.ae/common-and-functional-tests" },
+    { "@type": "ListItem", "position": 3, "name": "Arthritis Profile", "item": "https://healthcarebia.ae/arthritis-profile" }
+  ]
+}
+</script>
+
 
     <?php include 'includes/inc_head_tag.php'; ?>
 

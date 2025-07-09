@@ -3,6 +3,54 @@
 <html lang="en">
 
 <head>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "DNA Testing at Home",
+  "serviceType": "Home DNA Testing",
+  "description": "Accurate and confidential DNA testing services conducted at home in Dubai by licensed healthcare professionals. Fast results with privacy and convenience.",
+  "url": "https://healthcarebia.ae/dna-test",
+  "provider": {
+    "@type": "MedicalOrganization",
+    "name": "Healthcarebia",
+    "url": "https://healthcarebia.ae",
+    "@id": "https://healthcarebia.ae/#medicalorganization"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": "Dubai, United Arab Emirates"
+  },
+  "availableChannel": {
+    "@type": "ServiceChannel",
+    "serviceLocation": {
+      "@type": "Place",
+      "name": "At-Home and Hotel Services in Dubai"
+    }
+  }
+}
+</script>
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://healthcarebia.ae/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "DNA Test",
+      "item": "https://healthcarebia.ae/dna-test"
+    }
+  ]
+}
+</script>
 
     <?php include 'includes/inc_head_tag.php'; ?>
 

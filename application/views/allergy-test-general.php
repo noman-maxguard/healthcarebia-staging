@@ -3,6 +3,43 @@
 <html lang="en">
 
 <head>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Allergy & Food Intolerance Testing at Home",
+  "serviceType": "Home Allergy and Food Intolerance Testing",
+  "description": "Comprehensive at-home allergy and food intolerance testing services in Dubai, including acne-related allergy investigations and extended food intolerance panels, performed by DHA-licensed healthcare professionals.",
+  "url": "https://healthcarebia.ae/allergy-food-intolerance-tests",
+  "provider": {
+    "@id": "https://healthcarebia.ae/#medicalorganization"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": "Dubai, United Arab Emirates"
+  },
+  "availableChannel": {
+    "@type": "ServiceChannel",
+    "serviceLocation": {
+      "@type": "Place",
+      "name": "At-Home and Hotel Services in Dubai"
+    }
+  }
+}
+</script>
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "position": 1, "name": "Home", "item": "https://healthcarebia.ae/" },
+    { "position": 2, "name": "Allergy & Food Intolerance Tests", "item": "https://healthcarebia.ae/allergy-food-intolerance-tests" },
+    { "position": 3, "name": "Allergy Test - General (40+ Food Intolerance and Respiratory)", "item": "https://healthcarebia.ae/allergy-test-general" }
+  ]
+}
+</script>
+
 
     <?php include 'includes/inc_head_tag.php'; ?>
 

@@ -1,6 +1,43 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "General Health Tests at Home",
+  "serviceType": "Home Medical Diagnostics",
+  "description": "Comprehensive general health testing services at home in Dubai, including alopecia, hair loss, vitiligo, psoriasis investigations, and annual health checkups, delivered by DHA-licensed professionals.",
+  "url": "https://healthcarebia.ae/general-health",
+  "provider": {
+    "@id": "https://healthcarebia.ae/#medicalorganization"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": "Dubai, United Arab Emirates"
+  },
+  "availableChannel": {
+    "@type": "ServiceChannel",
+    "serviceLocation": {
+      "@type": "Place",
+      "name": "At-Home and Hotel Services in Dubai"
+    }
+  }
+}
+</script>
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "position": 1, "name": "Home", "item": "https://healthcarebia.ae/" },
+    { "position": 2, "name": "General Health", "item": "https://healthcarebia.ae/general-health" },
+    { "position": 3, "name": "Hair Loss Test", "item": "https://healthcarebia.ae/hair-loss-test" }
+  ]
+}
+</script>
+
     <?php include 'includes/inc_head_tag.php'; ?>
 
 

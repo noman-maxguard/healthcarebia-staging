@@ -3,6 +3,88 @@
 <html lang="en">
 
 <head>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Doctor on Call in Dubai",
+  "serviceType": "Doctor at Home Service",
+  "description": "Get DHA-licensed doctors at your doorstep in Dubai for non-emergency consultations, treatment of minor illnesses and injuries, and follow-up care. Available 7 days a week.",
+  "url": "https://healthcarebia.ae/doctor-on-call",
+  "provider": {
+    "@type": "MedicalBusiness",
+    "@id": "https://healthcarebia.ae/#medicalbusiness"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": "Dubai, United Arab Emirates"
+  },
+  "availableChannel": {
+    "@type": "ServiceChannel",
+    "serviceLocation": {
+      "@type": "Place",
+      "name": "At-Home and Hotel Services in Dubai"
+    }
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How can I schedule a doctor at home visit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To schedule a doctor at home visit, simply contact the Healthcarebia team and provide us with your location, preferred date, and time for the visit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What conditions can be treated by a doctor at home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A doctor at home can treat a wide range of conditions, including common illnesses, minor injuries, chronic conditions, and provide palliative care, among others."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a doctor at home visit covered by insurance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Healthcarebia does not currently accept insurance plans. Patients will be billed directly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a typical doctor at home visit last?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The duration of a doctor at home visit can vary depending on the complexity of the medical concern, but it typically lasts between 30 minutes to an hour."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a doctor at home provide emergency medical care?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "While a doctor at home can provide immediate medical attention, it may not be suitable for emergencies. In case of a medical emergency, it is important to call emergency services or visit the nearest hospital."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are doctor at home visits available during weekends and holidays?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our doctor at home/doctor on call service can be booked 7 days a week, 365 days a year! Please check with a member of our team for the earliest availability."
+      }
+    }
+  ]
+}
+</script>
 
     <?php include 'includes/inc_head_tag.php'; ?>
 

@@ -3,6 +3,60 @@
 <html lang="en">
 
 <head>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "STD Screening Profile",
+  "serviceType": "Sexual Health and STD Testing at Home",
+  "description": "Confidential STD screening profile by DHA-licensed nurses, offering home and hotel collection services in Dubai. Fast and discreet results with expert guidance.",
+  "url": "https://healthcarebia.ae/std-screening-profile",
+  "provider": {
+    "@type": "MedicalOrganization",
+    "name": "Healthcarebia",
+    "url": "https://healthcarebia.ae",
+    "@id": "https://healthcarebia.ae/#medicalorganization"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": "Dubai, United Arab Emirates"
+  },
+  "availableChannel": {
+    "@type": "ServiceChannel",
+    "serviceLocation": {
+      "@type": "Place",
+      "name": "At-Home and Hotel Services in Dubai"
+    }
+  }
+}
+</script>
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://healthcarebia.ae/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Intimacy and Wellness",
+      "item": "https://healthcarebia.ae/intimacy-and-wellness"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "STD Screening Profile",
+      "item": "https://healthcarebia.ae/std-screening-profile"
+    }
+  ]
+}
+</script>
 
     <?php include 'includes/inc_head_tag.php'; ?>
 

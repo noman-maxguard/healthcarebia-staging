@@ -1,6 +1,24 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Cold & Flu IV Therapy",
+        "url": "https://healthcarebia.ae/cold-flu-iv-therapy",
+        "author": {
+            "@type": "MedicalBusiness",
+            "@id": "https://healthcarebia.ae/#medicalbusiness"
+        },
+        "publisher": {
+            "@type": "MedicalBusiness",
+            "@id": "https://healthcarebia.ae/#medicalbusiness"
+        },
+        "mainEntityOfPage": "https://healthcarebia.ae/cold-flu-iv-therapy"
+        }
+    </script>
+
     <?php include 'includes/inc_head_tag.php'; ?>
     <style>
     /* Combined rules for .card-style3 ordered lists */

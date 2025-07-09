@@ -1,75 +1,24 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <!-- FAQPage Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
+  <script type="application/ld+json">
     {
-      "@type": "Question",
-      "name": "Is home IV therapy suitable for everyone?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Home IV therapy is generally safe for most healthy adults, but an initial health consultation is required to confirm suitability. Certain medical conditions or allergies may make IV therapy inadvisable."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What conditions benefit most from home IV drip?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Dehydration, fatigue, weakened immunity, poor sleep quality, skin ageing, digestive issues and nutrient deficiencies respond well to customised IV drips, which deliver immediate nutrient replenishment."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How frequent should IV therapy sessions be?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Session frequency depends on individual goals and the formulation used. Most people schedule treatments weekly, bi-weekly or monthly after consulting with a DHA-licensed provider."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the recovery or downtime post IV drip?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "There is normally no downtime. Patients can resume daily activities right after the nurse leaves, often feeling immediate benefits such as higher energy or better hydration."
-      }
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "IV Drip Therapy at Home Dubai Guide",
+      "url": "https://healthcarebia.ae/iv-drip-therapy-at-home-dubai-guide",
+      "author": {
+        "@type": "MedicalBusiness",
+        "@id": "https://healthcarebia.ae/#medicalbusiness"
+      },
+      "publisher": {
+        "@type": "MedicalBusiness",
+        "@id": "https://healthcarebia.ae/#medicalbusiness"
+      },
+      "mainEntityOfPage": "https://healthcarebia.ae/iv-drip-therapy-at-home-dubai-guide"
     }
-  ]
-}
-</script>
+  </script>
 
-<!-- Breadcrumb Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "<?= base_url() ?>"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Blog",
-      "item": "<?= base_url() ?>blog"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "IV Drip Therapy at Home in Dubai: Complete DHA-Certified Guide",
-      "item": "<?= base_url() ?>iv-drip-therapy-at-home-dubai-guide"
-    }
-  ]
-}
-</script>
 
     <?php include 'includes/inc_head_tag.php'; ?>
     <style>

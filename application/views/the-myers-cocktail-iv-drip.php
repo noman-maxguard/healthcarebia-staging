@@ -1,6 +1,24 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "The Myers Cocktail IV Drip",
+        "url": "https://healthcarebia.ae/the-myers-cocktail-iv-drip",
+        "author": {
+            "@type": "MedicalBusiness",
+            "@id": "https://healthcarebia.ae/#medicalbusiness"
+        },
+        "publisher": {
+            "@type": "MedicalBusiness",
+            "@id": "https://healthcarebia.ae/#medicalbusiness"
+        },
+        "mainEntityOfPage": "https://healthcarebia.ae/the-myers-cocktail-iv-drip"
+        }
+    </script>
+
 
     <?php include 'includes/inc_head_tag.php'; ?>
     <style>

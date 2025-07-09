@@ -1,6 +1,24 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "IV Drip Home Service Dubai",
+        "url": "https://healthcarebia.ae/iv-drip-home-service-dubai",
+        "author": {
+            "@type": "MedicalBusiness",
+            "@id": "https://healthcarebia.ae/#medicalbusiness"
+        },
+        "publisher": {
+            "@type": "MedicalBusiness",
+            "@id": "https://healthcarebia.ae/#medicalbusiness"
+        },
+        "mainEntityOfPage": "https://healthcarebia.ae/iv-drip-home-service-dubai"
+        }
+    </script>
+
     <?php include 'includes/inc_head_tag.php'; ?>
     <style>
     .card-style3 ol,

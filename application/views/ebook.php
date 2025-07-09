@@ -23,11 +23,11 @@
             </div>
          </div>
       </section>
-      <section class="section-gap text-center ">
-        <div class="container d-flex flex-column align-items-center justify-content-center">
+      <section class="section-gap d-flex justify-center align-center gap-5 text-center" style="height:80vh">
+        <div class="container d-flex flex-column align-items-center justify-content-center mb-5">
           <h4>Download Our Free Home Healthcare eBook</h4>
           <p>Learn how to choose the right in-home care, prepare for visits, and more.</p>
-          <button id="downloadBtn" class="btn primary-btn" style="color: white;background-color:#568259;">Download eBook</button>
+          <button id="downloadBtn" class="btn primary-btn" style="color: white;background-color:#568259; margin-top:25px">Download eBook</button>
         </div>
     </section>
 
@@ -102,8 +102,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
   form.addEventListener('submit', function(e) {
     e.preventDefault();
-
-    // 1) fire & forget POST to send the email
     var xhrData = new FormData(form);
     xhrData.append('form_name', 'ebook_download');
     xhrData.append('url_from', window.location.href);
@@ -114,7 +112,6 @@ document.addEventListener('DOMContentLoaded', function() {
       console.error('Email send failed:', err);
     });
 
-    // 2) your existing download + thank you
     var link = document.createElement('a');
     link.href = '<?= base_url("assets/ebook/Healthcarebia-ebook.pdf") ?>';
     link.download = 'Healthcarebia-ebook.pdf';
@@ -133,9 +130,5 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
-
-
-
-
    </body>
 </html>

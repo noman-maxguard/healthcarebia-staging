@@ -119,7 +119,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                 <li><a href="<?= base_url() ?>oxygen-therapy" class="hvr-underline-from-left menu-line2">Oxygen Therapy</a></li>
                                                 <li><a href="<?= base_url() ?>doctor-on-call" class="hvr-underline-from-left menu-line2">Doctor on Call</a></li>
                                                 <li><a href="<?= base_url() ?>nurse-at-home" class="hvr-underline-from-left menu-line2">Nurse at Home</a></li>
-                                                <li><a href="<?= base_url() ?>ebook" class="hvr-underline-from-left menu-line2">Download our Ebook</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -351,6 +350,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                     </li>
                     <li><a href="<?= base_url() ?>blog" class="hvr-underline-from-left menu-line">Blog</a></li>
+                    <li><a href="<?= base_url() ?>ebook" class="hvr-underline-from-left menu-line">Ebook</a></li>
                     <li><a href="<?= base_url() ?>contact-us" class="hvr-underline-from-left menu-line">Contact us</a>
                     </li>
                     <li class="mobile-off">

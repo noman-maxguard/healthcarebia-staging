@@ -89,6 +89,11 @@ public function sendContactMail($message,$subject)
                                         $mail->Host = $host;
                                         $mail->Mailer = "smtp";
                                         $mail->SetFrom($username, $display_name);
+
+                                        $mail->SMTPDebug   = 2;
+    $mail->Debugoutput = function($str, $level) {
+        log_message('error', "PHPMailer [level $level]: $str");
+    };
                                        
                                         //$mail->AddAddress($this->data['c_settings']->email_one, $name);
 
@@ -153,6 +158,7 @@ public function sendContactMail($message,$subject)
 
 public function cform()
 {
+
 if (!$this->input->is_ajax_request()) 
 {
     exit('No direct script access allowed');
@@ -216,6 +222,7 @@ else
 
      $table_db=$this->data['tbl_enquiries'];         
      $insert=$this->Common_model->cinsert($params,$table_db);
+     log_message('debug', "cform: DB insert returned: " . var_export($insert, true));
      if($insert)
      {
             $this->push_sheet($params);
@@ -254,32 +261,12 @@ else
 
 
              $sendemail= $this->sendContactMail($table,$subject);
-            $sendemail=1;
+             log_message('debug', "cform: sendContactMail returned: " . var_export($sendemail, true));
+            // $sendemail=1;
             if(!empty($sendemail))
             {
                 $response_array['flag'] =1;
                 $response_array['status'] ='Enquiry Sent Successfully';
-                $googleScriptUrl = 'https://script.google.com/macros/s/AKfycbwZCaMfeWBd1DKY0stTPGqdlFSvfeljNnff-QDuGES5HydzNAF7N8ulK_5Kd-JrUwun/exec';
-
-                $payload = [
-                    'fname'   => $first_name,
-                    'lname'   => $last_name,
-                    'email'   => $email,
-                    'phone'   => $phone,
-                    'message' => $message_form,
-                    'date'      => date("d-M-Y h:i:s A"),
-                    'form_name' => 'Ads',
-                    'city'      => $this->geoplugin_city,
-
-                ];
-
-                $ch = curl_init($googleScriptUrl);
-                curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
-                curl_setopt($ch, CURLOPT_POSTFIELDS,   json_encode($payload));
-                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-                curl_setopt($ch, CURLOPT_HTTPHEADER,   ['Content-Type: application/json']);
-                $sheetResponse = curl_exec($ch);
-                curl_close($ch);
                     
             }
             else
@@ -469,7 +456,7 @@ else
                             }
                             else
                             {
-
+                                log_message('error', 'Mail failed: ' . $mail->ErrorInfo);
                                 $response_array['flag'] =0;
                                 $response_array['status'] ='Enquiry Sent Failed';
                             }     

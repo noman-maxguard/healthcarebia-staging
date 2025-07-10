@@ -193,126 +193,126 @@ $this->load->view($_view);
 <script>
    
 
-$(document).ready(function(){
+// $(document).ready(function(){
 
 
-      $(".contact_form_header").submit(function (e){
-      e.preventDefault();
-      $('.msg').html('');
-      $('.loading').html('');
-      $('.msg').show('');
-      $('.loading').show('');
-      var formData = new FormData(this); 
-      $.ajax({
-      url:'<?=base_url()?>welcome/cform',
-      type:'POST',
-      data:formData,
-      dataType:'json',
-      processData:false,
-      contentType:false,
-      beforeSend: function () {
-      $('.loading').css("color","green","text-align", "center").text("Please wait...");
+//       $(".contact_form_header").submit(function (e){
+//       e.preventDefault();
+//       $('.msg').html('');
+//       $('.loading').html('');
+//       $('.msg').show('');
+//       $('.loading').show('');
+//       var formData = new FormData(this); 
+//       $.ajax({
+//       url:'<?=base_url()?>welcome/cform',
+//       type:'POST',
+//       data:formData,
+//       dataType:'json',
+//       processData:false,
+//       contentType:false,
+//       beforeSend: function () {
+//       $('.loading').css("color","green","text-align", "center").text("Please wait...");
 
-      },
+//       },
 
-      success: function (data)
-      {
+//       success: function (data)
+//       {
 
-         $(".contact_form_header")[0].reset();
-         $('.loading').hide();
-         if(data.flag==1)
-         {
+//          $(".contact_form_header")[0].reset();
+//          $('.loading').hide();
+//          if(data.flag==1)
+//          {
 
-            $('.msg').html("<div class='alert alert-success'>" + data.status + "</div>");
-            setTimeout(function (){
-            $(".msg").hide();
-            window.location.href = '<?=base_url()?>success';
+//             $('.msg').html("<div class='alert alert-success'>" + data.status + "</div>");
+//             setTimeout(function (){
+//             $(".msg").hide();
+//             window.location.href = '<?=base_url()?>success';
 
-            }, 1000);
+//             }, 1000);
 
-         }
+//          }
 
-         if(data.flag == 0)
-         {
+//          if(data.flag == 0)
+//          {
 
-            $('.msg').html("<div class='alert alert-warning'>" + data.status + "</div>");
-            setTimeout(function () {
-            $(".msg").hide();
+//             $('.msg').html("<div class='alert alert-warning'>" + data.status + "</div>");
+//             setTimeout(function () {
+//             $(".msg").hide();
 
-            }, 2000);
+//             }, 2000);
 
-         }
+//          }
 
-      }
-
-
-
-      });
+//       }
 
 
 
-      });
+//       });
 
 
 
-      $(".contact_form_footer").submit(function (e){
-      e.preventDefault();
-      $('.msg1').html('');
-      $('.loading1').html('');
-      $('.msg1').show('');
-      $('.loading1').show('');
-      var formData = new FormData(this); 
-      $.ajax({
-      url:'<?=base_url()?>welcome/cform',
-      type:'POST',
-      data:formData,
-      dataType:'json',
-      processData:false,
-      contentType:false,
-      beforeSend: function () {
-      $('.loading1').css("color","green","text-align", "center").text("Please wait...");
-
-      },
-
-      success: function (data)
-      {
-
-         $(".contact_form_footer")[0].reset();
-         $('.loading1').hide();
-         if(data.flag==1)
-         {
-
-            $('.msg1').html("<div class='alert alert-success'>" + data.status + "</div>");
-            setTimeout(function (){
-            $(".msg1").hide();
-            window.location.href = '<?=base_url()?>success';
-
-            }, 1000);
-
-         }
-         if(data.flag == 0)
-         {
-
-            $('.msg1').html("<div class='alert alert-warning'>" + data.status + "</div>");
-            setTimeout(function () {
-            $(".msg1").hide();
-
-            }, 2000);
-
-         }
-
-      }
+//       });
 
 
 
-      });
+//       $(".contact_form_footer").submit(function (e){
+//       e.preventDefault();
+//       $('.msg1').html('');
+//       $('.loading1').html('');
+//       $('.msg1').show('');
+//       $('.loading1').show('');
+//       var formData = new FormData(this); 
+//       $.ajax({
+//       url:'<?=base_url()?>welcome/cform',
+//       type:'POST',
+//       data:formData,
+//       dataType:'json',
+//       processData:false,
+//       contentType:false,
+//       beforeSend: function () {
+//       $('.loading1').css("color","green","text-align", "center").text("Please wait...");
+
+//       },
+
+//       success: function (data)
+//       {
+
+//          $(".contact_form_footer")[0].reset();
+//          $('.loading1').hide();
+//          if(data.flag==1)
+//          {
+
+//             $('.msg1').html("<div class='alert alert-success'>" + data.status + "</div>");
+//             setTimeout(function (){
+//             $(".msg1").hide();
+//             window.location.href = '<?=base_url()?>success';
+
+//             }, 1000);
+
+//          }
+//          if(data.flag == 0)
+//          {
+
+//             $('.msg1').html("<div class='alert alert-warning'>" + data.status + "</div>");
+//             setTimeout(function () {
+//             $(".msg1").hide();
+
+//             }, 2000);
+
+//          }
+
+//       }
 
 
 
-      });
+//       });
 
 
-});
+
+//       });
+
+
+// });
 
 
 function onlyNumberKey(evt)

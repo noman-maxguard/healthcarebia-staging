@@ -41,7 +41,14 @@
 <section class="light-bg-color section-gap">
     <div class="container">
         <div class="row">
-	    <div class="col-md-3 mb-3">
+            <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>jet-lag-blog" class="card-style3 card-style4 same">
+                    <img src="<?= base_url() ?>assets/frontend/img/blog11.jpeg" alt="Jet Lag IV Drip" class="img-fluid">
+                    <h6>Jet Lag IV Drip: Relieve Fatigue, Rehydrate &amp; Restore Your Body Clock</h6>
+                    <p>Beat jet lag fatigue and reset your circadian rhythm with our nurse-delivered IV therapy service in Dubai.</p>
+                </a>
+            </div>
+	        <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>nad-for-cognitive-function" class="card-style3 card-style4 same">
                     <img src="<?= base_url() ?>assets/frontend/img/blog10.jpg" alt="NAD+ IV Therapy for Executives" class="img-fluid">
                     <h6>NAD+ IV Therapy for CEOs: Enhance Focus & Cognitive Performance</h6>

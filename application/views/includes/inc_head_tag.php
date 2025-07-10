@@ -70,12 +70,10 @@ src="https://www.facebook.com/tr?id=1280000576857900&ev=PageView&noscript=1"
 </script>
 
 <!-- JSON LD CODE -->
- <script type="application/ld+json">
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
-
-    /* Organization / MedicalOrganization / ProfessionalService */
     {
       "@type": ["Organization","MedicalOrganization","ProfessionalService"],
       "@id": "https://healthcarebia.ae/#organization",
@@ -87,6 +85,14 @@ src="https://www.facebook.com/tr?id=1280000576857900&ev=PageView&noscript=1"
         "name": "MMZHoldings",
         "url": "https://mmzholdings.com/"
       },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "91 Sheikh Zayed Rd – Trade Centre – DIFC",
+        "addressLocality": "Dubai",
+        "addressRegion": "Dubai",
+        "postalCode": "00000",
+        "addressCountry": "AE"
+      },
       "areaServed": {
         "@type": "Country",
         "name": "United Arab Emirates"
@@ -95,33 +101,29 @@ src="https://www.facebook.com/tr?id=1280000576857900&ev=PageView&noscript=1"
         "https://www.facebook.com/healthcarebia",
         "https://www.linkedin.com/company/healthcarebia",
         "https://www.instagram.com/healthcarebia",
-        "https://www.google.com/maps/dir//91+Sheikh+Zayed+Rd+-+Trade+Centre+-+DIFC+-+Dubai/@25.2138483,55.1956534,27527m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x3e5f428c4b20d9c1:0xda2a93cfee3dee03!2m2!1d55.2780549!2d25.2138711!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D"
+        "https://goo.gl/maps/abcdefghijkl" 
       ],
       "contactPoint": [{
         "@type": "ContactPoint",
-        "telephone": "+971 54 707 7476",
+        "telephone": "+971547077476",
         "contactType": "customer service",
         "areaServed": "AE",
         "availableLanguage": ["English","Arabic"]
       }],
       "priceRange": "$$$"
     },
-
-    /* Homepage breadcrumb (one-item list is optional) */
     {
       "@type": "BreadcrumbList",
       "@id": "https://healthcarebia.ae/#breadcrumbs",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://healthcarebia.ae/"
-        }
-      ]
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://healthcarebia.ae/"
+      }]
     }
-
   ]
 }
 </script>
+
 <!-- JSON LD CODE -->

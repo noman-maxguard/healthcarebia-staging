@@ -53,10 +53,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <a aria-label="Phone" class="whatsapp-icon phone-icon" href="tel:+971 4 225 0823" target="_blank"> <i class="fa fa-phone" aria-hidden="true" style="font-size:32px"></i> </a></li>
         <li>
             <div class="d-none d-md-block">
-                <a aria-label="Whatsapp" class="whatsapp-icon" href="<?= $whatsappHref ?>" target="_blank"> <i class="fab fa-whatsapp" aria-hidden="true"></i> </a>
+                <a aria-label="Whatsapp" class="whatsapp-icon" id="whatsapp-icon" href="<?= $whatsappHref ?>" target="_blank"> <i class="fab fa-whatsapp" aria-hidden="true"></i> </a>
             </div>
             <div class="d-block d-md-none">
-                <a aria-label="Whatsapp" class="whatsapp-icon" href="<?= $whatsappHref ?>" target="_blank"> <i class="fab fa-whatsapp" aria-hidden="true"></i> </a>
+                <a aria-label="Whatsapp" class="whatsapp-icon" id="whatsapp-icon" href="<?= $whatsappHref ?>" target="_blank"> <i class="fab fa-whatsapp" aria-hidden="true"></i> </a>
             </div>
         </li>
     </ul>
@@ -367,3 +367,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="mobile-menu">
     <div class="container"></div>
 </div>
+<script>
+    var waBtn = document.getElementById('whatsapp-icon');
+
+    if (waBtn) {
+    waBtn.addEventListener('click', function() {
+        fbq('whatsapp', 'Click_whatsapp_link', {
+        destination: 'WhatsApp',
+        buttonID: 'whatsapp-link'
+        });});
+}
+</script>

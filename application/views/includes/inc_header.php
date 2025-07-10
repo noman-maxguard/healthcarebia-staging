@@ -374,7 +374,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     waBtn.addEventListener('click', function() {
         fbq('whatsapp', 'Click_whatsapp_link', {
         destination: 'WhatsApp',
-        buttonID: 'whatsapp-link'
+        buttonID: 'whatsapp-icon'
+        });});
+}
+var bookingBtn = document.querySelector('.booking-btn');
+
+    if (bookingBtn) {
+    waBtn.addEventListener('click', function() {
+        fbq('contact', 'Click_contact_link', {
+        destination: 'contact-us-page',
+        buttonID: 'booking-btn'
         });});
 }
 </script>

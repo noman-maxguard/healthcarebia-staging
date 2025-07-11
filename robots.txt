@@ -1,6 +1,7 @@
 User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
+Disallow: /cdn-cgi/
 
 # Block OpenAI’s GPTBot (web crawler)
 User-agent: GPTBot

@@ -1381,6 +1381,15 @@
                             <p>Medical IV Therapy is used in hospitals to treat conditions like dehydration, vitamin deficiencies, or certain diseases, while Wellness IV Therapy focuses on enhancing energy, hydration, detoxification, and overall health maintenance.</p>
                         </div>
                     </div>
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>6</span> Who is an ideal candidate for IV therapy?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data">
+                            <p>Ideal candidates are adults who have nutrient deficiencies, chronic fatigue, frequent dehydration from illness. It’s also beneficial for people seeking a quick nutrient boost.</p>
+                        </div>
+                    </div>
 
                 </div>
 
@@ -1392,7 +1401,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>6</span> How soon can I see effects?</h5>
+                            <h5><span>7</span> How soon can I see effects?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data">
@@ -1402,7 +1411,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>7</span> Does it hurt and is it safe?</h5>
+                            <h5><span>8</span> Does it hurt and is it safe?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data">
@@ -1412,7 +1421,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>8</span> Is IV Therapy FDA-approved?</h5>
+                            <h5><span>9</span> Is IV Therapy FDA-approved?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data">
@@ -1422,7 +1431,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>9</span> How do I know which IV Drip is best for me?</h5>
+                            <h5><span>10</span> How do I know which IV Drip is best for me?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -1432,11 +1441,20 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>10</span> How Is IV Therapy Different from Drinking Water and Taking Supplements?</h5>
+                            <h5><span>11</span> How Is IV Therapy Different from Drinking Water and Taking Supplements?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data">
                             <p>Unlike drinking water or taking supplements, IV Therapy bypasses the digestive system, ensuring 100% absorption of nutrients directly into the bloodstream. This makes it faster, more effective, and longer-lasting in addressing hydration and nutrient deficiencies.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>12</span> How often should I receive IV therapy to maintain optimal benefits?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data">
+                            <p>The ideal frequency varies based on your individual needs and goals. For acute issues like dehydration or illness, a single session may suffice. For ongoing maintenance, such as immune support, athletic recovery, or chronic nutrient deficiencies, many people start with weekly or biweekly sessions and then taper to monthly tune-ups.</p>
                         </div>
                     </div>
 

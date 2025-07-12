@@ -248,8 +248,8 @@ else
 
      if($insert)
      {
-            $this->push_sheet($params);
-            $table = "<style>th, td { padding: 15px; text-align: left; } th, td { border-bottom: 1px solid #ddd; } tr:hover {background-color: #f5f5f5};</style><table width='100%' style='' >";
+            // $this->push_sheet($params);
+            // $table = "<style>th, td { padding: 15px; text-align: left; } th, td { border-bottom: 1px solid #ddd; } tr:hover {background-color: #f5f5f5};</style><table width='100%' style='' >";
 
            
         
@@ -279,25 +279,17 @@ else
             $table = $table . "<tr><td>Country</td><td>$geoplugin_countryName</td></tr>";
             $table = $table . "</table>";
            
-            $subject='Google IV Ads Enquiry-Request a call back';
-            
+            $subject='Ads Enquiry-Request a call back';
+           
 
+     }
+    //  else
+    //  {
 
-            //  $sendemail= $this->sendContactMail($table,$subject);
-            //  log_message('debug', "cform: sendContactMail returned: " . var_export($sendemail, true));
-            // // $sendemail=1;
-            // if(!empty($sendemail))
-            // {
-            //     $response_array['flag'] =1;
-            //     $response_array['status'] ='Enquiry Sent Successfully';
-                    
-            // }
-            // else
-            // {
-            //     $response_array['flag'] =0;
-            //     $response_array['status'] ='Enquiry Sent Failed';
-            // }  
-            $this->load->library('email');
+    //     $response_array['flag'] =0;
+    //     $response_array['status'] ='Enquiry Sent Failed';
+    //  }   
+     $this->load->library('email');
             $this->email->from('forms@mmzholdings.com', 'Healthcarebia');
             $this->email->to('info@healthcarebia.ae');
             $this->email->subject($subject);
@@ -306,22 +298,13 @@ else
             if (!$this->email->send()) {
                 log_message('error', 'SMTP error: '.$this->email->print_debugger(['headers']));
                 $response_array['flag'] =0;
-                $response_array['status'] ='Enquiry Sent Failed';
+                $response_array['status'] ='Mail - Enquiry Sent Failed';
 
             }else{
                 $response_array['flag'] =1;
                 $response_array['status'] ='Enquiry Sent Successfully';
             }
 
-           
-
-     }
-     else
-     {
-
-        $response_array['flag'] =0;
-        $response_array['status'] ='Enquiry Sent Failed';
-     }   
 
 
 

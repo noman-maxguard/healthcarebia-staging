@@ -177,13 +177,15 @@ if (!$this->input->is_ajax_request())
             'lname'   => $lastname,
             'email'   => $email,
             'phone'   => $mobile,
-            'message' => $message_form,
+            'message' => $message,
             // 'customer_type'=> $customer_type,
             'date'      => date("d-M-Y h:i:s A"),
             'form_name' => 'Ads',
-            'city'      => $this->geoplugin_city,
+            'city'      => " ",
 
         ];
+
+        $googleScriptUrl = 'https://script.google.com/macros/s/AKfycbwZCaMfeWBd1DKY0stTPGqdlFSvfeljNnff-QDuGES5HydzNAF7N8ulK_5Kd-JrUwun/exec';
 
         $ch = curl_init($googleScriptUrl);
         curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");

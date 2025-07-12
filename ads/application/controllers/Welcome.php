@@ -173,18 +173,28 @@ if (!$this->input->is_ajax_request())
 
     // 3) Build payload for Google Sheet
     $payload = [
-        'fname'     => $name,
-        'lname'     => $lastname,
-        'email'     => $email,
-        'phone'     => $mobile,
-        'message'   => $message,
-        'date'      => date("d-M-Y h:i:s A"),
-        'form_name' => 'Ads',
-    ];
+            'fname'   => $name,
+            'lname'   => $lastname,
+            'email'   => $email,
+            'phone'   => $mobile,
+            'message' => $message_form,
+            // 'customer_type'=> $customer_type,
+            'date'      => date("d-M-Y h:i:s A"),
+            'form_name' => 'Ads',
+            'city'      => $this->geoplugin_city,
+
+        ];
+
+        $ch = curl_init($googleScriptUrl);
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
+        curl_setopt($ch, CURLOPT_POSTFIELDS,   json_encode($payload));
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_HTTPHEADER,   ['Content-Type: application/json']);
+        $sheetResponse = curl_exec($ch);
+        curl_close($ch);
 
     $sheetResponse = $this->push_sheet($payload);
 
-    // 5) Send email via CI Email
     $this->load->library('email');
     $this->email->from('forms@mmzholdings.com', 'Healthcarebia');
     $this->email->to('alfiya@hikmara.ai');
@@ -200,7 +210,6 @@ if (!$this->input->is_ajax_request())
     $this->email->message($body);
     $sent = $this->email->send();
 
-    // 6) Return JSON
     echo json_encode([
         'flag'          => $sent ? 1 : 0,
         'status'        => $sent ? 'Enquiry sent successfully' : 'Mail send failed',

@@ -299,12 +299,13 @@ else
             // }  
             $this->load->library('email');
             $this->email->from('forms@mmzholdings.com', 'Healthcarebia');
-            $this->email->to('info@healthcarebia.ae');
+            $this->email->to('alfiya@hikmara.ae');
             $this->email->subject($subject);
             $this->email->message($message);
 
             if (!$this->email->send()) {
-                log_message('error', 'SMTP error: '.$this->email->print_debugger(['headers']));
+		$dbg = str_replace(["\r", "\n"], [' ', ' '], $this->email->print_debugger(['headers']));
+    log_message('error', 'EMAIL-DEBUG: '.$dbg);
                 $response_array['flag'] =0;
                 $response_array['status'] ='Enquiry Sent Failed';
 

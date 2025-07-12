@@ -163,161 +163,49 @@ if (!$this->input->is_ajax_request())
 {
     exit('No direct script access allowed');
 }
-else
-{
-
-    $ip = $_SERVER['REMOTE_ADDR'];
-    if ($this->agent->is_browser())
-    {
-    $agent = $this->agent->browser().' '.$this->agent->version();
-    }
-    elseif ($this->agent->is_robot())
-    {
-    $agent = $this->agent->robot();
-    }
-    elseif ($this->agent->is_mobile())
-    {
-    $agent = $this->agent->mobile();
-    }
-    else
-    {
-    $agent = 'Unidentified User Agent';
-    }
-
-    $platform=$this->agent->platform();
-    $ip = $this->input->ip_address();
-    $g_data=$this->getLocation($ip);
-
-    $geoplugin_city = !empty($g_data['city'])?$g_data['city']:'';
-    $geoplugin_region = !empty($g_data['region'])?$g_data['region']:'';
-    $geoplugin_countryName = !empty($g_data['country'])?$g_data['country']:'';
-
+// 2) Gather & sanitize inputs
+    $name      = html_escape($this->input->post('name'));
+    $lastname  = html_escape($this->input->post('lastname'));
+    $email     = html_escape($this->input->post('email'));
+    $mobile    = html_escape($this->input->post('mobile'));
+    $message   = html_escape($this->input->post('message'));
     date_default_timezone_set('Asia/Dubai');
-    $date       = date("Y-m-d"); 
-    $time       = date('h:i:s a');
-    $name=html_escape($this->input->post('name'));
-    $lastname=html_escape($this->input->post('lastname'));
-    $email=html_escape($this->input->post('email'));
-    $mobile=html_escape($this->input->post('mobile'));
-    $message=html_escape($this->input->post('message'));
-    $url=$this->input->post('url_from');
-    $fname = $this->input->post('form_name');
 
-    $googleScriptUrl = 'https://script.google.com/macros/s/AKfycbwZCaMfeWBd1DKY0stTPGqdlFSvfeljNnff-QDuGES5HydzNAF7N8ulK_5Kd-JrUwun/exec';
+    // 3) Build payload for Google Sheet
+    $payload = [
+        'fname'     => $name,
+        'lname'     => $lastname,
+        'email'     => $email,
+        'phone'     => $mobile,
+        'message'   => $message,
+        'date'      => date("d-M-Y h:i:s A"),
+        'form_name' => 'Ads',
+    ];
 
-        $payload = [
-            'fname'   => $name,
-            'lname'   => $lastname,
-            'email'   => $email,
-            'phone'   => $mobile,
-            'message' => $message,
-            // 'customer_type'=> $customer_type,
-            'date'      => date("d-M-Y h:i:s A"),
-            'form_name' =>  'Ads',
-            'city'      => $this->geoplugin_city,
+    $sheetResponse = $this->push_sheet($payload);
 
-        ];
+    // 5) Send email via CI Email
+    $this->load->library('email');
+    $this->email->from('forms@mmzholdings.com', 'Healthcarebia');
+    $this->email->to('alfiya@hikmara.ai');
+    $this->email->subject('Ads Enquiry-Request a callback');
 
-        $ch = curl_init($googleScriptUrl);
-        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
-        curl_setopt($ch, CURLOPT_POSTFIELDS,   json_encode($payload));
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_HTTPHEADER,   ['Content-Type: application/json']);
-        $sheetResponse = curl_exec($ch);
-        curl_close($ch);
+    $body  = "New Ad enquiry received:\n\n";
+    $body .= "Name:      $name $lastname\n";
+    $body .= "Email:     $email\n";
+    $body .= "Mobile:    $mobile\n";
+    $body .= "Message:   $message\n";
+    $body .= "Submitted: " . date("Y-m-d H:i:s") . "\n";
 
-     $params=array(
-      'name'=>$name,
-      'lastname'=>$lastname,
-      'email'=>$email,
-      'mobile'=>$mobile,
-      'message'=>$message,
-      'url_from'=>$url,
-      'ip_address'=>$ip,
-      'city'=>$geoplugin_city,
-      'region'=>$geoplugin_region,
-      'country'=>$geoplugin_countryName,
-      'user_agent' => $agent,
-      'date'=>$date,
-      'time'=>$time,
+    $this->email->message($body);
+    $sent = $this->email->send();
 
-     );
-
-     $table_db=$this->data['tbl_enquiries'];         
-     $insert=$this->Common_model->cinsert($params,$table_db);
-
-     if($insert)
-     {
-            // $this->push_sheet($params);
-            // $table = "<style>th, td { padding: 15px; text-align: left; } th, td { border-bottom: 1px solid #ddd; } tr:hover {background-color: #f5f5f5};</style><table width='100%' style='' >";
-
-           
-        
-            if(!empty($name))
-            {
-                $table = $table . "<tr><td>Name</td><td>$name</td></tr>";
-            }
-            if(!empty($lastname))
-            {
-                $table = $table . "<tr><td>Last Name</td><td>$lastname</td></tr>";
-            }
-            if(!empty($email))
-            {
-                 $table = $table . "<tr><td>Email</td><td>$email</td></tr>";
-            }
-            $table = $table . "<tr><td>Mobile Number</td><td>$mobile</td></tr>";
-            if(!empty($message))
-            {
-                $table = $table . "<tr><td>Message</td><td>$message</td></tr>";
-            }
-            
-            $table = $table . "<tr><td>Page Url</td><td>$url</td></tr>";
-            $table = $table . "<tr><td>IP Address</td><td>$ip</td></tr>";
-            $table = $table . "<tr><td>User Agent</td><td>$agent</td></tr>";
-            $table = $table . "<tr><td>Geo City</td><td>$geoplugin_city</td></tr>";
-            $table = $table . "<tr><td>Region</td><td>$geoplugin_region</td></tr>";
-            $table = $table . "<tr><td>Country</td><td>$geoplugin_countryName</td></tr>";
-            $table = $table . "</table>";
-           
-            $subject='Ads Enquiry-Request a call back';
-           
-
-     }
-    //  else
-    //  {
-
-    //     $response_array['flag'] =0;
-    //     $response_array['status'] ='Enquiry Sent Failed';
-    //  }   
-     $this->load->library('email');
-            $this->email->from('forms@mmzholdings.com', 'Healthcarebia');
-            $this->email->to('alfiya@hikmara.ae');
-            $this->email->subject($subject);
-            $this->email->message($message);
-
-            if (!$this->email->send()) {
-		$dbg = str_replace(["\r", "\n"], [' ', ' '], $this->email->print_debugger(['headers']));
-    log_message('error', 'EMAIL-DEBUG: '.$dbg);
-                $response_array['flag'] =0;
-                $response_array['status'] ='Mail - Enquiry Sent Failed';
-
-            }else{
-                $response_array['flag'] =1;
-                $response_array['status'] ='Enquiry Sent Successfully';
-            }
-
-
-
-
-
-    echo json_encode($response_array);
-
-   
-
-
-}
-
-
+    // 6) Return JSON
+    echo json_encode([
+        'flag'          => $sent ? 1 : 0,
+        'status'        => $sent ? 'Enquiry sent successfully' : 'Mail send failed',
+        'sheetResult'   => $sheetResponse,
+    ]);
 }
 
 public function cform_old()

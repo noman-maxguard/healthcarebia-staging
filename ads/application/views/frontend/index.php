@@ -159,9 +159,9 @@
 			</div>
 		</div>
 	</section>
-	<section class="drips" id="dripsPin">
+	<section class="drips">
   	<h1>Our Featured IV Drips</h1>
-  	<div class="carousel-slick">
+  	<div class="carousel-slick" id="carousel-slick">
 			<div class="drip-container">
 				<div class="drip-card">
 					<div class="img">
@@ -185,12 +185,12 @@
 				<div class="prices mt-3">
 					<span>From AED 1,495*</span>
 					<p>* T&amp;C apply</p>
-				</div>
-				<a href="<?=$this->data['whatsappHref']?>" target="_blank">
+					<a href="<?=$this->data['whatsappHref']?>" target="_blank">
 					<button class="booking">
 						Book Now <img src="assets/frontend/img/calender.png" alt="calendar">
 					</button>
 				</a>
+				</div>
 			</div>
 			<div class="drip-container">
 				<div class="drip-card">
@@ -215,12 +215,12 @@
 				<div class="prices mt-3">
 					<span>From AED 1,040*</span>
 					<p>* T&amp;C apply</p>
-				</div>
-				<a href="<?=$this->data['whatsappHref']?>" target="_blank">
+					<a href="<?=$this->data['whatsappHref']?>" target="_blank">
 					<button class="booking">
 						Book Now <img src="assets/frontend/img/calender.png" alt="calendar">
 					</button>
 				</a>
+				</div>
 			</div>
 			<div class="drip-container">
 				<div class="drip-card">
@@ -247,12 +247,12 @@
 				<div class="prices mt-3">
 					<span>From AED 1,235*</span>
 					<p>* T&amp;C apply</p>
+					<a href="<?=$this->data['whatsappHref']?>" target="_blank">
+						<button class="booking">
+							Book Now <img src="assets/frontend/img/calender.png" alt="calendar">
+						</button>
+					</a>
 				</div>
-				<a href="<?=$this->data['whatsappHref']?>" target="_blank">
-					<button class="booking">
-						Book Now <img src="assets/frontend/img/calender.png" alt="calendar">
-					</button>
-				</a>
 			</div>
 			<div class="drip-container">
 				<div class="drip-card">
@@ -273,11 +273,188 @@
 				<div class="prices mt-3">
 					<span>From AED 1,105*</span>
 					<p>* T&amp;C apply</p>
+				<a href="<?=$this->data['whatsappHref']?>" target="_blank">
+					<button class="booking">Book Now <img src="assets/frontend/img/calender.png"></button>
+				</a>
 				</div>
+			</div>
+			<div class="drip-container">
+			<div class="drip-card">
+				<div class="img">
+					<div class="img-inner">
+						<img src="https://www.healthcarebia.ae/assets/frontend/img/beauty-iv-drip.webp" alt="Beauty IV Drip" class="img-fluid">
+					</div>
+				</div>
+				<div class="text">
+					<h6>Beauty IV Drip</h6>
+					<ul class="listing-items checkpoints">
+						<li>Improved skin & hair health</li>
+						<li>Fights against free radicals</li>
+						<li>Radiant & glowing skin</li>
+					</ul>
+				</div>
+			</div>
+			<div class="prices mt-3">
+				<span>From AED 1,040*</span>
+				<p>* T&amp;C apply</p>
 				<a href="<?=$this->data['whatsappHref']?>" target="_blank">
 					<button class="booking">Book Now <img src="assets/frontend/img/calender.png"></button>
 				</a>
 			</div>
+		</div>
+
+		<div class="drip-container">
+			<div class="drip-card">
+				<div class="img">
+					<div class="img-inner">
+						<img src="https://www.healthcarebia.ae/assets/frontend/img/ultra-detox.webp" alt="Ultra Detox IV Drip" class="img-fluid">
+					</div>
+				</div>
+				<div class="text">
+					<h6>Ultra Detox IV Drip</h6>
+					<ul class="listing-items checkpoints">
+						<li>Fights against Harmful Molecules</li>
+						<li>Powerful Antioxidant</li>
+						<li>Improved digestive system and liver functions</li>
+					</ul>
+				</div>
+			</div>
+			<div class="prices mt-3">
+				<span>From AED 1,300*</span>
+				<p>* T&amp;C apply</p>
+				<a href="<?=$this->data['whatsappHref']?>" target="_blank">
+					<button class="booking">Book Now <img src="assets/frontend/img/calender.png"></button>
+				</a>
+			</div>
+		</div>
+
+		<div class="drip-container">
+			<div class="drip-card">
+				<div class="img">
+					<div class="img-inner">
+						<img src="https://www.healthcarebia.ae/assets/frontend/img/hydration-iv-drip.webp" alt="Swift Hydration IV Drip" class="img-fluid">
+					</div>
+				</div>
+				<div class="text">
+					<h6>Swift Hydration IV Drip</h6>
+					<ul class="listing-items checkpoints">
+						<li>Rapid Skin Hydration</li>
+						<li>Increase in Energy</li>
+						<li>Reduced Skin inflammation</li>
+					</ul>
+				</div>
+			</div>
+			<div class="prices mt-3">
+				<span>From AED 400*</span>
+				<p>* T&amp;C apply</p>
+				<a href="<?=$this->data['whatsappHref']?>" target="_blank">
+					<button class="booking">Book Now <img src="assets/frontend/img/calender.png"></button>
+				</a>
+			</div>
+		</div>
+
+		<div class="drip-container">
+			<div class="drip-card">
+				<div class="img">
+					<div class="img-inner">
+						<img src="https://www.healthcarebia.ae/assets/frontend/img/her-iv-drip.webp" alt="Her IV Drip" class="img-fluid">
+					</div>
+				</div>
+				<div class="text">
+					<h6>Her IV Drip</h6>
+					<ul class="listing-items checkpoints">
+						<li>Hydration</li>
+						<li>Relief from cramps & belly aches</li>
+						<li>Nutrient boost</li>
+					</ul>
+				</div>
+			</div>
+			<div class="prices mt-3">
+				<span>From AED 975*</span>
+				<p>* T&amp;C apply</p>
+				<a href="<?=$this->data['whatsappHref']?>" target="_blank">
+					<button class="booking">Book Now <img src="assets/frontend/img/calender.png"></button>
+				</a>
+			</div>
+		</div>
+
+		<div class="drip-container">
+			<div class="drip-card">
+				<div class="img">
+					<div class="img-inner">
+						<img src="https://www.healthcarebia.ae/assets/frontend/img/glow-skin-iv-drip.webp" alt="Glow Skin IV Drip" class="img-fluid">
+					</div>
+				</div>
+				<div class="text">
+					<h6>Glow Skin IV Drip</h6>
+					<ul class="listing-items checkpoints">
+						<li>Improve skin hydration</li>
+						<li>Reduce fine lines wrinkles</li>
+						<li>Promotes collagen production</li>
+						<li>Powerful anti-oxidant</li>
+					</ul>
+				</div>
+			</div>
+			<div class="prices mt-3">
+				<span>From AED 720*</span>
+				<p>* T&amp;C apply</p>
+				<a href="<?=$this->data['whatsappHref']?>" target="_blank">
+					<button class="booking">Book Now <img src="assets/frontend/img/calender.png"></button>
+				</a>
+			</div>
+		</div>
+
+		<div class="drip-container">
+			<div class="drip-card">
+				<div class="img">
+					<div class="img-inner">
+						<img src="https://www.healthcarebia.ae/assets/frontend/img/energy-iv-drip.webp" alt="Energy IV Drip" class="img-fluid">
+					</div>
+				</div>
+				<div class="text">
+					<h6>Energy IV Drip</h6>
+					<ul class="listing-items checkpoints">
+						<li>Improved energy</li>
+						<li>Improved focus mental clarity</li>
+						<li>Improved athletic performance</li>
+					</ul>
+				</div>
+			</div>
+			<div class="prices mt-3">
+				<span>From AED 715*</span>
+				<p>* T&amp;C apply</p>
+				<a href="<?=$this->data['whatsappHref']?>" target="_blank">
+					<button class="booking">Book Now <img src="assets/frontend/img/calender.png"></button>
+				</a>
+			</div>
+		</div>
+
+		<div class="drip-container">
+			<div class="drip-card">
+				<div class="img">
+					<div class="img-inner">
+						<img src="https://www.healthcarebia.ae/assets/frontend/img/mega-c-iv-drip.webp" alt="Mega C IV Drip" class="img-fluid">
+					</div>
+				</div>
+				<div class="text">
+					<h6>Mega C IV Drip</h6>
+					<ul class="listing-items checkpoints">
+						<li>Source of concentrated Vitamin C</li>
+						<li>Detox</li>
+						<li>Increased immunity</li>
+						<li>Reduced fatigue</li>
+					</ul>
+				</div>
+			</div>
+			<div class="prices mt-3">
+				<span>From AED 650*</span>
+				<p>* T&amp;C apply</p>
+				<a href="<?=$this->data['whatsappHref']?>" target="_blank">
+					<button class="booking">Book Now <img src="assets/frontend/img/calender.png"></button>
+				</a>
+			</div>
+		</div>
+
   	</div>
 </section>
 
@@ -498,22 +675,22 @@
 		autoplaySpeed: 2000,
     dots: false,
 		arrows: true,
-    centerMode: true,
+    centerMode: false,
 		infinite: true,
-		touchMove: true,    // allow touch dragging
-    touchThreshold: 10, // lower is more sensitive
+		touchMove: true,
+    touchThreshold: 10, 
     responsive: [
       {
-        breakpoint: 1190,   // under 992px wide
+        breakpoint: 1190, 
         settings: {
-          slidesToShow: 2, // show 2 slides
-          centerMode: false // you can turn off centering if you like
+          slidesToShow: 2,
+          centerMode: false 
         }
       },
       {
-        breakpoint: 720,   // under 576px wide
+        breakpoint: 720,
         settings: {
-          slidesToShow: 1, // show 1 slide
+          slidesToShow: 1,
           centerMode: false
         }
       }

@@ -196,8 +196,10 @@ if (!$this->input->is_ajax_request())
         $config = [
             'protocol'    => 'smtp',
             'smtp_host'   => 'smtp.gmail.com',
-            'smtp_user'   => getenv('SMTP_USER'),
-            'smtp_pass'   => getenv('SMTP_PASS'),
+            //'smtp_user'   => getenv('SMTP_USER'),
+            //'smtp_pass'   => getenv('SMTP_PASS'),
+	    'smtp_user'   => 'forms@mmzholdings.com',
+            'smtp_pass'   => 'pmeelwucehbchapk',
             'smtp_port'   => 587,
             'smtp_crypto' => 'tls',           // or 'ssl' + port 465
             'mailtype'    => 'text',

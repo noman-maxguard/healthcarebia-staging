@@ -292,7 +292,6 @@ section {
   background-color: rgba(255, 255, 255, 1);
 }
 
-
 #banner-left {
   display: flex;
   flex-direction: column;
@@ -430,6 +429,15 @@ section {
   justify-content: center;
 }
 
+.end-section .contact-details a {
+  color: white;
+  font-weight: 500;
+  display: flex;
+  font-size: 22px;
+  align-items: center;
+  justify-content: center;
+}
+
 .end-section .contact-details li img {
   width: 60px;
 }
@@ -549,7 +557,7 @@ section {
   color: black;
   font-weight: 100;
   width: 70%;
-  margin-top: 4em;
+  margin-top: 2em;
 }
 
 .offerings .left p {
@@ -557,11 +565,10 @@ section {
   font-size: 15px;
   width: 70%;
   color: #545454;
-  margin-top: 4em;
+  margin-top: 2em;
 }
 
 .offerings .left button {
-  /* padding: 5px; */
   width: 200px;
   display: flex;
   align-items: center;
@@ -631,10 +638,8 @@ section {
   }
 
   .offerings .left p {
-    font-size: 12px;
+    font-size: 15px;
   }
-
-  .offerings .left button {}
 
   .offerings .right {
     display: none !important;
@@ -675,8 +680,8 @@ section {
   justify-content: center;
   gap: 1.5rem;
   padding: 5rem;
-  border-radius: 8px;
-  width: 80%;
+  /* border-radius: 8px; */
+  /* width: 80%; */
 }
 
 .testimonial-video-div {
@@ -794,7 +799,7 @@ section {
 }
 
 .services {
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
   overflow: hidden;
 }
@@ -824,20 +829,18 @@ section {
   margin-bottom: 2rem;
 }
 
-.pin-wrap {
+/* .pin-wrap {
   position: absolute;
   top: 8rem;
   left: 0;
   display: flex;
   width: max-content;
-  /* auto-expand width for scroll */
   padding: 0 2rem;
   gap: 1.5rem;
   z-index: 2;
-}
-
+} */
 .service-card {
-  flex: 0 0 80vw;
+  /* flex: 0 0 80vw; */
   /* wider on small screens */
   max-width: 320px;
   background-size: cover;
@@ -854,14 +857,12 @@ section {
   border-radius: 12px;
 }
 
-.service-card .service {
+/* .service-card .service {
   font-family: "Poppins", serif;
   font-weight: 300;
   font-size: 22px;
-  line-height: 1.3;
   margin-bottom: 0.75rem;
-}
-
+} */
 .service-card p {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
@@ -871,22 +872,54 @@ section {
 .service-card .service {
   font-size: 30px;
   font-family: "Poppins", sans-serif;
-  font-weight: 100;
   color: white;
+  font-weight: 500px;
+  line-height: 1.3;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-card {
+  margin: 2em;
+  width: calc(100%/3);
 }
 
 /* Medium Screens */
 @media (min-width: 768px) {
-  .service-card {
-    flex: 0 0 40vw;
-    max-width: 500px;
+  .card {
+    margin: 1em;
+    width: calc(90%);
   }
 }
 
 @media (max-width: 768px) {
   .service-spacer {
     flex: 0 0 10vw;
-    max-width: 100px;
+    /* max-width: 100px; */
+  }
+
+  .card-wrapper {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+  }
+
+  .service-card {
+    height: 12em;
+    width: 90%;
+  }
+
+  .service-card p {
+    font-size: 14px;
+  }
+
+  .service-card .service {
+    font-size: 20px;
   }
 }
 
@@ -905,12 +938,17 @@ section {
 .drips {
   position: relative;
   overflow: hidden;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   position: relative;
   overflow: hidden;
   background: #fff;
+}
+
+.wrapper .slick-dots li button:before {
+  font-size: 10px;
+  color: black;
 }
 
 .drips h1 {
@@ -922,31 +960,24 @@ section {
   color: #422b1c;
 }
 
-.drip-wrap {
+.slick-slide {
   display: flex;
-  flex-wrap: nowrap;
   align-items: stretch;
-  border-top: 1px dashed #422b1c;
-  overflow: hidden;
-  margin-top: auto;
-  position: relative;
-  display: flex;
-  width: max-content;
-  height: 100%;
-  z-index: 2;
 }
 
 .drip-container {
-  flex: 0 0 33.3333vw;
   box-sizing: border-box;
+  position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   padding: 2rem;
   padding-top: 4rem;
   gap: 1em;
+  /* flex: 1 1 auto; */
   border-right: 1px dashed #422b1c;
+  border-top: 1px dashed #422b1c;
   height: 100%;
 }
 
@@ -955,6 +986,7 @@ section {
   justify-content: center;
   align-items: center;
   width: 100%;
+  height: 70%;
 }
 
 .drip-card .text {
@@ -973,9 +1005,14 @@ section {
   font-family: 'Poppins', 'serif';
 }
 
-.text .prices {
+.prices {
   color: #422b1c;
   font-family: 'Poppins', 'serif';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1em 0;
 }
 
 .drip-card .img-inner {
@@ -985,6 +1022,8 @@ section {
 .drip-container a {
   margin-top: auto;
   width: 40%;
+  position: absolute;
+  bottom: 0;
 }
 
 .drip-container:last-child {
@@ -1004,8 +1043,7 @@ section {
   padding: 5px;
   gap: 5px;
   border-radius: 10px;
-  bottom: 10px;
-  margin: 50px 0;
+  align-self: center;
 }
 
 .booking img {
@@ -1052,27 +1090,28 @@ ul.checkpoints li::before {
 
 @media (min-width: 900px) and (max-width: 1024px) {
   .drip-container {
+    width: calc(100%/2);
     /* each card is half the viewport width */
-    flex: 0 0 50vw !important;
-    max-width: 50vw !important;
+    /* flex: 0 0 50vw !important;
+    max-width: 50vw !important; */
   }
 }
 
 @media (max-width: 899px) {
+  .drip-container {}
+}
+
+@media (min-width: 899px) {
   .drip-container {
-    flex: 0 0 100vw !important;
-    width: 100vw !important;
-    padding: 1.5rem !important;
-    height: auto;
-    /* adjust padding if you need more breathing room */
+    width: calc(100%/2);
   }
 }
 
 @media (min-width: 600px) {
-  .drip-container {
-    max-width: 48%;
-  }
 
+  /* .drip-container {
+    max-width: 48%;
+  } */
   .drip-card {
     flex-direction: row;
     align-items: flex-start;
@@ -1092,9 +1131,8 @@ ul.checkpoints li::before {
 /* 3. Desktop: three cards per row */
 @media (min-width: 900px) {
   .drip-container {
-    max-width: 32%;
-    /* three per row */
-    margin-bottom: 1%;
+    /* max-width: 32%;
+    margin-bottom: 1%; */
   }
 
   .drip-card .img-inner {

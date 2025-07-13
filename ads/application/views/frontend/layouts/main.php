@@ -14,9 +14,7 @@ $ctr=$this->uri->segment(1);
 <link href="<?=base_url()?>assets/frontend/lp/css/owl.carousel.min.css" rel="stylesheet"  rel="stylesheet" as="style" defer media="all">
 <link href="<?=base_url()?>assets/frontend/lp/css/style.css" rel="stylesheet"  rel="stylesheet" as="style" defer media="all">
 <link href="<?=base_url()?>assets/frontend/lp/css/responsive.css" rel="stylesheet"  rel="stylesheet" as="style" defer media="all">
-
-
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <title><?=!empty($page_details->meta_title)?$page_details->meta_title:''?></title>
 <meta name="description" content="<?=!empty($page_details->meta_description)?$page_details->meta_description:''?>" />
 <meta name="keywords" content="<?=!empty($page_details->meta_keywords)?$page_details->meta_keywords:''?>" />
@@ -184,13 +182,10 @@ $this->load->view($_view);
 <div class="whatsapp-icon"> <a href="<?=$this->data['whatsappHref']?>" target="_blank">                
 <img src="<?=base_url()?>assets/frontend/img/whatsapp.png" alt="WhatsApp"> </a>        
 </div>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="<?=base_url()?>assets/frontend/lp/js/bootstrap.min.js" defer preload=""></script>
 <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
 <script src="<?=base_url()?>assets/frontend/lp/js/custom.js" defer preload=""></script>
 
-<script>
    
 
 // $(document).ready(function(){

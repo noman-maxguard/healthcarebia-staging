@@ -207,17 +207,18 @@ if (!$this->input->is_ajax_request())
 
     $this->email->message($body);
     $sent = $this->email->send();
-
+    $response = [
+        'flag'        => $sent ? 1 : 0,
+        'status'      => $sent ? 'Enquiry sent successfully' : 'Mail send failed',
+        'sheetResult' => $sheetResponse,
+    ];
     if ( ! $sent) {
-        log_message('error', $this->email->print_debugger(['headers', 'subject', 'body']));
-        echo $this->email->print_debugger();
-        }
-
-    echo json_encode([
-        'flag'          => $sent ? 1 : 0,
-        'status'        => $sent ? 'Enquiry sent successfully' : 'Mail send failed',
-        'sheetResult'   => $sheetResponse,
-    ]);
+        $debug = $this->email->print_debugger(['headers','subject','body']);
+        log_message('error', $debug);
+        $response['smtpDebug'] = $debug;
+    }
+    header('Content-Type: application/json');
+    echo json_encode($response);
 }
 
 public function cform_old()

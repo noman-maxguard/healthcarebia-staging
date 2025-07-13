@@ -17,6 +17,7 @@ Thumbs.db
 #########################################
 .env
 .env.*
+/ads/application/config/email.php
 
 #########################################
 # Logs, caches, and temporary data
@@ -48,3 +49,4 @@ node_modules/        # if you ever add Node tooling
 *.zip
 *.tar
 *.gz
+/warranty_test

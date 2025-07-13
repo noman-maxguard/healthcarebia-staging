@@ -163,7 +163,6 @@ if (!$this->input->is_ajax_request())
 {
     exit('No direct script access allowed');
 }
-// 2) Gather & sanitize inputs
     $name      = html_escape($this->input->post('name'));
     $lastname  = html_escape($this->input->post('lastname'));
     $email     = html_escape($this->input->post('email'));
@@ -171,7 +170,6 @@ if (!$this->input->is_ajax_request())
     $message   = html_escape($this->input->post('message'));
     date_default_timezone_set('Asia/Dubai');
 
-    // 3) Build payload for Google Sheet
     $payload = [
             'fname'   => $name,
             'lname'   => $lastname,
@@ -195,8 +193,6 @@ if (!$this->input->is_ajax_request())
         $sheetResponse = curl_exec($ch);
         curl_close($ch);
 
-    $sheetResponse = $this->push_sheet($payload);
-
     $this->load->library('email');
     $this->email->from('forms@mmzholdings.com', 'Healthcarebia');
     $this->email->to('alfiya@hikmara.ai');
@@ -211,6 +207,11 @@ if (!$this->input->is_ajax_request())
 
     $this->email->message($body);
     $sent = $this->email->send();
+
+    if ( ! $sent) {
+        log_message('error', $this->email->print_debugger(['headers', 'subject', 'body']));
+        echo $this->email->print_debugger();
+        }
 
     echo json_encode([
         'flag'          => $sent ? 1 : 0,

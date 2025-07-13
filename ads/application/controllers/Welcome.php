@@ -193,6 +193,21 @@ if (!$this->input->is_ajax_request())
         $sheetResponse = curl_exec($ch);
         curl_close($ch);
 
+        $config = [
+            'protocol'    => 'smtp',
+            'smtp_host'   => 'smtp.gmail.com',
+            'smtp_user'   => getenv('SMTP_USER'),
+            'smtp_pass'   => getenv('SMTP_PASS'),
+            'smtp_port'   => 587,
+            'smtp_crypto' => 'tls',           // or 'ssl' + port 465
+            'mailtype'    => 'text',
+            'charset'     => 'utf-8',
+            'newline'     => "\r\n",          // very important for Gmail
+            'crlf'        => "\r\n",
+            'smtp_timeout' => 10
+            ];
+
+    $this->load->config('email', true);
     $this->load->library('email');
     $this->email->from('forms@mmzholdings.com', 'Healthcarebia');
     $this->email->to('alfiya@hikmara.ai');

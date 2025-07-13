@@ -927,7 +927,7 @@ section {
 
 .drips {
   position: relative;
-  min-height: 90vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -1096,27 +1096,26 @@ ul.checkpoints li::before {
 @media (min-width: 900px) and (max-width: 1024px) {
   .drip-container {
     width: calc(100%/2);
-    /* each card is half the viewport width */
-    /* flex: 0 0 50vw !important;
-    max-width: 50vw !important; */
   }
 }
 
-@media (max-width: 899px) {
-  .drip-container {}
-}
+@media (max-width: 899px) {}
 
 @media (min-width: 899px) {
   .drip-container {
     width: calc(100%/2);
   }
+
+  .drips {
+    min-height: 200vh;
+  }
 }
 
 @media (min-width: 600px) {
+  .drips {
+    min-height: 100vh;
+  }
 
-  /* .drip-container {
-    max-width: 48%;
-  } */
   .drip-card {
     flex-direction: row;
     align-items: flex-start;
@@ -1149,10 +1148,14 @@ ul.checkpoints li::before {
   }
 }
 
-@media (min-width: 320px) and (max-width: 501px) {
+@media (min-width: 320px) and (max-width: 599px) {
   .drip-container {
     padding: 1rem;
     /* tighten overall padding */
+  }
+
+  .drips {
+    min-height: 110vh;
   }
 
   .drip-card {

@@ -19,7 +19,7 @@ Thumbs.db
 .env.*
 /ads/application/config/email.php
 /ads/.env
-
+/ads/application/controllers/Welcome.php
 #########################################
 # Logs, caches, and temporary data
 #########################################

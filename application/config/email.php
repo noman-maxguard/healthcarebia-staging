@@ -1,5 +1,5 @@
 <?php
-<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
 $config = [
     'protocol'    => 'smtp',
     'smtp_host'   => 'smtp.gmail.com',

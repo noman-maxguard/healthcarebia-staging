@@ -51,3 +51,5 @@ node_modules/        # if you ever add Node tooling
 *.tar
 *.gz
 /warranty_test
+/ads/vendor
+/ads/ci_sessions

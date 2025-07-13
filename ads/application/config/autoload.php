@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 // autoload email.php mail sender
-$autoload['libraries'] = ['email'];
+// $autoload['libraries'] = ['email'];
 /*
 | -------------------------------------------------------------------
 | AUTO-LOADER

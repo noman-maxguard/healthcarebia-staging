@@ -207,11 +207,10 @@ if (!$this->input->is_ajax_request())
             'smtp_timeout' => 10
             ];
 
-    $this->load->config('email', true);
-    $this->load->library('email');
-    $this->email->from('forms@mmzholdings.com', 'Healthcarebia');
-    $this->email->to('alfiya@hikmara.ai');
-    $this->email->subject('Ads Enquiry-Request a callback');
+    $this->load->library('email', $config ,'emailer');
+    $this->emailer->from('forms@mmzholdings.com', 'Healthcarebia');
+    $this->emailer->to('alfiya@hikmara.ai');
+    $this->emailer->subject('Ads Enquiry-Request a callback');
 
     $body  = "New Ad enquiry received:\n\n";
     $body .= "Name:      $name $lastname\n";
@@ -220,15 +219,15 @@ if (!$this->input->is_ajax_request())
     $body .= "Message:   $message\n";
     $body .= "Submitted: " . date("Y-m-d H:i:s") . "\n";
 
-    $this->email->message($body);
-    $sent = $this->email->send();
+    $this->emailer->message($body);
+    $sent = $this->emailer->send();
     $response = [
         'flag'        => $sent ? 1 : 0,
         'status'      => $sent ? 'Enquiry sent successfully' : 'Mail send failed',
         'sheetResult' => $sheetResponse,
     ];
     if ( ! $sent) {
-        $debug = $this->email->print_debugger(['headers','subject','body']);
+        $debug = $this->emailer->print_debugger(['headers','subject','body']);
         log_message('error', $debug);
         $response['smtpDebug'] = $debug;
     }

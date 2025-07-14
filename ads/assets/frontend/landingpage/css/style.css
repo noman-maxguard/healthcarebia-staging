@@ -105,6 +105,10 @@ video {
   box-sizing: border-box;
 }
 
+section {
+  overflow: hidden;
+}
+
 a:focus,
 button:focus,
 input:focus,
@@ -928,6 +932,7 @@ section {
 .drips {
   position: relative;
   min-height: 80vh;
+  max-height: 100vh;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -1028,7 +1033,7 @@ section {
   margin-top: 5em;
   width: 40%;
   position: absolute;
-  bottom: 20px;
+  bottom: 40px;
 }
 
 .drip-container:last-child {

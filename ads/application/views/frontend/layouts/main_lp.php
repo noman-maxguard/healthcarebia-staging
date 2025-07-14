@@ -223,12 +223,13 @@ $(document).ready(function(){
 
 
 
-      console.log('main_lp');
-      console.log("➤ AJAX form handler is bound");
+      // console.log('main_lp');
+      // console.log("➤ AJAX form handler is bound");
       $(".contact_form_header").submit(function (e){
 
-      console.log("➤ contact_form_header submit caught");
+      // console.log("➤ contact_form_header submit caught");
       e.preventDefault();
+      var form = this;
 
       $('.msg').html('');
 
@@ -239,7 +240,7 @@ $(document).ready(function(){
       $('.loading').show();
 
       var formData = new FormData(this); 
-      console.log("➤ about to send AJAX");
+      // console.log("➤ about to send AJAX");
 
       $.ajax({
 
@@ -256,7 +257,7 @@ $(document).ready(function(){
       contentType:false,
 
       beforeSend: function () {
-      console.log("➤ in beforeSend");
+      // console.log("➤ in beforeSend");
       $('.loading').css("color","green","text-align", "center").text("Please wait...");
 
 
@@ -270,9 +271,6 @@ $(document).ready(function(){
       {
 
 
-         console.log("➤ AJAX success:", data);
-         $(".contact_form_header")[0].reset();
-
          $('.loading').hide();
 
          if(data.flag==1)
@@ -282,6 +280,8 @@ $(document).ready(function(){
 
 
             $('.msg').html("<div class='alert alert-success'>" + data.status + "</div>");
+            // $('.contact_form_header')[0].reset();
+            form.reset();
 
             setTimeout(function (){
 
@@ -324,7 +324,7 @@ $(document).ready(function(){
       }
       ,
       error: function(xhr,status,err){
-      console.error("➤ AJAX error:", status, err, xhr.responseText);
+      // console.error("➤ AJAX error:", status, err, xhr.responseText);
     }
 
 
@@ -350,7 +350,7 @@ $(document).ready(function(){
 
 
       $(".contact_form_footer").submit(function (e){
-      console.log("➤ contact_form_footer submit caught");
+      // console.log("➤ contact_form_footer submit caught");
       e.preventDefault();
 
       $('.msg1').html('');

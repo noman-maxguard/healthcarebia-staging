@@ -183,7 +183,7 @@
 					</div>
 				</div>
 				<div class="prices mt-3">
-					<span>From AED 1,495*</span>
+					<span>From AED 2,300*</span>
 					<p>* T&amp;C apply</p>
 					<a href="<?=$this->data['whatsappHref']?>" target="_blank">
 					<button class="booking">
@@ -213,7 +213,7 @@
 					</div>
 				</div>
 				<div class="prices mt-3">
-					<span>From AED 1,040*</span>
+					<span>From AED 1,600*</span>
 					<p>* T&amp;C apply</p>
 					<a href="<?=$this->data['whatsappHref']?>" target="_blank">
 					<button class="booking">
@@ -245,7 +245,7 @@
 				</div>
 				
 				<div class="prices mt-3">
-					<span>From AED 1,235*</span>
+					<span>From AED 1,900*</span>
 					<p>* T&amp;C apply</p>
 					<a href="<?=$this->data['whatsappHref']?>" target="_blank">
 						<button class="booking">
@@ -295,7 +295,7 @@
 				</div>
 			</div>
 			<div class="prices mt-3">
-				<span>From AED 1,040*</span>
+				<span>From AED 1,600*</span>
 				<p>* T&amp;C apply</p>
 				<a href="<?=$this->data['whatsappHref']?>" target="_blank">
 					<button class="booking">Book Now <img src="assets/frontend/img/calender.png"></button>
@@ -370,7 +370,7 @@
 				</div>
 			</div>
 			<div class="prices mt-3">
-				<span>From AED 975*</span>
+				<span>From AED 1,500*</span>
 				<p>* T&amp;C apply</p>
 				<a href="<?=$this->data['whatsappHref']?>" target="_blank">
 					<button class="booking">Book Now <img src="assets/frontend/img/calender.png"></button>
@@ -396,7 +396,7 @@
 				</div>
 			</div>
 			<div class="prices mt-3">
-				<span>From AED 720*</span>
+				<span>From AED 900*</span>
 				<p>* T&amp;C apply</p>
 				<a href="<?=$this->data['whatsappHref']?>" target="_blank">
 					<button class="booking">Book Now <img src="assets/frontend/img/calender.png"></button>
@@ -421,7 +421,7 @@
 				</div>
 			</div>
 			<div class="prices mt-3">
-				<span>From AED 715*</span>
+				<span>From AED 1,100*</span>
 				<p>* T&amp;C apply</p>
 				<a href="<?=$this->data['whatsappHref']?>" target="_blank">
 					<button class="booking">Book Now <img src="assets/frontend/img/calender.png"></button>
@@ -447,7 +447,7 @@
 				</div>
 			</div>
 			<div class="prices mt-3">
-				<span>From AED 650*</span>
+				<span>From AED 1,000*</span>
 				<p>* T&amp;C apply</p>
 				<a href="<?=$this->data['whatsappHref']?>" target="_blank">
 					<button class="booking">Book Now <img src="assets/frontend/img/calender.png"></button>

@@ -6,13 +6,22 @@
         .ebook-img{
           width: 250px;
           height: 400px;
-          border-radius: 12px;;
-          border: 0.1px solid #568259;
-          box-shadow: 0 4px 18px rgba(86,130,89,0.13);
+          border-radius: 12px;
+          box-shadow: 0 8px 20px rgba(86, 130, 89, 0.9);
           margin: 2em 0;
         }
         .ebook-img img{
           height: 100%;
+        }
+        .ebook-img:hover{
+          transform: scale(1.1);
+          transition: transform 0.3s ease;
+        }
+        #downloadBtn:hover {
+        box-shadow: 0 8px 20px rgba(86, 130, 89, 0.9);
+        }
+        .container h4{
+          margin-top: 2em;
         }
       </style>
    </head>

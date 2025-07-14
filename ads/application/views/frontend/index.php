@@ -23,7 +23,7 @@
 									Trusted by VIPs.
 								</h1>
 								<h3 id="banner-subheading" class="d-md-block">
-									Premium Care at Home in Dubai
+									Premium At-Home Care in Dubai
 								</h3>
 							</div>
 
@@ -140,14 +140,14 @@
 		<img src="<?=base_url()?>assets/frontend/img/logo2.png" alt="logo">
 		<h3>who we are</h3>
 		<h5>The GCC’s First Concierge Wellness Service</h5>
-		<p>Modern medicine often forgets the most important part of healthcare the human. Treatment is reactive, rushed, and transactional. Longevity, lifestyle, and individual needs are rarely prioritized. This broken, impersonal system is exactly what led to the birth of Healthcarebia an unparalleled healthcare experience tailored towards high achievers and individuals who are making an impact.</p>
+		<p>Modern medicine often forgets the most important part of healthcare: the human. Treatment is reactive, rushed, and transactional. Longevity, lifestyle, and individual needs are rarely prioritized. This broken, impersonal system is exactly what led to the birth of Healthcarebia, an unparalleled healthcare experience tailored for high achievers and individuals who are making an impact.</p>
 		<p>
-			Our commitment is unwavering, to provide an unparalleled healthcare experience that aligns with the standards of excellence you uphold in every facet of your life.</p>
+			Our commitment is unwavering: to provide an unparalleled healthcare experience that aligns with the standards of excellence you uphold in every facet of your life.</p>
 	</section>
 	<section class="offerings">
 		<div class="left">
 			<h1>Every IV protocol is tailored to your biology, lifestyle, and goals.</h1>
-			<p>We’ve raised the bar by blending world-class medical expertise with hospitality-grade service. Every IV drip is crafted with the purest, most active ingredients. Every session is led by elite DHA approved nurses and doctors from around the world.</p>
+			<p>We’ve raised the bar by blending world-class medical expertise with hospitality-grade service. Every IV drip is crafted with the purest, most active ingredients. Every session is led by elite DHA-approved nurses and doctors from around the world.</p>
 			<a href="https://healthcarebia.ae/iv-drip-dubai"><button>SEE OFFERINGS <img src="assets/frontend/img/arrow.png" alt="arrow"></button></a>
 		</div>
 		<div class="right">
@@ -389,7 +389,7 @@
 					<h6>Glow Skin IV Drip</h6>
 					<ul class="listing-items checkpoints">
 						<li>Improve skin hydration</li>
-						<li>Reduce fine lines wrinkles</li>
+						<li>Reduce fine lines and wrinkles</li>
 						<li>Promotes collagen production</li>
 						<li>Powerful anti-oxidant</li>
 					</ul>
@@ -415,7 +415,7 @@
 					<h6>Energy IV Drip</h6>
 					<ul class="listing-items checkpoints">
 						<li>Improved energy</li>
-						<li>Improved focus mental clarity</li>
+						<li>Improved focus and mental clarity</li>
 						<li>Improved athletic performance</li>
 					</ul>
 				</div>
@@ -446,7 +446,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="prices mt-3">
+			<div class="prices">
 				<span>From AED 1,000*</span>
 				<p>* T&amp;C apply</p>
 				<a href="<?=$this->data['whatsappHref']?>" target="_blank">
@@ -472,62 +472,60 @@
 					<div class="carousel-item active ">
 						<div class="card-wrapper">
 							<div class="service-card card" style="
-								background-image: url('assets/frontend/img/human-first.jpg');
+								background-image: url('assets/frontend/img/img1.png');
 								background-size: cover;
 								background-position: center;
 								background-repeat: no-repeat;
-								filter: brightness(0.7) saturate(2);">
+								filter: brightness(0.7) saturate(1.5);">
 								<p class="service">Human-First Protocols</p>
-								<p>Protocols tailored to your biology, goals and lifestyle</p>
+								<p>Protocols tailored to your biology, goals, and lifestyle</p>
 							</div>
 							<div class="service-card card" style="
-								background-image: url('assets/frontend/img/service1.jpg');
+								background-image: url('assets/frontend/img/img6.png');
 								background-size: cover;
 								background-position: center;
-								background-repeat: no-repeat;
-								filter: brightness(0.7) saturate(1.6);">
+								background-repeat: no-repeat;"
+								>
 								<p class="service">NAD+ IV Drip</p>
-								<p>Unlock cellular energy and mental clarity. Trusted by VIPs and high performers</p>
+								<p>Recharge cellular energy, enhance mental clarity, and support longevity.</p>
 							</div>
 							<div class="service-card card" style="
-								background-image: url('assets/frontend/img/at-home.jpg');
+								background-image: url('assets/frontend/img/img2.png');
 								background-size: cover;
-								background-position: right center;
-								background-repeat: no-repeat;
-								filter: brightness(0.8) saturate(1.5);">
+								background-position: center;
+								background-repeat: no-repeat;"
+								>
 								<p class="service">Lab Tests at Home</p>
-								<p>No more guesswork - just personalized care built around your unique biology.</p>
+								<p>No more guesswork — just personalized care built around your unique biology.</p>
 							</div>
 						</div>
 					</div>
 					<div class="carousel-item">
 						<div class="card-wrapper">
 							<div class="service-card card" style="
-								background-image: url('assets/frontend/img/holistic.jpg');
+								background-image: url('assets/frontend/img/img7.png');
 								background-size: cover;
 								background-position: center;
 								background-repeat: no-repeat;
-								filter: brightness(0.8) saturate(1.5);">
+								">
 								<p class="service">Holistic Care</p>
-								<p>Create a deeply restorative multi-sensory environment at-home</p>
+								<p>Create a deeply restorative multi-sensory environment at home</p>
 							</div>
 							<div class="service-card card" style="
-								background-image: url('assets/frontend/img/discretion.jpg');
+								background-image: url('assets/frontend/img/img4.png');
 								background-size: cover;
 								background-position: center bottom;
-								background-repeat: no-repeat;
-								filter: brightness(0.8) saturate(1.5);">
+								background-repeat: no-repeat;">
 								<p class="service">Discretion Guaranteed</p>
-								<p>Discreet At-home concierge IV Therapy - completely secure, at your time</p>
+								<p>Discreet at home concierge IV therapy — completely secure, at your convenience</p>
 							</div>
 							<div class="service-card card" style="
-								background-image: url('assets/frontend/img/personal.jpg');
+								background-image: url('assets/frontend/img/img5.png');
 								background-size: cover;
 								background-position: center;
-								background-repeat: no-repeat;
-								filter: brightness(0.8) saturate(1.5);">
+								background-repeat: no-repeat;">
 								<p class="service">Personalized IV Therapy</p>
-								<p>Tailor-made IV Drips for recovery, hydration, mental clarity, immunity and more</p>
+								<p>Tailor-made IV Drips for recovery, hydration, mental clarity, immunity, and more</p>
 							</div>
 						</div>
 					</div>
@@ -601,7 +599,7 @@
 						<div class="testimonial-copy">
 							<h3>Jeremy Gwyer</h3>
 							<p>
-								“I've had IV drips consistent for 4 years & this was the first time with active ingredients ! Noticeable difference compared to premixed bags. You can definitely feel effect of this IV therapy, Highly recommend the Myer's Cocktail”
+								“I've had IV drips consistently for 4 years & this was the first time with active ingredients! Noticeable difference compared to premixed bags. You can definitely feel the effect of this IV therapy. Highly recommend the Myer's Cocktail”
 							</p>
 						</div>
 					</div>
@@ -671,7 +669,7 @@
 	$(document).ready(function(){
   $('.carousel-slick').slick({
     slidesToShow: 3,
-		autoplay: true,
+		autoplay: false,
 		autoplaySpeed: 2000,
     dots: false,
 		arrows: true,

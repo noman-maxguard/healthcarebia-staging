@@ -2,6 +2,19 @@
 <html lang="en">
    <head>
       <?php include 'includes/inc_head_tag.php'; ?>
+      <style>
+        .ebook-img{
+          width: 250px;
+          height: 400px;
+          border-radius: 12px;;
+          border: 0.1px solid #568259;
+          box-shadow: 0 4px 18px rgba(86,130,89,0.13);
+          margin: 2em 0;
+        }
+        .ebook-img img{
+          height: 100%;
+        }
+      </style>
    </head>
    <body>
       <?php include 'includes/inc_header.php'; ?>
@@ -23,10 +36,11 @@
             </div>
          </div>
       </section>
-      <section class="section-gap d-flex justify-center align-center gap-5 text-center" style="height:80vh">
+      <section class="section-gap d-flex justify-center align-center gap-5 text-center" style="min-height:100vh; background:url(<?= base_url() ?>assets/frontend/img/hand-faded.png) no-repeat center/cover;">
         <div class="container d-flex flex-column align-items-center justify-content-center mb-5">
-          <h4>Download Our Free Home Healthcare eBook</h4>
-          <p>Learn how to choose the right in-home care, prepare for visits, and more.</p>
+          <div class="ebook-img"><img src="<?= base_url() ?>assets/frontend/img/ebook-img.png" alt="ebook-image"></div>
+          <h4>Download Our Free Precision Of Wellness eBook</h4>
+          <p>Private Wellness. Delivered with Care. Rooted in Precision.</p>
           <button id="downloadBtn" class="btn primary-btn" style="color: white;background-color:#568259; margin-top:25px">Download eBook</button>
         </div>
     </section>

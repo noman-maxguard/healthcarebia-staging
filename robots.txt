@@ -3,12 +3,25 @@ Disallow:
 Disallow: /cgi-bin/
 Disallow: /cdn-cgi/
 
-# Block OpenAI’s GPTBot (web crawler)
-User-agent: GPTBot
-Disallow: /
+User-agent: OAI-SearchBot
+Allow: /
 
-# Block ChatGPT plugins crawler
-User-agent: ChatGPT-User
-Disallow: /
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
 
 Sitemap: https://healthcarebia.ae/sitemap.xml

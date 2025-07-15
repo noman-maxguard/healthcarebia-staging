@@ -138,7 +138,7 @@
 	</section>
 	<section class="about-us">
 		<img src="<?=base_url()?>assets/frontend/img/logo2.png" alt="logo">
-		<h3>who we are</h3>
+		<h3 style="text-transform: uppercase; letter-spacing: -5px;">who we are</h3>
 		<h5>The GCC’s First Concierge Wellness Service</h5>
 		<p>Modern medicine often forgets the most important part of healthcare: the human. Treatment is reactive, rushed, and transactional. Longevity, lifestyle, and individual needs are rarely prioritized. This broken, impersonal system is exactly what led to the birth of Healthcarebia, an unparalleled healthcare experience tailored for high achievers and individuals who are making an impact.</p>
 		<p>
@@ -465,7 +465,7 @@
 			loop
 			playsinline></video>
 		<div class="video-bg-overlay">
-			<h2>Ultra-Personalized Services</h2>
+			<h2>Our Services</h2>
 		</div>
 		<div id="myServices" class="carousel slide" data-bs-ride="carousel">
 				<div class="carousel-inner">
@@ -616,7 +616,7 @@
 		</div>
 	</section>
 	<section class="end-section">
-		<h1>Healing Body, Mind & Soul</h1>
+		<h1 style="letter-spacing: -5px;">Healing Body, Mind & Soul</h1>
 		<a href="<?=$this->data['whatsappHref']?>" target="_blank"><button> Book your appointment with us now </button></a>
 		
 		<div class="contact-details">

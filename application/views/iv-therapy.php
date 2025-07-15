@@ -3,30 +3,33 @@
 <html lang="en">
 
 <head>
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "IV Drip Therapy in Dubai",
-  "serviceType": "Intravenous Therapy",
-  "description": "DHA-licensed IV drip therapy in Dubai for hydration, energy, immunity, and recovery — delivered by licensed professionals to your home or hotel.",
-  "url": "https://healthcarebia.ae/iv-drip-dubai",
-  "provider": {
-    "@type": "MedicalBusiness",
-    "@id": "https://healthcarebia.ae/#medicalbusiness"
-  },
-  "areaServed": {
-    "@type": "Place",
-    "name": "Dubai, United Arab Emirates"
-  },
-  "availableChannel": {
-    "@type": "ServiceChannel",
-    "serviceLocation": {
-      "@type": "Place",
-      "name": "At-Home, Hotel, and Office Visits in Dubai"
+<script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "IV Drip Therapy in Dubai",
+    "serviceType": "Intravenous Therapy",
+    "description": "DHA-licensed IV drip therapy in Dubai for hydration, energy, immunity, and recovery — delivered by licensed professionals to your home or hotel.",
+    "url": "https://healthcarebia.ae/iv-drip-dubai",
+    "provider": {
+        "@type": "MedicalOrganization",
+        "name": "HealthcareBIA",
+        "url": "https://healthcarebia.ae"
+    },
+    "areaServed": {
+        "@type": "Place",
+        "name": "Dubai, United Arab Emirates"
+    },
+    "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceLocation": {
+        "@type": "Place",
+        "name": "At-Home, Hotel, and Office Visits in Dubai"
+        }
     }
-  }
-}
+    }
+</script>
+
 </script>
 
     <?php include 'includes/inc_head_tag.php'; ?>

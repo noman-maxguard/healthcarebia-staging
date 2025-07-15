@@ -91,7 +91,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                             </div>
                                             <ul>
                                                 <li><a href="<?= base_url() ?>iv-drip-dubai" class="hvr-underline-from-left menu-line2">IV Therapy</a></li>
-                                                <li><a href="<?= base_url() ?>glutathione-iv-drip" class="hvr-underline-from-left menu-line2">Glutathione IV Drip</a></li>
+                                                <!-- <li><a href="<?= base_url() ?>glutathione-iv-drip" class="hvr-underline-from-left menu-line2">Glutathione IV Drip</a></li> -->
                                                 <li><a href="<?= base_url() ?>nad-iv-drip" class="hvr-underline-from-left menu-line2">NAD+ IV Drip</a></li>
                                                 <li><a href="<?= base_url() ?>hangover-iv-drip" class="hvr-underline-from-left menu-line">Post Party IV Drip</a></li>
                                                 <li><a href="<?= base_url() ?>gut-health-iv-drip" class="hvr-underline-from-left menu-line">Gut Health IV Drip</a></li>

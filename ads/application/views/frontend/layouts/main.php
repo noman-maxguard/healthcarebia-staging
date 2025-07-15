@@ -182,9 +182,9 @@ $this->load->view($_view);
 <div class="whatsapp-icon"> <a href="<?=$this->data['whatsappHref']?>" target="_blank">                
 <img src="<?=base_url()?>assets/frontend/img/whatsapp.png" alt="WhatsApp"> </a>        
 </div>
-<script src="<?=base_url()?>assets/frontend/lp/js/bootstrap.min.js" defer preload=""></script>
+<script src="<?=base_url()?>assets/frontend/lp/js/bootstrap.min.js" defer></script>
 <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-<script src="<?=base_url()?>assets/frontend/lp/js/custom.js" defer preload=""></script>
+<script src="<?=base_url()?>assets/frontend/lp/js/custom.js" defer></script>
 
    
 

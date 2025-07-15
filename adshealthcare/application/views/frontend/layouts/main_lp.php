@@ -593,7 +593,7 @@ $this->load->view($_view);
 
 <!-- <script src="js/jquery.min.js"></script>
 
-<script src="js/bootstrap.bundle.min.js" defer preload></script> -->
+<script src="js/bootstrap.bundle.min.js" defer></script> -->
 
 <script src="<?=base_url()?>assets/frontend/landingpage/js/owl.carousel.min.js"></script>
 

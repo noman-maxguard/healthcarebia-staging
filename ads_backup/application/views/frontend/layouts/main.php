@@ -186,9 +186,9 @@ $this->load->view($_view);
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="<?=base_url()?>assets/frontend/lp/js/bootstrap.min.js" defer preload=""></script>
+<script src="<?=base_url()?>assets/frontend/lp/js/bootstrap.min.js" defer></script>
 <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-<script src="<?=base_url()?>assets/frontend/lp/js/custom.js" defer preload=""></script>
+<script src="<?=base_url()?>assets/frontend/lp/js/custom.js" defer></script>
 
 <script>
    

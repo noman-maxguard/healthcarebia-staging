@@ -10,3 +10,5 @@ Disallow: /
 # Block ChatGPT plugins crawler
 User-agent: ChatGPT-User
 Disallow: /
+
+Sitemap: https://healthcarebia.ae/sitemap.xml

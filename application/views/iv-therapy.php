@@ -1015,7 +1015,7 @@
 
                         <div class="price-blockl mt-3">
                             <span>From AED</span>
-                            <h3>1,040*</h3>
+                            <h3>1,600*</h3>
                             <i>* T&C apply</i>
                         </div>
 
@@ -1044,7 +1044,7 @@
                             </ul>
                             <div class="price-blockl mt-3">
                                 <span>From AED</span>
-                                <h3>1,170*</h3>
+                                <h3>1,800*</h3>
                                 <i>* T&C apply</i>
                             </div>
                         </div>
@@ -1075,7 +1075,7 @@
                             </ul>
                             <div class="price-blockl mt-3">
                                 <span>From AED</span>
-                                <h3>845*</h3>
+                                <h3>1,100*</h3>
                                 <i>* T&C apply</i>
                             </div>
                         </div>
@@ -1179,7 +1179,7 @@
                         </ul>
                         <div class="price-blockl mt-3">
                             <span>From AED</span>
-                            <h3>1,040*</h3>
+                            <h3>1,600*</h3>
                             <i>* T&C apply</i>
                         </div>
                     </div>

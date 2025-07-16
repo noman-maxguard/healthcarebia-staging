@@ -980,12 +980,12 @@ section {
   bottom: 20px;
 }
 
-.drip-head .img-inner{
+.drip-box .drip-head .img-inner{
   height: 152px;
 }
 
 .drip-head .text{
-  /* flex:1; */
+  flex:1;
   display: flex;
   flex-direction: column;
   justify-content: center;

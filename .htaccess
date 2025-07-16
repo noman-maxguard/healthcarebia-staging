@@ -1,6 +1,13 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteBase /
+
+    # 1. Redirect www to non-www (on both HTTP and HTTPS)
+    RewriteCond %{HTTP_HOST} ^www\.healthcarebia\.ae$ [NC]
+    RewriteRule ^(.*)$ https://healthcarebia.ae/$1 [L,R=301]
+
+    # 2. Redirect all HTTP to HTTPS (for both www and non-www)
+    RewriteCond %{HTTPS} off
+    RewriteRule ^(.*)$ https://healthcarebia.ae/$1 [L,R=301]
 
     # CodeIgniter base routing
     #RewriteCond %{HTTP_HOST} !^13\.233\.254\.156$

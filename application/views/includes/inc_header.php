@@ -350,7 +350,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                     </li>
                     <li><a href="<?= base_url() ?>blog" class="hvr-underline-from-left menu-line">Blog</a></li>
-                    <li><a href="<?= base_url() ?>ebook" class="hvr-underline-from-left menu-line">Ebook</a></li>
                     <li><a href="<?= base_url() ?>contact-us" class="hvr-underline-from-left menu-line">Contact us</a>
                     </li>
                     <li class="mobile-off">

@@ -27,13 +27,14 @@ class Ebooks extends CI_Controller
     {
 
         $email = isset($_POST["email"]) ? trim($_POST["email"]) : '';
-        $consent = isset($_POST["consent"]) && $_POST["consent"] === 'yes';
-        
+        $consent = isset($_POST["consent"]) && $_POST["consent"] === 'yes' ? 'yes' : 'no';
+
         if ($consent && filter_var($email, FILTER_VALIDATE_EMAIL)) {
-            $googleScriptUrl = 'https://script.google.com/macros/s/AKfycbw_VYDmg4r_NOQ9PrYi0PJd_wC1CQcaAofFJnsfrO4MDE1m_KS6WaGZB1cjAouzCg0-/exec';
+            $googleScriptUrl = 'https://script.google.com/macros/s/AKfycbwni-OU33bXgR8JmihgULUzT15Lu5NubYhmK7TyrTD44I2I2MXS7RX5v_ZdWkpEoMhd/exec';
 
             $payload = [
-                'Email'   => $email,
+                'email'   => $email,
+                'consent' => $consent,
                 'Date'      => date("d-M-Y h:i:s A"),
 
             ];

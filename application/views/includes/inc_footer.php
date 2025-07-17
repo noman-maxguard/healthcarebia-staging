@@ -354,6 +354,14 @@
         .question-title {
             font-size: 1.3rem;
         }
+
+        .ebook-form{
+            margin-top: 3em;
+        }
+    }
+    .ebook-btn:hover{
+        box-shadow: 0 0 20px 0 rgba(255,255,255,0.8);
+        filter: brightness(1.05);
     }
   
 </style>
@@ -361,7 +369,7 @@
     <div class="overlay">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 me-3">
+                <div class="col-md-4">
                     <img loading="lazy" decoding="async" width="271" height="37" src="<?= base_url() ?>assets/frontend/img/logo.webp" class="mb-3" alt="Healthcarebia">
                     <p>Premium At-Home Healthcare in Dubai |
                         Expert IV therapy, comprehensive lab tests, and personalized wellness solutions delivered directly to your home.</p>
@@ -377,7 +385,7 @@
               </span></div>
                         <a href="https://www.google.com/search?q=healthcarebia&oq=healthcarebia+&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORiABBiiBDIKCAEQABiABBiiBDIHCAIQABjvBTIGCAMQRRg8MgYIBBBFGDwyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQg2MDM4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#vhid=zephyr:1&vssid=atritem-&lrd=0x3e5f437ad48ce8ab:0x1441da8daee852a8,1,,,," target="_blank">Based on 49 reviews </a></div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-1">
                     <ul class="fot-link">
                         <li><a href="<?= base_url() ?>" class="hvr-underline-from-left menu-line">Home</a></li>
                         <li><a href="<?= base_url() ?>about-us" class="hvr-underline-from-left menu-line">About us</a>
@@ -385,6 +393,7 @@
                         <li><a href="<?= base_url() ?>blog" class="hvr-underline-from-left menu-line">Blog</a></li>
                         <li><a href="<?= base_url() ?>contact-us" class="hvr-underline-from-left menu-line">Contact
                                 us</a></li>
+                        <li><a href="<?= base_url() ?>faq" class="hvr-underline-from-left menu-line">FAQs</a></li>
                     </ul>
                 </div>
                 <div class="col-md-2">
@@ -436,6 +445,21 @@
                             <li><a aria-label="linkedin" href="https://www.linkedin.com/company/healthcarebia/" target="_blank"><i class="fab fa-linkedin-in hvr-fade hv-opcity"></i></a></li>
                         </ul>
                     </div>
+                </div>
+                <div class="col-md-3 ebook-form">
+                    <h6 style="font-size: 18px;color: white;text-align: center">Download Our Free Precision Of Wellness eBook</h6>
+                    <form action="/ebooks/download" method="POST" style="display:flex;flex-direction: column; justify-content: start;align-items: center; width:100%; gap:1em" class="mt-4">
+                        <div class="col-md-12 mb-3">
+                            <input class="form-input" type="email" placeholder="Enter your email" name="email" required style="width:100%;height:100%;padding: 13px 32px;border-radius:30px;border:none">
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="yes" id="consent" name="consent">
+                            <label class="form-check-label" for="consent">
+                                <span style="color: white;font-size:14px; text-align: start">I Consent to receive more information from Healthcarebia</span>
+                            </label>
+                        </div>
+                        <button class="mt-3 ebook-btn" type="submit" style="padding: 8px 26px; border-radius: 30px; background-color: var(--green);color:white;border:none; width: 100%">Download Ebook</button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -619,4 +643,15 @@
         </div>
     </div>
 </footer>
-
+<script>
+    const form = document.querySelector('.ebook-form');
+    const button = document.querySelector('.ebook-btn');
+    form.addEventListener('submit',(e)=>{
+        button.innerText = 'Thank you !';
+        form.reset();
+        setTimeout(()=>{
+            form.reset();
+            button.innerText = 'Download Ebook';
+        },3000)
+    })
+</script>

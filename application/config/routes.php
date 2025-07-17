@@ -130,6 +130,8 @@ $route['blog-details'] = 'welcome/blog_details';
 
 $route['booking/contact'] = 'booking/contact';
 $route['booking/appointments'] = 'booking/appointments';
+$route['ebooks/download'] = 'ebooks/download';
+
 
 
 

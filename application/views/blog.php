@@ -42,6 +42,14 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>vitamin-d-deficiency-blog" class="card-style3 card-style4 same">
+                    <img src="<?= base_url() ?>assets/frontend/img/blog13.jpg" alt="Vitamin D Deficiency Dubai" class="img-fluid">
+                    <h6>Vitamin D Deficiency in Dubai: Why Testing Matters</h6>
+                    <p>Discover why vitamin D is low, even with Dubai sunshine. Learn the risks, symptoms, and book a quick home blood test today.</p>
+                </a>
+            </div>
+
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>athletic-performance-blog" class="card-style3 card-style4 same">
                     <img src="<?= base_url() ?>assets/frontend/img/blog12.jpg" alt="Athletic IV Drip Dubai" class="img-fluid">
                     <h6>Athletic IV Drip: Boost Performance & Speed Recovery</h6>

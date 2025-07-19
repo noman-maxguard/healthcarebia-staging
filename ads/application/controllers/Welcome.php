@@ -164,7 +164,7 @@ if (!$this->input->is_ajax_request())
     exit('No direct script access allowed');
 }
     $name      = html_escape($this->input->post('name'));
-    $lastname  = "";
+    $lastname  = html_escape($this->input->post('lastname'));
     $email     = html_escape($this->input->post('email'));
     $mobile    = html_escape($this->input->post('mobile'));
     $message   = html_escape($this->input->post('message'));
@@ -215,7 +215,7 @@ if (!$this->input->is_ajax_request())
     $this->emailer->subject('Ads Enquiry-Request a callback');
 
     $body  = "New Ad enquiry received:\n\n";
-    $body .= "Name:      $name";
+    $body .= "Name:      $name $lastname\n";
     $body .= "Email:     $email\n";
     $body .= "Mobile:    $mobile\n";
     $body .= "Message:   $message\n";

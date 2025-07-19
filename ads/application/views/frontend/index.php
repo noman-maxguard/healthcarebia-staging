@@ -74,8 +74,8 @@
 												placeholder="Last Name"
 												name="lastname"
 												required
-											/> -->
-										</div>
+											/>
+										</div> -->
 										<div class="col-md-6 mb-3">
 											<input
 												class="form-input"

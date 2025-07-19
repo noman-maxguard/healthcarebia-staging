@@ -243,6 +243,7 @@ section {
   color: #fff;
   font-size: 1.5rem;
   margin-bottom: 20px;
+  letter-spacing: normal;
 }
 
 /* inputs & textarea */

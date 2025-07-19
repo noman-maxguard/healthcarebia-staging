@@ -677,10 +677,10 @@
 	$(document).ready(function(){
   $('.carousel-slick').slick({
     slidesToShow: 3,
-		autoplay: false,
+		autoplay: true,
 		autoplaySpeed: 2000,
-    dots: false,
-		arrows: true,
+    dots: true,
+		arrows: false,
     centerMode: false,
 		infinite: true,
 		touchMove: true,

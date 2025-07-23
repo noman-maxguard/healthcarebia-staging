@@ -65,6 +65,114 @@
         </div>
       </div>
     </section>
+    <section class="services video-bg" id="servicesPin">
+      <video
+        src="assets/frontend/landingpage/video/waves.mp4"
+        class="video-bg-media"
+        autoplay
+        muted
+        loop
+        playsinline
+      ></video>
+      <div class="video-bg-overlay">
+        <h2>Ultra-Personalized Services</h2>
+      </div>
+      <div class="pin-wrap">
+        <div
+          class="service-card"
+          style="
+            background-image: url('assets/frontend/img/human-first.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            filter: brightness(0.8) saturate(1.5);
+          "
+        >
+          <p class="service">Human-First Protocols</p>
+          <p>
+            Holistic protocols tailored to your biology, goals and lifestyle
+          </p>
+        </div>
+        <div
+          class="service-card"
+          style="
+            background-image: url('assets/frontend/img/service1.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            filter: brightness(0.8) saturate(1.5);
+          "
+        >
+          <p class="service">NAD+ IV Drip</p>
+          <p>
+            Unlock cellular energy and mental clarity. Trusted by VIPs and high
+            performers
+          </p>
+        </div>
+        <div
+          class="service-card"
+          style="
+            background-image: url('assets/frontend/img/at-home.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            filter: brightness(0.8) saturate(1.5);
+          "
+        >
+          <p class="service">Lab Tests at Home</p>
+          <p>
+            No more guesswork - just personalized care built around your unique
+            biology.
+          </p>
+        </div>
+        <div
+          class="service-card"
+          style="
+            background-image: url('assets/frontend/img/holistic.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            filter: brightness(0.8) saturate(1.5);
+          "
+        >
+          <p class="service">Holistic Care</p>
+          <p>Create a deeply restorative multi-sensory environment at-home</p>
+        </div>
+        <div
+          class="service-card"
+          style="
+            background-image: url('assets/frontend/img/discretion.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            filter: brightness(0.8) saturate(1.5);
+          "
+        >
+          <p class="service">Discretion Guaranteed</p>
+          <p>
+            Discreet At-home concierge IV Therapy - completely secure, at your
+            time
+          </p>
+        </div>
+        <div
+          class="service-card"
+          style="
+            background-image: url('assets/frontend/img/personal.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            filter: brightness(0.8) saturate(1.5);
+          "
+        >
+          <p class="service">Personalized IV Therapy</p>
+          <p>
+            Tailor-made IV Drips for recovery, hydration, mental clarity,
+            immunity and more
+          </p>
+        </div>
+        <div class="service-spacer"></div>
+      </div>
+    </section>
     <section class="testimonials">
       <!-- Swiper -->
       <div class="swiper myTestimonials">
@@ -271,7 +379,25 @@
         </div>
       </div>
     </section>
+    <section class="end-section">
+      <h1>Healing Body, Mind & Soul</h1>
+      <a href="<?=$this->data['whatsappHref']?>" target="_blank"
+        ><button>Book your appointment with us now</button></a
+      >
 
+      <div class="contact-details">
+        <li>
+          <img src="../assets/img/email-icon.png" alt="mobile" />+971 4 225 0823
+        </li>
+        <li><i class="fab fa-whatsapp"></i>+971 54 707 7476</li>
+        <li>
+          <img
+            src="../assets/img/call-icon.png"
+            alt="email"
+          />info@healthcarebia.ae
+        </li>
+      </div>
+    </section>
     <%- include("partials/footer.ejs") %> <%-
     include("partials/footer-tags.ejs") %>
     <script src="../assets/js/home.js" defer></script>

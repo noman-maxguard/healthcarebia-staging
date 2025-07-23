@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Healthcarebia is the best home healthcare service provider in Dubai."
+    />
+    <title>Healthcarebia | Best Home Healthcare Services in Dubai</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-default.min.css"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"
+      defer
+    ></script>
+    <%- include('partials/header-tags.ejs') %>
+  </head>
+  <body>
+    <%- include("partials/header.ejs") %>
+    <section class="about-us">
+      <div class="about-us-container">
+        <div class="about-us-left">
+          <h1>
+            Welcome to Healthcarebia<br />
+            Premium At Home Healthcare in Dubai
+          </h1>
+          <p class="fst-italic">
+            HEALTHCAREBIA is Dubai's premier luxury mobile healthcare provider,
+            delivering elite medical services to UAE's discerning clientele. Our
+            DHA certified professionals offer 24/7 concierge medicine, including
+            premium IV therapy, executive health screenings, and diagnostics
+            within the privacy of your residence. Trusted by royal families and
+            business leaders, we combine world class expertise with discretion,
+            providing bespoke wellness solutions from preventive care to
+            longevity treatments. Experience healthcare reimagined, where luxury
+            meets medical excellence, exclusively for Dubai's high net worth
+            individuals and VIP residents.
+          </p>
+          <button class="text-uppercase">
+            DISCOVER MORE ABOUT HEALTHCAREBIA
+          </button>
+          <div class="count-box">
+            <div class="count">
+              <div class="count-clients odometer plus">0</div>
+              <div class="count-type">Happy Clients</div>
+            </div>
+            <div class="count">
+              <div class="count-professionals odometer plus2">0</div>
+              <div class="count-type">Professionals</div>
+            </div>
+            <div class="count">
+              <div class="count-team odometer percentage">0</div>
+              <div class="count-type">DHA Certified Team</div>
+            </div>
+          </div>
+        </div>
+        <div class="about-us-right">
+          <div class="image">
+            <!-- <img src="" alt="about us section image" /> -->
+          </div>
+          <!-- <div class="image-background"></div> -->
+        </div>
+      </div>
+    </section>
+    <section class="testimonials">
+      <!-- Swiper -->
+      <div class="swiper myTestimonials">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide slide1">
+            <h2>Testimonials</h2>
+            <div class="testimonial-item">
+              <div class="testimonial-video-div">
+                <div class="testimonial-video-wrapper">
+                  <iframe
+                    class="testimonial-video"
+                    src="https://www.youtube.com/embed/Cke0_5vsi8Q"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+              <div class="testimonial-copy">
+                <h3>Mo Aziz</h3>
+                <p>
+                  “I just had a NAD+ drip via Healthcarebia’s IV drip home
+                  service in Dubai, and I feel absolutely incredible. Their IV
+                  therapy is efficient, reliable, and truly top-notch, making a
+                  real difference in my productivity and energy level.”
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide slide2">
+            <h2>Testimonials</h2>
+            <div class="testimonial-item">
+              <div class="testimonial-video-div">
+                <div class="testimonial-video-wrapper">
+                  <iframe
+                    class="testimonial-video"
+                    src="https://www.youtube.com/embed/ipUMjVFkipc"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+              <div class="testimonial-copy">
+                <h3>Gala</h3>
+                <p>
+                  “After trying Healthcarebia’s immune booster IV drip, I
+                  experienced a noticeable boost in energy and overall wellness.
+                  The treatment was effective, professionally administered, and
+                  made me feel confident about my health journey.”
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide slide slide3">
+            <h2>Testimonials</h2>
+            <div class="testimonial-item">
+              <div class="testimonial-video-div">
+                <div class="testimonial-video-wrapper">
+                  <iframe
+                    class="testimonial-video"
+                    src="https://www.youtube.com/embed/AkeO7vjzBYQ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+              <div class="testimonial-copy">
+                <h3>Jeremy Gwyer</h3>
+                <p>
+                  “I've had IV drips consistent for 4 years & this was the first
+                  time with active ingredients ! Noticeable difference compared
+                  to premixed bags. You can definitely feel effect of this IV
+                  therapy, Highly recommend the Myer's Cocktail”
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- navigation arrows -->
+        <div class="swiper-button-prev" id="prev"></div>
+        <div class="swiper-button-next" id="next"></div>
+      </div>
+    </section>
+    <section class="talk-to-us">
+      <div class="row">
+        <div class="col-md-6 talk-to-us-left col-12">
+          <h1>Talk to us</h1>
+          <p class="col-md-10">
+            Whether you're ready to schedule your first session or just have
+            questions, we’d love to hear from you.
+          </p>
+          <form
+            class="row request-form contact_form w-100"
+            method="post"
+            id="contact_form"
+          >
+            <div class="col-md-12 mb-3">
+              <input
+                class="form-input"
+                type="text"
+                placeholder="Name"
+                name="name"
+                required="required"
+              />
+            </div>
+            <div class="col-md-12 mb-3">
+              <input
+                class="form-input"
+                type="text"
+                placeholder="Phone"
+                name="phone"
+                onkeypress="return event.charCode >= 48 && event.charCode <= 57"
+                maxlength="13"
+              />
+            </div>
+            <div class="col-md-12 mb-3">
+              <input
+                class="form-input"
+                type="email"
+                placeholder="Email"
+                name="email"
+              />
+            </div>
+            <div class="col-md-12 mb-3">
+              <textarea
+                class="form-textarea"
+                placeholder="Message"
+                name="message"
+              ></textarea>
+            </div>
+            <!-- <div class="col-md-12 mb-3">
+              <div class="row">
+                <div class="col-md-6">
+                  <img
+                    src="<?= base_url() ?>mycaptcha/<?= $form_index ?>"
+                    width="100"
+                    height="50"
+                    alt="Security Captcha Code"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    name="captcha"
+                    id="captcha"
+                    autocomplete="off"
+                    class="form-input"
+                    required
+                    placeholder="Enter Captcha Code *"
+                  />
+                </div>
+              </div>
+            </div> -->
+            <!-- <div class="col-md-12 mb-3">
+              <input
+                type="hidden"
+                name="url_from"
+                value="<?= current_url() ?>"
+              />
+              <input
+                type="hidden"
+                name="form_name"
+                value="<?= $form_index ?>"
+              /> -->
+            <!-- <input type="hidden" name="page_name" value="Contact Us Page" />
+              <input type="hidden" name="source" value="" /> -->
+            <button
+              id="submit_<?= $form_index ?>"
+              class="primary-btn hvr-bounce-to-right green-btn mt-2 primary-btn-submit"
+              type="submit"
+              value="Submit"
+            >
+              <span>Submit</span>
+            </button>
+            <div class="col-md-12">
+              <div
+                style="
+                  font-weight: bold;
+                  color: #fb4c42;
+                  font-size: 17px !important;
+                "
+                id="error"
+              ></div>
+              <div
+                style="
+                  font-weight: bold;
+                  color: #7ac142;
+                  font-size: 17px !important;
+                "
+                id="success_<?= $form_index ?>"
+              ></div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6 talk-to-us-right col-12">
+          <div class="talk-to-us-image">
+            <img src="../../assets/img/face.webp" alt="face" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <%- include("partials/footer.ejs") %> <%-
+    include("partials/footer-tags.ejs") %>
+    <script src="../assets/js/home.js" defer></script>
+  </body>
+</html>

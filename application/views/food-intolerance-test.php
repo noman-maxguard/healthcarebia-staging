@@ -28,17 +28,33 @@
 }
 </script>
 
-    <script type="application/ld+json">
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "position": 1, "name": "Home", "item": "https://healthcarebia.ae/" },
-    { "position": 2, "name": "Allergy & Food Intolerance Tests", "item": "https://healthcarebia.ae/allergy-food-intolerance-tests" },
-    { "position": 3, "name": "Food Intolerance - Extended (200+ foods)", "item": "https://healthcarebia.ae/food-intolerance-extended" }
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://healthcarebia.ae/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Allergy & Food Intolerance Tests",
+      "item": "https://healthcarebia.ae/allergy-food-intolerance-tests"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Food Intolerance - Extended (200+ foods)",
+      "item": "https://healthcarebia.ae/food-intolerance-extended"
+    }
   ]
 }
 </script>
+
 
 
     <?php include 'includes/inc_head_tag.php'; ?>

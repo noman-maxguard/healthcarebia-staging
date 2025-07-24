@@ -26,17 +26,33 @@
 }
 </script>
 
-    <script type="application/ld+json">
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "position": 1, "name": "Home", "item": "https://healthcarebia.ae/" },
-    { "position": 2, "name": "General Health", "item": "https://healthcarebia.ae/general-health" },
-    { "position": 3, "name": "Psoriasis Investigation", "item": "https://healthcarebia.ae/psoriasis-investigation" }
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://healthcarebia.ae/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "General Health",
+      "item": "https://healthcarebia.ae/general-health"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Psoriasis Investigation",
+      "item": "https://healthcarebia.ae/psoriasis-investigation"
+    }
   ]
 }
 </script>
+
 
     <?php include 'includes/inc_head_tag.php'; ?>
 

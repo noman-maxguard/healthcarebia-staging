@@ -3,77 +3,78 @@
 <head>
     <!-- Schema.org FAQ & MedicalProcedure Markup -->
     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
     {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How long does a Gut Health IV Drip session last?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A standard Gut Health IV Drip session in Dubai usually takes between 30 and 60 minutes and can be delivered wherever you’re most comfortable."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Who should consider receiving a Gut Health IV Drip?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "If you struggle with acidity, indigestion, bloating or other digestive issues, this tailored therapy can help soothe and restore balance to your gut."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How quickly can I expect relief from my symptoms?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Many clients notice a reduction in acidity and discomfort within just a few hours of treatment."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How often should I schedule a Gut Health IV Drip?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Your provider will recommend a schedule based on your individual needs—most people start with weekly or bi-weekly sessions."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is the Gut Health IV Drip safe?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Our DHA-certified nurses follow strict protocols—from sterile setup to continuous monitoring—to keep you completely safe."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are there any side effects?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Side effects are uncommon. If they occur, you may see minor bruising or brief redness at the injection site, which resolves quickly."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What nutrients are in a Gut Health IV Drip and how do they support digestion?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Our blend combines glutamine and glycine to help repair the stomach lining, glutathione to neutralize free radicals, and trace minerals to support digestive enzymes and reduce inflammation."
-          }
-        }
-        {
-          "@type": "Question",
-          "name": "How does Gut Health IV Drip therapy support overall digestive wellness?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Gut Health IV Drip therapy delivers nutrients directly into the bloodstream for faster absorption, helping with hydration and nutrient levels. Its effects on digestive wellness can vary, so it's best to consult a healthcare provider to see if it's right for you."
-          }
-        }
-      ]
+      "@type": "Question",
+      "name": "How long does a Gut Health IV Drip session last?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A standard Gut Health IV Drip session in Dubai usually takes between 30 and 60 minutes and can be delivered wherever you’re most comfortable."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who should consider receiving a Gut Health IV Drip?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "If you struggle with acidity, indigestion, bloating or other digestive issues, this tailored therapy can help soothe and restore balance to your gut."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How quickly can I expect relief from my symptoms?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Many clients notice a reduction in acidity and discomfort within just a few hours of treatment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often should I schedule a Gut Health IV Drip?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your provider will recommend a schedule based on your individual needs—most people start with weekly or bi-weekly sessions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the Gut Health IV Drip safe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Our DHA-certified nurses follow strict protocols—from sterile setup to continuous monitoring—to keep you completely safe."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there any side effects?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Side effects are uncommon. If they occur, you may see minor bruising or brief redness at the injection site, which resolves quickly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What nutrients are in a Gut Health IV Drip and how do they support digestion?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our blend combines glutamine and glycine to help repair the stomach lining, glutathione to neutralize free radicals, and trace minerals to support digestive enzymes and reduce inflammation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Gut Health IV Drip therapy support overall digestive wellness?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gut Health IV Drip therapy delivers nutrients directly into the bloodstream for faster absorption, helping with hydration and nutrient levels. Its effects on digestive wellness can vary, so it's best to consult a healthcare provider to see if it's right for you."
+      }
     }
-    </script>
+  ]
+}
+</script>
+
 
     <!-- MedicalProcedure Schema -->
     <script type="application/ld+json">

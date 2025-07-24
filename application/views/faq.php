@@ -382,13 +382,22 @@
                             <p>Elective vitamin drips are usually self-pay. Insurers reimburse only when a DHA-licensed doctor prescribes the IV for a medical condition such as dehydration or iron deficiency, and prior approval is obtained.</p>
                         </div>
                     </div>
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>16</span>Can I schedule regular IV therapy sessions for ongoing wellness?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Yes. Many clients choose to schedule weekly or bi-weekly IV therapy for maintenance, especially during Dubai’s intense summer months or high-stress periods. Regular sessions can help sustain energy, immunity, hydration, and skin glow.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="accordion pt-md-3">
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>16</span>Are there side effects to IV therapy?</h5>
+                            <h5><span>17</span>Are there side effects to IV therapy?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -397,7 +406,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>17</span>Is IV therapy safe for elderly patients?</h5>
+                            <h5><span>18</span>Is IV therapy safe for elderly patients?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -406,7 +415,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>18</span>Can IV therapy treat dehydration quickly?</h5>
+                            <h5><span>19</span>Can IV therapy treat dehydration quickly?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -415,7 +424,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>19</span>Which vitamins and minerals can I get in a Dubai IV drip?</h5>
+                            <h5><span>20</span>Which vitamins and minerals can I get in a Dubai IV drip?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -424,7 +433,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>20</span>Can I get emergency IV therapy at home?</h5>
+                            <h5><span>21</span>Can I get emergency IV therapy at home?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -433,7 +442,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>21</span>Is IV therapy safe for children?</h5>
+                            <h5><span>22</span>Is IV therapy safe for children?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -442,7 +451,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>22</span>Which areas of Dubai do you cover for at-home IV?</h5>
+                            <h5><span>23</span>Which areas of Dubai do you cover for at-home IV?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -451,7 +460,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>23</span>Can I get an IV drip after surgery at home?</h5>
+                            <h5><span>24</span>Can I get an IV drip after surgery at home?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -460,7 +469,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>24</span>Do you offer IV drips for hangover recovery in Dubai?</h5>
+                            <h5><span>25</span>Do you offer IV drips for hangover recovery in Dubai?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -469,7 +478,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>25</span>How quickly can I book an IV nurse?</h5>
+                            <h5><span>26</span>How quickly can I book an IV nurse?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -478,7 +487,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>26</span>What ingredients are in your IV drips?</h5>
+                            <h5><span>27</span>What ingredients are in your IV drips?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -487,7 +496,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>27</span>How do I make a complaint about an IV therapy session?</h5>
+                            <h5><span>28</span>How do I make a complaint about an IV therapy session?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -496,7 +505,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>28</span>What’s the risk of infection with at-home IVs?</h5>
+                            <h5><span>29</span>What’s the risk of infection with at-home IVs?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -505,7 +514,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>29</span>Can travelers get IV therapy legally in Dubai?</h5>
+                            <h5><span>30</span>Can travelers get IV therapy legally in Dubai?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -514,11 +523,20 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>30</span>How is my privacy protected during a home IV service?</h5>
+                            <h5><span>31</span>How is my privacy protected during a home IV service?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
                             <p>DHA's 2022 Health Data Protection Policy requires encryption, access logs, and patient consent for any data sharing. Your records sit on NABIDH, and nurses handle all paperwork electronically to keep your personal information secure.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>32</span>Can I combine multiple wellness goals in one drip?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Absolutely. Healthcarebia offers custom IV formulations tailored to your specific needs. A medical consultation helps design the right formula for your wellness priorities.</p>
                         </div>
                     </div>
                 </div>

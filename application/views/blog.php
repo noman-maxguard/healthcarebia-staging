@@ -42,6 +42,14 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>iv-drip-safety-dubai" class="card-style3 card-style4 same">
+                    <img src="<?= base_url() ?>assets/frontend/img/blog14.png" alt="IV Drip Safety and Legality Dubai" class="img-fluid">
+                    <h6>Is IV Drip Therapy Safe and Legal in Dubai?</h6>
+                    <p>Separate myth from fact—learn DHA regulations, safety tips, and what makes IV therapy safe and compliant in Dubai.</p>
+                </a>
+            </div>
+
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>vitamin-d-deficiency-blog" class="card-style3 card-style4 same">
                     <img src="<?= base_url() ?>assets/frontend/img/blog13.jpg" alt="Vitamin D Deficiency Dubai" class="img-fluid">
                     <h6>Vitamin D Deficiency in Dubai: Why Testing Matters</h6>

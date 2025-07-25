@@ -22,6 +22,7 @@
 /* base styles */
 body {
   font-family: var(--body);
+  overflow-x: hidden;
 }
 
 h1,
@@ -33,6 +34,10 @@ h6 {
   font-style: italic;
   font-family: var(--heading);
   color: var(--primary);
+}
+
+section {
+  margin-top: 2em;
 }
 
 .about-us {
@@ -216,7 +221,7 @@ h6 {
   line-height: 1.5;
   color: var(--secondary);
   font-family: var(--body);
-  font-size: 16px;
+  font-size: 18px;
 }
 
 #prev,
@@ -328,6 +333,7 @@ h6 {
   text-align: center;
   color: var(--secondary);
   font-size: 18px;
+  width: 70%;
 }
 
 .talk-to-us-left form {
@@ -399,49 +405,53 @@ h6 {
   min-height: 100vh;
   position: relative;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+  background: #ececec;
+  padding: 2em 0;
 }
 
-.video-bg-media {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 0;
+.services .private-healthcare {
+  margin-top: 1em;
 }
 
-.video-bg-overlay {
-  position: relative;
-  z-index: 1;
+.services p {
+  font-family: var(--body);
+  font-size: 1em;
+  color: var(--secondary);
+  width: 80%;
   text-align: center;
-  padding-top: 3rem;
 }
 
-.services h2 {
-  font-family: "Noto Serif Display", serif;
-  font-style: italic;
-  font-size: 42px;
-  color: #422b1c;
-  margin-bottom: 2rem;
+.carousal-block {
+  width: 100%;
+}
+
+.carousal-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .service-card {
-  /* flex: 0 0 80vw; */
-  /* wider on small screens */
-  max-width: 320px;
+  margin: 2em;
+  width: 300px;
+  height: 300px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   filter: brightness(0.8) saturate(1.5);
   padding: 1.5rem;
-  height: 65vh;
+  /* height: 50vh; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   color: white;
   backdrop-filter: blur(3px);
-  border-radius: 12px;
+  border-radius: 20px;
 }
 
 /* .service-card .service {
@@ -466,82 +476,33 @@ h6 {
   text-align: start;
 }
 
-.card-wrapper {
+/* .card-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.service-card {
+} */
+/* .service-card {
   margin: 2em;
   width: calc(100%/3);
-}
-
-/* Medium Screens */
-@media (min-width: 768px) {
-  .card {
-    margin: 1em;
-    width: calc(90%);
-  }
-}
-
-@media (max-width: 768px) {
-  .service-spacer {
-    flex: 0 0 10vw;
-    /* max-width: 100px; */
-  }
-
-  .card-wrapper {
-    display: flex;
-    /* justify-content: center;
-    align-items: center; */
-    flex-direction: column;
-  }
-
-  .service-card {
-    height: 12em;
-    width: 90%;
-  }
-
-  .service-card p {
-    font-size: 14px;
-  }
-
-  .service-card .service {
-    font-size: 20px;
-  }
-}
-
-/* Large Screens */
-@media (min-width: 1200px) {
-  .service-card {
-    flex: 0 0 25vw;
-    max-width: 400px;
-  }
-
-  .services h2 {
-    font-size: 52px;
-  }
-}
-
+} */
 .end-section {
-  height: 80vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 3rem;
-  background:
-    linear-gradient(rgba(98, 62, 42, 0.6),
-      rgba(98, 62, 42, 0.6)),
-    url(../../img/villa.png) no-repeat center/cover;
+  background-image: url(../img/hands.avif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, .7);
+  background-blend-mode: lighten;
 }
 
 .end-section h1 {
   color: var(--primary);
-  font-family: "Noto Serif Display", serif;
   font-style: italic;
-  font-weight: 400;
   text-align: center;
 }
 
@@ -555,6 +516,13 @@ h6 {
   font-weight: 300;
   font-family: "Poppins", sans-serif;
   letter-spacing: 1px;
+  transition: 0.2s ease;
+}
+
+.end-section button:hover {
+  color: var(--secondary);
+  border: 1px solid var(--secondary);
+  background: transparent;
 }
 
 .end-section .contact-details {
@@ -565,7 +533,7 @@ h6 {
 }
 
 .end-section .contact-details li {
-  color: white;
+  color: var(--secondary);
   font-weight: 500;
   display: flex;
   font-size: 22px;
@@ -574,36 +542,42 @@ h6 {
 }
 
 .end-section .contact-details a {
-  color: white;
+  color: var(--secondary);
   font-weight: 500;
   display: flex;
   font-size: 22px;
   align-items: center;
   justify-content: center;
-}
-
-.end-section .contact-details li img {
-  width: 60px;
+  text-decoration: none;
 }
 
 .end-section .contact-details li i {
-  color: #278d46;
-  font-size: 40px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 18px;
+  background-color: var(--secondary);
+  font-size: 1em;
   margin-right: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  box-sizing: border-box;
 }
 
 @media (max-width: 991.98px) {
   .end-section {
     height: auto;
     padding: 60px 20px;
-    gap: 1rem;
+    gap: 1.5rem;
     background-position: center;
     background-size: cover;
     text-align: center;
   }
 
   .end-section h1 {
-    font-size: 4rem;
     padding: 0 10px;
     letter-spacing: -4px;
   }
@@ -633,4 +607,117 @@ h6 {
     font-size: 28px;
     margin-right: 10px;
   }
+}
+
+.why-choose-us {
+  min-height: 100vh;
+  padding: 2em 1em;
+}
+
+.why-choose-us .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+}
+
+/* Each column takes 100% on small screens, 33% on large */
+.one,
+.two,
+.three {
+  flex: 1 1 100%;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Larger screens: 3 columns */
+@media (min-width: 992px) {
+
+  .one,
+  .two,
+  .three {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+}
+
+.card {
+  width: 100%;
+  max-width: 20em;
+  background-color: #d3d4d3e8;
+  font-family: var(--body);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 2em;
+  margin-bottom: 2em;
+}
+
+.card h3 {
+  font-family: var(--body);
+  font-style: normal;
+}
+
+.card p {
+  color: var(--primary);
+}
+
+.card .img {
+  height: 4em;
+  width: 4em;
+  border-radius: 50%;
+  background-color: var(--secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+
+.card .img img {
+  width: 100%;
+  height: auto;
+}
+
+.two {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Image section */
+.two h1 {
+  font-size: 3rem;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.two div {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+}
+
+.two div img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.one,
+.three {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  /* space between cards */
+}
+
+.one .card,
+.three .card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }

@@ -16,10 +16,43 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"
       defer
     ></script>
+    <link rel="preload" as="image" href="assets/images/poster.jpg" />
+    <link
+      rel="preload"
+      as="video"
+      href="assets/videos/background.mp4"
+      type="video/mp4"
+    />
+
     <%- include('partials/header-tags.ejs') %>
   </head>
   <body>
     <%- include("partials/header.ejs") %>
+    <section class="home">
+      <video
+        autoplay
+        muted
+        loop
+        playsinline
+        class="bg-video"
+        poster="assets/images/poster.jpg"
+      >
+        <source src="../../assets/video/banner-video.mp4" type="video/mp4" />
+      </video>
+      <div class="video-overlay"></div>
+      <div class="intro">
+        <h1>Healing Body, Mind and Soul.</h1>
+        <p>
+          IV Therapy by Healthcarebia; your trusted partner in IV Infusion
+          Therapy,<br />
+          is now available in Dubai.
+        </p>
+        <div class="buttons">
+          <button class="me-3">LEARN MORE</button>
+          <button>GET YOUR PERSONALIZED IV DRIP</button>
+        </div>
+      </div>
+    </section>
     <section class="about-us">
       <div class="about-us-container">
         <div class="about-us-left">
@@ -59,17 +92,13 @@
         </div>
         <div class="about-us-right">
           <div class="image">
-            <!-- <img src="" alt="about us section image" /> -->
+            <img src="../../assets/img/img4.png" alt="about us section image" />
           </div>
           <!-- <div class="image-background"></div> -->
         </div>
       </div>
     </section>
-    <section
-      id="carouselExampleControls"
-      class="services video-bg"
-      id="services"
-    >
+    <section id="carouselExampleControls" class="services" id="services">
       <h1 class="mt-5">Private Healthcare. Redefined.</h1>
       <p>
         Healthcarebia delivers world-class medical care from IV therapy and
@@ -84,7 +113,7 @@
         data-bs-ride="carousel"
       >
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item active" data-bs-interval="3000">
             <div class="carousal-one">
               <div
                 class="service-card"
@@ -136,16 +165,12 @@
               </div>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" data-bs-interval="3000">
             <div class="carousal-one">
               <div
                 class="service-card"
                 style="
-                  background-image: url('assets/frontend/img/human-first.jpg');
-                  background-size: cover;
-                  background-position: center;
-                  background-repeat: no-repeat;
-                  filter: brightness(0.8) saturate(1.5);
+                  background-image: url('../../assets/img/human-first.jpg');
                 "
               >
                 <p class="service">Human-First Protocols2</p>
@@ -156,13 +181,7 @@
               </div>
               <div
                 class="service-card"
-                style="
-                  background-image: url('assets/frontend/img/service1.jpg');
-                  background-size: cover;
-                  background-position: center;
-                  background-repeat: no-repeat;
-                  filter: brightness(0.8) saturate(1.5);
-                "
+                style="background-image: url('../../assets/img/service1.jpg')"
               >
                 <p class="service">NAD+ IV Drip2</p>
                 <p>
@@ -172,13 +191,7 @@
               </div>
               <div
                 class="service-card"
-                style="
-                  background-image: url('assets/frontend/img/at-home.jpg');
-                  background-size: cover;
-                  background-position: center;
-                  background-repeat: no-repeat;
-                  filter: brightness(0.8) saturate(1.5);
-                "
+                style="background-image: url('../../assets/img/at-home.jpg')"
               >
                 <p class="service">Lab Tests at Home2</p>
                 <p>
@@ -217,7 +230,7 @@
               <img src="../../assets/icons/expertise.svg" alt="expertise" />
             </div>
 
-            <h3 class="mt-5">Expertise</h3>
+            <h3 class="mt-4 mb-3">Expertise</h3>
             <p>
               Our highly experienced team of DHA certified multinational nurses
               and doctors are ready to care for all your needs, customizing your
@@ -229,7 +242,7 @@
               <img src="../../assets/icons/custom-made.svg" alt="expertise" />
             </div>
 
-            <h3 class="mt-5">Custom made</h3>
+            <h3 class="mt-4 mb-3">Custom made</h3>
             <p>
               We use only FDA approved Grade A products from USA/UK, providing
               personalized treatments and maintaining a strict policy against
@@ -249,7 +262,7 @@
               <img src="../../assets/icons/quality.svg" alt="expertise" />
             </div>
 
-            <h3 class="mt-5">Quality</h3>
+            <h3 class="mt-4 mb-3">Quality</h3>
             <p>
               All our products are DHA & MOH approved, and we take pride in
               preparing them freshly for better results.
@@ -260,7 +273,7 @@
               <img src="../../assets/icons/excellence.svg" alt="expertise" />
             </div>
 
-            <h3 class="mt-5">Excellence</h3>
+            <h3 class="mt-4 mb-3">Excellence</h3>
             <p>
               With over 30+ years of collective expertise in IV Therapy, we are
               committed to enhancing your well being through our excellence in
@@ -275,7 +288,7 @@
       <div class="swiper myTestimonials">
         <div class="swiper-wrapper">
           <div class="swiper-slide slide slide1">
-            <h2>Testimonials</h2>
+            <h1>Testimonials</h1>
             <div class="testimonial-item">
               <div class="testimonial-video-div">
                 <div class="testimonial-video-wrapper">
@@ -301,7 +314,7 @@
             </div>
           </div>
           <div class="swiper-slide slide slide2">
-            <h2>Testimonials</h2>
+            <h1>Testimonials</h1>
             <div class="testimonial-item">
               <div class="testimonial-video-div">
                 <div class="testimonial-video-wrapper">
@@ -327,7 +340,7 @@
             </div>
           </div>
           <div class="swiper-slide slide slide3">
-            <h2>Testimonials</h2>
+            <h1>Testimonials</h1>
             <div class="testimonial-item">
               <div class="testimonial-video-div">
                 <div class="testimonial-video-wrapper">
@@ -489,7 +502,7 @@
           >
         </li>
         <li>
-          <a href="https://wa.me/971547077476"
+          <a href="https://wa.me/971547077476" target="_blank"
             ><i class="fab fa-whatsapp"></i>+971 54 707 7476</a
           >
         </li>

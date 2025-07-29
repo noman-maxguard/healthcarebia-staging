@@ -53,3 +53,4 @@ node_modules/        # if you ever add Node tooling
 /warranty_test
 /ads/vendor
 /ads/ci_sessions
+/ci_sessions

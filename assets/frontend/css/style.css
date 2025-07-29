@@ -1239,6 +1239,13 @@ ul.fot-link li a {
   flex-direction: column;
 }
 
+.icon-box p {
+  font-family: "Poppins",
+    sans-serif;
+  font-size: 13px;
+  margin-left: 20px;
+}
+
 .mega-item .hed .img {
   margin-right: 15px
 }

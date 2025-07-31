@@ -4,29 +4,30 @@
 
 <head>
     <script type="application/ld+json">
-        {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "name": "Women's Health Screening at Home",
-        "serviceType": "Home Medical Diagnostics",
-        "description": "Convenient and private home diagnostic packages for women, including fertility, hormone, thyroid, PCOS and cancer screening profiles by DHA-licensed professionals in Dubai.",
-        "url": "https://healthcarebia.ae/womens-health",
-        "provider": {
-            "@id": "https://healthcarebia.ae/#medicalorganization"
-        },
-        "areaServed": {
-            "@type": "Place",
-            "name": "Dubai, United Arab Emirates"
-        },
-        "availableChannel": {
-            "@type": "ServiceChannel",
-            "serviceLocation": {
-            "@type": "Place",
-            "name": "At-Home and Hotel Services in Dubai"
-            }
-        }
-        }
-    </script>
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "The Myers Cocktail IV Drip: A Powerful Vitamin Infusion for Energy & Wellness",
+  "description": "Discover the benefits of the Myers Cocktail IV Drip — a potent blend of vitamins and minerals for energy, immunity, and overall wellness. Learn how this popular IV therapy supports fatigue, stress, muscle cramps, and nutrient absorption.",
+  "url": "https://healthcarebia.ae/the-myers-cocktail-iv-drip",
+  "mainEntityOfPage": "https://healthcarebia.ae/the-myers-cocktail-iv-drip",
+  "datePublished": "2025-07-31",
+  "author": {
+    "@type": "Organization",
+    "name": "Healthcarebia",
+    "url": "https://healthcarebia.ae"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Healthcarebia",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://healthcarebia.ae/assets/frontend/img/logo.webp"
+    }
+  }
+}
+</script>
+
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",

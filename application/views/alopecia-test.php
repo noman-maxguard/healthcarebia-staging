@@ -1,42 +1,57 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <script type="application/ld+json">
+<!-- Service (semantic, not rich-result) -->
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Service",
+  "@id": "https://www.healthcarebia.ae/general-health#service",
   "name": "General Health Tests at Home",
-  "serviceType": "Home Medical Diagnostics",
-  "description": "Comprehensive general health testing services at home in Dubai, including alopecia, hair loss, vitiligo, psoriasis investigations, and annual health checkups, delivered by DHA-licensed professionals.",
-  "url": "https://healthcarebia.ae/general-health",
-  "provider": {
-    "@id": "https://healthcarebia.ae/#medicalorganization"
-  },
-  "areaServed": {
-    "@type": "Place",
-    "name": "Dubai, United Arab Emirates"
-  },
+  "serviceType": "Home medical diagnostics",
+  "description": "Comprehensive at-home general-health testing in Dubai, covering alopecia, hair loss, vitiligo, psoriasis, and annual check-ups. Samples collected by DHA-licensed professionals.",
+  "url": "https://www.healthcarebia.ae/general-health",
+  "provider": { "@id": "https://www.healthcarebia.ae/#organization" },
+  "areaServed": { "@type": "City", "name": "Dubai" },
   "availableChannel": {
     "@type": "ServiceChannel",
     "serviceLocation": {
       "@type": "Place",
-      "name": "At-Home and Hotel Services in Dubai"
+      "name": "At-home and hotel locations within Dubai"
     }
   }
 }
 </script>
 
-    <script type="application/ld+json">
+<!-- Breadcrumbs (match visible trail & canonical host) -->
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
+  "@id": "https://www.healthcarebia.ae/#breadcrumbs",
   "itemListElement": [
-    { "position": 1, "name": "Home", "item": "https://healthcarebia.ae/" },
-    { "position": 2, "name": "General Health", "item": "https://healthcarebia.ae/general-health" },
-    { "position": 3, "name": "Alopecia Test", "item": "https://healthcarebia.ae/alopecia-test" }
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.healthcarebia.ae/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "General Health",
+      "item": "https://www.healthcarebia.ae/general-health"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Alopecia Test",
+      "item": "https://www.healthcarebia.ae/alopecia-test"
+    }
   ]
 }
 </script>
+
 
     <?php include 'includes/inc_head_tag.php'; ?>
 </head>

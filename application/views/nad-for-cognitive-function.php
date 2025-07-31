@@ -2,22 +2,34 @@
 <html lang="en">
 <head>
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "NAD+ for Cognitive Function",
-        "url": "https://healthcarebia.ae/blog/nad-for-cognitive-function",
-        "author": {
-          "@type": "MedicalBusiness",
-          "@id": "https://healthcarebia.ae/#medicalbusiness"
-        },
-        "publisher": {
-          "@type": "MedicalBusiness",
-          "@id": "https://healthcarebia.ae/#medicalbusiness"
-        },
-        "mainEntityOfPage": "https://healthcarebia.ae/nad-for-cognitive-function"
-      }
-    </script>
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "NAD+ for Cognitive Function",
+  "description": "Discover how NAD+ IV therapy can boost brain performance, reduce executive fatigue, and enhance multitasking capabilities for CEOs and professionals in Dubai.",
+  "url": "https://healthcarebia.ae/blog/nad-for-cognitive-function",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://healthcarebia.ae/blog/nad-for-cognitive-function"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "Healthcarebia",
+    "url": "https://healthcarebia.ae"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Healthcarebia",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://healthcarebia.ae/assets/frontend/img/logo.webp"
+    }
+  },
+  "datePublished": "2025-07-31",
+  "dateModified": "2025-07-31"
+}
+</script>
+
 
     <?php include 'includes/inc_head_tag.php'; ?>
     <style>
@@ -153,6 +165,8 @@
 
                     <h5>Is NAD+ Therapy Right for You?</h5>
                     <p>If you’re a leader who refuses to tolerate brain fog, mental fatigue, or performance dips, NAD+ IV therapy could be your strategic edge. Discover how it integrates with our Strategic Achiever wellness approach.</p>
+                    <p>All IV drips at Healthcarebia are administered in accordance with Dubai Health Authority (DHA) guidelines, and our protocols align with NABID best practices and the Shryan clinical framework to ensure maximum safety, efficacy, and compliance.</p>
+
                     <ul class="tick-list">
                         <li>A medically supervised, bespoke treatment session — not a cookie-cutter <a href="<?= base_url() ?>iv-drip-dubai">IV drip</a></li>
                         <li>DHA-certified practitioners you can trust</li>

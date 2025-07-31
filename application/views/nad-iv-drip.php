@@ -793,6 +793,55 @@
 
 
                     </div>
+                    <div class="accordion-box">
+
+
+
+
+
+                        <div class="accordion-item">
+
+
+
+
+
+                            <h5><span>5</span>Is NAD+ IV therapy safe for everyone?</h5>
+
+
+
+
+
+                            <span class="plus-minus"></span>
+
+
+
+
+
+                        </div>
+
+
+
+
+
+                        <div class="data">
+
+
+
+
+
+                            <p>Most individuals tolerate NAD+ IV therapy well, but it's always recommended to consult with a healthcare provider before beginning, especially if you have existing medical conditions or are taking medications.</p>
+
+
+
+
+
+                        </div>
+
+
+
+
+
+                    </div>
 
 
 
@@ -830,7 +879,7 @@
 
 
 
-                            <h5><span>5</span>How long do the effects of NAD+ IV therapy last?</h5>
+                            <h5><span>6</span>How long do the effects of NAD+ IV therapy last?</h5>
 
 
 
@@ -888,7 +937,7 @@
 
 
 
-                            <h5><span>6</span>How does NAD+ IV therapy compare to other IV drip treatments?</h5>
+                            <h5><span>7</span>How does NAD+ IV therapy compare to other IV drip treatments?</h5>
 
 
 
@@ -946,7 +995,7 @@
 
 
 
-                            <h5><span>7</span>How soon will I feel the effects of NAD+ IV therapy?</h5>
+                            <h5><span>8</span>How soon will I feel the effects of NAD+ IV therapy?</h5>
 
 
 
@@ -990,11 +1039,20 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>8</span> Is NAD+ IV therapy effective for anti-aging?</h5>
+                            <h5><span>9</span> Is NAD+ IV therapy effective for anti-aging?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
                             <p>Yes, NAD+ IV therapy is highly effective for anti-aging. It promotes cellular rejuvenation, enhances DNA repair, boosts energy levels, improves cognitive function, and reduces signs of aging by increasing NAD+ levels directly in your cells.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>10</span>How much does NAD+ IV therapy cost?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Healthcarebia offers, IV drip sessions starting from AED 850. We also offer customizable formulations based on your health goals and budget. Our medical team will help tailor the therapy that suits you best.</p>
                         </div>
                     </div>
 

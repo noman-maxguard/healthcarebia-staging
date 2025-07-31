@@ -1,23 +1,44 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <script type="application/ld+json">
-        {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "At-Home STD Testing",
-        "url": "https://healthcarebia.ae/at-home-std-testing",
-        "author": {
-            "@type": "MedicalBusiness",
-            "@id": "https://healthcarebia.ae/#medicalbusiness"
-        },
-        "publisher": {
-            "@type": "MedicalBusiness",
-            "@id": "https://healthcarebia.ae/#medicalbusiness"
-        },
-        "mainEntityOfPage": "https://healthcarebia.ae/at-home-std-testing"
-        }
-    </script>
+    <!-- SEO-ready JSON-LD for this article -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://www.healthcarebia.ae/at-home-std-testing#blog",
+  "headline": "Confidential and Convenient: At-Home STD Testing for Your Peace of Mind",
+  "description": "Learn how discreet at-home STD testing in Dubai protects your privacy, saves time, and provides accurate results delivered by DHA-licensed professionals.",
+  "url": "https://www.healthcarebia.ae/at-home-std-testing",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.healthcarebia.ae/at-home-std-testing"
+  },
+  "datePublished": "2025-07-31",
+  "dateModified": "2025-07-31",
+  "author": {
+    "@type": "Organization",
+    "@id": "https://www.healthcarebia.ae/#medicalbusiness",
+    "name": "Healthcarebia"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.healthcarebia.ae/#medicalbusiness",
+    "name": "Healthcarebia",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.healthcarebia.ae/assets/frontend/img/logo.webp"
+    }
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://www.healthcarebia.ae/assets/frontend/img/small-banner.png",
+    "width": 1200,
+    "height": 630
+  }
+}
+</script>
+
 
     <?php include 'includes/inc_head_tag.php'; ?>
 
@@ -93,7 +114,8 @@
                         offering flexibility in testing, at-home kits empower individuals to prioritize their sexual
                         well-being at their own convenience. Remember, regular testing and open communication with your
                         healthcare provider are key to maintaining a healthy and responsible approach to sexual
-                        health.</p></div>
+                        health.</p><p>All IV drips at Healthcarebia are administered in accordance with Dubai Health Authority (DHA) guidelines, and our protocols align with NABID best practices and the Shryan clinical framework to ensure maximum safety, efficacy, and compliance.</p>
+</div>
             </div>
         </div>
     </div>

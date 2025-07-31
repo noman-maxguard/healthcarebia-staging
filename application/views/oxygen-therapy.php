@@ -5,7 +5,7 @@
 <head>
 
     <?php include 'includes/inc_head_tag.php'; ?>
-    <script type="application/ld+json">
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -14,8 +14,13 @@
   "description": "Boost energy, mental clarity, and recovery with at-home Oxygen Therapy in Dubai. Administered by DHA-licensed healthcare professionals via portable oxygen delivery systems.",
   "url": "https://healthcarebia.ae/oxygen-therapy",
   "provider": {
-    "@type": "MedicalBusiness",
-    "@id": "https://healthcarebia.ae/#medicalbusiness"
+    "@type": "Organization",
+    "name": "Healthcarebia",
+    "url": "https://healthcarebia.ae",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://healthcarebia.ae/assets/frontend/img/logo.webp"
+    }
   },
   "areaServed": {
     "@type": "Place",
@@ -30,6 +35,7 @@
   }
 }
 </script>
+
 
 
 

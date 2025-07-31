@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <script type="application/ld+json">
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -12,8 +12,8 @@
   "description": "Get DHA-licensed doctors at your doorstep in Dubai for non-emergency consultations, treatment of minor illnesses and injuries, and follow-up care. Available 7 days a week.",
   "url": "https://healthcarebia.ae/doctor-on-call",
   "provider": {
-    "@type": "MedicalBusiness",
-    "@id": "https://healthcarebia.ae/#medicalbusiness"
+    "@type": "MedicalOrganization",
+    "@id": "https://healthcarebia.ae/#medicalorganization"
   },
   "areaServed": {
     "@type": "Place",
@@ -85,6 +85,7 @@
   ]
 }
 </script>
+
 
     <?php include 'includes/inc_head_tag.php'; ?>
 

@@ -240,6 +240,8 @@
                     
                     <h5>Final Thoughts: Is the Myers Cocktail IV Right for You?</h5>
                     <p>The Myers Cocktail IV drip is a powerful, science-backed therapy designed to deliver essential vitamins and minerals for energy, immunity, and wellness.</p>
+                    <p>All IV drips at Healthcarebia are administered in accordance with Dubai Health Authority (DHA) guidelines, and our protocols align with NABID best practices and the Shryan clinical framework to ensure maximum safety, efficacy, and compliance.</p>
+
                     <p><strong>Key Takeaways:</strong></p>
                     <ul class="tick-list">
                         <li>Developed by Dr. John Myers, this intravenous vitamin therapy has been used for decades.</li>

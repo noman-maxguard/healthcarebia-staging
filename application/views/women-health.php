@@ -2,6 +2,33 @@
 <html lang="en">
 <head>
     <?php include 'includes/inc_head_tag.php'; ?>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalTest",
+  "name": "Female Cancer Screening",
+  "description": "A comprehensive female cancer screening that tests for 7 biomarkers including AFP, CA-125, CA 15.3, and CEA. Offered with DHA-licensed nurses and home blood sample collection across Dubai.",
+  "url": "https://healthcarebia.ae/female-cancer-screening",
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "Healthcarebia",
+    "value": "FCS-600-AE"
+  },
+  "usesDevice": {
+    "@type": "MedicalDevice",
+    "name": "Laboratory Blood Analyzer"
+  },
+  "testingLocation": {
+    "@type": "Place",
+    "name": "Healthcarebia Home Service - Dubai",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Dubai",
+      "addressCountry": "AE"
+    }
+  }
+}
+</script>
 
 
 </head>

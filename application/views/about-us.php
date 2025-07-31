@@ -3,7 +3,16 @@
 <html lang="en">
 
 <head>
-
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.healthcarebia.ae/" },
+    { "@type": "ListItem", "position": 2, "name": "About Us", "item": "https://www.healthcarebia.ae/about-us" }
+  ]
+}
+</script>
     <?php include 'includes/inc_head_tag.php'; ?>
 
 </head>
@@ -61,7 +70,7 @@
 
                 <h2>Healthcarebia</h2>
 
-                <p>At HEALTHCAREBIA, we prioritize personalized care, providing dedicated attention and a commitment to
+                <p>Healthcarebia is the GCC’s First Concierge Wellness Service merging Luxury, Diagnostics & Rejuvenation with Privacy & Precision to your doorstep. We prioritize personalized care, providing dedicated attention and a commitment to
 
                     client satisfaction. From the initial contact to the completion of our services, we strive to
 

@@ -6,22 +6,42 @@
     <meta name="keywords" content="iv drip therapy dubai, athletic recovery dubai, sports hydration iv, magnesium iv dubai, performance drip dubai, recovery iv, custom blood test dubai, IV vitamin dubai">
 
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "How IV Drip Therapy Enhances Athletic Performance and Recovery in Dubai",
-        "url": "https://healthcarebia.ae/blog/athletic-iv-drip-dubai",
-        "author": {
-          "@type": "MedicalBusiness",
-          "@id": "https://healthcarebia.ae/#medicalbusiness"
-        },
-        "publisher": {
-          "@type": "MedicalBusiness",
-          "@id": "https://healthcarebia.ae/#medicalbusiness"
-        },
-        "mainEntityOfPage": "https://healthcarebia.ae/blog/athletic-iv-drip-dubai"
-      }
-    </script>
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://www.healthcarebia.ae/blog/athletic-iv-drip-dubai#blog",
+  "headline": "How IV Drip Therapy Enhances Athletic Performance and Recovery in Dubai",
+  "description": "Discover how DHA-licensed at-home IV drip therapy in Dubai helps athletes beat dehydration, speed muscle recovery, and maintain peak performance—backed by science.",
+  "url": "https://www.healthcarebia.ae/blog/athletic-iv-drip-dubai",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.healthcarebia.ae/blog/athletic-iv-drip-dubai"
+  },
+  "datePublished": "2025-07-31",
+  "dateModified": "2025-07-31",
+  "author": {
+    "@type": "Organization",
+    "@id": "https://www.healthcarebia.ae/#medicalbusiness",
+    "name": "Healthcarebia"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://www.healthcarebia.ae/#medicalbusiness",
+    "name": "Healthcarebia",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.healthcarebia.ae/assets/frontend/img/logo.webp"
+    }
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://www.healthcarebia.ae/assets/frontend/img/blog-athletic-iv.webp",
+    "width": 1200,
+    "height": 630
+  }
+}
+</script>
+
 
     <?php include 'includes/inc_head_tag.php'; ?>
     <style>
@@ -182,6 +202,8 @@
                     <p>IV therapy is safe for most healthy athletes, yet a few conditions call for caution. People with kidney disease must avoid high magnesium doses. Those with certain heart conditions or uncontrolled hypertension need a cardiology review before any drip. Anyone who has failed a previous IV tolerance test should start with a small volume under doctor supervision. Pregnant athletes can use basic saline and vitamins yet should skip high dose antioxidants unless their obstetrician approves. Always share your medical history with the nurse so the team can tailor the protocol or offer an oral alternative if needed.</p>
 
                     <h5>Safety, Licensing and Anti-Doping Checks</h5>
+                    <p>All IV drips at Healthcarebia are administered in accordance with Dubai Health Authority (DHA) guidelines, and our protocols align with NABID best practices and the Shryan clinical framework to ensure maximum safety, efficacy, and compliance.</p>
+
                     <ul class="tick-list">
                         <li>DHA licenses: every nurse holds an active Dubai Health Authority badge and renews skills each year.</li>
                         <li>Single-use gear is opened on site; lines and needles are never reused.</li>

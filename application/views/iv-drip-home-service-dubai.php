@@ -2,22 +2,35 @@
 <html lang="en">
 <head>
     <script type="application/ld+json">
-        {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "IV Drip Home Service Dubai",
-        "url": "https://healthcarebia.ae/iv-drip-home-service-dubai",
-        "author": {
-            "@type": "MedicalBusiness",
-            "@id": "https://healthcarebia.ae/#medicalbusiness"
-        },
-        "publisher": {
-            "@type": "MedicalBusiness",
-            "@id": "https://healthcarebia.ae/#medicalbusiness"
-        },
-        "mainEntityOfPage": "https://healthcarebia.ae/iv-drip-home-service-dubai"
-        }
-    </script>
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "IV Drip Home Service Dubai",
+  "url": "https://healthcarebia.ae/iv-drip-home-service-dubai",
+  "author": {
+    "@type": "Organization",
+    "@id": "https://healthcarebia.ae/#organization",
+    "name": "Healthcarebia"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://healthcarebia.ae/#organization",
+    "name": "Healthcarebia",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://healthcarebia.ae/assets/frontend/img/logo.webp"
+    }
+  },
+  "datePublished": "2025-07-31",
+  "dateModified": "2025-07-31",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://healthcarebia.ae/iv-drip-home-service-dubai"
+  },
+  "description": "What to expect during your first IV drip at home session in Dubai. Learn how at-home IV therapy works, who it’s for, safety tips, and how it’s administered by DHA-licensed nurses."
+}
+</script>
+
 
     <?php include 'includes/inc_head_tag.php'; ?>
     <style>
@@ -164,6 +177,8 @@
 
                     <h5>Any Side Effects?</h5>
                     <p>Minor ones are rare, but you might experience slight bruising or a little redness at the site. These usually clear up quickly and don't require any extra care.</p>
+                    <p>All IV drips at Healthcarebia are administered in accordance with Dubai Health Authority (DHA) guidelines, and our protocols align with NABID best practices and the Shryan clinical framework to ensure maximum safety, efficacy, and compliance.</p>
+
 
                     <h5>FAQs</h5>
                     <ol>

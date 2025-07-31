@@ -2,22 +2,35 @@
 <html lang="en">
 <head>
     <script type="application/ld+json">
-        {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "Goodbye Hangovers",
-        "url": "https://healthcarebia.ae/goodbye-hangovers",
-        "author": {
-            "@type": "MedicalBusiness",
-            "@id": "https://healthcarebia.ae/#medicalbusiness"
-        },
-        "publisher": {
-            "@type": "MedicalBusiness",
-            "@id": "https://healthcarebia.ae/#medicalbusiness"
-        },
-        "mainEntityOfPage": "https://healthcarebia.ae/goodbye-hangovers"
-        }
-    </script>
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Goodbye Hangovers: How IV Drip Therapy Provides Quick Relief",
+  "description": "Explore how IV therapy with vitamins, minerals, and antioxidants offers fast hangover relief by rehydrating the body and replenishing depleted nutrients.",
+  "datePublished": "2025-07-31",
+  "dateModified": "2025-07-31",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://healthcarebia.ae/goodbye-hangovers"
+  },
+  "url": "https://healthcarebia.ae/goodbye-hangovers",
+  "author": {
+    "@type": "Organization",
+    "name": "Healthcarebia",
+    "url": "https://healthcarebia.ae",
+    "@id": "https://healthcarebia.ae/#medicalorganization"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Healthcarebia",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://healthcarebia.ae/assets/frontend/img/logo.webp"
+    }
+  }
+}
+</script>
+
 
     <?php include 'includes/inc_head_tag.php'; ?>
 
@@ -87,7 +100,8 @@
                         Glutathione, and trace minerals which can help replenish depleted nutrients, boosting energy
                         levels, supporting liver function, reducing oxidative stress, and promoting overall recovery. If
                         you're looking to say goodbye to hangovers and get back on your feet swiftly, IV Therapy may be
-                        the solution you've been seeking all along.</p></div>
+                        the solution you've been seeking all along.</p><p>All IV drips at Healthcarebia are administered in accordance with Dubai Health Authority (DHA) guidelines, and our protocols align with NABID best practices and the Shryan clinical framework to ensure maximum safety, efficacy, and compliance.</p>
+</div>
             </div>
         </div>
     </div>

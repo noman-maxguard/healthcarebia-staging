@@ -140,6 +140,8 @@
 		<img src="<?=base_url()?>assets/frontend/img/logo2.png" alt="logo">
 		<h3 style="letter-spacing: -5px;">Who we are</h3>
 		<h5>The GCC’s First Concierge Wellness Service</h5>
+		<p>Healthcarebia is the GCC’s First Concierge Wellness Service merging Luxury, Diagnostics & Rejuvenation with Privacy & Precision to your doorstep.</p>
+		<p>
 		<p>Modern medicine often forgets the most important part of healthcare: the human. Treatment is reactive, rushed, and transactional. Longevity, lifestyle, and individual needs are rarely prioritized. This broken, impersonal system is exactly what led to the birth of Healthcarebia, an unparalleled healthcare experience tailored for high achievers and individuals who are making an impact.</p>
 		<p>
 			Our commitment is unwavering: to provide an unparalleled healthcare experience that aligns with the standards of excellence you uphold in every facet of your life.</p>

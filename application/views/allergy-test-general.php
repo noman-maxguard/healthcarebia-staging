@@ -3,42 +3,60 @@
 <html lang="en">
 
 <head>
-    <script type="application/ld+json">
+<!-- Service (non-rich result but semantically correct) -->
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Service",
+  "@id": "https://www.healthcarebia.ae/allergy-food-intolerance-tests#service",
   "name": "Allergy & Food Intolerance Testing at Home",
-  "serviceType": "Home Allergy and Food Intolerance Testing",
-  "description": "Comprehensive at-home allergy and food intolerance testing services in Dubai, including acne-related allergy investigations and extended food intolerance panels, performed by DHA-licensed healthcare professionals.",
-  "url": "https://healthcarebia.ae/allergy-food-intolerance-tests",
-  "provider": {
-    "@id": "https://healthcarebia.ae/#medicalorganization"
-  },
+  "serviceType": "Home allergy and food-intolerance testing",
+  "description": "Comprehensive at-home allergy and food-intolerance testing in Dubai, including acne-related allergy investigations and extended intolerance panels. Samples collected by DHA-licensed healthcare professionals.",
+  "url": "https://www.healthcarebia.ae/allergy-food-intolerance-tests",
+  "provider": { "@id": "https://www.healthcarebia.ae/#organization" },
   "areaServed": {
-    "@type": "Place",
-    "name": "Dubai, United Arab Emirates"
+    "@type": "City",
+    "name": "Dubai"
   },
   "availableChannel": {
     "@type": "ServiceChannel",
     "serviceLocation": {
       "@type": "Place",
-      "name": "At-Home and Hotel Services in Dubai"
+      "name": "At-home and hotel locations within Dubai"
     }
   }
 }
 </script>
 
-    <script type="application/ld+json">
+<!-- Breadcrumbs (update to match visible nav & canonical host) -->
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
+  "@id": "https://www.healthcarebia.ae/#breadcrumbs",
   "itemListElement": [
-    { "position": 1, "name": "Home", "item": "https://healthcarebia.ae/" },
-    { "position": 2, "name": "Allergy & Food Intolerance Tests", "item": "https://healthcarebia.ae/allergy-food-intolerance-tests" },
-    { "position": 3, "name": "Allergy Test - General (40+ Food Intolerance and Respiratory)", "item": "https://healthcarebia.ae/allergy-test-general" }
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.healthcarebia.ae/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Allergy & Food Intolerance Tests",
+      "item": "https://www.healthcarebia.ae/allergy-test-general"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Allergy Test – General",
+      "item": "https://www.healthcarebia.ae/allergy-test-general"
+    }
   ]
 }
 </script>
+
 
 
     <?php include 'includes/inc_head_tag.php'; ?>

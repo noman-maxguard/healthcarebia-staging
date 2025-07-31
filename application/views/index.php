@@ -216,9 +216,7 @@
 
                         <h1>Healing Body, Mind and Soul.</h1>
 
-                        <p>IV Therapy by Healthcarebia; your trusted partner in IV Infusion Therapy, is now available in
-
-                            Dubai.</p>
+                        <p>Healthcarebia is the GCC’s First Concierge Wellness Service merging Luxury, Diagnostics & Rejuvenation with Privacy & Precision to your doorstep.</p>
 
                         <a href="<?= base_url() ?>about-us" class="primary-btn hvr-bounce-to-right white-btn mt-2">Read More About Us</a>
                         <br>

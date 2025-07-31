@@ -2,22 +2,30 @@
 <html lang="en">
 <head>
     <script type="application/ld+json">
-        {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "Power of NAD+ IV Drips",
-        "url": "https://healthcarebia.ae/power-of-nad-iv-drips",
-        "author": {
-            "@type": "MedicalBusiness",
-            "@id": "https://healthcarebia.ae/#medicalbusiness"
-        },
-        "publisher": {
-            "@type": "MedicalBusiness",
-            "@id": "https://healthcarebia.ae/#medicalbusiness"
-        },
-        "mainEntityOfPage": "https://healthcarebia.ae/power-of-nad-iv-drips"
-        }
-    </script>
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "The Power of NAD+ IV Drips: Enhancing Cellular Health and Energy",
+  "description": "Explore the benefits of NAD+ IV drip therapy, including enhanced energy, anti-aging, brain support, and metabolic performance. Learn how this breakthrough treatment helps boost cellular health.",
+  "url": "https://healthcarebia.ae/power-of-nad-iv-drips",
+  "mainEntityOfPage": "https://healthcarebia.ae/power-of-nad-iv-drips",
+  "datePublished": "2025-07-31",
+  "author": {
+    "@type": "Organization",
+    "name": "Healthcarebia",
+    "url": "https://healthcarebia.ae"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Healthcarebia",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://healthcarebia.ae/assets/frontend/img/logo.webp"
+    }
+  }
+}
+</script>
+
 
     <?php include 'includes/inc_head_tag.php'; ?>
 </head>
@@ -57,6 +65,8 @@
                     <p>Athletic Performance and Recovery: Athletes looking to enhance performance, increase endurance, and accelerate muscle recovery may benefit from incorporating NAD IV sessions into their training regimen.</p>
                     <p>Potential Side Effects and Considerations: While NAD IV drip therapy is generally well-tolerated, it is essential to discuss potential side effects with a healthcare professional before starting treatment. Each individual's health condition can vary, so personalized medical guidance ensures optimal results and safety.</p>
                     <h5>Conclusion:</h5>
+                    <p>All IV drips at Healthcarebia are administered in accordance with Dubai Health Authority (DHA) guidelines, and our protocols align with NABID best practices and the Shryan clinical framework to ensure maximum safety, efficacy, and compliance.</p>
+
                     <p>NAD+ IV therapy, a cutting-edge approach to replenishing NAD levels, offers a promising avenue for optimizing cellular health, energy production, and overall well-being. By delivering NAD+ directly to the bloodstream, these IV drip treatments may unlock an array of benefits, including anti-aging effects, improved cognitive function, enhanced athletic performance, and long-term metabolic support. Speak to our team at Healthcarebia today and experience the full potential of <a href="<?= base_url() ?>nad-iv-drip">NAD+ IV drip therapy</a> to discover a new horizon in cellular function optimization.</p>
                 </div>
             </div>

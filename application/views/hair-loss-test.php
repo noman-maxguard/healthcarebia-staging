@@ -1,16 +1,35 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <script type="application/ld+json">
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": "General Health Tests at Home",
-  "serviceType": "Home Medical Diagnostics",
-  "description": "Comprehensive general health testing services at home in Dubai, including alopecia, hair loss, vitiligo, psoriasis investigations, and annual health checkups, delivered by DHA-licensed professionals.",
-  "url": "https://healthcarebia.ae/general-health",
+  "name": "Hair Loss Test at Home",
+  "serviceType": "Hair Loss Diagnostics",
+  "description": "Hair Loss Test in Dubai – get at-home blood tests to evaluate key biomarkers like Vitamin D, B12, Ferritin, TSH, Zinc, and more. DHA-licensed nurses and rapid results in 12 hours.",
+  "url": "https://healthcarebia.ae/hair-loss-test",
   "provider": {
-    "@id": "https://healthcarebia.ae/#medicalorganization"
+    "@type": "MedicalOrganization",
+    "@id": "https://healthcarebia.ae/#medicalorganization",
+    "name": "Healthcarebia",
+    "url": "https://healthcarebia.ae",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://healthcarebia.ae/assets/frontend/img/logo.webp"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+971547077476",
+      "contactType": "Customer Service",
+      "areaServed": "AE",
+      "availableLanguage": "English"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Dubai",
+      "addressCountry": "AE"
+    }
   },
   "areaServed": {
     "@type": "Place",
@@ -25,6 +44,7 @@
   }
 }
 </script>
+
 
     <script type="application/ld+json">
 {

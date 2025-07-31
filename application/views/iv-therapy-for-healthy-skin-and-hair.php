@@ -2,22 +2,34 @@
 <html lang="en">
 <head>
     <script type="application/ld+json">
-        {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "IV Therapy for Healthy Skin and Hair",
-        "url": "https://healthcarebia.ae/iv-therapy-for-healthy-skin-and-hair",
-        "author": {
-            "@type": "MedicalBusiness",
-            "@id": "https://healthcarebia.ae/#medicalbusiness"
-        },
-        "publisher": {
-            "@type": "MedicalBusiness",
-            "@id": "https://healthcarebia.ae/#medicalbusiness"
-        },
-        "mainEntityOfPage": "https://healthcarebia.ae/iv-therapy-for-healthy-skin-and-hair"
-        }
-    </script>
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Beauty from the Inside Out: IV Therapy for Healthy Skin and Hair",
+  "description": "Discover how IV therapy with glutathione, vitamin C, biotin, and zinc supports glowing skin and strong hair from within. Learn how nutrient infusions promote beauty and wellness.",
+  "author": {
+    "@type": "Organization",
+    "name": "Healthcarebia",
+    "url": "https://healthcarebia.ae"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Healthcarebia",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://healthcarebia.ae/assets/frontend/img/logo.webp"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://healthcarebia.ae/iv-therapy-for-healthy-skin-and-hair"
+  },
+  "url": "https://healthcarebia.ae/iv-therapy-for-healthy-skin-and-hair",
+  "datePublished": "2025-07-31",
+  "dateModified": "2025-07-31"
+}
+</script>
+
 
     <?php include 'includes/inc_head_tag.php'; ?>
 
@@ -90,7 +102,8 @@
                         Glutathione, Vitamin C, Biotin, and Zinc through IV therapy ensures maximum absorption and
                         provides numerous benefits, including improved skin tone, reduced signs of aging, strengthened
                         hair, and enhanced overall beauty. Consider incorporating IV therapy into your beauty routine to
-                        unlock the transformative power of nourishing your body from the inside out.</p></div>
+                        unlock the transformative power of nourishing your body from the inside out.</p><p>All IV drips at Healthcarebia are administered in accordance with Dubai Health Authority (DHA) guidelines, and our protocols align with NABID best practices and the Shryan clinical framework to ensure maximum safety, efficacy, and compliance.</p>
+</div>
             </div>
         </div>
     </div>

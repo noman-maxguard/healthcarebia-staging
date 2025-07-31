@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <script type="application/ld+json">
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -12,8 +12,13 @@
   "description": "Get professional nursing care at your home in Dubai. Services include wound care, injections, IV infusions, post-surgical care, and chronic condition support. All nurses are DHA-licensed.",
   "url": "https://healthcarebia.ae/nurse-at-home",
   "provider": {
-    "@type": "MedicalBusiness",
-    "@id": "https://healthcarebia.ae/#medicalbusiness"
+    "@type": "Organization",
+    "name": "Healthcarebia",
+    "url": "https://healthcarebia.ae",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://healthcarebia.ae/assets/frontend/img/logo.webp"
+    }
   },
   "areaServed": {
     "@type": "Place",
@@ -28,6 +33,7 @@
   }
 }
 </script>
+
 
     <?php include 'includes/inc_head_tag.php'; ?>
 

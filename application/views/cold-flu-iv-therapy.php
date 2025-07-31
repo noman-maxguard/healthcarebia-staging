@@ -2,22 +2,29 @@
 <html lang="en">
 <head>
     <script type="application/ld+json">
-        {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "Cold & Flu IV Therapy",
-        "url": "https://healthcarebia.ae/cold-flu-iv-therapy",
-        "author": {
-            "@type": "MedicalBusiness",
-            "@id": "https://healthcarebia.ae/#medicalbusiness"
-        },
-        "publisher": {
-            "@type": "MedicalBusiness",
-            "@id": "https://healthcarebia.ae/#medicalbusiness"
-        },
-        "mainEntityOfPage": "https://healthcarebia.ae/cold-flu-iv-therapy"
-        }
-    </script>
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Cold & Flu IV Therapy",
+  "url": "https://healthcarebia.ae/cold-flu-iv-therapy",
+  "author": {
+    "@type": "Organization",
+    "@id": "https://healthcarebia.ae/#medicalbusiness",
+    "name": "Healthcarebia"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://healthcarebia.ae/#medicalbusiness",
+    "name": "Healthcarebia",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://healthcarebia.ae/assets/frontend/img/logo.webp"
+    }
+  },
+  "mainEntityOfPage": "https://healthcarebia.ae/cold-flu-iv-therapy"
+}
+</script>
+
 
     <?php include 'includes/inc_head_tag.php'; ?>
     <style>
@@ -273,7 +280,8 @@
                         <li>Cold and Flu IV therapies contain essential vitamins and nutrients that support overall health.</li>
                         <li>Immediate hydration and immune support make cold and Flu IV therapy a fast and effective solution.</li>
                     </ul>
-                    
+                    <p>All IV drips at Healthcarebia are administered in accordance with Dubai Health Authority (DHA) guidelines, and our protocols align with NABID best practices and the Shryan clinical framework to ensure maximum safety, efficacy, and compliance.</p>
+
                 </div>
             </div>
         </div>

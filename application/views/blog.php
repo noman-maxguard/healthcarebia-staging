@@ -1,18 +1,26 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <script type="application/ld+json">
-        {
-        "@context": "https://schema.org",
-        "@type": "Blog",
-        "name": "Healthcarebia Blog",
-        "url": "https://healthcarebia.ae/blog",
-        "publisher": {
-            "@type": "MedicalBusiness",
-            "@id": "https://healthcarebia.ae/#medicalbusiness"
-        }
-        }
-    </script>
+   <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "@id": "https://healthcarebia.ae/blog#blog",
+  "name": "Healthcarebia Blog",
+  "url": "https://healthcarebia.ae/blog",
+  "description": "Expert insights and articles on health testing, IV therapy, wellness, and medical diagnostics in Dubai — powered by DHA-licensed professionals at Healthcarebia.",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://healthcarebia.ae/#medicalbusiness",
+    "name": "Healthcarebia",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://healthcarebia.ae/assets/frontend/img/logo.webp"
+    }
+  }
+}
+</script>
+
     <?php include 'includes/inc_head_tag.php'; ?>
 
 
@@ -41,6 +49,14 @@
 <section class="light-bg-color section-gap">
     <div class="container">
         <div class="row">
+            <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>hydrate-or-crash-blog" class="card-style3 card-style4 same">
+                    <img src="<?= base_url() ?>assets/frontend/img/blog15.jpg" alt="Hydrate or Crash – IV Drips in Dubai" class="img-fluid">
+                    <h6>Hydrate or Crash: Ultimate Summer Recovery with IV Drips</h6>
+                    <p>Dubai’s 45 °C heat is no joke—discover how DHA-licensed, NABIDH-compliant at-home IV drips keep you safe, balanced, and energized.</p>
+                </a>
+            </div>
+
             <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>iv-drip-safety-dubai" class="card-style3 card-style4 same">
                     <img src="<?= base_url() ?>assets/frontend/img/blog14.png" alt="IV Drip Safety and Legality Dubai" class="img-fluid">

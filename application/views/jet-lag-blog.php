@@ -6,22 +6,34 @@
     <meta name="keywords" content="jet lag iv drip dubai, iv therapy dubai, iv drip home service dubai, jet lag relief, iv drip dubai price, glutathione iv drip dubai">
 
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "Jet Lag IV Drip: Relieve Fatigue, Rehydrate & Restore Your Body Clock",
-        "url": "https://healthcarebia.ae/blog/jet-lag-iv-drip",
-        "author": {
-          "@type": "MedicalBusiness",
-          "@id": "https://healthcarebia.ae/#medicalbusiness"
-        },
-        "publisher": {
-          "@type": "MedicalBusiness",
-          "@id": "https://healthcarebia.ae/#medicalbusiness"
-        },
-        "mainEntityOfPage": "https://healthcarebia.ae/blog/jet-lag-iv-drip"
-      }
-    </script>
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Jet Lag IV Drip: Relieve Fatigue, Rehydrate & Restore Your Body Clock",
+  "description": "Explore how Jet Lag IV therapy helps travelers beat fatigue, dehydration, and disrupted sleep patterns. Rebalance your body quickly and safely in Dubai.",
+  "url": "https://healthcarebia.ae/blog/jet-lag-iv-drip",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://healthcarebia.ae/blog/jet-lag-iv-drip"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "Healthcarebia",
+    "url": "https://healthcarebia.ae"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Healthcarebia",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://healthcarebia.ae/assets/frontend/img/logo.webp"
+    }
+  },
+  "datePublished": "2025-07-31",
+  "dateModified": "2025-07-31"
+}
+</script>
+
 
     <?php include 'includes/inc_head_tag.php'; ?>
     <style>
@@ -161,6 +173,8 @@
                     </ul>
 
                     <h5>Safety and Credentials</h5>
+                    <p>All IV drips at Healthcarebia are administered in accordance with Dubai Health Authority (DHA) guidelines, and our protocols align with NABID best practices and the Shryan clinical framework to ensure maximum safety, efficacy, and compliance.</p>
+
                     <p>Your safety and comfort are our top priorities. All our IV therapy protocols and nurses are fully licensed by the Dubai Health Authority (DHA). Our IV drip home service strictly adheres to DHA standards and is supervised by licensed medical professionals.</p>
 
                     <h5>Book Your Jet Lag IV Drip Today</h5>

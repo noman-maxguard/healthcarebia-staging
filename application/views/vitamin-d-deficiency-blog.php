@@ -5,22 +5,30 @@
     <meta name="description" content="Learn why vitamin D deficiency is common in sunny Dubai, who is most at risk, and how simple blood testing can protect your bones, mood, and immunity.">
     <meta name="keywords" content="vitamin d test dubai, vitamin d deficiency uae, vitamin d blood panel, vitamin d home test dubai, immune health dubai, bone health, dha licensed nurse, healthcarebia vitamin d">
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "Vitamin D Deficiency in Dubai: Why Testing Matters",
-        "url": "https://healthcarebia.ae/blog/vitamin-d-deficiency-dubai",
-        "author": {
-          "@type": "MedicalBusiness",
-          "@id": "https://healthcarebia.ae/#medicalbusiness"
-        },
-        "publisher": {
-          "@type": "MedicalBusiness",
-          "@id": "https://healthcarebia.ae/#medicalbusiness"
-        },
-        "mainEntityOfPage": "https://healthcarebia.ae/blog/vitamin-d-deficiency-dubai"
-      }
-    </script>
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Vitamin D Deficiency in Dubai: Why Testing Matters",
+  "description": "Find out why Vitamin D deficiency is common in sunny Dubai, who is most at risk, and how regular testing and simple lifestyle changes can protect your bones, mood, and immune system.",
+  "url": "https://healthcarebia.ae/blog/vitamin-d-deficiency-dubai",
+  "mainEntityOfPage": "https://healthcarebia.ae/blog/vitamin-d-deficiency-dubai",
+  "datePublished": "2025-07-31",
+  "author": {
+    "@type": "Organization",
+    "name": "Healthcarebia",
+    "url": "https://healthcarebia.ae"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Healthcarebia",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://healthcarebia.ae/assets/frontend/img/logo.webp"
+    }
+  }
+}
+</script>
+
     <?php include 'includes/inc_head_tag.php'; ?>
     <style>
     .card-style3 ol,
@@ -204,7 +212,9 @@
                     </ul>
                     <p>Your doctor will interpret your results and create a safe, effective plan—tailored to your needs.</p>
 
-                    <h5>Conclusion & Call to Action</h5>
+                    <h5>Conclusion</h5>
+                    <p>All IV drips at Healthcarebia are administered in accordance with Dubai Health Authority (DHA) guidelines, and our protocols align with NABID best practices and the Shryan clinical framework to ensure maximum safety, efficacy, and compliance.</p>
+
                     <p>Vitamin D deficiency in Dubai is common, but it’s easy to check and treat. Regular testing can protect your bones, boost immunity, and support your mood and energy—no matter how much sun is shining outside.</p>
                     <p>
                         Book your <strong>Vitamin D Blood Panel</strong> today. Our DHA-licensed nurses offer home, hotel, or clinic testing across Dubai. Once you know your number, we’ll help you create a plan for lifelong wellness.

@@ -80,6 +80,8 @@ src="https://www.facebook.com/tr?id=1280000576857900&ev=PageView&noscript=1"
       "name": "Healthcare",
       "url": "https://healthcarebia.ae",
       "logo": "https://healthcarebia.ae/assets/frontend/img/logo.webp",
+      "image": "https://healthcarebia.ae/assets/frontend/img/logo.webp", 
+      "telephone": "+971547077476",
       "parentOrganization": {
         "@type": "Organization",
         "name": "MMZHoldings",
@@ -101,7 +103,7 @@ src="https://www.facebook.com/tr?id=1280000576857900&ev=PageView&noscript=1"
         "https://www.facebook.com/healthcarebia",
         "https://www.linkedin.com/company/healthcarebia",
         "https://www.instagram.com/healthcarebia",
-        "https://goo.gl/maps/abcdefghijkl" 
+        "https://goo.gl/maps/abcdefghijkl"
       ],
       "contactPoint": [{
         "@type": "ContactPoint",
@@ -125,6 +127,7 @@ src="https://www.facebook.com/tr?id=1280000576857900&ev=PageView&noscript=1"
   ]
 }
 </script>
+ 
 
 <!-- JSON LD CODE -->
 <!-- Bing verification -->

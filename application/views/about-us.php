@@ -70,19 +70,9 @@
 
                 <h2>Healthcarebia</h2>
 
-                <p>Healthcarebia is the GCC’s First Concierge Wellness Service merging Luxury, Diagnostics & Rejuvenation with Privacy & Precision to your doorstep. We prioritize personalized care, providing dedicated attention and a commitment to
-
-                    client satisfaction. From the initial contact to the completion of our services, we strive to
-
-                    deliver the highest quality of treatment. Our experienced nurses are fuelled by a strong passion for
-
-                    healing, always putting you first while maintaining professionalism. They possess an innate gift for
-
-                    caring, which we nurture through continuous specialized training and support from our dedicated
-
-                    clinical team. With a genuine desire to help, our nurses embody the essence of compassionate
-
-                    healthcare at HEALTHCAREBIA.</p></div>
+                <p>Healthcarebia is the GCC’s first concierge wellness service, merging luxury, diagnostics and rejuvenation with privacy and precision delivered right to your doorstep. All patient records are securely stored on DHA-approved servers and seamlessly linked to the Dubai Health Authority for real-time oversight, so your data is always safe.</p>
+            <p>We prioritize personalized care, providing dedicated attention and an unwavering commitment to client satisfaction. From your very first contact through to the completion of every service, we focus on delivering the highest quality of treatment. Every procedure follows strict DHA safety protocols, no dangerous practices, only physician-prescribed care you can trust.</p>
+        <p>Our experienced nurses are driven by a passion for healing, always putting you first while maintaining the utmost professionalism. They possess an innate gift for caring, which we continually nurture through specialized training and support from our dedicated clinical team. With a genuine desire to help, our nurses embody the essence of compassionate healthcare at Healthcarebia.</p></div>
 
             <div class="col-lg-8 mt-3" id="counters_3">
 

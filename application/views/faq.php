@@ -370,7 +370,7 @@
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
-                            <p>Prices start from around AED 400 for basic hydration drips and can range up to AED 2,300 or more for complex premium formulations like the Myers Cocktail. The final cost depends on the specific formula, additives, and any additional services like lab tests.</p>
+                            <p>Prices start from around AED 850 for basic hydration drips and can range up to AED 2,300 or more for complex premium formulations like the Myers Cocktail. The final cost depends on the specific formula, additives, and any additional services like lab tests.</p>
                         </div>
                     </div>
                     <div class="accordion-box">

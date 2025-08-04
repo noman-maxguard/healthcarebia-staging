@@ -418,7 +418,7 @@
                     <li><a href="<?= base_url() ?>hangover-iv-drip" class="hvr-underline-from-left menu-line">Post Party
                     IV Drip</a>
                     </li>
-                    <li><a href="<?= base_url() ?>gut-health-iv-drip" class="hvr-underline-from-left menu-line">Gut Heatlh    
+                    <li><a href="<?= base_url() ?>gut-health-iv-drip" class="hvr-underline-from-left menu-line">Gut Health    
                     IV Drip</a>
                     </li>
                     <li><a href="<?= base_url() ?>good-sleep-iv-drip" class="hvr-underline-from-left menu-line">Good Sleep   

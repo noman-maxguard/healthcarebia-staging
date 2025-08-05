@@ -215,9 +215,9 @@
 
                                 <li>CRP C-Reactive Protein</li>
 
-                                <li>Rheumatoid factor (RF) Qualitative test</li>
+                                <li>Rheumatoid factor (RF) Qualitative Test</li>
 
-                                <li>Anti Nuclear Antibodies (ANA)</li>
+                                <li>Anti-Nuclear Antibodies (ANA)</li>
 
                                 <li>Anti-Streptolysin O (ASO)</li>
 
@@ -231,7 +231,7 @@
 
                             <ul class="listing-item4">
 
-                                <li>Experience of Joint Pain, Stiffness, Swelling and reduced Joint Function</li>
+                                <li>Experience of Joint pain, stiffness, swelling, and reduced joint function</li>
 
                                 <li>Medical and Family History of Autoimmune disease, forms of Arthritis</li>
 

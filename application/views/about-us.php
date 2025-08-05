@@ -34,7 +34,7 @@
 
                 <div class="row">
 
-                    <div class="col-12"><h2>About us</h2>
+                    <div class="col-12"><h2>About Us</h2>
 
                         <nav aria-label="breadcrumb">
 
@@ -42,7 +42,7 @@
 
                                 <li><a href="<?= base_url() ?>" class="hvr-underline-from-left menu-line">Home</a></li>
 
-                                <li class="active" aria-current="page">About us</li>
+                                <li class="active" aria-current="page">About Us</li>
 
                             </ul>
 
@@ -156,7 +156,7 @@
 
                                 <p>Personalized care, delivered with heart. Bringing bespoke home healthcare to your
 
-                                    health, your way.s</p></div>
+                                    health, your way.</p></div>
 
                         </div>
 

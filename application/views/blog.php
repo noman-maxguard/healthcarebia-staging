@@ -50,6 +50,13 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>mythbusting-iv-therapy" class="card-style3 card-style4 same">
+                    <img src="<?= base_url() ?>assets/frontend/img/blog16.jpg" alt="Mythbusting IV Therapy – Separating Fact from Fiction" class="img-fluid">
+                    <h6>Myth busting IV Therapy: Separating Fact from Fiction</h6>
+                    <p>Uncover the truth behind common IV drip misconceptions, pain, safety, necessity and learn who really benefits from this cutting-edge therapy.</p>
+                </a>
+            </div>
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>hydrate-or-crash-blog" class="card-style3 card-style4 same">
                     <img src="<?= base_url() ?>assets/frontend/img/blog15.jpg" alt="Hydrate or Crash – IV Drips in Dubai" class="img-fluid">
                     <h6>Hydrate or Crash: Ultimate Summer Recovery with IV Drips</h6>

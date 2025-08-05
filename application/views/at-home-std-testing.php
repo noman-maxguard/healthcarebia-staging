@@ -63,10 +63,10 @@
                         <li class="active" aria-current="page">At-Home STD Testing for Your Peace of Mind</li>
                     </ul>
                     <h4>Confidential and Convenient: At-Home STD Testing for Your Peace of Mind</h4>
-                    <p>Taking care of our sexual health is crucial for overall well-being, but many individuals feel
+                    <p>Taking care of your sexual health is crucial for overall well-being, but many individuals feel
                         uncomfortable or hesitant when it comes to getting tested for sexually transmitted diseases
                         (STDs). Thankfully, advancements in medical technology have made it easier than ever to
-                        prioritize our sexual health without compromising privacy or convenience. In this article, we
+                        prioritize your sexual health without compromising privacy or convenience. In this article, we
                         will explore the benefits of <a href="<?= base_url() ?>std-testing">at-home STD testing</a>, which provides confidential and convenient
                         options for individuals seeking peace of mind.</p>                    <h5>Confidentiality:
                         Protecting Your Privacy</h5>
@@ -99,7 +99,7 @@
                         the results are delivered discreetly and promptly, usually within a few days.</p><h5>
                         Professional Guidance and Support:</h5>
                     <p>While at-home STD testing offers convenience and privacy, it is essential to have access to
-                        professional guidance and support throughout the process. <a href="<?= base_url() ?>">Healthcarebia</a> have a team of trained
+                        professional guidance and support throughout the process. <a href="<?= base_url() ?>">Healthcarebia</a> has a team of trained
                         healthcare professionals available to answer any questions or concerns you may have before,
                         during, or after the testing process. They can provide information about STDs, help you
                         interpret your results, and guide you towards appropriate medical care, if necessary.</p><h5>

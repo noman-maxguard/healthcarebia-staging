@@ -11,7 +11,7 @@
   "@id": "https://www.healthcarebia.ae/general-health#service",
   "name": "General Health Tests at Home",
   "serviceType": "Home medical diagnostics",
-  "description": "Comprehensive at-home general-health testing in Dubai, including alopecia, hair-loss, vitiligo, psoriasis investigations, and annual health check-ups delivered by DHA-licensed professionals.",
+  "description": "Comprehensive at-home general-health testing in Dubai, including alopecia, hair-loss, vitiligo, psoriasis investigations, and annual health check-Ups delivered by DHA-licensed professionals.",
   "url": "https://www.healthcarebia.ae/general-health",
   "provider": { "@id": "https://www.healthcarebia.ae/#organization" },
   "areaServed": { "@type": "City", "name": "Dubai" },
@@ -41,7 +41,7 @@
     {
       "@type": "ListItem",
       "position": 2,
-      "name": "Annual Health Check up",
+      "name": "Annual Health Check-Up",
       "item": "https://www.healthcarebia.ae/annual-health-check-up"
     }
   ]
@@ -71,7 +71,7 @@
 
                     <div class="col-12">
 
-                        <h2>Annual Health Check up</h2>
+                        <h2>Annual Health Check-Up</h2>
 
                         <nav aria-label="breadcrumb">
 
@@ -79,7 +79,7 @@
 
                                 <li><a href="<?= base_url() ?>" class="hvr-underline-from-left menu-line">Home</a></li>
 
-                                <li class="active" aria-current="page">Annual Health Check up</li>
+                                <li class="active" aria-current="page">Annual Health Check-Up</li>
 
                             </ul>
 
@@ -115,7 +115,7 @@
 
                     <div class="mt-4">
                         
-                        <h4>Annual Health Check up</h4>
+                        <h4>Annual Health Check-Up</h4>
 
                         <p>Our convenient Annual Health Checkup Service, bringing comprehensive healthcare to the comfort of your home.</p>
 

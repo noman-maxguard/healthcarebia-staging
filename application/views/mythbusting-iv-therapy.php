@@ -109,7 +109,7 @@
                     </ul>
                     <h5>Introduction</h5>
                     <p>Intravenous (IV) therapy has become very popular in Dubai. It delivers fluids, vitamins, and minerals directly into your bloodstream. You get rapid rehydration and a fast nutrient boost. Yet many people still ask: Is it safe? Does it hurt? Don’t I get enough vitamins from food and drinking water? In this guide, we will clear up the top IV drip myths. We’ll share the facts, answer your IV treatment FAQs, and help you decide if an IV therapy session is right for you.</p>
-                    <h5>1.. Myth: “IV Therapy Is Painful and Invasive”</h5>
+                    <h5>1. Myth: “IV Therapy Is Painful and Invasive”</h5>
                     <ul class="tick-list">
                         <li><strong>Ultra-fine Needles:</strong> Modern IV catheters are as thin as a hair. You feel only a quick pinch, not deep pain.</li>
                         <li><strong>Expert Hands:</strong> Our nurses have years of experience in safe IV placement, ensuring first-try success.</li>
@@ -148,7 +148,7 @@
                     <ul class="tick-list">
                         <li><strong>Certified Nurses:</strong> All staff hold advanced IV therapy certificates and train in aseptic technique.</li>
                         <li><strong>Standardized Protocols:</strong> We follow Infusion Nurses Society guidelines for safe line flushing and bag changes.</li>
-                        <li><strong>Regular Audits:</strong> Health authorities inspect our clinics for infection control and emergency readiness.</li>
+                        <li><strong>Regular Audits:</strong> Health authorities inspect our office for infection control and emergency readiness.</li>
                     </ul>
 
                     <h5>7. Myth: “IV Drips Are Only for Hangovers or Celebrities”</h5>
@@ -161,7 +161,7 @@
 
                     <h5>8. Myth: “IV Therapy Is Too Expensive”</h5>
                     <ul class="ingredients-list">
-                        <li><strong>Transparent Pricing:</strong> Base sessions start at AED 400; bundle plans reduce cost per drip.</li>
+                        <li><strong>Transparent Pricing:</strong> Base sessions start at AED 850; bundle plans reduce cost per drip.</li>
                         <li><strong>Time Saved:</strong> Get back to peak performance in hours, not days.</li>
                         <li><strong>Preventive Health:</strong> Regular sessions can help avoid costly doctor visits.</li>
                     </ul>
@@ -191,14 +191,14 @@
 
                     <h5>11. Frequently Asked Questions</h5>
                     <ul class="tick-list">
-                        <li><strong>Does it hurt?</strong> Just a quick pinch, then a cool fluid flow—no lasting pain.</li>
+                        <li><strong>Does it hurt?</strong> Just a quick pinch, then a cool fluid flow, no lasting pain.</li>
                         <li><strong>How often?</strong> Weekly for chronic fatigue, monthly for upkeep, or as needed.</li>
                         <li><strong>Side effects?</strong> Rare bruising or slight nausea; serious events extremely uncommon.</li>
-                        <li><strong>Can I drive?</strong> Yes—rest 10–15 minutes before heading out.</li>
+                        <li><strong>Can I drive?</strong> Yes, rest 10–15 minutes before heading out.</li>
                         <li><strong>Insurance?</strong> E-receipts available; coverage varies by plan.</li>
                     </ul>
 
-                    <h5>12. Choosing a Safe IV Clinic in the UAE</h5>
+                    <h5>12. Choosing a Safe IV Service in the UAE</h5>
                     <ul class="tick-list">
                         <li>Licensed Medical Staff: DHA licenses & IV therapy certificates.</li>
                         <li>Doctor-Approved Drips: Physician oversight on all formulas.</li>

@@ -1,0 +1,194 @@
+.about-hca {
+  margin: 3em 0;
+}
+
+.about-hca .row-one {
+  padding: 2em;
+}
+
+.about-hca .row-one h1 {
+  padding: 1em;
+}
+
+.about-hca .row-one .desc {
+  font-family: var(body);
+  font-style: italic;
+  font-size: 18px;
+  color: var(--primary);
+  padding: 1em;
+}
+
+.about-hca .row-two {
+  padding: 2em;
+  display: flex;
+  align-items: center;
+}
+
+.about-hca .row-two .discover-btn a {
+  padding: 1em;
+}
+
+.about-hca .row-two button {
+  padding: 7px 15px;
+  border: none;
+  color: white;
+  border-radius: 7px;
+  background-color: var(--secondary);
+  transform: 0.2s ease;
+}
+
+.about-hca .row-two button:hover {
+  color: var(--secondary);
+  background: transparent;
+  border: 1px solid var(--secondary);
+}
+
+.about-hca .count-box {
+  padding: 1em;
+  margin-top: 0;
+  display: flex;
+  /* gap: 2em; */
+  justify-content: start;
+  align-items: center;
+}
+
+.about-hca .count-box .count .count-type {
+  margin-left: 10px;
+}
+
+.about-hca .count-box .count-team,
+.about-hca .count-box .count-professionals,
+.about-hca .count-box .count-clients {
+  font-size: 4em;
+  color: var(--primary);
+}
+
+.about-hca .count-box .count-type {
+  color: var(--primary);
+}
+
+.br-primary {
+  border-right: 2px solid var(--primary);
+}
+
+.mission,
+.vision {
+  background-color: var(--primary);
+  color: white;
+  font-family: var(--body);
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.mission h2,
+.vision h2 {
+  color: white;
+}
+
+.mission p,
+.vision p {
+  font-size: 1.2em;
+  width: 70%;
+  color: white;
+}
+
+.mission i,
+.vision i {
+  color: white
+}
+
+.philosophy {
+  background-image:
+    linear-gradient(rgba(53, 63, 42, 0.8)),
+    url("../img/green-table.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+  padding: 3em;
+}
+
+.operate {
+  background-image:
+    /* linear-gradient(rgba(53, 63, 42, 0.8)), */
+    url("../img/neck.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+  padding: 3em;
+}
+
+.philosophy h1,
+.operate h1 {
+  color: white;
+}
+
+.philosophy p,
+.operate p {
+  font-family: var(--body);
+  color: white;
+  font-style: italic;
+  font-size: 1.2em;
+  text-align: center;
+  width: 80%;
+}
+
+.our-services {
+  display: flex;
+  flex-direction: column;
+  padding: 3em;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-services p {
+  text-align: center;
+  width: 80%;
+  font-family: var(--body);
+  color: var(--primary);
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+.bullet-points ul {
+  padding-left: 0;
+}
+
+.bullet-points ul li {
+  list-style: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  color: var(--primary);
+  font-size: 1.1em;
+}
+
+.bullet-points ul li:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 1em;
+  height: 1em;
+}
+
+.our-services .image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}

@@ -43,8 +43,42 @@ h6 {
   color: var(--primary);
 }
 
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.75em;
+}
+
+h5 {
+  font-size: 1.5em;
+}
+
+h6 {
+  font-size: 1.25em;
+}
+
+ul,
+ol {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+p {
+  font-size: 1.1em;
+  color: #353f2a;
+}
+
 section {
-  margin-top: 2em;
   width: 100%;
 }
 
@@ -807,7 +841,7 @@ section {
 }
 
 #header {
-  background: var(--primary);
+  background: rgba(55, 67, 41, 0.85);
   /* margin: 2em; */
   padding: 5px 1em;
   border: none;
@@ -835,4 +869,335 @@ section {
 #menu {
   width: 100%;
   font-family: "Poppins", serif;
+}
+
+.banner {
+  height: 400px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: grey;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+  padding-bottom: 2em;
+}
+
+.banner h1 {
+  color: white;
+}
+
+.banner .breadcrumb {
+  font-family: var(--body);
+  font-size: 16px;
+  font-style: italic;
+  color: white;
+  display: flex;
+  gap: 10px;
+}
+
+.banner .breadcrumb a {
+  text-decoration: none;
+  transition: 0.2s ease;
+  font-family: var(--body);
+  font-size: 16px;
+  font-style: italic;
+  color: white;
+}
+
+.banner .breadcrumb a:hover {
+  color: grey;
+}
+
+/* footer * {
+  border: 1px solid;
+} */
+footer {
+  background: linear-gradient(to bottom, #6b7f60 0%, #8ea282 100%);
+}
+
+.copyright {
+  background-color: var(--primary);
+  padding: 1.2em;
+}
+
+.copyright ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 1em;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0;
+  padding: 0 1em;
+}
+
+.copyright ul li {
+  list-style: none;
+}
+
+.copyright ul li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.2s ease;
+}
+
+.copyright ul li a:hover {
+  color: grey
+}
+
+.google-review {
+  display: table;
+  width: auto;
+  margin-top: 20px;
+  background: white;
+  padding: 10px;
+  border-radius: 10px
+}
+
+.google-review img {
+  width: 70px
+}
+
+.review-item i {
+  color: #f6ad01
+}
+
+.review-item h5 {
+  color: var(--secondary);
+  font-weight: 600;
+  font-size: 18px;
+  margin-right: 10px;
+  margin-bottom: 0;
+  font-family: var(--body);
+  font-style: normal;
+}
+
+.google-review a {
+  color: var(--secondary);
+}
+
+.list div ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.list div ul li {
+  list-style: none;
+  color: white;
+  font-size: 0.9em;
+}
+
+.list div ul li:hover {
+  color: grey
+}
+
+.social a {
+  text-decoration: none;
+  color: white;
+}
+
+.social a:hover {
+  color: grey;
+}
+
+.ebook-form h5 {
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 800;
+}
+
+/* Slider */
+.wrapper {
+  /* max-width: 1000px; */
+  margin: 0 auto 100px auto;
+}
+
+.mSlider-container {
+  margin: 0 auto;
+  position: relative;
+  padding: 0 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mSlider_disp {
+  overflow: hidden;
+  padding: 0 1em;
+  box-sizing: border-box;
+}
+
+.mSlider_list {
+  position: relative;
+  transition: left 1.6s ease-in-out;
+  font-size: 0;
+}
+
+.mSlider-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  color: white;
+  font-weight: bold;
+  width: 500px;
+  height: 400px;
+  opacity: 0.4;
+}
+
+.mSlider-item[data-number='1'] {
+  background-color: red;
+}
+
+.mSlider-item[data-number='2'] {
+  background-color: blue;
+}
+
+.mSlider-item[data-number='3'] {
+  background-color: #f432f5;
+}
+
+.mSlider-item[data-number='4'] {
+  background-color: red;
+}
+
+.mSlider-item[data-number='5'] {
+  background-color: blue;
+}
+
+.mSlider-item[data-number='6'] {
+  background-color: #f432f5;
+}
+
+.mSlider-item[data-number='7'] {
+  background-color: #a1f2f8;
+}
+
+.mSlider-arrow {
+  /* position: absolute; */
+  border: none;
+  border-radius: 5px;
+  width: 30px;
+  height: 40px;
+  background-color: black;
+  opacity: 0.5;
+  cursor: pointer;
+  color: white;
+  font-size: 25px;
+  line-height: 1;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  outline: none;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.mSlider-arrow-prev {
+  left: 15px;
+  top: 50%;
+}
+
+.mSlider-arrow-next {
+  right: 15px;
+  top: 50%;
+}
+
+.carousel-slick {
+  display: flex;
+}
+
+/* ---------- core ---------- */
+:root {
+  --slides: 3;
+}
+
+/* desktop default: 3 across */
+.mSlider_list {
+  display: flex;
+  transition: transform .4s ease-in-out;
+}
+
+.mSlider-item {
+  flex: 0 0 calc(100% / var(--slides));
+  width: calc(100% / var(--slides));
+  height: 400px;
+  /* keep whatever height you like */
+  font-size: 100px;
+  color: #fff;
+  opacity: .4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 991.98px) {
+  :root {
+    --slides: 2;
+  }
+}
+
+@media (max-width: 575.98px) {
+  :root {
+    --slides: 1;
+  }
+}
+
+.faqs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.accordion-item,
+.accordion-button,
+.accordion-header {
+  color: white;
+  background-color: var(--primary);
+}
+
+.accordion .accordion-button {
+  color: #fff;
+  background-color: var(--primary);
+}
+
+.accordion {
+  --bs-accordion-bg: var(--primary);
+  --bs-accordion-color: #fff;
+  --bs-accordion-active-bg: var(--primary);
+  --bs-accordion-active-color: #fff;
+}
+
+.accordion .accordion-button {
+  --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' stroke='%23ffffff' fill='none' stroke-width='2'%3e%3ccircle cx='8' cy='8' r='7'/%3e%3cline x1='8' y1='4' x2='8' y2='12'/%3e%3cline x1='4' y1='8' x2='12' y2='8'/%3e%3c/svg%3e");
+  --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' stroke='%23ffffff' fill='none' stroke-width='2'%3e%3ccircle cx='8' cy='8' r='7'/%3e%3cline x1='4' y1='8' x2='12' y2='8'/%3e%3c/svg%3e");
+  --bs-accordion-button-focus-border-color: none;
+  --bs-accordion-button-focus-box-shadow: none;
+}
+
+.question-icon {
+  height: 50px;
+  width: 50px;
+}
+
+.question-icon img {
+  height: 100%;
+  width: 100%;
+  transform: scale(2);
+}
+
+.accordion-button {
+  font-family: var(--body);
+  padding: 0 20px;
 }

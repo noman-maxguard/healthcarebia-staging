@@ -3,18 +3,407 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Healthcarebia | About Us</title>
+    <meta
+      name="description"
+      content="At Healthcarebia, relationships and clinical excellence go hand in hand. That's what makes our one-on-one home health services special for patients."
+    />
+    <title>About Us | Healthcarebia</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-default.min.css"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"
+      defer
+    ></script>
     <%- include('partials/header-tags.ejs') %>
+    <link rel="stylesheet" href="../../assets/css/about-us.css" />
   </head>
   <body>
     <%- include("partials/header.ejs") %>
 
-    <section class="about-us">
-      <div class="banner">
-        <img src="" alt="about us banner" height="" width="100%" />
+    <!-- <section class="about-us-page"> -->
+    <div
+      class="banner"
+      style="background-image: url(../assets/img/about-us-banner.webp)"
+    >
+      <h1>About Us</h1>
+      <div class="breadcrumb"><a href="/">Home</a>/ About Us</div>
+    </div>
+    <!-- </section> -->
+    <section class="about-hca">
+      <div class="row row-one">
+        <div class="col-md-4 title">
+          <h1>About<br />Healthcarebia</h1>
+        </div>
+        <div class="col-md-7 desc">
+          Healthcarebia is Dubai’s leading luxury medical concierge brand,
+          redefining how healthcare is delivered one elevated experience at a
+          time.We provide a seamless bridge between advanced medical care and
+          holistic wellness, offering bespoke solutions that meet the needs of
+          today’s high performance individuals, families, and executives.<br />
+          From IV therapies and diagnostic testing to concierge doctor services
+          and wellness rituals, Healthcarebia ensures medical excellence meets
+          lifestyle convenience all delivered discreetly at home, in your hotel
+          suite, or private office.
+        </div>
       </div>
+      <div class="row row-two">
+        <div class="col-md-4 discover-btn">
+          <a href="#"><button>DISCOVER MORE ABOUT HEALTHCAREBIA</button></a>
+        </div>
+        <div class="col-md-8">
+          <div class="count-box">
+            <div class="count col-4 br-primary">
+              <div class="count-clients odometer plus">0</div>
+              <div class="count-type">Happy Clients</div>
+            </div>
+            <div class="count col-4 br-primary" style="padding-left: 4em">
+              <div class="count-professionals odometer plus2">0</div>
+              <div class="count-type">Professionals</div>
+            </div>
+            <div class="count col-4 ms-3">
+              <div class="count-team odometer percentage">0</div>
+              <div class="count-type">DHA Certified Team</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="vision-and-mission border border-2 border-dark">
+      <div class="col-md-6 imagebox">
+        <img
+          src="../../assets/img/line-face.jpeg"
+          alt="face"
+          class="img-fluid h-100"
+        />
+      </div>
+      <div class="col-md-6 text-box">
+        <div class="col-12 vision">
+          <h2><i class="fa-solid fa-bullseye"></i>Vision</h2>
+          <p>
+            Personalized care, delivered with heart. Bringing bespoke home
+            healthcare to your health, your ways.
+          </p>
+        </div>
+        <div class="col-12 mission">
+          <h2><i class="fa-solid fa-bullseye"></i>Mission</h2>
+          <p>
+            Our mission is to uphold human and ethical values, delivering
+            quality healthcare. We strive to be the preferred provider, offering
+            comprehensive care with a human touch and unwavering commitment to
+            quality assurance.
+          </p>
+        </div>
+      </div>
+    </section> -->
+    <!-- ───── Vision & Mission (responsive) ───── -->
+    <section class="vision-and-mission py-5">
+      <div class="container">
+        <div class="row g-4 align-items-stretch">
+          <!-- image --->
+          <div class="col-12 col-lg-6">
+            <img
+              src="/assets/img/line-face.jpeg"
+              alt="face"
+              class="img-fluid w-100 h-100 object-fit-cover rounded"
+            />
+          </div>
+
+          <!-- text block -->
+          <div class="col-12 col-lg-6 d-flex flex-column">
+            <div class="vision flex-fill mb-3 gap-3">
+              <h2><i class="fa-solid fa-bullseye"></i> Vision</h2>
+              <p>
+                Personalized care, delivered with heart. Bringing bespoke home
+                healthcare to your health, your ways.
+              </p>
+            </div>
+
+            <div class="mission flex-fill gap-3">
+              <h2><i class="fa-solid fa-bullseye"></i> Mission</h2>
+              <p>
+                Our mission is to uphold human and ethical values, delivering
+                quality healthcare. We strive to be the preferred provider,
+                offering comprehensive care with a human touch and unwavering
+                commitment to quality assurance.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="philosophy">
+      <h1 class="mt-5">Our Philosophy</h1>
+      <p>
+        We believe that healing begins with comfort, trust, and personalization.
+        Our model is built on three core pillars. Clinical Integrity, with every
+        service administered by DHA licensed professionals; Client Centric Care,
+        where every detail is tailored for safety, convenience, and peace of
+        mind; and Holistic Healing, addressing not only physical health, but
+        also mental clarity and emotional wellbeing.
+      </p>
+    </section>
+    <section class="our-services">
+      <h1 class="mt-4">Our services</h1>
+      <p class="my-5">
+        We offer a curated range of medical and wellness services designed to
+        meet your needs wherever you are at home, in a hotel, or online. From
+        clinical care to lifestyle therapies, each service is delivered with
+        precision, personalization, and compassion.
+      </p>
+      <div class="row d-flex my-4">
+        <div class="col-md-6 bullet-points p-5">
+          <h2>Medical Services</h2>
+          <ul class="mt-5 d-flex gap-5 flex-column">
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 32 32"
+              >
+                <!-- circle background -->
+                <circle cx="16" cy="16" r="16" fill="#353f2a" />
+
+                <!-- right-pointing arrow -->
+                <path
+                  d="M12 8 L20 16 L12 24"
+                  fill="none"
+                  stroke="#ffffff"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              IV Drip Therapy & Supplementation
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 32 32"
+              >
+                <!-- circle background -->
+                <circle cx="16" cy="16" r="16" fill="#353f2a" />
+
+                <!-- right-pointing arrow -->
+                <path
+                  d="M12 8 L20 16 L12 24"
+                  fill="none"
+                  stroke="#ffffff"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Home Based Nurse & Teleconsultation
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 32 32"
+              >
+                <!-- circle background -->
+                <circle cx="16" cy="16" r="16" fill="#353f2a" />
+
+                <!-- right-pointing arrow -->
+                <path
+                  d="M12 8 L20 16 L12 24"
+                  fill="none"
+                  stroke="#ffffff"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Diagnostic Testing & Genetic Wellness Panels
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 32 32"
+              >
+                <!-- circle background -->
+                <circle cx="16" cy="16" r="16" fill="#353f2a" />
+
+                <!-- right-pointing arrow -->
+                <path
+                  d="M12 8 L20 16 L12 24"
+                  fill="none"
+                  stroke="#ffffff"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Wellness prevention Management
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 32 32"
+              >
+                <!-- circle background -->
+                <circle cx="16" cy="16" r="16" fill="#353f2a" />
+
+                <!-- right-pointing arrow -->
+                <path
+                  d="M12 8 L20 16 L12 24"
+                  fill="none"
+                  stroke="#ffffff"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Post Hospitalization & Preventive Care Programs
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 image">
+          <img src="../../assets/img/gala2.webp" alt="services image" />
+        </div>
+      </div>
+      <div class="row d-flex mt-5">
+        <div class="col-md-6 image">
+          <img src="../../assets/img/gala2.webp" alt="services image" />
+        </div>
+        <div class="col-md-6 bullet-points p-5">
+          <h2>Wellness & Lifestyle Therapies</h2>
+          <ul class="mt-5 d-flex gap-5 flex-column">
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 32 32"
+              >
+                <!-- circle background -->
+                <circle cx="16" cy="16" r="16" fill="#353f2a" />
+
+                <!-- right-pointing arrow -->
+                <path
+                  d="M12 8 L20 16 L12 24"
+                  fill="none"
+                  stroke="#ffffff"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Oxygen Therapy
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 32 32"
+              >
+                <!-- circle background -->
+                <circle cx="16" cy="16" r="16" fill="#353f2a" />
+
+                <!-- right-pointing arrow -->
+                <path
+                  d="M12 8 L20 16 L12 24"
+                  fill="none"
+                  stroke="#ffffff"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              LED Facial Light Therapy
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 32 32"
+              >
+                <!-- circle background -->
+                <circle cx="16" cy="16" r="16" fill="#353f2a" />
+
+                <!-- right-pointing arrow -->
+                <path
+                  d="M12 8 L20 16 L12 24"
+                  fill="none"
+                  stroke="#ffffff"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Aromatherapy & Sound Healing Rituals
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 32 32"
+              >
+                <!-- circle background -->
+                <circle cx="16" cy="16" r="16" fill="#353f2a" />
+
+                <!-- right-pointing arrow -->
+                <path
+                  d="M12 8 L20 16 L12 24"
+                  fill="none"
+                  stroke="#ffffff"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Mental Health Support Sessions
+            </li>
+            <li>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 32 32"
+              >
+                <!-- circle background -->
+                <circle cx="16" cy="16" r="16" fill="#353f2a" />
+
+                <!-- right-pointing arrow -->
+                <path
+                  d="M12 8 L20 16 L12 24"
+                  fill="none"
+                  stroke="#ffffff"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Wellness Concierge for Hotel & Residential Clients
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="operate">
+      <h1>Where We Operate</h1>
+      <p>
+        Healthcarebia delivers in home and on site services across Dubai and the
+        UAE. Whether at a private residence, hotel, yacht, or corporate suite we
+        bring care where you are.
+      </p>
     </section>
     <%- include("partials/footer.ejs") %> <%-
     include("partials/footer-tags.ejs") %>
+    <script src="../assets/js/odometer.js" defer></script>
   </body>
 </html>

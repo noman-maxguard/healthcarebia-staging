@@ -50,6 +50,16 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+            <a href="<?= base_url() ?>blood-test-to-bespoke-drip" class="card-style3 card-style4 same">
+                <img src="<?= base_url() ?>assets/frontend/img/blog17.jpg" 
+                    alt="Blood Test to Bespoke Drip: Your Precision Wellness Plan" 
+                    class="img-fluid">
+                <h6>Blood Test to Bespoke Drip: Your Precision Wellness Plan</h6>
+                <p>Learn how healthcarebia turns your blood work and lab panel into a custom-mixed IV drip for millilitre-perfect hydration and nutrient support—delivered in-clinic or at your home.</p>
+            </a>
+        </div>
+
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>mythbusting-iv-therapy" class="card-style3 card-style4 same">
                     <img src="<?= base_url() ?>assets/frontend/img/blog16.jpg" alt="Mythbusting IV Therapy – Separating Fact from Fiction" class="img-fluid">
                     <h6>Myth busting IV Therapy: Separating Fact from Fiction</h6>

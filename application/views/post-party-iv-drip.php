@@ -444,23 +444,30 @@
 
                     <div class="accordion-box">
 
-                    <div class="accordion-item"><h5><span>4</span>Are there any side effects associated with Post
+                        <div class="accordion-item"><h5><span>4</span>Are there any side effects associated with Post
 
-                            Party IV Drip ?</h5>                                                    <span
+                                Party IV Drip ?</h5>                                                    <span
 
-                                class="plus-minus"></span></div>
+                                    class="plus-minus"></span></div>
 
-                    <div class="data"><p>Post Party IV Drip is generally safe and well-tolerated. However, as with
+                            <div class="data"><p>Post Party IV Drip is generally safe and well-tolerated. However, as with
 
-                            any medical treatment, there is a potential for minimal risks or side effects such as
+                                    any medical treatment, there is a potential for minimal risks or side effects such as
 
-                            mild numbness at the injection site or a feeling of coolness during the infusion. These
+                                    mild numbness at the injection site or a feeling of coolness during the infusion. These
 
-                            effects are usually temporary and subside quickly.</p></div>
+                                    effects are usually temporary and subside quickly.</p></div>
 
-                    </div>
+                            </div>
 
                 </div>
+                <div class="accordion-box">
+
+                        <div class="accordion-item"><h5><span>5</span>Can I drive or resume normal activities immediately after the Post Party IV Drip??</h5>                                        <span class="plus-minus"></span></div>
+
+                        <div class="data"><p>Yes, most clients feel stable enough to drive or return to work right away. If you’re sensitive to needles or had more intense add-ons, plan a 10-minute rest before hitting the road.</p></div>
+
+                    </div>
 
             </div>
 
@@ -472,7 +479,7 @@
 
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>5</span>How often can I receive Post Party IV Drip?</h5>
+                        <div class="accordion-item"><h5><span>6</span>How often can I receive Post Party IV Drip?</h5>
 
                             <span class="plus-minus"></span></div>
 
@@ -486,7 +493,7 @@
 
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>6</span>How quickly will I feel the effects of the
+                        <div class="accordion-item"><h5><span>7</span>How quickly will I feel the effects of the
 
                                 treatment?</h5>                                    <span class="plus-minus"></span>
 
@@ -504,7 +511,7 @@
 
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>7</span>Is the Post Party IV Drip suitable after just a
+                        <div class="accordion-item"><h5><span>8</span>Is the Post Party IV Drip suitable after just a
 
                                 mild hangover?</h5>                                        <span class="plus-minus"></span></div>
 
@@ -518,7 +525,7 @@
 
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>8</span>Do I need to prepare or avoid anything before
+                        <div class="accordion-item"><h5><span>9</span>Do I need to prepare or avoid anything before
 
                                 receiving the Post Party IV Drip?</h5>                                        <span class="plus-minus"></span></div>
 
@@ -527,6 +534,13 @@
                                 heavy meals just before the session may enhance the effectiveness. Our team will assess
 
                                 your condition beforehand to ensure the treatment is right for you.</p></div>
+
+                    </div>
+                    <div class="accordion-box">
+
+                        <div class="accordion-item"><h5><span>10</span>Can the Post Party IV Drip be customized with extra vitamins, minerals, or antioxidants?</h5>                                        <span class="plus-minus"></span></div>
+
+                        <div class="data"><p>Definitely. Beyond the core hydration, you can add ingredients to target detox, immune support, or energy.ust discuss your goals with our nurse or physician.</p></div>
 
                     </div>
 

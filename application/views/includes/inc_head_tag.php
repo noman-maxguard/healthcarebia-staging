@@ -73,6 +73,26 @@ src="https://www.facebook.com/tr?id=1280000576857900&ev=PageView&noscript=1"
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "@type": "Blog",
+  "@id": "https://healthcarebia.ae/blog#blog",
+  "name": "Healthcarebia Blog",
+  "url": "https://healthcarebia.ae/blog",
+  "description": "Expert insights and articles on health testing, IV therapy, wellness, and medical diagnostics in Dubai — powered by DHA-licensed professionals at Healthcarebia.",
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://healthcarebia.ae/#medicalbusiness",
+    "name": "Healthcarebia",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://healthcarebia.ae/assets/frontend/img/logo.webp"
+    }
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
   "@graph": [
     {
       "@type": ["Organization","MedicalOrganization","ProfessionalService"],
@@ -112,7 +132,17 @@ src="https://www.facebook.com/tr?id=1280000576857900&ev=PageView&noscript=1"
         "areaServed": "AE",
         "availableLanguage": ["English","Arabic"]
       }],
-      "priceRange": "$$$"
+      "priceRange": "$$$",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "DHA License Number",
+        "value": "DHA1129341"
+      },
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Dubai Health Authority",
+        "url": "https://www.dha.gov.ae"
+      }
     },
     {
       "@type": "BreadcrumbList",
@@ -127,6 +157,7 @@ src="https://www.facebook.com/tr?id=1280000576857900&ev=PageView&noscript=1"
   ]
 }
 </script>
+
  
 
 <!-- JSON LD CODE -->

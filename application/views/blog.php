@@ -55,7 +55,7 @@
                     alt="Blood Test to Bespoke Drip: Your Precision Wellness Plan" 
                     class="img-fluid">
                 <h6>Blood Test to Bespoke Drip: Your Precision Wellness Plan</h6>
-                <p>Learn how healthcarebia turns your blood work and lab panel into a custom-mixed IV drip for millilitre perfect hydration and nutrient support, delivered in-clinic or at your home.</p>
+                <p>Learn how healthcarebia turns your blood work and lab panel into a custom-mixed IV drip for millilitre perfect hydration and nutrient support, delivered at the comfort of your home.</p>
             </a>
         </div>
 

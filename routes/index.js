@@ -13,5 +13,8 @@ router.get("/lab-test-at-home", (req, res) => {
 router.get("/iv-drip-dubai", (req, res) => {
   res.render("iv-drip-dubai");
 });
+router.get("/blog", (req, res) => {
+  res.render("blog");
+});
 
 module.exports = router;

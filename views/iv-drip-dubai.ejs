@@ -10,6 +10,15 @@
     <title>IV Therapy Dubai | Healthcarebia</title>
     <%- include('partials/header-tags.ejs') %>
     <link rel="stylesheet" href="../../assets/css/iv-drips-dubai.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
   </head>
   <body>
     <%- include("partials/header.ejs") %>
@@ -21,7 +30,7 @@
       <div class="breadcrumb"><a href="/">Home</a>/ IV Therapy Dubai</div>
     </div>
     <section class="why-choose">
-      <h1 class="mt-5 text-center">
+      <h1 class="mt-5 text-center pt-3">
         Why choose Healthcarebia <br />for IV Therapy?
       </h1>
       <div class="why-choose-items mt-5 p-5 pt-0">
@@ -117,7 +126,7 @@
       </div>
     </section>
     <section class="what-is">
-      <h1 class="mt-5">What is IV Therapy ?</h1>
+      <h1 class="mt-5 pt-3">What is IV Therapy ?</h1>
       <p class="mt-5 text-center">
         IV infusion is like a superhero cape for your body! It's when we
         sneakily deliver fluids, medications, or essential nutrients directly
@@ -266,152 +275,570 @@
         </div>
       </div>
     </section>
-    <section class="drips">
-      <div class="drip-block">
-        <h1 class="text-center pt-5">Immunity & Preventive<br />Wellness</h1>
-        <div class="wrapper mSlider">
-          <div class="mSlider-container mt-5">
-            <button class="mSlider-arrow mSlider-arrow-prev"><</button>
-            <div class="mSlider_disp mx-5">
-              <div class="mSlider_list">
-                <div class="mSlider-item" data-number="1">1</div>
-                <div class="mSlider-item" data-number="2">2</div>
-                <div class="mSlider-item" data-number="3">3</div>
-                <div class="mSlider-item" data-number="4">4</div>
-                <div class="mSlider-item" data-number="5">5</div>
-                <div class="mSlider-item" data-number="6">6</div>
-                <div class="mSlider-item" data-number="7">7</div>
+    <section class="drips pb-5">
+      <div class="drip-block pt-3">
+        <h1 class="text-center pt-3 mt-5">
+          Immunity & Preventive<br />Wellness
+        </h1>
+        <div class="carousel-slick px-2 py-5" id="carousel-slick">
+          <div class="drip-box col-12 col-md-6 col-lg-4 d-flex m-1 p-3">
+            <div class="drip-img">
+              <img src="../assets/img/myers-cocktail.webp" alt="iv-drip" />
+            </div>
+            <div class="drip-text d-flex flex-column justify-content-between">
+              <div class="head">
+                <h4>Mayers Cocktail</h4>
+                <ul class="d-flex flex-column gap-2">
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Immunity booster</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Increased vitality & energy</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Improved digestion</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="price d-flex flex-column gap-0">
+                <p>From AED 2,300*</p>
+                <span>*T&C apply</span>
               </div>
             </div>
-            <button class="mSlider-arrow mSlider-arrow-next">></button>
+          </div>
+          <div class="drip-box col-12 col-md-6 col-lg-4 d-flex m-1 p-3">
+            <div class="drip-img">
+              <img
+                src="../assets/img/immune-booster-iv-drip.webp"
+                alt="iv-drip"
+              />
+            </div>
+            <div class="drip-text d-flex flex-column justify-content-between">
+              <div class="head">
+                <h4>Immunity Mega Boost Drip</h4>
+                <ul class="d-flex flex-column gap-2">
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Improved immunity</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Enhanced healing ability</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Prevents infections</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="price d-flex flex-column gap-0">
+                <p>From AED 1,105*</p>
+                <span>*T&C apply</span>
+              </div>
+            </div>
+          </div>
+          <div class="drip-box col-12 col-md-6 col-lg-4 d-flex m-1 p-3">
+            <div class="drip-img">
+              <img src="../assets/img/cold-flu-iv-drip.webp" alt="iv-drip" />
+            </div>
+            <div class="drip-text d-flex flex-column justify-content-between">
+              <div class="head">
+                <h4>Cold & Flu Drip</h4>
+                <ul class="d-flex flex-column gap-2">
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Eases congestion & fatigue</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Strengthens immunity</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Slows virus replication</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="price d-flex flex-column gap-0">
+                <p>From AED 1,800*</p>
+                <span>*T&C apply</span>
+              </div>
+            </div>
+          </div>
+          <div class="drip-box col-12 col-md-6 col-lg-4 d-flex m-1 p-3">
+            <div class="drip-img">
+              <img src="../assets/img/mega-c-iv-drip.webp" alt="iv-drip" />
+            </div>
+            <div class="drip-text d-flex flex-column justify-content-between">
+              <div class="head">
+                <h4>Mega C Drip</h4>
+                <ul class="d-flex flex-column gap-2">
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Reduced fatigue</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Detox</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Increased immunity</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="price d-flex flex-column gap-0">
+                <p>From AED 1,500*</p>
+                <span>*T&C apply</span>
+              </div>
+            </div>
+          </div>
+          <div class="drip-box col-12 col-md-6 col-lg-4 d-flex m-1 p-3">
+            <div class="drip-img">
+              <img src="../assets/img/good-sleep-iv-drip.webp" alt="iv-drip" />
+            </div>
+            <div class="drip-text d-flex flex-column justify-content-between">
+              <div class="head">
+                <h4>Good Sleep Drip</h4>
+                <ul class="d-flex flex-column gap-2">
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Encourages deep sleep</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Relaxes muscles & joints</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Supports collagen & heart rhythm</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="price d-flex flex-column gap-0">
+                <p>From AED 1,300*</p>
+                <span>*T&C apply</span>
+              </div>
+            </div>
+          </div>
+          <div class="drip-box col-12 col-md-6 col-lg-4 d-flex m-1 p-3">
+            <div class="drip-img">
+              <img src="../assets/img/her-iv-drip.webp" alt="iv-drip" />
+            </div>
+            <div class="drip-text d-flex flex-column justify-content-between">
+              <div class="head">
+                <h4>Her Drip</h4>
+                <ul class="d-flex flex-column gap-2">
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Relieves cramps & bloating</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Balances mood & sleep</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Replenishes minerals & electrolytes</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="price d-flex flex-column gap-0">
+                <p>From AED 1,500*</p>
+                <span>*T&C apply</span>
+              </div>
+            </div>
+          </div>
+          <div class="drip-box col-12 col-md-6 col-lg-4 d-flex m-1 p-3">
+            <div class="drip-img">
+              <img src="../assets/img/jet-lag-iv-drip.webp" alt="iv-drip" />
+            </div>
+            <div class="drip-text d-flex flex-column justify-content-between">
+              <div class="head">
+                <h4>Jet Lag Drip</h4>
+                <ul class="d-flex flex-column gap-2">
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Regulates sleep</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Helps with fatigue</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Boost energy</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="price d-flex flex-column gap-0">
+                <p>From AED 1,500*</p>
+                <span>*T&C apply</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <!-- <div class="carousel-slick" id="carousel-slick">
-        <div class="drip-box col-12 col-md-6 col-lg-4">
-          <div class="drip-head">
-            <div class="img-inner">
+      <div class="drip-block pt-3">
+        <h1 class="text-center pt-3 mt-5">
+          Detox, Hydration & Recovery <br />
+          Renewal
+        </h1>
+        <div class="carousel-slick px-2 py-5" id="carousel-slick">
+          <div class="drip-box col-12 col-md-6 col-lg-4 d-flex m-1 p-3">
+            <div class="drip-img">
+              <img src="../assets/img/ultra-detox.webp" alt="iv-drip" />
+            </div>
+            <div class="drip-text d-flex flex-column justify-content-between">
+              <div class="head">
+                <h4>Ultra Detox Drip</h4>
+                <ul class="d-flex flex-column gap-2">
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Fights harmful molecules</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Powerful antioxidant</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Improved organ functions</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="price d-flex flex-column gap-0">
+                <p>From AED 1,300*</p>
+                <span>*T&C apply</span>
+              </div>
+            </div>
+          </div>
+          <div class="drip-box col-12 col-md-6 col-lg-4 d-flex m-1 p-3">
+            <div class="drip-img">
+              <img src="../assets/img/hydration-iv-drip.webp" alt="iv-drip" />
+            </div>
+            <div class="drip-text d-flex flex-column justify-content-between">
+              <div class="head">
+                <h4>Swift Hydration Drip</h4>
+                <ul class="d-flex flex-column gap-2">
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Rapid skin hydration</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Increase in energy</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Reduced skin inflammation</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="price d-flex flex-column gap-0">
+                <p>From AED 400*</p>
+                <span>*T&C apply</span>
+              </div>
+            </div>
+          </div>
+          <div class="drip-box col-12 col-md-6 col-lg-4 d-flex m-1 p-3">
+            <div class="drip-img">
+              <img src="../assets/img/hangover-iv-drip.webp" alt="iv-drip" />
+            </div>
+            <div class="drip-text d-flex flex-column justify-content-between">
+              <div class="head">
+                <h4>Hangover Recovery Drip</h4>
+                <ul class="d-flex flex-column gap-2">
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Relief of nausea, headache & body pains</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Alcohol detoxification</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Energy increase</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="price d-flex flex-column gap-0">
+                <p>From AED 1,600*</p>
+                <span>*T&C apply</span>
+              </div>
+            </div>
+          </div>
+          <div class="drip-box col-12 col-md-6 col-lg-4 d-flex m-1 p-3">
+            <div class="drip-img">
+              <img src="../assets/img/sunburn-iv-drip.webp" alt="iv-drip" />
+            </div>
+            <div class="drip-text d-flex flex-column justify-content-between">
+              <div class="head">
+                <h4>Sunburn Recovery Drip</h4>
+                <ul class="d-flex flex-column gap-2">
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Cools inflammation</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Helps skin</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Recovery from sun exposure</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="price d-flex flex-column gap-0">
+                <p>From AED 1,800*</p>
+                <span>*T&C apply</span>
+              </div>
+            </div>
+          </div>
+          <div class="drip-box col-12 col-md-6 col-lg-4 d-flex m-1 p-3">
+            <div class="drip-img">
+              <img src="../assets/img/gut-health-iv-drip.webp" alt="iv-drip" />
+            </div>
+            <div class="drip-text d-flex flex-column justify-content-between">
+              <div class="head">
+                <h4>Gut Health Drip</h4>
+                <ul class="d-flex flex-column gap-2">
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Soothes digestive upset</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Helps with acidity</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Lowers inflammation</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="price d-flex flex-column gap-0">
+                <p>From AED 1,600*</p>
+                <span>*T&C apply</span>
+              </div>
+            </div>
+          </div>
+          <div class="drip-box col-12 col-md-6 col-lg-4 d-flex m-1 p-3">
+            <div class="drip-img">
               <img
-                src="https://www.healthcarebia.ae/assets/frontend/img/ultra-detox.webp"
-                alt="Ultra Detox IV Drip"
-                class="img-fluid"
+                src="../assets/img/immune-booster-iv-drip.webp"
+                alt="iv-drip"
               />
             </div>
-            <div class="text">
-              <h6>Ultra Detox IV Drip</h6>
-              <ul class="listing-items checkpoints">
-                <li>Fights against Harmful Molecules</li>
-                <li>Powerful Antioxidant</li>
-                <li>Improved digestive system and liver functions</li>
-              </ul>
+            <div class="drip-text d-flex flex-column justify-content-between">
+              <div class="head">
+                <h4>Weight Loss Drip</h4>
+                <ul class="d-flex flex-column gap-2">
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Aids fat metabolism</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Boosts energy</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Energy during weightloss</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="price d-flex flex-column gap-0">
+                <p>From AED 1,600*</p>
+                <span>*T&C apply</span>
+              </div>
             </div>
           </div>
-          <div class="drip-price">
-            <span>From AED 1,300*</span>
-            <p>* T&amp;C apply</p>
-            <a href="<?=$this->data['whatsappHref']?>" target="_blank">
-              <button class="booking">
-                Book Now
-                <img src="assets/frontend/img/calender.png" alt="calendar" />
-              </button>
-            </a>
-          </div>
-        </div>
-
-        <div class="drip-box col-12 col-md-6 col-lg-4">
-          <div class="drip-head">
-            <div class="img-inner">
+          <div class="drip-box col-12 col-md-6 col-lg-4 d-flex m-1 p-3">
+            <div class="drip-img">
               <img
-                src="https://www.healthcarebia.ae/assets/frontend/img/hydration-iv-drip.webp"
-                alt="Swift Hydration IV Drip"
-                class="img-fluid"
+                src="../assets/img/immune-booster-iv-drip.webp"
+                alt="iv-drip"
               />
             </div>
-            <div class="text">
-              <h6>Swift Hydration IV Drip</h6>
-              <ul class="listing-items checkpoints">
-                <li>Rapid Skin Hydration</li>
-                <li>Increase in Energy</li>
-                <li>Reduced Skin inflammation</li>
-              </ul>
+            <div class="drip-text d-flex flex-column justify-content-between">
+              <div class="head">
+                <h4>Custom Drip – Price on assessment</h4>
+                <ul class="d-flex flex-column gap-2">
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span
+                      >Tailored detox formulas based on your lifestyle and
+                      needs</span
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="price d-flex flex-column gap-0">
+                <p>Contact us for prices</p>
+                <span>*T&C apply</span>
+              </div>
             </div>
-          </div>
-          <div class="drip-price">
-            <span>From AED 400*</span>
-            <p>* T&amp;C apply</p>
-            <a href="<?=$this->data['whatsappHref']?>" target="_blank">
-              <button class="booking">
-                Book Now
-                <img src="assets/frontend/img/calender.png" alt="calendar" />
-              </button>
-            </a>
           </div>
         </div>
-
-        <div class="drip-box col-12 col-md-6 col-lg-4">
-          <div class="drip-head">
-            <div class="img-inner">
-              <img
-                src="https://www.healthcarebia.ae/assets/frontend/img/her-iv-drip.webp"
-                alt="Her IV Drip"
-                class="img-fluid"
-              />
+      </div>
+      <div class="drip-block pt-3">
+        <h1 class="text-center pt-3 mt-5">
+          Anti-Aging, Longevity & Performance Optimization
+        </h1>
+        <div class="carousel-slick px-2 py-5" id="carousel-slick">
+          <div class="drip-box col-12 col-md-6 col-lg-4 d-flex m-1 p-3">
+            <div class="drip-img">
+              <img src="../assets/img/nad-iv-drip.webp" alt="iv-drip" />
             </div>
-            <div class="text">
-              <h6>Her IV Drip</h6>
-              <ul class="listing-items checkpoints">
-                <li>Hydration</li>
-                <li>Relief from cramps & belly aches</li>
-                <li>Nutrient boost</li>
-              </ul>
+            <div class="drip-text d-flex flex-column justify-content-between">
+              <div class="head">
+                <h4>NAD⁺ Drip</h4>
+                <ul class="d-flex flex-column gap-2">
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Reverse the biological clock</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Promotes healthy brain function</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Repairs damaged DNA</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="price d-flex flex-column gap-0">
+                <p>From AED 1,900*</p>
+                <span>*T&C apply</span>
+              </div>
             </div>
           </div>
-          <div class="drip-price">
-            <span>From AED 1,500*</span>
-            <p>* T&amp;C apply</p>
-            <a href="<?=$this->data['whatsappHref']?>" target="_blank">
-              <button class="booking">
-                Book Now
-                <img src="assets/frontend/img/calender.png" alt="calendar" />
-              </button>
-            </a>
+          <div class="drip-box col-12 col-md-6 col-lg-4 d-flex m-1 p-3">
+            <div class="drip-img">
+              <img src="../assets/img/energy-iv-drip.webp" alt="iv-drip" />
+            </div>
+            <div class="drip-text d-flex flex-column justify-content-between">
+              <div class="head">
+                <h4>Energy Drip</h4>
+                <ul class="d-flex flex-column gap-2">
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Improved energy</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Improved cognitive function</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Boosts mental clarity</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="price d-flex flex-column gap-0">
+                <p>From AED 1,100*</p>
+                <span>*T&C apply</span>
+              </div>
+            </div>
+          </div>
+          <!-- Concentration and memory -->
+          <!-- Muscle drip -->
+          <div class="drip-box col-12 col-md-6 col-lg-4 d-flex m-1 p-3">
+            <div class="drip-img">
+              <img src="../assets/img/beauty-iv-drip.webp" alt="iv-drip" />
+            </div>
+            <div class="drip-text d-flex flex-column justify-content-between">
+              <div class="head">
+                <h4>Beauty Drip</h4>
+                <ul class="d-flex flex-column gap-2">
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Improved skin & hair health</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Fights free radicals</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Radiant & glowing skin</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="price d-flex flex-column gap-0">
+                <p>From AED 900*</p>
+                <span>*T&C apply</span>
+              </div>
+            </div>
+          </div>
+          <div class="drip-box col-12 col-md-6 col-lg-4 d-flex m-1 p-3">
+            <div class="drip-img">
+              <img src="../assets/img/glow-skin-iv-drip.webp" alt="iv-drip" />
+            </div>
+            <div class="drip-text d-flex flex-column justify-content-between">
+              <div class="head">
+                <h4>Glow Skin Drip</h4>
+                <ul class="d-flex flex-column gap-2">
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Improves skin hydration</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Reduces fine lines & wrinkles</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Powerful antioxidant</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="price d-flex flex-column gap-0">
+                <p>From AED 1,600*</p>
+                <span>*T&C apply</span>
+              </div>
+            </div>
+          </div>
+          <div class="drip-box col-12 col-md-6 col-lg-4 d-flex m-1 p-3">
+            <div class="drip-img">
+              <img src="../assets/img/myers-cocktail.webp" alt="iv-drip" />
+            </div>
+            <div class="drip-text d-flex flex-column justify-content-between">
+              <div class="head">
+                <h4>Mayers Cocktail Drip (anti-aging use)</h4>
+                <ul class="d-flex flex-column gap-2">
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Immunity booster</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Increased vitality & energy</span>
+                  </li>
+                  <li class="d-flex gap-2">
+                    <i class="fa-solid fa-check" aria-label="Checked"></i
+                    ><span>Improved digestion</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="price d-flex flex-column gap-0">
+                <p>From AED 2,300*</p>
+                <span>*T&C apply</span>
+              </div>
+            </div>
           </div>
         </div>
-
-        <div class="drip-box col-12 col-md-6 col-lg-4">
-          <div class="drip-head">
-            <div class="img-inner">
-              <img
-                src="https://www.healthcarebia.ae/assets/frontend/img/glow-skin-iv-drip.webp"
-                alt="Glow Skin IV Drip"
-                class="img-fluid"
-              />
-            </div>
-            <div class="text">
-              <h6>Glow Skin IV Drip</h6>
-              <ul class="listing-items checkpoints">
-                <li>Improve skin hydration</li>
-                <li>Reduce fine lines and wrinkles</li>
-                <li>Promotes collagen production</li>
-                <li>Powerful anti-oxidant</li>
-              </ul>
-            </div>
-          </div>
-          <div class="drip-price">
-            <span>From AED 900*</span>
-            <p>* T&amp;C apply</p>
-            <a href="<?=$this->data['whatsappHref']?>" target="_blank">
-              <button class="booking">
-                Book Now
-                <img src="assets/frontend/img/calender.png" alt="calendar" />
-              </button>
-            </a>
-          </div>
-        </div>
-      </div> -->
+      </div>
     </section>
     <section class="what-is">
-      <h1 class="">IV Drip at Home Dubai</h1>
+      <h1 class="mt-5 pt-3">IV Drip at Home Dubai</h1>
       <p class="mt-5 text-center">
         IV Drip at Home services in Dubai offers convenient and personalized
         intravenous treatments in the comfort of your own residence. These
@@ -494,12 +921,12 @@
       </div>
     </section>
     <section
-      class="professional d-flex justify-content-center align-items-center flex-column px-5 pb-5"
+      class="professional d-flex justify-content-center align-items-center flex-column px-5"
     >
-      <h1 class="mt-5 pt-5 text-center">
+      <h1 class="mt-5 pt-3 text-center">
         Professional IV Therapy at Home in Dubai
       </h1>
-      <p class="my-5 text-center fst-italic">
+      <p class="mt-4 mb-5 pb-2 text-center fst-italic">
         Healthcarebia offers exceptional IV Therapy home service in Dubai,
         designed to deliver optimal wellness and convenience directly to your
         doorstep. Our skilled and DHA-certified medical team provides customized
@@ -510,7 +937,7 @@
       </p>
     </section>
     <section class="faqs pb-5">
-      <h1 class="my-5 text-center">Frequently Asked Questions</h1>
+      <h1 class="my-5 pt-3 text-center">Frequently Asked Questions</h1>
       <div class="row mx-5">
         <div class="accordion col-md-6 col-12 p-3" id="accordion">
           <div class="accordion-item mb-3 rounded-4">
@@ -938,7 +1365,7 @@
       <div class="swiper myTestimonials">
         <div class="swiper-wrapper">
           <div class="swiper-slide slide slide1">
-            <h1>What our clients say</h1>
+            <h1 class="mt-5">What our clients say</h1>
             <div class="testimonial-item">
               <div class="testimonial-video-div">
                 <div class="testimonial-video-wrapper">
@@ -1023,6 +1450,38 @@
     </section>
     <%- include("partials/footer.ejs") %> <%-
     include("partials/footer-tags.ejs") %>
-    <script src="../assets/js/slider.js" defer></script>
+    <!-- <script src="../assets/js/slider.js" defer></script> -->
+    <script>
+      $(document).ready(function () {
+        $(".carousel-slick").slick({
+          slidesToShow: 3,
+          autoplay: false,
+          autoplaySpeed: 2000,
+          dots: true,
+          arrows: false,
+          centerMode: false,
+          infinite: true,
+          touchMove: true,
+          touchThreshold: 10,
+          responsive: [
+            {
+              breakpoint: 1190,
+              settings: {
+                slidesToShow: 2,
+                centerMode: false,
+              },
+            },
+            {
+              breakpoint: 720,
+              settings: {
+                slidesToShow: 1,
+                centerMode: false,
+              },
+            },
+          ],
+        });
+      });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
   </body>
 </html>

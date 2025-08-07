@@ -115,3 +115,62 @@
 .professional p {
   width: 80%;
 }
+
+.drips-container a {
+  text-decoration: none;
+}
+
+.drip-block .drip-box {
+  flex-direction: row;
+  padding: 1em;
+  background-color: white;
+  border-radius: 20px;
+  gap: 10px;
+  min-height: 350px;
+}
+
+.drip-box .drip-img {
+  height: 270px;
+  /* width: 160px; */
+}
+
+.drip-box .drip-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.drip-box .drip-text {
+  flex: 1;
+}
+
+.drip-text h4 {
+  font-family: var(--body);
+  font-style: normal;
+}
+
+.drip-text ul li {
+  list-style: none;
+  color: var(--primary);
+}
+
+.drip-text ul li .fa-check {
+  background: #353f2a;
+  color: #fff;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.drip-text .price p {
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+.drip-text .price span {
+  font-size: 16px;
+  color: var(--primary);
+}

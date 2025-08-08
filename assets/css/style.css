@@ -79,6 +79,10 @@ p {
   color: #353f2a;
 }
 
+a {
+  text-decoration: none;
+}
+
 section {
   width: 100%;
 }
@@ -867,6 +871,10 @@ section {
   font-size: 16px;
 }
 
+.navbar-toggler {
+  --bs-navbar-light-toggler-border-color: white;
+}
+
 #menu {
   width: 100%;
   font-family: "Poppins", serif;
@@ -1201,4 +1209,21 @@ footer {
 .accordion-button {
   font-family: var(--body);
   padding: 0 20px;
+}
+
+/* responsiveness */
+@media(max-width:576px) {
+  .navbar .navbar-brand img {
+    height: 30px;
+  }
+
+  .navbar .navbar-toggler {
+    border: none;
+    padding: 0;
+    font-size: 15px;
+  }
+
+  .navbar .navbar-toggler .navbar-toggler-icon {
+    /* border-color: white */
+  }
 }

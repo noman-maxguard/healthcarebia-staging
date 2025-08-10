@@ -9,23 +9,24 @@
     />
     <meta name="keywords" content="" />
     <title>Healthcarebia | Best Home Healthcare Services in Dubai</title>
+    <%- include('partials/header-tags.ejs') %>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-default.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
     />
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"
-      defer
-    ></script>
-    <link rel="preload" as="image" href="assets/images/poster.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <!-- <link rel="preload" as="image" href="assets/images/poster.jpg" /> -->
     <link
       rel="preload"
       as="video"
       href="assets/videos/background.mp4"
       type="video/mp4"
     />
-
-    <%- include('partials/header-tags.ejs') %>
   </head>
   <body>
     <%- include("partials/header.ejs") %>
@@ -44,9 +45,9 @@
       <div class="intro">
         <h1>Healing Body, Mind and Soul.</h1>
         <p>
-          IV Therapy by Healthcarebia; your trusted partner in IV Infusion
-          Therapy,<br />
-          is now available in Dubai.
+          Healthcarebia is the GCC’s First Concierge Wellness Service merging
+          Luxury, Diagnostics & Rejuvenation <br />with Privacy & Precision to
+          your doorstep.
         </p>
         <div class="buttons">
           <button class="me-3">LEARN MORE</button>
@@ -55,8 +56,8 @@
       </div>
     </section>
     <section class="about-us">
-      <div class="about-us-container">
-        <div class="about-us-left">
+      <div class="row d-flex">
+        <div class="about-us-left col-md-7 col-12 animate" data-anim="fadeInUp">
           <h1>
             Welcome to Healthcarebia<br />
             Premium At Home Healthcare in Dubai
@@ -78,208 +79,192 @@
           </button>
           <div class="count-box">
             <div class="count">
-              <div class="count-clients odometer plus">0</div>
+              <div class="num">1K+</div>
               <div class="count-type">Happy Clients</div>
             </div>
             <div class="count">
-              <div class="count-professionals odometer plus2">0</div>
+              <div class="num">10+</div>
               <div class="count-type">Professionals</div>
             </div>
             <div class="count">
-              <div class="count-team odometer percentage">0</div>
+              <div class="num">100%</div>
               <div class="count-type">DHA Certified Team</div>
             </div>
           </div>
         </div>
-        <div class="about-us-right">
-          <div class="image">
+        <div
+          class="about-us-right col-md-5 col-12 d-flex justify-content-center align-items-center animate"
+          data-anim="fadeInDown"
+        >
+          <div class="image mb-5">
             <img src="../../assets/img/img4.png" alt="about us section image" />
           </div>
-          <!-- <div class="image-background"></div> -->
         </div>
       </div>
     </section>
-    <section id="carouselExampleControls" class="services" id="services">
-      <h1 class="mt-5">Private Healthcare. Redefined.</h1>
-      <p>
+    <section id="services" class="services">
+      <h1 class="mt-5 text-center animate" data-anim="fadeInUp">
+        Private Healthcare. Redefined.
+      </h1>
+      <p class="text-center py-3 animate" data-anim="fadeInUp">
         Healthcarebia delivers world-class medical care from IV therapy and
         diagnostics to physician and nursing services in the comfort and privacy
         of your residence. Trusted by royalty, built for those who demand
         excellence.
       </p>
-      <h1>Services</h1>
+      <h1 class="text-center animate" data-anim="fadeInUp">Services</h1>
       <div
-        id="carouselExampleControls"
-        class="carousel slide carousal-block"
-        data-bs-ride="carousel"
+        class="carousel-slick px-2 py-2 animate"
+        data-anim="fadeInUp"
+        id="carousel-slick"
       >
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="3000">
-            <div class="carousal-one">
-              <div
-                class="service-card"
-                style="
-                  background-image: url('../../assets/img/human-first.jpg');
-                  background-size: cover;
-                  background-position: center;
-                  background-repeat: no-repeat;
-                  filter: brightness(0.8) saturate(1.5);
-                "
-              >
-                <p class="service">Human-First Protocols</p>
-                <p>
-                  Holistic protocols tailored to your biology, goals and
-                  lifestyle
-                </p>
-              </div>
-              <div
-                class="service-card"
-                style="
-                  background-image: url('../../assets/img/service1.jpg');
-                  background-size: cover;
-                  background-position: center;
-                  background-repeat: no-repeat;
-                  filter: brightness(0.8) saturate(1.5);
-                "
-              >
-                <p class="service">NAD+ IV Drip</p>
-                <p>
-                  Unlock cellular energy and mental clarity. Trusted by VIPs and
-                  high performers
-                </p>
-              </div>
-              <div
-                class="service-card"
-                style="
-                  background-image: url('../../assets/img/at-home.jpg');
-                  background-size: cover;
-                  background-position: center;
-                  background-repeat: no-repeat;
-                  filter: brightness(0.8) saturate(1.5);
-                "
-              >
-                <p class="service">Lab Tests at Home</p>
-                <p>
-                  No more guesswork - just personalized care built around your
-                  unique biology.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <div class="carousal-one">
-              <div
-                class="service-card"
-                style="
-                  background-image: url('../../assets/img/human-first.jpg');
-                "
-              >
-                <p class="service">Human-First Protocols2</p>
-                <p>
-                  Holistic protocols tailored to your biology, goals and
-                  lifestyle
-                </p>
-              </div>
-              <div
-                class="service-card"
-                style="background-image: url('../../assets/img/service1.jpg')"
-              >
-                <p class="service">NAD+ IV Drip2</p>
-                <p>
-                  Unlock cellular energy and mental clarity. Trusted by VIPs and
-                  high performers
-                </p>
-              </div>
-              <div
-                class="service-card"
-                style="background-image: url('../../assets/img/at-home.jpg')"
-              >
-                <p class="service">Lab Tests at Home2</p>
-                <p>
-                  No more guesswork - just personalized care built around your
-                  unique biology.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev"
+        <a
+          href="#"
+          class="col-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center"
+          ><div
+            class="service-card d-flex flex-column justify-content-between align-items-start"
+            style="background-image: url(../../assets/img/human-first.jpg)"
+          >
+            <p class="service">IV Therapy</p>
+            <p class="text-start">
+              Fast nutrients, zero downtime, real results.
+            </p>
+          </div></a
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="next"
+        <a
+          href="#"
+          class="col-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+          <div
+            class="service-card d-flex flex-column justify-content-between align-items-start"
+            style="background-image: url(../../assets/img/human-first.jpg)"
+          >
+            <p class="service">Lab Test At Home</p>
+            <p class="text-start">
+              Certified diagnostics without leaving home.
+            </p>
+          </div>
+        </a>
+
+        <a
+          href="#"
+          class="col-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center"
+        >
+          <div
+            class="service-card col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-between align-items-start"
+            style="background-image: url(../../assets/img/human-first.jpg)"
+          >
+            <p class="service">Oxygen therapy</p>
+            <p class="text-start">Breathe better and absorb faster.</p>
+          </div>
+        </a>
+
+        <a
+          href="#"
+          class="col-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center"
+        >
+          <div
+            class="service-card col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-between align-items-start"
+            style="background-image: url(../../assets/img/human-first.jpg)"
+          >
+            <p class="service">Tele-consultation</p>
+            <p class="text-start">Tele-health with DHA doctor</p>
+          </div>
+        </a>
+
+        <a
+          href="#"
+          class="col-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center"
+        >
+          <div
+            class="service-card col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-between align-items-start"
+            style="background-image: url(../../assets/img/human-first.jpg)"
+          >
+            <p class="service">Nurse At Home</p>
+            <p class="text-start">
+              Professional nursing, discreet and on time.
+            </p>
+          </div>
+        </a>
+
+        <a
+          href="#"
+          class="col-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center"
+        >
+          <div
+            class="service-card col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-between align-items-start"
+            style="background-image: url(../../assets/img/human-first.jpg)"
+          >
+            <p class="service">Face LED Light Therapy</p>
+            <p class="text-start">
+              Calm inflammation, boost glow without needles.
+            </p>
+          </div>
+        </a>
       </div>
     </section>
-    <section class="why-choose-us">
-      <div class="row">
-        <div class="col-md-4 one">
-          <div class="card">
-            <div class="img">
-              <img src="../../assets/icons/expertise.svg" alt="expertise" />
+    <section class="why-choose-us pt-5 animate" data-anim="fadeInUp">
+      <h1 class="text-center my-5 pt-3 why-choose-us-one">Why Choose Us</h1>
+      <div class="row d-flex">
+        <div class="col-lg-4 col-md-12">
+          <div
+            class="row d-flex justify-content-evenly align-items-center gap-2"
+          >
+            <div class="card col-lg-12 col-md-6">
+              <div class="img">
+                <img src="../../assets/icons/expertise.svg" alt="expertise" />
+              </div>
+              <h3 class="mt-4 mb-3">Expertise</h3>
+              <p>
+                Our highly experienced team of DHA certified multinational
+                nurses and doctors are ready to care for all your needs,
+                customizing your experience for the best service.
+              </p>
             </div>
-
-            <h3 class="mt-4 mb-3">Expertise</h3>
-            <p>
-              Our highly experienced team of DHA certified multinational nurses
-              and doctors are ready to care for all your needs, customizing your
-              experience for the best service.
-            </p>
-          </div>
-          <div class="card">
-            <div class="img">
-              <img src="../../assets/icons/custom-made.svg" alt="expertise" />
+            <div class="card col-lg-12 col-md-6">
+              <div class="img">
+                <img src="../../assets/icons/custom-made.svg" alt="expertise" />
+              </div>
+              <h3 class="mt-4 mb-3">Custom made</h3>
+              <p>
+                We use only FDA approved Grade A products from USA/UK, providing
+                personalized treatments and maintaining a strict policy against
+                one size fits all.
+              </p>
             </div>
-
-            <h3 class="mt-4 mb-3">Custom made</h3>
-            <p>
-              We use only FDA approved Grade A products from USA/UK, providing
-              personalized treatments and maintaining a strict policy against
-              one size fits all.
-            </p>
           </div>
         </div>
-        <div class="col-md-4 two">
-          <h1>Why Choose Us</h1>
+        <div class="col-lg-4 two col-md-12">
+          <h1 class="why-choose-us-two">Why Choose Us</h1>
           <div>
             <img src="../../assets/img/img2.png" alt="why-choose-us" />
           </div>
         </div>
-        <div class="col-md-4 three">
-          <div class="card">
-            <div class="img">
-              <img src="../../assets/icons/quality.svg" alt="expertise" />
+        <div class="col-lg-4 col-md-12">
+          <div
+            class="row d-flex justify-content-evenly align-items-center gap-2"
+          >
+            <div class="card col-lg-12 col-md-6">
+              <div class="img">
+                <img src="../../assets/icons/quality.svg" alt="expertise" />
+              </div>
+              <h3 class="mt-4 mb-3">Quality</h3>
+              <p>
+                All our products are DHA & MOH approved, and we take pride in
+                preparing them freshly for better results.
+              </p>
             </div>
-
-            <h3 class="mt-4 mb-3">Quality</h3>
-            <p>
-              All our products are DHA & MOH approved, and we take pride in
-              preparing them freshly for better results.
-            </p>
-          </div>
-          <div class="card">
-            <div class="img">
-              <img src="../../assets/icons/excellence.svg" alt="expertise" />
+            <div class="card col-lg-12 col-md-6">
+              <div class="img">
+                <img src="../../assets/icons/excellence.svg" alt="expertise" />
+              </div>
+              <h3 class="mt-4 mb-3">Excellence</h3>
+              <p>
+                With over 30+ years of collective expertise in IV Therapy, we
+                are committed to enhancing your well being through our
+                excellence in service.
+              </p>
             </div>
-
-            <h3 class="mt-4 mb-3">Excellence</h3>
-            <p>
-              With over 30+ years of collective expertise in IV Therapy, we are
-              committed to enhancing your well being through our excellence in
-              service.
-            </p>
           </div>
         </div>
       </div>
@@ -288,7 +273,7 @@
       <!-- Swiper -->
       <div class="swiper myTestimonials">
         <div class="swiper-wrapper">
-          <div class="swiper-slide slide slide1">
+          <div class="swiper-slide slide slide1 py-5">
             <h1>Testimonials</h1>
             <div class="testimonial-item">
               <div class="testimonial-video-div">
@@ -367,12 +352,11 @@
             </div>
           </div>
         </div>
-        <!-- navigation arrows -->
         <div class="swiper-button-prev" id="prev"></div>
         <div class="swiper-button-next" id="next"></div>
       </div>
     </section>
-    <section class="talk-to-us">
+    <section class="talk-to-us pb-5">
       <div class="row">
         <div class="col-md-6 talk-to-us-left col-12">
           <h1>Talk to us</h1>
@@ -419,42 +403,6 @@
                 name="message"
               ></textarea>
             </div>
-            <!-- <div class="col-md-12 mb-3">
-              <div class="row">
-                <div class="col-md-6">
-                  <img
-                    src="<?= base_url() ?>mycaptcha/<?= $form_index ?>"
-                    width="100"
-                    height="50"
-                    alt="Security Captcha Code"
-                  />
-                </div>
-                <div class="col-md-6">
-                  <input
-                    type="text"
-                    name="captcha"
-                    id="captcha"
-                    autocomplete="off"
-                    class="form-input"
-                    required
-                    placeholder="Enter Captcha Code *"
-                  />
-                </div>
-              </div>
-            </div> -->
-            <!-- <div class="col-md-12 mb-3">
-              <input
-                type="hidden"
-                name="url_from"
-                value="<?= current_url() ?>"
-              />
-              <input
-                type="hidden"
-                name="form_name"
-                value="<?= $form_index ?>"
-              /> -->
-            <!-- <input type="hidden" name="page_name" value="Contact Us Page" />
-              <input type="hidden" name="source" value="" /> -->
             <button
               id="submit_<?= $form_index ?>"
               class="primary-btn hvr-bounce-to-right green-btn mt-2 primary-btn-submit"
@@ -490,12 +438,11 @@
         </div>
       </div>
     </section>
-    <section class="end-section">
+    <section class="end-section py-5">
       <h1>Healing Body, Mind & Soul</h1>
       <a href="<?=$this->data['whatsappHref']?>" target="_blank"
         ><button>Book your appointment with us now</button></a
       >
-
       <div class="contact-details">
         <li>
           <a href="tel:+97142250823"
@@ -509,13 +456,44 @@
         </li>
         <li>
           <a href="mailto:info@healthcarebia.ae"
-            ><i class="fas fa-envelope"></i>info@healthcarebia.ae</a
+            ><i class="fas fa-envelope"></i>info&#64;healthcarebia.ae</a
           >
         </li>
       </div>
     </section>
     <%- include("partials/footer.ejs") %> <%-
     include("partials/footer-tags.ejs") %>
-    <script src="../assets/js/odometer.js" defer></script>
+    <script>
+      $(document).ready(function () {
+        $(".carousel-slick").slick({
+          slidesToShow: 3,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          dots: true,
+          arrows: false,
+          centerMode: false,
+          infinite: true,
+          touchMove: true,
+          touchThreshold: 10,
+          responsive: [
+            {
+              breakpoint: 1190,
+              settings: {
+                slidesToShow: 2,
+                centerMode: false,
+              },
+            },
+            {
+              breakpoint: 720,
+              settings: {
+                slidesToShow: 1,
+                centerMode: false,
+              },
+            },
+          ],
+        });
+      });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
   </body>
 </html>

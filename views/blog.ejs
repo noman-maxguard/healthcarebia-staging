@@ -13,8 +13,6 @@
   </head>
   <body>
     <%- include("partials/header.ejs") %>
-
-    <!-- <section class="about-us-page"> -->
     <div
       class="banner"
       style="
@@ -28,7 +26,8 @@
     </div>
     <section class="blogs p-5">
       <div class="row blog-container d-flex my-5">
-        <a href="#" class="col-12 col-lg-4 col-md-6 mb-3">
+        <% blogs.forEach((blog,i)=>{ %>
+          <a href="/<%= blog.link %>" class="col-12 col-lg-4 col-md-6 mb-3">
           <div
             class="blog-box p-3 d-flex flex-column justify-content-center align-items-center"
           >
@@ -36,7 +35,7 @@
               class="blog-img"
               style="
                 height: 240px;
-                background: url(../assets/img/blog15.webp);
+                background-image: url('../assets/img/blog<%= blog.i+1 %>.webp');
                 background-position: top;
                 background-size: cover;
                 background-repeat: no-repeat;
@@ -44,28 +43,27 @@
                 border-radius: 10px;
               "
             ></div>
-            <div class="blog-body">
+            <div class="blog-body p-3">
               <div class="head mt-3 d-flex gap-2 align-items-center">
-                <span class="category">Health</span>
+                <span class="category"><%= blog.category %></span>
                 <span><b>.</b></span>
-                <span class="mins">0 mins</span>
+                <span class="mins"><%= blog.time %> mins</span>
               </div>
               <h5 class="mt-3">
-                Hydrate or Crash: Ultimate Summer Recovery with IV Drips
+                <%= blog.title %>
               </h5>
               <p class="pb-4 mt-4 blog-summary">
-                Dubai’s 45 °C heat is no joke discover how DHA licensed, NABIDH
-                compliant at home IV drips keep you safe, balanced, and
-                energized.
+                <%= blog.description %>
               </p>
               <p class="blog-posted d-flex flex-column">
                 <span>Posted On</span>
-                <span class="date">August 4, 2025</span>
+                <span class="date"><%= blog.date %></span>
               </p>
             </div>
           </div></a
         >
-        <a href="#" class="col-12 col-lg-4 col-md-6 mb-3">
+        <% }) %>
+        <!-- <a href="#" class="col-12 col-lg-4 col-md-6 mb-3">
           <div
             class="blog-box p-3 d-flex flex-column justify-content-center align-items-center"
           >
@@ -378,42 +376,6 @@
                 <span class="mins">0 mins</span>
               </div>
               <h5 class="mt-3">
-                Harnessing the Power of IV Drips for Immune Enhancement
-              </h5>
-              <p class="pb-4 mt-4 blog-summary">
-                In recent years, the use of intravenous (IV) drips for immune
-                enhancement has gained significant popularity.
-              </p>
-              <p class="blog-posted d-flex flex-column">
-                <span>Posted On</span>
-                <span class="date">August 1, 2025</span>
-              </p>
-            </div>
-          </div></a
-        >
-        <a href="#" class="col-12 col-lg-4 col-md-6 mb-3">
-          <div
-            class="blog-box p-3 d-flex flex-column justify-content-center align-items-center"
-          >
-            <div
-              class="blog-img"
-              style="
-                height: 240px;
-                background: url(../assets/img/blog9.webp);
-                background-position: top;
-                background-size: cover;
-                background-repeat: no-repeat;
-                width: 100%;
-                border-radius: 10px;
-              "
-            ></div>
-            <div class="blog-body">
-              <div class="head mt-3 d-flex gap-2 align-items-center">
-                <span class="category">Health</span>
-                <span><b>.</b></span>
-                <span class="mins">0 mins</span>
-              </div>
-              <h5 class="mt-3">
                 Saying Goodbye to Hangovers: How IV Drip Therapy Provides Quick
                 Relief
               </h5>
@@ -613,11 +575,10 @@
               </p>
             </div>
           </div></a
-        >
+        > -->
       </div>
     </section>
     <%- include("partials/footer.ejs") %> <%-
     include("partials/footer-tags.ejs") %>
-    <script src="../assets/js/home.js" defer></script>
   </body>
 </html>

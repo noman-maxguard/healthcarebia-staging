@@ -1,6 +1,9 @@
-/* .blogs * {
-  border: 1px solid;
-} */
+.blogs {
+  background: url(../img/blog-background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .blog-container {
   width: 100%;
   height: 100%;
@@ -8,6 +11,11 @@
 
 .blog-box {
   border-radius: 10px;
+  /* box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.1); */
+  background-color: white;
+}
+
+.blog-box:hover {
   box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -54,4 +62,91 @@
 .blog-body .blog-posted .date {
   color: #737373;
   font-size: 16px;
+}
+
+.blog-page {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  /* margin: 5em; */
+  width: 90%;
+  padding: 3em 5em;
+  background-color: #f4f4f4;
+  border-radius: 15px;
+}
+
+.blog-page h1,
+.blog-page h2,
+.blog-page h3,
+.blog-page h4,
+.blog-page h5,
+.blog-page h6 {
+  font-family: var(--body);
+  color: #303827;
+  font-style: normal;
+  margin: 1em 0 0.5em 0;
+}
+
+.blog-page .category {
+  color: white;
+  background-color: var(--primary);
+  padding: 5px 24px;
+  border-radius: 15px;
+}
+
+.blog-page .date {
+  color: #737373;
+  margin: 1em 0 1em 0;
+}
+
+.blog-page .blog-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.blog-content table {
+  border: 1px solid #737373;
+}
+
+.blog-content table th {
+  font-weight: 500;
+  background-color: #e6e6e6;
+  font-size: large;
+}
+
+.blog-content table th,
+.blog-content table td {
+  padding: 0.5em;
+}
+
+.blog-content .booking-btn {
+  background-color: var(--primary);
+  color: white;
+  transform: 0.3s ease;
+}
+
+.blog-content .booking-btn:hover {
+  background-color: transparent;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.blog-page .title {
+  color: black;
+}
+
+.blog-page p {
+  font-family: var(--body);
+  margin-bottom: 0;
+}
+
+.blog-page div ul {
+  padding-left: 20px;
+}
+
+.blog-page div ul li {
+  list-style-type: disc;
+  font-size: 1.1em;
+  color: var(--primary);
 }

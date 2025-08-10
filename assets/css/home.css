@@ -1,0 +1,623 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('../fonts/GlacialIndifference-Regular.otf');
+  font-display: swap;
+  /* format('woff2'),
+    url('../fonts/GlacialIndifference-Regular.otf') format('woff');
+  font-display: swap; */
+}
+
+/* variables */
+:root {
+  --primary: #353f2a;
+  --secondary: #4c583f;
+  --heading: "Noto Serif Display", serif;
+  --body: 'Glacial Indifference', sans-serif;
+  --form: #a6a6a6;
+  --formText: #b4b4b4;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* base styles */
+html,
+body {
+  font-family: var(--body);
+  overflow-x: hidden;
+  font-size: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: italic;
+  font-family: var(--heading);
+  color: var(--primary);
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.75em;
+}
+
+h5 {
+  font-size: 1.5em;
+}
+
+h6 {
+  font-size: 1.25em;
+}
+
+ul,
+ol {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+p {
+  font-size: 1.1em;
+  color: #353f2a;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  width: 100%;
+}
+
+.home {
+  margin-top: 0;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+}
+
+.intro {
+  /* height: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.intro h1 {
+  color: white;
+  font-size: 4em;
+}
+
+.intro p {
+  color: white;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.intro .buttons button {
+  padding: 7px 15px;
+  border: none;
+  color: var(--primary);
+  border-radius: 20px;
+  min-width: 150px;
+  margin-bottom: 10px;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  filter: brightness(0.8);
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #353f2a 0, rgba(255, 255, 255, 0) 100%);
+  z-index: -1;
+}
+
+.about-us {
+  /* min-height: 100vh; */
+  height: 100vh;
+  max-height: 120vh;
+  /* border: 1px solid; */
+}
+
+.about-us-container {
+  display: flex;
+  height: 100%;
+}
+
+.about-us-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 2em;
+  padding: 5em 7em;
+  height: 100%;
+  width: 60%;
+}
+
+.about-us-left h1 {
+  color: var(--primary);
+}
+
+.about-us-left p {
+  color: var(--secondary);
+}
+
+.about-us-left button {
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: var(--secondary);
+  border: none;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.about-us-left button:hover {
+  color: var(--secondary);
+  background-color: white;
+  border: 1px solid var(--secondary);
+}
+
+.about-us-right {
+  padding: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.about-us-right .image {
+  height: 500px;
+  width: 350px;
+  background-color: grey;
+  box-shadow: 15px -15px 0 0 var(--primary);
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.about-us-right .image img {
+  object-fit: cover;
+  height: 500px;
+  width: 350px;
+  border-radius: 10px;
+}
+
+.talk-to-us-left {
+  /* padding: 3em 5em; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.talk-to-us-left p {
+  text-align: center;
+  color: var(--secondary);
+  font-size: 18px;
+  width: 70%;
+}
+
+.talk-to-us-left form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.talk-to-us-left form div {
+  width: 70%;
+}
+
+.talk-to-us-left form input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid var(--form);
+  color: var(--formText);
+  padding: 1em;
+  width: 100%;
+}
+
+.talk-to-us-left form textarea {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid var(--form);
+  padding: 1em;
+  width: 100%;
+}
+
+.talk-to-us-left form button {
+  border: none;
+  color: white;
+  background-color: var(--secondary);
+  min-width: 30%;
+  width: 50px;
+  padding: 7px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-transform: uppercase;
+}
+
+.talk-to-us-left form button:hover {
+  border: 1px solid var(--secondary);
+  color: var(--secondary);
+  background-color: white;
+}
+
+.talk-to-us .talk-to-us-right {
+  padding: 3em;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.talk-to-us-image {
+  background-color: grey;
+  height: 500px;
+  width: 500px;
+  border-radius: 15px;
+  object-fit: contain;
+}
+
+.talk-to-us-image img {
+  border-radius: 15px;
+}
+
+.services {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+  background: #d6d6d6;
+  padding: 2em 0;
+}
+
+.services .private-healthcare {
+  margin-top: 1em;
+}
+
+.services p {
+  font-family: var(--body);
+  font-size: 1em;
+  color: var(--secondary);
+  width: 80%;
+  text-align: center;
+}
+
+.carousal-block {
+  width: 100%;
+}
+
+.carousal-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-card {
+  margin: 2em;
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(0.8) saturate(1.5);
+  padding: 1.5rem;
+  /* height: 50vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  backdrop-filter: blur(3px);
+  border-radius: 20px;
+}
+
+/* .service-card .service {
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-size: 22px;
+  margin-bottom: 0.75rem;
+} */
+.service-card p {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.service-card .service {
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 500px;
+  line-height: 1.3;
+  text-align: start;
+}
+
+.end-section {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  background-image: url(../img/hands.avif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, .7);
+  background-blend-mode: lighten;
+}
+
+.end-section h1 {
+  color: var(--primary);
+  font-style: italic;
+  text-align: center;
+  font-size: 72px;
+  margin-top: 1em;
+}
+
+.end-section button {
+  border-radius: 20px;
+  color: white;
+  background-color: var(--secondary);
+  border: none;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  transition: 0.2s ease;
+}
+
+.end-section button:hover {
+  color: var(--secondary);
+  border: 1px solid var(--secondary);
+  background: transparent;
+}
+
+.end-section .contact-details {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 100px;
+}
+
+.end-section .contact-details li {
+  color: var(--secondary);
+  font-weight: 500;
+  display: flex;
+  font-size: 22px;
+  align-items: center;
+  justify-content: center;
+}
+
+.end-section .contact-details a {
+  color: var(--secondary);
+  font-weight: 500;
+  display: flex;
+  font-size: 22px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.end-section .contact-details li i {
+  color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 18px;
+  background-color: var(--secondary);
+  font-size: 14px;
+  margin-right: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 991.98px) {
+  .end-section {
+    height: auto;
+    padding: 60px 20px;
+    gap: 1.5rem;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+  }
+
+  .end-section h1 {
+    padding: 0 10px;
+    letter-spacing: -4px;
+  }
+
+  .end-section button {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+
+  .end-section .contact-details {
+    flex-direction: column;
+    gap: 30px;
+    padding: 0;
+  }
+
+  .end-section .contact-details li {
+    /* font-size: 14px; */
+    flex-direction: row;
+  }
+
+  .end-section .contact-details li img {
+    width: 50px;
+    margin-right: 10px;
+  }
+
+  .end-section .contact-details li i {
+    font-size: 28px;
+    margin-right: 10px;
+  }
+}
+
+.why-choose-us {
+  min-height: 100vh;
+  padding: 2em 1em;
+}
+
+.why-choose-us .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+}
+
+.one,
+.two,
+.three {
+  flex: 1 1 100%;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.why-choose-us .row .one .card,
+.why-choose-us .row .three .card {
+  border-radius: 30px;
+  border: none;
+}
+
+@media (min-width: 992px) {
+
+  .one,
+  .two,
+  .three {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+}
+
+.card {
+  width: 100%;
+  max-width: 20em;
+  background-color: #d3d4d3e8;
+  font-family: var(--body);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 2em;
+  margin-bottom: 2em;
+}
+
+.card h3 {
+  font-family: var(--body);
+  font-style: normal;
+}
+
+.card p {
+  color: var(--primary);
+}
+
+.card .img {
+  height: 4em;
+  width: 4em;
+  border-radius: 50%;
+  background-color: var(--secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+
+.card .img img {
+  width: 100%;
+  height: auto;
+}
+
+.two {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Image section */
+.two h1 {
+  font-size: 3rem;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.two div {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+}
+
+.two div img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.one,
+.three {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  /* space between cards */
+}
+
+.one .card,
+.three .card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.home * {
+  border: 1px solid;
+}

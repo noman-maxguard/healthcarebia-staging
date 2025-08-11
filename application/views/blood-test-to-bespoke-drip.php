@@ -140,26 +140,26 @@
 
                     <h5>8 Before, During, and After: Simple Tips</h5>
                     <ul class="ingredients-list">
-                        <li>Before
-                            <ul>
+                        <li>Before:
+                            <ol>
                                 <li>Drink two glasses of water.</li>
                                 <li>Eat a light snack, fruit and nuts work well.</li>
                                 <li>Bring your lab list or meds list.</li>
-                            </ul>
+                            </ol>
                         </li>
                         <li>During
-                            <ul>
+                            <ol>
                                 <li>Breathe slow.</li>
                                 <li>Keep the arm still for the first five minutes.</li>
                                 <li>Scroll, read, or nap.</li>
-                            </ul>
+                            </ol>
                         </li>
                         <li>After
-                            <ul>
+                            <ol>
                                 <li>Skip heavy weights for six hours.</li>
                                 <li>Hold the cotton pad for one minute to avoid bruising.</li>
                                 <li>Notice changes in mood, sleep, or focus over the next day.</li>
-                            </ul>
+                            </ol>
                         </li>
                     </ul>
                     <p>Track these points in a phone note. Small clues guide the next tweak in your plan.</p>

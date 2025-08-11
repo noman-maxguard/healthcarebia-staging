@@ -85,12 +85,10 @@
 
                     <p>Dubai heat, back-to-back meetings, and late brunches can sap your body fast. Water alone often is not enough. That is why healthcarebia begins every IV journey with facts, not guesses. A fast blood draw, a deep lab panel, and a doctor consult turn raw numbers into a bespoke IV drip mixed to the millilitre. Below you will see how we move from test tube to tailored bag of IV infusions, whether at your office or at the comfort of your home.</p>
 
-                    <hr>
 
                     <h5>1 Why Test Before You Drip?</h5>
                     <p>A full blood screen spots hidden medical conditions long before you feel unwell. Low vitamin D, mild anaemia, or slow thyroid can cause fatigue, brain fog, and cramps, yet they are easy to miss during busy weeks. Lab data also shows which vitamin and mineral levels need quick help from IV vitamin therapy instead of slow-burn tablets. This evidence-first method raises the real benefits of IV therapy and cuts side effects because we give only what you need.</p>
 
-                    <hr>
 
                     <h5>2 Pathway From Lab to Drip</h5>
                     <ol>
@@ -103,7 +101,6 @@
                     </ol>
                     <p>The pipeline meets global best practice and UAE rules, so you get hospital grade care without hospital delay.</p>
 
-                    <hr>
 
                     <h5>3 Inside a Custom Bag of IV Goodness</h5>
                     <ul class="ingredients-list">
@@ -115,12 +112,10 @@
                     </ul>
                     <p>Jet-lagged flyers may add taurine and B12, while busy CEOs choose NAD+ for focus. Each nutrient ampoule is cross-checked against your chart and logged by the nurse before it goes in, giving a clear paper trail for future review by our medical team.</p>
 
-                    <hr>
 
                     <h5>4 Delivery Modes: Clinic, Villa, or Hotel Suite</h5>
                     <p>Life in the UAE moves at speed, and healthcarebia keeps pace by bringing IV drip therapy straight to you. A DHA-certified nurse arrives with a temperature-controlled cooler, smart pump, and vital-sign monitor. Your drip begins within ten minutes, you can answer emails, watch a show, or simply relax. The mobile kit also carries emergency medications to address the rare side effects (like mild flushing) that some clients experience. The nurse displays their DHA ID on arrival to prove training, logs each nutrient ampoule against your chart for full traceability, and monitors you throughout. Nothing to worry, the procedure is completely safe, letting you keep working, parenting, or resting while vital nutrients flow.</p>
 
-                    <hr>
 
                     <h5>5 Eight Core Benefits of IV Treatments</h5>
                     <ol>
@@ -134,17 +129,14 @@
                         <li>Drip content upgrades as your biomarkers change.</li>
                     </ol>
 
-                    <hr>
 
                     <h5>6 Risk Management: Know the Possible Side Effects</h5>
                     <p>Most people feel only a cool arm or mild taste of minerals. Small bruises or brief headaches may appear but fade fast. Severe reactions are rare and often linked to unlicensed pop-ups. Always share kidney issues, pregnancy, or any chronic health conditions so the doctor can adjust dose and speed.</p>
 
-                    <hr>
 
                     <h5>7 Real-Life Case Study: Alex the Marathoner</h5>
                     <p>Alex, 38, trains in 40 °C heat. At kilo-metre 30 he would fade. Labs showed low ferritin and magnesium. Two IV treatments with iron, magnesium, carnitine, and vitamin C solved the gap. Alex cut four minutes off his next long run. Follow up labs proved ferritin back in range.</p>
 
-                    <hr>
 
                     <h5>8 Before, During, and After: Simple Tips</h5>
                     <ul class="ingredients-list">
@@ -172,7 +164,6 @@
                     </ul>
                     <p>Track these points in a phone note. Small clues guide the next tweak in your plan.</p>
 
-                    <hr>
 
                     <h5>9 FAQs at a Glance</h5>
                     <ul class="tick-list">
@@ -182,8 +173,6 @@
                         <li><b>Will insurance pay?</b> Many plans cover labs; ask about wellness extras.</li>
                         <li><b>Travel often?</b> A booster drip before take-off can keep hydration steady.</li>
                     </ul>
-
-                    <hr>
 
                     <h5>10 Next Steps: Build Your Own Plan</h5>
                     <p>Wellness runs on measurement. Book your lab today, have a tele-consultation with our doctor tomorrow, and slide a custom drip into your week—post-brunch reset or pre-meeting prep.</p>

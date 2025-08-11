@@ -1,0 +1,61 @@
+.home-diagnostics {
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(../img/blog-background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home-diagnostics h1 {
+  font-weight: 500;
+}
+
+.home-diagnostics p {
+  font-style: italic;
+  width: 70%;
+  text-align: center;
+}
+
+.test-link {
+  height: 650px;
+}
+
+/* .tests * {
+  border: 1px solid;
+} */
+.home-diagnostics .test-link .test-box {
+  border-radius: 15px;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  justify-content: start;
+}
+
+.test-box:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.8);
+}
+
+.test-box>img {
+  border-radius: 15px;
+  width: 100%;
+  height: 240px;
+}
+
+.home-diagnostics .tests .test-title {
+  width: 100%;
+  padding-bottom: 1em;
+}
+
+.tests .test-title .test-icon {
+  height: 80px;
+  width: 80px;
+}
+
+.tests .test-title .test-icon img {
+  transform: scale(1.4);
+}
+
+.home-diagnostics .tests a div p {
+  font-style: normal;
+  width: 90%;
+  text-align: start;
+}

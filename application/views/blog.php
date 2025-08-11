@@ -50,15 +50,23 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
-            <a href="<?= base_url() ?>blood-test-to-bespoke-drip" class="card-style3 card-style4 same">
-                <img src="<?= base_url() ?>assets/frontend/img/blog17.jpg" 
-                    alt="Blood Test to Bespoke Drip: Your Precision Wellness Plan" 
-                    class="img-fluid">
-                <h6>Blood Test to Bespoke Drip: Your Precision Wellness Plan</h6>
-                <p>Learn how healthcarebia turns your blood work and lab panel into a custom-mixed IV drip for millilitre perfect hydration and nutrient support, delivered at the comfort of your home.</p>
-            </a>
-        </div>
-
+                <a href="<?= base_url() ?>iv-drips-for-sleep-dubai" class="card-style3 card-style4 same">
+                    <img src="<?= base_url() ?>assets/frontend/img/blog18.jpg"
+                        alt="Sleep Like a Baby: How IV Drips Can Improve Your Rest and Recovery"
+                        class="img-fluid">
+                    <h6>Sleep Like a Baby: IV Drips for Better Rest</h6>
+                    <p>How DHA-approved, sleep support IV drips target stress, hydration, and nutrient gaps for deeper sleep.</p>
+                </a>
+            </div>
+            <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>blood-test-to-bespoke-drip" class="card-style3 card-style4 same">
+                    <img src="<?= base_url() ?>assets/frontend/img/blog17.jpg" 
+                        alt="Blood Test to Bespoke Drip: Your Precision Wellness Plan" 
+                        class="img-fluid">
+                    <h6>Blood Test to Bespoke Drip: Your Precision Wellness Plan</h6>
+                    <p>Learn how healthcarebia turns your blood work and lab panel into a custom-mixed IV drip for millilitre perfect hydration and nutrient support, delivered at the comfort of your home.</p>
+                </a>
+            </div>
             <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>mythbusting-iv-therapy" class="card-style3 card-style4 same">
                     <img src="<?= base_url() ?>assets/frontend/img/blog16.jpg" alt="Mythbusting IV Therapy – Separating Fact from Fiction" class="img-fluid">
@@ -70,10 +78,9 @@
                 <a href="<?= base_url() ?>hydrate-or-crash-blog" class="card-style3 card-style4 same">
                     <img src="<?= base_url() ?>assets/frontend/img/blog15.jpg" alt="Hydrate or Crash – IV Drips in Dubai" class="img-fluid">
                     <h6>Hydrate or Crash: Ultimate Summer Recovery with IV Drips</h6>
-                    <p>Dubai’s 45 °C heat is no joke—discover how DHA-licensed, NABIDH-compliant at-home IV drips keep you safe, balanced, and energized.</p>
+                    <p>Dubai’s 45 °C heat is no joke—discover how DHA-licensed, at-home IV drips keep you safe, balanced, and energized.</p>
                 </a>
             </div>
-
             <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>iv-drip-safety-dubai" class="card-style3 card-style4 same">
                     <img src="<?= base_url() ?>assets/frontend/img/blog14.png" alt="IV Drip Safety and Legality Dubai" class="img-fluid">
@@ -81,7 +88,6 @@
                     <p>Separate myth from fact—learn DHA regulations, safety tips, and what makes IV therapy safe and compliant in Dubai.</p>
                 </a>
             </div>
-
             <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>vitamin-d-deficiency-blog" class="card-style3 card-style4 same">
                     <img src="<?= base_url() ?>assets/frontend/img/blog13.jpg" alt="Vitamin D Deficiency Dubai" class="img-fluid">
@@ -89,7 +95,6 @@
                     <p>Discover why vitamin D is low, even with Dubai sunshine. Learn the risks, symptoms, and book a quick home blood test today.</p>
                 </a>
             </div>
-
             <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>athletic-performance-blog" class="card-style3 card-style4 same">
                     <img src="<?= base_url() ?>assets/frontend/img/blog12.jpg" alt="Athletic IV Drip Dubai" class="img-fluid">

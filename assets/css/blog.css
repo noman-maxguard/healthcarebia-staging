@@ -2,6 +2,7 @@
   background: url(../img/blog-background.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .blog-container {

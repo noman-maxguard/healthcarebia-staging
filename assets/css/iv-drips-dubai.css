@@ -174,3 +174,28 @@
   font-size: 16px;
   color: var(--primary);
 }
+
+/* Post party drip */
+.post-party {
+  padding: 4em;
+  padding-bottom: 0;
+}
+
+.title p {
+  font-style: italic;
+  /* transform: skew(-8deg); */
+  width: 60%
+}
+
+.desc-box img {
+  flex: 1;
+}
+
+.desc {
+  width: 60%;
+}
+
+.desc p {
+  font-style: italic;
+  width: 80%;
+}

@@ -8,12 +8,14 @@ router.get("/", (req, res) => {
 router.get("/about-us", (req, res) => {
   res.render("about-us");
 });
-router.get("/lab-test-at-home", (req, res) => {
-  res.render("lab-test-at-home");
-});
+//Iv drips
 router.get("/iv-drip-dubai", (req, res) => {
   res.render("iv-drip-dubai");
 });
+router.get("/post-party-drip", (req, res) => {
+  res.render("drips/post-party-drip");
+});
+//Blog
 router.get("/blog", (req, res) => {
   res.render("blog", { blogs });
 });
@@ -22,5 +24,8 @@ blogs.forEach((b) => {
     res.render(`blogs/${b.link}`, { blogs });
   });
 });
-
+//Lab test at home
+router.get("/lab-test-at-home", (req, res) => {
+  res.render("lab-test-at-home");
+});
 module.exports = router;

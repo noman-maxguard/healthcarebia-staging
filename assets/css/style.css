@@ -135,6 +135,7 @@ section {
   display: flex;
   justify-content: start;
   align-items: flex-end;
+  padding: 3.5em;
   padding-bottom: 3em;
 }
 
@@ -155,8 +156,10 @@ section {
 
 .intro p {
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   font-style: italic;
+  letter-spacing: -1px;
+  transform: skewX(3deg)
 }
 
 .intro .buttons button {
@@ -209,6 +212,8 @@ section {
 
 .about-us-left p {
   color: var(--secondary);
+  font-style: italic;
+  transform: skewX(3deg);
 }
 
 .about-us-left button {
@@ -315,6 +320,7 @@ section {
 .testimonials h1 {
   font-family: var(--heading);
   font-style: italic;
+  transform: skewX(3deg);
   margin: 2rem 0;
   /* font-size: 52px; */
 }
@@ -610,6 +616,7 @@ section {
 .end-section h1 {
   color: var(--primary);
   font-style: italic;
+  transform: skewX(3deg);
   text-align: center;
   font-size: 4em;
   font-weight: 300;
@@ -791,6 +798,7 @@ section {
     background-color 0.5s ease,
     left 0.5s ease,
     right 0.5s ease;
+  font-size: 0.9em;
 }
 
 #header.scrolled {
@@ -802,6 +810,12 @@ section {
 #header ul li a {
   color: white;
   text-transform: uppercase;
+  /* text-shadow: #422b1c; */
+  /* transition: 0.3s ease; */
+}
+
+#header ul li :hover {
+  /* background-color: rgba(99, 99, 99, 0.3); */
 }
 
 #header .book-now {
@@ -820,6 +834,32 @@ section {
 #menu {
   width: 100%;
   font-family: "Poppins", serif;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  background-color: rgba(55, 67, 41, 0.85);
+  border: none;
+  font-size: 0.95em
+}
+
+@media(min-width:992px) {
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    top: 50px;
+  }
+}
+
+@media(max-width:991px) {
+  #header {
+    background-color: rgba(55, 67, 41, 0.85);
+  }
+}
+
+.dropdown-item {
+  /* padding-left: 0; */
+}
+
+.dropdown-item:hover {
+  background-color: rgba(99, 99, 99, 0.3);
 }
 
 .banner {
@@ -846,6 +886,7 @@ section {
   font-family: var(--body);
   font-size: 16px;
   font-style: italic;
+  transform: skewX(3deg);
   color: white;
   display: flex;
   gap: 10px;
@@ -857,6 +898,7 @@ section {
   font-family: var(--body);
   font-size: 16px;
   font-style: italic;
+  transform: skewX(3deg);
   color: white;
 }
 

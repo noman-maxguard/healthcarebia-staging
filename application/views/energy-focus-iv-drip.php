@@ -312,13 +312,22 @@
                             <p>Frequency varies according to individual needs, typically ranging from weekly to monthly treatments.</p>
                         </div>
                     </div>
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>5</span>Can I combine the Energy & Focus IV Drip with other treatments?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Yes. Many clients choose to combine it with hydration therapy, vitamin C drips, or antioxidant infusions for added wellness benefits.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="accordion pt-md-3">
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>5</span>Who can benefit from the Energy & Focus IV Drip?</h5>
+                            <h5><span>6</span>Who can benefit from the Energy & Focus IV Drip?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -327,7 +336,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>6</span>Are there any side effects?</h5>
+                            <h5><span>7</span>Are there any side effects?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -336,7 +345,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>7</span>Is the Energy & Focus IV Drip safe?</h5>
+                            <h5><span>8</span>Is the Energy & Focus IV Drip safe?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -345,11 +354,20 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>8</span>Does the Energy & Focus IV Drip really work?</h5>
+                            <h5><span>9</span>Does the Energy & Focus IV Drip really work?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
                             <p>Absolutely. The Energy & Focus IV Drip is designed for rapid absorption of nutrients, helping to boost energy, sharpen focus, and improve mental clarity. Many clients report feeling a difference within hours.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>10</span>How should I prepare before my Energy & Focus IV Drip session?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>It’s best to eat a light meal and drink water beforehand to keep your blood sugar and hydration levels stable. Wear comfortable clothing with easy arm access so your nurse can set up the IV easily.</p>
                         </div>
                     </div>
                 </div>

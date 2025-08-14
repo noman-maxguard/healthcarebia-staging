@@ -50,6 +50,16 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>iv-drip-therapy-dubai-blog" class="card-style3 card-style4 same">
+                    <img src="<?= base_url() ?>assets/frontend/img/blog19.jpg"
+                        alt="IV Drip Therapy Dubai – Science, Luxury & Benefits"
+                        class="img-fluid">
+                    <h6>IV Drip Therapy, Science, Luxury & Benefits</h6>
+                    <p>DHA-approved IV therapy at home in UAE. Hydration, vitamins, and antioxidants that boost energy and support skin health.</p>
+                </a>
+            </div>
+
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>iv-drips-for-sleep-dubai" class="card-style3 card-style4 same">
                     <img src="<?= base_url() ?>assets/frontend/img/blog18.jpg"
                         alt="Sleep Like a Baby: How IV Drips Can Improve Your Rest and Recovery"

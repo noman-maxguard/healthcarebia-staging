@@ -13,7 +13,15 @@
       "@id": "https://healthcarebia.ae/#medicalorganization",
       "name": "Healthcarebia",
       "url": "https://healthcarebia.ae",
-      "telephone": "+971547077476"
+      "telephone": "+971547077476","address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Sheikh Zayed Road",
+        "addressLocality": "Dubai",
+        "addressRegion": "Dubai",
+        "postalCode": "00000",
+        "addressCountry": "AE"
+        },
+        "image": "https://healthcarebia.ae/assets/frontend/img/logo.webp"
     },
 
     {
@@ -93,123 +101,6 @@
 
 
     <?php include 'includes/inc_head_tag.php'; ?>
-
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "MedicalOrganization",
-      "@id": "https://healthcarebia.ae/#medicalorganization",
-      "name": "HealthcareBIA",
-      "url": "https://healthcarebia.ae",
-      "telephone": "+971547077476"
-    },
-    {
-      "@type": "Service",
-      "@id": "https://healthcarebia.ae/glutathione-iv-drip#service",
-      "name": "Glutathione IV Drip in Dubai",
-      "serviceType": "Glutathione Intravenous Therapy",
-      "description": "Experience skin brightening and detox benefits with DHA-licensed Glutathione IV therapy in Dubai. Delivered safely at your home or hotel by HealthcareBIA professionals.",
-      "url": "https://healthcarebia.ae/glutathione-iv-drip",
-      "provider": { "@id": "https://healthcarebia.ae/#medicalorganization" },
-      "areaServed": { "@type": "Place", "name": "Dubai, United Arab Emirates" },
-      "availableChannel": {
-        "@type": "ServiceChannel",
-        "serviceLocation": { "@type": "Place", "name": "At‑Home, Hotel, and Office Visits in Dubai" }
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://healthcarebia.ae/glutathione-iv-drip#faq",
-      "url": "https://healthcarebia.ae/glutathione-iv-drip#faq",
-      "inLanguage": "en",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "@id": "https://healthcarebia.ae/glutathione-iv-drip#q1",
-          "name": "How many sessions do I require to see a result?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Experts recommend a minimum of 5 sessions to truly benefit from the power of Glutathione and Vitamin C."
-          }
-        },
-        {
-          "@type": "Question",
-          "@id": "https://healthcarebia.ae/glutathione-iv-drip#q2",
-          "name": "Where can I have IV Therapy?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Our IV Therapy services are available across all of Dubai. Whether it's at home, your office, a friend’s house or even a hotel, our team is certified to care for your health."
-          }
-        },
-        {
-          "@type": "Question",
-          "@id": "https://healthcarebia.ae/glutathione-iv-drip#q3",
-          "name": "I heard that this can make me whiter, is this true?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Whilst Glutathione and Vitamin C do inhibit the production of melanin, results can vary based on your daily activities and biological characteristics. Please speak with us for further assistance."
-          }
-        },
-        {
-          "@type": "Question",
-          "@id": "https://healthcarebia.ae/glutathione-iv-drip#q4",
-          "name": "Is Glutathione IV Better Than Oral Supplements?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Glutathione IV drips offer higher absorption, faster visible results, and customizable dosing compared to oral supplements."
-          }
-        },
-        {
-          "@type": "Question",
-          "@id": "https://healthcarebia.ae/glutathione-iv-drip#q5",
-          "name": "How soon can I feel the effects?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The effects of our Glow Skin Drip are immediate, although we recommend allowing a couple of hours for your body to fully benefit and absorb the nutrients."
-          }
-        },
-        {
-          "@type": "Question",
-          "@id": "https://healthcarebia.ae/glutathione-iv-drip#q6",
-          "name": "Does it hurt?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Rest assured our team of DHA registered nurses and doctors are carefully trained and have many years of experience in IV Therapy. A small prick and it’ll be over before you know it!"
-          }
-        },
-        {
-          "@type": "Question",
-          "@id": "https://healthcarebia.ae/glutathione-iv-drip#q7",
-          "name": "Is it safe?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Absolutely. Our ingredients are 100% DHA, MOH, and FDA approved. We only use the finest and freshest ingredients to deliver our premium IV Therapy."
-          }
-        },
-        {
-          "@type": "Question",
-          "@id": "https://healthcarebia.ae/glutathione-iv-drip#q8",
-          "name": "How Often Should I Get Glutathione IV Drips?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Frequency depends on your goals. 1–2 sessions per week are ideal for skin brightening and anti-aging, while monthly treatments are suitable for general wellness."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "MedicalProcedure",
-      "@id": "https://healthcarebia.ae/glutathione-iv-drip#procedure",
-      "name": "Glutathione IV Drip",
-      "description": "Premium IV therapy treatment using Glutathione and Vitamin C to enhance skin brightness, improve immunity, and combat aging through high absorption direct infusion.",
-      "recognizingAuthority": { "@type": "Organization", "name": "Dubai Health Authority (DHA)" },
-      "preparation": "No special preparation required."
-    }
-  ]
-}
-</script>
 
 
 

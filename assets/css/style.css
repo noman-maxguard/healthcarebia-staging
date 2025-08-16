@@ -82,7 +82,7 @@ h6 {
   font-style: italic;
   font-family: var(--heading);
   color: var(--primary);
-  font-weight: 300;
+  font-weight: 500;
 }
 
 h1 {
@@ -159,7 +159,6 @@ section {
   font-size: 20px;
   font-style: italic;
   letter-spacing: -1px;
-  transform: skewX(3deg)
 }
 
 .intro .buttons button {
@@ -213,7 +212,6 @@ section {
 .about-us-left p {
   color: var(--secondary);
   font-style: italic;
-  transform: skewX(3deg);
 }
 
 .about-us-left button {
@@ -320,7 +318,6 @@ section {
 .testimonials h1 {
   font-family: var(--heading);
   font-style: italic;
-  transform: skewX(3deg);
   margin: 2rem 0;
   /* font-size: 52px; */
 }
@@ -562,6 +559,10 @@ section {
   margin-top: 1em;
 }
 
+.services p {
+  padding: 0 5em;
+}
+
 .services a {
   margin: 2em;
   padding: 1.5rem;
@@ -616,7 +617,6 @@ section {
 .end-section h1 {
   color: var(--primary);
   font-style: italic;
-  transform: skewX(3deg);
   text-align: center;
   font-size: 4em;
   font-weight: 300;
@@ -798,7 +798,9 @@ section {
     background-color 0.5s ease,
     left 0.5s ease,
     right 0.5s ease;
-  font-size: 0.9em;
+  font-size: 15px;
+  font-family: 'Poppins', serif;
+  letter-spacing: 1px;
 }
 
 #header.scrolled {
@@ -886,7 +888,6 @@ section {
   font-family: var(--body);
   font-size: 16px;
   font-style: italic;
-  transform: skewX(3deg);
   color: white;
   display: flex;
   gap: 10px;
@@ -898,7 +899,6 @@ section {
   font-family: var(--body);
   font-size: 16px;
   font-style: italic;
-  transform: skewX(3deg);
   color: white;
 }
 
@@ -1221,6 +1221,14 @@ footer {
   .why-choose-us .two div img {
     display: none;
   }
+
+  .about-us-left {
+    padding: 2em 3em;
+  }
+
+  .services p {
+    padding: 0 2em;
+  }
 }
 
 @media(max-width: 991px) {
@@ -1232,6 +1240,7 @@ footer {
   .about-us-left h1,
   .about-us-left p {
     text-align: center;
+    color: var(--primary)
   }
 }
 
@@ -1253,4 +1262,31 @@ footer {
   border: none;
   padding: 0;
   font-size: 20px;
+}
+
+.home-service {
+  background-color: #fafaf3;
+}
+
+.home-service h1 {
+  font-weight: 500;
+}
+
+.home-service p {
+  font-style: italic;
+}
+
+.home-service button {
+  padding: 5px 16px;
+  color: white;
+  background-color: var(--primary);
+  border-radius: 20px;
+  transition: 0.3s ease;
+  border: none;
+}
+
+.home-service button:hover {
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  background-color: transparent;
 }

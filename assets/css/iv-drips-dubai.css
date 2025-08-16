@@ -177,8 +177,13 @@
 
 /* Post party drip */
 .post-party {
-  padding: 4em;
+  padding: 5em;
   padding-bottom: 0;
+  background: url('../img/hangover-background.png');
+}
+
+.post-party h1 {
+  font-weight: 500;
 }
 
 .title p {
@@ -192,10 +197,107 @@
 }
 
 .desc {
-  width: 60%;
+  /* width: 60%; */
 }
 
 .desc p {
   font-style: italic;
-  width: 80%;
+}
+
+.symptoms-and-benefits {
+  background: url("../img/hangover-background-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5em 10em;
+}
+
+.symptoms-and-benefits h2 {
+  font-weight: 500;
+}
+
+.benefits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+
+.symptom-box,
+.benefit-box {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 50%;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+.benefit-box {
+  width: 60%;
+  justify-content: end;
+  align-items: center;
+}
+
+.symptom,
+.benefit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary);
+  border-radius: 20px;
+  padding: 2px 16px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.symptom:hover,
+.benefit:hover {
+  box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.3);
+  transform: translateY(5px);
+}
+
+.symptom img,
+.benefit img {
+  margin-left: -5px;
+}
+
+.symptom p,
+.benefit p {
+  color: white;
+  margin-bottom: 0;
+}
+
+.ingredients {
+  padding: 5em 10em;
+  padding-bottom: 0;
+}
+
+.ingredients h1 {
+  font-weight: 500;
+}
+
+.ingredients ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ingredients .ingredient-list ul li {
+  font-style: italic;
+  list-style: none;
+  font-size: 18px;
+}
+
+.hangover-drip-img {
+  max-height: 500px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 300px;
+}
+
+.hangover-drip-img img {
+  transform: rotate(-40deg);
 }

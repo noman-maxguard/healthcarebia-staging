@@ -30,10 +30,6 @@
   justify-content: start;
 }
 
-.test-box:hover {
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.8);
-}
-
 .test-box>img {
   border-radius: 15px;
   width: 100%;
@@ -58,4 +54,193 @@
   font-style: normal;
   width: 90%;
   text-align: start;
+}
+
+/* Test pages */
+.test-intro {
+  padding: 5em;
+  background: url('../img/hangover-background-2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .test-intro * {
+  border: 1px solid;
+} */
+.test-intro h1,
+.test-intro h3 {
+  font-weight: 500;
+}
+
+.intro-img {
+  max-height: 400px;
+  max-width: 400px;
+}
+
+.intro-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.test-summary div p {
+  font-style: italic;
+  width: 50%;
+}
+
+/* .test * {
+  border: 1px solid;
+} */
+.test {
+  box-shadow: 0 -8px 10px -8px rgba(0, 0, 0.6, 0.5),
+    0 8px 10px -8px rgba(0, 0, 0.6, 0.5);
+  padding: 4em;
+  background-color: #fffff7;
+}
+
+.test h1 {
+  font-weight: 500;
+}
+
+.test p {
+  font-style: italic;
+}
+
+.test-details h1 {
+  margin: 1em 0;
+}
+
+.test-details p {
+  margin-bottom: 2em;
+}
+
+.test-details ul {
+  margin-bottom: 2em;
+}
+
+.test-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.test-img .img {
+  height: 400px;
+  width: 260px;
+  position: relative;
+  z-index: 1;
+}
+
+.test-img .img img {
+  width: 100%;
+  height: 100%;
+}
+
+.odd::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  width: 60%;
+  height: 60%;
+  background-color: var(--primary);
+  z-index: -1;
+}
+
+.even::before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  width: 60%;
+  height: 60%;
+  background-color: var(--primary);
+  z-index: -1;
+}
+
+.test-details ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  font-size: 18px;
+  color: var(--primary);
+}
+
+.test-details ul li {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.test-details .test-price {
+  background-color: #383e2b;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-bottom: 2em;
+}
+
+.test-accordion-box {
+  width: 100%;
+}
+
+.test-accordion-box .row {
+  width: 100%;
+  display: flex;
+}
+
+.test-accordion {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.test-accordion-head,
+.test-accordion-body {
+  background-color: rgba(115, 115, 115, 0.4);
+}
+
+.test-accordion-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 5px 7px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  color: var(--primary);
+  margin-bottom: 5px;
+}
+
+.test-accordion-head img {
+  transition: transform 0.3s ease;
+}
+
+.test-accordion-head img.rotate {
+  transform: rotate(180deg)
+}
+
+.test-accordion-body {
+  display: none;
+  border-radius: 10px;
+}
+
+.test-accordion-body.visible {
+  display: block;
+}
+
+.test-accordion-body ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1em;
+}
+
+.test-accordion-body ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }

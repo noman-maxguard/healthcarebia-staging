@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const { blogs } = require("../assets/js/blogs");
+const { womensTest } = require("../assets/js/womens-health");
 
 router.get("/", (req, res) => {
   res.render("home");
@@ -27,5 +28,11 @@ blogs.forEach((b) => {
 //Lab test at home
 router.get("/lab-test-at-home", (req, res) => {
   res.render("lab-test-at-home");
+});
+router.get("/womens-health", (req, res) => {
+  res.render("lab-test/womens-health");
+});
+router.get("/womens-health", (req, res) => {
+  res.render("lab-test/mens-health");
 });
 module.exports = router;

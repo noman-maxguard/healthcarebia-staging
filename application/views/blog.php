@@ -50,6 +50,16 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>gut-health-iv-drip-dubai" class="card-style3 card-style4 same">
+                    <img src="<?= base_url() ?>assets/frontend/img/blog20.jpg"
+                        alt="Gut Health IV Drip in Dubai: Fast Relief for Digestive Health"
+                        class="img-fluid">
+                    <h6>Gut Health IV Drip in Dubai</h6>
+                    <p>Rapid relief from acidity, indigestion, and bloating with DHA-certified at-home IV therapy to restore balance and improve digestive health.</p>
+                </a>
+            </div>
+
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>iv-drip-therapy-dubai-blog" class="card-style3 card-style4 same">
                     <img src="<?= base_url() ?>assets/frontend/img/blog19.jpg"
                         alt="IV Drip Therapy Dubai – Science, Luxury & Benefits"

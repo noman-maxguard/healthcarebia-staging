@@ -275,25 +275,33 @@
                         <div class="accordion-item"><h5><span>4</span>How often should I schedule an Immune Boost IV Drip treatment?</h5><span class="plus-minus"></span></div>
                         <div class="data" style="display: none;"><p>The ideal frequency of sessions varies based on your health objectives. Most clients choose weekly or monthly sessions to maintain optimal immune function and overall wellness.</p></div>
                     </div>
+                    <div class="accordion-box">
+                        <div class="accordion-item"><h5><span>5</span>How long does it take to feel the full effects of the Immune Boost IV Drip?</h5><span class="plus-minus"></span></div>
+                        <div class="data" style="display: none;"><p>Most people start to notice benefits such as improved energy and better focus within a few hours. For deeper immune support, the full effects can be felt within 24–48 hours as your body absorbs and uses the vitamins and minerals.</p></div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="accordion pt-md-3">
                     <div class="accordion-box">
-                        <div class="accordion-item"><h5><span>5</span>Does this IV therapy help with fatigue and low energy?</h5><span class="plus-minus"></span></div>
+                        <div class="accordion-item"><h5><span>6</span>Does this IV therapy help with fatigue and low energy?</h5><span class="plus-minus"></span></div>
                         <div class="data" style="display: none;"><p>Absolutely. The Immune Boost IV therapy is specifically formulated to combat fatigue, significantly improve energy levels, and help you feel refreshed and revitalized.</p></div>
                     </div>
                     <div class="accordion-box">
-                        <div class="accordion-item"><h5><span>6</span>Are there any side effects from the Immune Boost IV Drip?</h5><span class="plus-minus"></span></div>
+                        <div class="accordion-item"><h5><span>7</span>Are there any side effects from the Immune Boost IV Drip?</h5><span class="plus-minus"></span></div>
                         <div class="data" style="display: none;"><p>Side effects are rare and minimal. Some clients might experience slight bruising, redness, or mild discomfort at the IV insertion site, which typically resolves quickly.</p></div>
                     </div>
                     <div class="accordion-box">
-                        <div class="accordion-item"><h5><span>7</span>Who should consider the Immune System Boost IV Drip?</h5><span class="plus-minus"></span></div>
+                        <div class="accordion-item"><h5><span>8</span>Who should consider the Immune System Boost IV Drip?</h5><span class="plus-minus"></span></div>
                         <div class="data" style="display: none;"><p>This IV therapy is perfect for anyone in Dubai seeking to enhance their immune response, improve resistance to illnesses, or maintain overall optimal health, especially during stressful or busy periods.</p></div>
                     </div>
                     <div class="accordion-box">
-                        <div class="accordion-item"><h5><span>8</span>Can the Immune System Boost IV Drip help in preventing illnesses?</h5><span class="plus-minus"></span></div>
+                        <div class="accordion-item"><h5><span>9</span>Can the Immune System Boost IV Drip help in preventing illnesses?</h5><span class="plus-minus"></span></div>
                         <div class="data" style="display: none;"><p>Yes. By directly infusing essential nutrients like vitamins, antioxidants, and minerals into your bloodstream, the Immune Boost IV Drip strengthens your body's natural defenses, reducing your risk of illness and promoting faster recovery.</p></div>
+                    </div>
+                    <div class="accordion-box">
+                        <div class="accordion-item"><h5><span>10</span>Can the Immune Boost IV Drip be combined with other wellness treatments?</h5><span class="plus-minus"></span></div>
+                        <div class="data" style="display: none;"><p>Yes, many clients pair the Immune Boost IV with hydration drips, vitamin C therapy, or antioxidant blends. Always consult with your DHA-certified provider to ensure treatments are safely combined and tailored to your needs.</p></div>
                     </div>
                 </div>
             </div>

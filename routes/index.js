@@ -1,7 +1,6 @@
 const express = require("express");
 const router = express.Router();
 const { blogs } = require("../assets/js/blogs");
-const { womensTest } = require("../assets/js/womens-health");
 
 router.get("/", (req, res) => {
   res.render("home");
@@ -32,7 +31,25 @@ router.get("/lab-test-at-home", (req, res) => {
 router.get("/womens-health", (req, res) => {
   res.render("lab-test/womens-health");
 });
-router.get("/womens-health", (req, res) => {
+router.get("/mens-health", (req, res) => {
   res.render("lab-test/mens-health");
+});
+router.get("/intimacy-and-wellness", (req, res) => {
+  res.render("lab-test/intimacy-and-wellness");
+});
+router.get("/general-health-test", (req, res) => {
+  res.render("lab-test/general-test");
+});
+router.get("/common-and-functional-test", (req, res) => {
+  res.render("lab-test/common-test");
+});
+router.get("/allergy-and-intolerance-test", (req, res) => {
+  res.render("lab-test/allergy-intolerance-test");
+});
+router.get("/dna-test", (req, res) => {
+  res.render("lab-test/dna-test");
+});
+router.get("/blood-test", (req, res) => {
+  res.render("lab-test/custom-blood-test");
 });
 module.exports = router;

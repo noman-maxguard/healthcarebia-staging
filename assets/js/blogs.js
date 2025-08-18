@@ -1,5 +1,55 @@
 const blogs = [
   {
+    i: 19,
+    title: "Rapid Relief: At-Home IV for Acidity & Digestive Health",
+    category: "Health",
+    description:
+      "DHA-certified at-home IV therapy to quickly ease acidity, indigestion, and bloating—restoring balance and gut comfort.",
+    time: 0,
+    date: "August 18, 2025",
+    link: "iv-for-digestive-relief",
+  },
+  {
+    i: 18,
+    title: "Mythbusting IV Therapy – Separating Fact from Fiction",
+    category: "Health",
+    description:
+      "Uncover the truth behind common IV drip misconceptions—pain, safety, necessity—and learn who truly benefits from this cutting-edge therapy.",
+    time: 0,
+    date: "August 18, 2025",
+    link: "iv-therapy-mythbusting",
+  },
+  {
+    i: 17,
+    title: "Blood Test to Bespoke Drip: Your Precision Wellness Plan",
+    category: "Health",
+    description:
+      "See how Healthcarebia transforms lab panels into custom-mixed IV drips for precision hydration and nutrient delivery at home.",
+    time: 0,
+    date: "August 18, 2025",
+    link: "bespoke-iv-therapy",
+  },
+  {
+    i: 16,
+    title: "Sleep Like a Baby: IV Drips for Better Rest",
+    category: "Health",
+    description:
+      "Discover how DHA-approved IV drips for sleep support target stress, hydration, and nutrient gaps to promote deep, restorative rest.",
+    time: 0,
+    date: "August 18, 2025",
+    link: "iv-drips-for-sleep",
+  },
+  {
+    i: 15,
+    title: "IV Drip Therapy Dubai – Science, Luxury & Benefits",
+    category: "Health",
+    description:
+      "DHA-approved IV therapy at home in the UAE—hydration, vitamins, and antioxidants that boost energy and support radiant skin.",
+    time: 0,
+    date: "August 18, 2025",
+    link: "iv-drip-therapy-dubai",
+  },
+  {
     i: 14,
     title: "Hydrate or Crash: Ultimate Summer Recovery with IV Drips",
     category: "Health",

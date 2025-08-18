@@ -65,35 +65,5 @@ function initSlider(displaySel, autoMs = 0, speed = 0.4) {
   disp.addEventListener("mouseleave", startAuto);
   startAuto();
 
-  move(); // initial draw
+  move();
 }
-
-// $(document).ready(function () {
-//   $(".carousel-slick").slick({
-//     slidesToShow: 3,
-//     autoplay: true,
-//     autoplaySpeed: 2000,
-//     dots: true,
-//     arrows: false,
-//     centerMode: false,
-//     infinite: true,
-//     touchMove: true,
-//     touchThreshold: 10,
-//     responsive: [
-//       {
-//         breakpoint: 1190,
-//         settings: {
-//           slidesToShow: 2,
-//           centerMode: false,
-//         },
-//       },
-//       {
-//         breakpoint: 720,
-//         settings: {
-//           slidesToShow: 1,
-//           centerMode: false,
-//         },
-//       },
-//     ],
-//   });
-// });

@@ -4,59 +4,30 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Hair Loss Test at Home",
-  "serviceType": "Hair Loss Diagnostics",
-  "description": "Hair Loss Test in Dubai – get at-home blood tests to evaluate key biomarkers like Vitamin D, B12, Ferritin, TSH, Zinc, and more. DHA-licensed nurses and rapid results in 12 hours.",
-  "url": "https://healthcarebia.ae/hair-loss-test",
-  "provider": {
-    "@type": "MedicalOrganization",
-    "@id": "https://healthcarebia.ae/#medicalorganization",
-    "name": "Healthcarebia",
-    "url": "https://healthcarebia.ae",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://healthcarebia.ae/assets/frontend/img/logo.webp"
-    },
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+971547077476",
-      "contactType": "Customer Service",
-      "areaServed": "AE",
-      "availableLanguage": "English"
-    },
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Dubai",
-      "addressCountry": "AE"
-    }
-  },
-  "areaServed": {
-    "@type": "Place",
-    "name": "Dubai, United Arab Emirates"
-  },
-  "availableChannel": {
-    "@type": "ServiceChannel",
-    "serviceLocation": {
-      "@type": "Place",
-      "name": "At-Home and Hotel Services in Dubai"
-    }
-  }
-}
-</script>
-
-
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    { "position": 1, "name": "Home", "item": "https://healthcarebia.ae/" },
-    { "position": 2, "name": "General Health", "item": "https://healthcarebia.ae/general-health" },
-    { "position": 3, "name": "Hair Loss Test", "item": "https://healthcarebia.ae/hair-loss-test" }
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://healthcarebia.ae/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "General Health",
+      "item": "https://healthcarebia.ae/general-health"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Hair Loss Test",
+      "item": "https://healthcarebia.ae/hair-loss-test"
+    }
   ]
 }
 </script>
+
 
     <?php include 'includes/inc_head_tag.php'; ?>
 

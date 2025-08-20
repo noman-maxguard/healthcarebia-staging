@@ -8,12 +8,42 @@ router.get("/", (req, res) => {
 router.get("/about-us", (req, res) => {
   res.render("about-us");
 });
+router.get("/terms-and-conditions", (req, res) => {
+  res.render("terms-and-conditions");
+});
+router.get("/patients-rights", (req, res) => {
+  res.render("patients-rights");
+});
+router.get("/refund", (req, res) => {
+  res.render("refund");
+});
+router.get("/contact-us", (req, res) => {
+  res.render("contact-us");
+});
 //Iv drips
 router.get("/iv-drip-dubai", (req, res) => {
   res.render("iv-drip-dubai");
 });
 router.get("/post-party-drip", (req, res) => {
   res.render("drips/post-party-drip");
+});
+router.get("/nad-plus-drip", (req, res) => {
+  res.render("drips/nad-plus-drip");
+});
+router.get("/gut-health-drip", (req, res) => {
+  res.render("drips/gut-health-drip");
+});
+router.get("/good-sleep-drip", (req, res) => {
+  res.render("drips/good-sleep-drip");
+});
+router.get("/energy-focus-drip", (req, res) => {
+  res.render("drips/energy-focus-drip");
+});
+router.get("/myers-drip", (req, res) => {
+  res.render("drips/myers-drip");
+});
+router.get("/immune-drip", (req, res) => {
+  res.render("drips/immune-drip");
 });
 //Blog
 router.get("/blog", (req, res) => {

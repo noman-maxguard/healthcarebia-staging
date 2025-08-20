@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="At Healthcarebia, relationships and clinical excellence go hand in hand. That's what makes our one-on-one home health services special for patients."
+    />
+    <title>Contact Us | Healthcarebia</title>
+    <%- include('partials/header-tags.ejs') %>
+  </head>
+  <body>
+    <%- include("partials/header.ejs") %>
+    <div class="banner" style="background-image: url(/assets/img/contact-us-banner.webp)">
+      <h1>Contact Us</h1>
+    </div>
+    <section class="contact">
+      <div class="contact-block">
+        <h1>Request a Call Back</h1>
+        <form action="" class="my-3">
+          <div class="row">
+            <div class="col-md-6" style="padding: 3em">
+              <input type="text" name="first_name" placeholder="First Name" />
+              <input type="text" name="last_name" placeholder="Last Name" />
+              <input type="email" name="email" placeholder="Email" />
+              <input type="tel" name="phone" placeholder="Phone" />
+            </div>
+            <div class="col-md-6" style="padding: 3em">
+              <select class="form-select type-select" name="type" required>
+                <option hidden>Type</option>
+                <option value="booking">Booking</option>
+                <option value="partnership">Partnership</option>
+                <option value="other">Other</option>
+              </select>
+              <textarea name="message" id="message" placeholder="Message"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+      <div class="contact-details my-5">
+        <div class="row d-flex justify-content-between align-items-center">
+          <div
+            class="col-lg-3 col-md-6 d-flex align-items-center justify-content-between p-3 px-4 m-3 contact-item"
+          >
+            <div class="d-flex align-items-center gap-2">
+              <div class="contact-icon">
+                <img
+                  src="/assets/icons/phone-call.svg"
+                  alt="contact details icon"
+                  height="30px"
+                  width="30px"
+                />
+              </div>
+              <span>Call us</span>
+            </div>
+
+            <div class="contact-info">
+              <div><a href="tel:+97142250823">+971 4 22 50823</a></div>
+              <div><a href="tel:+971547077476">+971 547 077476</a></div>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-6 d-flex align-items-center justify-content-between p-3 px-4 m-3 contact-item"
+          >
+            <div class="d-flex align-items-center gap-2">
+              <div class="contact-icon">
+                <img
+                  src="/assets/icons/phone-call.svg"
+                  alt="contact details icon"
+                  height="30px"
+                  width="30px"
+                />
+              </div>
+              <span>Location</span>
+            </div>
+
+            <div class="contact-info">
+              <div>DIFC, Dubai, UAE</div>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-6 d-flex align-items-center justify-content-between p-3 px-4 m-3 contact-item"
+          >
+            <div class="d-flex align-items-center gap-2">
+              <div class="contact-icon">
+                <img
+                  src="/assets/icons/phone-call.svg"
+                  alt="contact details icon"
+                  height="30px"
+                  width="30px"
+                />
+              </div>
+              <span>Email</span>
+            </div>
+
+            <div class="contact-info">
+              <div>
+                <a href="mailto:info@healthcarebia.ae">info&#64;healthcarebia&#46;ae</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7219.396360917424!2d55.279054!3d25.213399!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f437ad48ce8ab%3A0x1441da8daee852a8!2sHealthcarebia%20Home%20Healthcare%20Centre%20LLC.%20IV%20Drip%20at%20Home%20Dubai!5e0!3m2!1sen!2sae!4v1693902003383!5m2!1sen!2sae"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+    <%- include("partials/footer.ejs") %> <%- include("partials/footer-tags.ejs") %>
+  </body>
+</html>

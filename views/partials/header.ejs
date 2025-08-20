@@ -1,11 +1,7 @@
-<nav class="navbar navbar-expand-lg sticky-top" id="header">
+<link rel="stylesheet" href="/assets/css/floating-block.css" />
+<nav class="navbar navbar-expand-lg sticky-top navbar-light" id="header">
   <a class="navbar-brand" href="/">
-    <img
-      src="../../assets/img/logo.png"
-      alt="logo"
-      height="38px"
-      width="271px"
-    />
+    <img src="../../assets/img/logo.png" alt="logo" height="38px" width="271px" />
   </a>
   <button
     class="navbar-toggler"
@@ -28,9 +24,8 @@
       <li class="nav-item">
         <a class="nav-link" href="/about-us">About us</a>
       </li>
-      <!-- <li class="nav-item">
-        <a class="nav-link" href="/iv-drip-dubai">IV and wellness</a>
-      </li> -->
+
+      <!-- IV Drips -->
       <li class="nav-item dropdown d-flex align-items-center">
         <a class="nav-link" href="/iv-drip-dubai">IV & WELLNESS</a>
         <a
@@ -43,24 +38,54 @@
           <span class="visually-hidden">Toggle dropdown</span>
         </a>
         <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="/nad-plus-drip">NAD+ IV Drip</a></li>
+          <li><a class="dropdown-item" href="/post-party-drip">Post Party IV Drip</a></li>
+          <li><a class="dropdown-item" href="/gut-health-drip">Gut Health IV Drip</a></li>
+          <li><a class="dropdown-item" href="/good-sleep-drip">Good Sleep IV Drip</a></li>
+          <li><a class="dropdown-item" href="/energy-focus-drip">Energy & Focus IV Drip</a></li>
+          <li><a class="dropdown-item" href="/myers-drip">Myers Cocktail IV Drip</a></li>
+          <li><a class="dropdown-item" href="/immune-drip">Immune System Boost IV Drip</a></li>
+        </ul>
+      </li>
+
+      <!-- Lab Tests -->
+      <li class="nav-item dropdown d-flex align-items-center">
+        <a class="nav-link" href="/lab-test-at-home">Lab Test at home</a>
+        <a
+          class="nav-link dropdown-toggle dropdown-toggle-split"
+          href="#"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <span class="visually-hidden">Toggle dropdown</span>
+        </a>
+        <ul class="dropdown-menu">
           <li>
-            <a class="dropdown-item" href="/post-party-drip">Post Party Drip</a>
+            <a class="dropdown-item" href="/allergy-and-intolerance-test"
+              >Allergy Intolerance Test</a
+            >
           </li>
-          <li><a class="dropdown-item" href="#">Mayer's Cocktail</a></li>
+          <li><a class="dropdown-item" href="/common-and-functional-test">Common Test</a></li>
+          <li><a class="dropdown-item" href="/blood-test">Custom Blood Test</a></li>
+          <li><a class="dropdown-item" href="/dna-test">DNA Test</a></li>
+          <li><a class="dropdown-item" href="/general-health-test">General Test</a></li>
+          <li><a class="dropdown-item" href="/intimacy-and-wellness">Intimacy & Wellness</a></li>
+          <li><a class="dropdown-item" href="/mens-health">Men’s Health</a></li>
+          <li><a class="dropdown-item" href="/womens-health">Women’s Health</a></li>
         </ul>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="/lab-test-at-home">Lab Test at home</a>
-      </li>
-      <li class="nav-item">
         <a class="nav-link" href="/blog">Blog</a>
       </li>
       <li class="nav-item">
-        <button class="btn book-now py-2 px-4 ms-lg-3 mt-2 mt-lg-0">
-          Book now
-        </button>
+        <a class="nav-link" href="/contact-us">Contact us</a>
+      </li>
+      <li class="nav-item">
+        <button class="btn book-now py-2 px-4 ms-lg-3 mt-2 mt-lg-0">Book now</button>
       </li>
     </ul>
   </div>
 </nav>
+<%- include('floating-block.ejs') %>

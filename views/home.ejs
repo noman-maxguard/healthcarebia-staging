@@ -20,13 +20,13 @@
     />
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <!-- <link rel="preload" as="image" href="assets/images/poster.jpg" /> -->
     <link
       rel="preload"
       as="video"
       href="assets/videos/background.mp4"
       type="video/mp4"
     />
+    <link rel="stylesheet" href="/assets/css/personalised-drip.css" />
   </head>
   <body>
     <%- include("partials/header.ejs") %>
@@ -51,7 +51,7 @@
         </p>
         <div class="buttons">
           <button class="me-3">LEARN MORE</button>
-          <button>GET YOUR PERSONALIZED IV DRIP</button>
+          <button id="iv-quiz-btn">GET YOUR PERSONALIZED IV DRIP</button>
         </div>
       </div>
     </section>
@@ -440,7 +440,7 @@
     </section>
     <section class="end-section py-5">
       <h1>Healing Body, Mind & Soul</h1>
-      <a href="<?=$this->data['whatsappHref']?>" target="_blank"
+      <a href="https://wa.me/971547077476" target="_blank"
         ><button>Book your appointment with us now</button></a
       >
       <div class="contact-details">
@@ -461,8 +461,8 @@
         </li>
       </div>
     </section>
-    <%- include("partials/footer.ejs") %> <%-
-    include("partials/footer-tags.ejs") %>
+    <%- include('partials/personalised-drip.ejs') %> <%-
+    include("partials/footer.ejs") %> <%- include("partials/footer-tags.ejs") %>
     <script>
       $(document).ready(function () {
         $(".carousel-slick").slick({
@@ -495,5 +495,6 @@
       });
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="/assets/js/personalised-drip.js"></script>
   </body>
 </html>

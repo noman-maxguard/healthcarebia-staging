@@ -1,0 +1,93 @@
+/* Floating container — consistent across pages */
+.floating-block {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 9999;
+  /* keep above other UI */
+}
+
+.floating-block ul {
+  margin: 0;
+  padding: 0;
+}
+
+.floating-block ul li {
+  list-style: none;
+}
+
+/* Base FAB style */
+.fab-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+  text-decoration: none;
+}
+
+/* WhatsApp specific */
+.whatsapp-btn {
+  background-color: #25d366;
+  animation: pulse-glow 1.5s infinite ease-in-out;
+}
+
+.phone-btn {
+  background-color: #34b7f1;
+  animation: pulse-glow 1.5s infinite ease-in-out;
+}
+
+.whatsapp-btn i {
+  font-size: 32px;
+  color: #fff;
+}
+
+/* Phone specific */
+.phone-btn {
+  background-color: #1f7a1f;
+}
+
+.phone-btn i {
+  font-size: 28px;
+  color: #fff;
+}
+
+/* Pulse */
+@keyframes pulse-glow {
+  0% {
+    box-shadow:
+      0 0 5px rgba(37, 211, 102, 0.6),
+      0 0 10px rgba(37, 211, 102, 0.4),
+      0 0 20px rgba(37, 211, 102, 0.2);
+  }
+
+  50% {
+    box-shadow:
+      0 0 15px rgba(37, 211, 102, 0.8),
+      0 0 30px rgba(37, 211, 102, 0.6),
+      0 0 45px rgba(37, 211, 102, 0.4);
+  }
+
+  100% {
+    box-shadow:
+      0 0 5px rgba(37, 211, 102, 0.6),
+      0 0 10px rgba(37, 211, 102, 0.4),
+      0 0 20px rgba(37, 211, 102, 0.2);
+  }
+}
+
+/* Responsive visibility without duplicate IDs */
+@media (min-width: 768px) {
+  .phone-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .phone-btn {
+    display: inline-flex;
+    margin-bottom: 12px;
+  }
+}

@@ -1,0 +1,51 @@
+<!-- Floating actions -->
+<div class="floating-block" aria-label="Quick actions">
+  <ul>
+    <li class="mb-2 d-block d-md-none mb-4">
+      <a aria-label="Phone" class="fab-btn phone-btn" id="phone-fab" href="tel:+97142250823">
+        <i class="fa fa-phone" aria-hidden="true"></i>
+      </a>
+    </li>
+
+    <li>
+      <a
+        aria-label="WhatsApp"
+        class="fab-btn whatsapp-btn"
+        id="whatsapp-fab"
+        href="https://wa.me/971547077476"
+        target="_blank"
+        rel="noopener"
+      >
+        <i class="fab fa-whatsapp" aria-hidden="true"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+<script>
+  const waFab = document.getElementById("whatsapp-fab");
+  const bookingFab = document.getElementById("booking-fab");
+
+  const track = (fn) => typeof window.fbq === "function" && fn();
+
+  if (waFab) {
+    waFab.addEventListener("click", () => {
+      track(() =>
+        fbq("trackCustom", "Click_whatsapp_link", {
+          destination: "WhatsApp",
+          buttonID: "whatsapp-fab",
+        }),
+      );
+    });
+  }
+
+  if (bookingFab) {
+    bookingFab.addEventListener("click", () => {
+      track(() =>
+        fbq("trackCustom", "Click_contact_link", {
+          destination: "contact-us-page",
+          buttonID: "booking-fab",
+        }),
+      );
+    });
+  }
+</script>

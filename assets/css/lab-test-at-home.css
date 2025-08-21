@@ -7,6 +7,7 @@
 
 .home-diagnostics h1 {
   font-weight: 500;
+  text-align: center;
 }
 
 .home-diagnostics p {
@@ -16,7 +17,7 @@
 }
 
 .test-link {
-  height: 650px;
+  height: 700px;
 }
 
 /* .tests * {
@@ -28,6 +29,7 @@
   background-color: white;
   display: flex;
   justify-content: start;
+  border: 1px solid rgb(237, 237, 237);
 }
 
 .home-diagnostics .test-link .test-box:hover {
@@ -85,6 +87,11 @@
 .intro-img img {
   height: 100%;
   width: 100%;
+}
+
+.test-intro .row {
+  display: flex;
+  justify-content: center;
 }
 
 .test-summary div p {

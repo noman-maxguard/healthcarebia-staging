@@ -650,8 +650,8 @@ button:hover {
   color: var(--primary);
   font-style: italic;
   text-align: center;
-  font-size: 4em;
-  font-weight: 300;
+  padding: 0 1em;
+  font-size: 3em;
 }
 
 .end-section button {
@@ -848,12 +848,6 @@ button:hover {
 #header ul li a {
   color: white;
   text-transform: uppercase;
-  /* text-shadow: #422b1c; */
-  /* transition: 0.3s ease; */
-}
-
-#header ul li :hover {
-  /* background-color: rgba(99, 99, 99, 0.3); */
 }
 
 .nav-item.dropdown .dropdown-toggle-split {
@@ -961,6 +955,10 @@ button:hover {
 } */
 footer {
   background: linear-gradient(to bottom, #6b7f60 0%, #8ea282 100%);
+}
+
+footer .row {
+  padding: 3em 8em;
 }
 
 .copyright {
@@ -1252,10 +1250,6 @@ footer {
 
 /* responsiveness */
 @media(max-width:576px) {
-  .navbar .navbar-brand img {
-    height: 30px;
-  }
-
   .intro h1 {
     font-size: 3em;
   }
@@ -1395,6 +1389,10 @@ footer {
   border-radius: 10px;
 }
 
+.contact-block form .row div {
+  padding: 3em;
+}
+
 .contact h1 {
   font-style: normal;
   padding-left: 1em;
@@ -1447,6 +1445,19 @@ select::picker(select) {
 
 .contact .contact-details {
   margin: 2em 0;
+}
+
+.contact .contact-details .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact .contact-details .contact-item {
+  padding: 1em;
+  margin-bottom: 1em;
+  width: 33%;
+  min-height: 80px;
 }
 
 .contact-details .contact-icon {

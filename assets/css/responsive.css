@@ -9,10 +9,130 @@
   }
 } */
 /* Small devices and up*/
-@media (min-width: 576px) {}
+@media (max-width: 576px) {
+
+  /* header */
+  .navbar .navbar-brand img {
+    height: 20px;
+    width: auto;
+  }
+
+  /* footer */
+  footer .row div {
+    padding: 3em 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .row a img {
+    height: 30px;
+    width: auto;
+  }
+
+  /* contact us */
+  .contact-block {
+    padding: 1em;
+  }
+
+  .contact-block h1 {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .contact-block form .row div {
+    padding: 1em;
+  }
+
+  .contact {
+    padding: 2em;
+  }
+
+  .contact form select {
+    width: 100%;
+    margin-top: 1em;
+  }
+
+  .contact .contact-details .row {
+    justify-content: center;
+    ;
+  }
+
+  .contact .contact-details .contact-item {
+    padding: 0.8em;
+    width: 100%;
+  }
+
+  /* policy */
+  .policy-content {
+    padding: 1em;
+    margin: 1em;
+  }
+
+  /* blog page */
+  .blog-page {
+    padding: 1em 1em;
+  }
+
+  /* lab test at home */
+  .test-details h1 {
+    text-align: center
+  }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+
+  /* contact us */
+  .contact form select {
+    width: 100%;
+    margin-top: 1em;
+  }
+
+  .contact .contact-details .contact-item {
+    width: 49%;
+  }
+
+  /* lab test at home */
+  .test-details h1 {
+    text-align: center
+  }
+
+  /* header */
+  .nav-item.dropdown .dropdown-toggle-split {
+    margin-left: 0;
+  }
+}
 
 /* Medium devices and  up*/
-@media (min-width: 768px) {}
+@media (min-width: 768px) and (max-width: 991px) {
 
-/* Large devices and up */
-@media (min-width: 992px) {}
+  /* contact us */
+  .contact form select {
+    width: 100%;
+    margin-top: 1em;
+  }
+
+  .contact .contact-details .contact-item {
+    width: 45%;
+  }
+
+  /* header */
+  .nav-item.dropdown .dropdown-toggle-split {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1210px) {
+  .nav-link {
+    font-size: 12px;
+  }
+
+  .navbar-brand img {
+    height: 28px;
+    width: auto;
+  }
+
+  #header .book-now {
+    display: none;
+  }
+}

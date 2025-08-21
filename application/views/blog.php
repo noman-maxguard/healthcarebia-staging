@@ -50,6 +50,16 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+            <a href="<?= base_url() ?>myers-cocktail-iv-drip-blog" class="card-style3 card-style4 same">
+                <img src="<?= base_url() ?>assets/frontend/img/blog21.jpg"
+                    alt="From Fatigue to Focus: The Myers Cocktail IV Drip"
+                    class="img-fluid">
+                <h6>From Fatigue to Focus: The Myers Cocktail IV Drip</h6>
+                <p>Discover how the Myers Cocktail IV drip delivers essential nutrients with safe at-home IV therapy to boost energy, support immunity, and improve overall health.</p>
+            </a>
+        </div>
+
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>gut-health-iv-drip-dubai" class="card-style3 card-style4 same">
                     <img src="<?= base_url() ?>assets/frontend/img/blog20.jpg"
                         alt="Gut Health IV Drip in Dubai: Fast Relief for Digestive Health"

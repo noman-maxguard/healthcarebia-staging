@@ -293,13 +293,22 @@
                             <p>Frequency depends on individual health needs, but many opt for weekly or monthly sessions as recommended by their healthcare provider.</p>
                         </div>
                     </div>
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>5</span>Is the Myers Cocktail IV Drip safe to combine with other treatments?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Yes. Many clients combine the Myers Cocktail with other IV therapies such as antioxidants for detox or NAD+ for focus.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="accordion pt-md-3">
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>5</span>Can the treatment help with chronic fatigue?</h5>
+                            <h5><span>6</span>Can the treatment help with chronic fatigue?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -308,7 +317,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>6</span>Are there any side effects?</h5>
+                            <h5><span>7</span>Are there any side effects?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -317,7 +326,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>7</span>Who is an ideal candidate for Myers Cocktail IV Drip?</h5>
+                            <h5><span>8</span>Who is an ideal candidate for Myers Cocktail IV Drip?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -326,11 +335,20 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>8</span> Can Myers Cocktail IV therapy boost immunity?</h5>
+                            <h5><span>9</span> Can Myers Cocktail IV therapy boost immunity?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
                             <p>Yes, Myers Cocktail IV therapy significantly boosts immunity by delivering a powerful combination of Vitamin C, B vitamins, and essential minerals directly into the bloodstream, strengthening your body's natural defenses and overall immune function.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>10</span> How does the Myers Cocktail IV Drip compare to oral supplements?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Unlike oral supplements that pass through the digestive system, the Myers Cocktail delivers vitamins and minerals directly into your bloodstream. This ensures faster absorption, higher bioavailability, and more noticeable results in energy, focus, and immunity support.</p>
                         </div>
                     </div>
                 </div>

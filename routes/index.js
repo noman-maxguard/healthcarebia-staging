@@ -45,6 +45,16 @@ router.get("/myers-drip", (req, res) => {
 router.get("/immune-drip", (req, res) => {
   res.render("drips/immune-drip");
 });
+//Wellness
+router.get("/oxygen-therapy", (req, res) => {
+  res.render("wellness/oxygen-therapy");
+});
+router.get("/tele-consultation", (req, res) => {
+  res.render("wellness/tele-consultation");
+});
+router.get("/nurse-at-home", (req, res) => {
+  res.render("wellness/nurse-at-home");
+});
 //Blog
 router.get("/blog", (req, res) => {
   res.render("blog", { blogs });
@@ -81,5 +91,9 @@ router.get("/dna-test", (req, res) => {
 });
 router.get("/blood-test", (req, res) => {
   res.render("lab-test/custom-blood-test");
+});
+// faqs
+router.get("/faqs", (req, res) => {
+  res.render("faqs");
 });
 module.exports = router;

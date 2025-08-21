@@ -11,6 +11,8 @@ app.set("view engine", "ejs");
 app.use("/assets", express.static(path.join(__dirname, "assets")));
 //Views
 app.set("views", path.join(__dirname, "views"));
+//Public
+app.use(express.static(path.join(__dirname, "public")));
 
 // Caching
 app.set("view cache", false);

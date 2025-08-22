@@ -620,6 +620,7 @@ button:hover {
   font-family: "Poppins", sans-serif;
   color: white;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  padding: 0;
 }
 
 .service-card .service {
@@ -957,8 +958,73 @@ footer {
   background: linear-gradient(to bottom, #6b7f60 0%, #8ea282 100%);
 }
 
-footer .row {
-  padding: 3em 8em;
+footer .first-row {
+  padding: 4em 10em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.brand {
+  width: 40%;
+}
+
+.brand p {
+  width: 90%;
+}
+
+.brand .footer-logo img {
+  margin-bottom: 1em;
+}
+
+.govt-logos {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.rating {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .second-row {
+  padding: 4em 10em;
+  padding-top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+}
+
+.main-links,
+.drip-links,
+.test-links {
+  width: 20%;
+  padding: 1em;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.ebook-block {
+  width: 40%;
+  padding: 1em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin: 0;
+}
+
+.ebook-block p {
+  text-align: center;
+}
+
+.ebook-form {
+  width: 80%;
 }
 
 .copyright {
@@ -998,7 +1064,8 @@ footer .row {
   margin-top: 20px;
   background: white;
   padding: 10px;
-  border-radius: 10px
+  border-radius: 10px;
+  padding: 0.5em 1em;
 }
 
 .google-review img {
@@ -1036,7 +1103,7 @@ footer .row {
 }
 
 .list div ul li:hover {
-  color: grey
+  color: var(--primary)
 }
 
 .social a {

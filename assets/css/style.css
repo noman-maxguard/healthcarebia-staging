@@ -1338,7 +1338,10 @@ footer .second-row {
 }
 
 .home-service {
-  background-color: #fafaf3;
+  background: url(/assets/img/home-service-background.jpg);
+  background-size: cover;
+  ;
+  background-repeat: no-repeat;
 }
 
 .home-service h1 {
@@ -1362,6 +1365,12 @@ footer .second-row {
   border: 1px solid var(--primary);
   color: var(--primary);
   background-color: transparent;
+}
+
+.home-service-post-party .hangover-image {
+  background: url("../img/post-party-home-service-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* Terms and conditons

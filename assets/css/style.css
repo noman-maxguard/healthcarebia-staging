@@ -1316,31 +1316,7 @@ footer .second-row {
 }
 
 /* responsiveness */
-@media(max-width:576px) {
-  .intro h1 {
-    font-size: 3em;
-  }
-
-  .intro p {
-    width: 70%;
-  }
-
-  .count-box {
-    flex-direction: column;
-  }
-
-  .why-choose-us .two div img {
-    display: none;
-  }
-
-  .about-us-left {
-    padding: 2em 3em;
-  }
-
-  .services p {
-    padding: 0 2em;
-  }
-}
+@media(max-width:576px) {}
 
 @media(max-width: 991px) {
   .about-us-left {
@@ -1352,20 +1328,6 @@ footer .second-row {
   .about-us-left p {
     text-align: center;
     color: var(--primary)
-  }
-}
-
-@media(max-height:500px) {
-  .intro {
-    gap: 0.1em;
-  }
-
-  .intro h1 {
-    font-size: 2em;
-  }
-
-  .intro p {
-    font-size: 14px;
   }
 }
 

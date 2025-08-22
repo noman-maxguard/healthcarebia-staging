@@ -9,7 +9,7 @@
   }
 } */
 /* Small devices and up*/
-@media (max-width: 576px) {
+@media (max-width: 577px) {
 
   /* header */
   .navbar .navbar-brand img {
@@ -78,9 +78,133 @@
   .test-details h1 {
     text-align: center
   }
+
+  /* footer */
+  .brand,
+  .rating,
+  .govt-logos {
+    width: 100%;
+  }
+
+  .brand p {
+    width: 100%;
+  }
+
+  footer .first-row {
+    padding: 4em 2em 1em 2em;
+  }
+
+  footer .second-row {
+    padding: 0 0 2em 0;
+  }
+
+  .govt-logos {
+    gap: 0.2em;
+    margin: 2em 0;
+    justify-content: space-between;
+  }
+
+  .govt-logos img {
+    height: 40px;
+    width: auto;
+  }
+
+  .copyright ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 0.7em;
+  }
+
+  .copyright {
+    padding: 1.2em;
+  }
+
+  .main-links,
+  .drip-links,
+  .test-links {
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-links ul,
+  .drip-links ul,
+  .test-links ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ebook-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ebook-form {
+    width: 60%;
+  }
+
+  .ebook-form form .form-input {
+    width: 100%;
+  }
+
+  /* home page */
+  .home {
+    padding: 4em 1em;
+  }
+
+  .intro h1 {
+    font-size: 3em;
+  }
+
+  .intro p {
+    width: 70%;
+  }
+
+  .count-box {
+    flex-direction: column;
+  }
+
+  .why-choose-us .two div img {
+    display: none;
+  }
+
+  .about-us-left {
+    padding: 2em 3em;
+  }
+
+  .services p {
+    padding: 0 2em;
+  }
+
+  .intro h1 {
+    font-size: 2em;
+  }
+
+  .intro p {
+    font-size: 18px;
+    width: 80%;
+  }
+
+  .intro {
+    padding: 1em;
+  }
+
+  .intro .buttons button {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
 }
 
-@media (min-width: 577px) and (max-width: 767px) {
+@media (min-width: 577px) and (max-width: 768px) {
 
   /* contact us */
   .contact form select {
@@ -101,10 +225,70 @@
   .nav-item.dropdown .dropdown-toggle-split {
     margin-left: 0;
   }
+
+  /* footer */
+  .brand {
+    width: 100%;
+  }
+
+  .govt-logos {
+    width: 60%;
+    justify-content: space-between;
+  }
+
+  .govt-logos img {
+    height: 40px;
+    width: auto;
+  }
+
+  .rating {
+    width: 40%;
+    padding-left: 20px;
+  }
+
+  footer .first-row {
+    padding: 4em;
+    padding-bottom: 1em;
+  }
+
+  footer .second-row {
+    padding: 2em;
+    padding-top: 0;
+    align-items: start;
+  }
+
+  .main-links,
+  .drip-links,
+  .test-links,
+  .ebook-block {
+    width: 40%;
+    padding: 1em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .main-links ul,
+  .drip-links ul,
+  .test-links ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .social {
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .second-row {
+    justify-content: center;
+  }
 }
 
 /* Medium devices and  up*/
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 992px) {
 
   /* contact us */
   .contact form select {
@@ -120,6 +304,41 @@
   .nav-item.dropdown .dropdown-toggle-split {
     margin-left: 0;
   }
+
+  /* footer */
+  footer .first-row {
+    padding: 4em 1em;
+  }
+
+  footer .first-row .govt-logos img {
+    height: 40px;
+    width: auto;
+  }
+
+  footer .brand p {
+    width: 95%;
+  }
+
+  footer .second-row {
+    padding: 2em;
+    padding-top: 0;
+    align-items: start;
+  }
+
+  .main-links,
+  .drip-links,
+  .test-links,
+  .ebook-block {
+    width: 40%;
+    padding: 1em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  footer .second-row {
+    justify-content: center;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1210px) {
@@ -134,5 +353,30 @@
 
   #header .book-now {
     display: none;
+  }
+
+  footer .first-row {
+    padding: 4em 3em;
+  }
+
+  footer .second-row {
+    padding: 2em;
+    padding-top: 0;
+    align-items: start;
+  }
+
+  .main-links,
+  .drip-links,
+  .test-links,
+  .ebook-block {
+    width: 40%;
+    padding: 1em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  footer .second-row {
+    justify-content: center;
   }
 }

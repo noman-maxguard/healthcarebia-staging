@@ -209,11 +209,12 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 5em 10em;
+  padding: 2em 10em;
 }
 
 .symptoms-and-benefits h2 {
   font-weight: 500;
+  margin-top: 1em;
 }
 
 .benefits {
@@ -228,7 +229,7 @@
   display: flex;
   align-items: center;
   justify-content: start;
-  width: 50%;
+  width: 60%;
   gap: 2em;
   flex-wrap: wrap;
 }
@@ -366,8 +367,7 @@
   align-items: start;
 }
 
-.how-drip-works-right img {}
-
+/* .how-drip-works-right img {} */
 .how-drip-works-left a button {
   border: none;
   font-size: 18px;
@@ -416,6 +416,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .circle-arrow {

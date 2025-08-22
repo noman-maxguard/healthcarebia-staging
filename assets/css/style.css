@@ -500,6 +500,10 @@ button:hover {
   background-blend-mode: lighten;
 }
 
+.talk-to-us .row {
+  margin-bottom: 1em;
+}
+
 .talk-to-us-left {
   /* padding: 3em 5em; */
   display: flex;
@@ -1339,9 +1343,10 @@ footer .second-row {
 
 .home-service {
   background: url(/assets/img/home-service-background.jpg);
-  background-size: cover;
+  background-size: contain;
   ;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
+  background-position: top;
 }
 
 .home-service h1 {

@@ -170,7 +170,13 @@
   }
 
   .count-box {
-    flex-direction: column;
+    /* flex-direction: column; */
+    align-items: center;
+    margin: 1em 0;
+  }
+
+  .count-box .count {
+    justify-content: center;
   }
 
   .why-choose-us .two div img {
@@ -181,8 +187,21 @@
     padding: 2em 3em;
   }
 
+  .about-us-left h1 {
+    margin-top: 1em;
+  }
+
+  .services {
+    padding: 1em;
+  }
+
   .services p {
     padding: 0 2em;
+  }
+
+  .services a {
+    margin: 0;
+    padding: 0;
   }
 
   .intro h1 {
@@ -201,6 +220,72 @@
   .intro .buttons button {
     padding: 5px 10px;
     font-size: 14px;
+  }
+
+  .end-section {
+    padding-top: 0;
+  }
+
+  .end-section button {
+    font-size: 12px;
+  }
+
+  .end-section h1 {
+    padding: 0 0.5em;
+  }
+
+  .why-choose-items .item {
+    flex-direction: column;
+  }
+
+  .what-is h1 {
+    text-align: center;
+  }
+
+  .bullet-points h2 {
+    text-align: center;
+  }
+
+  .professional {
+    padding: 1em;
+  }
+
+  .post-party {
+    padding: 5em 2em !important;
+    padding-bottom: 0 !important;
+  }
+
+  .title p {
+    width: 100% !important;
+  }
+
+  .symptoms-and-benefits {
+    padding: 3em 2em !important;
+  }
+
+  .symptom-box {
+    width: 100% !important;
+  }
+
+  .benefit-box {
+    width: 100% !important;
+  }
+
+  .ingredients {
+    padding: 3em 2em !important;
+  }
+
+  .hangover-drip-img {
+    padding-top: 0 !important;
+    max-height: 600px !important;
+  }
+
+  .how-drip-works-left {
+    padding: 2em 3em !important;
+  }
+
+  .what-is-drip-section {
+    padding: 0 2em !important;
   }
 }
 
@@ -285,6 +370,57 @@
   footer .second-row {
     justify-content: center;
   }
+
+  .two div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+  }
+
+  .two div img {
+    width: 60%;
+    height: auto;
+    border-radius: 15px;
+  }
+
+  .post-party {
+    padding: 5em 2em !important;
+    padding-bottom: 0 !important;
+  }
+
+  .title p {
+    width: 100% !important;
+  }
+
+  .symptoms-and-benefits {
+    padding: 3em 2em !important;
+  }
+
+  .symptom-box {
+    width: 100% !important;
+  }
+
+  .benefit-box {
+    width: 100% !important;
+  }
+
+  .ingredients {
+    padding: 3em 2em !important;
+  }
+
+  .hangover-drip-img {
+    padding-top: 0 !important;
+    max-height: 600px !important;
+  }
+
+  .ingredients {
+    text-align: center;
+  }
+
+  .how-drip-works-left {
+    padding: 2em 3em !important;
+  }
 }
 
 /* Medium devices and  up*/
@@ -338,6 +474,40 @@
 
   footer .second-row {
     justify-content: center;
+  }
+
+  .post-party {
+    padding: 5em 2em !important;
+    padding-bottom: 0 !important;
+  }
+
+  .title p {
+    width: 100% !important;
+  }
+
+  .symptoms-and-benefits {
+    padding: 3em 2em !important;
+  }
+
+  .symptom-box {
+    width: 100% !important;
+  }
+
+  .benefit-box {
+    width: 100% !important;
+  }
+
+  .hangover-drip-img {
+    padding-top: 0 !important;
+    max-height: 600px !important;
+  }
+
+  .ingredients {
+    text-align: center;
+  }
+
+  .how-drip-works-right img {
+    width: 350px;
   }
 }
 

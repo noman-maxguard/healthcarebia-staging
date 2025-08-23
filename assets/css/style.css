@@ -1282,6 +1282,11 @@ footer .second-row {
 .accordion .accordion-button {
   color: #fff;
   background-color: var(--primary);
+  display: flex;
+}
+
+.accordion-button span {
+  flex: 1;
 }
 
 .accordion {
@@ -1311,7 +1316,6 @@ footer .second-row {
 .question-icon img {
   height: 100%;
   width: 100%;
-  transform: scale(2);
 }
 
 .accordion-button {
@@ -1343,9 +1347,9 @@ footer .second-row {
 
 .home-service {
   background: url(/assets/img/home-service-background.jpg);
-  background-size: contain;
+  background-size: cover;
   ;
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   background-position: top;
 }
 

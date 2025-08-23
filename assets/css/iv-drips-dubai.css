@@ -299,8 +299,22 @@
   padding-top: 300px;
 }
 
+.drip-page-image {
+  max-height: 500px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 300px;
+}
+
 .hangover-drip-img img {
   transform: rotate(-40deg);
+}
+
+.drip-page-image img {
+  transform: rotate(40deg);
 }
 
 /* .why-choose-drip-section * {
@@ -367,6 +381,10 @@
   align-items: start;
 }
 
+.how-drip-works-left p {
+  font-style: italic;
+}
+
 /* .how-drip-works-right img {} */
 .how-drip-works-left a button {
   border: none;
@@ -383,6 +401,8 @@
 
 .what-is-drip-section p {
   text-align: center;
+  font-style: italic;
+  ;
 }
 
 .what-is-block {

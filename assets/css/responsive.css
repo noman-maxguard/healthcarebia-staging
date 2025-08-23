@@ -11,6 +11,78 @@
 /* Small devices and up*/
 @media (max-width: 577px) {
 
+  /* drips */
+  .head ul li i {
+    display: none !important;
+  }
+
+  .hangover-drip-img {
+    overflow: visible;
+  }
+
+  /* .drip-block .drip-box {
+    flex-direction: column !important;
+  }
+
+  .drip-box .drip-img {
+    height: auto !important;
+  } */
+  /* faqs */
+  .faqs .row {
+    margin: 0 !important;
+  }
+
+  /* about us */
+  .about-hca .row-one h1 {
+    padding: 0 !important;
+  }
+
+  .about-hca .row-two {
+    padding: 0 !important;
+    justify-content: center !important;
+  }
+
+  .count-box {
+    display: none !important;
+  }
+
+  .mission p,
+  .vision p {
+    width: 100% !important;
+  }
+
+  .philosophy h1,
+  .operate h1 {
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  .philosophy p,
+  .operate p {
+    width: 100% !important;
+  }
+
+  .our-services p {
+    width: 100% !important;
+  }
+
+  .our-services>.row>div {
+    padding: 0 1em !important;
+  }
+
+  .our-services {
+    padding: 1.2em !important;
+  }
+
+  .our-services .image img {
+    display: none !important;
+  }
+
+  .discover-btn {
+    display: flex;
+    justify-content: center;
+  }
+
   /* header */
   .navbar .navbar-brand img {
     height: 20px;
@@ -291,6 +363,11 @@
 
 @media (min-width: 577px) and (max-width: 768px) {
 
+  /* drips */
+  .hangover-drip-img {
+    overflow: visible;
+  }
+
   /* contact us */
   .contact form select {
     width: 100%;
@@ -421,10 +498,32 @@
   .how-drip-works-left {
     padding: 2em 3em !important;
   }
+
+  /* about us */
+  .count-box> :nth-child(2) {
+    padding-left: 5px !important;
+  }
+
+  .count-box {
+    gap: 10px !important;
+  }
+
+  .bullet-points h2 {
+    text-align: center;
+  }
 }
 
 /* Medium devices and  up*/
 @media (min-width: 768px) and (max-width: 992px) {
+
+  /* drips */
+  .hangover-drip-img {
+    overflow: visible;
+  }
+
+  .how-drip-works-left {
+    padding: 2em 3em !important;
+  }
 
   /* contact us */
   .contact form select {
@@ -508,6 +607,15 @@
 
   .how-drip-works-right img {
     width: 350px;
+  }
+
+  /* about us */
+  .count-box> :nth-child(2) {
+    padding-left: 10px !important;
+  }
+
+  .count-box {
+    gap: 20px !important;
   }
 }
 

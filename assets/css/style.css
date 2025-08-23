@@ -860,6 +860,29 @@ button:hover {
   font-size: 20px;
 }
 
+.navbar .nav-item.dropdown {
+  position: relative;
+}
+
+/* ensure positioning context */
+.navbar .nav-item.dropdown>.dropdown-menu {
+  left: 0;
+  right: auto;
+  top: 100%;
+}
+
+.navbar .dropdown-menu {
+  /* if some global CSS made it flex */
+  flex-direction: column !important;
+}
+
+.navbar .dropdown-menu>li,
+.navbar .dropdown-menu .dropdown-item {
+  display: block;
+  /* force vertical list */
+  width: 100%;
+}
+
 #header .book-now {
   color: var(--primary);
   background-color: #e4f1d7;
@@ -940,6 +963,8 @@ button:hover {
   color: white;
   display: flex;
   gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .banner .breadcrumb a {
@@ -1019,7 +1044,8 @@ footer .second-row {
   padding: 1em 0;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
+  align-items: center;
   margin: 0;
 }
 
@@ -1059,7 +1085,7 @@ footer .second-row {
 }
 
 .copyright ul li a:hover {
-  color: grey
+  color: gray
 }
 
 .google-review {
@@ -1106,7 +1132,13 @@ footer .second-row {
   font-size: 0.9em;
 }
 
-.list div ul li:hover {
+.list div ul li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.2s ease;
+}
+
+.list div ul li a:hover {
   color: var(--primary)
 }
 
@@ -1116,7 +1148,7 @@ footer .second-row {
 }
 
 .social a:hover {
-  color: grey;
+  color: var(--primary);
 }
 
 .ebook-form h5 {

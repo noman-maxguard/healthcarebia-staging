@@ -28,13 +28,9 @@ document.addEventListener("DOMContentLoaded", () => {
   // navigation
   next.addEventListener("click", () => {
     if (currentQuestion < 3) {
-      document
-        .getElementById(`question${currentQuestion}`)
-        .classList.remove("active");
+      document.getElementById(`question${currentQuestion}`).classList.remove("active");
       currentQuestion++;
-      document
-        .getElementById(`question${currentQuestion}`)
-        .classList.add("active");
+      document.getElementById(`question${currentQuestion}`).classList.add("active");
       updateProgress();
       updateNavigation();
     } else {
@@ -43,13 +39,9 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   prev.addEventListener("click", () => {
     if (currentQuestion > 1) {
-      document
-        .getElementById(`question${currentQuestion}`)
-        .classList.remove("active");
+      document.getElementById(`question${currentQuestion}`).classList.remove("active");
       currentQuestion--;
-      document
-        .getElementById(`question${currentQuestion}`)
-        .classList.add("active");
+      document.getElementById(`question${currentQuestion}`).classList.add("active");
       updateProgress();
       updateNavigation();
     }
@@ -75,18 +67,14 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   });
-  document
-    .querySelectorAll('#question3 input[type="checkbox"]')
-    .forEach((cb) => {
-      cb.addEventListener("change", updateSymptomSelection);
-    });
+  document.querySelectorAll('#question3 input[type="checkbox"]').forEach((cb) => {
+    cb.addEventListener("change", updateSymptomSelection);
+  });
 
   // helper funcs
   function selectOption(el, field) {
     // clear siblings
-    el.parentNode
-      .querySelectorAll(".option-button")
-      .forEach((b) => b.classList.remove("selected"));
+    el.parentNode.querySelectorAll(".option-button").forEach((b) => b.classList.remove("selected"));
     el.classList.add("selected");
     answers[field] = el.dataset.value;
     updateNavigation();
@@ -124,9 +112,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function showResults() {
-    document
-      .getElementById(`question${currentQuestion}`)
-      .classList.remove("active");
+    document.getElementById(`question${currentQuestion}`).classList.remove("active");
     document.querySelector(".quiz-navigation").style.display = "none";
     progressBar.style.width = "100%";
     currentStep.textContent = "3";
@@ -151,8 +137,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "Fatigued or Low on Energy",
       "Jetlagged or Sleep Deprived",
     ];
-    for (let s of prio)
-      if (answers.symptoms.includes(s)) return ivRecommendations[s];
+    for (let s of prio) if (answers.symptoms.includes(s)) return ivRecommendations[s];
     return "Myer's Cocktail";
   }
 
@@ -187,8 +172,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "Need a Skin or Detox Reset": "Myer's Cocktail",
     "Fatigued or Low on Energy, Sick or Recovering": "Immunity Booster",
     "Fatigued or Low on Energy, Jetlagged or Sleep Deprived": "Jetlag Drip",
-    "Fatigued or Low on Energy, Feeling 'Off' but Not Sure Why":
-      "Myer's Cocktail",
+    "Fatigued or Low on Energy, Feeling 'Off' but Not Sure Why": "Myer's Cocktail",
     "Fatigued or Low on Energy, Want to Prevent Illness": "Immunity Booster",
     "Fatigued or Low on Energy, Looking to Optimize Performance": "NAD+",
     "Fatigued or Low on Energy, Need a Skin or Detox Reset": "Myer's Cocktail",
@@ -197,17 +181,13 @@ document.addEventListener("DOMContentLoaded", () => {
     "Sick or Recovering, Want to Prevent Illness": "Immunity Booster",
     "Sick or Recovering, Looking to Optimize Performance": "NAD+",
     "Sick or Recovering, Need a Skin or Detox Reset": "Myer's Cocktail",
-    "Jetlagged or Sleep Deprived, Feeling 'Off' but Not Sure Why":
-      "Myer's Cocktail",
+    "Jetlagged or Sleep Deprived, Feeling 'Off' but Not Sure Why": "Myer's Cocktail",
     "Jetlagged or Sleep Deprived, Want to Prevent Illness": "Immunity Booster",
     "Jetlagged or Sleep Deprived, Looking to Optimize Performance": "NAD+",
-    "Jetlagged or Sleep Deprived, Need a Skin or Detox Reset":
-      "Myer's Cocktail",
-    "Feeling 'Off' but Not Sure Why, Want to Prevent Illness":
-      "Myer's Cocktail",
+    "Jetlagged or Sleep Deprived, Need a Skin or Detox Reset": "Myer's Cocktail",
+    "Feeling 'Off' but Not Sure Why, Want to Prevent Illness": "Myer's Cocktail",
     "Feeling 'Off' but Not Sure Why, Looking to Optimize Performance": "NAD+",
-    "Feeling 'Off' but Not Sure Why, Need a Skin or Detox Reset":
-      "Myer's Cocktail",
+    "Feeling 'Off' but Not Sure Why, Need a Skin or Detox Reset": "Myer's Cocktail",
     "Want to Prevent Illness, Looking to Optimize Performance": "NAD+",
     "Want to Prevent Illness, Need a Skin or Detox Reset": "Myer's Cocktail",
     "Looking to Optimize Performance, Need a Skin or Detox Reset": "NAD+",
@@ -215,12 +195,9 @@ document.addEventListener("DOMContentLoaded", () => {
       "Immunity Booster",
     "Fatigued or Low on Energy, Sick or Recovering, Feeling 'Off' but Not Sure Why":
       "Myer's Cocktail",
-    "Fatigued or Low on Energy, Sick or Recovering, Want to Prevent Illness":
-      "Immunity Booster",
-    "Fatigued or Low on Energy, Sick or Recovering, Looking to Optimize Performance":
-      "NAD+",
-    "Fatigued or Low on Energy, Sick or Recovering, Need a Skin or Detox Reset":
-      "Myer's Cocktail",
+    "Fatigued or Low on Energy, Sick or Recovering, Want to Prevent Illness": "Immunity Booster",
+    "Fatigued or Low on Energy, Sick or Recovering, Looking to Optimize Performance": "NAD+",
+    "Fatigued or Low on Energy, Sick or Recovering, Need a Skin or Detox Reset": "Myer's Cocktail",
     "Fatigued or Low on Energy, Jetlagged or Sleep Deprived, Feeling 'Off' but Not Sure Why":
       "Myer's Cocktail",
     "Fatigued or Low on Energy, Jetlagged or Sleep Deprived, Want to Prevent Illness":
@@ -235,40 +212,33 @@ document.addEventListener("DOMContentLoaded", () => {
       "NAD+",
     "Fatigued or Low on Energy, Feeling 'Off' but Not Sure Why, Need a Skin or Detox Reset":
       "Myer's Cocktail",
-    "Fatigued or Low on Energy, Want to Prevent Illness, Looking to Optimize Performance":
-      "NAD+",
+    "Fatigued or Low on Energy, Want to Prevent Illness, Looking to Optimize Performance": "NAD+",
     "Fatigued or Low on Energy, Want to Prevent Illness, Need a Skin or Detox Reset":
       "Myer's Cocktail",
     "Fatigued or Low on Energy, Looking to Optimize Performance, Need a Skin or Detox Reset":
       "NAD+",
     "Sick or Recovering, Jetlagged or Sleep Deprived, Feeling 'Off' but Not Sure Why":
       "Myer's Cocktail",
-    "Sick or Recovering, Jetlagged or Sleep Deprived, Want to Prevent Illness":
-      "Immunity Booster",
-    "Sick or Recovering, Jetlagged or Sleep Deprived, Looking to Optimize Performance":
-      "NAD+",
+    "Sick or Recovering, Jetlagged or Sleep Deprived, Want to Prevent Illness": "Immunity Booster",
+    "Sick or Recovering, Jetlagged or Sleep Deprived, Looking to Optimize Performance": "NAD+",
     "Sick or Recovering, Jetlagged or Sleep Deprived, Need a Skin or Detox Reset":
       "Myer's Cocktail",
     "Sick or Recovering, Feeling 'Off' but Not Sure Why, Want to Prevent Illness":
       "Immunity Booster",
-    "Sick or Recovering, Feeling 'Off' but Not Sure Why, Looking to Optimize Performance":
-      "NAD+",
+    "Sick or Recovering, Feeling 'Off' but Not Sure Why, Looking to Optimize Performance": "NAD+",
     "Sick or Recovering, Feeling 'Off' but Not Sure Why, Need a Skin or Detox Reset":
       "Myer's Cocktail",
     "Sick or Recovering, Want to Prevent Illness, Looking to Optimize Performance":
       "Immunity Booster",
-    "Sick or Recovering, Want to Prevent Illness, Need a Skin or Detox Reset":
-      "Immunity Booster",
-    "Sick or Recovering, Looking to Optimize Performance, Need a Skin or Detox Reset":
-      "NAD+",
+    "Sick or Recovering, Want to Prevent Illness, Need a Skin or Detox Reset": "Immunity Booster",
+    "Sick or Recovering, Looking to Optimize Performance, Need a Skin or Detox Reset": "NAD+",
     "Jetlagged or Sleep Deprived, Feeling 'Off' but Not Sure Why, Want to Prevent Illness":
       "Myer's Cocktail",
     "Jetlagged or Sleep Deprived, Feeling 'Off' but Not Sure Why, Looking to Optimize Performance":
       "NAD+",
     "Jetlagged or Sleep Deprived, Feeling 'Off' but Not Sure Why, Need a Skin or Detox Reset":
       "Myer's Cocktail",
-    "Jetlagged or Sleep Deprived, Want to Prevent Illness, Looking to Optimize Performance":
-      "NAD+",
+    "Jetlagged or Sleep Deprived, Want to Prevent Illness, Looking to Optimize Performance": "NAD+",
     "Jetlagged or Sleep Deprived, Want to Prevent Illness, Need a Skin or Detox Reset":
       "Myer's Cocktail",
     "Jetlagged or Sleep Deprived, Looking to Optimize Performance, Need a Skin or Detox Reset":
@@ -279,8 +249,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "Myer's Cocktail",
     "Feeling 'Off' but Not Sure Why, Looking to Optimize Performance, Need a Skin or Detox Reset":
       "Myer's Cocktail",
-    "Want to Prevent Illness, Looking to Optimize Performance, Need a Skin or Detox Reset":
-      "NAD+",
+    "Want to Prevent Illness, Looking to Optimize Performance, Need a Skin or Detox Reset": "NAD+",
     "Fatigued or Low on Energy, Sick or Recovering, Jetlagged or Sleep Deprived, Feeling 'Off' but Not Sure Why":
       "Myer's Cocktail",
     "Fatigued or Low on Energy, Sick or Recovering, Jetlagged or Sleep Deprived, Want to Prevent Illness":
@@ -430,7 +399,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "Jetlag Drip": "/assets/img/jet-lag-iv-drip.webp",
     "Immunity Booster": "/assets/img/immune-booster-iv-drip.webp",
     "Myer's Cocktail": "/assets/img/myers-cocktail.webp",
-    "NAD+": "/assets/img/img/nad-iv-drip.webp",
+    "NAD+": "/assets/img/nad-iv-drip.webp",
   };
 
   // initialize UI

@@ -89,6 +89,10 @@
     width: auto;
   }
 
+  .nav-item.dropdown .dropdown-toggle-split {
+    margin-left: 6px;
+  }
+
   /* footer */
   footer .row div {
     padding: 3em 1em;
@@ -359,6 +363,29 @@
   .what-is-drip-section {
     padding: 0 2em !important;
   }
+
+  /* ensure positioning context */
+  .navbar .nav-item.dropdown>.dropdown-menu {
+    left: 0;
+    right: auto;
+    top: 100%;
+  }
+
+  .navbar .dropdown-menu {
+    /* if some global CSS made it flex */
+    flex-direction: column !important;
+  }
+
+  .navbar .dropdown-menu>li,
+  .navbar .dropdown-menu .dropdown-item {
+    display: block;
+    /* force vertical list */
+    width: 100%;
+  }
+
+  .banner {
+    height: 400px;
+  }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
@@ -386,6 +413,10 @@
   /* header */
   .nav-item.dropdown .dropdown-toggle-split {
     margin-left: 0;
+  }
+
+  .nav-item.dropdown .dropdown-toggle-split {
+    margin-left: 6px;
   }
 
   /* footer */
@@ -511,6 +542,25 @@
   .bullet-points h2 {
     text-align: center;
   }
+
+  /* ensure positioning context */
+  .navbar .nav-item.dropdown>.dropdown-menu {
+    left: 0;
+    right: auto;
+    top: 100%;
+  }
+
+  .navbar .dropdown-menu {
+    /* if some global CSS made it flex */
+    flex-direction: column !important;
+  }
+
+  .navbar .dropdown-menu>li,
+  .navbar .dropdown-menu .dropdown-item {
+    display: block;
+    /* force vertical list */
+    width: 100%;
+  }
 }
 
 /* Medium devices and  up*/
@@ -538,6 +588,10 @@
   /* header */
   .nav-item.dropdown .dropdown-toggle-split {
     margin-left: 0;
+  }
+
+  .nav-item.dropdown .dropdown-toggle-split {
+    margin-left: 6px;
   }
 
   /* footer */
@@ -616,6 +670,25 @@
 
   .count-box {
     gap: 20px !important;
+  }
+
+  /* ensure positioning context */
+  .navbar .nav-item.dropdown>.dropdown-menu {
+    left: 0;
+    right: auto;
+    top: 100%;
+  }
+
+  .navbar .dropdown-menu {
+    /* if some global CSS made it flex */
+    flex-direction: column !important;
+  }
+
+  .navbar .dropdown-menu>li,
+  .navbar .dropdown-menu .dropdown-item {
+    display: block;
+    /* force vertical list */
+    width: 100%;
   }
 }
 

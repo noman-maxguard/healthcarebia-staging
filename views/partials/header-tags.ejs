@@ -50,3 +50,75 @@
   crossorigin="anonymous"
   referrerpolicy="no-referrer"
 />
+<!-- JSON LD -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": ["Organization", "MedicalOrganization", "ProfessionalService"],
+        "@id": "https://healthcarebia.ae/#organization",
+        "name": "Healthcare",
+        "url": "https://healthcarebia.ae",
+        "logo": "https://healthcarebia.ae/assets/frontend/img/logo.webp",
+        "image": "https://healthcarebia.ae/assets/frontend/img/logo.webp",
+        "telephone": "+971547077476",
+        "parentOrganization": {
+          "@type": "Organization",
+          "name": "MMZHoldings",
+          "url": "https://mmzholdings.com/"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "91 Sheikh Zayed Rd – Trade Centre – DIFC",
+          "addressLocality": "Dubai",
+          "addressRegion": "Dubai",
+          "postalCode": "00000",
+          "addressCountry": "AE"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "United Arab Emirates"
+        },
+        "sameAs": [
+          "https://www.facebook.com/healthcarebia",
+          "https://www.linkedin.com/company/healthcarebia",
+          "https://www.instagram.com/healthcarebia",
+          "https://goo.gl/maps/abcdefghijkl"
+        ],
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "telephone": "+971547077476",
+            "contactType": "customer service",
+            "areaServed": "AE",
+            "availableLanguage": ["English", "Arabic"]
+          }
+        ],
+        "priceRange": "$$$",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "DHA License Number",
+          "value": "DHA1129341"
+        },
+        "memberOf": {
+          "@type": "Organization",
+          "name": "Dubai Health Authority",
+          "url": "https://www.dha.gov.ae"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://healthcarebia.ae/#breadcrumbs",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://healthcarebia.ae/"
+          }
+        ]
+      }
+    ]
+  }
+</script>

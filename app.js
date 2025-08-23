@@ -4,6 +4,7 @@ const path = require("path");
 const bodyParser = require("body-parser");
 const routes = require("./routes/index.js");
 const ejs = require("ejs");
+const ledger = require("./config/truth-ledger");
 
 app.set("view engine", "ejs");
 
@@ -13,6 +14,14 @@ app.use("/assets", express.static(path.join(__dirname, "assets")));
 app.set("views", path.join(__dirname, "views"));
 //Public
 app.use(express.static(path.join(__dirname, "public")));
+
+// truth ledger
+app.locals.ledger = ledger;
+app.use((req, res, next) => {
+  res.locals.pageTitle = ledger.brand;
+  res.locals.pageDescription = ledger.description.en;
+  next();
+});
 
 // Caching
 app.set("view cache", false);

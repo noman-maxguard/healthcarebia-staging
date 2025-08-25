@@ -50,14 +50,27 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
-            <a href="<?= base_url() ?>myers-cocktail-iv-drip-blog" class="card-style3 card-style4 same">
-                <img src="<?= base_url() ?>assets/frontend/img/blog21.jpg"
-                    alt="From Fatigue to Focus: The Myers Cocktail IV Drip"
-                    class="img-fluid">
-                <h6>From Fatigue to Focus: The Myers Cocktail IV Drip</h6>
-                <p>Discover how the Myers Cocktail IV drip delivers essential nutrients with safe at-home IV therapy to boost energy, support immunity, and improve overall health.</p>
-            </a>
-        </div>
+                <a href="<?= base_url() ?>oxygen-therapy-blog" class="card-style3 card-style4 same">
+                    <img
+                    src="<?= base_url() ?>assets/frontend/img/blog22.jpg"
+                    alt="Oxygen Therapy Dubai: How Oxygen Reaches Your Cells"
+                    class="img-fluid"
+                    loading="lazy"
+                    >
+                    <h6>Oxygen Therapy Dubai: How Oxygen Reaches Your Cells</h6>
+                    <p>Understand how oxygen moves from air to your cells and how DHA-licensed at-home oxygen therapy supports breathing, energy, and recovery.</p>
+                </a>
+            </div>
+
+            <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>myers-cocktail-iv-drip-blog" class="card-style3 card-style4 same">
+                    <img src="<?= base_url() ?>assets/frontend/img/blog21.jpg"
+                        alt="From Fatigue to Focus: The Myers Cocktail IV Drip"
+                        class="img-fluid">
+                    <h6>From Fatigue to Focus: The Myers Cocktail IV Drip</h6>
+                    <p>Discover how the Myers Cocktail IV drip delivers essential nutrients with safe at-home IV therapy to boost energy, support immunity, and improve overall health.</p>
+                </a>
+            </div>
 
             <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>gut-health-iv-drip-dubai" class="card-style3 card-style4 same">

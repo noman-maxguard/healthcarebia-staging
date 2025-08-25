@@ -314,13 +314,22 @@
                             <p>The Good Sleep IV Drip contains a blend of Glycine, Magnesium, and Zinc. These nutrients help relax the nervous system, support melatonin production, and regulate sleep patterns. Magnesium eases muscle tension, Glycine promotes relaxation, and Zinc contributes to hormone balance, all working together to improve sleep quality.</p>
                         </div>
                     </div>
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>5</span>Can I have the Good Sleep IV Drip if I’m already taking sleep medication or supplements?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Yes, often, but we’ll review your current meds first. Some medicines and supplements can increase drowsiness or lower blood pressure when combined with relaxing IV ingredients.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="accordion pt-md-3">
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>5</span>How often can I receive the Good Sleep IV Drip?</h5>
+                            <h5><span>6</span>How often can I receive the Good Sleep IV Drip?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -329,7 +338,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>6</span>Is the Good Sleep IV Drip safe?</h5>
+                            <h5><span>7</span>Is the Good Sleep IV Drip safe?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -338,7 +347,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>7</span>Are there any side effects?</h5>
+                            <h5><span>8</span>Are there any side effects?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -347,11 +356,20 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>8</span>How quickly can I expect to see improvement in my sleep quality after receiving the Good Sleep IV Drip?</h5>
+                            <h5><span>9</span>How quickly can I expect to see improvement in my sleep quality after receiving the Good Sleep IV Drip?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
                             <p>Clients often report better sleep quality and deeper relaxation as soon as the night following their IV drip session.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>10</span>Who should avoid the Good Sleep IV Drip?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>We may postpone treatment or require a doctor’s clearance if you are pregnant or breastfeeding, under 18, or have a history of significant medical conditions.</p>
                         </div>
                     </div>
                 </div>

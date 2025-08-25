@@ -19,13 +19,12 @@
     />
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <link rel="preload" as="video" href="assets/videos/background.mp4" type="video/mp4" />
     <link rel="stylesheet" href="/assets/css/personalised-drip.css" />
   </head>
   <body>
     <%- include("partials/header.ejs") %>
     <section class="home">
-      <video autoplay muted loop playsinline class="bg-video" poster="assets/images/poster.jpg">
+      <video autoplay muted loop playsinline class="bg-video" poster="/assets/img/home-banner.webp">
         <source src="../../assets/video/banner-video.mp4" type="video/mp4" />
       </video>
       <div class="video-overlay"></div>
@@ -36,7 +35,7 @@
           Rejuvenation <br />with Privacy & Precision to your doorstep.
         </p>
         <div class="buttons">
-          <a href="/about-us"><button class="me-3">LEARN MORE</button></a>
+          <a href="/about-us"><button class="me-3">LEARN MORE ABOUT US</button></a>
           <button id="iv-quiz-btn">GET YOUR PERSONALIZED IV DRIP</button>
         </div>
       </div>
@@ -80,7 +79,7 @@
           class="about-us-right col-md-5 col-12 d-flex justify-content-center align-items-center animate"
         >
           <div class="image mb-5">
-            <img src="../../assets/img/img4.webp" alt="about us section image" />
+            <img src="../../assets/img/img4.webp" alt="about us section image" loading="lazy" />
           </div>
         </div>
       </div>
@@ -201,7 +200,7 @@
         <div class="col-lg-4 two col-md-12">
           <h1 class="why-choose-us-two">Why Choose Us</h1>
           <div>
-            <img src="../../assets/img/img2.webp" alt="why-choose-us" />
+            <img src="../../assets/img/img2.webp" alt="why-choose-us" loading="lazy" />
           </div>
         </div>
         <div class="col-lg-4 col-md-12">
@@ -246,6 +245,7 @@
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
+                    loading="lazy"
                   ></iframe>
                 </div>
               </div>
@@ -271,6 +271,7 @@
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
+                    loading="lazy"
                   ></iframe>
                 </div>
               </div>
@@ -296,6 +297,7 @@
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
+                    loading="lazy"
                   ></iframe>
                 </div>
               </div>
@@ -370,7 +372,7 @@
         </div>
         <div class="col-lg-6 talk-to-us-right col-12">
           <div class="talk-to-us-image">
-            <img src="../../assets/img/face.webp" alt="face" />
+            <img src="../../assets/img/face.webp" alt="face" loading="lazy" />
           </div>
         </div>
       </div>

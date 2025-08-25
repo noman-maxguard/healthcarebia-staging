@@ -386,6 +386,10 @@
   .banner {
     height: 400px;
   }
+
+  .talk-to-us-image {
+    display: none !important;
+  }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {

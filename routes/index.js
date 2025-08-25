@@ -96,4 +96,8 @@ router.get("/blood-test", (req, res) => {
 router.get("/faqs", (req, res) => {
   res.render("faqs");
 });
+// ebook form
+router.post("/ebooks/download", (req, res) => {
+  res.status(200).json({ message: "success" });
+});
 module.exports = router;

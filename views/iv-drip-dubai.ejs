@@ -1397,126 +1397,49 @@
         </div>
       </div>
     </section>
-    <section class="testimonials">
-      <!-- Swiper -->
-      <div class="swiper myTestimonials">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide slide slide1">
-            <h1 class="mt-5">What our clients say</h1>
-            <div class="testimonial-item">
-              <div class="testimonial-video-div">
-                <div class="testimonial-video-wrapper">
-                  <iframe
-                    class="testimonial-video"
-                    src="https://www.youtube.com/embed/Cke0_5vsi8Q"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                    loading="lazy"
-                  ></iframe>
-                </div>
-              </div>
-              <div class="testimonial-copy">
-                <h3>Mo Aziz</h3>
-                <p>
-                  “I just had a NAD+ drip via Healthcarebia’s IV drip home service in Dubai, and I
-                  feel absolutely incredible. Their IV therapy is efficient, reliable, and truly
-                  top-notch, making a real difference in my productivity and energy level.”
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide slide slide2">
-            <h1>What our clients say</h1>
-            <div class="testimonial-item">
-              <div class="testimonial-video-div">
-                <div class="testimonial-video-wrapper">
-                  <iframe
-                    class="testimonial-video"
-                    src="https://www.youtube.com/embed/ipUMjVFkipc"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                    loading="lazy"
-                  ></iframe>
-                </div>
-              </div>
-              <div class="testimonial-copy">
-                <h3>Gala</h3>
-                <p>
-                  “After trying Healthcarebia’s immune booster IV drip, I experienced a noticeable
-                  boost in energy and overall wellness. The treatment was effective, professionally
-                  administered, and made me feel confident about my health journey.”
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-slide slide slide3">
-            <h1>What our clients say</h1>
-            <div class="testimonial-item">
-              <div class="testimonial-video-div">
-                <div class="testimonial-video-wrapper">
-                  <iframe
-                    class="testimonial-video"
-                    src="https://www.youtube.com/embed/AkeO7vjzBYQ"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                    loading="lazy"
-                  ></iframe>
-                </div>
-              </div>
-              <div class="testimonial-copy">
-                <h3>Jeremy Gwyer</h3>
-                <p>
-                  “I've had IV drips consistent for 4 years & this was the first time with active
-                  ingredients ! Noticeable difference compared to premixed bags. You can definitely
-                  feel effect of this IV therapy, Highly recommend the Myer's Cocktail”
-                </p>
-              </div>
-            </div>
+    <section class="reviews px-lg-5 px-md-3 px-2">
+      <h1 class="text-center my-1">Reviews</h1>
+      <div class="carousel-slick px-2 py-2" id="carousel-slick">
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="review text-center p-4 my-5">
+            <h4 class="mb-4" style="color: #353f2a">Ali</h4>
+            <p>
+              Fantastic service! Well-being at your doorstep with great knowledge and experience.
+              The staff is highly qualified and DHA-certified. Highly recommended.
+            </p>
           </div>
         </div>
-        <!-- navigation arrows -->
-        <div class="swiper-button-prev" id="prev"></div>
-        <div class="swiper-button-next" id="next"></div>
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="review text-center p-4 my-5">
+            <h4 class="mb-4" style="color: #353f2a">Samman</h4>
+            <p>
+              My first IV therapy in Dubai, and it was fantastic. I’d definitely recommend it. I
+              tried the post party drip and felt the results the next day.
+            </p>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="review text-center p-4 my-5">
+            <h4 class="mb-4" style="color: #353f2a">Beaussen</h4>
+            <p>
+              Very professional. 2 nurses are attentive assuring the good level of service. Tried
+              NAD+ IV drip, and the results were fantastic. I recommend this company!
+            </p>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="review text-center p-4 my-5">
+            <h4 class="mb-4" style="color: #353f2a">Zahra</h4>
+            <p>
+              Very efficient and excellent service provided by the team. I feel refreshed after the
+              beauty IV drip. Definitely worth it.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
     <%- include("partials/footer.ejs") %> <%- include("partials/footer-tags.ejs") %>
-    <script>
-      $(document).ready(function () {
-        $(".carousel-slick").slick({
-          slidesToShow: 3,
-          autoplay: false,
-          autoplaySpeed: 2000,
-          dots: true,
-          arrows: false,
-          centerMode: false,
-          infinite: true,
-          touchMove: true,
-          touchThreshold: 10,
-          responsive: [
-            {
-              breakpoint: 1190,
-              settings: {
-                slidesToShow: 2,
-                centerMode: false,
-              },
-            },
-            {
-              breakpoint: 720,
-              settings: {
-                slidesToShow: 1,
-                centerMode: false,
-              },
-            },
-          ],
-        });
-      });
-    </script>
+    <script src="/assets/js/slick-carousal.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
   </body>
 </html>

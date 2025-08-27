@@ -417,6 +417,11 @@
   .talk-to-us .talk-to-us-right {
     display: none !important;
   }
+
+  .review {
+    padding: 1em !important;
+    /* min-height: 400px; */
+  }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {

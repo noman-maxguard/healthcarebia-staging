@@ -605,8 +605,9 @@ button:hover {
   margin-top: 1em;
 }
 
-.services p {
+.services>p {
   padding: 0 5em;
+  font-style: italic;
 }
 
 .services a {
@@ -688,12 +689,13 @@ button:hover {
   background: transparent;
 }
 
-/* .end-section .contact-details {
+.end-section .contact-details {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   gap: 100px;
-} */
+}
+
 .end-section .contact-details li {
   color: var(--secondary);
   font-weight: 500;
@@ -1276,6 +1278,8 @@ footer .second-row {
 
 .carousel-slick {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ---------- core ---------- */
@@ -1487,7 +1491,7 @@ footer .second-row {
 
 .contact h1 {
   font-style: normal;
-  margin: 1em 0;
+  margin-bottom: 1em;
 }
 
 .contact form {}

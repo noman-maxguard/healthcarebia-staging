@@ -231,7 +231,7 @@
     </section>
     <section class="testimonials">
       <!-- Swiper -->
-      <div class="swiper myTestimonials">
+      <!-- <div class="swiper myTestimonials">
         <div class="swiper-wrapper">
           <div class="swiper-slide slide slide1 py-5">
             <h1>Testimonials</h1>
@@ -314,6 +314,106 @@
         </div>
         <div class="swiper-button-prev" id="prev"></div>
         <div class="swiper-button-next" id="next"></div>
+      </div> -->
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h1>Testimonials</h1>
+            <div class="testimonial-item">
+              <div class="testimonial-video-div">
+                <div class="testimonial-video-wrapper">
+                  <iframe
+                    class="testimonial-video"
+                    src="https://www.youtube.com/embed/Cke0_5vsi8Q"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    loading="lazy"
+                  ></iframe>
+                </div>
+              </div>
+              <div class="testimonial-copy">
+                <h3>Mo Aziz</h3>
+                <p>
+                  “I just had a NAD+ drip via Healthcarebia’s IV drip home service in Dubai, and I
+                  feel absolutely incredible. Their IV therapy is efficient, reliable, and truly
+                  top-notch, making a real difference in my productivity and energy level.”
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <h1>Testimonials</h1>
+            <div class="testimonial-item">
+              <div class="testimonial-video-div">
+                <div class="testimonial-video-wrapper">
+                  <iframe
+                    class="testimonial-video"
+                    src="https://www.youtube.com/embed/AkeO7vjzBYQ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    loading="lazy"
+                  ></iframe>
+                </div>
+              </div>
+              <div class="testimonial-copy">
+                <h3>Jeremy Gwyer</h3>
+                <p>
+                  “I've had IV drips consistent for 4 years & this was the first time with active
+                  ingredients ! Noticeable difference compared to premixed bags. You can definitely
+                  feel effect of this IV therapy, Highly recommend the Myer's Cocktail”
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <h1>Testimonials</h1>
+            <div class="testimonial-item">
+              <div class="testimonial-video-div">
+                <div class="testimonial-video-wrapper">
+                  <iframe
+                    class="testimonial-video"
+                    src="https://www.youtube.com/embed/ipUMjVFkipc"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    loading="lazy"
+                  ></iframe>
+                </div>
+              </div>
+              <div class="testimonial-copy">
+                <h3>Gala</h3>
+                <p>
+                  “After trying Healthcarebia’s immune booster IV drip, I experienced a noticeable
+                  boost in energy and overall wellness. The treatment was effective, professionally
+                  administered, and made me feel confident about my health journey.”
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </section>
     <section class="talk-to-us">
@@ -405,37 +505,7 @@
     </section>
     <%- include('partials/personalised-drip.ejs') %> <%- include("partials/footer.ejs") %> <%-
     include("partials/footer-tags.ejs") %>
-    <script>
-      $(document).ready(function () {
-        $(".carousel-slick").slick({
-          slidesToShow: 3,
-          autoplay: false,
-          autoplaySpeed: 2000,
-          dots: true,
-          arrows: false,
-          centerMode: false,
-          infinite: true,
-          touchMove: true,
-          touchThreshold: 10,
-          responsive: [
-            {
-              breakpoint: 1190,
-              settings: {
-                slidesToShow: 2,
-                centerMode: false,
-              },
-            },
-            {
-              breakpoint: 720,
-              settings: {
-                slidesToShow: 1,
-                centerMode: false,
-              },
-            },
-          ],
-        });
-      });
-    </script>
+    <script src="/assets/js/slick-carousal.js"></script>
     <script src="/assets/js/talk-to-us-form.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="/assets/js/personalised-drip.js"></script>

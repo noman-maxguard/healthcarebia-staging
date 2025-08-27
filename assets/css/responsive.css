@@ -101,6 +101,11 @@
     width: auto;
   }
 
+  .contact form .row div {
+    justify-content: center;
+    align-items: center;
+  }
+
   /* contact us */
   .contact-block {
     padding: 1em;
@@ -117,7 +122,7 @@
   } */
   .contact-div-one input,
   .contact-div-two select,
-  .contact-div-two text-area {
+  .contact-div-two textarea {
     padding: 1em;
     width: 100%
   }
@@ -127,7 +132,7 @@
   }
 
   .contact-div-two {
-    margin-top: 2em;
+    margin-top: 1em;
   }
 
   .contact form select {
@@ -135,7 +140,7 @@
     margin-top: 1em;
   }
 
-  .contact .contact-details .row {
+  /* .contact .contact-details .row {
     justify-content: center;
     ;
   }
@@ -143,6 +148,20 @@
   .contact .contact-details .contact-item {
     padding: 0.8em;
     width: 90%;
+  } */
+  .contact .contact-details .contact-item {
+    padding: 0.8em;
+    width: 90%;
+  }
+
+  .contact .contact-details {
+    margin: 2em 0;
+  }
+
+  .map {
+    margin-bottom: 1em;
+    padding: 1em;
+    margin-top: 0;
   }
 
   /* policy */
@@ -406,23 +425,67 @@
     margin-top: 1em;
   }
 
-  .contact-div-two {
-    margin-top: 2em;
-  }
-
   /* drips */
   .hangover-drip-img {
     overflow: visible;
   }
 
   /* contact us */
+  .contact form .row div {
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* contact us */
+  .contact-block {
+    padding: 1em;
+  }
+
+  .contact-block h1 {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  /* .contact-block form .row div {
+      padding: 1em;
+      padding-top: 0;
+    } */
+  .contact-div-one input,
+  .contact-div-two select,
+  .contact-div-two textarea {
+    padding: 1em;
+    width: 100%
+  }
+
+  .contact {
+    padding: 0;
+  }
+
+  .contact-div-two {
+    margin-top: 1em;
+  }
+
   .contact form select {
     width: 100%;
     margin-top: 1em;
   }
 
+  /* .contact .contact-details .row {
+      justify-content: center;
+      ;
+    }
+  
+    .contact .contact-details .contact-item {
+      padding: 0.8em;
+      width: 90%;
+    } */
   .contact .contact-details .contact-item {
-    width: 49%;
+    padding: 0.8em;
+    width: 90%;
+  }
+
+  .contact .contact-details {
+    margin: 2em 0;
   }
 
   /* lab test at home */
@@ -603,6 +666,14 @@
 
   .contact .contact-details .contact-item {
     width: 45%;
+  }
+
+  .contact .contact-details .contact-item {
+    margin-top: 1em;
+  }
+
+  .contact .contact-details {
+    margin-left: 0;
   }
 
   /* header */

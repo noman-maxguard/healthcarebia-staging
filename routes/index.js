@@ -135,14 +135,13 @@ router.post("/ebooks/submit", async (req, res) => {
   }
 });
 router.post("/contact", async (req, res) => {
-  const { first_name, last_name, phone, email, message, type } = req.body;
+  const { name, phone, email, message, type } = req.body;
   const token = req.body["g-recaptcha-response"];
   console.log(token);
   const ip = req.headers["x-forwarded-for"] || req.socket.remoteAddress;
 
   if (
-    !first_name ||
-    !last_name ||
+    !name ||
     !email ||
     !message ||
     !type ||
@@ -226,10 +225,10 @@ router.post("/contact", async (req, res) => {
       console.error("SMTP verify failed:", e);
     }
     const mailOptions = {
-      from: `${first_name} ${last_name} <${process.env.MAIL_USER}>`,
+      from: `${first_name} ${last_name || ""} <${process.env.MAIL_USER}>`,
       to: process.env.MAIL_TO,
       subject: `Healthcarebia - Enquiry received.`,
-      text: `Name: ${first_name} ${last_name}\nEmail: ${email}\nPhone:${phone}\nMessage: ${message}\nType:${type}\nIP Address: ${ip}`,
+      text: `Name: ${first_name} ${last_name || ""}\nEmail: ${email}\nPhone:${phone}\nMessage: ${message}\nType:${type}\nIP Address: ${ip}`,
     };
     let info = await transporter.sendMail(mailOptions);
     res.status(200).send("Your message was sent successfully! We will be in touch soon.");

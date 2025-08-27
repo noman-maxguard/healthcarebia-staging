@@ -10,10 +10,6 @@
     <title>Contact Us | Healthcarebia</title>
     <%- include('partials/header-tags.ejs') %>
     <style>
-      .contact-div-one,
-      .contact-div-two {
-        width: 90%;
-      }
       .g-recaptcha > div > iframe {
         width: 310px !important;
       }
@@ -26,113 +22,118 @@
       <h1>Contact Us</h1>
     </div>
     <section class="contact">
-      <div class="contact-block">
-        <h1>Request a Call Back</h1>
-        <form method="post" class="my-3" id="contactForm" action="/contact">
-          <div class="row p-0">
-            <div class="col-md-6">
-              <div class="contact-div-one">
-                <input type="text" name="first_name" placeholder="First Name" />
-                <input type="text" name="last_name" placeholder="Last Name" />
-                <input type="email" name="email" placeholder="Email" />
-                <input type="tel" name="phone" placeholder="Phone" />
+      <div class="row">
+        <div class="contact-block col-lg-8 col-12">
+          <h1>Request a Call Back</h1>
+          <form method="post" class="my-3" id="contactForm" action="/contact">
+            <div class="row p-0">
+              <div class="col-12">
+                <div class="contact-div-one">
+                  <input type="text" name="name" placeholder="First Name" />
+                  <input type="email" name="email" placeholder="Email" />
+                  <input type="tel" name="phone" placeholder="Phone" />
+                  <div class="contact-div-two">
+                    <select class="form-select type-select" name="type" required>
+                      <option hidden>Type</option>
+                      <option value="booking">Booking</option>
+                      <option value="partnership">Partnership</option>
+                      <option value="other">Other</option>
+                    </select>
+                    <textarea name="message" id="message" placeholder="Message"></textarea>
+                    <div
+                      class="g-recaptcha mt-4"
+                      data-sitekey="6LffuLErAAAAAOqeGORuVY4YL83JDeq_whtD1EHI"
+                    ></div>
+                    <button type="submit" class="mt-4 d-block">Submit</button>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="contact-div-two">
-                <select class="form-select type-select" name="type" required>
-                  <option hidden>Type</option>
-                  <option value="booking">Booking</option>
-                  <option value="partnership">Partnership</option>
-                  <option value="other">Other</option>
-                </select>
-                <textarea name="message" id="message" placeholder="Message"></textarea>
-                <div
-                  class="g-recaptcha mt-4"
-                  data-sitekey="6LffuLErAAAAAOqeGORuVY4YL83JDeq_whtD1EHI"
-                ></div>
-              </div>
+          </form>
+          <div class="form-group">
+            <div id="success" class="alert alert-success fadeInUp" role="alert">
+              Your message was sent successfully! We will be in touch soon.
             </div>
-            <button type="submit" class="mt-5 d-block">Submit</button>
-          </div>
-        </form>
-        <div class="form-group">
-          <div id="success" class="alert alert-success fadeInUp" role="alert">
-            Your message was sent successfully! We will be in touch soon.
-          </div>
-          <div id="error" class="alert alert-danger fadeInUp" role="alert">
-            Something went wrong, try refreshing and submitting the form again.
-          </div>
-        </div>
-      </div>
-      <div class="contact-details my-5">
-        <div class="row">
-          <div class="d-flex align-items-center justify-content-between contact-item">
-            <div class="d-flex align-items-center gap-2">
-              <div class="contact-icon">
-                <img
-                  src="/assets/icons/phone-call.svg"
-                  alt="contact details icon"
-                  height="30px"
-                  width="30px"
-                />
-              </div>
-              <span>Call us</span>
-            </div>
-
-            <div class="contact-info">
-              <div><a href="tel:+97142250823">+971 4 22 50823</a></div>
-              <div><a href="tel:+971547077476">+971 547 077476</a></div>
-            </div>
-          </div>
-          <div class="d-flex align-items-center justify-content-between contact-item">
-            <div class="d-flex align-items-center gap-2">
-              <div class="contact-icon">
-                <img
-                  src="/assets/icons/contact-location.svg"
-                  alt="contact details icon"
-                  height="30px"
-                  width="30px"
-                />
-              </div>
-              <span>Location</span>
-            </div>
-
-            <div class="contact-info">
-              <div>DIFC, Dubai, UAE</div>
-            </div>
-          </div>
-          <div class="d-flex align-items-center justify-content-between contact-item">
-            <div class="d-flex align-items-center gap-2">
-              <div class="contact-icon">
-                <img
-                  src="/assets/icons/contact-email.svg"
-                  alt="contact details icon"
-                  height="30px"
-                  width="30px"
-                />
-              </div>
-              <span>Email</span>
-            </div>
-
-            <div class="contact-info">
-              <div>
-                <a href="mailto:info@healthcarebia.ae">info&#64;healthcarebia&#46;ae</a>
-              </div>
+            <div id="error" class="alert alert-danger fadeInUp" role="alert">
+              Something went wrong, try refreshing and submitting the form again.
             </div>
           </div>
         </div>
-      </div>
-      <div class="map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.698178153797!2d55.276478875163995!3d25.213399077700554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f437ad48ce8ab%3A0x1441da8daee852a8!2sHealthcarebia%20Home%20Healthcare%20%E2%94%82Premium%20Exclusive%20IV%20Drips%20at%20home%20in%20Dubai!5e0!3m2!1sen!2sae!4v1756216548182!5m2!1sen!2sae"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+        <div class="contact-details col-lg-3 col-12">
+          <div class="row d-flex flex-lg-column gap-4 justify-content-center align-items-center">
+            <div
+              class="d-flex flex-md-column contact-item justify-content-center align-items-center gap-3"
+            >
+              <div class="d-flex align-items-center gap-3 flex-column">
+                <div class="contact-icon">
+                  <img
+                    src="/assets/icons/phone-call.svg"
+                    alt="contact details icon"
+                    height="30px"
+                    width="30px"
+                  />
+                </div>
+                <span>Call us</span>
+              </div>
+
+              <div class="contact-info">
+                <div><a href="tel:+97142250823">+971 4 22 50823</a></div>
+                <div><a href="tel:+971547077476">+971 547 077476</a></div>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-md-column contact-item justify-content-center align-items-center gap-3"
+            >
+              <div class="d-flex align-items-center gap-3 flex-column">
+                <div class="contact-icon">
+                  <img
+                    src="/assets/icons/contact-location.svg"
+                    alt="contact details icon"
+                    height="30px"
+                    width="30px"
+                  />
+                </div>
+                <span>Location</span>
+              </div>
+
+              <div class="contact-info">
+                <div>DIFC, Dubai, UAE</div>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-md-column contact-item justify-content-center align-items-center gap-3"
+            >
+              <div class="d-flex align-items-center gap-3 flex-column">
+                <div class="contact-icon">
+                  <img
+                    src="/assets/icons/contact-email.svg"
+                    alt="contact details icon"
+                    height="30px"
+                    width="30px"
+                  />
+                </div>
+                <span>Email</span>
+              </div>
+
+              <div class="contact-info">
+                <div>
+                  <a href="mailto:info@healthcarebia.ae">info&#64;healthcarebia&#46;ae</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="map col-12">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.698178153797!2d55.276478875163995!3d25.213399077700554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f437ad48ce8ab%3A0x1441da8daee852a8!2sHealthcarebia%20Home%20Healthcare%20%E2%94%82Premium%20Exclusive%20IV%20Drips%20at%20home%20in%20Dubai!5e0!3m2!1sen!2sae!4v1756216548182!5m2!1sen!2sae"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
       </div>
     </section>
     <%- include("partials/footer.ejs") %> <%- include("partials/footer-tags.ejs") %>

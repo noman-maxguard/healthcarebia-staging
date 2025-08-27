@@ -353,17 +353,28 @@ button:hover {
   /* font-size: 52px; */
 }
 
-.myTestimonials {
-  width: 100%;
-  margin-top: 5em;
-  margin: 0 auto;
+.carousel-control-prev,
+.carousel-control-next {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
-.slide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.carousel-control-prev:focus,
+.carousel-control-prev:active,
+.carousel-control-next:focus,
+.carousel-control-next:active {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' stroke='%23353f2a' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M11 2 L5 8 L11 14'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' stroke='%23353f2a' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 2 L11 8 L5 14'/%3E%3C/svg%3E") !important;
 }
 
 .testimonial-item {
@@ -677,13 +688,12 @@ button:hover {
   background: transparent;
 }
 
-.end-section .contact-details {
+/* .end-section .contact-details {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   gap: 100px;
-}
-
+} */
 .end-section .contact-details li {
   color: var(--secondary);
   font-weight: 500;
@@ -1315,12 +1325,12 @@ footer .second-row {
 .accordion-button,
 .accordion-header {
   color: white;
-  background-color: var(--primary);
+  background-color: var(--secondary);
 }
 
 .accordion .accordion-button {
   color: #fff;
-  background-color: var(--primary);
+  background-color: var(--secondary);
   display: flex;
 }
 
@@ -1515,7 +1525,6 @@ select::picker(select) {
 
 .contact form button {
   width: 130px;
-  margin-left: 1em;
   border: none;
 }
 
@@ -1524,7 +1533,7 @@ select::picker(select) {
 }
 
 .contact .contact-details {
-  margin: 2em 0;
+  margin-left: 4em;
 }
 
 .contact .contact-details .row {
@@ -1536,7 +1545,7 @@ select::picker(select) {
 .contact .contact-details .contact-item {
   padding: 1em;
   margin-bottom: 1em;
-  width: 33%;
+  /* width: 33%; */
   min-height: 80px;
 }
 

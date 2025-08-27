@@ -66,15 +66,21 @@
     width: 100% !important;
   }
 
-  .our-services>.row>div {
-    padding: 0 1em !important;
+  .our-services>.row>div:nth-child(1) {
+    padding-top: 30px !important;
+    padding-bottom: 0 !important;
+  }
+
+  .our-services>.row>div:nth-child(2) {
+    padding-bottom: 30px !important;
+    padding-top: 0 !important;
   }
 
   .our-services {
     padding: 1.2em !important;
   }
 
-  .our-services .image img {
+  .our-services .image {
     display: none !important;
   }
 

@@ -73,7 +73,7 @@
 
 .mission,
 .vision {
-  background-color: var(--primary);
+  background-color: #38483b;
   color: white;
   font-family: var(--body);
   font-style: italic;

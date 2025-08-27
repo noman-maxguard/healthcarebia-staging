@@ -9,6 +9,16 @@
     />
     <title>Contact Us | Healthcarebia</title>
     <%- include('partials/header-tags.ejs') %>
+    <style>
+      .contact-div-one,
+      .contact-div-two {
+        width: 90%;
+      }
+      .g-recaptcha > div > iframe {
+        width: 310px !important;
+      }
+    </style>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </head>
   <body>
     <%- include("partials/header.ejs") %>
@@ -18,26 +28,42 @@
     <section class="contact">
       <div class="contact-block">
         <h1>Request a Call Back</h1>
-        <form action="" class="my-3">
-          <div class="row">
+        <form method="post" class="my-3" id="contactForm" action="/contact">
+          <div class="row p-0">
             <div class="col-md-6">
-              <input type="text" name="first_name" placeholder="First Name" />
-              <input type="text" name="last_name" placeholder="Last Name" />
-              <input type="email" name="email" placeholder="Email" />
-              <input type="tel" name="phone" placeholder="Phone" />
+              <div class="contact-div-one">
+                <input type="text" name="first_name" placeholder="First Name" />
+                <input type="text" name="last_name" placeholder="Last Name" />
+                <input type="email" name="email" placeholder="Email" />
+                <input type="tel" name="phone" placeholder="Phone" />
+              </div>
             </div>
             <div class="col-md-6">
-              <select class="form-select type-select" name="type" required>
-                <option hidden>Type</option>
-                <option value="booking">Booking</option>
-                <option value="partnership">Partnership</option>
-                <option value="other">Other</option>
-              </select>
-              <textarea name="message" id="message" placeholder="Message"></textarea>
+              <div class="contact-div-two">
+                <select class="form-select type-select" name="type" required>
+                  <option hidden>Type</option>
+                  <option value="booking">Booking</option>
+                  <option value="partnership">Partnership</option>
+                  <option value="other">Other</option>
+                </select>
+                <textarea name="message" id="message" placeholder="Message"></textarea>
+                <div
+                  class="g-recaptcha mt-4"
+                  data-sitekey="6LffuLErAAAAAOqeGORuVY4YL83JDeq_whtD1EHI"
+                ></div>
+              </div>
             </div>
-            <button type="submit">Submit</button>
+            <button type="submit" class="mt-5 d-block">Submit</button>
           </div>
         </form>
+        <div class="form-group">
+          <div id="success" class="alert alert-success fadeInUp" role="alert">
+            Your message was sent successfully! We will be in touch soon.
+          </div>
+          <div id="error" class="alert alert-danger fadeInUp" role="alert">
+            Something went wrong, try refreshing and submitting the form again.
+          </div>
+        </div>
       </div>
       <div class="contact-details my-5">
         <div class="row">
@@ -63,7 +89,7 @@
             <div class="d-flex align-items-center gap-2">
               <div class="contact-icon">
                 <img
-                  src="/assets/icons/phone-call.svg"
+                  src="/assets/icons/contact-location.svg"
                   alt="contact details icon"
                   height="30px"
                   width="30px"
@@ -80,7 +106,7 @@
             <div class="d-flex align-items-center gap-2">
               <div class="contact-icon">
                 <img
-                  src="/assets/icons/phone-call.svg"
+                  src="/assets/icons/contact-email.svg"
                   alt="contact details icon"
                   height="30px"
                   width="30px"
@@ -99,7 +125,9 @@
       </div>
       <div class="map">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7219.396360917424!2d55.279054!3d25.213399!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f437ad48ce8ab%3A0x1441da8daee852a8!2sHealthcarebia%20Home%20Healthcare%20Centre%20LLC.%20IV%20Drip%20at%20Home%20Dubai!5e0!3m2!1sen!2sae!4v1693902003383!5m2!1sen!2sae"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.698178153797!2d55.276478875163995!3d25.213399077700554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f437ad48ce8ab%3A0x1441da8daee852a8!2sHealthcarebia%20Home%20Healthcare%20%E2%94%82Premium%20Exclusive%20IV%20Drips%20at%20home%20in%20Dubai!5e0!3m2!1sen!2sae!4v1756216548182!5m2!1sen!2sae"
+          width="600"
+          height="450"
           style="border: 0"
           allowfullscreen=""
           loading="lazy"
@@ -108,5 +136,6 @@
       </div>
     </section>
     <%- include("partials/footer.ejs") %> <%- include("partials/footer-tags.ejs") %>
+    <script src="/assets/js/contact-us-form.js"></script>
   </body>
 </html>

@@ -8,7 +8,16 @@ document.addEventListener("DOMContentLoaded", function () {
   if (!isHome) {
     nav.classList.add("color");
   }
+
   const applyScrollState = () => {
+    const isDesktop = window.innerWidth >= 992; // Bootstrap lg breakpoint
+    if (!isDesktop) {
+      // reset state on mobile
+      nav.classList.remove("scrolled");
+      dropDowns.forEach((dd) => dd.classList.remove("scrolled"));
+      return;
+    }
+
     const scrolled = window.scrollY > 50;
     nav.classList.toggle("scrolled", scrolled);
     dropDowns.forEach((dd) => dd.classList.toggle("scrolled", scrolled));
@@ -16,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   applyScrollState();
   window.addEventListener("scroll", applyScrollState, { passive: true });
+  window.addEventListener("resize", applyScrollState); // re-check on resize
 });
 
 const observer = new IntersectionObserver(

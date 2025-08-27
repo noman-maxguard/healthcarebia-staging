@@ -10,6 +10,13 @@
 } */
 /* Small devices and up*/
 @media (max-width: 577px) {
+  .card {
+    margin: 20px !important;
+  }
+
+  .card h3 {
+    font-size: 26px !important;
+  }
 
   /* drips */
   .head ul li i {
@@ -20,13 +27,6 @@
     overflow: visible;
   }
 
-  /* .drip-block .drip-box {
-    flex-direction: column !important;
-  }
-
-  .drip-box .drip-img {
-    height: auto !important;
-  } */
   /* faqs */
   .faqs .row {
     margin: 0 !important;
@@ -84,11 +84,6 @@
   }
 
   /* header */
-  .navbar .navbar-brand img {
-    height: 20px;
-    width: auto;
-  }
-
   .nav-item.dropdown .dropdown-toggle-split {
     margin-left: 6px;
   }
@@ -116,12 +111,23 @@
     text-align: center;
   }
 
-  .contact-block form .row div {
+  /* .contact-block form .row div {
     padding: 1em;
+    padding-top: 0;
+  } */
+  .contact-div-one input,
+  .contact-div-two select,
+  .contact-div-two text-area {
+    padding: 1em;
+    width: 100%
   }
 
   .contact {
-    padding: 2em;
+    padding: 0;
+  }
+
+  .contact-div-two {
+    margin-top: 2em;
   }
 
   .contact form select {
@@ -136,7 +142,7 @@
 
   .contact .contact-details .contact-item {
     padding: 0.8em;
-    width: 100%;
+    width: 90%;
   }
 
   /* policy */
@@ -239,6 +245,7 @@
 
   .intro h1 {
     font-size: 3em;
+    margin-top: 1em;
   }
 
   .intro p {
@@ -278,10 +285,6 @@
   .services a {
     margin: 0;
     padding: 0;
-  }
-
-  .intro h1 {
-    font-size: 2em;
   }
 
   .intro p {
@@ -383,16 +386,29 @@
     width: 100%;
   }
 
+  .navbar .navbar-brand .logo-desktop {
+    height: 28px;
+    width: auto;
+  }
+
   .banner {
     height: 400px;
   }
 
-  .talk-to-us-image {
+  .talk-to-us .talk-to-us-right {
     display: none !important;
   }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
+  .intro h1 {
+    font-size: 3em;
+    margin-top: 1em;
+  }
+
+  .contact-div-two {
+    margin-top: 2em;
+  }
 
   /* drips */
   .hangover-drip-img {

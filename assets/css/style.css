@@ -189,7 +189,6 @@ button:hover {
   color: white;
   font-size: 20px;
   font-style: italic;
-  letter-spacing: -1px;
 }
 
 .intro .buttons button {
@@ -637,7 +636,7 @@ button:hover {
 }
 
 .end-section {
-  min-height: 70vh;
+  /* min-height: 70vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -853,6 +852,14 @@ button:hover {
 #header ul li a {
   color: white;
   text-transform: uppercase;
+}
+
+.navbar .navbar-brand .logo-desktop {
+  display: block;
+}
+
+.navbar .navbar-brand .logo-mobile {
+  display: none;
 }
 
 .nav-item.dropdown .dropdown-toggle-split {
@@ -1468,14 +1475,9 @@ footer .second-row {
   border-radius: 10px;
 }
 
-.contact-block form .row div {
-  padding: 3em;
-}
-
 .contact h1 {
   font-style: normal;
-  padding-left: 1em;
-  margin-top: 1em;
+  margin: 1em 0;
 }
 
 .contact form {}
@@ -1484,7 +1486,6 @@ footer .second-row {
   display: flex;
   gap: 2em;
   flex-direction: column;
-  padding: 3em;
 }
 
 .contact form input,
@@ -1514,7 +1515,7 @@ select::picker(select) {
 
 .contact form button {
   width: 130px;
-  margin-left: 3em;
+  margin-left: 1em;
   border: none;
 }
 
@@ -1581,4 +1582,10 @@ select::picker(select) {
   height: 100%;
   border: none;
   border-radius: 10px;
+}
+
+#success,
+#error {
+  display: none;
+  margin-top: 2em;
 }

@@ -400,23 +400,6 @@
 
                         <div class="item">
 
-                            <a href="<?= base_url() ?>glutathione-iv-drip" class="services-slider-item">
-
-                                <div class="services-title">
-
-                                    <h3>Glutathione IV Drip</h3>
-
-                                </div>
-
-                                <img loading="lazy" decoding="async" width="335" height="428" src="<?= base_url() ?>assets/frontend/img/glutathione-img.webp" class="img-fluid"
-                                     alt="Glutathione IV Drip Dubai">
-
-                            </a>
-
-                        </div>
-
-                        <div class="item">
-
                             <a href="<?= base_url() ?>nad-iv-drip" class="services-slider-item">
 
                                 <div class="services-title">

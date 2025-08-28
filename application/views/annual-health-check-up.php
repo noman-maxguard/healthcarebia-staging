@@ -129,17 +129,9 @@
 
                             <li>Blood Tests: A complete blood count (CBC), cholesterol levels, blood sugar levels, and more.</li>
 
-                            <li>Body Mass Index (BMI) Calculation: An assessment of your weight relative to your height.</li>
-
-                            <li>Cardiovascular Screening: Evaluating your heart health with an ECG and lipid profile.</li>
-
                             <li>Liver and Kidney Function Tests: Checking the health of these vital organs.</li>
 
-                            <li>Full Body Checkup: Examination for any potential issues, including heart, lungs, and more.</li>
-
                             <li>Cancer Screenings: If recommended based on your age and risk factors.</li>
-
-                            <li>Bone Density Assessment: For those at risk of osteoporosis.</li>
 
                             <li>Customized Health Consultation: A detailed discussion with our healthcare professionals to address any concerns and provide guidance for a healthier lifestyle.</li>
 

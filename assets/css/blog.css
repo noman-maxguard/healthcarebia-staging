@@ -32,14 +32,14 @@
 }
 
 .head {
-  color: #a6a6a6;
+  color: #737373;
 }
 
 .category {
   padding: 3px 12px;
   background-color: #eeeeee;
   border-radius: 10px;
-  color: #a6a6a6;
+  color: #737373;
   border: none;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .blog-body .blog-summary {
-  color: #b4b4b4;
+  color: #737373;
   font-family: var(--body);
   border-bottom: 2px solid #a6a6a6;
 }

@@ -55,8 +55,8 @@ const blogs = [
     category: "Health",
     description:
       "Dubai’s 45 °C heat is no joke discover how DHA licensed, NABIDH compliant at home IV drips keep you safe, balanced, and energized.",
-    time: 0,
-    date: "August 4,2025",
+    time: 4,
+    date: "July 31,2025",
     link: "hydrate-or-crash-blog",
   },
   {
@@ -65,8 +65,8 @@ const blogs = [
     category: "Health",
     description:
       "Separate myth from fact learn DHA regulations, safety tips, and what makes IV therapy safe and compliant in Dubai.",
-    time: 0,
-    date: "August 1,2025",
+    time: 3,
+    date: "July 24,2025",
     link: "iv-drip-therapy-safe-legal-dubai-blog",
   },
   {
@@ -75,8 +75,8 @@ const blogs = [
     category: "Health",
     description:
       "Discover why vitamin D is low, even with Dubai sunshine. Learn the risks, symptoms, and book a quick home blood test today.",
-    time: 0,
-    date: "August 1,2025",
+    time: 3,
+    date: "July 17,2025",
     link: "vitamin-d-deficiency-dubai-blog",
   },
   {
@@ -85,8 +85,8 @@ const blogs = [
     category: "Health",
     description:
       "Hydrate, recover, and perform at your best with our DHA-licensed IV therapy for athletes in Dubai.",
-    time: 0,
-    date: "August 1,2025",
+    time: 5,
+    date: "July 10,2025",
     link: "athletic-iv-drip-performance-recovery-blog",
   },
   {
@@ -95,8 +95,8 @@ const blogs = [
     category: "Health",
     description:
       "Beat jet lag fatigue and reset your circadian rhythm with our nurse-delivered IV therapy service in Dubai.",
-    time: 0,
-    date: "August 1,2025",
+    time: 3,
+    date: "July 3,2025",
     link: "jet-lag-iv-drip-blog",
   },
   {
@@ -105,8 +105,8 @@ const blogs = [
     category: "Health",
     description:
       "Learn how NAD+ infusion helps CEOs maintain mental clarity, combat fatigue, and excel at multitasking",
-    time: 0,
-    date: "August 1,2025",
+    time: 4,
+    date: "June 26,2025",
     link: "nad-iv-therapy-for-ceos-blog",
   },
   {
@@ -115,8 +115,8 @@ const blogs = [
     category: "Health",
     description:
       "In the pursuit of radiant skin, lustrous hair, and overall beauty, many people turn to topical treatments and cosmetic procedures.",
-    time: 0,
-    date: "August 1,2025",
+    time: 3,
+    date: "June 19,2025",
     link: "iv-therapy-skin-hair-blog",
   },
   {
@@ -125,8 +125,8 @@ const blogs = [
     category: "Health",
     description:
       "In the realm of healthcare advancements, scientists and researchers are constantly uncovering new ways to optimize our well-being.",
-    time: 0,
-    date: "August 1,2025",
+    time: 4,
+    date: "June 12,2025",
     link: "nad-iv-drips-cellular-health-blog",
   },
   // {
@@ -184,8 +184,8 @@ const blogs = [
     category: "Health",
     description:
       "Curious about getting an IV drip at home in Dubai? Discover what happens during your first visit, from consultation to infusion.",
-    time: 0,
-    date: "August 1,2025",
+    time: 5,
+    date: "January 6,2025",
     link: "iv-drip-home-service-dubai-first-visit-blog",
   },
   // {

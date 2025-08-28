@@ -50,6 +50,19 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>burnout-prevention-blog" class="card-style3 card-style4 same">
+                    <img
+                    src="<?= base_url() ?>assets/frontend/img/blog23.jpg"
+                    alt="Why We Often Notice Burnout Too Late – And How to Prevent It"
+                    class="img-fluid"
+                    loading="lazy"
+                    >
+                    <h6>Why We Often Notice Burnout Too Late And How to Prevent It</h6>
+                    <p>Learn why burnout symptoms often go unnoticed, how to spot them early, and evidence based strategies for burnout recovery and prevention.</p>
+                </a>
+            </div>
+
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>oxygen-therapy-blog" class="card-style3 card-style4 same">
                     <img
                     src="<?= base_url() ?>assets/frontend/img/blog22.jpg"

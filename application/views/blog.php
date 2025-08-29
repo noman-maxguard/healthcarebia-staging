@@ -50,6 +50,21 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>iv-drips-tourists-dubai-blog" class="card-style3 card-style4 same">
+                    <img
+                        src="<?= base_url() ?>assets/frontend/img/blog24.png"
+                        alt="Why Tourists Are Getting Hooked on IV Drips in Dubai"
+                        class="img-fluid"
+                        loading="lazy"
+                        width:"315px"
+                        height:"213px"
+                    >
+                    <h6>Why Tourists Are Getting Hooked on IV Drips in Dubai</h6>
+                    <p>Discover why IV drip therapy has become a must-have for tourists in Dubai and how Healthcarebia provides convenient, affordable hotel-based IV services.</p>
+                </a>
+            </div>
+
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>burnout-prevention-blog" class="card-style3 card-style4 same">
                     <img
                     src="<?= base_url() ?>assets/frontend/img/blog23.jpg"

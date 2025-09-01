@@ -100,8 +100,8 @@
       const hamburgerButton = document.querySelector(".hamburger-icon");
       const crossButton = document.querySelector(".cross-icon");
       const menu = document.querySelector(".menu");
-      const dropdownArrow = document.querySelector(".dropdown-block img");
-      const dropdownItems = document.querySelector(".dropdown-items");
+
+      // Mobile menu toggle
       hamburgerButton.addEventListener("click", () => {
         menu.style.display = "flex";
         hamburgerButton.style.display = "none";
@@ -112,25 +112,32 @@
         hamburgerButton.style.display = "block";
         crossButton.style.display = "none";
       });
-      document.querySelectorAll(".dropdown-block").forEach((trigger) => {
-        trigger.addEventListener("click", function (e) {
-          e.preventDefault();
-          const parent = this.closest(".dropdown");
-          parent.classList.toggle("open");
 
+      // Dropdown toggle (works for both dropdowns)
+      document.querySelectorAll(".dropdown .dropdown-block").forEach((block) => {
+        block.addEventListener("click", (e) => {
+          // prevent the label link from navigating
+          const link = block.querySelector("a[href]");
+          if (link) e.preventDefault();
+
+          const dropdown = block.closest(".dropdown"); // ✅ correct ancestor
+          const nowOpen = dropdown.classList.toggle("open");
+
+          // Close other open dropdowns
           document.querySelectorAll(".dropdown.open").forEach((dd) => {
-            if (dd !== parent) dd.classList.remove("open");
+            if (dd !== dropdown) dd.classList.remove("open");
           });
         });
       });
 
-      // close dropdowns when clicking outside
-      document.addEventListener("click", function (e) {
+      // Click outside to close
+      document.addEventListener("click", (e) => {
         if (!e.target.closest(".dropdown")) {
           document.querySelectorAll(".dropdown.open").forEach((dd) => dd.classList.remove("open"));
         }
       });
     </script>
+
     <%- include("partials/footer.ejs") %> <%- include("partials/footer-tags.ejs") %>
   </body>
 </html>

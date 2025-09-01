@@ -851,6 +851,16 @@ button:hover {
   letter-spacing: 1px;
 }
 
+.mobile-nav-button {
+  display: none;
+  border: none;
+  background-color: transparent;
+}
+
+.cross-icon {
+  display: none;
+}
+
 #header.scrolled {
   background-color: rgba(55, 67, 41, 0.85);
   left: 4em;
@@ -942,10 +952,6 @@ button:hover {
   #header {
     background-color: rgba(55, 67, 41, 0.85);
   }
-}
-
-.dropdown-item {
-  /* padding-left: 0; */
 }
 
 .dropdown-item:hover {

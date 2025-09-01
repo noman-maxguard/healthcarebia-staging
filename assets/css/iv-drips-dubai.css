@@ -32,8 +32,8 @@
 }
 
 .why-choose-items .item .icon {
-  height: 100px;
-  width: 100px;
+  height: 60px;
+  width: 60px;
 }
 
 .why-choose-items .item .icon img {
@@ -441,6 +441,10 @@
   justify-content: center;
   align-items: center;
   /* padding: 0 !important; */
+}
+
+.benefits-block h4 {
+  text-align: start;
 }
 
 .circle-arrow {

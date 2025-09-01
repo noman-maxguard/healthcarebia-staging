@@ -7,6 +7,9 @@ require("dotenv").config();
 // const multer = require("multer");
 // const upload = multer();
 
+router.get("/test", (req, res) => {
+  res.render("test");
+});
 router.get("/", (req, res) => {
   res.render("home");
 });

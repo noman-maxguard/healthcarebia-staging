@@ -112,13 +112,12 @@
         hamburgerButton.style.display = "block";
         crossButton.style.display = "none";
       });
-      document.querySelectorAll(".dropdown-block, .dropdown-toggle").forEach((trigger) => {
+      document.querySelectorAll(".dropdown-block").forEach((trigger) => {
         trigger.addEventListener("click", function (e) {
           e.preventDefault();
           const parent = this.closest(".dropdown");
           parent.classList.toggle("open");
 
-          // (optional) close others
           document.querySelectorAll(".dropdown.open").forEach((dd) => {
             if (dd !== parent) dd.classList.remove("open");
           });

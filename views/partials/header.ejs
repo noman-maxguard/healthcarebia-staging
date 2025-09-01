@@ -1,103 +1,65 @@
 <link rel="stylesheet" href="/assets/css/floating-block.css" />
-<nav class="navbar navbar-expand-lg sticky-top navbar-light" id="header">
-  <a class="navbar-brand" href="/">
-    <img
-      src="../../assets/img/logo.png"
-      alt="logo"
-      height="38px"
-      width="271px"
-      class="logo-desktop"
-    />
-    <img src="../../assets/icons/logo-mobile.svg" alt="logo" class="logo-mobile" />
-  </a>
-  <button
-    class="navbar-toggler"
-    type="button"
-    id="toggle"
-    data-bs-toggle="collapse"
-    data-bs-target="#navbarSupportedContent"
-    aria-controls="navbarSupportedContent"
-    aria-expanded="false"
-    aria-label="Toggle navigation"
-  >
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<nav class="navbar" id="header">
+  <div class="logo">
+    <a href="/"><img src="/assets/img/logo.png" alt="brand logo" /></a>
+    <button class="mobile-nav-button">
+      <img
+        src="/assets/icons/hamburger-icon.svg"
+        alt="hamburger icon"
+        height="30px"
+        class="hamburger-icon"
+      />
+      <img src="/assets/icons/cross-icon.svg" alt="close icon" height="40px" class="cross-icon" />
+    </button>
+  </div>
+  <div class="menu">
+    <a href="/">Home</a>
+    <a href="/about-us">About us</a>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ms-auto align-items-lg-center">
-      <li class="nav-item">
-        <a class="nav-link active" href="/">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/about-us">About us</a>
-      </li>
+    <!-- First dropdown -->
+    <div class="dropdown">
+      <div class="dropdown-block">
+        <a href="/iv-drip-dubai">IV & Wellness</a>
+        <img src="/assets/icons/down-arrow-white-without-bg.svg" alt="down arrow" height="30px" />
+      </div>
+      <div class="dropdown-items">
+        <a href="/nad-plus-drip">NAD+ Drip</a>
+        <a href="/post-party-drip">Post Party IV</a>
+        <a href="/gut-health-drip">Gut Health IV</a>
+        <a href="/good-sleep-drip">Good Sleep IV</a>
+        <a href="/energy-focus-drip">Energy & Focus IV</a>
+        <a href="/myers-drip">Myers Cocktail IV</a>
+        <a href="/immune-drip">Immune System Boost IV</a>
+        <a href="/oxygen-therapy">Oxygen Therapy</a>
+        <a href="/tele-consultation">Tele Consultation</a>
+        <a href="/nurse-at-home">Nurse At Home</a>
+      </div>
+    </div>
 
-      <!-- IV Drips -->
-      <li class="nav-item dropdown d-sm-flex align-items-center">
-        <a class="nav-link" href="/iv-drip-dubai">IV & WELLNESS</a>
-        <a
-          class="nav-link dropdown-toggle dropdown-toggle-split"
-          href="#"
-          role="button"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          <span class="visually-hidden">Toggle dropdown</span>
-        </a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="/nad-plus-drip">NAD+ Drip</a></li>
-          <li><a class="dropdown-item" href="/post-party-drip">Post Party IV</a></li>
-          <li><a class="dropdown-item" href="/gut-health-drip">Gut Health IV</a></li>
-          <li><a class="dropdown-item" href="/good-sleep-drip">Good Sleep IV</a></li>
-          <li><a class="dropdown-item" href="/energy-focus-drip">Energy & Focus IV</a></li>
-          <li><a class="dropdown-item" href="/myers-drip">Myers Cocktail IV</a></li>
-          <li><a class="dropdown-item" href="/immune-drip">Immune System Boost IV</a></li>
-          <li><a class="dropdown-item" href="/oxygen-therapy">Oxygen Therapy</a></li>
-          <li><a class="dropdown-item" href="/tele-consultation">Tele Consultation</a></li>
-          <li><a class="dropdown-item" href="/nurse-at-home">Nurse At Home</a></li>
-        </ul>
-      </li>
+    <!-- Second dropdown (now same structure as first) -->
+    <div class="dropdown">
+      <div class="dropdown-block">
+        <a href="/lab-test-at-home">Lab Test at Home</a>
+        <img src="/assets/icons/down-arrow-white-without-bg.svg" alt="down arrow" height="30px" />
+      </div>
+      <div class="dropdown-items">
+        <a href="/allergy-and-intolerance-test">Allergy Intolerance Test</a>
+        <a href="/common-and-functional-test">Common Test</a>
+        <a href="/blood-test">Custom Blood Test</a>
+        <a href="/dna-test">DNA Test</a>
+        <a href="/general-health-test">General Test</a>
+        <a href="/intimacy-and-wellness">Intimacy & Wellness</a>
+        <a href="/mens-health">Men’s Health</a>
+        <a href="/womens-health">Women’s Health</a>
+      </div>
+    </div>
 
-      <!-- Lab Tests -->
-      <li class="nav-item dropdown d-sm-flex align-items-center">
-        <a class="nav-link" href="/lab-test-at-home">Lab Test at home</a>
-        <a
-          class="nav-link dropdown-toggle dropdown-toggle-split"
-          href="#"
-          role="button"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          <span class="visually-hidden">Toggle dropdown</span>
-        </a>
-        <ul class="dropdown-menu">
-          <li>
-            <a class="dropdown-item" href="/allergy-and-intolerance-test"
-              >Allergy Intolerance Test</a
-            >
-          </li>
-          <li><a class="dropdown-item" href="/common-and-functional-test">Common Test</a></li>
-          <li><a class="dropdown-item" href="/blood-test">Custom Blood Test</a></li>
-          <li><a class="dropdown-item" href="/dna-test">DNA Test</a></li>
-          <li><a class="dropdown-item" href="/general-health-test">General Test</a></li>
-          <li><a class="dropdown-item" href="/intimacy-and-wellness">Intimacy & Wellness</a></li>
-          <li><a class="dropdown-item" href="/mens-health">Men’s Health</a></li>
-          <li><a class="dropdown-item" href="/womens-health">Women’s Health</a></li>
-        </ul>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="/blog">Blog</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/contact-us">Contact us</a>
-      </li>
-      <li class="nav-item">
-        <a href="https://wa.me/971547077476"
-          ><button class="btn book-now py-2 px-4 ms-lg-3 mt-2 mt-lg-0">Book now</button></a
-        >
-      </li>
-    </ul>
+    <a href="/blog">Blog</a>
+    <a href="/resources">Resources</a>
+    <a href="/contact-us">Contact us</a>
+    <a href="https://wa.me/971547077476" class="btn book-now">Book now</a>
   </div>
 </nav>
+
+<script src="/assets/js/navbar.js"></script>
 <%- include('floating-block.ejs') %>

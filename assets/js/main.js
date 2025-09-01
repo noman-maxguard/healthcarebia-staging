@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const nav = document.getElementById("header");
   if (!nav) return;
-  const dropDowns = document.querySelectorAll(".navbar-expand-lg .navbar-nav .dropdown-menu");
   const path = window.location.pathname.replace(/\/+$/, "");
   const isHome = path === "" || path === "/" || path === "/index.html";
 
@@ -10,22 +9,22 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   const applyScrollState = () => {
-    const isDesktop = window.innerWidth >= 992; // Bootstrap lg breakpoint
-    if (!isDesktop) {
-      // reset state on mobile
+    const isMobile = window.innerWidth <= 412;
+    if (isMobile) {
       nav.classList.remove("scrolled");
-      dropDowns.forEach((dd) => dd.classList.remove("scrolled"));
+      nav.classList.add("mobile-scrolled");
+      // dropDowns.forEach((dd) => dd.classList.remove("scrolled"));
       return;
     }
 
     const scrolled = window.scrollY > 50;
     nav.classList.toggle("scrolled", scrolled);
-    dropDowns.forEach((dd) => dd.classList.toggle("scrolled", scrolled));
+    // dropDowns.forEach((dd) => dd.classList.toggle("scrolled", scrolled));
   };
 
   applyScrollState();
   window.addEventListener("scroll", applyScrollState, { passive: true });
-  window.addEventListener("resize", applyScrollState); // re-check on resize
+  window.addEventListener("resize", applyScrollState);
 });
 
 const observer = new IntersectionObserver(

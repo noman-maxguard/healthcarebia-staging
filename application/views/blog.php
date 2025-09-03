@@ -50,19 +50,35 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
-  <a href="<?= base_url() ?>healthy-lifestyle-habits-for-busy-professionals-blog" class="card-style3 card-style4 same">
-    <img
-      src="<?= base_url() ?>assets/frontend/img/blog25.webp"
-      alt="Top 10 Healthy Lifestyle Habits for Busy Professionals"
-      class="img-fluid"
-      loading="lazy"
-      width="315"
-      height="213"
-    >
-    <h6>Top 10 Healthy Lifestyle Habits for Busy Professionals</h6>
-    <p>10 practical habits to boost energy, focus, and resilience, plus how IV therapy and at-home health services fit a busy schedule.</p>
-  </a>
-</div>
+                <a href="<?= base_url() ?>annual-health-checkups-what-tests-actually-matter-blog" class="card-style3 card-style4 same">
+                    <img
+                    src="<?= base_url() ?>assets/frontend/img/blog26.jpg"
+                    alt="Annual Health Checkups: What Tests Actually Matter"
+                    class="img-fluid"
+                    loading="lazy"
+                    width="315"
+                    height="213"
+                    >
+                    <h6>Annual Health Checkups: What Tests Actually Matter</h6>
+                    <p>Use this age-by-age roadmap to focus on the tests that matter and see when at-home labs with DHA-licensed nurses make life easier in Dubai.</p>
+                </a>
+            </div>
+            <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>healthy-lifestyle-habits-for-busy-professionals-blog" class="card-style3 card-style4 same">
+                    <img
+                    src="<?= base_url() ?>assets/frontend/img/blog25.webp"
+                    alt="Top 10 Healthy Lifestyle Habits for Busy Professionals"
+                    class="img-fluid"
+                    loading="lazy"
+                    width="315"
+                    height="213"
+                    >
+                    <h6>Top 10 Healthy Lifestyle Habits for Busy Professionals</h6>
+                    <p>10 practical habits to boost energy, focus, and resilience,  plus how IV therapy and at-home health services fit a busy schedule.</p>
+                </a>
+            </div>
+            
+
 
             <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>iv-drips-tourists-dubai-blog" class="card-style3 card-style4 same">

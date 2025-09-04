@@ -50,14 +50,27 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>vitamin-d-deficiency-dubai-blog" class="card-style3 card-style4 same">
+                    <img
+                    src="<?= base_url() ?>assets/frontend/img/blog27.png"
+                    alt="Vitamin D Deficiency in Dubai: Causes, Symptoms, and Treatment"
+                    class="img-fluid"
+                    loading="lazy"
+                    >
+                    <h6>Vitamin D Deficiency in Dubai: Causes, Symptoms, and Treatment</h6>
+                    <p>Despite year-round sunshine, up to 90% of UAE residents have low vitamin D. Learn causes, symptoms, testing options, and treatment plans tailored for Dubai.</p>
+                </a>
+            </div>
+
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>annual-health-checkups-what-tests-actually-matter-blog" class="card-style3 card-style4 same">
                     <img
                     src="<?= base_url() ?>assets/frontend/img/blog26.jpg"
                     alt="Annual Health Checkups: What Tests Actually Matter"
                     class="img-fluid"
                     loading="lazy"
-                    width="315"
-                    height="213"
+                    width:"315px"
+                    height:"213px"
                     >
                     <h6>Annual Health Checkups: What Tests Actually Matter</h6>
                     <p>Use this age-by-age roadmap to focus on the tests that matter and see when at-home labs with DHA-licensed nurses make life easier in Dubai.</p>
@@ -70,8 +83,8 @@
                     alt="Top 10 Healthy Lifestyle Habits for Busy Professionals"
                     class="img-fluid"
                     loading="lazy"
-                    width="315"
-                    height="213"
+                    width:"315px"
+                    height:"213px"
                     >
                     <h6>Top 10 Healthy Lifestyle Habits for Busy Professionals</h6>
                     <p>10 practical habits to boost energy, focus, and resilience,  plus how IV therapy and at-home health services fit a busy schedule.</p>
@@ -190,13 +203,13 @@
                     <p>Separate myth from fact—learn DHA regulations, safety tips, and what makes IV therapy safe and compliant in Dubai.</p>
                 </a>
             </div>
-            <div class="col-md-3 mb-3">
+            <!-- <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>vitamin-d-deficiency-blog" class="card-style3 card-style4 same">
                     <img src="<?= base_url() ?>assets/frontend/img/blog13.jpg" alt="Vitamin D Deficiency Dubai" class="img-fluid">
                     <h6>Vitamin D Deficiency in Dubai: Why Testing Matters</h6>
                     <p>Discover why vitamin D is low, even with Dubai sunshine. Learn the risks, symptoms, and book a quick home blood test today.</p>
                 </a>
-            </div>
+            </div> -->
             <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>athletic-performance-blog" class="card-style3 card-style4 same">
                     <img src="<?= base_url() ?>assets/frontend/img/blog12.jpg" alt="Athletic IV Drip Dubai" class="img-fluid">

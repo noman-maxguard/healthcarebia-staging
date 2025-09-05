@@ -50,6 +50,19 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>everyday-habits-weaken-immune-system-blog" class="card-style3 card-style4 same">
+                    <img
+                        src="<?= base_url() ?>assets/frontend/img/blog7.png"
+                        alt="Top 7 Everyday Habits That Weaken Your Immune System"
+                        class="img-fluid"
+                        loading="lazy"
+                    >
+                    <h6>Top 7 Everyday Habits That Weaken Your Immune System</h6>
+                    <p>Discover the daily habits that weaken immunity and learn practical fixes.</p>
+                </a>
+            </div>
+
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>vitamin-d-deficiency-dubai-blog" class="card-style3 card-style4 same">
                     <img
                     src="<?= base_url() ?>assets/frontend/img/blog27.png"
@@ -273,13 +286,13 @@
                         <p>Discover how the Myers Cocktail IV drip can boost energy, support immune health, and improve overall wellness.</p>
                     </a>
             </div>
-            <div class="col-md-3 mb-3">
+            <!-- <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>cold-flu-iv-therapy" class="card-style3 card-style4 same">
                     <img src="<?= base_url() ?>assets/frontend/img/blog7.png" alt="Cold & Flu IV Therapy" class="img-fluid">
                     <h6>Cold & Flu IV Therapy: Fast Relief and Immune Support</h6>
                     <p>Get rapid relief from cold and flu symptoms with our specialized IV therapy treatment that boosts immunity and rehydrates your body.</p>
                 </a>
-            </div>
+            </div> -->
             <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>iv-drip-home-service-dubai" class="card-style3 card-style4 same">
                     <img src="<?= base_url() ?>assets/frontend/img/blog8.png" alt="IV Drip Home Service Dubai" class="img-fluid">

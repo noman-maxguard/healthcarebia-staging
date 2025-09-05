@@ -11,14 +11,14 @@ $(document).ready(function () {
     touchThreshold: 10,
     responsive: [
       {
-        breakpoint: 1190,
+        breakpoint: 1360,
         settings: {
           slidesToShow: 2,
           centerMode: false,
         },
       },
       {
-        breakpoint: 720,
+        breakpoint: 880,
         settings: {
           slidesToShow: 1,
           centerMode: false,

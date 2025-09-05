@@ -16,6 +16,9 @@
   height: 100%;
   display: flex;
   flex-wrap: wrap;
+  padding: 1em 5em;
+  justify-content: center;
+  align-items: center;
 }
 
 .why-choose-items .item {
@@ -65,7 +68,6 @@
 .bullet-points {
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
 }
 
@@ -94,9 +96,13 @@
   height: 1em;
 }
 
+.what-is .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .what-is .image img {
-  height: 100%;
-  width: 100%;
   border-radius: 10px;
 }
 
@@ -177,20 +183,28 @@
 
 /* Post party drip */
 .post-party {
-  padding: 5em;
   padding-bottom: 0;
-  background: url('../img/hangover-background.png');
+  background-image: url('/assets/img/hangover-img.webp');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
 }
 
 .post-party h1 {
   font-weight: 500;
 }
 
+.title {
+  padding: 5em;
+  width: 50%;
+}
+
 .title p {
   font-style: italic;
-  /* transform: skew(-8deg); */
-  width: 60%
+  width: 90%;
 }
+
+.desc-box {}
 
 .desc-box img {
   flex: 1;
@@ -335,10 +349,6 @@
   text-align: center;
 }
 
-.why-choose-items {
-  margin-bottom: 2.5em;
-}
-
 .why-choose-items .row {
   padding: 0 4em;
   display: flex;
@@ -374,6 +384,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 0 !important;
 }
 
 .how-drip-works-left {
@@ -411,14 +422,7 @@
 .what-is-block {
   width: 100%;
   border-radius: 15px;
-  background-color: #d6d6d6;
   min-height: 200px;
-}
-
-.what-is-block img {
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  /* min-height: 500px; */
 }
 
 .what-is-block ul {
@@ -439,12 +443,41 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  background-color: #d6d6d6;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
   /* padding: 0 !important; */
 }
 
 .benefits-block h4 {
   text-align: start;
+}
+
+.what-is-block .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.what-is-block .row>img {
+  object-fit: cover;
+  max-height: 500px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.what-is-block .row>div {
+  max-height: 500px;
+}
+
+.benefits-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* fixed height */
+  background: #d6d6d6;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 40px;
 }
 
 .circle-arrow {
@@ -458,6 +491,24 @@
   align-items: center;
   font-size: 16px;
   cursor: pointer;
+}
+
+.home-service .row {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.home-service>.row>div:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0 !important;
+}
+
+.home-service>.row>div:nth-of-type(2) h1 {
+  padding: 0.8em 0 !important;
+  padding-top: 2em;
 }
 
 .reviews {}
@@ -478,4 +529,11 @@
 
 .review p {
   font-size: 18px;
+}
+
+.home-service-post-party .hangover-image {
+  background: url("../img/post-party-home-service.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }

@@ -10,12 +10,14 @@
   font-display: swap; */
 }
 
-/* variables */
+/* 
+variables */
 :root {
   --primary: #353f2a;
   --secondary: #4c583f;
   --green: #353f2a;
-  --heading: "Noto Serif Display", serif;
+  /* --heading: "Noto Serif Display", serif; */
+  --heading: "Times New Roman", serif;
   --body: 'Glacial Indifference', sans-serif;
   --form: #a6a6a6;
   --formText: #b4b4b4;
@@ -133,7 +135,7 @@ ol {
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 17px;
   color: #353f2a;
 }
 
@@ -165,7 +167,7 @@ button:hover {
   position: relative;
   display: flex;
   justify-content: start;
-  align-items: flex-end;
+  align-items: center;
   padding: 3.5em;
   padding-bottom: 3em;
 }
@@ -189,6 +191,12 @@ button:hover {
   color: white;
   font-size: 20px;
   font-style: italic;
+  width: 60%
+}
+
+.intro .buttons {
+  display: flex;
+  flex-direction: column;
 }
 
 .intro .buttons button {
@@ -222,27 +230,26 @@ button:hover {
   z-index: -1;
 }
 
-.about-us {
-  min-height: 100vh;
-  ;
-}
-
 .about-us-left {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  gap: 2em;
-  padding: 5em 7em;
+  gap: 1em;
+  padding: 60px 7em;
+  padding-right: 0;
 }
 
 .about-us-left h1 {
   color: var(--primary);
+  text-align: start;
 }
 
 .about-us-left p {
-  color: var(--secondary);
+  color: var(--primary);
   font-style: italic;
+  font-size: 17px;
+  text-align: start;
 }
 
 .about-us-left button {
@@ -350,7 +357,6 @@ button:hover {
   font-family: var(--heading);
   font-style: italic;
   margin: 2rem 0;
-  /* font-size: 52px; */
 }
 
 .carousel-control-prev,
@@ -382,7 +388,7 @@ button:hover {
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
-  padding: 5rem;
+  padding: 3rem 5em;
 }
 
 .testimonial-video-div {
@@ -411,7 +417,7 @@ button:hover {
   line-height: 1.5;
   color: var(--secondary);
   font-family: var(--body);
-  font-size: 18px;
+  font-size: 17px;
 }
 
 #prev,
@@ -601,6 +607,11 @@ button:hover {
   padding: 2em;
 }
 
+.services h1 {
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
 .services .private-healthcare {
   margin-top: 1em;
 }
@@ -612,12 +623,11 @@ button:hover {
 
 .services a {
   margin: 2em;
-  padding: 1.5rem;
 }
 
 .services .service-card {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -749,10 +759,10 @@ button:hover {
   font-family: var(--body);
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   padding: 2em;
   margin-bottom: 2em;
-  min-height: 400px;
+  min-height: 300px;
   border-radius: 30px;
   border: none;
 }
@@ -764,6 +774,7 @@ button:hover {
 
 .card p {
   color: var(--primary);
+  font-size: 17px;
 }
 
 .card .img {
@@ -841,7 +852,7 @@ button:hover {
   position: fixed;
   right: 2em;
   left: 2em;
-  top: 1em;
+  top: 1.2em;
   transition:
     background-color 0.5s ease,
     left 0.5s ease,
@@ -897,12 +908,13 @@ button:hover {
 .menu {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 24px;
 }
 
 .menu a {
   text-transform: uppercase;
   color: white;
+  font-size: 15px;
 }
 
 .dropdown {
@@ -956,7 +968,7 @@ button:hover {
   transition: transform 0.3s ease;
 }
 
-@media (hover: hover) and (min-width: 992px) {
+/* @media (hover: hover) and (min-width: 992px) {
 
   .dropdown:hover .dropdown-items,
   .dropdown-items:hover {
@@ -967,8 +979,7 @@ button:hover {
     transition: transform 0.5s ease;
     transform: rotate(180deg);
   }
-}
-
+} */
 .banner {
   height: 300px;
   width: 100%;
@@ -1066,8 +1077,9 @@ footer .second-row {
 
 .main-links,
 .drip-links,
-.test-links {
-  width: 20%;
+.test-links,
+.wellness-links {
+  width: 15%;
   padding: 1em;
   margin: 0;
   display: flex;
@@ -1342,6 +1354,10 @@ footer .second-row {
   flex-direction: column;
 }
 
+.faqs h1 {
+  margin: 30px 0 !important;
+}
+
 .accordion-item,
 .accordion-button,
 .accordion-header {
@@ -1394,21 +1410,13 @@ footer .second-row {
 }
 
 /* responsiveness */
-@media(max-width:576px) {}
+/* @media(max-width:576px) {}
 
 @media(max-width: 991px) {
   .about-us-left {
     justify-content: center;
     align-items: center;
-  }
-
-  .about-us-left h1,
-  .about-us-left p {
-    text-align: center;
-    color: var(--primary)
-  }
-}
-
+  } */
 .navbar .navbar-toggler {
   border: none;
   padding: 0;
@@ -1418,9 +1426,8 @@ footer .second-row {
 .home-service {
   background: url(/assets/img/home-service-background.jpg);
   background-size: cover;
-  ;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: top right;
 }
 
 .home-service h1 {
@@ -1432,7 +1439,7 @@ footer .second-row {
 }
 
 .home-service button {
-  padding: 5px 16px;
+  padding: 10px 20px;
   color: white;
   background-color: var(--primary);
   border-radius: 20px;
@@ -1444,12 +1451,6 @@ footer .second-row {
   border: 1px solid var(--primary);
   color: var(--primary);
   background-color: transparent;
-}
-
-.home-service-post-party .hangover-image {
-  background: url("../img/post-party-home-service-image.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 /* Terms and conditons

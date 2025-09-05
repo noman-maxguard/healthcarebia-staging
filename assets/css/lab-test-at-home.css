@@ -28,8 +28,9 @@
   height: 500px;
   background-color: white;
   display: flex;
-  justify-content: start;
+  justify-content: start !important;
   border: 1px solid rgb(237, 237, 237);
+  padding: 2em !important;
 }
 
 .home-diagnostics .test-link .test-box:hover {
@@ -118,11 +119,11 @@
 }
 
 .test-details h1 {
-  margin: 1em 0;
+  margin: 0.8em 0;
 }
 
 .test-details p {
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
 }
 
 .test-details ul {
@@ -134,7 +135,6 @@
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
-  max-height: 1000px;
   gap: 50px;
 }
 
@@ -175,7 +175,7 @@
 .test-details ul {
   display: flex;
   flex-direction: column;
-  gap: 1.5em;
+  gap: 1em;
   font-size: 18px;
   color: var(--primary);
 }

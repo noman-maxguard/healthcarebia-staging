@@ -1,5 +1,10 @@
 /* Small devices and up*/
 @media (max-width: 577px) {
+  .fab-btn {
+    height: 50px !important;
+    width: 50px !important;
+  }
+
   .card {
     margin: 20px !important;
   }
@@ -23,6 +28,22 @@
   }
 
   /* about us */
+  .about-hca .row-one {
+    padding-bottom: 0 !important;
+  }
+
+  .title h1 {
+    text-align: center;
+  }
+
+  .desc {
+    text-align: center;
+  }
+
+  .discover-btn {
+    margin-bottom: 1em;
+  }
+
   .about-hca .row-one h1 {
     padding: 0 !important;
   }
@@ -36,9 +57,18 @@
     display: none !important;
   }
 
+  .mission,
+  .vision {
+    max-width: 100% !important;
+  }
+
   .mission p,
   .vision p {
     width: 100% !important;
+  }
+
+  .vision-and-mission .image {
+    justify-content: center !important;
   }
 
   .philosophy h1,
@@ -105,6 +135,7 @@
   .contact-block h1 {
     padding-left: 0;
     text-align: center;
+    margin-top: 40px;
   }
 
   /* .contact-block form .row div {
@@ -171,6 +202,11 @@
     text-align: center
   }
 
+  .test-link {
+    padding: 20px 1em !important;
+    height: 600px !important;
+  }
+
   /* footer */
   .brand,
   .rating,
@@ -187,7 +223,8 @@
   }
 
   footer .second-row {
-    padding: 0 0 2em 0;
+    padding: 4em 2em 1em 2em;
+    padding-top: 0;
   }
 
   .govt-logos {
@@ -215,22 +252,24 @@
 
   .main-links,
   .drip-links,
-  .test-links {
-    width: 100%;
+  .test-links,
+  .wellness-links {
+    width: 50%;
     padding: 1em;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
   }
 
   .main-links ul,
   .drip-links ul,
-  .test-links ul {
+  .test-links ul,
+  .wellness-links ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
   }
 
   .ebook-block {
@@ -241,7 +280,7 @@
   }
 
   .ebook-form {
-    width: 60%;
+    width: 100%;
   }
 
   .ebook-form form .form-input {
@@ -272,6 +311,19 @@
     justify-content: center;
   }
 
+  .google-reviews,
+  .google-review {
+    width: 100%;
+  }
+
+  .google-review {
+    padding: 1em
+  }
+
+  .why-choose-us-one {
+    margin: 0 !important;
+  }
+
   .why-choose-us .two div img {
     display: none;
   }
@@ -288,13 +340,14 @@
     padding: 1em;
   }
 
-  .services p {
-    padding: 0 2em;
-  }
-
   .services a {
     margin: 0;
     padding: 0;
+  }
+
+  .services .service-card {
+    width: 300px;
+    height: 300px;
   }
 
   .intro p {
@@ -323,11 +376,33 @@
     padding: 0 0.5em;
   }
 
-  .why-choose-items .item {
+  .why-choose-items {
+    padding: 1em !important;
+  }
+
+  .why-choose-item {
     flex-direction: column;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .why-choose-text {
+    text-align: center;
   }
 
   .what-is h1 {
+    text-align: center;
+  }
+
+  .what-is .bullet-points ul {
+    padding: 0 3em;
+  }
+
+  .benefits-of-iv-list li {
+    flex-direction: column !important;
+  }
+
+  .benefits-of-iv-list li p {
     text-align: center;
   }
 
@@ -335,21 +410,36 @@
     text-align: center;
   }
 
+  .what-is .image {
+    padding: 0 !important;
+    padding-bottom: 1em !important;
+  }
+
   .professional {
     padding: 1em;
   }
 
   .post-party {
-    padding: 5em 2em !important;
-    padding-bottom: 0 !important;
+    background-image: none !important;
+  }
+
+  .title {
+    padding: 1em !important;
+    width: 100% !important;
+    text-align: center !important;
+    align-items: center;
+  }
+
+  .post-party .title h1 {
+    margin-top: 30px;
   }
 
   .title p {
-    width: 100% !important;
+    width: 90% !important;
   }
 
   .symptoms-and-benefits {
-    padding: 3em 2em !important;
+    padding: 1em 2em 0 2em !important;
   }
 
   .symptom-box {
@@ -361,20 +451,51 @@
   }
 
   .ingredients {
-    padding: 3em 2em !important;
+    padding: 3em 2em 0 2em !important;
+  }
+
+  .ingredients h1 {
+    text-align: center;
+  }
+
+  .ingredient-list {
+    padding: 1em !important;
   }
 
   .hangover-drip-img {
-    padding-top: 0 !important;
-    max-height: 600px !important;
+    display: none !important;
+  }
+
+  .home-service-post-party>.row>div:nth-of-type(2) {
+    padding: 0 3em !important;
+    text-align: center !important;
   }
 
   .how-drip-works-left {
     padding: 2em 3em !important;
+    text-align: center !important;
+    align-items: center !important;
+  }
+
+  .how-drip-works-left h1 {
+    margin: 20px 0 30px 0 !important;
   }
 
   .what-is-drip-section {
     padding: 0 2em !important;
+  }
+
+  .what-is-drip-section p,
+  .what-is-drip-section h1 {
+    margin: 1em 0 !important;
+  }
+
+  .home-service {
+    text-align: center !important;
+  }
+
+  .home-service p {
+    padding-bottom: 1em !important;
   }
 
   /* ensure positioning context */
@@ -427,6 +548,33 @@
 
   .mobile-nav-button img {
     height: 26px;
+  }
+
+  .what-is-drip-section {
+    padding: 0 2em !important;
+  }
+
+  .what-is-block .row>div {
+    max-height: none !important;
+  }
+
+  .drip-page-image {
+    display: none !important;
+  }
+
+  .what-is-drip-section .what-is-block .benefits-block {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 20px !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 20px !important;
+    padding: 20px !important;
+  }
+
+  .what-is-drip-section .what-is-block .row>img {
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 0 !important;
   }
 }
 
@@ -539,6 +687,7 @@
   .main-links,
   .drip-links,
   .test-links,
+  .wellness-links,
   .ebook-block {
     width: 40%;
     padding: 1em 0;
@@ -549,7 +698,8 @@
 
   .main-links ul,
   .drip-links ul,
-  .test-links ul {
+  .test-links ul,
+  .wellness-links ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -661,6 +811,17 @@
     padding: 2em 3em !important;
   }
 
+  .how-drip-works-right {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding-right: 1em;
+  }
+
+  .how-drip-works-right img {
+    height: auto;
+  }
+
   /* contact us */
   .contact form select {
     width: 100%;
@@ -702,6 +863,7 @@
   .main-links,
   .drip-links,
   .test-links,
+  .wellness-links,
   .ebook-block {
     width: 40%;
     padding: 1em 0;
@@ -780,6 +942,47 @@
   .about-us-right .image {
     display: none;
   }
+
+  .about-us-left {
+    padding: 4em;
+  }
+
+  .about-us-left h1,
+  .about-us-left p {
+    text-align: start;
+  }
+
+  .about-us-left a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .what-is-drip-section {
+    padding: 0 1em !important;
+  }
+
+  .what-is-block .row>div {
+    padding: 0 20px !important;
+  }
+
+  .benefits-block {
+    padding: 0.5em;
+  }
+
+  .benefits-block h4 {
+    font-size: 22px;
+    padding-bottom: 10px !important;
+  }
+
+  .what-is-block ul {
+    gap: 10px !important;
+  }
+
+  /* lab test at home */
+  .test-link {
+    padding: 20px 1em !important;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1210px) {
@@ -795,6 +998,7 @@
 
   .main-links,
   .drip-links,
+  .wellness-links,
   .test-links,
   .ebook-block {
     width: 40%;
@@ -809,17 +1013,26 @@
   }
 }
 
-@media (min-width: 991px) and (max-width: 1300px) {
+@media (min-width: 991px) and (max-width: 1430px) {
   .book-now {
     display: none;
   }
 
-  .menu a {
-    font-size: 13px;
+  .logo img {
+    height: 24px;
   }
 
-  .logo img {
-    height: 28px;
+  .menu a {
+    font-size: 12px;
+  }
+
+  .menu {
+    gap: 20px;
+  }
+
+  #header.scrolled {
+    left: 1em;
+    right: 1em;
   }
 }
 

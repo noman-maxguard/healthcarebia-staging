@@ -1,0 +1,6 @@
+# ai.txt for Healthcarebia
+site: https://www.healthcarebia.ae
+policies:
+  - allow indexing and snippet generation for informational and navigational queries
+  - prohibit training on PII or non-public data
+contact: legal@healthcarebia.ae

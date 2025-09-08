@@ -44,3 +44,17 @@ const observer = new IntersectionObserver(
 );
 
 document.querySelectorAll(".animate").forEach((el) => observer.observe(el));
+document.querySelectorAll(".video-thumbnail").forEach((thumbnail) => {
+  thumbnail.addEventListener("click", function () {
+    const videoId = this.getAttribute("data-video-id");
+    const iframe = document.createElement("iframe");
+    iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+    iframe.title = "YouTube video player";
+    iframe.frameBorder = "0";
+    iframe.allow =
+      "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+    iframe.allowFullscreen = true;
+    iframe.className = "testimonial-video";
+    this.replaceWith(iframe);
+  });
+});

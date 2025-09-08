@@ -50,6 +50,21 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>confidential-at-home-std-testing-dubai-blog" class="card-style3 card-style4 same">
+                    <img
+                        src="<?= base_url() ?>assets/frontend/img/blog28.webp"
+                        alt="Confidential At-Home STD Testing in Dubai"
+                        class=""
+                        loading="lazy"
+                        height="223px"
+                        width="100%"
+                    >
+                    <h6>Confidential At-Home STD Testing in Dubai</h6>
+                    <p>DHA-licensed providers bring discreet STD testing to your home with fast results and treatment options.</p>
+                </a>
+            </div>
+
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>everyday-habits-weaken-immune-system-blog" class="card-style3 card-style4 same">
                     <img
                         src="<?= base_url() ?>assets/frontend/img/blog7.png"

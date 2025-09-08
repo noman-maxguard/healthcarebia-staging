@@ -1,13 +1,15 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap'); */
 @font-face {
   font-family: 'Glacial Indifference';
-  src: url('../fonts/GlacialIndifference-Regular.otf');
+  src: url('/assets/fonts/GlacialIndifference-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
   font-display: swap;
-  /* format('woff2'),
-    url('../fonts/GlacialIndifference-Regular.otf') format('woff');
-  font-display: swap; */
+  /* size-adjust: 102%;
+  ascent-override: 90%;
+  descent-override: 22%;
+  line-gap-override: 0%; */
 }
 
 /* 

@@ -30,28 +30,15 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://healthcarebia.ae/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Allergy & Food Intolerance Tests",
-      "item": "https://healthcarebia.ae/allergy-food-intolerance-tests"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Food Intolerance - Extended (200+ foods)",
-      "item": "https://healthcarebia.ae/food-intolerance-extended"
-    }
-  ]
+  "@context":"https://schema.org",
+  "@type":"MedicalTest",
+  "name":"Food Intolerance - Extended (200+ foods)",
+  "description":"Extended food intolerance panel covering 200+ foods.",
+  "url":"https://www.healthcarebia.ae/food-intolerance-extended",
+  "isAccessibleForFree": false,
+  "availableService": { "@type":"Service", "areaServed": { "@type":"City", "name":"Dubai" } },
+  "offers": { "@type":"Offer", "priceCurrency":"AED", "url":"https://www.healthcarebia.ae/food-intolerance-extended" },
+  "provider": { "@type":"MedicalOrganization", "name":"Healthcarebia", "url":"https://www.healthcarebia.ae" }
 }
 </script>
 

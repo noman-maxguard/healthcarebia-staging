@@ -3,31 +3,17 @@
 <html lang="en">
 
 <head>
-    <script type="application/ld+json">
+<script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "DNA Testing at Home",
-  "serviceType": "Home DNA Testing",
-  "description": "Accurate and confidential DNA testing services conducted at home in Dubai by licensed healthcare professionals. Fast results with privacy and convenience.",
-  "url": "https://healthcarebia.ae/dna-test",
-  "provider": {
-    "@type": "MedicalOrganization",
-    "name": "Healthcarebia",
-    "url": "https://healthcarebia.ae",
-    "@id": "https://healthcarebia.ae/#medicalorganization"
-  },
-  "areaServed": {
-    "@type": "Place",
-    "name": "Dubai, United Arab Emirates"
-  },
-  "availableChannel": {
-    "@type": "ServiceChannel",
-    "serviceLocation": {
-      "@type": "Place",
-      "name": "At-Home and Hotel Services in Dubai"
-    }
-  }
+  "@context":"https://schema.org",
+  "@type":"MedicalTest",
+  "name":"DNA Test",
+  "description":"At-home DNA test providing genetic health insights.",
+  "url":"https://www.healthcarebia.ae/dna-test",
+  "isAccessibleForFree": false,
+  "availableService": { "@type":"Service", "areaServed": { "@type":"City", "name":"Dubai" } },
+  "offers": { "@type":"Offer", "priceCurrency":"AED", "url":"https://www.healthcarebia.ae/dna-test" },
+  "provider": { "@type":"MedicalOrganization", "name":"Healthcarebia", "url":"https://www.healthcarebia.ae" }
 }
 </script>
 

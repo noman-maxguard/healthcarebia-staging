@@ -5,26 +5,15 @@
 <head>
     <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Common and Functional Tests at Home",
-  "serviceType": "Home Medical Diagnostics",
-  "description": "Book home collection for functional diagnostic profiles including Cardiac Risk, Immunity, Diabetes, Kidney, Liver and Arthritis screening. DHA-licensed nurses ensure convenience and accuracy in Dubai.",
-  "url": "https://healthcarebia.ae/common-functional-tests",
-  "provider": {
-    "@id": "https://healthcarebia.ae/#medicalorganization"
-  },
-  "areaServed": {
-    "@type": "Place",
-    "name": "Dubai, United Arab Emirates"
-  },
-  "availableChannel": {
-    "@type": "ServiceChannel",
-    "serviceLocation": {
-      "@type": "Place",
-      "name": "At-Home and Hotel Services in Dubai"
-    }
-  }
+  "@context":"https://schema.org",
+  "@type":"MedicalTest",
+  "name":"Kidney Profile",
+  "description":"Renal function panel assessing creatinine, eGFR, and related markers.",
+  "url":"https://www.healthcarebia.ae/kidney-profile",
+  "isAccessibleForFree": false,
+  "availableService": { "@type":"Service", "areaServed": { "@type":"City", "name":"Dubai" } },
+  "offers": { "@type":"Offer", "priceCurrency":"AED", "url":"https://www.healthcarebia.ae/kidney-profile" },
+  "provider": { "@type":"MedicalOrganization", "name":"Healthcarebia", "url":"https://www.healthcarebia.ae" }
 }
 </script>
 

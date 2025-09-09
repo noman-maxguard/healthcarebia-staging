@@ -80,17 +80,18 @@
     </script>
 
     <script type="application/ld+json">
-    {
-    "@context": "https://schema.org",
-    "@type": "MedicalProcedure",
-    "name": "NAD+ IV Drip Therapy",
-    "description": "NAD+ IV therapy delivers Nicotinamide Adenine Dinucleotide directly into the bloodstream to enhance cellular energy, improve cognitive performance, support anti-aging, and aid metabolic repair.",
-    "recognizingAuthority": {
-        "@type": "Organization",
-        "name": "Dubai Health Authority (DHA)"
-    },
-    "preparation": "No special preparation required. Sessions may take between 2 to 4 hours."
-    }
+        {
+        "@context":"https://schema.org",
+        "@type":"Service",
+        "name":"NAD+ IV Drip",
+        "description":"Private in-residence NAD+ infusion supporting cellular energy, DNA repair, and cognitive clarity.",
+        "serviceType":"IV therapy",
+        "url":"https://www.healthcarebia.ae/iv-drip-dubai#nad",
+        "areaServed": { "@type":"City", "name":"Dubai" },
+        "provider": { "@type":"MedicalOrganization", "name":"Healthcarebia", "url":"https://www.healthcarebia.ae" },
+        "timeRequired": "PT90M",
+        "offers":{ "@type":"Offer", "priceCurrency":"AED", "price":"1900", "availability":"https://schema.org/InStock", "url":"https://www.healthcarebia.ae/iv-drip-dubai#nad" }
+        }
     </script>
 
 

@@ -6,29 +6,18 @@
 
     <?php include 'includes/inc_head_tag.php'; ?>
     <script type="application/ld+json">
-        {
-        "@context": "https://schema.org",
-        "@type": "Service",
-        "name": "Women's Health Screening at Home",
-        "serviceType": "Home Medical Diagnostics",
-        "description": "Convenient and private home diagnostic packages for women, including fertility, hormone, thyroid, PCOS and cancer screening profiles by DHA-licensed professionals in Dubai.",
-        "url": "https://healthcarebia.ae/womens-health",
-        "provider": {
-            "@id": "https://healthcarebia.ae/#medicalorganization"
-        },
-        "areaServed": {
-            "@type": "Place",
-            "name": "Dubai, United Arab Emirates"
-        },
-        "availableChannel": {
-            "@type": "ServiceChannel",
-            "serviceLocation": {
-            "@type": "Place",
-            "name": "At-Home and Hotel Services in Dubai"
-            }
-        }
-        }
-    </script>
+{
+  "@context":"https://schema.org",
+  "@type":"MedicalTest",
+  "name":"Female Cancer Screening",
+  "description":"At-home screening panel assessing key female cancer markers with licensed nurse sample collection.",
+  "url":"https://www.healthcarebia.ae/female-cancer-screening",
+  "isAccessibleForFree": false,
+  "availableService": { "@type":"Service", "areaServed": { "@type":"City", "name":"Dubai" } },
+  "offers": { "@type":"Offer", "priceCurrency":"AED", "url":"https://www.healthcarebia.ae/female-cancer-screening" },
+  "provider": { "@type":"MedicalOrganization", "name":"Healthcarebia", "url":"https://www.healthcarebia.ae" }
+}
+</script>
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",

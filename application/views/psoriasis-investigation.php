@@ -28,28 +28,15 @@
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://healthcarebia.ae/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "General Health",
-      "item": "https://healthcarebia.ae/general-health"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Psoriasis Investigation",
-      "item": "https://healthcarebia.ae/psoriasis-investigation"
-    }
-  ]
+  "@context":"https://schema.org",
+  "@type":"MedicalTest",
+  "name":"Psoriasis Investigation",
+  "description":"Blood test panel supporting assessment of psoriasis-related inflammation and triggers.",
+  "url":"https://www.healthcarebia.ae/psoriasis-investigation",
+  "isAccessibleForFree": false,
+  "availableService": { "@type":"Service", "areaServed": { "@type":"City", "name":"Dubai" } },
+  "offers": { "@type":"Offer", "priceCurrency":"AED", "url":"https://www.healthcarebia.ae/psoriasis-investigation" },
+  "provider": { "@type":"MedicalOrganization", "name":"Healthcarebia", "url":"https://www.healthcarebia.ae" }
 }
 </script>
 

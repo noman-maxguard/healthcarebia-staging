@@ -5,29 +5,15 @@
 <head>
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "@id": "https://www.healthcarebia.ae/#breadcrumbs",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://www.healthcarebia.ae/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Allergy & Food Intolerance Tests",
-      "item": "https://www.healthcarebia.ae/allergy-test-general"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Acne Investigation",
-      "item": "https://www.healthcarebia.ae/acne-investigation-allergy"
-    }
-  ]
+  "@context":"https://schema.org",
+  "@type":"MedicalTest",
+  "name":"Acne Investigation Allergy",
+  "description":"Allergy investigation for acne-related triggers with at-home sampling.",
+  "url":"https://www.healthcarebia.ae/acne-investigation-allergy",
+  "isAccessibleForFree": false,
+  "availableService": { "@type":"Service", "areaServed": { "@type":"City", "name":"Dubai" } },
+  "offers": { "@type":"Offer", "priceCurrency":"AED", "url":"https://www.healthcarebia.ae/acne-investigation-allergy" },
+  "provider": { "@type":"MedicalOrganization", "name":"Healthcarebia", "url":"https://www.healthcarebia.ae" }
 }
 </script>
 

@@ -70,93 +70,139 @@ src="https://www.facebook.com/tr?id=1280000576857900&ev=PageView&noscript=1"
 </script>
 
 <!-- JSON LD CODE -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Blog",
-  "@id": "https://healthcarebia.ae/blog#blog",
-  "name": "Healthcarebia Blog",
-  "url": "https://healthcarebia.ae/blog",
-  "description": "Expert insights and articles on health testing, IV therapy, wellness, and medical diagnostics in Dubai — powered by DHA-licensed professionals at Healthcarebia.",
-  "publisher": {
-    "@type": "Organization",
-    "@id": "https://healthcarebia.ae/#medicalbusiness",
-    "name": "Healthcarebia",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://healthcarebia.ae/assets/frontend/img/logo.webp"
-    }
-  }
-}
-</script>
 
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": ["Organization","MedicalOrganization","ProfessionalService"],
-      "@id": "https://healthcarebia.ae/#organization",
-      "name": "Healthcare",
-      "url": "https://healthcarebia.ae",
-      "logo": "https://healthcarebia.ae/assets/frontend/img/logo.webp",
-      "image": "https://healthcarebia.ae/assets/frontend/img/logo.webp", 
-      "telephone": "+971547077476",
-      "parentOrganization": {
-        "@type": "Organization",
-        "name": "MMZHoldings",
-        "url": "https://mmzholdings.com/"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "91 Sheikh Zayed Rd – Trade Centre – DIFC",
-        "addressLocality": "Dubai",
-        "addressRegion": "Dubai",
-        "postalCode": "00000",
-        "addressCountry": "AE"
-      },
-      "areaServed": {
-        "@type": "Country",
-        "name": "United Arab Emirates"
-      },
-      "sameAs": [
-        "https://www.facebook.com/healthcarebia",
-        "https://www.linkedin.com/company/healthcarebia",
-        "https://www.instagram.com/healthcarebia",
-        "https://goo.gl/maps/abcdefghijkl"
-      ],
-      "contactPoint": [{
-        "@type": "ContactPoint",
-        "telephone": "+971547077476",
-        "contactType": "customer service",
-        "areaServed": "AE",
-        "availableLanguage": ["English","Arabic"]
-      }],
-      "priceRange": "$$$",
-      "identifier": {
-        "@type": "PropertyValue",
-        "propertyID": "DHA License Number",
-        "value": "DHA1129341"
-      },
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Dubai Health Authority",
-        "url": "https://www.dha.gov.ae"
-      }
+  {
+    "@context": "https://schema.org",
+    "@type": [
+      "Organization",
+      "MedicalBusiness",
+      "LocalBusiness"
+    ],
+    "name": "Healthcare",
+    "url": "https://healthcarebia.ae",
+    "logo": "https://healthcarebia.ae/assets/frontend/img/logo.webp",
+    "image": "https://healthcarebia.ae/assets/frontend/img/logo.webp",
+    "telephone": "+971547077476",
+    "email": "care@healthcarebia.ae",
+    "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "91 Sheikh Zayed Rd – Trade Centre – DIFC",
+          "addressLocality": "Dubai",
+          "addressRegion": "Dubai",
+          "postalCode": "00000",
+          "addressCountry": "AE"
+        },
+    "areaServed": {
+      "@type": "City",
+      "name": "Dubai"
     },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://healthcarebia.ae/#breadcrumbs",
-      "itemListElement": [{
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://healthcarebia.ae/"
-      }]
+    "priceRange": "$$$",
+
+    "sameAs": [
+      "https://www.facebook.com/healthcarebia",
+      "https://www.linkedin.com/company/healthcarebia",
+      "https://www.instagram.com/healthcarebia",
+      "https://goo.gl/maps/abcdefghijkl"
+    ],
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "telephone": "+971547077476",
+        "areaServed": "AE",
+        "availableLanguage": [
+          "English",
+          "Arabic"
+        ]
+      }
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Healthcarebia Services",
+      "itemListElement": [
+        {
+          "@type": "OfferCatalog",
+          "name": "IV Therapy",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "NAD+ IV Drip",
+                "url": "https://www.healthcarebia.ae/iv-drip-dubai#nad"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Myer’s Cocktail IV",
+                "url": "https://www.healthcarebia.ae/iv-drip-dubai#myers"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Immune Boost IV",
+                "url": "https://www.healthcarebia.ae/iv-drip-dubai#immune"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "OfferCatalog",
+          "name": "Lab Testing at Home",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "STD Panels",
+                "url": "https://www.healthcarebia.ae/std-testing"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "MedicalTest",
+                "name": "Female Hormone Profile",
+                "url": "https://www.healthcarebia.ae/female-hormone-profile"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Custom Blood Test",
+                "url": "https://www.healthcarebia.ae/custom-blood-test"
+              }
+            }
+          ]
+        }
+      ]
     }
-  ]
-}
+  }
 </script>
+
+
 
  
 

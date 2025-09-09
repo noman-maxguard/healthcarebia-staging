@@ -3,28 +3,17 @@
 <html lang="en">
 
 <head>
-    <script type="application/ld+json">
+   <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "The Myers Cocktail IV Drip: A Powerful Vitamin Infusion for Energy & Wellness",
-  "description": "Discover the benefits of the Myers Cocktail IV Drip — a potent blend of vitamins and minerals for energy, immunity, and overall wellness. Learn how this popular IV therapy supports fatigue, stress, muscle cramps, and nutrient absorption.",
-  "url": "https://healthcarebia.ae/the-myers-cocktail-iv-drip",
-  "mainEntityOfPage": "https://healthcarebia.ae/the-myers-cocktail-iv-drip",
-  "datePublished": "2025-07-31",
-  "author": {
-    "@type": "Organization",
-    "name": "Healthcarebia",
-    "url": "https://healthcarebia.ae"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Healthcarebia",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://healthcarebia.ae/assets/frontend/img/logo.webp"
-    }
-  }
+  "@context":"https://schema.org",
+  "@type":"MedicalTest",
+  "name":"Thyroid Profile",
+  "description":"Comprehensive at-home thyroid function panel (TSH, T3, T4) for metabolism and energy.",
+  "url":"https://www.healthcarebia.ae/thyroid-profile",
+  "isAccessibleForFree": false,
+  "availableService": { "@type":"Service", "areaServed": { "@type":"City", "name":"Dubai" } },
+  "offers": { "@type":"Offer", "priceCurrency":"AED", "url":"https://www.healthcarebia.ae/thyroid-profile" },
+  "provider": { "@type":"MedicalOrganization", "name":"Healthcarebia", "url":"https://www.healthcarebia.ae" }
 }
 </script>
 

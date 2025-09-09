@@ -3,28 +3,16 @@
 <html lang="en">
 
 <head>
-<!-- Service (non-rich result but semantically correct) -->
-<script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "@id": "https://www.healthcarebia.ae/allergy-food-intolerance-tests#service",
-  "name": "Allergy & Food Intolerance Testing at Home",
-  "serviceType": "Home allergy and food-intolerance testing",
-  "description": "Comprehensive at-home allergy and food-intolerance testing in Dubai, including acne-related allergy investigations and extended intolerance panels. Samples collected by DHA-licensed healthcare professionals.",
-  "url": "https://www.healthcarebia.ae/allergy-food-intolerance-tests",
-  "provider": { "@id": "https://www.healthcarebia.ae/#organization" },
-  "areaServed": {
-    "@type": "City",
-    "name": "Dubai"
-  },
-  "availableChannel": {
-    "@type": "ServiceChannel",
-    "serviceLocation": {
-      "@type": "Place",
-      "name": "At-home and hotel locations within Dubai"
-    }
-  }
+  "@context":"https://schema.org",
+  "@type":"MedicalTest",
+  "name":"Allergy Test - General (40+ Food Intolerance and Respiratory)",
+  "description":"General allergy screen covering 40+ food intolerance and respiratory allergens.",
+  "url":"https://www.healthcarebia.ae/allergy-test-general",
+  "isAccessibleForFree": false,
+  "availableService": { "@type":"Service", "areaServed": { "@type":"City", "name":"Dubai" } },
+  "offers": { "@type":"Offer", "priceCurrency":"AED", "url":"https://www.healthcarebia.ae/allergy-test-general" },
+  "provider": { "@type":"MedicalOrganization", "name":"Healthcarebia", "url":"https://www.healthcarebia.ae" }
 }
 </script>
 

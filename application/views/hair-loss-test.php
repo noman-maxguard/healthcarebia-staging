@@ -3,28 +3,15 @@
 <head>
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://healthcarebia.ae/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "General Health",
-      "item": "https://healthcarebia.ae/general-health"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Hair Loss Test",
-      "item": "https://healthcarebia.ae/hair-loss-test"
-    }
-  ]
+  "@context":"https://schema.org",
+  "@type":"MedicalTest",
+  "name":"Hair Loss Test",
+  "description":"Comprehensive blood panel assessing common contributors to hair loss.",
+  "url":"https://www.healthcarebia.ae/hair-loss-test",
+  "isAccessibleForFree": false,
+  "availableService": { "@type":"Service", "areaServed": { "@type":"City", "name":"Dubai" } },
+  "offers": { "@type":"Offer", "priceCurrency":"AED", "url":"https://www.healthcarebia.ae/hair-loss-test" },
+  "provider": { "@type":"MedicalOrganization", "name":"Healthcarebia", "url":"https://www.healthcarebia.ae" }
 }
 </script>
 

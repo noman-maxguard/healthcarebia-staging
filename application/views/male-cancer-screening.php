@@ -5,28 +5,18 @@
 <head>
     <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Men's Health Screening at Home",
-  "serviceType": "Home Medical Diagnostics",
-  "description": "Confidential and convenient health screening for men at home in Dubai, including fertility, weight loss, cancer screening, and advanced health profiles by DHA-licensed professionals.",
-  "url": "https://healthcarebia.ae/mens-health",
-  "provider": {
-    "@id": "https://healthcarebia.ae/#medicalorganization"
-  },
-  "areaServed": {
-    "@type": "Place",
-    "name": "Dubai, United Arab Emirates"
-  },
-  "availableChannel": {
-    "@type": "ServiceChannel",
-    "serviceLocation": {
-      "@type": "Place",
-      "name": "At-Home and Hotel Services in Dubai"
-    }
-  }
+  "@context":"https://schema.org",
+  "@type":"MedicalTest",
+  "name":"Male Cancer Screening",
+  "description":"At-home screening panel assessing key male cancer markers.",
+  "url":"https://www.healthcarebia.ae/male-cancer-screening",
+  "isAccessibleForFree": false,
+  "availableService": { "@type":"Service", "areaServed": { "@type":"City", "name":"Dubai" } },
+  "offers": { "@type":"Offer", "priceCurrency":"AED", "url":"https://www.healthcarebia.ae/male-cancer-screening" },
+  "provider": { "@type":"MedicalOrganization", "name":"Healthcarebia", "url":"https://www.healthcarebia.ae" }
 }
 </script>
+
 
     <script type="application/ld+json">
 {

@@ -3,31 +3,17 @@
 <html lang="en">
 
 <head>
-    <script type="application/ld+json">
+<script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "Custom Blood Test at Home",
-  "serviceType": "Home Blood Testing",
-  "description": "Personalized blood testing services for men at home in Dubai. DHA-licensed professionals provide comprehensive, accurate, and confidential blood tests tailored to your health needs.",
-  "url": "https://healthcarebia.ae/custom-blood-test",
-  "provider": {
-    "@type": "MedicalOrganization",
-    "name": "Healthcarebia",
-    "url": "https://healthcarebia.ae",
-    "@id": "https://healthcarebia.ae/#medicalorganization"
-  },
-  "areaServed": {
-    "@type": "Place",
-    "name": "Dubai, United Arab Emirates"
-  },
-  "availableChannel": {
-    "@type": "ServiceChannel",
-    "serviceLocation": {
-      "@type": "Place",
-      "name": "At-Home and Hotel Services in Dubai"
-    }
-  }
+  "@context":"https://schema.org",
+  "@type":"MedicalTest",
+  "name":"Custom Blood Test",
+  "description":"Tailored at-home blood testing built around your specific health needs and physician orders.",
+  "url":"https://www.healthcarebia.ae/custom-blood-test",
+  "isAccessibleForFree": false,
+  "availableService": { "@type":"Service", "areaServed": { "@type":"City", "name":"Dubai" } },
+  "offers": { "@type":"Offer", "priceCurrency":"AED", "url":"https://www.healthcarebia.ae/custom-blood-test" },
+  "provider": { "@type":"MedicalOrganization", "name":"Healthcarebia", "url":"https://www.healthcarebia.ae" }
 }
 </script>
 

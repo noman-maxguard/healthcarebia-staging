@@ -75,20 +75,20 @@
     }
     </script>
 
-    <!-- MedicalProcedure Schema -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalProcedure",
-      "name": "Good Sleep IV Drip",
-      "description": "An IV therapy that promotes restful sleep, muscle relaxation, joint health, and collagen synthesis, using nutrients like Glycine, Magnesium, and Zinc.",
-      "recognizingAuthority": {
-        "@type": "Organization",
-        "name": "Dubai Health Authority (DHA)"
-      },
-      "preparation": "No special preparation required."
-    }
-    </script>
+{
+  "@context":"https://schema.org",
+  "@type":"Service",
+  "name":"Good Sleep IV Drip",
+  "description":"Private in-residence infusion designed to promote relaxation and sleep quality with targeted vitamins and minerals.",
+  "serviceType":"IV therapy",
+  "url":"https://healthcarebia.ae/good-sleep-iv-drip",
+  "areaServed": { "@type":"City", "name":"Dubai" },
+  "provider": { "@type":"MedicalOrganization", "name":"Healthcarebia", "url":"https://www.healthcarebia.ae" },
+  "timeRequired": "PT90M",
+  "offers": { "@type":"Offer", "priceCurrency":"AED", "price":"1900", "availability":"https://schema.org/InStock", "url":"https://healthcarebia.ae/good-sleep-iv-drip" }
+}
+</script>
 
     <?php include 'includes/inc_head_tag.php'; ?>
 

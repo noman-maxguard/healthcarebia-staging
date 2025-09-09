@@ -76,20 +76,20 @@
 </script>
 
 
-    <!-- MedicalProcedure Schema -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalProcedure",
-      "name": "Gut Health IV Drip",
-      "description": "Specialized IV therapy designed to soothe, repair, and protect the stomach lining, effectively relieving acidity, indigestion, and digestive discomfort.",
-      "recognizingAuthority": {
-        "@type": "Organization",
-        "name": "Dubai Health Authority (DHA)"
-      },
-      "preparation": "No special preparation required."
-    }
-    </script>
+{
+  "@context":"https://schema.org",
+  "@type":"Service",
+  "name":"Gut Health IV Drip",
+  "description":"Private in-residence infusion formulated to support digestion, reduce bloating, and restore micronutrient balance.",
+  "serviceType":"IV therapy",
+  "url":"https://healthcarebia.ae/gut-health-iv-drip",
+  "areaServed": { "@type":"City", "name":"Dubai" },
+  "provider": { "@type":"MedicalOrganization", "name":"Healthcarebia", "url":"https://www.healthcarebia.ae" },
+  "timeRequired": "PT90M",
+  "offers": { "@type":"Offer", "priceCurrency":"AED", "price":"1900", "availability":"https://schema.org/InStock", "url":"https://healthcarebia.ae/gut-health-iv-drip" }
+}
+</script>
 
     <?php include 'includes/inc_head_tag.php'; ?>
 

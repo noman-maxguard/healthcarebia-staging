@@ -1,25 +1,17 @@
 <!doctype html>
 <html lang="en">
 <head>
-<!-- Service (semantic, not rich-result) -->
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "@id": "https://www.healthcarebia.ae/general-health#service",
-  "name": "General Health Tests at Home",
-  "serviceType": "Home medical diagnostics",
-  "description": "Comprehensive at-home general-health testing in Dubai, covering alopecia, hair loss, vitiligo, psoriasis, and annual check-ups. Samples collected by DHA-licensed professionals.",
-  "url": "https://www.healthcarebia.ae/general-health",
-  "provider": { "@id": "https://www.healthcarebia.ae/#organization" },
-  "areaServed": { "@type": "City", "name": "Dubai" },
-  "availableChannel": {
-    "@type": "ServiceChannel",
-    "serviceLocation": {
-      "@type": "Place",
-      "name": "At-home and hotel locations within Dubai"
-    }
-  }
+  "@context":"https://schema.org",
+  "@type":"MedicalTest",
+  "name":"Alopecia Test",
+  "description":"At-home panel investigating hair loss causes including nutritional and hormonal markers.",
+  "url":"https://www.healthcarebia.ae/alopecia-test",
+  "isAccessibleForFree": false,
+  "availableService": { "@type":"Service", "areaServed": { "@type":"City", "name":"Dubai" } },
+  "offers": { "@type":"Offer", "priceCurrency":"AED", "url":"https://www.healthcarebia.ae/alopecia-test" },
+  "provider": { "@type":"MedicalOrganization", "name":"Healthcarebia", "url":"https://www.healthcarebia.ae" }
 }
 </script>
 

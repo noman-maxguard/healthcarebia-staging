@@ -26,32 +26,18 @@
 }
 </script>
 
-    <script type="application/ld+json">
+<script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://healthcarebia.ae/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "General Health",
-      "item": "https://healthcarebia.ae/general-health"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "Vitiligo Test",
-      "item": "https://healthcarebia.ae/vitiligo-test"
-    }
-  ]
+  "@context":"https://schema.org",
+  "@type":"MedicalTest",
+  "name":"Vitiligo Test",
+  "description":"Screening panel supporting evaluation of vitiligo and related autoimmune markers.",
+  "url":"https://www.healthcarebia.ae/vitiligo-test",
+  "isAccessibleForFree": false,
+  "availableService": { "@type":"Service", "areaServed": { "@type":"City", "name":"Dubai" } },
+  "offers": { "@type":"Offer", "priceCurrency":"AED", "url":"https://www.healthcarebia.ae/vitiligo-test" },
+  "provider": { "@type":"MedicalOrganization", "name":"Healthcarebia", "url":"https://www.healthcarebia.ae" }
 }
-
 </script>
 
     <?php include 'includes/inc_head_tag.php'; ?>

@@ -75,20 +75,20 @@
     }
     </script>
     
-    <!-- MedicalProcedure Schema -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "MedicalProcedure",
-      "name": "Energy & Focus IV Drip",
-      "description": "IV therapy providing nutrients to enhance mental clarity, boost energy, and improve cognitive performance.",
-      "recognizingAuthority": {
-        "@type": "Organization",
-        "name": "Dubai Health Authority (DHA)"
-      },
-      "preparation": "No special preparation required."
-    }
-    </script>
+{
+  "@context":"https://schema.org",
+  "@type":"Service",
+  "name":"Energy & Focus IV Drip",
+  "description":"Private in-residence infusion to support sustained energy, concentration, and mental clarity.",
+  "serviceType":"IV therapy",
+  "url":"https://healthcarebia.ae/energy-focus-iv-drip",
+  "areaServed": { "@type":"City", "name":"Dubai" },
+  "provider": { "@type":"MedicalOrganization", "name":"Healthcarebia", "url":"https://www.healthcarebia.ae" },
+  "timeRequired": "PT90M",
+  "offers": { "@type":"Offer", "priceCurrency":"AED", "price":"1900", "availability":"https://schema.org/InStock", "url":"https://healthcarebia.ae/energy-focus-iv-drip" }
+}
+</script>
     
     <?php include 'includes/inc_head_tag.php'; ?>
     

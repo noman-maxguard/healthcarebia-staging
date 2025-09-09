@@ -81,18 +81,19 @@
     </script>
 
     <script type="application/ld+json">
-    {
-    "@context": "https://schema.org",
-    "@type": "MedicalProcedure",
-    "name": "Post Party IV Drip",
-    "description": "The Post Party IV therapy designed to alleviate hangover symptoms, restore hydration, and boost energy levels after social events or alcohol consumption.",
-    "recognizingAuthority": {
-        "@type": "Organization",
-        "name": "Dubai Health Authority (DHA)"
-    },
-    "preparation": "No special preparation is required."
-    }
-    </script>
+{
+  "@context":"https://schema.org",
+  "@type":"Service",
+  "name":"Hangover IV Drip",
+  "description":"Private in-residence rehydration with electrolytes and vitamins to relieve headache, nausea, and fatigue after alcohol use.",
+  "serviceType":"IV therapy",
+  "url":"https://healthcarebiae.ae/hangover-iv-drip",
+  "areaServed": { "@type":"City", "name":"Dubai" },
+  "provider": { "@type":"MedicalOrganization", "name":"Healthcarebia", "url":"https://www.healthcarebia.ae" },
+  "timeRequired": "PT90M",
+  "offers": { "@type":"Offer", "priceCurrency":"AED", "price":"1900", "availability":"https://schema.org/InStock", "url":"https://healthcarebia.ae/hangover-iv-drip" }
+}
+</script>
 
 
 

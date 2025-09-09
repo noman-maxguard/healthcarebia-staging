@@ -3,33 +3,21 @@
 <html lang="en">
 
 <head>
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "name": "STD Screening Profile",
-  "serviceType": "Sexual Health and STD Testing at Home",
-  "description": "Confidential STD screening profile by DHA-licensed nurses, offering home and hotel collection services in Dubai. Fast and discreet results with expert guidance.",
-  "url": "https://healthcarebia.ae/std-screening-profile",
-  "provider": {
-    "@type": "MedicalOrganization",
-    "name": "Healthcarebia",
-    "url": "https://healthcarebia.ae",
-    "@id": "https://healthcarebia.ae/#medicalorganization"
-  },
-  "areaServed": {
-    "@type": "Place",
-    "name": "Dubai, United Arab Emirates"
-  },
-  "availableChannel": {
-    "@type": "ServiceChannel",
-    "serviceLocation": {
-      "@type": "Place",
-      "name": "At-Home and Hotel Services in Dubai"
-    }
-  }
-}
-</script>
+ <script type="application/ld+json">
+ {
+  "@context":"https://schema.org",
+  "@type":"ItemList",
+  "name":"STD Panel Testing",
+  "itemListElement":[
+    { "@type":"Service", "name":"STD 7 Panel",  "url":"https://www.healthcarebia.ae/std-testing", "offers":{"@type":"Offer","priceCurrency":"AED","price":"350","url":"https://www.healthcarebia.ae/std-testing"} },
+    { "@type":"Service", "name":"STD 13 Panel", "url":"https://www.healthcarebia.ae/std-testing", "offers":{"@type":"Offer","priceCurrency":"AED","price":"500","url":"https://www.healthcarebia.ae/std-testing"} },
+    { "@type":"Service", "name":"STD 17 Panel", "url":"https://www.healthcarebia.ae/std-testing", "offers":{"@type":"Offer","priceCurrency":"AED","price":"700","url":"https://www.healthcarebia.ae/std-testing"} },
+    { "@type":"Service", "name":"STD 21 Panel", "url":"https://www.healthcarebia.ae/std-testing", "offers":{"@type":"Offer","priceCurrency":"AED","price":"800","url":"https://www.healthcarebia.ae/std-testing"} },
+    { "@type":"Service", "name":"STD 28 Panel", "url":"https://www.healthcarebia.ae/std-testing", "offers":{"@type":"Offer","priceCurrency":"AED","price":"2000","url":"https://www.healthcarebia.ae/std-testing"} },
+    { "@type":"Service", "name":"STD 32 Panel", "url":"https://www.healthcarebia.ae/std-testing", "offers":{"@type":"Offer","priceCurrency":"AED","price":"2400","url":"https://www.healthcarebia.ae/std-testing"} }
+  ]
+ }
+ </script>
 
     <script type="application/ld+json">
 {

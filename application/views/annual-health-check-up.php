@@ -3,48 +3,17 @@
 <html lang="en">
 
 <head>
-<!-- Service (semantic but not rich-result eligible) -->
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "Service",
-  "@id": "https://www.healthcarebia.ae/general-health#service",
-  "name": "General Health Tests at Home",
-  "serviceType": "Home medical diagnostics",
-  "description": "Comprehensive at-home general-health testing in Dubai, including alopecia, hair-loss, vitiligo, psoriasis investigations, and annual health check-Ups delivered by DHA-licensed professionals.",
-  "url": "https://www.healthcarebia.ae/general-health",
-  "provider": { "@id": "https://www.healthcarebia.ae/#organization" },
-  "areaServed": { "@type": "City", "name": "Dubai" },
-  "availableChannel": {
-    "@type": "ServiceChannel",
-    "serviceLocation": {
-      "@type": "Place",
-      "name": "At-home and hotel locations within Dubai"
-    }
-  }
-}
-</script>
-
-<!-- BreadcrumbList (now aligns with visible breadcrumb) -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "@id": "https://www.healthcarebia.ae/#breadcrumbs",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Home",
-      "item": "https://www.healthcarebia.ae/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "Annual Health Check-Up",
-      "item": "https://www.healthcarebia.ae/annual-health-check-up"
-    }
-  ]
+  "@context":"https://schema.org",
+  "@type":"MedicalTest",
+  "name":"Annual Health Check up",
+  "description":"Comprehensive annual blood panel for general wellness screening.",
+  "url":"https://www.healthcarebia.ae/annual-health-check-up",
+  "isAccessibleForFree": false,
+  "availableService": { "@type":"Service", "areaServed": { "@type":"City", "name":"Dubai" } },
+  "offers": { "@type":"Offer", "priceCurrency":"AED", "url":"https://www.healthcarebia.ae/annual-health-check-up" },
+  "provider": { "@type":"MedicalOrganization", "name":"Healthcarebia", "url":"https://www.healthcarebia.ae" }
 }
 </script>
 

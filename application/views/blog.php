@@ -50,14 +50,25 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>dna-testing-dubai-blog" class="card-style3 card-style4 same">
+                    <img
+                        src="<?= base_url() ?>assets/frontend/img/blog29.jpg"
+                        alt="DNA Testing in Dubai: A Smarter Approach to Health"
+                        class="img-fluid"
+                        loading="lazy"
+                    >
+                    <h6>DNA Testing in Dubai: A Smarter Approach to Health</h6>
+                    <p>Discover how DNA testing in Dubai helps identify risks, guide preventive healthcare, and personalise treatment plans with licensed experts at home.</p>
+                </a>
+            </div>
+
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>confidential-at-home-std-testing-dubai-blog" class="card-style3 card-style4 same">
                     <img
-                        src="<?= base_url() ?>assets/frontend/img/blog28.webp"
+                        src="<?= base_url() ?>assets/frontend/img/blog17.jpg "
                         alt="Confidential At-Home STD Testing in Dubai"
-                        class=""
+                        class="img-fluid"
                         loading="lazy"
-                        height="223px"
-                        width="100%"
                     >
                     <h6>Confidential At-Home STD Testing in Dubai</h6>
                     <p>DHA-licensed providers bring discreet STD testing to your home with fast results and treatment options.</p>
@@ -201,7 +212,7 @@
                     <p>How DHA-approved, sleep support IV drips target stress, hydration, and nutrient gaps for deeper sleep.</p>
                 </a>
             </div>
-            <div class="col-md-3 mb-3">
+            <!-- <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>blood-test-to-bespoke-drip" class="card-style3 card-style4 same">
                     <img src="<?= base_url() ?>assets/frontend/img/blog17.jpg" 
                         alt="Blood Test to Bespoke Drip: Your Precision Wellness Plan" 
@@ -209,7 +220,7 @@
                     <h6>Blood Test to Bespoke Drip: Your Precision Wellness Plan</h6>
                     <p>Learn how healthcarebia turns your blood work and lab panel into a custom-mixed IV drip for millilitre perfect hydration and nutrient support, delivered at the comfort of your home.</p>
                 </a>
-            </div>
+            </div> -->
             <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>mythbusting-iv-therapy" class="card-style3 card-style4 same">
                     <img src="<?= base_url() ?>assets/frontend/img/blog16.jpg" alt="Mythbusting IV Therapy – Separating Fact from Fiction" class="img-fluid">

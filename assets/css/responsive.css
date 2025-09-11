@@ -330,10 +330,16 @@
 
   .about-us-left {
     padding: 2em 3em;
+    justify-content: center;
+    align-items: center;
   }
 
   .about-us-left h1 {
-    margin-top: 1em;
+    text-align: center;
+  }
+
+  .about-us-left p {
+    text-align: center;
   }
 
   .services {
@@ -421,6 +427,7 @@
 
   .post-party {
     background-image: none !important;
+    padding: 1em !important;
   }
 
   .title {
@@ -428,10 +435,6 @@
     width: 100% !important;
     text-align: center !important;
     align-items: center;
-  }
-
-  .post-party .title h1 {
-    margin-top: 30px;
   }
 
   .title p {
@@ -729,8 +732,12 @@
   }
 
   .post-party {
-    padding: 5em 2em !important;
-    padding-bottom: 0 !important;
+    padding: 2em !important;
+    background-image: none !important;
+  }
+
+  .title {
+    width: 100% !important;
   }
 
   .title p {
@@ -801,6 +808,9 @@
 
 /* Medium devices and  up*/
 @media (min-width: 768px) and (max-width: 992px) {
+  .two div img {
+    display: none;
+  }
 
   /* drips */
   .hangover-drip-img {
@@ -877,8 +887,12 @@
   }
 
   .post-party {
-    padding: 5em 2em !important;
-    padding-bottom: 0 !important;
+    padding: 2em !important;
+    background-image: none !important;
+  }
+
+  .title {
+    width: 90% !important;
   }
 
   .title p {
@@ -983,6 +997,14 @@
   .test-link {
     padding: 20px 1em !important;
   }
+
+  .home-service>.row>div:nth-of-type(2) {
+    padding: 3em !important;
+  }
+
+  .title {
+    padding: 0 !important;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1210px) {
@@ -1084,5 +1106,15 @@
   } */
   .dropdown-block img {
     transition: transform 0.3s ease;
+  }
+}
+
+@media(min-width:993px) and (max-width:1300px) {
+  .what-is-block .row>div {
+    width: 50% !important;
+  }
+
+  .what-is-drip-section {
+    padding: 0 2em !important;
   }
 }

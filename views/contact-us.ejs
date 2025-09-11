@@ -22,44 +22,8 @@
       <h1>Contact Us</h1>
     </div>
     <section class="contact">
-      <div class="row">
-        <div class="contact-block col-lg-8 col-12">
-          <h1>Request a Call Back</h1>
-          <form method="post" class="my-3" id="contactForm" action="/contact">
-            <div class="row p-0">
-              <div class="col-12">
-                <div class="contact-div-one">
-                  <input type="text" name="name" placeholder="First Name" />
-                  <input type="email" name="email" placeholder="Email" />
-                  <input type="tel" name="phone" placeholder="Phone" />
-                  <div class="contact-div-two">
-                    <select class="form-select type-select" name="type" required>
-                      <option hidden>Type</option>
-                      <option value="booking">Booking</option>
-                      <option value="partnership">Partnership</option>
-                      <option value="other">Other</option>
-                    </select>
-                    <textarea name="message" id="message" placeholder="Message"></textarea>
-                    <div
-                      class="g-recaptcha mt-4"
-                      data-sitekey="6LffuLErAAAAAOqeGORuVY4YL83JDeq_whtD1EHI"
-                    ></div>
-                    <button type="submit" class="mt-4 d-block">Submit</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </form>
-          <div class="form-group">
-            <div id="success" class="alert alert-success fadeInUp" role="alert">
-              Your message was sent successfully! We will be in touch soon.
-            </div>
-            <div id="error" class="alert alert-danger fadeInUp" role="alert">
-              Something went wrong, try refreshing and submitting the form again.
-            </div>
-          </div>
-        </div>
-        <div class="contact-details col-lg-3 col-12">
+      <div class="row d-flex justify-content-evenly">
+        <div class="contact-details col-lg-3 col-12 animate" data-animation="fadeInLeft">
           <div class="row d-flex flex-lg-column gap-4 justify-content-center align-items-center">
             <div
               class="d-flex flex-md-column contact-item justify-content-center align-items-center gap-3"
@@ -120,6 +84,42 @@
                   <a href="mailto:info@healthcarebia.ae">info&#64;healthcarebia&#46;ae</a>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-block col-lg-6 col-12 animate" data-animation="fadeInRight">
+          <h1>Request a Call Back</h1>
+          <form method="post" class="my-3" id="contactForm" action="/contact">
+            <div class="row p-0">
+              <div class="col-12">
+                <div class="contact-div-one">
+                  <input type="text" name="name" placeholder="First Name" />
+                  <input type="email" name="email" placeholder="Email" />
+                  <input type="tel" name="phone" placeholder="Phone" />
+                  <div class="contact-div-two">
+                    <select class="form-select type-select" name="type" required>
+                      <option hidden>Type</option>
+                      <option value="booking">Booking</option>
+                      <option value="partnership">Partnership</option>
+                      <option value="other">Other</option>
+                    </select>
+                    <textarea name="message" id="message" placeholder="Message"></textarea>
+                    <div
+                      class="g-recaptcha mt-4"
+                      data-sitekey="6LffuLErAAAAAOqeGORuVY4YL83JDeq_whtD1EHI"
+                    ></div>
+                    <button type="submit" class="mt-4 d-block">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+          <div class="form-group">
+            <div id="success" class="alert alert-success fadeInUp" role="alert">
+              Your message was sent successfully! We will be in touch soon.
+            </div>
+            <div id="error" class="alert alert-danger fadeInUp" role="alert">
+              Something went wrong, try refreshing and submitting the form again.
             </div>
           </div>
         </div>

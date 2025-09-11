@@ -1,3 +1,5 @@
+// main.js
+//
 document.addEventListener("DOMContentLoaded", function () {
   const nav = document.getElementById("header");
   if (!nav) return;
@@ -27,23 +29,6 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("resize", applyScrollState);
 });
 
-const observer = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        const anim = entry.target.dataset.anim;
-        entry.target.classList.add(anim);
-      }
-      // else {
-      //   const anim = entry.target.dataset.anim;
-      //   entry.target.classList.remove(anim);
-      // }
-    });
-  },
-  { threshold: 0.1 },
-);
-
-document.querySelectorAll(".animate").forEach((el) => observer.observe(el));
 document.querySelectorAll(".video-thumbnail").forEach((thumbnail) => {
   thumbnail.addEventListener("click", function () {
     const videoId = this.getAttribute("data-video-id");
@@ -58,3 +43,47 @@ document.querySelectorAll(".video-thumbnail").forEach((thumbnail) => {
     this.replaceWith(iframe);
   });
 });
+// Animations
+const START = 0.4;
+const observer = new IntersectionObserver(
+  (entries, obs) => {
+    entries.forEach((entry) => {
+      const animation = entry.target.getAttribute("data-animation");
+
+      if (entry.isIntersecting && entry.intersectionRatio >= START) {
+        entry.target.classList.add(animation);
+        obs.unobserve(entry.target);
+      }
+    });
+  },
+  {
+    root: null,
+    threshold: START,
+    rootMargin: "0px 0px -10% 0px",
+  },
+);
+document.querySelectorAll(".animate").forEach((el) => observer.observe(el));
+
+// const START = 0.4;
+// const RESET = 0.2;
+// const observer = new IntersectionObserver(
+//   (entries) => {
+//     entries.forEach((entry) => {
+//       const animation = entry.target.getAttribute("data-animation");
+//       if (entry.isIntersecting && entry.intersectionRatio >= START) {
+//         entry.target.classList.add(animation);
+//         unObserve()
+//       }
+//       // if (entry.intersectionRatio <= RESET) {
+//       //   entry.target.classList.remove(animation);
+//       // }
+//     });
+//   },
+//   {
+//     root: null,
+//     threshold: [RESET, START, 1],
+//     rootMargin: "0px 0px -10% 0px",
+//   },
+// );
+// const animateElements = document.querySelectorAll(".animate");
+// animateElements.forEach((el) => observer.observe(el));

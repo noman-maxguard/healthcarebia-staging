@@ -28,7 +28,7 @@
     <%- include("partials/header.ejs") %>
     <section class="home">
       <video autoplay muted loop playsinline class="bg-video" poster="/assets/img/home-banner.webp">
-        <source src="../../assets/video/banner-video.mp4" type="video/mp4" />
+        <source src="../../assets/video/banner-video-2mb.mp4" type="video/mp4" />
       </video>
       <div class="video-overlay"></div>
       <div class="intro">
@@ -47,8 +47,8 @@
     </section>
     <section class="about-us">
       <div class="row d-flex">
-        <div class="about-us-left col-lg-7 col-12">
-          <h1>
+        <div class="about-us-left col-lg-7 col-12 animate" data-animation="fadeInLeft">
+          <h1 class="">
             Welcome to Healthcarebia<br />
             Premium At Home Healthcare in Dubai
           </h1>
@@ -82,6 +82,7 @@
         </div>
         <div
           class="about-us-right col-md-5 col-12 d-flex justify-content-center align-items-center animate"
+          data-animation="fadeInRight"
         >
           <div class="image">
             <img src="../../assets/img/img4.webp" alt="about us section image" loading="lazy" />
@@ -96,8 +97,8 @@
         and nursing services in the comfort and privacy of your residence. Trusted by royalty, built
         for those who demand excellence.
       </p> -->
-      <h1 class="text-center animate">Our Services</h1>
-      <div class="carousel-slick px-2 py-2 animate" id="carousel-slick">
+      <h1 class="text-center animate" data-animation="fadeInUp">Our Services</h1>
+      <div class="carousel-slick px-2 py-2 animate" id="carousel-slick" data-animation="fadeInUp">
         <a
           href="/iv-drip-dubai"
           class="col-12 col-md-6 col-lg-4 d-flex justify-content-center align-items-center"
@@ -176,11 +177,13 @@
       </div>
     </section>
     <section class="why-choose-us pt-5">
-      <h1 class="text-center my-5 pt-3 why-choose-us-one">Why Choose Us</h1>
+      <h1 class="text-center my-5 pt-3 why-choose-us-one animate" data-animation="fadeInUp">
+        Why Choose Us
+      </h1>
       <div class="row d-flex">
         <div class="col-lg-4 col-md-12">
           <div class="row d-flex justify-content-evenly align-items-center gap-2">
-            <div class="card col-lg-12 col-md-6">
+            <div class="card col-lg-12 col-md-6 animate" data-animation="fadeInUp">
               <div class="img">
                 <img src="../../assets/icons/expertise.svg" alt="expertise" />
               </div>
@@ -190,7 +193,7 @@
                 ready to care for all your needs, customizing your experience for the best service.
               </p>
             </div>
-            <div class="card col-lg-12 col-md-6">
+            <div class="card col-lg-12 col-md-6 animate" data-animation="fadeInUp">
               <div class="img">
                 <img src="../../assets/icons/custom-made.svg" alt="expertise" />
               </div>
@@ -203,14 +206,14 @@
           </div>
         </div>
         <div class="col-lg-4 two col-md-12">
-          <h1 class="why-choose-us-two">Why Choose Us</h1>
+          <h1 class="why-choose-us-two animate" data-animation="fadeInUp">Why Choose Us</h1>
           <div>
             <img src="../../assets/img/img2.webp" alt="why-choose-us" loading="lazy" />
           </div>
         </div>
         <div class="col-lg-4 col-md-12">
           <div class="row d-flex justify-content-evenly align-items-center gap-2">
-            <div class="card col-lg-12 col-md-6">
+            <div class="card col-lg-12 col-md-6 animate" data-animation="fadeInUp">
               <div class="img">
                 <img src="../../assets/icons/quality.svg" alt="expertise" />
               </div>
@@ -220,7 +223,7 @@
                 for better results.
               </p>
             </div>
-            <div class="card col-lg-12 col-md-6">
+            <div class="card col-lg-12 col-md-6 animate" data-animation="fadeInUp">
               <div class="img">
                 <img src="../../assets/icons/excellence.svg" alt="expertise" />
               </div>
@@ -350,7 +353,7 @@
     </section>
     <section class="talk-to-us">
       <div class="row">
-        <div class="col-lg-6 talk-to-us-left col-12">
+        <div class="col-lg-6 talk-to-us-left col-12 animate" data-animation="fadeInRight">
           <h1>Talk to us</h1>
           <p class="col-md-10">
             Whether you're ready to schedule your first session or just have questions, we’d love to
@@ -407,7 +410,7 @@
             </div>
           </form>
         </div>
-        <div class="col-lg-6 talk-to-us-right col-12">
+        <div class="col-lg-6 talk-to-us-right col-12 animate" data-animation="fadeInLeft">
           <div class="talk-to-us-image">
             <img src="../../assets/img/face.webp" alt="face" loading="lazy" />
           </div>
@@ -415,24 +418,26 @@
       </div>
     </section>
     <section class="end-section py-5">
-      <h1>Healing Body, Mind & Soul</h1>
-      <a href="https://wa.me/971547077476" target="_blank"
+      <h1 class="animate" data-animation="fadeInUp">Healing Body, Mind & Soul</h1>
+      <a href="https://wa.me/971547077476" target="_blank" class="animate" data-animation="fadeInUp"
         ><button>Book your appointment with us now</button></a
       >
-      <div class="contact-details">
-        <li>
-          <a href="tel:+97142250823"><i class="fas fa-phone"></i>+971 4 225 0823</a>
-        </li>
-        <li>
-          <a href="https://wa.me/971547077476" target="_blank"
-            ><i class="fab fa-whatsapp"></i>+971 54 707 7476</a
-          >
-        </li>
-        <li>
-          <a href="mailto:info@healthcarebia.ae"
-            ><i class="fas fa-envelope"></i>info&#64;healthcarebia.ae</a
-          >
-        </li>
+      <div class="contact-details animate" data-animation="fadeInUp">
+        <ul>
+          <li>
+            <a href="tel:+97142250823"><i class="fas fa-phone"></i>+971 4 225 0823</a>
+          </li>
+          <li>
+            <a href="https://wa.me/971547077476" target="_blank"
+              ><i class="fab fa-whatsapp"></i>+971 54 707 7476</a
+            >
+          </li>
+          <li>
+            <a href="mailto:info@healthcarebia.ae"
+              ><i class="fas fa-envelope"></i>info&#64;healthcarebia.ae</a
+            >
+          </li>
+        </ul>
       </div>
     </section>
     <%- include('partials/personalised-drip.ejs') %> <%- include("partials/footer.ejs") %> <%-

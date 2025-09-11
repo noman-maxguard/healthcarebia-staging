@@ -187,7 +187,8 @@
   background-image: url('/assets/img/hangover-img.webp');
   background-repeat: no-repeat;
   background-position: right;
-  background-size: contain;
+  background-size: 60%;
+  padding: 5em;
 }
 
 .post-party h1 {
@@ -195,7 +196,6 @@
 }
 
 .title {
-  padding: 5em;
   width: 50%;
 }
 

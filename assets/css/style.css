@@ -25,44 +25,28 @@ variables */
   --formText: #b4b4b4;
 }
 
-/* animations */
-/* @media (prefers-reduced-motion: reduce) {
-  * {
-    animation: none !important;
-    transition: none !important;
-  }
-} */
-/* @keyframes fadeInUp {
-  from {
-    opacity: 0.5;
-    transform: translateY(30px);
-  }
+/* Animations */
+.animate {
+  opacity: 0;
+  will-change: transform, opacity;
+}
 
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  } */
-/* } */
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(50px);
   }
 
   to {
     opacity: 1;
     transform: translateY(0);
   }
-}
-
-.animate {
-  animation: fadeIn 0.8s ease forwards;
 }
 
 @keyframes fadeInDown {
   from {
-    opacity: 0.5;
-    transform: translateY(-30px);
+    opacity: 0;
+    transform: translateY(-50px);
   }
 
   to {
@@ -71,14 +55,47 @@ variables */
   }
 }
 
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 .fadeInUp {
-  animation: fadeInUp 1s ease;
+  animation: fadeInUp var(--dur, .8s) var(--ease, ease-out) var(--delay, 0s) both;
 }
 
 .fadeInDown {
-  animation: fadeInUp 1s ease forwards;
+  animation: fadeInDown var(--dur, .8s) var(--ease, ease-out) var(--delay, 0s) both;
 }
 
+.fadeInLeft {
+  animation: fadeInLeft var(--dur, .8s) var(--ease, ease-out) var(--delay, 0s) both;
+}
+
+.fadeInRight {
+  animation: fadeInRight var(--dur, .8s) var(--ease, ease-out) var(--delay, 0s) both;
+}
+
+/* reset */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -239,7 +256,6 @@ button:hover {
   align-items: start;
   gap: 1em;
   padding: 60px 7em;
-  padding-right: 0;
 }
 
 .about-us-left h1 {
@@ -701,14 +717,14 @@ button:hover {
   background: transparent;
 }
 
-.end-section .contact-details {
+.end-section .contact-details ul {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   gap: 100px;
 }
 
-.end-section .contact-details li {
+.end-section .contact-details ul li {
   color: var(--secondary);
   font-weight: 500;
   display: flex;
@@ -776,7 +792,7 @@ button:hover {
 }
 
 @media (max-width: 991.98px) {
-  .end-section .contact-details {
+  .end-section .contact-details ul {
     flex-direction: column;
     gap: 30px;
     padding: 0;
@@ -785,6 +801,7 @@ button:hover {
 
 .card {
   max-width: 20em;
+  height: 350px;
   background-color: #d3d4d3e8;
   font-family: var(--body);
   display: flex;
@@ -1439,14 +1456,6 @@ footer .second-row {
   padding: 0 20px;
 }
 
-/* responsiveness */
-/* @media(max-width:576px) {}
-
-@media(max-width: 991px) {
-  .about-us-left {
-    justify-content: center;
-    align-items: center;
-  } */
 .navbar .navbar-toggler {
   border: none;
   padding: 0;
@@ -1475,6 +1484,7 @@ footer .second-row {
   border-radius: 20px;
   transition: 0.3s ease;
   border: none;
+  font-size: 18px;
 }
 
 .home-service button:hover {
@@ -1560,7 +1570,6 @@ footer .second-row {
 .contact form select {
   margin-top: 2em;
   background-color: #d9d9d9;
-  width: 25%;
   color: #545454;
   border: none;
 }
@@ -1582,10 +1591,6 @@ select::picker(select) {
 
 .contact form button:hover {
   border: 1px solid var(--primary);
-}
-
-.contact .contact-details {
-  margin-left: 4em;
 }
 
 .contact .contact-details .row {
@@ -1623,6 +1628,7 @@ select::picker(select) {
 .contact-info a {
   text-decoration: none;
   color: var(--primary);
+  cursor: pointer;
 }
 
 .contact-item {
@@ -1632,7 +1638,7 @@ select::picker(select) {
 
 .map {
   height: 350px;
-  width: 100%;
+  width: 90%;
   border-radius: 10px;
   overflow: hidden;
   margin-top: 2em;

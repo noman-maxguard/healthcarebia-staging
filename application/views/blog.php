@@ -50,6 +50,19 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>oral-supplements-vs-vitamin-iv-drips-blog" class="card-style3 card-style4 same">
+                    <img
+                        src="<?= base_url() ?>assets/frontend/img/blog30.jpg"
+                        alt="Oral Supplements vs. Vitamin IV Drips: Which Works Better for Your Health?"
+                        class="img-fluid"
+                        loading="lazy"
+                    >
+                    <h6>Oral Supplements vs. Vitamin IV Drips: Which Works Better for Your Health?</h6>
+                    <p>Compare oral supplements with IV drip therapy in Dubai, see benefits, absorption, cost, and when to combine both for better health.</p>
+                </a>
+            </div>
+
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>dna-testing-dubai-blog" class="card-style3 card-style4 same">
                     <img
                         src="<?= base_url() ?>assets/frontend/img/blog29.jpg"

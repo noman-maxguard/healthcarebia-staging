@@ -50,6 +50,19 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>female-hormone-profile-iv-therapy-dubai-blog" class="card-style3 card-style4 same">
+                    <img
+                        src="<?= base_url() ?>assets/frontend/img/blog31.jpg"
+                        alt="Female Hormone Profile & IV Therapy in Dubai"
+                        class="img-fluid"
+                        loading="lazy"
+                    >
+                    <h6>Female Hormone Profile & IV Therapy in Dubai</h6>
+                    <p>Learn how hormone testing and IV drip therapy in Dubai improve energy, balance mood, and support preventive health, all from the comfort of home.</p>
+                </a>
+            </div>
+
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>oral-supplements-vs-vitamin-iv-drips-blog" class="card-style3 card-style4 same">
                     <img
                         src="<?= base_url() ?>assets/frontend/img/blog30.jpg"

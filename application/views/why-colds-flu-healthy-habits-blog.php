@@ -156,7 +156,7 @@
 
                     <!-- Conclusion -->
                     <h5>Conclusion</h5>
-                    <p>Catching colds or flu isn’t a failure of healthy living. It often signals blind spots in stress, sleep, hydration, nutrients, or daily exposures. Blend lifestyle upgrades with professional support like best IV drip therapy in Dubai, VIP IV therapy at home, or targeted lab tests to build durable resilience and enjoy fewer sick days.</p>
+                    <p>Catching colds or flu isn’t a failure of healthy living. It often signals blind spots in stress, sleep, hydration, nutrients, or daily exposures.<a href="<?= $whatsappHref ?>" target="_blank" class="button d-inline"> Book your session now </a>to build durable resilience and enjoy fewer sick days.</p>
 
                     <p><small><em>Disclaimer: This article is for educational purposes only and does not replace professional medical advice. Always consult licensed clinicians, especially if you have underlying conditions or severe symptoms.</em></small></p>
                 </div>

@@ -50,6 +50,19 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>why-colds-flu-healthy-habits-blog" class="card-style3 card-style4 same">
+                    <img
+                        src="<?= base_url() ?>assets/frontend/img/blog33.jpg"
+                        alt="Why Do You Still Catch Colds and Flu Even with Healthy Habits"
+                        class="img-fluid"
+                        loading="lazy"
+                    >
+                    <h6>Why Do You Still Catch Colds and Flu Even with Healthy Habits?</h6>
+                    <p>Learn why colds and flu happen despite good habits, and how stress, sleep, hydration, and IV drips in Dubai can strengthen your immune defenses.</p>
+                </a>
+            </div>
+
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>why-tired-hair-loss-blog" class="card-style3 card-style4 same">
                     <img
                         src="<?= base_url() ?>assets/frontend/img/blog32.jpg"

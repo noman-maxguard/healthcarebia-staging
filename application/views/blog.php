@@ -50,6 +50,19 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>future-of-wellness-dubai-blog" class="card-style3 card-style4 same">
+                    <img
+                        src="<?= base_url() ?>assets/frontend/img/blog34.png"
+                        alt="The Future of Wellness in Dubai with Healthcarebia: IV Drips, DNA Testing & More"
+                        class="img-fluid"
+                        loading="lazy"
+                    >
+                    <h6>The Future of Wellness in Dubai with Healthcarebia: IV Drips, DNA Testing & More</h6>
+                    <p>Explore 2025 wellness trends in Dubai, IV drips, DNA testing, preventive health, longevity, and digital wellness personalized with Healthcarebia.</p>
+                </a>
+            </div>
+
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>why-colds-flu-healthy-habits-blog" class="card-style3 card-style4 same">
                     <img
                         src="<?= base_url() ?>assets/frontend/img/blog33.jpg"

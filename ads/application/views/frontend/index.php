@@ -656,7 +656,7 @@
 	document.addEventListener('DOMContentLoaded', () => {
 		const container = document.querySelector('.offerings .right');
 		const images    = container.querySelectorAll('img');
-		const maxScale  = 1.5;  // 120% max
+		const maxScale  = 1.2;  // 120% max
 		const minScale  = 1.0;  // 100% normal
 
 		function onScroll() {

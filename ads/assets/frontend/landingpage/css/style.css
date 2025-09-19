@@ -138,9 +138,13 @@ h6 {
   line-height: normal;
   font-family: 'Marcellus', serif;
 }
-h1,h2,h4{
+
+h1,
+h2,
+h4 {
   letter-spacing: -3px;
 }
+
 h1 {
   font-size: 85px;
   line-height: 1.1;
@@ -511,9 +515,16 @@ section {
   align-items: center;
   flex-direction: column;
   padding: 2em;
+  padding-top: 1em;
   min-height: 80vh;
   gap: 5px;
   background: url(../../img/hand-faded.png) no-repeat center/cover;
+}
+
+@media(max-height:600px) {
+  .about-us {
+    height: 600px;
+  }
 }
 
 .about-us img {
@@ -652,7 +663,6 @@ section {
   /* .offerings .left h1 {
     font-size: 52px;
   } */
-
   .offerings .left p {
     font-size: 15px;
   }
@@ -943,11 +953,12 @@ section {
   }
 }
 
-.all-drips{
+.all-drips {
   display: flex;
   flex-direction: column;
 }
-.all-drips h1{
+
+.all-drips h1 {
   text-align: center;
   margin-top: 1em;
   font-family: "Noto Serif Display", serif;
@@ -956,17 +967,18 @@ section {
   color: #422b1c;
 }
 
-.drip-box{
+.drip-box {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.22); 
+  box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.22);
   border-radius: 8px;
   padding: 2em 1em;
   margin: 1em;
 }
-.drip-head{
+
+.drip-head {
   height: 300px;
   width: 100%;
   display: flex;
@@ -974,19 +986,19 @@ section {
   align-items: center;
 }
 
-.drip-head a{
+.drip-head a {
   margin-top: 5em;
   width: 40%;
   position: absolute;
   bottom: 20px;
 }
 
-.drip-box .drip-head .img-inner{
+.drip-box .drip-head .img-inner {
   height: 152px;
 }
 
-.drip-head .text{
-  flex:1;
+.drip-head .text {
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1001,12 +1013,13 @@ section {
   margin-top: 5em;
 }
 
-.drip-price span{
+.drip-price span {
   font-size: 22px;
   color: #422b1c;
   font-family: 'Poppins', serif;
 }
-.drip-price p{
+
+.drip-price p {
   font-size: 16px;
   line-height: 24px;
   color: var(--paragraph-color);
@@ -1079,7 +1092,6 @@ section {
   align-items: stretch !important;
   height: auto !important;
 } */
-
 .drip-card {
   display: flex;
   justify-content: center;
@@ -1194,19 +1206,20 @@ ul.checkpoints li::before {
 }
 
 @media (max-width: 899px) {
-  .all-drips h1{
-     font-size: 42px;
-  }
-  .testimonials h2{
+  .all-drips h1 {
     font-size: 42px;
   }
-  .services h2{
+
+  .testimonials h2 {
+    font-size: 42px;
+  }
+
+  .services h2 {
     font-size: 42px;
   }
 }
 
 @media (min-width: 899px) {
-
   .drip-container {
     width: calc(100%/2);
   }

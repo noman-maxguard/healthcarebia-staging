@@ -50,6 +50,19 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>iv-therapy-mental-health-blog" class="card-style3 card-style4 same">
+                    <img
+                        src="<?= base_url() ?>assets/frontend/img/blog35.jpg"
+                        alt="IV Therapy for Mental Health: Can Drips Support Stress, Anxiety, and Mood?"
+                        class="img-fluid"
+                        loading="lazy"
+                    >
+                    <h6>IV Therapy for Mental Health: Can Drips Support Stress, Anxiety, and Mood?</h6>
+                    <p>Discover how IV therapy at home in Dubai help with stress, anxiety, focus, sleep, and burnout recovery.</p>
+                </a>
+            </div>
+
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>future-of-wellness-dubai-blog" class="card-style3 card-style4 same">
                     <img
                         src="<?= base_url() ?>assets/frontend/img/blog34.png"

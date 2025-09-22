@@ -50,6 +50,19 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>hair-loss-causes-treatments-dubai-blog" class="card-style3 card-style4 same">
+                    <img
+                        src="<?= base_url() ?>assets/frontend/img/blog32.jpg"
+                        alt="Understanding Hair Loss: Causes, Treatments, and Innovative Solutions in Dubai"
+                        class="img-fluid"
+                        loading="lazy"
+                    >
+                    <h6>Understanding Hair Loss: Causes, Treatments, and Innovative Solutions</h6>
+                    <p>Learn the main causes of hair loss and explore treatments like DNA testing and IV drip therapy in Dubai for healthier, stronger hair.</p>
+                </a>
+            </div>
+
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>iv-therapy-mental-health-blog" class="card-style3 card-style4 same">
                     <img
                         src="<?= base_url() ?>assets/frontend/img/blog35.jpg"
@@ -88,7 +101,7 @@
                 </a>
             </div>
 
-            <div class="col-md-3 mb-3">
+            <!-- <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>why-tired-hair-loss-blog" class="card-style3 card-style4 same">
                     <img
                         src="<?= base_url() ?>assets/frontend/img/blog32.jpg"
@@ -99,7 +112,7 @@
                     <h6>Why You Feel Tired and Lose Hair Even with Healthy Lifestyle</h6>
                     <p>Discover how nutrient deficiencies, stress, hormones, and dehydration contribute to fatigue and hair loss and how IV drip therapy in Dubai restores energy, balance, and hair health.</p>
                 </a>
-            </div>
+            </div> -->
 
             <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>female-hormone-profile-iv-therapy-dubai-blog" class="card-style3 card-style4 same">

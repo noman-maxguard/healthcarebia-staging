@@ -152,7 +152,7 @@
                     </ul>
 
                     <h5>Conclusion: Prevention Over Cure</h5>
-                    <p>Regular blood tests are not just for the sick—they are for anyone who values preventive health, early detection, and long-term wellness. By making blood tests part of your lifestyle, you’re investing in a healthier future.</p>
+                    <p>Regular blood tests are not just for the sick they are for anyone who values preventive health, early detection, and long-term wellness. By making blood tests part of your lifestyle, you’re investing in a healthier future.</p>
 
                     <h5>Our Recommendation</h5>
                     <ul class="tick-list">
@@ -162,7 +162,7 @@
                     </ul>
 
                     <h5>Call to Action</h5>
-                    <p>Don’t wait for symptoms—choose prevention today. <a href="<?= $whatsappHref ?>" target="_blank" class="button d-inline">WhatsApp Healthcarebia</a> to book your blood test at home in Dubai and take the first step towards long-term health.</p>
+                    <p>Don’t wait for symptoms choose prevention today. <a href="<?= $whatsappHref ?>" target="_blank" class="button d-inline">WhatsApp Healthcarebia</a> to book your blood test at home in Dubai and take the first step towards long-term health.</p>
 
                     <h5>References</h5>
                     <ul class="ingredients-list">

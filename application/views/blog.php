@@ -50,6 +50,19 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>regular-blood-tests-preventive-health-blog" class="card-style3 card-style4 same">
+                    <img
+                        src="<?= base_url() ?>assets/frontend/img/blog17.jpg"
+                        alt="Why Regular Blood Tests Are Essential for Preventive Health"
+                        class="img-fluid"
+                        loading="lazy"
+                    >
+                    <h6>Why Regular Blood Tests Are Essential for Preventive Health</h6>
+                    <p>Discover why routine blood tests every 6–12 months are key to preventive health, early detection, and personalized wellness in Dubai.</p>
+                </a>
+            </div>
+
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>hair-loss-causes-treatments-dubai-blog" class="card-style3 card-style4 same">
                     <img
                         src="<?= base_url() ?>assets/frontend/img/blog32.jpg"

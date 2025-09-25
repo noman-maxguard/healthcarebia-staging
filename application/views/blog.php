@@ -50,6 +50,19 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>digital-transformation-healthcare-dubai-blog" class="card-style3 card-style4 same">
+                    <img
+                        src="<?= base_url() ?>assets/frontend/img/blog38.jpg"
+                        alt="Digital Transformation in Healthcare: Personalized & Preventive Medicine in Dubai"
+                        class="img-fluid"
+                        loading="lazy"
+                    >
+                    <h6>Digital Transformation in Healthcare in Dubai</h6>
+                    <p>Explore how telehealth, AI, DNA testing, and at-home IV drip therapy are reshaping personalized and preventive healthcare in Dubai.</p>
+                </a>
+            </div>
+
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>regular-blood-tests-preventive-health-blog" class="card-style3 card-style4 same">
                     <img
                         src="<?= base_url() ?>assets/frontend/img/blog17.jpg"

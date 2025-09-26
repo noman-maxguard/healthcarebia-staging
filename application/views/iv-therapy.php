@@ -20,7 +20,129 @@
 
 
 
+<style>
+    .banner-list ul>li{
+        list-style: none;
+        color: white
+    }
+    @media(max-width:768px){
+        .banner-list ul{
+           flex-direction: column
+        }
+    }
+    /* --- IV Steps (scoped) --- */
+.iv-steps-section{
+  background:var(--green); /* match your green */
+  color:#fff;
+  padding:28px 16px;
+}
 
+.iv-steps-wrap{
+  max-width:1200px;
+  margin:0 auto;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:28px;
+  align-items:start;
+  position:relative;
+}
+
+/* Cards */
+.iv-step-card{
+  text-align:center;
+  position:relative;
+  padding:12px 10px 0;
+}
+
+.iv-step-media{
+  position:relative;
+  width:84px;
+  height:84px;
+  margin:0 auto 14px;
+}
+
+.iv-step-media img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  display:block;
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,.15));
+}
+
+.iv-step-num{
+  position:absolute;
+  right:-10px; top:-10px;
+  width:34px; height:34px;
+  border-radius:50%;
+  background:rgba(255,255,255,.18);
+  border:1px solid rgba(255,255,255,.35);
+  display:grid; place-items:center;
+  font-weight:700;
+  font-size:14px;
+}
+
+/* Headings & text */
+.iv-step-content h4{
+  font-size:18px;
+  line-height:1.3;
+  margin:0 0 8px;
+  color: white;
+  font-weight:800;
+}
+
+.iv-step-content p{
+  margin:0;
+  font-size:15px;
+  line-height:1.55;
+  font-weight:400;
+  opacity:.95;
+  color: white
+}
+
+/* link style for WhatsApp/CTA */
+.iv-step-link{
+  color:#fff;
+  text-decoration:underline;
+  text-underline-offset:3px;
+}
+
+.iv-step-count h3{
+    color: white;
+    border-radius: 50%;
+}
+
+/* Optional arrows between cards (desktop only) */
+@media (min-width: 992px){
+  /* .iv-step-card:not(:last-child)::after{
+    content:"";
+    position:absolute;
+    right:-14px; top:42px;
+    width:28px; height:2px;
+    background:rgba(255,255,255,.35);
+  } */
+}
+
+/* Tablet */
+@media (max-width: 991.98px){
+  .iv-steps-wrap{
+    grid-template-columns:1fr 1fr;
+  }
+  .iv-step-card:nth-child(2)::after{ display:none; }
+}
+
+/* Mobile */
+@media (max-width: 575.98px){
+  .iv-steps-wrap{
+    grid-template-columns:1fr;
+    gap:18px;
+  }
+  .iv-step-media{ width:72px; height:72px; }
+  .iv-step-content h4{ font-size:16px; }
+  .iv-step-content p{ font-size:14px; }
+  .iv-step-card::after{ display:none; }
+}
+
+</style>
 
 </head>
 
@@ -38,11 +160,11 @@
 
 <div class="mob-inner-banner"
 
-     style="background-image: url(<?= base_url() ?>assets/frontend/img/iv-therapy-banner-mob.webp);">
+     style="background-image: url(<?= base_url() ?>assets/frontend/img/ocean.png);background-repeat: no-repeat;background-size: cover; background-position: center bottom;">
 
     <section class="sub-banner"
 
-             style="background-image: url(<?= base_url() ?>assets/frontend/img/iv-therapy-banner.webp);">
+             style="background-image: url(<?= base_url() ?>assets/frontend/img/ocean.png);background-repeat: no-repeat;background-size: cover; background-position: bottom; min-height:600px">
 
         <div class="overlay">
 
@@ -65,7 +187,24 @@
                                 <li class="active" aria-current="page">IV Therapy Dubai</li>
 
                             </ul>
-
+                            <div class="mt-5" >
+                                <p style="color:white;font-weight:700">IV drip home service Dubai | 24 &#215; 7 | Within 30 minutes at your doorstep</p>
+                            </div>
+                            <div class="banner-list">
+                                <ul class="d-flex gap-lg-5">
+                                    <li>&#10003; On demand and anywhere in the UAE</li>
+                                    <li>&#10003; Feel better in less than 45 Minutes</li>
+                                    <li>&#10003; Customized Vitamin Blends</li>
+                                    <li>&#10003; DHA-Liscensed Nurses</li>
+                                </ul>
+                            </div>
+                            <div class="my-3">
+                                <a class="primary-btn hvr-bounce-to-right green-btn mt-2 me-2" href="<?= $whatsappHref ?>" target="_blank">
+                                Book IV drip home service Dubai
+                            </a><a class="primary-btn hvr-bounce-to-right green-btn mt-2" href="tel:+97142250823">
+                                Call Now
+                            </a>
+                            </div>
                         </nav>
 
                     </div>
@@ -92,7 +231,7 @@
 
         <div class="row">
 
-            <div class="col-md-8 offset-md-4">
+            <div class="col-md-8 offset-md-4 d-flex flex-column justify-content-center align-items-center">
 
                 <h2>Why choose Healthcarebia for
 
@@ -285,6 +424,9 @@
 
 
                 </div>
+                <a class="primary-btn hvr-bounce-to-right green-btn my-3" href="<?= $whatsappHref ?>" target="_blank">
+                                Chat With Experts
+                            </a>
 
             </div>
 
@@ -294,7 +436,67 @@
 
 </section>
 
+<section class="section-gap my-5" style="background-color: #f9f9f9;">
 
+    <div class="container">
+
+        <div class="row">
+
+        <div class="col-md-12 text-center">
+
+            <h2>Fast, Easy and Effective.<br> Get IV Drips at home in 3 easy steps</h2>
+            
+            <div class="iv-steps-section">
+            <div class="iv-steps-wrap">
+                <!-- Step 1 -->
+                <article class="iv-step-card">
+                <div class="iv-step-count">
+                    <h3>1</h3>
+                </div>
+                <div class="iv-step-content">
+                    <h4>Book Your Appointment</h4>
+                    <p>
+                    Call or WhatsApp <a href="https://wa.me/97142250823" class="iv-step-link">+97142250823</a> to book your
+                    IV drip at home in Dubai, choose from safe, effective options like a hydration drip.
+                    </p>
+                </div>
+                </article>
+                <article class="iv-step-card">
+                <div class="iv-step-count">
+                    <h3>2</h3>
+                </div>
+                <div class="iv-step-content">
+                    <h4>Nurse at Your Doorstep</h4>
+                    <p>
+                    Our DHA-licensed nurses ensure safe and professional IV drip administration for fast, effective results.
+                    </p>
+                </div>
+                </article>
+                <article class="iv-step-card">
+                <div class="iv-step-count">
+                    <h3>3</h3>
+                </div>
+                <div class="iv-step-content">
+                    <h4>Get Recharged</h4>
+                    <p>
+                    Rejuvenate your body in ~45 minutes with home IV therapy, boost energy, immunity, and hydration fast.
+                    </p>
+                </div>
+                </article>
+            </div>
+        </div>
+        <div class="contact-buttons d-flex gap-3 justify-content-center align-items-center pb-5 pt-3">
+            <a class="primary-btn hvr-bounce-to-right green-btn mt-2" href="tel:+97142250823">
+                                WhatsApp IV therapy near me
+                            </a><a class="primary-btn hvr-bounce-to-right green-btn mt-2" href="#contact_us">
+                                Request a Call Back
+                            </a>
+        </div>
+    </div>
+
+    </div>
+
+  </div>
 
 
 
@@ -310,12 +512,9 @@
 
                 <h2>What is IV Therapy ?</h2>
 
-                <p>IV infusion is like a superhero cape for your body! It's when we sneakily deliver fluids, medications, or essential nutrients directly into your bloodstream through a tiny tube that goes right into one of your veins. Think of it as a VIP expressway for all the good stuff your body needs to feel its best!  No matter which IV Drip you
-
-                    select, the procedure is straightforward, and our DHA registered team will guide you through every
-
-                    step of the way.
-
+                <p>
+                IV infusion delivers fluids, medications, and nutrients directly into your bloodstream. It’s ideal for fast recovery,
+                especially with a hydration drip after travel, heat, or illness. Our DHA-registered team provides IV drip at home across Dubai so you get clinical-grade care in total comfort.
                 </p>
 
                 <p>In the usual setting, you will be requested to seat yourself in a relaxed and comfortable manner.
@@ -351,6 +550,9 @@
                     <li>Lasting effects on health and well-being.</li>
 
                 </ul>
+                <a class="primary-btn hvr-bounce-to-right green-btn my-3" href="<?= $whatsappHref ?>" target="_blank" style="">
+                                Get A Free Consultation
+                            </a>
 
             </div>
 
@@ -370,6 +572,8 @@
 
 </section>
 
+
+</section>
 
 
 <!-- <section class="section-gap iv-drip-block">
@@ -691,7 +895,7 @@
 
                     <div class="img">
 
-                        <div class="img-inner"><a href="<?= base_url() ?>myers-iv-drip"><img src="<?= base_url() ?>assets/frontend/img/myers-cocktail.webp" alt="Myers Cocktail Dubai" class="img-fluid" loading="lazy"></a></div>
+                        <div class="img-inner"><a href="<?= base_url() ?>myers-iv-drip"><img src="<?= base_url() ?>assets/frontend/img/myers-cocktail.webp" alt="Myers Cocktail Dubai also energy iv drip dubai" class="img-fluid" loading="lazy"></a></div>
 
                     </div>
 
@@ -717,6 +921,9 @@
                             <span>From AED</span>
 
                             <h3>2,300* </h3>
+                            <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
+                                Book Now
+                            </a><br>
                             <i>* T&C apply</i> 
                         </div>
 
@@ -732,7 +939,7 @@
 
                     <div class="img">
 
-                        <div class="img-inner"><a href="<?= base_url() ?>hangover-iv-drip"><img src="<?= base_url() ?>assets/frontend/img/hangover-iv-drip.webp" alt="Pre/Post Party IV drip Dubai" class="img-fluid" loading="lazy"</a>></div>
+                        <div class="img-inner"><a href="<?= base_url() ?>hangover-iv-drip"><img src="<?= base_url() ?>assets/frontend/img/hangover-iv-drip.webp" alt="Pre/Post Party IV drip Dubai" class="img-fluid" loading="lazy"></a></div>
 
                     </div>
 
@@ -756,6 +963,9 @@
                             <span>From AED</span>
 
                             <h3>1,600* </h3>
+                            <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
+                                Book Now
+                            </a><br>
                             <i>* T&C apply</i> 
                         </div>
 
@@ -798,6 +1008,9 @@
                             <span>From AED</span>
 
                             <h3>1,900* </h3>
+                            <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
+                                Book Now
+                            </a><br>
                             <i>* T&C apply</i> 
                         </div>
 
@@ -840,6 +1053,9 @@
                             <span>From AED</span>
 
                             <h3>1,700*</h3>
+                            <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
+                                Book Now
+                            </a><br>
                             <i>* T&C apply</i> 
                         </div>
 
@@ -884,6 +1100,9 @@
                             <span>From AED</span>
 
                             <h3>1,600* </h3>
+                            <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
+                                Book Now
+                            </a><br>
                             <i>* T&C apply</i> 
                         </div>
 
@@ -925,6 +1144,9 @@
                     <span>From AED</span>
 
                     <h3>1,800* </h3>
+                    <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
+                                Book Now
+                            </a><br>
                     <i>* T&C apply</i> 
 
                 </div>
@@ -968,6 +1190,9 @@
                             <span>From AED</span>
 
                             <h3>1,500* </h3>
+                            <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
+                                Book Now
+                            </a><br>
                             <i>* T&C apply</i> 
 
                         </div>
@@ -1003,6 +1228,9 @@
                         <div class="price-blockl mt-3">
                             <span>From AED</span>
                             <h3>1,600*</h3>
+                            <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
+                                Book Now
+                            </a><br>
                             <i>* T&C apply</i>
                         </div>
 
@@ -1032,6 +1260,9 @@
                             <div class="price-blockl mt-3">
                                 <span>From AED</span>
                                 <h3>1,800*</h3>
+                                <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
+                                Book Now
+                                </a><br>
                                 <i>* T&C apply</i>
                             </div>
                         </div>
@@ -1046,7 +1277,7 @@
 
                         <div class="img">
                             <div class="img-inner">
-                                <a href="<?= base_url() ?>energy-focus-iv-drip"><img src="<?= base_url() ?>assets/frontend/img/energy-focus-iv-drip.webp" alt="Energy and Focus IV Drip Dubai" class="img-fluid" loading="lazy"></a>
+                                <a href="<?= base_url() ?>energy-focus-iv-drip"><img src="<?= base_url() ?>assets/frontend/img/energy-focus-iv-drip.webp" alt="Energy and Focus IV Drip Dubai, Hydration drip" class="img-fluid" loading="lazy"></a>
                             </div>
                         </div>
 
@@ -1063,6 +1294,9 @@
                             <div class="price-blockl mt-3">
                                 <span>From AED</span>
                                 <h3>1,100*</h3>
+                                <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
+                                Book Now
+                            </a><br>
                                 <i>* T&C apply</i>
                             </div>
                         </div>
@@ -1093,6 +1327,9 @@
                             <div class="price-blockl mt-3">
                                 <span>From AED</span>
                                 <h3>1,300*</h3>
+                                <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
+                                Book Now
+                            </a><br>
                                 <i>* T&C apply</i>
                             </div>
                         </div>
@@ -1135,6 +1372,9 @@
                             <span>From AED</span>
 
                             <h3>1,300* </h3>
+                            <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
+                                Book Now
+                            </a><br>
                             <i>* T&C apply</i> 
                         </div>
 
@@ -1167,7 +1407,11 @@
                         <div class="price-blockl mt-3">
                             <span>From AED</span>
                             <h3>1,600*</h3>
+                            <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
+                                Book Now
+                            </a><br>
                             <i>* T&C apply</i>
+                            
                         </div>
                     </div>
 
@@ -1226,7 +1470,7 @@
 
                     <p>IV Drip at Home services in Dubai offers convenient and personalized intravenous treatments in
 
-                        the comfort of your own residence. These services are provided by trained medical professionals
+                        the comfort of your own residence.Home IV drip Dubai appointments are available 24×7 for your convenience. These services are provided by trained medical professionals
 
                         who bring all the necessary equipment and supplies to administer intravenous therapies safely
 
@@ -1271,7 +1515,9 @@
                             </li>
 
                         </ul>
-
+                        <a class="primary-btn hvr-bounce-to-right green-btn my-3" href="<?= $whatsappHref ?>" target="_blank" style="">
+                                Book Your IV Drip Now
+                            </a>
                     </div>
 
                 </div>
@@ -1296,7 +1542,10 @@
 
         <h2>Professional IV Therapy at Home in Dubai</h2>
         
-        <p>Healthcarebia offers exceptional <strong>IV Therapy home service in Dubai</strong>, designed to deliver optimal wellness and convenience directly to your doorstep. Our skilled and DHA-certified medical team provides customized <strong>IV drips at home</strong>, making sure each therapy is tailored to your personal health and wellness goals. Experience revitalization, hydration, immunity boost, and enhanced energy levels through our trusted and convenient <strong>home IV therapy services</strong> across Dubai.</p>
+        <p>
+        Healthcarebia offers exceptional IV drip home service Dubai a convenient, clinical-grade
+        home IV therapy delivered by DHA-certified nurses. Whether you need a rapid hydration drip at home,a targeted vitamin IV drip at home, or ongoing wellness support, we tailor your IV drip at home to your goals. Searching for an IV treatment near me or IV therapy near me in Dubai? We come to you anywhere in the city for safe, effective care.
+        </p>
 
       </div>
 
@@ -1576,6 +1825,79 @@
     </div>
 
 </section>
+
+<section class="section-gap" id="contact_us" style="background-image: url(<?= base_url() ?>assets/frontend/img/iv-therapy-banner.webp); background-size: cover; background-position: left;">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-7" style="background-color: white">
+                  <div class="card-style6 p-5">
+                     <h4 class="mb-4">Book an Appointment</h4>
+                     <div class="row">
+                        <div class="col-md-12">
+                           <?php
+                              $form_index = 'appointment_form_iv_drip_page';
+                              
+                              ?>
+                           <form class="row request-form contact_form" method="post" id="form_<?= $form_index ?>">
+                              <div class="col-md-12 mb-3"><input class="form-input" type="text"
+                                 placeholder="Name"
+                                 name="fname" required="required"></div>
+                              <!-- <div class="col-md-12 mb-3"><input class="form-input" type="text"
+                                 placeholder="Last Name" name="lname"></div> -->
+                              <div class="col-md-12 mb-3"><input class="form-input" type="email" placeholder="Email"
+                                 name="email" required="required"></div>
+                              <div class="col-md-12 mb-3"><input class="form-input" type="text" placeholder="Phone"
+                                 name="phone"
+                                 onkeypress="return event.charCode >= 48 && event.charCode <= 57"
+                                 maxlength="13"></div>
+                              <div class="col-md-12 mb-3">
+                                <!-- <select name="customer_type" class="form-input" required>
+                                    <option value="" disabled selected>— Type —</option>
+                                    <option value="b2b">Business</option>
+                                    <option value="b2c">Consumer</option>
+                                </select> -->
+                              </div>
+                              <div class="col-md-12 mb-3"><textarea class="form-textarea" placeholder="Message"
+                                 name="message"></textarea>
+                              </div>
+                              <div class="col-md-12 mb-3">
+                                 <div class="row">
+                                    <div class="col-md-6">
+                                       <img src="<?= base_url() ?>mycaptcha/<?= $form_index ?>" width="100"
+                                          height="50" alt="Security Captcha Code">
+                                    </div>
+                                    <div class="col-md-6">
+                                       <input type="text" name="captcha" id="captcha" autocomplete="off"
+                                          class="form-input"
+                                          required placeholder="Enter Captcha Code *">
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-12 mb-3">
+                                 <input type="hidden" name="url_from" value="<?= current_url() ?>">
+                                 <input type="hidden" name="form_name" value="<?= $form_index ?>">
+                                 <input type="hidden" name="page_name" value="Contact Us Page">
+                                 <input type="hidden" name="source" value="">
+                                 <!-- <input class="primary-btn" type="submit" value="Submit"> -->
+                                 <button id="submit_<?= $form_index ?>"
+                                    class=" primary-btn hvr-bounce-to-right green-btn mt-2 primary-btn-submit"
+                                    type="submit" value="Submit"><span>Submit</span></button>
+                              </div>
+                              <div class="col-md-12">
+                                 <div style="font-weight:bold;color:#fb4c42; font-size: 17px !important;"
+                                    id="error_<?= $form_index ?>">
+                                 </div>
+                                 <div style="font-weight:bold;color:#7ac142; font-size: 17px !important;"
+                                    id="success_<?= $form_index ?>"></div>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
 
 
 

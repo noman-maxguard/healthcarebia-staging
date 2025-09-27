@@ -525,35 +525,31 @@
 
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>1</span>How can I schedule a doctor at home visit? </h5>
+                        <div class="accordion-item"><h5><span>1</span>How can I schedule a call with doctor? </h5>
 
                             <span class="plus-minus"></span></div>
 
-                        <div class="data" style="display: none;"><p>To schedule a doctor at home visit, simply contact
+                        <div class="data" style="display: none;"><p>To schedule a call, simply contact
 
-                                the Healthcarebia team and provide us with your location, preferred date, and time for
+                                the Healthcarebia team and provide us with your preferred date, and time for
 
-                                the visit.</p></div>
-
-                    </div>
-
-                    <div class="accordion-box">
-
-                        <div class="accordion-item"><h5><span>2</span>What conditions can be treated by a doctor at
-
-                                home?</h5>                                    <span class="plus-minus"></span></div>
-
-                        <div class="data"><p>A doctor at home can treat a wide range of conditions, including common
-
-                                illnesses, minor injuries, chronic conditions, and provide palliative care, among
-
-                                others.</p></div>
+                                the call.</p></div>
 
                     </div>
 
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>3</span>Is a doctor at home visit covered by insurance?
+                        <div class="accordion-item"><h5><span>2</span>What conditions can be treated by a doctor on call?</h5>                                    <span class="plus-minus"></span></div>
+
+                        <div class="data"><p>A doctor on call can treat a wide range of conditions, including common
+
+                                illnesses, provide prescription and more.</p></div>
+
+                    </div>
+
+                    <div class="accordion-box">
+
+                        <div class="accordion-item"><h5><span>3</span>Is a doctor on call covered by insurance?
 
                             </h5>                                    <span class="plus-minus"></span></div>
 
@@ -573,43 +569,37 @@
 
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>4</span>How long does a typical doctor at home visit last?
+                        <div class="accordion-item"><h5><span>4</span>How long does a typical doctor on call last?
 
                             </h5>                                            <span class="plus-minus"></span></div>
 
-                        <div class="data" style="display: none;"><p>The duration of a doctor at home visit can vary
+                        <div class="data" style="display: none;"><p>The duration of a call can vary
 
-                                depending on the complexity of the medical concern, but it typically lasts between 30
-
-                                minutes to an hour.</p></div>
+                                depending on the complexity of the medical concern, but it typically lasts between 15 to 30mins</p></div>
 
                     </div>
 
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>5</span>Can a doctor at home provide emergency medical
+                        <div class="accordion-item"><h5><span>5</span>Can a doctor on call provide emergency medical
 
                                 care?</h5>                                            <span class="plus-minus"></span>
 
                         </div>
 
-                        <div class="data"><p>While a doctor at home can provide immediate medical attention, it may not
-
-                                be suitable for emergencies. In case of a medical emergency, it is important to call
-
-                                emergency services or visit the nearest hospital.</p></div>
+                        <div class="data"><p>Our doctor on call service is for non emergencies. We can assess symptoms, begin basic treatment, and arrange urgent referrals if needed. For life threatening situations such as chest pain, severe shortness of breath, heavy bleeding, stroke symptoms, loss of consciousness, or major trauma, call ambulance immediately.</p></div>
 
                     </div>
 
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>6</span>Are doctor at home visits available during
+                        <div class="accordion-item"><h5><span>6</span>Is doctor on call available during
 
                                 weekends and holidays?</h5>                                            <span
 
                                     class="plus-minus"></span></div>
 
-                        <div class="data"><p>Yes, our doctor at home/ doctor on call service can be booked 7 days a
+                        <div class="data"><p>Yes, our doctor on call service can be booked 7 days a
 
                                 week, 365 days a year! Please check with a member of our team for the earliest
 

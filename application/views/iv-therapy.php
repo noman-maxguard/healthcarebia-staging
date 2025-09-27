@@ -1560,7 +1560,7 @@
 
     <div class="container">
 
-        <h2>FAQ's</h2>
+        <h2><h2>IV Therapy At Home in Dubai FAQs</h2></h2>
 
         <div class="row">
 
@@ -1570,7 +1570,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>1</span> How long does IV Therapy take?</h5>
+                            <h5><span>1</span>  How long does an IV drip take at home in Dubai?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -1580,7 +1580,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>2</span> Where can I have IV Therapy?</h5>
+                            <h5><span>2</span> Where can I have an IV drip in Dubai, at home, hotel, or office?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data">
@@ -1600,7 +1600,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>4</span> Can IV Therapy Be Customized?</h5>
+                            <h5><span>4</span> Can I customize my IV drip at home?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data">
@@ -1619,7 +1619,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>6</span> Who is an ideal candidate for IV therapy?</h5>
+                            <h5><span>6</span> Who is an ideal candidate for IV therapy at home?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data">
@@ -1637,7 +1637,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>7</span> How soon can I see effects?</h5>
+                            <h5><span>7</span> How soon can I feel the effects of an IV drip?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data">
@@ -1647,7 +1647,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>8</span> Does it hurt and is it safe?</h5>
+                            <h5><span>8</span> Does an IV drip hurt, and is it safe?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data">

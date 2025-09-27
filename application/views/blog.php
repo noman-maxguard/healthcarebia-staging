@@ -50,6 +50,19 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>food-intolerance-test-dubai-blog" class="card-style3 card-style4 same">
+                    <img
+                    src="<?= base_url() ?>assets/frontend/img/blog39.jpg"
+                    alt="Food Intolerance Test Dubai: Symptoms, Science, and Smart Next Steps"
+                    class="img-fluid"
+                    loading="lazy"
+                    >
+                    <h6>Food Intolerance Test Dubai</h6>
+                    <p>Identify triggers behind bloating, headaches, and skin flares with smart testing, a 4-week plan, and at-home lab options in Dubai.</p>
+                </a>
+            </div>
+
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>digital-transformation-healthcare-dubai-blog" class="card-style3 card-style4 same">
                     <img
                         src="<?= base_url() ?>assets/frontend/img/blog38.jpg"

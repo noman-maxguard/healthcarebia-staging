@@ -102,7 +102,7 @@ $config['charset'] = 'UTF-8';
 | setting this variable to TRUE (boolean).  See the user guide for details.
 |
 */
-$config['enable_hooks'] = FALSE;
+$config['enable_hooks'] = TRUE;
 
 /*
 |--------------------------------------------------------------------------
@@ -225,7 +225,7 @@ $config['allow_get_array'] = TRUE;
 | your log files will fill up very fast.
 |
 */
-$config['log_threshold'] = 2;
+$config['log_threshold'] = 3;
 
 /*
 |--------------------------------------------------------------------------
@@ -379,7 +379,8 @@ $config['encryption_key'] = '';
 | except for 'cookie_prefix' and 'cookie_httponly', which are ignored here.
 |
 */
-
+// $config['sess_driver'] = 'files';
+// $config['sess_save_path'] = 'ci_sessions';
 //$config['sess_driver'] = 'database';
 //$config['sess_cookie_name'] = 'ci_session';
 //$config['sess_expiration'] = 7200;

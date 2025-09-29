@@ -161,6 +161,63 @@
     </div>
 
 </section>
+<section class="faq-block section-gap">
+  <div class="container">
+    <h2 style="font-size: 32px; color: var(--green)">Find answers to the most frequently asked questions here.</h2>
+    <div class="row">
+      <!-- Column 1 -->
+      <div class="col-md-6">
+        <div class="accordion pt-md-3">
+          <div class="accordion-box">
+            <div class="accordion-item">
+              <h5><span>1</span>What can a DNA health test actually tell me?</h5>
+              <span class="plus-minus"></span>
+            </div>
+            <div class="data" style="display: none;">
+              <p>Our DNA reports focus on health-related insights such as nutrition and micronutrient needs, detox capacity, fitness recovery, sleep, and skin aging markers. They do <strong>not</strong> diagnose disease; instead, they guide lifestyle, diet, and supplement plans that you can review with a clinician.</p>
+            </div>
+          </div>
+
+          <div class="accordion-box">
+            <div class="accordion-item">
+              <h5><span>2</span>How is the sample collected and how long do results take?</h5>
+              <span class="plus-minus"></span>
+            </div>
+            <div class="data" style="display: none;">
+              <p>We use a painless cheek swab or saliva kit, no blood needed. Collection takes under two minutes. Typical turnaround is <strong>2–3 weeks</strong> from lab receipt, after which you’ll receive a secure digital report and a consult to translate results into an action plan.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Column 2 -->
+      <div class="col-md-6">
+        <div class="accordion pt-md-3">
+          <div class="accordion-box">
+            <div class="accordion-item">
+              <h5><span>3</span>Is DNA testing accurate and is my data private?</h5>
+              <span class="plus-minus"></span>
+            </div>
+            <div class="data" style="display: none;">
+              <p>We partner with accredited labs that use validated genotyping methods. Accuracy for reported variants is typically &gt;99%. Your data is encrypted, stored on secure servers, and never shared without your written consent. You can request deletion of raw data at any time.</p>
+            </div>
+          </div>
+
+          <div class="accordion-box">
+            <div class="accordion-item">
+              <h5><span>4</span>Can children take a DNA test and will it affect insurance or employment?</h5>
+              <span class="plus-minus"></span>
+            </div>
+            <div class="data" style="display: none;">
+              <p>Yes—minors can test with a parent/guardian’s consent, mainly for nutrition and wellness insights. Results are for personal health optimisation and are not shared with employers or insurers. We follow strict consent and privacy policies to protect your family’s information.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /Column 2 -->
+    </div>
+  </div>
+</section>
 
 
 

@@ -50,6 +50,19 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>skin-health-iv-nutrients-collagen-antioxidants-blog" class="card-style3 card-style4 same">
+                    <img
+                    src="<?= base_url() ?>assets/frontend/img/healthy-skin-hair.png"
+                    alt="Skin Health from Within: IV Nutrients, Collagen, and Antioxidants"
+                    class="img-fluid"
+                    loading="lazy"
+                    >
+                    <h6>Skin Health from Within</h6>
+                    <p>How vitamin C, amino acids, B-complex, zinc, magnesium, and NAD+ IV therapy support collagen, glow, and recovery at the comfort of your home.</p>
+                </a>
+            </div>
+
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>food-intolerance-test-dubai-blog" class="card-style3 card-style4 same">
                     <img
                     src="<?= base_url() ?>assets/frontend/img/blog39.jpg"
@@ -259,9 +272,7 @@
                     <p>10 practical habits to boost energy, focus, and resilience,  plus how IV therapy and at-home health services fit a busy schedule.</p>
                 </a>
             </div>
-            
-
-
+    
             <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>iv-drips-tourists-dubai-blog" class="card-style3 card-style4 same">
                     <img
@@ -400,13 +411,14 @@
                     <p>Learn how NAD+ infusion helps CEOs maintain mental clarity, combat fatigue, and excel at multitasking.</p>
                 </a>
             </div>
-            <div class="col-md-3 mb-3"><a href="<?= base_url() ?>iv-therapy-for-healthy-skin-and-hair"
+            <!-- <div class="col-md-3 mb-3"><a href="<?= base_url() ?>iv-therapy-for-healthy-skin-and-hair"
                                           class="card-style3 card-style4 same"> <img
                             src="<?= base_url() ?>assets/frontend/img/healthy-skin-hair.png"
                             alt="" class="img-fluid">
                     <h6>Beauty from the Inside Out: IV Therapy for Healthy Skin and Hair</h6>
                     <p>In the pursuit of radiant skin, lustrous hair, and overall beauty, many people turn to topical
-                        treatments and cosmetic procedures.</p></a></div>
+                        treatments and cosmetic procedures.</p></a>
+            </div> -->
             <div class="col-md-3 mb-3"><a href="<?= base_url() ?>power-of-nad-iv-drips"
                                           class="card-style3 card-style4 same"> <img
                             src="<?= base_url() ?>assets/frontend/img/blog2.png" alt="" class="img-fluid">

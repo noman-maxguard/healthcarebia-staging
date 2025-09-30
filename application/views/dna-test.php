@@ -187,6 +187,16 @@
               <p>We use a painless cheek swab or saliva kit, no blood needed. Collection takes under two minutes. Typical turnaround is <strong>2–3 weeks</strong> from lab receipt, after which you’ll receive a secure digital report and a consult to translate results into an action plan.</p>
             </div>
           </div>
+
+          <div class="accordion-box">
+            <div class="accordion-item">
+              <h5><span>3</span>Do I need to prepare in any way before providing a DNA sample?</h5>
+              <span class="plus-minus"></span>
+            </div>
+            <div class="data" style="display: none;">
+              <p>No fasting or special preparation is required. We simply ask that you avoid eating, drinking, smoking, or chewing gum for at least 30 minutes before providing the saliva or cheek swab sample to ensure accuracy.</p>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -195,7 +205,7 @@
         <div class="accordion pt-md-3">
           <div class="accordion-box">
             <div class="accordion-item">
-              <h5><span>3</span>Is DNA testing accurate and is my data private?</h5>
+              <h5><span>4</span>Is DNA testing accurate and is my data private?</h5>
               <span class="plus-minus"></span>
             </div>
             <div class="data" style="display: none;">
@@ -205,11 +215,21 @@
 
           <div class="accordion-box">
             <div class="accordion-item">
-              <h5><span>4</span>Can children take a DNA test and will it affect insurance or employment?</h5>
+              <h5><span>5</span>Can children take a DNA test and will it affect insurance or employment?</h5>
               <span class="plus-minus"></span>
             </div>
             <div class="data" style="display: none;">
               <p>Yes—minors can test with a parent/guardian’s consent, mainly for nutrition and wellness insights. Results are for personal health optimisation and are not shared with employers or insurers. We follow strict consent and privacy policies to protect your family’s information.</p>
+            </div>
+          </div>
+
+          <div class="accordion-box">
+            <div class="accordion-item">
+              <h5><span>6</span>Will I need to repeat a DNA test in the future?</h5>
+              <span class="plus-minus"></span>
+            </div>
+            <div class="data" style="display: none;">
+              <p>No, your core DNA does not change over time, so the test is typically done once in a lifetime. However, science evolves, and new markers may be added. You may choose to re-test in the future to access updated panels or improved reporting technologies.</p>
             </div>
           </div>
         </div>
@@ -218,6 +238,7 @@
     </div>
   </div>
 </section>
+
 
 
 

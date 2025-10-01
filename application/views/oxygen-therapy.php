@@ -214,6 +214,57 @@
     <div class="col-md-12 text-center"><img src="<?= base_url() ?>assets/frontend/img/oxygen-img1.webp" alt="Oxygen Therapy Dubai" class="img-fluid"></div>
 
 </section>
+<section class="faq-block section-gap">
+  <div class="container">
+    <h2 style="font-size: 32px; color: var(--green)">Find answers to the most frequently asked questions here.</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="accordion pt-md-3">
+          <div class="accordion-box">
+            <div class="accordion-item">
+              <h5><span>1</span>What is hyperbaric oxygen therapy and how does it work?</h5>
+              <span class="plus-minus"></span>
+            </div>
+            <div class="data" style="display: none;">
+              <p>Hyperbaric oxygen therapy (HBOT) delivers 100% oxygen in a pressurized chamber. This increases oxygen absorption in the blood and tissues, accelerating healing, boosting energy, and reducing inflammation.</p>
+            </div>
+          </div>
+          <div class="accordion-box">
+            <div class="accordion-item">
+              <h5><span>2</span>Is oxygen therapy safe for everyone?</h5>
+              <span class="plus-minus"></span>
+            </div>
+            <div class="data" style="display: none;">
+              <p>Yes, oxygen therapy is safe when supervised by licensed clinicians. However, people with certain lung, ear, or heart conditions should undergo a medical evaluation before starting HBOT sessions in Dubai.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="accordion pt-md-3">
+          <div class="accordion-box">
+            <div class="accordion-item">
+              <h5><span>3</span>What conditions can oxygen therapy help with?</h5>
+              <span class="plus-minus"></span>
+            </div>
+            <div class="data" style="display: none;">
+              <p>Oxygen therapy is commonly used for post-surgery recovery, fatigue, jet lag, migraines, skin rejuvenation, and athletic recovery. It may also support patients with chronic wounds, low oxygen levels, or immune challenges.</p>
+            </div>
+          </div>
+          <div class="accordion-box">
+            <div class="accordion-item">
+              <h5><span>4</span>How many oxygen therapy sessions do I need?</h5>
+              <span class="plus-minus"></span>
+            </div>
+            <div class="data" style="display: none;">
+              <p>Most clients feel results after a single session, but long-term benefits usually require a course of 5–10 treatments. The exact number depends on your health goals and your doctor’s recommendations.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 <?php include 'includes/inc_footer.php'; ?>

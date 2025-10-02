@@ -218,6 +218,7 @@
   <div class="container">
     <h2 style="font-size: 32px; color: var(--green)">Find answers to the most frequently asked questions here.</h2>
     <div class="row">
+      <!-- Left column (3 items) -->
       <div class="col-md-6">
         <div class="accordion pt-md-3">
           <div class="accordion-box">
@@ -229,6 +230,7 @@
               <p>Hyperbaric oxygen therapy (HBOT) delivers 100% oxygen in a pressurized chamber. This increases oxygen absorption in the blood and tissues, accelerating healing, boosting energy, and reducing inflammation.</p>
             </div>
           </div>
+
           <div class="accordion-box">
             <div class="accordion-item">
               <h5><span>2</span>Is oxygen therapy safe for everyone?</h5>
@@ -238,26 +240,49 @@
               <p>Yes, oxygen therapy is safe when supervised by licensed clinicians. However, people with certain lung, ear, or heart conditions should undergo a medical evaluation before starting HBOT sessions in Dubai.</p>
             </div>
           </div>
+
+          <div class="accordion-box">
+            <div class="accordion-item">
+              <h5><span>3</span>How long does a session take and what should I expect?</h5>
+              <span class="plus-minus"></span>
+            </div>
+            <div class="data" style="display: none;">
+              <p>Typical sessions last 45–90 minutes. You’ll relax inside a pressurized chamber while breathing oxygen; you may feel mild ear pressure (like during a flight) that eases with swallowing or yawning.</p>
+            </div>
+          </div>
         </div>
       </div>
+
+      <!-- Right column (3 items) -->
       <div class="col-md-6">
         <div class="accordion pt-md-3">
           <div class="accordion-box">
             <div class="accordion-item">
-              <h5><span>3</span>What conditions can oxygen therapy help with?</h5>
+              <h5><span>4</span>What conditions can oxygen therapy help with?</h5>
               <span class="plus-minus"></span>
             </div>
             <div class="data" style="display: none;">
               <p>Oxygen therapy is commonly used for post-surgery recovery, fatigue, jet lag, migraines, skin rejuvenation, and athletic recovery. It may also support patients with chronic wounds, low oxygen levels, or immune challenges.</p>
             </div>
           </div>
+
           <div class="accordion-box">
             <div class="accordion-item">
-              <h5><span>4</span>How many oxygen therapy sessions do I need?</h5>
+              <h5><span>5</span>How many oxygen therapy sessions do I need?</h5>
               <span class="plus-minus"></span>
             </div>
             <div class="data" style="display: none;">
               <p>Most clients feel results after a single session, but long-term benefits usually require a course of 5–10 treatments. The exact number depends on your health goals and your doctor’s recommendations.</p>
+            </div>
+          </div>
+
+          <div class="accordion-box">
+            <div class="accordion-item">
+              <h5><span>6</span>Are there any side effects or who should avoid HBOT?</h5>
+              <span class="plus-minus"></span>
+            </div>
+            <div class="data" style="display: none;">
+              <p>Minor, temporary effects can include ear discomfort, sinus pressure, or light fatigue. HBOT isn’t suitable for untreated pneumothorax and may be deferred with active ear infections, recent ear surgery, or severe COPD—your clinician will screen you first.</p>
             </div>
           </div>
         </div>
@@ -265,6 +290,9 @@
     </div>
   </div>
 </section>
+
+
+
 
 
 <?php include 'includes/inc_footer.php'; ?>

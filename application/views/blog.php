@@ -50,6 +50,32 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>gut-health-energy-blog" class="card-style3 card-style4 same">
+                    <img
+                    src="<?= base_url() ?>assets/frontend/img/blog20.jpg"
+                    alt="The Link Between Gut Health and Energy: The Science You Need to Know"
+                    class="img-fluid"
+                    loading="lazy"
+                    >
+                    <h6>Gut Health and Energy</h6>
+                    <p>How the microbiome affects energy, focus, and mood, plus practical steps to improve digestion and vitality in Dubai.</p>
+                </a>
+            </div>
+
+            <!-- <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>preventive-health-essential-blood-tests-dubai-blog" class="card-style3 card-style4 same">
+                    <img
+                        src="<?= base_url() ?>assets/frontend/img/blood-test-dubai.png"
+                        alt="Preventive Health in Dubai: The Essential Blood Test Guide"
+                        class="img-fluid"
+                        loading="lazy"
+                    >
+                    <h6>Preventive Health in Dubai</h6>
+                    <p>Discover the core blood panels, useful add-ons, testing frequency, and how IV therapy fits into preventive health for busy Dubai professionals.</p>
+                </a>
+            </div> -->
+
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>skin-health-iv-nutrients-collagen-antioxidants-blog" class="card-style3 card-style4 same">
                     <img
                     src="<?= base_url() ?>assets/frontend/img/healthy-skin-hair.png"
@@ -88,7 +114,7 @@
                 </a>
             </div>
 
-            <div class="col-md-3 mb-3">
+            <!-- <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>regular-blood-tests-preventive-health-blog" class="card-style3 card-style4 same">
                     <img
                         src="<?= base_url() ?>assets/frontend/img/blog17.jpg"
@@ -99,7 +125,7 @@
                     <h6>Why Regular Blood Tests Are Essential for Preventive Health</h6>
                     <p>Discover why routine blood tests every 6–12 months are key to preventive health, early detection, and personalized wellness in Dubai.</p>
                 </a>
-            </div>
+            </div> -->
 
             <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>hair-loss-causes-treatments-dubai-blog" class="card-style3 card-style4 same">
@@ -324,7 +350,7 @@
                 </a>
             </div>
 
-            <div class="col-md-3 mb-3">
+            <!-- <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>gut-health-iv-drip-dubai" class="card-style3 card-style4 same">
                     <img src="<?= base_url() ?>assets/frontend/img/blog20.jpg"
                         alt="Gut Health IV Drip in Dubai: Fast Relief for Digestive Health"
@@ -332,7 +358,7 @@
                     <h6>Gut Health IV Drip in Dubai</h6>
                     <p>Rapid relief from acidity, indigestion, and bloating with DHA-certified at-home IV therapy to restore balance and improve digestive health.</p>
                 </a>
-            </div>
+            </div> -->
 
             <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>iv-drip-therapy-dubai-blog" class="card-style3 card-style4 same">

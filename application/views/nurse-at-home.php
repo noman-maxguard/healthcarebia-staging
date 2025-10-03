@@ -386,6 +386,43 @@
     </div>
 
 </section>
+<section class="faq-block section-gap">
+  <div class="container">
+    <h2 style="font-size: 32px; color: var(--green)">Find answers to common questions about our Nurse at Home service.</h2>
+    <div class="row">
+      <!-- Left column (1 item) -->
+      <div class="col-md-6">
+        <div class="accordion pt-md-3">
+          <div class="accordion-box">
+            <div class="accordion-item">
+              <h5><span>1</span>What does the Nurse at Home service include?</h5>
+              <span class="plus-minus"></span>
+            </div>
+            <div class="data" style="display: none;">
+              <p>Our registered nurses provide vital sign checks, wound care and dressing changes, injections, IV cannulation, IV therapy administration, medication administration as prescribed, catheter care, diabetic care, post operative support, elderly care, basic mobility assistance, and caregiver training. We can also coordinate doctor on call and lab tests at home when needed.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right column (1 item) -->
+      <div class="col-md-6">
+        <div class="accordion pt-md-3">
+          <div class="accordion-box">
+            <div class="accordion-item">
+              <h5><span>2</span>How do I book and how fast can a nurse arrive?</h5>
+              <span class="plus-minus"></span>
+            </div>
+            <div class="data" style="display: none;">
+              <p>Book by phone or WhatsApp with your location, preferred time, and the service you need. Same day visits are usually available across most Dubai areas. For urgent needs we prioritize the closest available nurse and confirm the estimated arrival time during booking.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
 
 

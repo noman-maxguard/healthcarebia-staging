@@ -5,9 +5,19 @@ document.addEventListener("DOMContentLoaded", function () {
   if (!nav) return;
   const path = window.location.pathname.replace(/\/+$/, "");
   const isHome = path === "" || path === "/" || path === "/index.html";
+  const isCorporateWellness = path === "/corporate-wellness";
+  const isPartnerShip = path === "/partnership";
 
   if (!isHome) {
     nav.classList.add("color");
+  }
+
+  if (isCorporateWellness) {
+    nav.classList.add("brown");
+  }
+
+  if (isPartnerShip) {
+    nav.classList.add("brown");
   }
 
   const applyScrollState = () => {

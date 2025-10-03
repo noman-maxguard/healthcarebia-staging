@@ -7,9 +7,6 @@ require("dotenv").config();
 // const multer = require("multer");
 // const upload = multer();
 
-router.get("/test", (req, res) => {
-  res.render("test");
-});
 router.get("/", (req, res) => {
   res.render("home");
 });
@@ -321,5 +318,11 @@ router.post("/talk-to-us", async (req, res) => {
     res.status(500).send("Something went wrong, try refreshing and submitting the form again.");
     console.log(error);
   }
+});
+router.get("/corporate-wellness", (req, res) => {
+  res.render("corporate-wellness");
+});
+router.get("/partnership", (req, res) => {
+  res.render("partnership");
 });
 module.exports = router;

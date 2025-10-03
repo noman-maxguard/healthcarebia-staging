@@ -1,0 +1,144 @@
+.partnership-pillars {
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(/assets/img/partnership-pillars-bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.partnership-pillars h1 {
+  color: #422b1c;
+  margin: 50px 30px 30px 30px;
+  text-align: center;
+}
+
+.partnership-pillars p {
+  color: #422b1c;
+  text-align: center;
+  margin: 0 20px 20px 20px;
+  font-style: italic;
+  width: 70%;
+}
+
+.partnership-pillars-block {
+  padding: 50px;
+}
+
+.pillar-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dedbd3;
+  border-radius: 15px;
+  min-height: 300px;
+}
+
+.pillar-item h5 {
+  font-family: var(--body);
+  font-size: 1.1em;
+  font-style: italic;
+  color: #422b1c;
+  text-align: center;
+  font-weight: 700;
+}
+
+.pillar-item p {
+  color: #422b1c;
+  text-align: center;
+  font-style: italic;
+}
+
+.partnership-types {
+  padding: 2em;
+}
+
+/* .partnership-types * {
+  border: 1px solid
+} */
+.partnership-types h1 {
+  color: #422b1c;
+  margin: 50px 30px 30px 30px;
+  text-align: center;
+}
+
+.partnership-type-item {
+  height: 200px;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  border-radius: 15px;
+  padding: 10px
+}
+
+.partnership-type-item-col {
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  padding: 20px;
+  width: 250px;
+  border-radius: 15px;
+  margin: 10px;
+  margin-left: 0;
+  padding: 10px
+}
+
+.partnership-type-description h5,
+.partnership-type-description p {
+  color: white
+}
+
+.partnership-type-description h5 {
+  font-size: 1.1em;
+  font-family: var(--body);
+  font-weight: 700;
+  font-style: italic;
+}
+
+.partnership-type-description p {
+  font-style: italic
+}
+
+.commitment {
+  min-height: 400px;
+  background-image: url(/assets/img/commitment-section-banner.webp);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.commitment h1 {
+  color: white;
+  text-align: center;
+}
+
+.commitment p {
+  color: white;
+  font-style: italic;
+  width: 70%;
+  text-align: center;
+}
+
+.commitment a {
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4));
+  color: white !important;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+
+.commitment a:hover {
+  background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6));
+  color: white !important;
+  text-decoration: none;
+}

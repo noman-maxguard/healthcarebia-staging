@@ -458,8 +458,8 @@
                 </ul>
                 <div class="social-media mt-3">
                     <ul>
-                    <li><a aria-label="facebook" href="https://www.facebook.com/people/Healthcarebia/100091624650304/" target="_blank"><i class="fab fa-facebook-f hvr-fade hv-opcity"></i></a></li>
-                    <li><a aria-label="instagram" href="https://www.instagram.com/p/CozTOq6pIPZ/" target="_blank"><i class="fab fa-instagram hvr-fade hv-opcity"></i></a></li>
+                    <li><a aria-label="facebook" href="https://www.facebook.com/healthcarebia/" target="_blank"><i class="fab fa-facebook-f hvr-fade hv-opcity"></i></a></li>
+                    <li><a aria-label="instagram" href="https://www.instagram.com/healthcarebia" target="_blank"><i class="fab fa-instagram hvr-fade hv-opcity"></i></a></li>
                     <li><a aria-label="linkedin" href="https://www.linkedin.com/company/healthcarebia/" target="_blank"><i class="fab fa-linkedin-in hvr-fade hv-opcity"></i></a></li>
                     </ul>
                 </div>

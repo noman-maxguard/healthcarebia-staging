@@ -1075,7 +1075,7 @@
 
                         <div class="img-inner">
                             
-                        <a href="<?= base_url() ?>iv-drip-dubai"><img src="<?= base_url() ?>assets/frontend/img/beauty-iv-drip.webp" alt="Beauty IV Drip Dubai" class="img-fluid" loading="lazy"></a>
+                        <a href="<?= $whatsappHref ?>"><img src="<?= base_url() ?>assets/frontend/img/beauty-iv-drip.webp" alt="Beauty IV Drip Dubai" class="img-fluid" loading="lazy"></a>
                     
                     </div>
 
@@ -1119,7 +1119,7 @@
 
                 <div class="img-inner">
                     
-                    <a href="<?= base_url() ?>iv-drip-dubai"><img src="<?= base_url() ?>assets/frontend/img/cold-flu-iv-drip.webp" alt="Cold Flu IV Drip Dubai" class="img-fluid" loading="lazy"></a>
+                    <a href="<?= $whatsappHref ?>"><img src="<?= base_url() ?>assets/frontend/img/cold-flu-iv-drip.webp" alt="Cold Flu IV Drip Dubai" class="img-fluid" loading="lazy"></a>
                 
                 </div>
 
@@ -1165,7 +1165,7 @@
 
                         <div class="img-inner">
                             
-                            <a href="<?= base_url() ?>iv-drip-dubai"><img src="<?= base_url() ?>assets/frontend/img/jet-lag-iv-drip.webp" alt="Jet Lag IV Drip Dubai" class="img-fluid" loading="lazy"></a>
+                            <a href="<?= $whatsappHref ?>"><img src="<?= base_url() ?>assets/frontend/img/jet-lag-iv-drip.webp" alt="Jet Lag IV Drip Dubai" class="img-fluid" loading="lazy"></a>
                         
                         </div>
 
@@ -1210,7 +1210,7 @@
                     <div class="img">
                         <div class="img-inner">
                             
-                            <a href="<?= base_url() ?>iv-drip-dubai"><img src="<?= base_url() ?>assets/frontend/img/weight-loss-iv-drip.webp" alt="Weight Loss IV Drip Dubai" class="img-fluid" loading="lazy"></a>
+                            <a href="<?= $whatsappHref ?>"><img src="<?= base_url() ?>assets/frontend/img/weight-loss-iv-drip.webp" alt="Weight Loss IV Drip Dubai" class="img-fluid" loading="lazy"></a>
                             
                         </div>
                     </div>
@@ -1246,7 +1246,7 @@
 
                         <div class="img">
                             <div class="img-inner">
-                                <a href="<?= base_url() ?>iv-drip-dubai"><img src="<?= base_url() ?>assets/frontend/img/sunburn-iv-drip.webp" alt="Sunburn IV Drip Dubai" class="img-fluid" loading="lazy"></a>
+                                <a href="<?= $whatsappHref ?>"><img src="<?= base_url() ?>assets/frontend/img/sunburn-iv-drip.webp" alt="Sunburn IV Drip Dubai" class="img-fluid" loading="lazy"></a>
                             </div>
                         </div>
 
@@ -1347,7 +1347,7 @@
 
                         <div class="img-inner">
                             
-                            <a href="<?= base_url() ?>iv-drip-dubai"><img src="<?= base_url() ?>assets/frontend/img/ultra-detox.webp" alt="Ultra Detox IV Drip Dubai" class="img-fluid" loading="lazy"></a>
+                            <a href="<?= $whatsappHref ?>"><img src="<?= base_url() ?>assets/frontend/img/ultra-detox.webp" alt="Ultra Detox IV Drip Dubai" class="img-fluid" loading="lazy"></a>
                     
                         </div>
 
@@ -1426,7 +1426,7 @@
 
                     <div class="img">
                         <div class="img-inner">
-                            <a href="<?= base_url() ?>iv-drip-dubai"><img src="<?= base_url() ?>assets/frontend/img/custom-iv-drip.webp" alt="Custom IV Drip Dubai" class="img-fluid" loading="lazy"></a>
+                            <a href="<?= $whatsappHref ?>"><img src="<?= base_url() ?>assets/frontend/img/custom-iv-drip.webp" alt="Custom IV Drip Dubai" class="img-fluid" loading="lazy"></a>
                         </div>
                     </div>
 

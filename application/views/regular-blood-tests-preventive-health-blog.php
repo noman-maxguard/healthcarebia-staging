@@ -1,9 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Why Regular Blood Tests Are Essential for Preventive Health | Healthcarebia</title>
-    <meta name="description" content="Learn why regular blood tests every 6–12 months are crucial for preventive health. Discover early detection, essential test panels, and at-home blood test services in Dubai.">
-    <meta name="keywords" content="blood test Dubai, preventive health checkup, lab test at home Dubai, CBC test Dubai, cholesterol test Dubai, STD testing Dubai, DNA test Dubai, preventive healthcare UAE">
 
     <!-- Structured data -->
     <script type="application/ld+json">

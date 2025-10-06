@@ -1,9 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Understanding Hair Loss: Causes, Treatments, and Innovative Solutions in Dubai</title>
-    <meta name="description" content="Explore the causes of hair loss and discover advanced treatments in Dubai, from DNA testing to IV drip therapy. Learn how Healthcarebia helps restore both hair and confidence.">
-    <meta name="keywords" content="hair loss Dubai, alopecia Dubai, hair thinning treatment, DNA testing Dubai, IV drip for hair growth, glutathione IV drip Dubai, Myers cocktail Dubai, NAD IV therapy Dubai, IV drip home service Dubai">
+    
 
     <!-- Structured data -->
     <script type="application/ld+json">

@@ -1,9 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Is IV Drip Therapy Safe and Legal in Dubai?</title>
-    <meta name="description" content="Explore the safety, legality, and myths surrounding IV drip therapy in Dubai. Learn DHA guidelines, scientific evidence, and tips for safe IV treatment.">
-    <meta name="keywords" content="IV drip Dubai, DHA licensed IV clinic, IV therapy regulation Dubai, vitamin IV safety, IV infusion UAE, IV drip risks">
 
     <script type="application/ld+json">
 {

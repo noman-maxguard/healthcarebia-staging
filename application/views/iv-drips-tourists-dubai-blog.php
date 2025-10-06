@@ -1,10 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Why Tourists Are Getting Hooked on IV Drips in Dubai</title>
-    <meta name="description" content="Discover why tourists in Dubai are turning to IV drips for fast recovery, hydration, and energy. Learn how Healthcarebia makes IV drip therapy convenient and affordable for travelers.">
-    <meta name="keywords" content="IV drip Dubai, IV drip for tourists, hydration drip Dubai, vitamin drip Dubai, IV therapy Dubai, jet lag IV drip Dubai, wellness tourism Dubai, IV drip at hotel Dubai">
-
+    
     <!-- Structured data -->
     <script type="application/ld+json">
 {

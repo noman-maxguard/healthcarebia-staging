@@ -1,9 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>IV Drip Therapy for Athletes Dubai | Enhance Performance & Recovery</title>
-    <meta name="description" content="Discover how IV drip therapy helps Dubai athletes beat dehydration, recover faster, and perform at their best in the desert heat. Learn hydration science, recovery tips, and DHA-approved safety standards.">
-    <meta name="keywords" content="iv drip therapy dubai, athletic recovery dubai, sports hydration iv, magnesium iv dubai, performance drip dubai, recovery iv, custom blood test dubai, IV vitamin dubai">
 
     <script type="application/ld+json">
 {

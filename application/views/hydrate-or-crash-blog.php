@@ -1,9 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Hydrate or Crash: IV Drips—The Ultimate Summer Recovery Tool in Dubai</title>
-    <meta name="description" content="Dubai’s 45 °C summers sap water and electrolytes fast. Discover how DHA-licensed, NABIDH-compliant at-home IV drips keep you safe, hydrated, and energized—without leaving your AC.">
-    <meta name="keywords" content="IV drip Dubai, summer hydration IV, DHA licensed IV, NABIDH IV therapy, Sheryan nurses, electrolyte drip Dubai, heat recovery">
+    
 
     <!-- Structured data -->
     <script type="application/ld+json">

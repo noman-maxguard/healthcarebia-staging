@@ -1,9 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Annual Health Checkups: What Tests Actually Matter</title>
-    <meta name="description" content="A simple, age-by-age roadmap to annual health checkups: which tests actually matter, how often to do them, and when at-home healthcare and home lab tests make sense.">
-    <meta name="keywords" content="annual health checkup Dubai, preventive healthcare, home lab tests, lipid profile, HbA1c, blood pressure screening, mammogram, colonoscopy, FIT test, PSA test, DEXA scan, vaccination schedule, at-home healthcare, NABIDH, DHA licensed">
 
     <!-- Structured data -->
     <script type="application/ld+json">

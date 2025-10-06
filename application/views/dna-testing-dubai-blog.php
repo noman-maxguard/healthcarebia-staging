@@ -1,9 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>DNA Testing in Dubai: A Smarter Approach to Health</title>
-    <meta name="description" content="Discover how DNA testing in Dubai helps identify health risks, vitamin deficiency symptoms, immune responses, and lifestyle insights. Licensed medical centers and at-home services make testing private and convenient.">
-    <meta name="keywords" content="dna testing in dubai, dna test dubai, genetic testing dubai, healthcare services at home, preventive healthcare, vitamin d deficiency uae, immune booster iv drip, hydration iv drip, nad+ iv therapy, iv therapy for professionals, vitamin deficiency symptoms, vitamin c iv therapy, myers’ cocktail iv drip, glutathione iv drip, iv vitamin therapy dubai, overall health, risk factors, medical conditions, iv infusion, immune cells, healthcare professionals, immune responses, immunity boost, iv fluid, health condition, iv drip therapy, reduce inflammation, weakened immune, anti ageing, allergic reactions">
 
     <!-- Structured data -->
     <script type="application/ld+json">

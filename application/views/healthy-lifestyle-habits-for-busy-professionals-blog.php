@@ -1,10 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Top 10 Healthy Lifestyle Habits for Busy Professionals</title>
-    <meta name="description" content="Busy schedule? Stay energized and resilient with these 10 healthy lifestyle habits for professionals—covering hydration, sleep, nutrition, stress, exercise, and modern wellness tools like IV therapy and home lab tests.">
-    <meta name="keywords" content="healthy lifestyle habits, wellness tips for professionals, iv drip therapy, nad+ iv therapy, at-home healthcare, hydration iv drip, immune booster iv drip, home lab tests, sleep iv drip, vitamin deficiency symptoms, energy iv drip, preventive healthcare, best iv therapy, iv therapy for professionals, healthcare services at home, overall health, medical conditions, oral supplements, iv fluid, Myers Cocktail, anti aging, high blood pressure, health benefits, heart disease, energy boosts, medical professionals, reduce stress, health issues, registered nurse, reduces inflammation, mental health, fruits and vegetables, vitamin IVs, anti inflammatory, stay healthy">
-
+    
     <!-- Structured data -->
     <script type="application/ld+json">
 {

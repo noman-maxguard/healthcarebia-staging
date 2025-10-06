@@ -2,9 +2,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Gut Health IV Drip in Dubai: Fast Relief for Digestive Health</title>
-    <meta name="description" content="Discover how a DHA-certified at-home Gut Health IV Drip in Dubai can deliver rapid relief from indigestion, and bloating while repairing the stomach lining and improving nutrient absorption.">
-    <meta name="keywords" content="Gut Health IV Drip, digestive health, relief, indigestion, bloating, repair stomach lining, nutrient absorption, IV therapy home service, trace minerals, DHA certified, at home IV therapy Dubai, rapid relief, IV infusion therapy">
+    
 
     <!-- Structured data -->
     <script type="application/ld+json">

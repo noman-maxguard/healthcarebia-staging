@@ -1,9 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Confidential At-Home STD Testing in Dubai | DHA-Licensed, Private & Fast</title>
-    <meta name="description" content="Confidential at-home STD testing in Dubai by DHA-licensed healthcare providers. Discreet nurse visits, blood and urine sample collection, comprehensive STD panels, fast test results, and treatment options.">
-    <meta name="keywords" content="confidential at-home std testing in dubai, std testing in dubai, std home testing in dubai, std test price in dubai, confidential std testing at home in dubai, dubai health authority (dha) licensed healthcare providers, std tests in dubai, hiv test dubai, std test panel dubai, std tests, test in dubai, blood test, treatment options, immune system, test results, sexual health, std screen, home in dubai, collect your sample, urine sample, testing for stds, peace of mind, sexually transmitted diseases stds, std test result, std test at home, sexual contact, comprehensive std, sexual activity, state of the art">
+    
 
     <!-- Structured data -->
     <script type="application/ld+json">

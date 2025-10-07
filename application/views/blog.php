@@ -50,6 +50,18 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>preventive-health-essential-blood-tests-dubai-blog" class="card-style3 card-style4 same">
+                    <img
+                        src="<?= base_url() ?>assets/frontend/img/blog17.jpg"
+                        alt="Preventive Health in Dubai: The Essential Blood Test Guide"
+                        class="img-fluid"
+                        loading="lazy"
+                    >
+                    <h6>Preventive Health in Dubai</h6>
+                    <p>Discover the core blood panels, useful add-ons, testing frequency, and how IV therapy fits into preventive health for busy Dubai professionals.</p>
+                </a>
+            </div>
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>gut-health-energy-blog" class="card-style3 card-style4 same">
                     <img
                     src="<?= base_url() ?>assets/frontend/img/blog20.jpg"
@@ -61,19 +73,6 @@
                     <p>How the microbiome affects energy, focus, and mood, plus practical steps to improve digestion and vitality in Dubai.</p>
                 </a>
             </div>
-
-            <!-- <div class="col-md-3 mb-3">
-                <a href="<?= base_url() ?>preventive-health-essential-blood-tests-dubai-blog" class="card-style3 card-style4 same">
-                    <img
-                        src="<?= base_url() ?>assets/frontend/img/blood-test-dubai.png"
-                        alt="Preventive Health in Dubai: The Essential Blood Test Guide"
-                        class="img-fluid"
-                        loading="lazy"
-                    >
-                    <h6>Preventive Health in Dubai</h6>
-                    <p>Discover the core blood panels, useful add-ons, testing frequency, and how IV therapy fits into preventive health for busy Dubai professionals.</p>
-                </a>
-            </div> -->
 
             <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>skin-health-iv-nutrients-collagen-antioxidants-blog" class="card-style3 card-style4 same">

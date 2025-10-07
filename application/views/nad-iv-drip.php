@@ -795,53 +795,13 @@
 
                     </div>
                     <div class="accordion-box">
-
-
-
-
-
                         <div class="accordion-item">
-
-
-
-
-
-                            <h5><span>5</span>Is NAD+ IV therapy safe for everyone?</h5>
-
-
-
-
-
+                            <h5><span>5</span>Who is an ideal candidate for NAD+ IV drip therapy?</h5>
                             <span class="plus-minus"></span>
-
-
-
-
-
                         </div>
-
-
-
-
-
-                        <div class="data">
-
-
-
-
-
-                            <p>Most individuals tolerate NAD+ IV therapy well, but it's always recommended to consult with a healthcare provider before beginning, especially if you have existing medical conditions or are taking medications.</p>
-
-
-
-
-
+                        <div class="data" style="display: none;">
+                            <p>NAD+ IV therapy is ideal for individuals experiencing fatigue, low energy, mental burnout, or early signs of aging. It also benefits athletes, busy professionals, and anyone seeking enhanced recovery, cognitive performance, or metabolic support.</p>
                         </div>
-
-
-
-
-
                     </div>
 
 
@@ -1049,11 +1009,11 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>10</span>How much does NAD+ IV therapy cost?</h5>
+                            <h5><span>11</span>Can NAD+ IV therapy help with mental clarity and focus?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
-                            <p>Healthcarebia offers, IV drip sessions starting from AED 850. We also offer customizable formulations based on your health goals and budget. Our medical team will help tailor the therapy that suits you best.</p>
+                            <p>Yes, NAD+ IV therapy enhances brain cell energy metabolism and neurotransmitter function, which can improve focus, concentration, and mental clarity. Many clients report sharper thinking and reduced brain fog after their treatment series.</p>
                         </div>
                     </div>
 

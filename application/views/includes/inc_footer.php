@@ -252,7 +252,7 @@
     }
 
     .quiz-navigation {
-        padding: 1.5rem 2rem;
+        padding: 1.5rem;
         background: #f8f9fa;
         display: flex;
         justify-content: space-between;

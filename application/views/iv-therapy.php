@@ -201,9 +201,15 @@
                             <div class="my-3">
                                 <a class="primary-btn hvr-bounce-to-right green-btn mt-2 me-2" href="<?= $whatsappHref ?>" target="_blank">
                                 Book IV drip home service Dubai
-                            </a><a class="primary-btn hvr-bounce-to-right green-btn mt-2" href="tel:+97142250823">
+                                </a>
+                                <a class="primary-btn hvr-bounce-to-right green-btn mt-2" href="tel:+97142250823">
                                 Call Now
-                            </a>
+                                </a>
+                                <button
+                                    id="iv-quiz-btn"
+                                    class="primary-btn hvr-bounce-to-right green-btn mt-2" style="border: none">
+                                    Get Your Personalized IV Drip
+                                </button>
                             </div>
                         </nav>
 

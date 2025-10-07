@@ -1,10 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Preventive Health in Dubai: The Essential Blood Test Guide</title>
-    <meta name="description" content="A practical Dubai-focused guide to preventive blood tests: core panels, add-ons by goal, how often to test, and where IV therapy fits—plus convenient at-home options.">
-    <meta name="keywords" content="regular blood tests dubai, preventive health check, blood test at home dubai, lab test at home dubai, iv drip, iv drip dubai, iv drip at home, iv drip home service dubai, iv therapy dubai, iv infusion therapy dubai, nad iv therapy, myers cocktail iv, vitamin iv drip, immune boost iv drip, dna test dubai, std check dubai">
-
     <!-- Structured data -->
     <script type="application/ld+json">
 {

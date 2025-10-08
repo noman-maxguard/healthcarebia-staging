@@ -103,17 +103,17 @@ $ctr=$this->uri->segment(1);
 
 		<form class="row request-form contact_form_header" method="post">
 
-			<div class="mb-3">
+			<div class="col-md-6 mb-3">
 
 				<input class="form-input" type="text" placeholder="Name" name="name" required>
 
 			</div>
 
-			<!-- <div class="col-md-6 mb-3">
+			<div class="col-md-6 mb-3">
 
 				<input class="form-input" type="text" placeholder="Last Name" name="lastname" required>
 
-			</div> -->
+			</div>
 
 			<div class="col-md-6 mb-3">
 

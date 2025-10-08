@@ -1,9 +1,7 @@
 <?php
 
 ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-
 /**
  * CodeIgniter
  *
@@ -63,9 +61,8 @@ error_reporting(E_ALL);
 // $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 // $dotenv->load();
 
-	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
-	
-	// define('ENVIRONMENT','development');
+	// define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
+	define('ENVIRONMENT','development');
 
 /*
  *---------------------------------------------------------------
@@ -100,7 +97,6 @@ switch (ENVIRONMENT)
 		echo 'The application environment is not set correctly.';
 		exit(1); // EXIT_ERROR
 }
-
 
 /*
  *---------------------------------------------------------------

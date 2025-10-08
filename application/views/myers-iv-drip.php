@@ -296,11 +296,11 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>5</span>Is the Myers Cocktail IV Drip safe to combine with other treatments?</h5>
+                            <h5><span>5</span>Can I resume normal activities after a Myers Cocktail IV session?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
-                            <p>Yes. Many clients combine the Myers Cocktail with other IV therapies such as antioxidants for detox or NAD+ for focus.</p>
+                            <p>Yes, you can return to your normal routine immediately after the session. Most clients report feeling refreshed, focused, and more energetic for the rest of the day.</p>
                         </div>
                     </div>
                 </div>
@@ -345,11 +345,11 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>10</span> How does the Myers Cocktail IV Drip compare to oral supplements?</h5>
+                            <h5><span>10</span>Is a consultation required before getting a Myers Cocktail IV Drip?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
-                            <p>Unlike oral supplements that pass through the digestive system, the Myers Cocktail delivers vitamins and minerals directly into your bloodstream. This ensures faster absorption, higher bioavailability, and more noticeable results in energy, focus, and immunity support.</p>
+                            <p>Yes, a brief consultation with a licensed healthcare professional is recommended to assess your health status, discuss your goals, and customize the IV formula to your specific needs.</p>
                         </div>
                     </div>
                 </div>

@@ -1,9 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>IV Therapy for Mental Health in Dubai: Support for Stress, Anxiety & Mood | Healthcarebia</title>
-    <meta name="description" content="Learn how IV therapy at home in Dubai may support stress relief, anxiety management, focus, sleep, and burnout recovery. DHA-licensed nurses, NABIDH-ready records, and personalized drips by Healthcarebia.">
-    <meta name="keywords" content="IV therapy Dubai, IV drip at home Dubai, NAD+ IV therapy, magnesium IV, B complex IV, amino acid IV, Myers Cocktail IV, mental health Dubai, stress relief, anxiety support, mood support, burnout recovery, DHA licensed, NABIDH">
 
     <!-- Structured data -->
     <script type="application/ld+json">

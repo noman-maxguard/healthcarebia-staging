@@ -1,9 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Why You Still Catch Colds & Flu Despite Healthy Habits | IV Drip Support in Dubai</title>
-    <meta name="description" content="Eating well and exercising won’t always stop colds and flu. Learn how stress, sleep, hydration, gut health, and environment affect immunity—and how at-home IV drip therapy in Dubai can support recovery.">
-    <meta name="keywords" content="iv drip, iv drip dubai, iv drip home service, iv drip home service dubai, iv drip at home, iv drip at home dubai, iv drip dubai at home, iv therapy dubai, iv drip therapy, iv infusion therapy, iv infusion therapy at home, iv infusion therapy dubai, vitamin iv drip dubai, myers cocktail iv, vitamin cocktail iv, nad iv therapy, nad+ iv therapy, nad iv drip, immune boost iv drip, best iv drip dubai, glutathione injections in dubai, vip iv therapy at home, premium iv drip dubai, home iv therapy, hydration iv drip, iv therapy to boost immune system, iv drip to boost immune system, iv vitamin therapy dubai, hangover drip dubai, iv drip dubai price, at-home lab tests dubai, dna health testing dubai, female hormone profile dubai, std test at home dubai, hyperbaric oxygen therapy dubai">
 
     <!-- Structured data -->
     <script type="application/ld+json">

@@ -1,9 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Vitamin D Deficiency in Dubai: Causes, Symptoms, and Treatment</title>
-    <meta name="description" content="Vitamin D deficiency is common in Dubai despite year-round sun. Learn the real causes, signs, tests, and safe treatments—from sun exposure to diet, supplements, and medical care.">
-    <meta name="keywords" content="vitamin d deficiency in dubai, vitamin d deficiency uae, vitamin d deficiency causes, vitamin d deficiency symptoms, vitamin d treatment dubai, low vitamin d levels dubai, vitamin d test dubai, vitamin d supplements dubai, sunshine vitamin, vitamin d foods, vitamin d deficiency risk factors, vitamin d deficiency and immune system, vitamin d deficiency and fatigue, bone health vitamin">
 
     <!-- Structured data -->
     <script type="application/ld+json">

@@ -1,9 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Debunking IV Therapy Myths: Facts, FAQs & Guide | Healthcarebia</title>
-    <meta name="description" content="Uncover the truth about IV drip therapy in Dubai: safety, pain, benefits, costs, and who truly benefits from rapid IV hydration and nutrient infusions.">
-    <meta name="keywords" content="IV therapy Dubai, IV drip myths, IV therapy safety, vitamin infusion, Healthcarebia">
 
     <!-- Structured data -->
     <script type="application/ld+json">

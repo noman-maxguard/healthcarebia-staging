@@ -1,9 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>Food Intolerance Test Dubai: Symptoms, Science, and Smart Next Steps</title>
-  <meta name="description" content="Bloating after lunch? 4 p.m. headaches? Skin flares? Learn the differences between allergies and intolerances, the best tests in Dubai (breath, celiac, nutrients, stool), and a 4 week plan to move from guesswork to a results-driven nutrition plan, plus at home lab testing options.">
-  <meta name="keywords" content="Food Intolerance Test Dubai, food sensitivity Dubai, lactose intolerance test Dubai, fructose breath test Dubai, SIBO test Dubai, celiac test Dubai, lab test at home Dubai, dietitian Dubai, gut health Dubai, IBS Dubai">
 
   <!-- Structured data -->
   <script type="application/ld+json">

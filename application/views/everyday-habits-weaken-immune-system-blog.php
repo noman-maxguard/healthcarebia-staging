@@ -1,9 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Top 7 Everyday Habits That Weaken Your Immune System</title>
-    <meta name="description" content="Discover the everyday habits that weaken immunity and how to fix them. Learn how sleep, stress, diet, hydration, and IV drip therapy in Dubai—like immune booster, vitamin C, glutathione, NAD+, and Myers’ cocktail—support overall health.">
-    <meta name="keywords" content="immune system, weaken immune system, everyday habits that weaken immunity, vitamin d deficiency uae, immune booster IV drip, hydration IV drip, NAD+ IV therapy, IV therapy for professionals, preventive healthcare, vitamin deficiency symptoms, vitamin C IV therapy, Myers’ cocktail IV drip, glutathione IV drip, IV vitamin therapy Dubai, healthcare services at home, overall health, risk factors, medical conditions, IV infusion, immune cells, healthcare professionals, immune responses, immunity boost, IV fluid, health condition, IV drip therapy, reduce inflammation, weakened immune, anti ageing, allergic reactions, high doses of vitamin, medical centers, weight loss, study showed, health issues">
 
     <!-- Structured data -->
     <script type="application/ld+json">

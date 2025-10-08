@@ -1,9 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Oxygen Therapy Dubai: How Oxygen Reaches Your Cells</title>
-    <meta name="description" content="Understand how oxygen moves from air to your cells and how DHA-licensed at-home oxygen therapy in Dubai supports breathing, energy, and recovery. Learn benefits, devices, safety, and FAQs.">
-    <meta name="keywords" content="oxygen therapy dubai, at-home oxygen therapy, oxygen therapy benefits, supplemental oxygen, oxygen saturation, spo₂, SpO₂, iv therapy dubai, home healthcare dubai, pulse oximetry, nasal cannula, oxygen concentrator, hyperbaric oxygen therapy, HBOT">
 
     <!-- Structured data -->
     <script type="application/ld+json">

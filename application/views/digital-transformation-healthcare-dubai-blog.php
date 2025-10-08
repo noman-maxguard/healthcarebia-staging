@@ -1,9 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Digital Transformation in Healthcare in Dubai | Healthcarebia</title>
-    <meta name="description" content="How telehealth, wearables, AI, DNA testing, and at-home IV therapy are reshaping personalized and preventive healthcare in Dubai—so you can stay healthier, longer.">
-    <meta name="keywords" content="digital health Dubai, telehealth Dubai, wearable health Dubai, AI healthcare Dubai, preventive health Dubai, DNA test Dubai, lab test at home Dubai, IV drip Dubai, IV drip home service Dubai, NAD IV therapy Dubai, glutathione IV drip Dubai, hangover drip Dubai, best IV drip Dubai, IV therapy Dubai, home IV therapy Dubai, IV vitamin drip Dubai, STD testing Dubai, at-home STD test Dubai, health checkup Dubai">
 
     <!-- Structured data -->
     <script type="application/ld+json">

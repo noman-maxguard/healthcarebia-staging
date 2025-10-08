@@ -1,10 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Why We Often Notice Burnout Too Late – And How to Prevent It</title>
-    <meta name="description" content="Discover the signs of burnout, why we notice burnout symptoms too late, and evidence-based burnout recovery and prevention strategies with Healthcarebia.">
-    <meta name="keywords" content="burnout recovery, signs of burnout, burnout symptoms, burnout prevention, burnout treatment, how to manage burnout, stress and fatigue recovery, workplace burnout, burnout and mental health">
-
     <!-- Structured data -->
     <script type="application/ld+json">
 {

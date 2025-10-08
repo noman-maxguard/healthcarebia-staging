@@ -1,9 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Skin Health from Within: IV Nutrients, Collagen, and Antioxidants</title>
-    <meta name="description" content="Discover how vitamin C, amino acids, B-complex, zinc, magnesium, and NAD+ IV therapy support collagen, glow, and recovery—at clinic or with IV drip at home in Dubai.">
-    <meta name="keywords" content="iv drip dubai, iv drip at home dubai, iv therapy dubai, myers cocktail iv, antioxidant iv drip, glutathione iv drip dubai, hangover drip dubai, vitamin iv drip, iv infusion therapy dubai, immune boost iv drip, nad iv therapy, nad+ iv therapy, premium iv drip dubai, vip home iv therapy, best iv drip dubai, iv drip dubai price">
 
     <!-- Structured data -->
     <script type="application/ld+json">

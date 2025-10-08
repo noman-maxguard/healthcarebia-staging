@@ -1,9 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>IV Drip Therapy Dubai – Science, Luxury & Benefits</title>
-    <meta name="description" content="DHA-approved IV therapy at home in Dubai. Hydration, vitamins, and antioxidants that boost energy, support skin, and enhance overall health.">
-    <meta name="keywords" content="IV drip therapy Dubai, IV vitamin therapy Dubai, IV hydration Dubai, Vitamin IV drip Dubai, Home IV drip Dubai, Immune boost IV Dubai, NAD IV therapy Dubai, Glutathione drip Dubai, DHA-approved IV therapy, IV therapy benefits, Luxury wellness Dubai">
 
     <!-- Structured data -->
     <script type="application/ld+json">

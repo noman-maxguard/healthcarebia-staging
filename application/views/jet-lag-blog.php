@@ -1,9 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Jet Lag IV Drip Dubai | IV Therapy Dubai</title>
-    <meta name="description" content="Beat jet lag fatigue and restore your natural body clock with Dubai’s premier Jet Lag IV drip home service. Rehydrate, reenergize, and boost immunity—book today!">
-    <meta name="keywords" content="jet lag iv drip dubai, iv therapy dubai, iv drip home service dubai, jet lag relief, iv drip dubai price, glutathione iv drip dubai">
 
     <script type="application/ld+json">
 {

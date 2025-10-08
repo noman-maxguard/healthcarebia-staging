@@ -1,9 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>The Link Between Gut Health and Energy: The Science You Need to Know</title>
-    <meta name="description" content="Discover how gut health drives energy, focus, and mood—plus practical steps to improve digestion and vitality. Learn how Healthcarebia supports gut balance in Dubai.">
-    <meta name="keywords" content="gut health Dubai, energy and gut, microbiome Dubai, food intolerance test Dubai, preventive health checkup Dubai">
 
     <!-- Structured data -->
     <script type="application/ld+json">

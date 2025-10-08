@@ -1,9 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Why You Feel Tired and Lose Hair Even with Healthy Lifestyle</title>
-    <meta name="description" content="Feeling tired and noticing unusual hair fall even with a healthy lifestyle? Learn how nutrient deficiencies, stress, hormones, and dehydration can affect you—and how IV drip therapy in Dubai can help restore energy, balance, and hair health.">
-    <meta name="keywords" content="IV drip Dubai, IV drip home service Dubai, vitamin infusion Dubai, NAD IV therapy, glutathione IV drip Dubai, vitamin IV drip, IV therapy Dubai, fatigue hair loss Dubai">
 
     <!-- Structured data -->
     <script type="application/ld+json">

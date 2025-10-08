@@ -1,9 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>The Future of Wellness in Dubai with Healthcarebia: IV Drips, DNA Testing & More</title>
-    <meta name="description" content="Explore 2025 wellness trends in Dubai with Healthcarebia: IV drip therapy at home, DNA testing, preventive health, longevity, mental well-being, and digital wellness—personalized, preventive, and holistic.">
-    <meta name="keywords" content="Healthcarebia, wellness Dubai, IV drip Dubai, IV therapy Dubai, IV drip at home Dubai, DNA testing Dubai, lab test at home Dubai, NAD IV therapy, Myers Cocktail IV, glutathione IV drip Dubai, immune boost IV drip, preventive health Dubai, functional medicine Dubai, corporate wellness Dubai, VIP IV drip Dubai, longevity Dubai">
 
     <!-- Structured data -->
     <script type="application/ld+json">

@@ -1,10 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Vitamin D Deficiency Dubai | Why Testing Matters & How to Stay Healthy</title>
-    <meta name="description" content="Learn why vitamin D deficiency is common in sunny Dubai, who is most at risk, and how simple blood testing can protect your bones, mood, and immunity.">
-    <meta name="keywords" content="vitamin d test dubai, vitamin d deficiency uae, vitamin d blood panel, vitamin d home test dubai, immune health dubai, bone health, dha licensed nurse, healthcarebia vitamin d">
-    <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",

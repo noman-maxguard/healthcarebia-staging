@@ -1,10 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Blood Test to Bespoke Drip: Your Precision Wellness Plan</title>
-    <meta name="description" content="Dubai heat, back-to-back meetings, and late brunches sap your body fast. Discover how healthcarebia uses blood tests and lab panels to craft millilitre-perfect IV drips—delivered in-clinic or at your home.">
-    <meta name="keywords" content="iv drip dubai, iv therapy dubai, iv hydration dubai, iv vitamin therapy, mobile iv drip dubai, dha-certified iv clinic, iv drip therapy, iv therapy at home, vitamin and mineral, vitamin therapy, iv infusions, benefits of iv therapy, side effects, immune support, jet lag, medical conditions, boost immunity, myers cocktail, healthcare professionals, overall health, muscle recovery, iv treatments, iv drip at home, health conditions, comfort of your home, recovering from illness">
-
     <!-- Structured data -->
     <script type="application/ld+json">
     {

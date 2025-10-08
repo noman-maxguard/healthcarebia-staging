@@ -1009,7 +1009,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>11</span>Can NAD+ IV therapy help with mental clarity and focus?</h5>
+                            <h5><span>10</span>Can NAD+ IV therapy help with mental clarity and focus?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">

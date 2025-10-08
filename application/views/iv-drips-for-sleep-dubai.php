@@ -1,9 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Sleep Like a Baby: How IV Drips Can Improve Your Rest and Recovery</title>
-    <meta name="description" content="Struggling with sleep in Dubai? Discover how Healthcarebia’s DHA-approved, sleep support IV drips target nutrient gaps, stress, and hydration for deeper, more restorative rest.">
-    <meta name="keywords" content="iv drip for sleep dubai, sleep iv therapy, iv therapy dubai, iv hydration, iv drip insomnia, mobile iv drip dubai, dha-approved iv, nabidh, vitamin drip sleep, melatonin support, magnesium iv, jet lag iv dubai">
 
     <!-- Structured data -->
     <script type="application/ld+json">

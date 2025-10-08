@@ -1,9 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Female Hormone Profile & IV Therapy in Dubai | At-Home Tests & Drips</title>
-    <meta name="description" content="Understand your hormones and boost energy with at-home female hormone profile and IV therapy in Dubai. DHA-licensed nurses, NABIDH-ready records, Myers Cocktail, NAD+, glutathione, immune boost, and more.">
-    <meta name="keywords" content="female hormone profile dubai, iv drip, iv drip dubai, iv infusion therapy, iv vitamin drip dubai, iv therapy dubai, iv drip home service, iv drip home service dubai, iv drip at home dubai, iv drip at home, iv drip dubai at home, home iv therapy, vip iv therapy at home, premium iv drip at home, myers cocktail iv, best myers cocktail iv, myers iv drip, vitamin cocktail iv, nad iv therapy, nad+ iv therapy, nad iv drip, nad iv, immune boost iv drip, best immune boost iv drip, iv therapy to boost immune system, iv drip to boost immune system, glutathione iv drip dubai, whitening injection, dna test dubai, dna health testing, dna paternity test dubai, home dna test, food intolerance test dubai, std blood test dubai, preventive health check up, medical history, medical condition, free radicals, increases energy, immune supporting, vitamin and mineral">
 
     <!-- Structured data -->
     <script type="application/ld+json">

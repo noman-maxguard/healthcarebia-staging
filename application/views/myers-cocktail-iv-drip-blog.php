@@ -1,10 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>From Fatigue to Focus: The Myers Cocktail IV Drip</title>
-    <meta name="description" content="Discover how the Myers Cocktail IV drip provides fast energy, mental clarity, and immunity boosting with at-home IV therapy by healthcarebia. Book your session today.">
-    <meta name="keywords" content="myers cocktail, at-home iv therapy, mobile iv drip, iv vitamin therapy, registered nurse, iv drip therapy, iv fluids, immunity boosting, boosts energy, overall health, essential nutrients, complex vitamins, mental clarity, reduce inflammation, vitamins and nutrients, iv therapy services, highly recommend, health benefits">
-
     <!-- Structured data -->
     <script type="application/ld+json">
     {

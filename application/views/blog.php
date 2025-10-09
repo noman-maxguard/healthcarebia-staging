@@ -50,6 +50,19 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>magnesium-stress-sleep-energy-blog" class="card-style3 card-style4 same">
+                    <img
+                    src="<?= base_url() ?>assets/frontend/img/blog42.png"
+                    alt="The Role of Magnesium in Stress, Sleep, and Energy and How to Replenish It"
+                    class="img-fluid"
+                    loading="lazy"
+                    >
+                    <h6>Magnesium for Stress, Sleep & Energy</h6>
+                    <p>How magnesium supports calm, deep sleep, and steady energy plus how diet, supplements, and IV drip therapy at home in Dubai can help you replenish it.</p>
+                </a>
+            </div>
+
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>preventive-health-essential-blood-tests-dubai-blog" class="card-style3 card-style4 same">
                     <img
                         src="<?= base_url() ?>assets/frontend/img/blog17.jpg"

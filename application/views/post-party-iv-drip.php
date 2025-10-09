@@ -464,11 +464,11 @@
                 </div>
                 <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>5</span>Can I drive or resume normal activities immediately after the Post Party IV Drip??</h5>                                        <span class="plus-minus"></span></div>
+                        <div class="accordion-item"><h5><span>5</span>How soon after a night out should I book the Post Party IV Drip?</h5>                                        <span class="plus-minus"></span></div>
 
-                        <div class="data"><p>Yes, most clients feel stable enough to drive or return to work right away. If you’re sensitive to needles or had more intense add-ons, plan a 10-minute rest before hitting the road.</p></div>
+                        <div class="data"><p>You can schedule your IV drip as early as the next morning. The sooner it’s administered, the faster it replenishes fluids, electrolytes, and vitamins to relieve fatigue, nausea, and dehydration.</p></div>
 
-                    </div>
+                </div>
 
             </div>
 
@@ -539,9 +539,9 @@
                     </div>
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>10</span>Can the Post Party IV Drip be customized with extra vitamins, minerals, or antioxidants?</h5>                                        <span class="plus-minus"></span></div>
+                        <div class="accordion-item"><h5><span>10</span>What ingredients are typically included in the Post Party IV Drip?</h5>                                        <span class="plus-minus"></span></div>
 
-                        <div class="data"><p>Definitely. Beyond the core hydration, you can add ingredients to target detox, immune support, or energy.ust discuss your goals with our nurse or physician.</p></div>
+                        <div class="data"><p>The drip usually includes a blend of electrolytes, vitamin B complex, vitamin C, magnesium, and anti-nausea medication.</p></div>
 
                     </div>
 

@@ -314,13 +314,22 @@
                             <p>Your provider will recommend a plan, many start with weekly or bi-weekly visits, then adjust as needed.</p>
                         </div>
                     </div>
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>5</span>Can Gut Health IV Drip help with bloating or indigestion?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data">
+                            <p>Yes. The drip delivers nutrients that support liver detoxification, reduce inflammation, and improve nutrient absorption, helping relieve common digestive discomforts like bloating and indigestion.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="accordion pt-md-3">
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>5</span>Is it safe?</h5>
+                            <h5><span>6</span>Is it safe?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data">
@@ -329,7 +338,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>6</span>Any side effects?</h5>
+                            <h5><span>7</span>Any side effects?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data">
@@ -338,7 +347,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>7</span>What nutrients are included and how do they help?</h5>
+                            <h5><span>8</span>What nutrients are included and how do they help?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data">
@@ -347,11 +356,20 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>8</span>How does Gut Health IV Drip therapy support overall digestive wellness?</h5>
+                            <h5><span>9</span>How does Gut Health IV Drip therapy support overall digestive wellness?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data">
                             <p>Gut Health IV Drip therapy delivers nutrients directly into the bloodstream for faster absorption, helping with hydration and nutrient levels. Its effects on digestive wellness can vary, so it's best to consult a healthcare provider to see if it's right for you.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>10</span>Can I combine Gut Health IV Drip with other treatments?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data">
+                            <p>Absolutely. Many clients pair it with vitamin or hydration drips for enhanced recovery and overall wellness. Your practitioner can recommend the best combination based on your health goals.</p>
                         </div>
                     </div>
                 </div>

@@ -27,4 +27,4 @@ Allow: /
 User-agent: YandexBot
 Allow: /
 
-Sitemap: https://healthcarebia.ae/sitemap.xml
+Sitemap: https://www.healthcarebia.ae/sitemap.xml

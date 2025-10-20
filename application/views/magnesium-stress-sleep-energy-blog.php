@@ -77,6 +77,9 @@
                         <li><a href="<?= base_url() ?>blog" class="hvr-underline-from-left menu-line2">Blog</a></li>
                         <li class="active" aria-current="page">Magnesium for Stress, Sleep & Energy</li>
                     </ul>
+                    <ul class="breadcrumb-blog">
+                        <li class="active" aria-current="page">Last Updated: 16-10-2025</li>
+                    </ul>
 
                     <h4>The Role of Magnesium in Stress, Sleep, and Energy and How to Replenish It</h4>
 

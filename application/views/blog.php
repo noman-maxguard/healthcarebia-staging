@@ -50,6 +50,18 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>gut-health-energy-blog" class="card-style3 card-style4 same">
+                    <img
+                    src="<?= base_url() ?>assets/frontend/img/blog20.jpg"
+                    alt="The Link Between Gut Health and Energy: The Science You Need to Know"
+                    class="img-fluid"
+                    loading="lazy"
+                    >
+                    <h6>Gut Health and Energy</h6>
+                    <p>How the microbiome affects energy, focus, and mood, plus practical steps to improve digestion and vitality in Dubai.</p>
+                </a>
+            </div>
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>magnesium-stress-sleep-energy-blog" class="card-style3 card-style4 same">
                     <img
                     src="<?= base_url() ?>assets/frontend/img/blog42.png"
@@ -72,18 +84,6 @@
                     >
                     <h6>Preventive Health in Dubai</h6>
                     <p>Discover the core blood panels, useful add-ons, testing frequency, and how IV therapy fits into preventive health for busy Dubai professionals.</p>
-                </a>
-            </div>
-            <div class="col-md-3 mb-3">
-                <a href="<?= base_url() ?>gut-health-energy-blog" class="card-style3 card-style4 same">
-                    <img
-                    src="<?= base_url() ?>assets/frontend/img/blog20.jpg"
-                    alt="The Link Between Gut Health and Energy: The Science You Need to Know"
-                    class="img-fluid"
-                    loading="lazy"
-                    >
-                    <h6>Gut Health and Energy</h6>
-                    <p>How the microbiome affects energy, focus, and mood, plus practical steps to improve digestion and vitality in Dubai.</p>
                 </a>
             </div>
 
@@ -463,20 +463,23 @@
                     <h6>The Power of NAD+ IV
                         Drips: Enhancing Cellular Health and Energy</h6>
                     <p>In the realm of healthcare advancements, scientists and researchers are constantly uncovering new
-                        ways to optimize our well-being. </p></a></div>
+                        ways to optimize our well-being. </p></a>
+            </div>
             <div class="col-md-3 mb-3"><a href="<?= base_url() ?>power-of-iv-drips-for-immune-enhancement"
                                           class="card-style3 card-style4 same"> <img
                             src="<?= base_url() ?>assets/frontend/img/blog3.png" alt=""
                             class="img-fluid">
                     <h6>Harnessing the Power of IV Drips for Immune Enhancement</h6>
                     <p>In recent years, the use of intravenous (IV) drips for immune enhancement has gained significant
-                        popularity.</p></a></div>
+                        popularity.</p></a>
+            </div>
             <div class="col-md-3 mb-3"><a href="<?= base_url() ?>goodbye-hangovers"
                                           class="card-style3 card-style4 same"> <img
                             src="<?= base_url() ?>assets/frontend/img/blog4.png" alt="" class="img-fluid">
                     <h6>Saying Goodbye to
                         Hangovers: How IV Drip Therapy Provides Quick Relief</h6>
-                    <p>Hangovers can be a dreaded aftermath of a night of indulgence and celebration.</p></a></div>
+                    <p>Hangovers can be a dreaded aftermath of a night of indulgence and celebration.</p></a>
+            </div>
             <div class="col-md-3 mb-3"><a href="<?= base_url() ?>at-home-std-testing"
                                           class="card-style3 card-style4 same"> <img
                             src="<?= base_url() ?>assets/frontend/img/blog5.png" alt="" class="img-fluid">
@@ -484,7 +487,8 @@
                         Convenient: At-Home STD Testing for Your Peace of Mind</h6>
                     <p>Taking care of our sexual health is crucial for overall well-being, but many individuals feel
                         uncomfortable or hesitant when it comes to getting tested for sexually transmitted diseases
-                        (STDs). </p></a></div>
+                        (STDs). </p></a>
+            </div>
             <div class="col-md-3 mb-3">
                     <a href="<?= base_url() ?>the-myers-cocktail-iv-drip" class="card-style3 card-style4 same">
                         <img src="<?= base_url() ?>assets/frontend/img/blog6.png" alt="The Myers Cocktail IV Drip" class="img-fluid">

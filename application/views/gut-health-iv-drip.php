@@ -271,112 +271,140 @@
   </div>
 </section>
 
-<!-- FAQ Section -->
 <section class="faq-block section-gap">
-    <div class="container">
-        <h2>Frequently Asked Questions</h2>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="accordion pt-md-3">
-                    <div class="accordion-box">
-                        <div class="accordion-item">
-                            <h5><span>1</span>How long does a Gut Health IV Drip session last?</h5>
-                            <span class="plus-minus"></span>
-                        </div>
-                        <div class="data">
-                            <p>A typical session takes between 30 and 60 minutes and can be done at your home, office, or hotel.</p>
-                        </div>
-                    </div>
-                    <div class="accordion-box">
-                        <div class="accordion-item">
-                            <h5><span>2</span>Who should consider a Gut Health IV Drip?</h5>
-                            <span class="plus-minus"></span>
-                        </div>
-                        <div class="data">
-                            <p>If you face persistent acidity, indigestion, bloating or other digestive discomforts, this therapy can help you recover faster.</p>
-                        </div>
-                    </div>
-                    <div class="accordion-box">
-                        <div class="accordion-item">
-                            <h5><span>3</span>How quickly can I expect relief?</h5>
-                            <span class="plus-minus"></span>
-                        </div>
-                        <div class="data">
-                            <p>Most clients feel a noticeable difference in acidity and digestion within just a few hours.</p>
-                        </div>
-                    </div>
-                    <div class="accordion-box">
-                        <div class="accordion-item">
-                            <h5><span>4</span>How often should I schedule sessions?</h5>
-                            <span class="plus-minus"></span>
-                        </div>
-                        <div class="data">
-                            <p>Your provider will recommend a plan, many start with weekly or bi-weekly visits, then adjust as needed.</p>
-                        </div>
-                    </div>
-                    <div class="accordion-box">
-                        <div class="accordion-item">
-                            <h5><span>5</span>Can Gut Health IV Drip help with bloating or indigestion?</h5>
-                            <span class="plus-minus"></span>
-                        </div>
-                        <div class="data">
-                            <p>Yes. The drip delivers nutrients that support liver detoxification, reduce inflammation, and improve nutrient absorption, helping relieve common digestive discomforts like bloating and indigestion.</p>
-                        </div>
-                    </div>
-                </div>
+  <div class="container">
+    <h2>Frequently Asked Questions</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="accordion pt-md-3">
+          <div class="accordion-box">
+            <div class="accordion-item">
+              <h5><span>1</span>How long does a Gut Health IV Drip session last?</h5>
+              <span class="plus-minus"></span>
             </div>
-            <div class="col-md-6">
-                <div class="accordion pt-md-3">
-                    <div class="accordion-box">
-                        <div class="accordion-item">
-                            <h5><span>6</span>Is it safe?</h5>
-                            <span class="plus-minus"></span>
-                        </div>
-                        <div class="data">
-                            <p>Absolutely. Our DHA-certified nurses handle every step—from sterile setup to monitoring, to keep you completely safe.</p>
-                        </div>
-                    </div>
-                    <div class="accordion-box">
-                        <div class="accordion-item">
-                            <h5><span>7</span>Any side effects?</h5>
-                            <span class="plus-minus"></span>
-                        </div>
-                        <div class="data">
-                            <p>Side effects are rare. You might see minor bruising or temporary redness at the IV site, which clears up quickly.</p>
-                        </div>
-                    </div>
-                    <div class="accordion-box">
-                        <div class="accordion-item">
-                            <h5><span>8</span>What nutrients are included and how do they help?</h5>
-                            <span class="plus-minus"></span>
-                        </div>
-                        <div class="data">
-                            <p>We blend glutamine and glycine to support tissue repair, glutathione to fight free radicals, and trace minerals for enzyme support and reduced inflammation.</p>
-                        </div>
-                    </div>
-                    <div class="accordion-box">
-                        <div class="accordion-item">
-                            <h5><span>9</span>How does Gut Health IV Drip therapy support overall digestive wellness?</h5>
-                            <span class="plus-minus"></span>
-                        </div>
-                        <div class="data">
-                            <p>Gut Health IV Drip therapy delivers nutrients directly into the bloodstream for faster absorption, helping with hydration and nutrient levels. Its effects on digestive wellness can vary, so it's best to consult a healthcare provider to see if it's right for you.</p>
-                        </div>
-                    </div>
-                    <div class="accordion-box">
-                        <div class="accordion-item">
-                            <h5><span>10</span>Can I combine Gut Health IV Drip with other treatments?</h5>
-                            <span class="plus-minus"></span>
-                        </div>
-                        <div class="data">
-                            <p>Absolutely. Many clients pair it with vitamin or hydration drips for enhanced recovery and overall wellness. Your practitioner can recommend the best combination based on your health goals.</p>
-                        </div>
-                    </div>
-                </div>
+            <div class="data">
+              <p>A typical session takes between 30 and 60 minutes and can be done at your home, office, or hotel. Many clients in Dubai prefer iv drip at home and iv drip at home Dubai for convenience.</p>
+            </div>
+          </div>
+
+          <div class="accordion-box">
+            <div class="accordion-item">
+              <h5><span>2</span>Who should consider a Gut Health IV Drip?</h5>
+              <span class="plus-minus"></span>
+            </div>
+            <div class="data">
+              <p>If you face persistent acidity, indigestion, bloating or other digestive discomforts, this therapy can help you recover faster. It is part of our broader iv therapy Dubai services.</p>
+            </div>
+          </div>
+
+          <div class="accordion-box">
+            <div class="accordion-item">
+              <h5><span>3</span>How quickly can I expect relief?</h5>
+              <span class="plus-minus"></span>
+            </div>
+            <div class="data">
+              <p>Most clients feel a noticeable difference in acidity and digestion within just a few hours.</p>
+            </div>
+          </div>
+
+          <div class="accordion-box">
+            <div class="accordion-item">
+              <h5><span>4</span>How often should I schedule sessions?</h5>
+              <span class="plus-minus"></span>
+            </div>
+            <div class="data">
+              <p>Your provider will recommend a plan. Many start with weekly or bi-weekly visits, then adjust as needed. You can ask us for iv drip Dubai price guidance during your plan review.</p>
+            </div>
+          </div>
+
+          <div class="accordion-box">
+            <div class="accordion-item">
+              <h5><span>5</span>Can Gut Health IV Drip help with bloating or indigestion?</h5>
+              <span class="plus-minus"></span>
+            </div>
+            <div class="data">
+              <p>Yes. The drip delivers nutrients that support liver detoxification, reduce inflammation, and improve nutrient absorption, helping relieve common digestive discomforts like bloating and indigestion.</p>
+            </div>
+          </div>
+
+          <div class="accordion-box">
+            <div class="accordion-item">
+                <h5><span>6</span>Can IV therapy support gut health and steady energy?</h5>
+                <span class="plus-minus"></span>
+            </div>
+            <div class="data">
+                <p>Yes. Options like myers cocktail IV and vitamin IV drip can help restore nutrient levels, while glutathione IV drip Dubai supports antioxidant defense and detox pathways that affect digestion. Many clients also choose immune boost IV drip or iv therapy to boost immune system. If you prefer treatment at home, iv drip at home Dubai and iv infusion therapy are available for comfort and consistency.</p>
+            </div>
             </div>
         </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="accordion pt-md-3">
+          <div class="accordion-box">
+            <div class="accordion-item">
+              <h5><span>6</span>Is it safe?</h5>
+              <span class="plus-minus"></span>
+            </div>
+            <div class="data">
+              <p>Absolutely. Our DHA-certified nurses handle every step from sterile setup to monitoring, to keep you completely safe.</p>
+            </div>
+          </div>
+
+          <div class="accordion-box">
+            <div class="accordion-item">
+              <h5><span>7</span>Any side effects?</h5>
+              <span class="plus-minus"></span>
+            </div>
+            <div class="data">
+              <p>Side effects are rare. You might see minor bruising or temporary redness at the IV site, which clears up quickly.</p>
+            </div>
+          </div>
+
+          <div class="accordion-box">
+            <div class="accordion-item">
+              <h5><span>8</span>What nutrients are included and how do they help?</h5>
+              <span class="plus-minus"></span>
+            </div>
+            <div class="data">
+              <p>We blend glutamine and glycine to support tissue repair, glutathione to fight free radicals, and trace minerals for enzyme support and reduced inflammation.</p>
+            </div>
+          </div>
+
+          <div class="accordion-box">
+            <div class="accordion-item">
+              <h5><span>9</span>How does Gut Health IV Drip therapy support overall digestive wellness?</h5>
+              <span class="plus-minus"></span>
+            </div>
+            <div class="data">
+              <p>Gut Health IV Drip therapy delivers nutrients directly into the bloodstream for faster absorption, helping with hydration and nutrient levels. Its effects can vary, so it is best to consult a provider to see if it is right for you.</p>
+            </div>
+          </div>
+
+          <div class="accordion-box">
+            <div class="accordion-item">
+              <h5><span>10</span>Can I combine Gut Health IV Drip with other treatments?</h5>
+              <span class="plus-minus"></span>
+            </div>
+            <div class="data">
+              <p>Yes. Many clients pair it with iv cocktail, vitamin cocktail IV, myers IV drip, immune boost IV drip, or nad IV therapy depending on goals.</p>
+            </div>
+          </div>
+          <div class="accordion-box">
+            <div class="accordion-item">
+                <h5><span>12</span>What should I search for if I want gut-focused testing and IV support in Dubai?</h5>
+                <span class="plus-minus"></span>
+            </div>
+            <div class="data">
+                <p>Try searches like food intolerance test Dubai, preventive health check up, lab test at home Dubai, iv therapy Dubai, iv infusion therapy, myers cocktail IV, vitamin IV drip, glutathione IV drip Dubai, and immune boost IV drip.</p>
+            </div>
+            </div>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
+
 
 <?php include 'includes/inc_footer.php'; ?>
 <?php include 'includes/inc_footer_scripts.php'; ?>

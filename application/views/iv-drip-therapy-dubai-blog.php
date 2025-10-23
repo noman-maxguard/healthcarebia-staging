@@ -78,20 +78,22 @@
                         <li class="active" aria-current="page">IV Drip Therapy Dubai – Science, Luxury & Benefits</li>
                     </ul>
 
-                    <h4>IV Drip Therapy Dubai. Science, Luxury & Benefits</h4>
+                    <h4>IV Drip Therapy Dubai. Science, Luxury & At-Home Benefits</h4>
 
-                    <p>Life here moves fast. Wellness should keep up. That’s why <b>iv drip therapy dubai</b> has become a go to for people who want quick recovery, clear focus, and calm self care. It blends evidence led care with the feel of a private spa <b>luxury wellness</b> at its best. If you’re searching for a seamless <b>iv drip in dubai</b>, Healthcarebia brings the clinic to you.</p>
+                    <p>Life here moves fast. Wellness should keep up. That’s why <a href="<?= base_url() ?>iv-drip-dubai" class="menu-line2">IV drip Dubai</a> has become a go-to for quick recovery, clear focus and calm self-care. It blends evidence-led care with the feel of a private spa. If you’re looking for <b>IV therapy Dubai</b> with convenience, Healthcarebia brings the clinic to you with <b>IV drip at home Dubai</b>.</p>
+
 
                     <h5>What IV drip therapy is (and why it works)</h5>
-                    <p>An IV drip is an <b>intravenous iv</b> infusion of vitamins, minerals, antioxidants, and fluids. Delivered straight to the bloodstream, it offers high bioavailability and steady delivery. The goal is simple: hydration, balance, and <b>health benefits</b> you can feel.</p>
+                    <p>An IV drip is an intravenous infusion of vitamins, minerals, antioxidants and fluids. Delivered straight to the bloodstream, it offers high bioavailability and steady delivery. The goal is simple: hydration, balance and IV drip therapy benefits you can feel. We provide vitamin IV drip options for targeted nutrition and IV infusion therapy for fast fluid and electrolyte balance. Prefer care in your own space? Choose our concierge home IV therapy in Dubai.</p>
+
                     <p>We provide <b>iv vitamin therapy</b> for targeted nutrition and <b>iv hydration</b> for fast fluid and electrolyte balance. Prefer care in your own space? Choose our concierge <b>home iv drip dubai</b> service. It’s private, efficient, and designed around your schedule.</p>
 
                     <h5>IV therapy benefits you can measure</h5>
                     <ul class="tick-list">
                         <li>Hydration & recovery: Rehydrate fast after travel, heat, or training.</li>
                         <li>Energy & focus: Nutrients that support <b>energy production</b> and <b>cognitive functioning</b>. Many clients report <b>boosts energy</b>, <b>improved energy</b>, and <b>increased energy</b> throughout the day.</li>
-                        <li>Immunity: Strategic vitamins and minerals to support defense, especially during high risk seasons.</li>
-                        <li>Skin & detox: Antioxidants that support the liver, promote <b>skin glow</b>, and <b>improves skin</b> clarity.</li>
+                        <li>Immunity: Strategic vitamins and minerals to support defenses, including <b>immune boost IV drip</b> during high-risk seasons.</li>
+                        <li>Skin and detox: Antioxidants that support the liver and promote glow; ask about <b>glutathione IV drip Dubai</b>.</li>
                         <li>Performance: Amino acids and B-vitamins for training, events, or busy weeks.</li>
                         <li>Overall health: Gentle support for stress, sleep quality, and day-to-day balance, great for <b>long term</b> maintenance.</li>
                     </ul>
@@ -134,12 +136,20 @@
                         <li>Comfort details: Aromatherapy, tea, serene set-up.</li>
                     </ul>
 
+                    <h5>IV drip at home and VIP service</h5>
+                    <p>Prefer care where you are? Our <b>IV drip home service Dubai</b> brings DHA-licensed nurses to your location. Choose from <b>IV drip at home</b> options including <b>hangover drip Dubai</b>, <b>premium NAD IV therapy</b>, <b>best Myers Cocktail IV</b> and tailored <b>vitamin cocktail IV</b> blends.</p>
+
+
                     <h5>Quick answers</h5>
                     <p><b>Will I feel it right away?</b> Many people feel <b>improved energy</b> within hours, others the next day.</p>
                     <p><b>Is it only for athletes?</b> No, it suits anyone seeking steady function and resilience.</p>
                     <p><b>Can it help my skin?</b> Hydration, vitamin C, and a <b>antioxidant drip</b> can improve tone and texture.</p>
                     <p><b>What about the brain?</b> <b>nad iv therapy dubai</b> may support <b>cognitive functioning</b> and focus.</p>
                     <p><b>Is it safe?</b> Yes, when administered by a <b>medical professional</b> as <b>dha-approved iv therapy</b>.</p>
+
+                    <h5>IV drip Dubai price</h5>
+                    <p>Pricing varies by formula and location. Ask about <b>premium IV drip Dubai</b> packages and current offers to find the <b>best IV drip therapy</b> for your goals.</p>
+
 
                     <h5>Ready to book?</h5>
                     <p>Enjoy science-led care with the ease of a private visit. Whether you want an <b>immune boost iv dubai</b>, performance support, or <b>iv hydration dubai</b>, our team can help. Schedule your <b>iv vitamin therapy today and experience <b>luxury wellness dubai</b>, delivered.</p>

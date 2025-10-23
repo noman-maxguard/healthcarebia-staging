@@ -278,7 +278,7 @@
                 <div class="accordion pt-md-3">
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>1</span>How long does an Energy & Focus IV Drip session last?</h5>
+                            <h5><span>1</span>How long does an Energy & Focus IV Drip session in Dubai last?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -296,11 +296,11 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>3</span>How soon can I feel the effects?</h5>
+                            <h5><span>3</span>How soon can I feel the effects of IV therapy?</h5>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
-                            <p>Most clients report noticeable improvements in energy, mental clarity, and focus within just a few hours after their IV drip therapy session.</p>
+                            <p>Most clients feel improved energy, mental clarity, and focus within hours. IV drip therapy allows rapid absorption compared to oral supplements.</p>
                         </div>
                     </div>
                     <div class="accordion-box">
@@ -309,7 +309,7 @@
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
-                            <p>Frequency varies according to individual needs, typically ranging from weekly to monthly treatments.</p>
+                            <p>Frequency varies by need. Some prefer weekly IV infusion therapy while others book monthly maintenance. You can choose our at home IV therapy at your convenience or as directed by a doctor.</p>
                         </div>
                     </div>
                     <div class="accordion-box">
@@ -349,7 +349,7 @@
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
-                            <p>Yes, the Energy & Focus IV Drip is administered by DHA-licensed nurses and doctors with extensive experience. All ingredients used are 100% DHA and MOH approved, ensuring maximum safety and effectiveness.</p>
+                            <p>Yes, the Energy & Focus IV Drip is administered by DHA-licensed nurses with extensive experience. All ingredients used are 100% DHA and MOH approved, ensuring maximum safety and effectiveness.</p>
                         </div>
                     </div>
                     <div class="accordion-box">

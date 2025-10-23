@@ -87,7 +87,7 @@
                 </a>
             </div>
 
-            <div class="col-md-3 mb-3">
+            <!-- <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>skin-health-iv-nutrients-collagen-antioxidants-blog" class="card-style3 card-style4 same">
                     <img
                     src="<?= base_url() ?>assets/frontend/img/healthy-skin-hair.png"
@@ -98,7 +98,7 @@
                     <h6>Skin Health from Within</h6>
                     <p>How vitamin C, amino acids, B-complex, zinc, magnesium, and NAD+ IV therapy support collagen, glow, and recovery at the comfort of your home.</p>
                 </a>
-            </div>
+            </div> -->
 
             <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>food-intolerance-test-dubai-blog" class="card-style3 card-style4 same">
@@ -435,13 +435,13 @@
                     <p>Hydrate, recover, and perform at your best with our DHA-licensed IV therapy for athletes in Dubai.</p>
                 </a>
             </div>
-            <div class="col-md-3 mb-3">
+            <!-- <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>jet-lag-blog" class="card-style3 card-style4 same">
                     <img src="<?= base_url() ?>assets/frontend/img/blog11.jpeg" alt="Jet Lag IV Drip" class="img-fluid">
                     <h6>Jet Lag IV Drip: Relieve Fatigue, Rehydrate &amp; Restore Your Body Clock</h6>
                     <p>Beat jet lag fatigue and reset your circadian rhythm with our nurse-delivered IV therapy service in Dubai.</p>
                 </a>
-            </div>
+            </div> -->
 	        <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>nad-for-cognitive-function" class="card-style3 card-style4 same">
                     <img src="<?= base_url() ?>assets/frontend/img/blog10.jpg" alt="NAD+ IV Therapy for Executives" class="img-fluid">

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
-    <loc>https://www.healthcarebia.ae/sitemaps/sitemap-pages.xml</loc>
+    <loc>https://www.healthcarebia.ae/sitemap/sitemap-pages.xml</loc>
     <lastmod>2025-10-11</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://www.healthcarebia.ae/sitemaps/sitemap-services.xml</loc>
+    <loc>https://www.healthcarebia.ae/sitemap/sitemap-services.xml</loc>
     <lastmod>2025-10-11</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://www.healthcarebia.ae/sitemaps/sitemap-blog.xml</loc>
+    <loc>https://www.healthcarebia.ae/sitemap/sitemap-blog.xml</loc>
     <lastmod>2025-10-11</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://www.healthcarebia.ae/sitemaps/sitemap-images.xml</loc>
+    <loc>https://www.healthcarebia.ae/sitemap/sitemap-images.xml</loc>
     <lastmod>2025-10-11</lastmod>
   </sitemap>
   <sitemap>
-    <loc>https://www.healthcarebia.ae/sitemaps/sitemap-videos.xml</loc>
+    <loc>https://www.healthcarebia.ae/sitemap/sitemap-videos.xml</loc>
     <lastmod>2025-10-11</lastmod>
   </sitemap>
 </sitemapindex>

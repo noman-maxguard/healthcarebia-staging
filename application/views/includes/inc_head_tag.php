@@ -19,9 +19,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 <!-- <link href="css/bootstrap.min.css" rel="stylesheet" media='all' defer as="style"> -->
 
-<link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Noto+Serif+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
 
 <link href="<?= base_url() ?>assets/frontend/css/fancybox.css" rel="stylesheet" media='all' defer as="style">
 <link href="<?= base_url() ?>assets/frontend/css/library.css" rel="stylesheet" media='all' defer as="style">
@@ -35,7 +34,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   referrerpolicy="no-referrer"
 />
 <!-- Meta Pixel Code -->
-<script>
+<!-- <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -49,7 +48,7 @@ fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=1280000576857900&ev=PageView&noscript=1"
-/></noscript>
+/></noscript> -->
 <!-- End Meta Pixel Code -->
 
 <title><?= !empty($commonData->meta_title) ? $commonData->meta_title : '' ?></title>

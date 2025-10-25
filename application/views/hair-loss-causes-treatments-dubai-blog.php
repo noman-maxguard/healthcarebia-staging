@@ -110,11 +110,11 @@
                     <p>Many people try oral supplements or topical oils but see little change. The problem is absorption. With IV infusion therapy, nutrients go straight into the bloodstream. This allows maximum delivery to cells, including hair follicles.</p>
                     <p>Popular IV Drips in Dubai for Hair Health include:</p>
                     <ul class="ingredients-list">
-                        <li><a href="<?= base_url() ?>https://www.healthcarebia.ae/iv-drip-dubai"><strong>Beauty Drip (Glow Drip):</strong></a> Contains Vitamin C, biotin, and antioxidants. Improves skin, nails, and hair.</li>
-                        <li><a href="<?= base_url() ?>https://www.healthcarebia.ae/myers-iv-drip"><strong>Myers’ Cocktail IV:</strong></a> A classic option with Vitamin B complex, Vitamin C, magnesium, and calcium. Supports energy, immunity, and hair vitality.</li>
-                        <li><a href="<?= base_url() ?>https://www.healthcarebia.ae/immune-iv-drip"><strong>Immune Boost IV Drip:</strong></a> Helps reduce inflammation and protects against stress-related shedding. </li>
-                        <li><a href="<?= base_url() ?>https://www.healthcarebia.ae/nad-iv-drip"><strong>NAD+ IV Therapy:</strong></a> Supports energy repair and slows aging. It also improves metabolism, which may support hair growth.</li>
-                        <li><a href="<?= base_url() ?>https://www.healthcarebia.ae/iv-drip-dubai"><strong>Custom IV Drips:</strong></a> Tailored plans may include iron, Vitamin D, or biotin depending on your blood test or DNA test results.</li>
+                        <li><a href="<?= base_url() ?>iv-drip-dubai"><strong>Beauty Drip (Glow Drip):</strong></a> Contains Vitamin C, biotin, and antioxidants. Improves skin, nails, and hair.</li>
+                        <li><a href="<?= base_url() ?>myers-iv-drip"><strong>Myers’ Cocktail IV:</strong></a> A classic option with Vitamin B complex, Vitamin C, magnesium, and calcium. Supports energy, immunity, and hair vitality.</li>
+                        <li><a href="<?= base_url() ?>immune-iv-drip"><strong>Immune Boost IV Drip:</strong></a> Helps reduce inflammation and protects against stress-related shedding. </li>
+                        <li><a href="<?= base_url() ?>nad-iv-drip"><strong>NAD+ IV Therapy:</strong></a> Supports energy repair and slows aging. It also improves metabolism, which may support hair growth.</li>
+                        <li><a href="<?= base_url() ?>iv-drip-dubai"><strong>Custom IV Drips:</strong></a> Tailored plans may include iron, Vitamin D, or biotin depending on your blood test or DNA test results.</li>
                     </ul>
 
                     <!-- Home IV -->
@@ -139,10 +139,10 @@
                     <!-- Why choose -->
                     <h5>Why Choose Healthcarebia in Dubai?</h5>
                     <ul class="tick-list">
-                        <li><a href="<?= base_url() ?>https://www.healthcarebia.ae/dna-test"><strong>DNA testing in Dubai:</strong></a> Check genetic risks, vitamin absorption, and hormone imbalances.</li>
-                        <li><a href="<?= base_url() ?>https://www.healthcarebia.ae/custom-blood-test"><strong>Blood test at home Dubai:</strong></a> Panels for Vitamin D, iron, thyroid, B12, and more.</li>
-                        <li><a href="<?= base_url() ?>https://www.healthcarebia.ae/iv-drip-dubai"><strong>Customized IV therapy:</strong></a> From glutathione IV drips to NAD+ therapy, we design drips that fit your health.</li>
-                        <li><a href="<?= base_url() ?>https://www.healthcarebia.ae/iv-drip-dubai"><strong></a>VIP IV therapy at home:</strong> Premium, private, and DHA-licensed.</li>
+                        <li><a href="<?= base_url() ?>dna-test"><strong>DNA testing in Dubai:</strong></a> Check genetic risks, vitamin absorption, and hormone imbalances.</li>
+                        <li><a href="<?= base_url() ?>custom-blood-test"><strong>Blood test at home Dubai:</strong></a> Panels for Vitamin D, iron, thyroid, B12, and more.</li>
+                        <li><a href="<?= base_url() ?>iv-drip-dubai"><strong>Customized IV therapy:</strong></a> From glutathione IV drips to NAD+ therapy, we design drips that fit your health.</li>
+                        <li><a href="<?= base_url() ?>iv-drip-dubai"><strong></a>VIP IV therapy at home:</strong> Premium, private, and DHA-licensed.</li>
                     </ul>
 
                     <!-- Conclusion -->

@@ -1,3 +1,5 @@
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
         integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -440,6 +442,27 @@ document.addEventListener('DOMContentLoaded', () => {
     updateProgress();
     updateNavigation();
     });
+</script>
+<script>
+    const START = 0.4;
+const observer = new IntersectionObserver(
+  (entries, obs) => {
+    entries.forEach((entry) => {
+      const animation = entry.target.getAttribute("data-animation");
+
+      if (entry.isIntersecting && entry.intersectionRatio >= START) {
+        entry.target.classList.add(animation);
+        obs.unobserve(entry.target);
+      }
+    });
+  },
+  {
+    root: null,
+    threshold: START,
+    rootMargin: "0px 0px -10% 0px",
+  },
+);
+document.querySelectorAll(".animate").forEach((el) => observer.observe(el));
 </script>
 
 

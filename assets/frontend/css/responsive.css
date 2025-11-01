@@ -194,16 +194,101 @@
   .why-choose-out h4 {
     font-size: 25px
   }
+
+  .why-choose-heading-one {
+    display: block;
+    text-align: center;
+    ;
+  }
+
+  .why-choose-heading-two {
+    display: none !important;
+  }
+
+  .service-block2 {
+    display: block;
+    height: 720px;
+  }
+
+  .service-block1 {
+    display: none;
+  }
+
+  .main-banner h1 {
+    font-size: 75px
+  }
+
+  .services-slider .owl-nav button.owl-prev {
+    left: 30px;
+  }
+
+  .services-slider .owl-nav button.owl-next {
+    right: 30px;
+  }
+
+  .testimonials-slider .owl-nav button.owl-next {
+    right: 50px;
+  }
+
+  .testimonials-slider .owl-nav button.owl-prev {
+    left: 50px;
+  }
+
+  footer .overlay {
+    height: 600px;
+  }
+
+  .footer-banner>img {
+    height: 27px;
+    width: 200px;
+  }
+
+  .review-item h5 {
+    display: none;
+  }
+
+  .why-choose-item {
+    width: 300px;
+  }
+
+  .why-image-wrap {
+    display: none;
+  }
 }
 
-@media (max-width:767px) {
+@media (max-width:768px) {
 
   .about-text,
   .banner-inner,
   .choose-item,
   .why-choose,
   .why-choose-therapy h2 {
-    text-align: center
+    text-align: start
+  }
+
+  .about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .why-choose {
+    min-height: 520px
+  }
+
+  .why-choose-heading-one {
+    display: block;
+    text-align: center;
+    ;
+  }
+
+  .why-choose-heading-two {
+    display: none;
+  }
+
+  .why-image-wrap {
+    display: none;
   }
 
   .choose-item,
@@ -213,15 +298,15 @@
   }
 
   h1 {
-    font-size: 45px
+    font-size: 45px !important;
   }
 
   h2 {
-    font-size: 35px
+    font-size: 35px !important;
   }
 
   h5 {
-    font-size: 20px
+    font-size: 20px !important;
   }
 
   .no-soacing-bottom {
@@ -252,7 +337,7 @@
 
   .main-banner {
     width: 100%;
-    height: 482px;
+    height: 100vh;
     overflow: hidden
   }
 
@@ -267,7 +352,6 @@
   footer,
   footer .overlay {
     height: auto;
-    background: #568259
   }
 
   .main-banner .overlay {
@@ -280,7 +364,8 @@
   }
 
   .about-block {
-    background-image: none
+    background-image: none;
+    padding: 20px !important;
   }
 
   .logo img {
@@ -300,7 +385,7 @@
     background-image: none !important
   }
 
-  .choose-item {
+  /* .choose-item {
     width: 100%;
     margin: 20px auto 0;
     padding: 15px;
@@ -308,6 +393,18 @@
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px
+  } */
+  .why-choose-item {
+    margin: 10px;
+    height: 200px;
+    width: 40%;
+    padding: 15px;
+    background-color: white;
+  }
+
+  .choose-item h3 {
+    font-size: 14px;
+    text-align: center;
   }
 
   .mob-inner-banner,
@@ -318,8 +415,7 @@
   }
 
   .sub-banner,
-  .what-therapy-bg,
-  .why-choose-therapy {
+  .what-therapy-bg {
     background-image: none !important
   }
 
@@ -336,13 +432,8 @@
   }
 
   footer {
-    background: linear-gradient(180deg, #568259 0, #67aa6b 100%);
+    /* background: linear-gradient(to bottom, #1d2618 0%, #2c3129 100%) !important; */
     text-align: center
-  }
-
-  footer .overlay {
-    padding: 20px 0 0;
-    background: linear-gradient(180deg, #568259 0, #67aa6b 100%)
   }
 
   .mobile-off,
@@ -376,7 +467,20 @@
   }
 
   .google-review {
-    margin: 0 auto
+    margin: 0 10px;
+    background-color: transparent;
+  }
+
+  .google-review a {
+    display: none;
+  }
+
+  .review-item h5 {
+    display: none
+  }
+
+  .review-item span .fa-star {
+    font-size: 10px;
   }
 
   .sub-banner {
@@ -402,10 +506,15 @@
   }
 
   .therapy-choose-item {
-    display: block;
+    display: flex;
+    gap: 10px;
     text-align: center;
     width: 85%;
     margin: 0 auto
+  }
+
+  .therapy-choose-item .text p {
+    display: block;
   }
 
   .therapy-choose-item .img {
@@ -460,5 +569,134 @@
     margin: 10px 0;
     width: 100%;
     text-align: center
+  }
+
+  .service-block2 {
+    display: block;
+    height: 720px;
+  }
+
+  .services-slider-item {
+    width: 90% !important;
+  }
+
+  .owl-item .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .service-block1 {
+    display: none;
+  }
+
+  .trust-section {
+    display: none;
+  }
+
+  .google,
+  .fda {
+    transform: scale(1) !important;
+    height: 100px;
+  }
+
+  .dha,
+  .nabidh {
+    height: 40px !important;
+  }
+
+  .text p {
+    display: none;
+  }
+
+  .about-us-right .image {
+    display: none;
+  }
+
+  .services-slider .owl-nav button.owl-prev {
+    left: 60px;
+  }
+
+  .services-slider .owl-nav button.owl-next {
+    right: 60px;
+  }
+
+  .testimonials-slider .owl-nav button.owl-next {
+    right: 60px;
+  }
+
+  .testimonials-slider .owl-nav button.owl-prev {
+    left: 60px;
+  }
+
+  ul#downArrow {
+    display: flex;
+  }
+
+  .ebook-form {
+    margin-top: 10px !important
+  }
+
+  #ebookFormDesktop {
+    display: none;
+  }
+
+  #ebookFormMobile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #ebookFormMobile form {
+    max-width: 70%;
+  }
+
+  #ebookFormMobile h6 {
+    color: var(--green) !important;
+  }
+
+  #ebookFormMobile form {
+    display: block !important;
+  }
+
+  #ebookFormMobile form input {
+    border: 1px solid var(--green) !important;
+  }
+
+  #ebookFormMobile .form-check span {
+    color: var(--green) !important;
+  }
+
+  .google-review img {
+    width: 70px;
+    height: 27px;
+  }
+
+  .trust-section-mobile .item div p {
+    display: none;
+  }
+
+  .trust-section-mobile .item div h3 {
+    display: none;
+  }
+
+  .trust-section-mobile .owl-item .item div {
+    width: 90%;
+    border-radius: 15px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+@media(max-width: 576px) {
+  #ebookFormMobile form {
+    max-width: 90%;
+  }
+
+  .footer-banner .images img {
+    height: 30px;
   }
 }

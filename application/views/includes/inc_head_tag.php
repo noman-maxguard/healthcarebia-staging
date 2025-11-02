@@ -69,7 +69,6 @@ src="https://www.facebook.com/tr?id=1280000576857900&ev=PageView&noscript=1"
 </script>
 
 <!-- JSON LD CODE -->
-
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -200,11 +199,6 @@ src="https://www.facebook.com/tr?id=1280000576857900&ev=PageView&noscript=1"
     }
   }
 </script>
-
-
-
- 
-
 <!-- JSON LD CODE -->
 <!-- Bing verification -->
 <meta name="msvalidate.01" content="1E5B3AD558D9C4BAFA7C3BFC58991D4D" />

@@ -186,7 +186,6 @@
     </div>
 
 </section>
-
 <section class="section-gap what-therapy-bg light-green">
 
     <div class="container">

@@ -1153,7 +1153,7 @@ header {
 .services-slider .owl-nav button.owl-prev {
   /* border: 2px solid var(--green); */
   margin-left: -80px;
-  background-image: url(../img/arrow-left.svg) !important;
+  background-image: url(../img/arrow-left-green.svg) !important;
   background-size: contain !important;
   position: absolute;
   bottom: 250px;
@@ -1164,7 +1164,7 @@ header {
 
 .services-slider .owl-nav button.owl-next {
   /* border: 2px solid var(--green); */
-  background-image: url(../img/arrow-right.svg) !important;
+  background-image: url(../img/arrow-right-green.svg) !important;
   background-size: contain !important;
   margin-right: -80px;
   position: absolute;
@@ -1360,7 +1360,7 @@ ul.fot-link li a {
 
 .testimonials-slider .owl-nav button.owl-prev {
   margin-left: -80px;
-  background-image: url(../img/arrow-left.svg) !important;
+  background-image: url(../img/arrow-left-green.svg) !important;
   background-size: contain !important;
   position: absolute;
   bottom: 500px;
@@ -1371,7 +1371,7 @@ ul.fot-link li a {
 
 .testimonials2-slider .owl-nav button.owl-prev {
   margin-left: -80px;
-  background-image: url(../img/arrow-left.svg) !important;
+  background-image: url(../img/arrow-left-green.svg) !important;
   background-size: contain !important;
   position: absolute;
   bottom: 180px;
@@ -1381,7 +1381,7 @@ ul.fot-link li a {
 }
 
 .testimonials-slider .owl-nav button.owl-next {
-  background-image: url(../img/arrow-right.svg) !important;
+  background-image: url(../img/arrow-right-green.svg) !important;
   background-size: contain !important;
   margin-right: -80px;
   position: absolute;
@@ -1392,7 +1392,7 @@ ul.fot-link li a {
 }
 
 .testimonials2-slider .owl-nav button.owl-next {
-  background-image: url(../img/arrow-right.svg) !important;
+  background-image: url(../img/arrow-right-green.svg) !important;
   background-size: contain !important;
   margin-right: -80px;
   position: absolute;

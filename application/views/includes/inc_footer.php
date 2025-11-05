@@ -374,7 +374,7 @@
                 <p>Premium At-Home Healthcare in Dubai |
                     Expert IV therapy, comprehensive lab tests, and personalized wellness solutions delivered directly to your home.
                 </p>
-                <div href="#" class="google-reviews" style="display: flex; align-items: center; justify-content: center;">
+                <div href="#" class="google-reviews" style="display: flex; align-items: center; justify-content: center;width:max-content">
                     <div class="google-review">
                         <img width="136" height="61" class="img-fluid"
                         src="<?= base_url() ?>assets/frontend/img/google-review.svg"
@@ -389,7 +389,7 @@
                         </div>
                         <a href="https://www.google.com/search?q=healthcarebia&oq=healthcarebia+&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORiABBiiBDIKCAEQABiABBiiBDIHCAIQABjvBTIGCAMQRRg8MgYIBBBFGDwyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQg2MDM4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#vhid=zephyr:1&vssid=atritem-&lrd=0x3e5f437ad48ce8ab:0x1441da8daee852a8,1,,,," target="_blank">Based on 49 reviews </a>
                     </div>
-                    <div class="icon-box"><div class="images"><img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="dha"><img id="fda" src="<?= base_url() ?>assets/frontend/img/fda.png" alt="fda"><img src="<?= base_url() ?>assets/frontend/img/nabidh.svg" alt="nabidh"></div></div>
+                    <div class="icon-box"><div class="images"><img id="fda" src="<?= base_url() ?>assets/frontend/img/fda.png" alt="fda"><img src="<?= base_url() ?>assets/frontend/img/nabidh.svg" alt="nabidh"><img src="<?= base_url() ?>assets/frontend/img/iso-icon.svg" alt="iso icon" class="iso"><img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="dha"></div></div>
                     
                 </div>
             </div>
@@ -505,8 +505,160 @@
             </div>
         </div>
     </div>
-    <!-- <video style="object-fit: cover; background-size: cover; width: 100%; height: 100%;" preload="auto" playsinline="" autoplay="" loop="" muted="" width="320" height="200">
-        <source src="<?= base_url() ?>assets/frontend/img/footer.mp4" type="video/mp4">
+    <div id="iv-quiz-modal" style="display:none; position:fixed; top:0; left:0;
+        width:100%; height:100%; background:rgba(0,0,0,0.6); z-index:9999;
+        align-items:center; justify-content:center;">
+
+        <div class="quiz-container">
+            <div class="quiz-header">
+                <h1><i class="fas fa-vial me-2"></i>IV Drip Finder</h1>
+                <p>Let's find the right IV for you</p>
+            </div>
+
+            <div class="progress-container">
+                <div class="progress">
+                    <div class="progress-bar" id="progressBar" style="width: 33%"></div>
+                </div>
+                <small class="text-muted mt-2 d-block">Step <span id="currentStep">1</span> of 3</small>
+            </div>
+
+            <div class="quiz-content">
+                <!-- Question 1: Gender -->
+                <div class="question-slide active" id="question1">
+                    <div class="question-title">
+                        <div class="question-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        Gender
+                    </div>
+                    <div class="option-group">
+                        <div class="option-button" data-value="male">
+                            <div class="option-icon">👨</div>
+                            <div>Male</div>
+                        </div>
+                        <div class="option-button" data-value="female">
+                            <div class="option-icon">👩</div>
+                            <div>Female</div>
+                        </div>
+                        <div class="option-button" data-value="other">
+                            <div class="option-icon">🧑</div>
+                            <div>Other</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Question 2: Age Group -->
+                <div class="question-slide" id="question2">
+                    <div class="question-title">
+                        <div class="question-icon">
+                            <i class="fas fa-birthday-cake"></i>
+                        </div>
+                        Age Group
+                    </div>
+                    <div class="option-group">
+                        <div class="option-button" data-value="18-25">
+                            <div class="option-icon">🌱</div>
+                            <div>18-25 years</div>
+                        </div>
+                        <div class="option-button" data-value="26-35">
+                            <div class="option-icon">🌿</div>
+                            <div>26-35 years</div>
+                        </div>
+                        <div class="option-button" data-value="36-45">
+                            <div class="option-icon">🌳</div>
+                            <div>36-45 years</div>
+                        </div>
+                        <div class="option-button" data-value="46-60">
+                            <div class="option-icon">🍃</div>
+                            <div>46-60 years</div>
+                        </div>
+                        <div class="option-button" data-value="60+">
+                            <div class="option-icon">🌺</div>
+                            <div>60+ years</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Question 3: Symptoms -->
+                <div class="question-slide" id="question3">
+                    <div class="question-title">
+                        <div class="question-icon">
+                            <i class="fas fa-heart-pulse"></i>
+                        </div>
+                        What are you feeling today?
+                    </div>
+                    <p class="text-muted mb-3">Select all that apply</p>
+                    <div class="checkbox-group">
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="symptom1" value="Fatigued or Low on Energy">
+                            <label for="symptom1">⚡ Fatigued or Low on Energy</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="symptom2" value="Sick or Recovering">
+                            <label for="symptom2">🤒 Sick or Recovering</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="symptom3" value="Jetlagged or Sleep Deprived">
+                            <label for="symptom3">😴 Jetlagged or Sleep Deprived</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="symptom4" value="Feeling 'Off' but Not Sure Why">
+                            <label for="symptom4">🤔 Feeling "Off" but Not Sure Why</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="symptom5" value="Want to Prevent Illness">
+                            <label for="symptom5">🛡️ Want to Prevent Illness</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="symptom6" value="Looking to Optimize Performance">
+                            <label for="symptom6">🚀 Looking to Optimize Performance</label>
+                        </div>
+                        <div class="checkbox-item">
+                            <input type="checkbox" id="symptom7" value="Need a Skin or Detox Reset">
+                            <label for="symptom7">✨ Need a Skin or Detox Reset</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Results -->
+                <div class="question-slide" id="results" style="display: none;">
+                    <div class="result-container">
+                    <!-- image for the recommended drip -->
+                    <img
+                        id="ivImage"
+                        src=""
+                        alt="IV Drip Image"
+                        style="max-width:150px; margin-bottom:1rem;"
+                    />
+
+                    <div class="result-icon">
+                        <i class="fas fa-vial"></i>
+                    </div>
+                    <div class="result-title" id="recommendedIV">Your Perfect IV Match</div>
+                    <div class="result-description" id="ivDescription">
+                        …
+                    </div>
+                    <a href="<?= $whatsappHref ?>" class="booking-cta" id="bookingButton">
+                        <i class="fab fa-whatsapp me-2"></i>Book Your IV Session
+                    </a>
+                    <div class="mt-4">
+                        <button class="btn btn-outline-secondary" onclick="restartQuiz()">
+                            <i class="fas fa-redo me-2"></i>Take Quiz Again
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quiz-navigation">
+                <button class="nav-button btn-secondary" id="prevButton" onclick="previousQuestion()" style="display: none;">
+                    <i class="fas fa-arrow-left"></i> Previous
+                </button>
+                <button class="nav-button btn-primary" id="nextButton" onclick="nextQuestion()">
+                    Next <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
     
 </footer>
 <script>

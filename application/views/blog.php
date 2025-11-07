@@ -50,7 +50,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
-                <a href="<?= base_url() ?>inflammation-fatigue-weight-gain" class="card-style3 card-style4 same">
+                <a href="<?= base_url() ?>inflammation-fatigue-weight-gain-blog" class="card-style3 card-style4 same">
                     <img
                     src="<?= base_url() ?>assets/frontend/img/blog44.jpg"
                     alt="Inflammation: The Unseen Link to Fatigue and Weight Gain"

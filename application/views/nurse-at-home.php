@@ -39,8 +39,6 @@
 
 
 
-
-
 </head>
 
 
@@ -59,9 +57,9 @@
 
 <div class="mob-inner-banner"
 
-     style="background-image: url(<?= base_url() ?>assets/frontend/img/nurses-banner-mob.webp);">
+     style="background-image: url(<?= base_url() ?>assets/frontend/img/nurse-banner.webp);">
 
-    <section class="sub-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/nurses-banner.webp);">
+    <section class="sub-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/nurse-banner.webp);">
 
 
 
@@ -275,7 +273,7 @@
 
     <div class="container">
 
-        <div class="row">
+        <div class="row mb-3">
 
             <div class="col-md-12">
 
@@ -377,11 +375,11 @@
 
         </div>
 
-        <div class="col-md-12 text-center">
+        <!-- <div class="col-md-12 text-center">
 
             <img Width="950" height="426" src="<?= base_url() ?>assets/frontend/img/nurses-img1.webp" alt="Nurses at Home Dubai" class="img-fluid">
 
-        </div>
+        </div> -->
 
     </div>
 

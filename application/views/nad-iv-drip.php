@@ -94,9 +94,13 @@
         }
     </script>
 
-
-
-
+<style>
+    @media(max-width:768px){
+        .mob-inner-banner {
+    background-position: 60% center;
+  }
+    }
+</style>
 </head>
 
 
@@ -113,9 +117,9 @@
 
 <!--======== banner ======-->
 
-<div class="mob-inner-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/nad-banner-mob.webp);">
+<div class="mob-inner-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/nad-main-banner.png);">
 
-    <section class="sub-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/nad-banner.webp);">
+    <section class="sub-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/nad-main-banner.png);background-size: cover;background-position: center">
 
         <div class="overlay">
 
@@ -155,182 +159,196 @@
 
 
 
-<section class="why-choose-therapy section-gap light-blue">
+<section
+
+         class="why-choose-therapy py-5">
 
     <div class="container">
 
-        <div class="row">
+        <div class="row gap-3">
 
-            <div class="col-md-12">
+            <div class="col-md-12 d-flex flex-column justify-content-center align-items-center">
 
-                <div class="text-center">
+                <h2 class="text-lg-center">Why choose Healthcarebia for<br>
 
-                    <h2 class="text-center mb-4">Why choose Healthcarebia <br>for NAD+ IV Drip</h2>
+                    NAD+ IV Drip?</h2>
+
+
+
+                <div class="row mb-3">
+
+                    <div class="col-6 col-lg-4">
+
+                        <div class="therapy-choose-item">
+
+                            <div>
+
+                                <div class="img">
+
+                                    <img src="<?= base_url() ?>assets/frontend/img/icons/Offer.svg" alt="IV Drip icon1" loading="lazy">
+
+                                </div>
+
+                            </div>
+
+                            <div class="text"><p>20% Off on IV Drip with Free Oxygen Therapy & Light Therapy on Your
+
+                                    First Booking!*</p></div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-6 col-lg-4">
+
+                        <div class="therapy-choose-item">
+
+                            <div>
+
+                                <div class="img">
+
+                                    <img src="<?= base_url() ?>assets/frontend/img/icons/Doctor.svg" alt="IV Drip icon2" loading="lazy">
+
+                                </div>
+
+                            </div>
+
+                            <div class="text"><p>Free Home Visit & Free Doctor Consultation</p></div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-6 col-lg-4">
+
+                        <div class="therapy-choose-item">
+
+                            <div>
+
+                                <div class="img">
+
+                                    <img src="<?= base_url() ?>assets/frontend/img/icons/dha.svg" alt="IV Drip icon3" loading="lazy" style="height:50px;width:50px">
+
+                                </div>
+
+                            </div>
+
+                            <div class="text"><p>100% DHA and MOH Certified, fresh and active ingredients.</p></div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-6 col-lg-4">
+
+                        <div class="therapy-choose-item">
+
+                            <div>
+
+                                <div class="img">
+
+                                    <img src="<?= base_url() ?>assets/frontend/img/icons/Complete.svg" alt="IV Drip icon4" loading="lazy">
+
+                                </div>
+
+                            </div>
+
+                            <div class="text"><p>Complete attention to care and customer satisfaction.</p></div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-6 col-lg-4">
+
+                        <div class="therapy-choose-item">
+
+                            <div>
+
+                                <div class="img">
+
+                                    <img src="<?= base_url() ?>assets/frontend/img/icons/Home.svg" alt="IV Drip icon5" loading="lazy">
+
+                                </div>
+
+                            </div>
+
+                            <div class="text"><p>Specialised in IV Therapy and Home Health Care Services.</p></div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-6 col-lg-4">
+
+                        <div class="therapy-choose-item">
+
+                            <div>
+
+                                <div class="img">
+
+                                    <img src="<?= base_url() ?>assets/frontend/img/icons/Location.svg" alt="IV Drip icon6" loading="lazy">
+
+                                </div>
+
+                            </div>
+
+                            <div class="text"><p>Tailored IV Drip home service anywhere in Dubai.</p></div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-6 col-lg-4">
+
+                        <div class="therapy-choose-item">
+
+                            <div>
+
+                                <div class="img">
+
+                                    <img src="<?= base_url() ?>assets/frontend/img/icons/Certified.svg" alt="IV Drip icon7" loading="lazy">
+
+                                </div>
+
+                            </div>
+
+                            <div class="text"><p>DHA Certified Team with 30+ years of collective experience</p></div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-6 col-lg-4">
+
+                        <div class="therapy-choose-item">
+
+                            <div>
+
+                                <div class="img">
+
+                                    <img src="<?= base_url() ?>assets/frontend/img/icons/Health.svg" alt="IV Drip icon8" loading="lazy">
+
+                                </div>
+
+                            </div>
+
+                            <div class="text"><p>Your health is our priority.</p></div>
+
+                        </div>
+
+                    </div>
 
                 </div>
-
-
-
-                <div class="row mt-4">
-
-                    <div class="col-6 col-md-3 mb-3">
-
-                        <div class="therapy-choose-item">
-
-                            <div>
-
-                                <div class="img">
-
-                                    <img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="NAD+ IV Drip Dubai icon1" loading="lazy">
-
-                                </div>
-
-                            </div>
-
-                            <div class="text"><p>
-
-
-
-                                    DHA registered, experienced and qualified healthcare professionals.
-
-                                </p></div>
-
-                        </div>
-
-                    </div>
-
-
-
-                    <div class="col-6 col-md-3 mb-3">
-
-                        <div class="therapy-choose-item">
-
-                            <div>
-
-                                <div class="img">
-
-                                    <img src="<?= base_url() ?>assets/frontend/img/tick.svg" alt="NAD+ IV Drip Dubai icon2" loading="lazy">
-
-                                </div>
-
-                            </div>
-
-                            <div class="text"><p>Use of 100% DHA approved high-quality ingredients.</p></div>
-
-                        </div>
-
-                    </div>
-
-
-
-                    <div class="col-6 col-md-3 mb-3">
-
-                        <div class="therapy-choose-item">
-
-                            <div>
-
-                                <div class="img">
-
-                                    <img src="<?= base_url() ?>assets/frontend/img/like.svg" alt="NAD+ IV Drip Dubai icon3" loading="lazy">
-
-                                </div>
-
-                            </div>
-
-                            <div class="text"><p>Convenient, quick, and comfortable service at your doorstep.</p></div>
-
-                        </div>
-
-                    </div>
-
-
-
-                    <div class="col-6 col-md-3 mb-3">
-
-                        <div class="therapy-choose-item">
-
-                            <div>
-
-                                <div class="img">
-
-                                    <img src="<?= base_url() ?>assets/frontend/img/customers.svg" alt="NAD+ IV Drip Dubai icon4" loading="lazy">
-
-                                </div>
-
-                            </div>
-
-                            <div class="text"><p>A complete and knowledgeable experience for all customers.
-
-                                </p></div>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="col-6 col-md-3 mb-3">
-
-                        <div class="therapy-choose-item">
-
-                            <div>
-
-                                <div class="img">
-
-                                    <img src="<?= base_url() ?>assets/frontend/img/patient-care.svg" alt="NAD+ IV Drip Dubai icon5" loading="lazy">
-
-                                </div>
-
-                            </div>
-
-                            <div class="text"><p>Excellent customer service and attention to patient care.</p></div>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="col-6 col-md-3 mb-3">
-
-                        <div class="therapy-choose-item">
-
-                            <div>
-
-                                <div class="img">
-
-                                    <img src="<?= base_url() ?>assets/frontend/img/reviews.svg" alt="NAD+ IV Drip Dubai icon6" loading="lazy">
-
-                                </div>
-
-                            </div>
-
-                            <div class="text"><p>Positive reviews and testimonials from satisfied clients.</p></div>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="col-6 col-md-3 mb-3">
-
-                        <div class="therapy-choose-item">
-
-                            <div>
-
-                                <div class="img">
-
-                                    <img src="<?= base_url() ?>assets/frontend/img/available.svg" alt="NAD+ IV Drip Dubai icon7" loading="lazy">
-
-                                </div>
-
-                            </div>
-
-                            <div class="text"><p>Available to book 7 days a week, 365 days a year.</p></div>
-
-                        </div>
-
-                    </div>
-
-                </div>
+                <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
+                                Chat With Experts
+                            </a>
 
             </div>
 
@@ -344,123 +362,35 @@
 
 
 
-<section class="section-gap what-therapy-bg light-green">
-
-    <div class="container">
-
-        <div class="row">
-
-            <div class="col-md-12 mb-4 text-center">
-
-                <h2>What is NAD+?</h2>
-
-                <p>Restore your youth and reverse your signs of age with our NAD+ Drip. This infusion delivers
-
-                    Nicotinamide Adenine Dinucleotide (NAD+), a coenzyme essential for energy production, DNA repair,
-
-                    and cellular rejuvenation. Experience enhanced vitality, mental clarity, and overall well-being with
-
-                    this cutting-edge drip.</p>
-
-            </div>
-
-            <div class="col-md-12 text-center mb-3">
-
-                <h5>Benefits of NAD+ IV Drip</h5>
-
-            </div>
-
-            <div class="col-6 col-md-4 mb-3">
-
-                <div class="card-style1 same">
-
-                    <p>NAD+ IV Therapy promotes energy production by supporting cellular metabolism.</p>
-
-                </div>
-
-            </div>
-
-
-
-            <div class="col-6 col-md-4 mb-3">
-
-                <div class="card-style1 same">
-
-                    <p>It aids in DNA repair and protects against oxidative stress.</p>
-
-                </div>
-
-            </div>
-
-
-
-
-
-            <div class="col-6 col-md-4 mb-3">
-
-                <div class="card-style1 same">
-
-                    <p>NAD+ boosts brain function and improves cognitive performance.</p>
-
-                </div>
-
-            </div>
-
-
-
-
-
-            <div class="col-6 col-md-4 mb-3">
-
-                <div class="card-style1 same">
-
-                    <p>It enhances muscle recovery and supports athletic performance.</p>
-
-                </div>
-
-            </div>
-
-
-
-
-
-            <div class="col-6 col-md-4 mb-3">
-
-                <div class="card-style1 same">
-
-                    <p>NAD+ IV drip can slow down aging processes and improve overall health and well-being.</p>
-
-                </div>
-
-            </div>
-
-
-
-
-
-            <div class="col-6 col-md-4 mb-3">
-
-                <div class="card-style1 same">
-
-                    <p>NAD+ has anti-inflammatory properties, so increasing NAD+ levels can help reduce inflammation
-
-                        throughout the body.</p>
-
-                </div>
-
-            </div>
-
-
-
-
-
-        </div>
-
-
-
+<section class=" section-gap what-therapy-bg">
+  <div class="container">
+    <div class="row d-flex justify-content-evenly">
+      <div class="col-md-6">
+        <img class="img-fluid d-block"
+             src="<?= base_url() ?>assets/frontend/img/nad-benefits.webp"
+             alt="Benefits of NAD+ IV drip Dubai">
+      </div>
+      <div class="col-md-6 col-12 d-flexflex-column gap-3">
+        <h2 class="mt-3 mb-2">What is NAD+?</h2>
+        <p>Restore your youth and reverse your signs of age with our NAD+ Drip. This infusion delivers
+          Nicotinamide Adenine Dinucleotide (NAD+), a coenzyme essential for energy production, DNA repair,
+          and cellular rejuvenation. Experience enhanced vitality, mental clarity, and overall well being with
+          this cutting edge drip.
+        </p>
+        <h5>Benefits of NAD+ IV Drip</h5>
+        <ul class="benefits-of-drip">
+          <li>Boosts energy and cellular metabolism</li>
+          <li>Supports DNA repair and reduces oxidative stress</li>
+          <li>Improves brain function and cognition</li>
+          <li>Speeds muscle recovery and performance</li>
+          <li>Slows aging and boosts overall wellness</li>
+          <li>Reduces inflammation in the body</li>
+        </ul>
+      </div>
     </div>
-
+  </div>
 </section>
+
 
 
 
@@ -499,10 +429,10 @@
 
                         <div class="col-md-4 text-center mt-2 mt-md-4">
 
-                            <img src="<?= base_url() ?>assets/frontend/img/nad-before-aftre.webp" 
+                            <img src="<?= base_url() ?>assets/frontend/img/nad-iv-drip.webp" 
                                  alt="NAD+ IV Dubai" 
-                                 class="img-fluid" 
-                                 loading="lazy">
+                                 class="" 
+                                 loading="lazy" height="400px">
 
                         </div>
 
@@ -521,7 +451,7 @@
 
 
 
-<section class="section-gap" style="background-color: #f9f9f9;">
+<section class="section-gap" style="background-color: #f3f3f3;">
 
   <div class="container">
 

@@ -88,14 +88,13 @@
       as="image"
       href="<?= base_url() ?>assets/frontend/img/myers-banner.webp"
       imagesrcset="
-        <?= base_url() ?>assets/frontend/img/myers-banner.webp 1920w,
-        <?= base_url() ?>assets/frontend/img/myers-banner-mob.webp 768w"
+        <?= base_url() ?>assets/frontend/img/myers-banner.webp 1920w
       imagesizes="100vw">
 </head>
 <body>
 <?php include 'includes/inc_header.php'; ?>
 
-<div class="mob-inner-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/myers-banner-mob.webp);">
+<div class="mob-inner-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/myers-banner.webp);">
     <section class="sub-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/myers-banner.webp);">
         <div class="overlay">
             <div class="container">
@@ -121,7 +120,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="text-center">
-                    <h2 class="text-center mb-4">Why choose Healthcarebia <br>for Myers Cocktail IV Drip in Dubai</h2>
+                    <h2 class="text-lg-center mb-4">Why choose Healthcarebia <br>for Myers Cocktail IV Drip in Dubai</h2>
                 </div>
                 <div class="row mt-4">
                     <div class="col-6 col-md-3 mb-3">
@@ -200,24 +199,34 @@
     </div>
 </section>
 
-<section class="section-gap what-therapy-bg light-green">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 mb-4 text-center">
-                <h2>What is Myers Cocktail IV Drip?</h2>
-                <p>The <strong> Myers Cocktail </strong> is a powerful IV treatment that helps recharge the energy, strengthen the immune system, and support overall wellness.  It’s especially beneficial for those experiencing fatigue, high stress, or nutrient deficiencies.</p>
-            </div>
-            <div class="col-md-12 text-center mb-3">
-                <h5>Benefits of Myers Cocktail IV Drip</h5>
-            </div>
-            <div class="col-6 col-md-4 mb-3"><div class="card-style1 same"><p>Boosts energy levels and reduces fatigue for a more active lifestyle.</p></div></div>
-            <div class="col-6 col-md-4 mb-3"><div class="card-style1 same"><p>Supports immune function and overall wellness.</p></div></div>
-            <div class="col-6 col-md-4 mb-3"><div class="card-style1 same"><p>Helps reduce stress and improve cognitive performance.</p></div></div>
-            <div class="col-6 col-md-4 mb-3"><div class="card-style1 same"><p>Promotes muscle relaxation and aids in recovery.</p></div></div>
-            <div class="col-6 col-md-4 mb-3"><div class="card-style1 same"><p>Enhances hydration and nutrient absorption for optimal health.</p></div></div>
-        </div>
+<section class=" section-gap what-therapy-bg">
+  <div class="container">
+    <div class="row d-flex justify-content-evenly">
+      <div class="col-md-6">
+        <img class="img-fluid d-block"
+             src="<?= base_url() ?>assets/frontend/img/myers-image.webp"
+             alt="Benefits of Myers Cocktail IV drip Dubai">
+      </div>
+      <div class="col-md-6 col-12 d-flex justify-content-center align-items-center flex-column gap-3">
+        <h2 class="mt-3 mb-2">What is Myers Cocktail IV Drip?</h2>
+        <p>
+          The <strong>Myers Cocktail</strong> is a powerful IV treatment that helps recharge energy,
+          strengthen the immune system, and support overall wellness. It is especially helpful for those
+          experiencing fatigue, high stress, or nutrient deficiencies.
+        </p>
+        <h5>Benefits of Myers Cocktail IV Drip</h5>
+        <ul class="benefits-of-drip">
+          <li>Boosts energy levels and reduces fatigue for a more active lifestyle</li>
+          <li>Supports immune function and overall wellness</li>
+          <li>Helps reduce stress and improve cognitive performance</li>
+          <li>Promotes muscle relaxation and aids in recovery</li>
+          <li>Enhances hydration and nutrient absorption for optimal health</li>
+        </ul>
+      </div>
     </div>
+  </div>
 </section>
+
 
 <section class="section-gap">
     <div class="container">
@@ -225,7 +234,7 @@
             <div class="col-md-10">
                 <div class="card-style2 p-0">
                     <div class="row">
-                        <div class="col-md-8 p-5">
+                        <div class="col-md-8 p-5 d-flex justify-content-center align-items-center flex-column">
                             <h2>How Myers Cocktail IV Drip Works?</h2>
                             <p>The <strong> Myers Cocktail IV Drip</strong> goes straight into the bloodstream, so the body can absorb all the essential nutrients right away, no waiting on digestion. This means getting quicker access to the ingredients that help recharge the cells, boost energy, and support the overall well-being. Whether recovering from a tough week or just looking for a wellness boost, this infusion helps feeling more energized, refreshed, and ready to take on the day.</p>
                             <a class="primary-btn hvr-bounce-to-right green-btn border-btn booking-btn" href="<?= $whatsappHref ?>" target="_blank">Book Your Session Now</a>

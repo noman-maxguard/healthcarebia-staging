@@ -6,6 +6,10 @@
 
     <?php include 'includes/inc_head_tag.php'; ?>
 <style>
+    .text h3{
+        letter-spacing: normal;
+    }
+
     .video-modal {
     position: fixed;
     top: 0;
@@ -942,7 +946,7 @@
 
                 <div class="text-center testimonial-inner">
 
-                    <h2>Your health. Our mission. Anytime, Anywhere.</h2>
+                    <h2>Your Health. Our Mission. Anytime, Anywhere.</h2>
 
                     <a href="<?= base_url() ?>contact-us" class="primary-btn hvr-bounce-to-right green-btn book-now">Your Wellness Journey Starts Here.</a>
 

@@ -75,7 +75,8 @@
     z-index: 9999999;
     position: absolute;
     top: 16px;
-    right: 25px
+    right: 25px;
+    margin-top: 4px;
   }
 
   .mobile-menu .menu-toggle.active {
@@ -175,11 +176,11 @@
 
   .mega-item ul li a {
     margin-left: 0;
-    padding: 8px 10px
+    /* padding: 8px 10px */
   }
 
   .mega-item ul li::before {
-    margin: 10px 0 0
+    /* margin: 10px 0 0 */
   }
 
   .main-banner video {
@@ -258,6 +259,14 @@
   .face-image {
     display: none;
   }
+
+  .what-iv-image {
+    display: none;
+  }
+
+  .benefits-of-drip li {
+    width: auto;
+  }
 }
 
 @media (max-width:768px) {
@@ -307,6 +316,12 @@
 
   h2 {
     font-size: 35px !important;
+    text-align: left !important;
+    width: 100%;
+  }
+
+  p {
+    text-align: left !important;
   }
 
   h5 {
@@ -373,7 +388,7 @@
   }
 
   .logo img {
-    width: 260px
+    width: 260px;
   }
 
   .services-title {
@@ -409,6 +424,7 @@
   .choose-item h3 {
     font-size: 14px;
     text-align: center;
+    letter-spacing: normal;
   }
 
   .mob-inner-banner,
@@ -420,7 +436,18 @@
 
   .sub-banner,
   .what-therapy-bg {
-    background-image: none !important
+    background-image: none !important;
+    padding-bottom: 0;
+  }
+
+  .sub-banner h2 {
+    text-align: center !important;
+  }
+
+  .what-therapy-bg h5 {
+    font-size: 30px !important;
+    text-align: left !important;
+    width: 100%;
   }
 
   .choose-item .item-icon {
@@ -487,10 +514,6 @@
     font-size: 10px;
   }
 
-  .sub-banner {
-    min-height: 600px
-  }
-
   .sub-banner .container .row {
     width: 100%;
     margin: 0 auto
@@ -505,8 +528,12 @@
 
   .breadcrumb li:last-child,
   .sub-banner .container {
-    display: block;
-    width: 100%
+    display: flex;
+    width: 100%;
+  }
+
+  .breadcrumb li:last-child {
+    justify-content: center;
   }
 
   .therapy-choose-item {
@@ -514,7 +541,8 @@
     gap: 10px;
     text-align: center;
     width: 85%;
-    margin: 0 auto
+    margin: 0 auto;
+    flex-direction: column;
   }
 
   .therapy-choose-item .text p {
@@ -522,7 +550,7 @@
   }
 
   .therapy-choose-item .img {
-    margin: 0 auto 15px
+    margin: 0 auto 15px;
   }
 
   .breadcrumb-item+.breadcrumb-item {
@@ -552,9 +580,9 @@
   }
 
   .sub-banner .container {
-    align-items: center;
+    /* align-items: end; */
     height: 100%;
-    padding-top: 70px
+    padding-bottom: 70px
   }
 
   .banner-inner {
@@ -581,7 +609,7 @@
   }
 
   .services-slider-item {
-    width: 90% !important;
+    width: 80% !important;
   }
 
   .owl-item .item {
@@ -618,19 +646,19 @@
   }
 
   .services-slider .owl-nav button.owl-prev {
-    left: 60px;
+    left: 70px;
   }
 
   .services-slider .owl-nav button.owl-next {
-    right: 60px;
+    right: 70px;
   }
 
   .testimonials-slider .owl-nav button.owl-next {
-    right: 60px;
+    right: 70px;
   }
 
   .testimonials-slider .owl-nav button.owl-prev {
-    left: 60px;
+    left: 70px;
   }
 
   ul#downArrow {
@@ -703,6 +731,27 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+
+  .step-block-wrap {
+    flex-direction: column
+  }
+
+  .iv-step-content p {
+    display: none;
+  }
+
+  .contact-buttons {
+    flex-direction: column;
+    align-items: start !important;
+  }
+
+  .step-block img {
+    height: 200px;
+  }
+
+  .benefits-of-drip li {
+    width: auto;
   }
 }
 

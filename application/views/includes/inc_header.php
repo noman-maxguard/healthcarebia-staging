@@ -66,7 +66,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="header-main-menu">
         <div class="container-fluid">
             <a href="<?= base_url() ?>" class="logo"> 
-                <img width="271" height="38" src="<?= base_url() ?>assets/frontend/img/logo.webp" class="img-fluid" alt="Healthcarebia"> 
+                <img height="32" src="<?= base_url() ?>assets/frontend/img/logo.webp" class="" alt="Healthcarebia"> 
             </a>
             <nav class="main-menu">
                 <ul class="menu-list">

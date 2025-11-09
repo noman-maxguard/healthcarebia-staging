@@ -2014,12 +2014,10 @@ ul.listing-item5 li:before {
 .tabs-design nav {
   padding: 10px 15px;
   border-radius: 8px;
-  margin-bottom: 20px;
 }
 
 .tabs-design .tab-content {
   padding: 20px;
-  margin-top: 20px;
   color: var(--green);
   border-top: 1px solid white;
 }
@@ -2703,4 +2701,8 @@ ul.commen-listing li {
 
 .std-listing h6 {
   color: white
+}
+
+#nav-home p {
+  color: white !important;
 }

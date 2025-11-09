@@ -1995,7 +1995,7 @@ ul.listing-item5 li:before {
 
 /* .light-green, */
 .tabs-block {
-  /* background-color: var(--light-green) */
+  padding-top: 0;
 }
 
 .tabs-design {
@@ -2696,3 +2696,11 @@ ul.commen-listing li {
 /* .test-image {
   max-width: 50%;
 } */
+.std-listing {
+  background-color: transparent !important;
+  box-shadow: 0 0 5px 0 rgba(255, 255, 255, .5);
+}
+
+.std-listing h6 {
+  color: white
+}

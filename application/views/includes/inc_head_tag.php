@@ -56,7 +56,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="stylesheet" href="<?= base_url('assets/frontend/css/responsive.css?v='.$v_resp) ?>" media="all">
 <!-- link to loacl fontawesome file -->
 <link rel="stylesheet" href="<?= base_url('assets/frontend/vendor/fontawesome/css/all.min.css') ?>" media="all">
-
+<!-- link to fontawesome swap file -->
+ <link rel="stylesheet" href="<?= base_url('assets/frontend/vendor/fontawesome/css/fa-display-swap.css') ?>" media="all">
 <!-- Meta Pixel Code -->
 <!-- <script>
 !function(f,b,e,v,n,t,s)

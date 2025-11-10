@@ -96,7 +96,8 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=1280000576857900&ev=PageView&noscript=1"
 /></noscript> -->
 <!-- End Meta Pixel Code -->
-
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <title><?= !empty($commonData->meta_title) ? $commonData->meta_title : '' ?></title>
 <meta name="description" content="<?= !empty($commonData->meta_description) ? $commonData->meta_description : '' ?>"/>
 <meta name="keywords" content="<?= !empty($commonData->meta_keywords) ? $commonData->meta_keywords : '' ?>"/>

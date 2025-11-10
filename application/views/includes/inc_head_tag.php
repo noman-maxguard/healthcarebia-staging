@@ -15,11 +15,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-5SZRK93F');</script>
 <!-- Google tag manager --> 
 <link rel="icon" href="<?= base_url() ?>assets/frontend/img/favicon.svg" type="image/svg+xml" sizes="16x16">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-<!-- <link href="css/bootstrap.min.css" rel="stylesheet" media='all' defer as="style"> -->
+<!-- link to local bootstrap file -->
+<link rel="stylesheet" href="<?= base_url('assets/frontend/vendor/bootstrap.min.css') ?>" media="all">
 
-<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Noto+Serif+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+<!-- optimised google fonts delivery-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Noto+Serif+Display:wght@400;600;700&display=swap"
+      rel="stylesheet" media="print" onload="this.media='all'">
+<noscript>
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Noto+Serif+Display:wght@400;600;700&display=swap" rel="stylesheet">
+</noscript>
+
 
 
 <?php
@@ -28,18 +37,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   $v_library    = filemtime(FCPATH.'assets/frontend/css/library.css');
   $v_fancybox   = filemtime(FCPATH.'assets/frontend/css/fancybox.css');
 ?>
-<link rel="stylesheet" href="<?= base_url('assets/frontend/css/fancybox.css?v='.$v_fancybox) ?>" media="all">
-<link rel="stylesheet" href="<?= base_url('assets/frontend/css/library.css?v='.$v_library) ?>" media="all">
+<!-- optimised css delivery -->
+<link rel="preload"
+      href="<?= base_url('assets/frontend/css/fancybox.css?v='.$v_fancybox) ?>"
+      as="style" onload="this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="<?= base_url('assets/frontend/css/fancybox.css?v='.$v_fancybox) ?>">
+</noscript>
+
+<link rel="preload"
+      href="<?= base_url('assets/frontend/css/library.css?v='.$v_library) ?>"
+      as="style" onload="this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="<?= base_url('assets/frontend/css/library.css?v='.$v_library) ?>">
+</noscript>
+<!-- custom styles -->
 <link rel="stylesheet" href="<?= base_url('assets/frontend/css/style.css?v='.$v_style) ?>" media="all">
 <link rel="stylesheet" href="<?= base_url('assets/frontend/css/responsive.css?v='.$v_resp) ?>" media="all">
+<!-- link to loacl fontawesome file -->
+<link rel="stylesheet" href="<?= base_url('assets/frontend/vendor/fontawesome/css/all.min.css') ?>" media="all">
 
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-  integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-  crossorigin="anonymous"
-  referrerpolicy="no-referrer"
-/>
 <!-- Meta Pixel Code -->
 <!-- <script>
 !function(f,b,e,v,n,t,s)
@@ -207,5 +224,13 @@ src="https://www.facebook.com/tr?id=1280000576857900&ev=PageView&noscript=1"
   }
 </script>
 <!-- JSON LD CODE -->
-<!-- Bing verification -->
-<meta name="msvalidate.01" content="1E5B3AD558D9C4BAFA7C3BFC58991D4D" />
+<!-- <meta name="msvalidate.01" content="1E5B3AD558D9C4BAFA7C3BFC58991D4D" /> -->
+<script>
+!function(){
+  var d=document;
+  if(!('relList' in d.createElement('link')) || !d.createElement('link').relList.supports('preload')){
+    var links=d.querySelectorAll('link[rel="preload"][as="style"]');
+    for(var i=0;i<links.length;i++){ links[i].rel='stylesheet'; }
+  }
+}();
+</script>

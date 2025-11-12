@@ -9,9 +9,7 @@
     h2{
         text-align:center !important;
     }
-    .about-text h2{
-        text-align: left !important;
-    }
+    /* critical */
     .text h3{
         letter-spacing: normal;
     }

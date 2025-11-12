@@ -844,7 +844,7 @@
 
                             <div class="testimonials-img-out">
 
-                                <img loading="lazy" decoding="async" width="369" height="311" alt="Healthcarebia Testimonial2" src="<?= base_url() ?>assets/frontend/img/gala-testimonial.webp"
+                                <img loading="lazy" decoding="async" width="369" height="311" alt="Healthcarebia Testimonial2" src="<?= base_url() ?>assets/frontend/img/gala.webp"
                                      class="img-fluid">
 
                                 <button class="play video-play-btn" data-video-id="ipUMjVFkipc" data-video-title="Gala Testimonial">

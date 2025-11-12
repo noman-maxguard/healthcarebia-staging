@@ -1,15 +1,17 @@
-<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
         integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
-
-<script defer src="<?= base_url('assets/frontend/js/owl.carousel.min.js') ?>"></script>
-<script defer src="<?= base_url('assets/frontend/js/fancybox.umd.js') ?>"></script>
-<script defer src="<?= base_url('assets/frontend/js/tab-accordian.min.js') ?>"></script>
-<script defer src="<?= base_url('assets/frontend/js/custom.js') ?>"></script>
+<!-- <script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js" defer preload></script> -->
+<script src="<?= base_url() ?>assets/frontend/js/owl.carousel.min.js" defer preload></script>
+<script src="<?= base_url() ?>assets/frontend/js/tab-accordian.min.js" defer preload></script>
+<script src="<?= base_url() ?>assets/frontend/js/fancybox.umd.js" defer preload></script>
+<script src="<?= base_url() ?>assets/frontend/js/custom.js" defer></script>
 
 
 <?= !empty($settings->script_body) ? $settings->script_body : '' ?>

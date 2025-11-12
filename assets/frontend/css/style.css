@@ -14,29 +14,11 @@
   font-display: swap;
 }
 
-.owl-stage-outer {
-  overflow: hidden;
-}
-
-/* Safety: ensure carousel fills parent and items don’t float wider */
-.owl-carousel {
-  width: 100%;
-}
-
-.owl-item {
-  float: none;
-}
-
-/* only if you have custom floats */
 a,
 a:hover {
   text-decoration: none
 }
 
-/* li {
-  font-style: italic;
-  color: white;
-} */
 .main-menu>ul>li.active>a::after,
 .main-menu>ul>li:hover a::after,
 .main-menu>ul>li>a:hover::after,
@@ -108,6 +90,23 @@ ul#downArrow::after {
   left: 0;
   transform: rotate(45deg);
   transform-origin: center left;
+}
+
+@keyframes ani {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) translateY(-5px);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1) translateY(20px);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(0.5) translateY(40px);
+  }
 }
 
 /* Animations */
@@ -435,7 +434,7 @@ h6 {
   font-size: 25px
 } */
 p {
-  font-size: 15px
+  font-size: 14px
 }
 
 .minus-top10 {
@@ -578,11 +577,6 @@ ul.breadcrumb-blog li a {
   color: var(--white)
 }
 
-.mob-inner-banner {
-  background-size: cover;
-  background-position: right;
-}
-
 .green-btn {
   padding: 8px 12px;
   border-radius: 13px;
@@ -624,7 +618,7 @@ ul.breadcrumb-blog li a {
 }
 
 .section-gap {
-  padding: 60px 0;
+  padding: 60px 0
 }
 
 .more-space-bottom {
@@ -683,8 +677,7 @@ header {
   line-height: 20px;
   font-family: Poppins, sans-serif;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  font-style: normal;
+  letter-spacing: 1px
 }
 
 .main-menu>ul>li>a::after {
@@ -1700,9 +1693,7 @@ ul.listing-item2 li {
   position: relative;
   align-items: center;
   display: flex;
-  justify-content: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  justify-content: center
 }
 
 .sub-banner .container {
@@ -1758,8 +1749,8 @@ ul.listing-item2 li {
 }
 
 .therapy-choose-item .img {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   display: block;
   margin-right: 13px;
   display: flex;
@@ -1893,7 +1884,7 @@ ul.listing-item2 li::before {
 
 .accordion-item h5 {
   font-family: "Poppins", serif !important;
-  font-size: 15px !important;
+  font-size: 16px !important;
   font-weight: 400;
   letter-spacing: normal;
 }
@@ -1954,12 +1945,13 @@ ul.listing-item2 li::before {
 }
 
 .inner-page-right .price-tag {
-  background-color: var(--green);
+  background-color: var(--default-grey);
+  border: 1px solid var(--green);
   padding: 8px 20px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
-  color: white;
+  color: var(--green);
   font-size: 30px
 }
 
@@ -1978,64 +1970,40 @@ ul.listing-item4 li {
   margin-right: 20px
 }
 
-ul.listing-item4 li:before {
-  content: "\f00c";
-  font-family: FontAwesome;
-  font-weight: 300;
-  margin-right: 10px
-}
-
+ul.listing-item4 li:before,
 ul.listing-item5 li:before {
   content: "\f00c";
   font-family: FontAwesome;
-  color: white;
+  color: var(--green);
   font-weight: 300;
   margin-right: 10px
 }
 
 /* .light-green, */
 .tabs-block {
-  /* background-color: var(--light-green) */
-}
-
-.tabs-design {
-  background-color: var(--green);
-  border-radius: 15px;
+  background-color: var(--light-green)
 }
 
 .tabs-design .nav-tabs .nav-link {
   border: none;
+  background-color: none;
   font-size: 22px;
   margin: 4px 40px 0 0;
   padding: 0;
-  color: white;
-}
-
-.tabs-design nav {
-  padding: 10px 15px;
-  border-radius: 8px;
-  margin-bottom: 20px;
-}
-
-.tabs-design .tab-content {
-  padding: 20px;
-  margin-top: 20px;
-  color: var(--green);
-  border-top: 1px solid white;
-}
-
-.tab-content li {
-  margin: 7px 0;
-  color: white
+  color: var(--black)
 }
 
 .tabs-design .nav-tabs .nav-link.active {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid var(--green);
   background: 0 0 !important
 }
 
 .nav-tabs {
   border: 0 !important
+}
+
+.tabs-design .tab-content {
+  padding: 20px 0
 }
 
 ul.listing-item5 li {
@@ -2069,7 +2037,7 @@ ul.listing-item5 li {
 
 .card-style2 {
   border-radius: 8px;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, .2);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .09);
   padding: 35px
 }
 
@@ -2299,7 +2267,7 @@ ul.breadcrumb-blog li.active {
 .card-style6 {
   -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, .09);
   -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, .09);
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .1);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .09);
   border-radius: 6px;
   display: block
 }
@@ -2516,7 +2484,7 @@ ul.commen-listing li {
 .main-menu>ul>li>a.white-btn {
   background: var(--white);
   color: var(--green) !important;
-  padding: 4px 18px !important;
+  padding: 8px 20px !important;
   font-size: 14px
 }
 
@@ -2618,81 +2586,3 @@ ul.commen-listing li {
 .face-image img {
   border-radius: 15px;
 }
-
-.step-block-wrap {
-  display: flex;
-}
-
-.step-block {
-  position: relative;
-  width: calc(100%/3);
-  color: white;
-}
-
-.step-block img {
-  height: 100%;
-  width: 100%;
-}
-
-.step-block .step-content {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%
-}
-
-.step-content h3,
-.step-content p {
-  color: white;
-  font-family: "Poppins", serif !important;
-}
-
-.step-block {
-  width: 100%
-}
-
-.step-content {
-  background: linear-gradient(to top, black 0%, transparent 100%);
-  padding-left: 20px;
-  padding-bottom: 10px;
-}
-
-.iv-step-content a {
-  text-decoration: none !important;
-  color: white;
-}
-
-.what-iv-image img {
-  border-radius: 15px;
-}
-
-.what-therapy-bg img {
-  border-radius: 15px;
-  height: 100%;
-  width: auto;
-}
-
-.benefits-of-drip {
-  display: flex;
-  gap: 10px;
-  list-style: disc;
-  flex-wrap: wrap;
-  justify-content: start;
-  align-items: center;
-}
-
-.benefits-of-drip li {
-  background-color: var(--green);
-  color: white;
-  padding: 5px 10px;
-  border-radius: 12px;
-  width: max-content;
-}
-
-.logo img {
-  margin-top: 2px;
-}
-
-/* .test-image {
-  max-width: 50%;
-} */

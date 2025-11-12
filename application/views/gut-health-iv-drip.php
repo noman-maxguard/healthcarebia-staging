@@ -93,17 +93,16 @@
 
     <?php include 'includes/inc_head_tag.php'; ?>
 
-
     <!-- Preload Hero Images -->
-    <link rel="preload" href="<?= base_url() ?>assets/frontend/img/gut-health-banner.jpg" as="image" media="(min-width: 768px)">
-    <!-- <link rel="preload" href="<?= base_url() ?>assets/frontend/img/gut-health-banner-mob.webp" as="image" media="(max-width: 767px)"> -->
+    <link rel="preload" href="<?= base_url() ?>assets/frontend/img/gut-health-banner.webp" as="image" media="(min-width: 768px)">
+    <link rel="preload" href="<?= base_url() ?>assets/frontend/img/gut-health-banner-mob.webp" as="image" media="(max-width: 767px)">
 </head>
 <body>
 <?php include 'includes/inc_header.php'; ?>
 
 <!-- Banner Section -->
-<div class="mob-inner-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/gut-health-banner.jpg);">
-    <section class="sub-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/gut-health-banner.jpg);">
+<div class="mob-inner-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/gut-health-banner-mob.webp);">
+    <section class="sub-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/gut-health-banner.webp);">
         <div class="overlay">
             <div class="container">
                 <div class="row">
@@ -128,8 +127,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="text-lg-center">
-                    <h2 class="text-lg-center mb-4">Why choose Healthcarebia <br>for Gut Health IV Drip in Dubai</h2>
+                <div class="text-center">
+                    <h2 class="text-center mb-4">Why choose Healthcarebia <br>for Gut Health IV Drip in Dubai</h2>
                 </div>
                 <div class="row mt-4">
                     <div class="col-6 col-md-3 mb-3">
@@ -209,32 +208,34 @@
 </section>
 
 <!-- What is Gut Health IV Drip Section -->
-<section class=" section-gap what-therapy-bg">
-  <div class="container">
-    <div class="row d-flex justify-content-evenly">
-      <div class="col-md-6">
-        <img class="img-fluid d-block"
-             src="<?= base_url() ?>assets/frontend/img/gut-health-benefits.webp"
-             alt="Benefits of Gut Health IV drip Dubai">
-      </div>
-      <div class="col-md-6 col-12 d-flex justify-content-center align-items-center flex-column gap-3">
-        <h2 class="mt-3 mb-2">What is the Gut Health IV Drip?</h2>
-        <p>
-          The Gut Health IV Drip supports your digestive system by promoting healthy enzyme activity
-          and helping soothe, heal, and protect the stomach lining. It is designed to prevent and
-          relieve common concerns such as acidity, indigestion, diarrhea, and overall discomfort.
-        </p>
-        <h5>Benefits of Gut Health IV Drip</h5>
-        <ul class="benefits-of-drip">
-          <li>Soothes and repairs the stomach lining</li>
-          <li>Quick relief from acidity, indigestion, and upset stomach</li>
-          <li>Enhances digestive health and nutrient absorption</li>
-        </ul>
-      </div>
+<section class="section-gap what-therapy-bg light-green">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mb-4 text-center">
+                <h2>What is the Gut Health IV Drip?</h2>
+                <p>The Gut Health IV Drip works to energize your digestive system by supporting stomach enzymes and helping to soothe, heal, and shield the stomach lining. It's designed to prevent and relieve common issues such as acidity, indigestion, diarrhea, and general discomfort.</p>
+            </div>
+            <div class="col-md-12 text-center mb-3">
+                <h5>Benefits of Gut Health IV Drip</h5>
+            </div>
+            <div class="col-6 col-md-4 mb-3">
+                <div class="card-style1 same">
+                    <p>Soothes and repairs the stomach lining.</p>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 mb-3">
+                <div class="card-style1 same">
+                    <p>Quick relief from acidity, indigestion, and upset stomach.</p>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 mb-3">
+                <div class="card-style1 same">
+                    <p>Enhances digestive health and nutrient absorption.</p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
-
 
 <!-- How It Works Section -->
 <section class="section-gap">
@@ -243,7 +244,7 @@
             <div class="col-md-10">
                 <div class="card-style2 p-0">
                     <div class="row">
-                        <div class="col-md-8 p-5 d-flex justify-content-center align-items-center flex-column">
+                        <div class="col-md-8 p-5">
                             <h2>How Gut Health IV Drip Works?</h2>
                             <p>The <strong>Gut Health IV Drip</strong> delivers essential nutrients, including Glutamine, trace minerals, Glycine, and Glutathione, directly into the bloodstream. These compounds work quickly to reduce inflammation, repair the stomach lining, and support the activity of digestive enzymes, helping to restore optimal digestive health.</p>
                             <a class="primary-btn hvr-bounce-to-right green-btn border-btn booking-btn" href="<?= $whatsappHref ?>" target="_blank">Book Your Session Now</a>

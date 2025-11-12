@@ -95,13 +95,7 @@
 }
 </script>
 
-<style>
-    @media(max-width:768px){
-        .mob-inner-banner {
-    background-position: 20% center;
-  }
-    }
-</style>
+
 
 </head>
 
@@ -115,9 +109,9 @@
 
 <div class="mob-inner-banner"
 
-     style="background-image: url(<?= base_url() ?>assets/frontend/img/post-party-iv-drip-banner.webp);">
+     style="background-image: url(<?= base_url() ?>assets/frontend/img/hangover-banner-mob.webp);">
 
-    <section class="sub-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/post-party-iv-drip-banner.webp);">
+    <section class="sub-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/hangover-bg.webp);">
 
         <div class="overlay">
 
@@ -152,63 +146,225 @@
     </section>
 
 </div>
-<section class=" section-gap what-therapy-bg">
-  <div class="container">
-    <!-- Title + Intro -->
-    <h2 class="my-2 text-lg-center">Hangover IV Therapy at Home</h2>
-    <p class="mb-5 text-lg-center">
-      Experience fast relief from hangover symptoms with Hangover IV Therapy. Receive expert, DHA certified care in the comfort of your home. Our team administers tailored IV therapy to ease symptoms and restore well being quickly and safely. This convenient at home service replenishes fluids, restores key nutrients, and helps you recover comfortably in your own space.
-    </p>
 
-    <div class="row d-flex justify-content-evenly">
-      <div class="col-md-6 col-12 d-flex justify-content-center align-items-center flex-column gap-3">
+<section class="why-choose-therapy section-gap light-blue no-bottom">
 
-        <!-- Symptoms -->
-        <h5>Symptoms of Hangover</h5>
-        <ul class="benefits-of-drip">
-          <li>Headache</li>
-          <li>Nausea</li>
-          <li>Fatigue</li>
-          <li>Dehydration</li>
-          <li>Dizziness</li>
-          <li>Muscle aches</li>
-        </ul>
+    <div class="container">
 
-        <!-- Benefits -->
-        <h5>Benefits of Post Party IV Drip</h5>
-        <ul class="benefits-of-drip">
-          <li>Rapid rehydration</li>
-          <li>Alleviation of headache and nausea</li>
-          <li>Restored energy levels</li>
-          <li>Detox support for faster recovery</li>
-          <li>Improved overall well being</li>
-        </ul>
+        <div class="row">
 
-        <!-- Ingredients -->
-        <h5>Post Party IV Drip Ingredients</h5>
-        <ul class="benefits-of-drip">
-          <li>Electrolytes to replenish minerals and hydration</li>
-          <li>B vitamins to boost energy and support the nervous system</li>
-          <li>Vitamin C to combat oxidative stress and support immunity</li>
-          <li>Anti inflammatory agents to reduce discomfort</li>
-          <li>Anti nausea medication to ease gastric upset</li>
-        </ul>
+            <div class="col-md-12">
 
-      </div>
-      <div class="col-md-6" style="overflow:hidden">
-        <img
-          class="d-block d-flex align-items-end"
-          src="<?= base_url() ?>assets/frontend/img/hangover-img.webp"
-          alt="Post Party IV Drip Dubai"
-          loading="lazy"
-          height='400px'
-        >
-      </div>
+                <div class="text-center"><h2 class="text-center mb-4">Post Party IV Drip</h2>
+
+                    <p>Experience relief from hangover symptoms with Hangover IV Therapy, a convenient and effective
+
+                    solution to replenish your body's nutrients and hydration levels. Our at-home service ensures
+
+                    you can recover in the comfort of your own space.</p>            <h5 class="mt-4">Hangover IV
+
+                    Therapy at Home</h5>
+
+                    <p>Receive expert care and treatment for hangovers in the convenience of your home. Our skilled
+
+                    healthcare professionals administer IV therapy, tailored to alleviate hangover symptoms and
+
+                    restore your well-being quickly and efficiently.</p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-12 text-center">
+                
+                <img src="<?= base_url() ?>assets/frontend/img/hangover-img.webp" alt="Post Party IV Drip Dubai" class="img-fluid" loading="lazy">
+            
+            </div>
+
+        </div>
+
     </div>
-  </div>
+
+</section>
+<section class="section-gap what-therapy-bg light-green">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-6 mb-4">
+
+                <div class="card-style3 text-center same"><h4>Symptoms of Hangover</h4>
+
+                    <div class="row mt-4">
+
+                        <div class="col-6 col-md-4">
+
+                            <div class="inner-box-style">
+                                
+                                <img src="<?= base_url() ?>assets/frontend/img/headache.svg" alt="Post Party IV Drip Dubai Icon1" loading="lazy">
+
+                                <h6>Headache</h6></div>
+
+                        </div>
+
+                        <div class="col-6 col-md-4">
+
+                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/nausea.svg" alt="Post Party IV Drip Dubai Icon2" loading="lazy">
+
+                                <h6>Nausea</h6></div>
+
+                        </div>
+
+                        <div class="col-6 col-md-4">
+
+                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/fatigue.svg" alt="Post Party IV Drip Dubai Icon3" loading="lazy">
+
+                                <h6>Fatigue</h6></div>
+
+                        </div>
+
+                        <div class="col-6 col-md-4">
+
+                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/dehydration.svg" alt="Post Party IV Drip Dubai Icon4" loading="lazy">
+
+                                <h6>Dehydration</h6></div>
+
+                        </div>
+
+                        <div class="col-6 col-md-4">
+
+                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/dizziness.svg" alt="Post Party IV Drip Dubai Icon5" loading="lazy">
+
+                                <h6>Dizziness</h6></div>
+
+                        </div>
+
+                        <div class="col-6 col-md-4">
+
+                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/muscle-aches.svg" alt="Post Party IV Drip Dubai Icon6" loading="lazy">
+
+                                <h6>Muscle aches</h6></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+
+                <div class="card-style3 text-center same"><h4>Benefits of Post Party IV Drip</h4>
+
+                    <div class="row mt-4">
+
+                        <div class="col-6 col-md-4">
+
+                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/rapid-rehydration.svg" alt="Post Party IV Drip Dubai Icon7" loading="lazy">
+
+                                <h6>Rapid rehydration</h6></div>
+
+                        </div>
+
+                        <div class="col-6 col-md-4">
+
+                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/headache-nausea.svg" alt="Post Party IV Drip Dubai Icon8" loading="lazy">
+
+                                <h6>Alleviation of headache and nausea</h6></div>
+
+                        </div>
+
+                        <div class="col-6 col-md-4">
+
+                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/energy-levels.svg" alt="Post Party IV Drip Dubai Icon9" loading="lazy">
+
+                                <h6>Restored energy levels</h6></div>
+
+                        </div>
+
+                        <div class="col-6 col-md-4">
+
+                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/detoxification.svg" alt="Post Party IV Drip Dubai Icon10" loading="lazy">
+
+                                <h6>Detoxification and elimination of toxins</h6></div>
+
+                        </div>
+
+                        <div class="col-6 col-md-4">
+
+                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/well-being.svg" alt="Post Party IV Drip Dubai Icon11" loading="lazy">
+
+                                <h6>Improved overall well-being</h6></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    
 </section>
 
+<section class="section-gap what-therapy-bg white-bg">
 
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12 mb-4 text-center"><h2>Post Party IV Drip Ingredients </h2></div>
+
+            <div class="col-6 col-md-4 mb-3">
+
+                <div class="card-style1 same"><p>Electrolytes: Replenish essential minerals and restore hydration.</p>
+
+                </div>
+
+            </div>
+
+            <div class="col-6 col-md-4 mb-3">
+
+                <div class="card-style1 same"><p>B vitamins: Boost energy levels and support the nervous system.</p>
+
+                </div>
+
+            </div>
+
+            <div class="col-6 col-md-4 mb-3">
+
+                <div class="card-style1 same"><p>Vitamin C: Helps combat oxidative stress and boosts the immune
+
+                        system.</p></div>
+
+            </div>
+
+            <div class="col-6 col-md-4 mb-3">
+
+                <div class="card-style1 same"><p>Anti-inflammatory agents: Reduce inflammation and relieve
+
+                        discomfort.</p></div>
+
+            </div>
+
+            <div class="col-6 col-md-4 mb-3">
+
+                <div class="card-style1 same"><p>Anti-nausea medication: Eases nausea and gastrointestinal symptoms.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 
 
 <section class="section-gap" style="background-color: #f9f9f9;">
@@ -216,7 +372,7 @@
 
     <div class="row">
 
-      <div class="col-md-12 text-lg-center">
+      <div class="col-md-12 text-center">
 
         <h2>Premium Hangover IV Therapy Home Service in Dubai</h2>
 
@@ -410,7 +566,7 @@
 
             <div class="col-md-12">
 
-                <div class="testimonials-slider testimonials2-slider owl-carousel">
+                <div class="testimonials-slider owl-carousel">
 
                     <div class="item">
 

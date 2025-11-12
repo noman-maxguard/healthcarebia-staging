@@ -4,12 +4,8 @@
 <head>
     <meta name="msvalidate.01" content="4FD335F27089556A6B30B3EEC6440862" />
 
-<?php include 'includes/inc_head_tag.php'; ?>   
-<style >
-    h2{
-        text-align:center !important;
-    }
-    /* critical */
+    <?php include 'includes/inc_head_tag.php'; ?>
+<style>
     .text h3{
         letter-spacing: normal;
     }
@@ -252,7 +248,6 @@
         height: 180px; /* Reduced from 250px */
     }
 </style>
-
 </head>
 
 

@@ -303,7 +303,7 @@
     </div>
     <video style="object-fit: cover; background-size: cover; width: 100%; height: 100%;" preload="metadata" playsinline="" autoplay="" loop="" muted="" width="320" height="200">
 
-        <source src="<?= base_url() ?>assets/frontend/img/home-banner-video2.mov">
+        <source src="<?= base_url() ?>assets/frontend/img/home-banner-video2.mov" type="video/quicktime">
 
     </video>
     <ul id="downArrow">

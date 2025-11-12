@@ -1,7 +1,22 @@
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
-<svg width="64px" height="64px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="SVGRepo_bgCarrier" stroke-width="0"/>
-<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
-<g id="SVGRepo_iconCarrier"> <path d="M10 7L15 12L10 17" stroke="#353f2a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> </g>
-</svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 189.9" style="enable-background:new 0 0 512 189.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<g>
+	<g>
+		<g>
+			<g>
+				<path class="st0" d="M500.2,105.4H11.8c-5.8,0-10.5-4.7-10.5-10.5S6,84.4,11.8,84.4h463l-63.7-63.7c-4.1-4.1-4.1-10.8,0-14.9
+					s10.8-4.1,14.9,0l81.7,81.7c3,3,3.9,7.5,2.3,11.5C508.3,102.9,504.4,105.4,500.2,105.4L500.2,105.4z"/>
+			</g>
+			<g>
+				<path class="st0" d="M418.4,187.2c-2.7,0-5.4-1-7.4-3.1c-4.1-4.1-4.1-10.8,0-14.9l81.8-81.8c4.1-4.1,10.8-4.1,14.9,0
+					c4.1,4.1,4.1,10.8,0,14.9l-81.8,81.8C423.8,186.2,421.1,187.2,418.4,187.2L418.4,187.2z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

@@ -11,6 +11,15 @@ $v_fancybox   = filemtime(FCPATH.'assets/frontend/css/fancybox.css');
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<!-- Google Tag Manager -->
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5SZRK93F');
+</script>
+<!-- End Google Tag Manager -->
 
 <link rel="icon" href="<?= base_url() ?>assets/frontend/img/favicon.svg" type="image/svg+xml" sizes="16x16">
 
@@ -44,7 +53,13 @@ $v_fancybox   = filemtime(FCPATH.'assets/frontend/css/fancybox.css');
 <?= !empty($settings->script_header) ? $settings->script_header : '' ?>
 
 <!-- Microsoft Clarity -->
-
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "qo6ygd4kdx");
+</script>
 
 <!-- JSON-LD Schema -->
 <script type="application/ld+json">
@@ -176,39 +191,3 @@ $v_fancybox   = filemtime(FCPATH.'assets/frontend/css/fancybox.css');
   }
 }
 </script>
-
-<!-- Google Tag Manager and clarity-->
-<script>
-window.addEventListener("load", function() {
-  // Delay GTM by ~2.5s
-  setTimeout(function() {
-    (function(w,d,s,l,i){
-      w[l]=w[l]||[];
-      w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
-      var f=d.getElementsByTagName(s)[0],
-          j=d.createElement(s),
-          dl=l!='dataLayer'?'&l='+l:'';
-      j.async=true;
-      j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
-      f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-5SZRK93F');
-  }, 2500);
-
-  // Delay Clarity by ~3.5s
-  setTimeout(function() {
-    (function(c,l,a,r,i,t,y){
-      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-      t=l.createElement(r);t.async=1;
-      t.src="https://www.clarity.ms/tag/"+i;
-      y=l.getElementsByTagName(r)[0];
-      y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "qo6ygd4kdx");
-  }, 3500);
-});
-</script>
-
-<!-- End Google Tag Manager -->
-
-<!-- preload -->
-<link rel="preload" href="<?= base_url('assets/frontend/js/bootstrap.bundle.min.js') ?>" as="script">
-

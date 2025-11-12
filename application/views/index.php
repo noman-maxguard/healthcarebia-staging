@@ -301,8 +301,7 @@
         </div>
 
     </div>
-
-    <video style="object-fit: cover; background-size: cover; width: 100%; height: 100%;" preload="metadata" playsinline="" autoplay="" loop="" muted="" width="320" height="200" poster="<?= base_url() ?>assets/frontend/img/poster.webp">
+    <video style="object-fit: cover; background-size: cover; width: 100%; height: 100%;" preload="metadata" playsinline="" autoplay="" loop="" muted="" width="320" height="200">
 
         <source src="<?= base_url() ?>assets/frontend/img/home-banner-video2.mov">
 
@@ -757,7 +756,7 @@
         <h2 class="why-choose-heading-two animate" data-animation="fadeInUp">Why Choose Us</h2>
         <div class="why-image-wrap animate mb-4" data-animation="fadeInUp">
           <img
-            src="<?= base_url() ?>assets/frontend/img/home-why-choose.png"
+            src="<?= base_url() ?>assets/frontend/img/why-choose-section-image.jpg"
             alt="Why choose us"
             class="img-fluid shadow-sm rounded-4"
             loading="lazy" style="height:550px;width: 400px">
@@ -1045,7 +1044,33 @@
     </div>
 
 </section>
+<!-- <section class="section-gap">
+
+    <div class="container">
+
+        <div class="row">
+
+            <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+
+
+
+            <div class="elfsight-app-0f5a1024-4605-437a-b978-bd308b024ae9"></div>
+
+
+
+
+
+        </div>
+
+    </div>
+
+</section> -->
+
+
 <?php include 'includes/inc_footer.php'; ?>
+
+
+
 <?php include 'includes/inc_footer_scripts.php'; ?>
 <script>
     document.addEventListener('DOMContentLoaded', function() {

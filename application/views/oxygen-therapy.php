@@ -55,7 +55,7 @@
 
 <div class="mob-inner-banner"
 
-     style="background-image: url(<?= base_url() ?>assets/frontend/img/oxygen-banner.webp);">
+     style="background-image: url(<?= base_url() ?>assets/frontend/img/oxygen-banner-mob.webp);">
 
     <section class="sub-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/oxygen-banner.webp);">
 
@@ -93,55 +93,127 @@
 
 </div>
 
-<section class=" section-gap what-therapy-bg">
-  <div class="container">
-    <h2 class="my-2 text-lg-center">What is Oxygen Therapy?</h2>
-    <p class="mb-5 text-lg-center">
-      Oxygen therapy at Healthcarebia involves administering supplemental oxygen through a nasal cannula.
-      It helps improve oxygenation in blood cells, enhance organ function, and ease respiratory symptoms.
-      It is also a great addition to IV therapy, allowing nutrients to be absorbed more effectively.
-    </p>
+<section class="why-choose-therapy section-gap light-blue">
 
-    <div class="row d-flex justify-content-evenly">
-      <div class="col-md-6">
-        <img
-          class="img-fluid d-block"
-          src="<?= base_url() ?>assets/frontend/img/oxygen-therapy-image.webp"
-          alt="Oxygen Therapy Dubai"
-          width="500"
-        >
-      </div>
+    <div class="container">
 
-      <div class="col-md-6 col-12 d-flex justify-content-center align-items-center flex-column gap-3">
-        <h5 class="mt-3 mb-2">Lack of Oxygen Symptoms</h5>
-        <ul class="benefits-of-drip">
-          <li>Shortness of breath</li>
-          <li>Rapid breathing</li>
-          <li>Confusion</li>
-          <li>Dizziness</li>
-          <li>Blue lips or fingertips (cyanosis)</li>
-          <li>Rapid heart rate</li>
-          <li>Chest pain</li>
-          <li>Headache</li>
-          <li>Fatigue</li>
-          <li>Cognitive impairment</li>
-        </ul>
+        <div class="row">
 
-        <h5>Oxygen Therapy Benefits</h5>
-        <ul class="benefits-of-drip">
-          <li>Improves blood oxygenation</li>
-          <li>Enhances tissue and organ function</li>
-          <li>Increases energy levels</li>
-          <li>Reduces shortness of breath</li>
-          <li>Improves mental clarity</li>
-          <li>Supports better overall quality of life</li>
-          <li>Pairs well with IV therapy to boost nutrient absorption and cellular function</li>
-        </ul>
-      </div>
+            <div class="col-md-12">
+
+                <div class="text-center"><h2 class="text-center mb-4"> What is Oxygen Therapy?</h2>
+
+                    <p>Oxygen therapy at Healthcarebia is a medical treatment that involves administering supplemental
+
+                        oxygen to individuals through a nasal cannula. Oxygen therapy aims to improve oxygenation in
+
+                        blood cells, enhance organ function, and alleviate respiratory symptoms. Oxygen Therapy is a
+
+                        great addition to IV Therapy, allowing nutrients to be absorbed more effectively.</p>
+
+                    <h5 class="mt-4 mb-4">Lack of Oxygen Symptoms</h5>
+
+                    <div class="row justify-content-center">
+
+                        <div class="col-6 col-md-3 mb-3">
+
+                            <div class="card-style1 same"><p>Shortness of breath</p></div>
+
+                        </div>
+
+                        <div class="col-6 col-md-3 mb-3">
+
+                            <div class="card-style1 same"><p>Rapid breathing</p></div>
+
+                        </div>
+
+                        <div class="col-6 col-md-3 mb-3">
+
+                            <div class="card-style1 same"><p>Confusion</p></div>
+
+                        </div>
+
+                        <div class="col-6 col-md-3 mb-3">
+
+                            <div class="card-style1 same"><p>Dizziness</p></div>
+
+                        </div>
+
+                        <div class="col-6 col-md-3 mb-3">
+
+                            <div class="card-style1 same"><p>Blue lips or fingertips (cyanosis)</p></div>
+
+                        </div>
+
+                        <div class="col-6 col-md-3 mb-3">
+
+                            <div class="card-style1 same"><p>Rapid heart rate</p></div>
+
+                        </div>
+
+                        <div class="col-6 col-md-3 mb-3">
+
+                            <div class="card-style1 same"><p>Chest pain</p></div>
+
+                        </div>
+
+                        <div class="col-6 col-md-3 mb-3">
+
+                            <div class="card-style1 same"><p>Headache</p></div>
+
+                        </div>
+
+                        <div class="col-6 col-md-3 mb-3">
+
+                            <div class="card-style1 same"><p>Fatigue</p></div>
+
+                        </div>
+
+                        <div class="col-6 col-md-3 mb-3">
+
+                            <div class="card-style1 same"><p>Cognitive impairment</p></div>
+
+                        </div>
+
+                        <!-- <div class="col-6 col-md-3 mb-3">						<div class="card-style1 same">							<p>Severe or prolonged oxygen deprivation can lead to organ damage and loss of consciousness.</p>						</div>					</div> -->
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
-  </div>
+
 </section>
 
+<section class="section-gap what-therapy-bg light-green no-bottom">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12 mb-4 text-center"><h2>Oxygen Therapy Benefits</h2>
+
+                <p>Oxygen therapy offers several benefits, including improved blood oxygenation, enhanced tissue and
+
+                    organ function, increased energy levels, reduced shortness of breath, improved mental clarity, and
+
+                    better overall quality of life. Pairing oxygen therapy with an IV drip can provide synergistic
+
+                    benefits by simultaneously improving oxygenation and delivering essential nutrients directly into
+
+                    the bloodstream for enhanced cellular function and overall wellness.</p></div>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-12 text-center"><img src="<?= base_url() ?>assets/frontend/img/oxygen-img1.webp" alt="Oxygen Therapy Dubai" class="img-fluid"></div>
+
+</section>
 <section class="faq-block section-gap">
   <div class="container">
     <h2 style="font-size: 32px; color: var(--green)">Find answers to the most frequently asked questions here.</h2>

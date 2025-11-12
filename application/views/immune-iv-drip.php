@@ -95,7 +95,7 @@
 <?php include 'includes/inc_header.php'; ?>
 
 <!-- Banner Section -->
-<div class="mob-inner-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/immune-banner.webp);">
+<div class="mob-inner-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/immune-banner-mob.webp);">
     <section class="sub-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/immune-banner.webp);">
         <div class="overlay">
             <div class="container">
@@ -120,7 +120,7 @@
 <section class="why-choose-therapy section-gap light-blue">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 text-lg-center mb-4">
+            <div class="col-md-12 text-center mb-4">
                 <h2>Why choose Healthcarebia <br>for Immune System Boost IV Drip</h2>
             </div>
             <div class="row mt-4">
@@ -200,34 +200,24 @@
 </section>
 
 <!-- What is Immune System Boost IV Drip Section -->
-<section class=" section-gap what-therapy-bg">
-  <div class="container">
-    <div class="row d-flex justify-content-evenly">
-      <div class="col-md-6">
-        <img class="img-fluid d-block"
-             src="<?= base_url() ?>assets/frontend/img/immunity-image.webp"
-             alt="Benefits of Immune System Boost IV drip Dubai">
-      </div>
-      <div class="col-md-6 col-12 d-flex justify-content-center align-items-center flex-column gap-3">
-        <h2 class="mt-3 mb-2">What is Immune System Boost IV Drip?</h2>
-        <p>
-          This specialized IV therapy is designed to enhance the body’s natural defenses and support
-          overall immune function. It is an ideal option for anyone seeking a proactive approach to
-          maintaining optimal health and vitality.
-        </p>
-        <h5>Benefits of Immune System Boost IV Drip</h5>
-        <ul class="benefits-of-drip">
-          <li>Enhances immune response and boosts natural defenses</li>
-          <li>Improves energy levels and promotes overall wellness</li>
-          <li>Helps reduce fatigue and speeds up recovery</li>
-          <li>Supports optimal metabolic and cellular functions</li>
-          <li>Promotes better hydration and nutrient uptake</li>
-        </ul>
-      </div>
+<section class="section-gap what-therapy-bg light-green">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mb-4 text-center">
+                <h2>What is Immune System Boost IV Drip?</h2>
+                <p>This specialized IV therapy is designed to enhance your body's natural defenses and support overall immune function. It is an ideal solution for individuals seeking a proactive approach to maintaining optimal health and vitality.</p>
+            </div>
+            <div class="col-md-12 text-center mb-3">
+                <h5>Benefits of Immune System Boost IV Drip</h5>
+            </div>
+            <div class="col-6 col-md-4 mb-3"><div class="card-style1 same"><p>Enhances immune response and boosts natural defenses.</p></div></div>
+            <div class="col-6 col-md-4 mb-3"><div class="card-style1 same"><p>Improves energy levels and promotes overall wellness.</p></div></div>
+            <div class="col-6 col-md-4 mb-3"><div class="card-style1 same"><p>Helps reduce fatigue and speeds up recovery.</p></div></div>
+            <div class="col-6 col-md-4 mb-3"><div class="card-style1 same"><p>Supports optimal metabolic and cellular functions.</p></div></div>
+            <div class="col-6 col-md-4 mb-3"><div class="card-style1 same"><p>Promotes better hydration and nutrient uptake.</p></div></div>
+        </div>
     </div>
-  </div>
 </section>
-
 
 <!-- How It Works Section -->
 <section class="section-gap">

@@ -94,13 +94,13 @@
     
     <!-- Preload Hero Images -->
     <link rel="preload" href="<?= base_url() ?>assets/frontend/img/energy-focus-banner.webp" as="image" media="(min-width: 768px)">
-    <!-- <link rel="preload" href="<?= base_url() ?>assets/frontend/img/energy-focus-banner-mob.webp" as="image" media="(max-width: 767px)"> -->
+    <link rel="preload" href="<?= base_url() ?>assets/frontend/img/energy-focus-banner-mob.webp" as="image" media="(max-width: 767px)">
 </head>
 <body>
 <?php include 'includes/inc_header.php'; ?>
 
 <!-- Banner Section -->
-<div class="mob-inner-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/energy-focus-banner.webp);">
+<div class="mob-inner-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/energy-focus-banner-mob.webp);">
     <section class="sub-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/energy-focus-banner.webp);">
         <div class="overlay">
             <div class="container">
@@ -127,7 +127,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="text-center">
-                    <h2 class="text-lg-center mb-4">Why choose Healthcarebia <br>for Your Energy & Focus IV Drip in Dubai</h2>
+                    <h2 class="text-center mb-4">Why choose Healthcarebia <br>for Your Energy & Focus IV Drip in Dubai</h2>
                 </div>
                 <div class="row mt-4">
                     <div class="col-6 col-md-3 mb-3">
@@ -207,31 +207,34 @@
 </section>
 
 <!-- What is Energy & Focus IV Drip Section -->
-<section class=" section-gap what-therapy-bg">
-  <div class="container">
-    <div class="row d-flex justify-content-evenly">
-      <div class="col-md-6">
-        <img class="img-fluid d-block"
-             src="<?= base_url() ?>assets/frontend/img/energy-and-focus-image.webp"
-             alt="Benefits of Energy and Focus IV drip Dubai">
-      </div>
-      <div class="col-md-6 col-12 d-flex justify-content-center align-items-center flex-column gap-3">
-        <h2 class="mt-3 mb-2">What is Energy & Focus IV Drip?</h2>
-        <p>
-          The Energy & Focus IV Drip is formulated to enhance cognitive performance, boost mental clarity,
-          and increase overall energy levels—ideal for anyone experiencing fatigue or reduced productivity.
-        </p>
-        <h5>Benefits of Energy & Focus IV Drip</h5>
-        <ul class="benefits-of-drip">
-          <li>Improves mental clarity and cognitive functions</li>
-          <li>Significantly boosts overall energy levels</li>
-          <li>Enhances concentration and focus for increased productivity</li>
-        </ul>
-      </div>
+<section class="section-gap what-therapy-bg light-green">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mb-4 text-center">
+                <h2>What is Energy & Focus IV Drip?</h2>
+                <p>The Energy & Focus IV Drip is specifically formulated to enhance cognitive performance, boost mental clarity, and increase overall energy levels, ideal for those experiencing fatigue or reduced productivity.</p>
+            </div>
+            <div class="col-md-12 text-center mb-3">
+                <h5>Benefits of Energy & Focus IV Drip</h5>
+            </div>
+            <div class="col-6 col-md-4 mb-3">
+                <div class="card-style1 same">
+                    <p>Improves mental clarity and cognitive functions.</p>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 mb-3">
+                <div class="card-style1 same">
+                    <p>Significantly boosts overall energy levels.</p>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 mb-3">
+                <div class="card-style1 same">
+                    <p>Enhances concentration and focus for increased productivity.</p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
-
 
 <!-- How It Works Section -->
 <section class="section-gap">
@@ -240,7 +243,7 @@
             <div class="col-md-10">
                 <div class="card-style2 p-0">
                     <div class="row">
-                        <div class="col-md-8 p-5 d-flex justify-content-center align-items-center flex-column">
+                        <div class="col-md-8 p-5">
                             <h2>How Energy & Focus IV Drip Works?</h2>
                             <p>The <strong>Energy & Focus IV Drip</strong> is designed to quickly recharge the mind and body by delivering important vitamins, amino acids, and nutrients straight into the bloodstream. By skipping digestion, your body absorbs these nutrients faster, boosting the brain power, improving mental clarity, and keeping the person energized and focused throughout the day.</p>                            <a class="primary-btn hvr-bounce-to-right green-btn border-btn booking-btn" href="<?= $whatsappHref ?>" target="_blank">Book Your Session Now</a>
                         </div>

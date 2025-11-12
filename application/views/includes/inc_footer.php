@@ -369,12 +369,12 @@
     <div class="overlay">
         <div class="container">
         <div class="row">
-            <div class="col-md-4 col-12 footer-banner">
+            <div class="col-md-4 footer-banner">
                 <img loading="lazy" decoding="async" width="271" height="37" src="<?= base_url() ?>assets/frontend/img/logo.webp" class="mb-3" alt="Healthcarebia">
                 <p>Premium At-Home Healthcare in Dubai |
                     Expert IV therapy, comprehensive lab tests, and personalized wellness solutions delivered directly to your home.
                 </p>
-                <div href="#" class="google-reviews" style="display: flex; align-items: center; justify-content: center;width:max-content">
+                <div href="#" class="google-reviews" style="display: flex; align-items: center">
                     <div class="google-review">
                         <img width="136" height="61" class="img-fluid"
                         src="<?= base_url() ?>assets/frontend/img/google-review.svg"
@@ -389,11 +389,11 @@
                         </div>
                         <a href="https://www.google.com/search?q=healthcarebia&oq=healthcarebia+&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORiABBiiBDIKCAEQABiABBiiBDIHCAIQABjvBTIGCAMQRRg8MgYIBBBFGDwyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQg2MDM4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#vhid=zephyr:1&vssid=atritem-&lrd=0x3e5f437ad48ce8ab:0x1441da8daee852a8,1,,,," target="_blank">Based on 49 reviews </a>
                     </div>
-                    <div class="icon-box"><div class="images"><img id="fda" src="<?= base_url() ?>assets/frontend/img/fda.png" alt="fda"><img src="<?= base_url() ?>assets/frontend/img/nabidh.svg" alt="nabidh"><img src="<?= base_url() ?>assets/frontend/img/iso-icon.svg" alt="iso icon" class="iso"><img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="dha"></div></div>
+                    <div class="icon-box"><div class="images"><img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="dha"><img id="fda" src="<?= base_url() ?>assets/frontend/img/fda.png" alt="fda"><img src="<?= base_url() ?>assets/frontend/img/nabidh.svg" alt="nabidh"></div></div>
                     
                 </div>
             </div>
-            <div class="col-md-1 col-6">
+            <div class="col-md-1">
                 <ul class="fot-link">
                     <li><a href="<?= base_url() ?>" class="hvr-underline-from-left menu-line">Home</a></li>
                     <li><a href="<?= base_url() ?>about-us" class="hvr-underline-from-left menu-line">About us</a>
@@ -405,30 +405,7 @@
                     <li><a href="<?= base_url() ?>faq" class="hvr-underline-from-left menu-line">FAQs</a></li>
                 </ul>
             </div>
-            <div class="col-md-2 col-6">
-                <ul class="fot-link">
-                    <li><a href="<?= base_url() ?>std-testing" class="hvr-underline-from-left menu-line">STD
-                    Test Dubai</a>
-                    </li>
-                    <li><a href="<?= base_url() ?>dna-test" class="hvr-underline-from-left menu-line">DNA Test Dubai</a>
-                    </li>
-                    <li><a href="<?= base_url() ?>food-intolerance-test" class="hvr-underline-from-left menu-line">Food
-                    Intolerance Test</a>
-                    </li>
-                    <li><a href="<?= base_url() ?>custom-blood-test" class="hvr-underline-from-left menu-line">Custom
-                    Blood
-                    Test</a>
-                    </li>
-                </ul>
-                <div class="social-media mt-3">
-                    <ul>
-                    <li><a aria-label="facebook" href="https://www.facebook.com/healthcarebia/" target="_blank"><i class="fab fa-facebook-f hvr-fade hv-opcity"></i></a></li>
-                    <li><a aria-label="instagram" href="https://www.instagram.com/healthcarebia" target="_blank"><i class="fab fa-instagram hvr-fade hv-opcity"></i></a></li>
-                    <li><a aria-label="linkedin" href="https://www.linkedin.com/company/healthcarebia/" target="_blank"><i class="fab fa-linkedin-in hvr-fade hv-opcity"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-2 col-6">
+            <div class="col-md-2">
                 <ul class="fot-link" >
                     <!-- <li><a href="<?= base_url() ?>iv-drip-dubai" class="hvr-underline-from-left menu-line">IV
                     Therapy Dubai</a></li>
@@ -462,11 +439,32 @@
                     <li><a href="<?= base_url() ?>nurse-at-home" class="hvr-underline-from-left menu-line">Nurse at
                     Home</a>
                     </li>
-                    <li><a href="<?= base_url() ?>oxygen-therapy" class="hvr-underline-from-left menu-line">Oxygen therapy</a>
-                    </li>
                 </ul>
             </div>
-            <div class="col-md-3 ebook-form" id="ebookFormDesktop">
+            <div class="col-md-2">
+                <ul class="fot-link">
+                    <li><a href="<?= base_url() ?>std-testing" class="hvr-underline-from-left menu-line">STD
+                    Test Dubai</a>
+                    </li>
+                    <li><a href="<?= base_url() ?>dna-test" class="hvr-underline-from-left menu-line">DNA Test Dubai</a>
+                    </li>
+                    <li><a href="<?= base_url() ?>food-intolerance-test" class="hvr-underline-from-left menu-line">Food
+                    Intolerance Test</a>
+                    </li>
+                    <li><a href="<?= base_url() ?>custom-blood-test" class="hvr-underline-from-left menu-line">Custom
+                    Blood
+                    Test</a>
+                    </li>
+                </ul>
+                <div class="social-media mt-3">
+                    <ul>
+                    <li><a aria-label="facebook" href="https://www.facebook.com/healthcarebia/" target="_blank"><i class="fab fa-facebook-f hvr-fade hv-opcity"></i></a></li>
+                    <li><a aria-label="instagram" href="https://www.instagram.com/healthcarebia" target="_blank"><i class="fab fa-instagram hvr-fade hv-opcity"></i></a></li>
+                    <li><a aria-label="linkedin" href="https://www.linkedin.com/company/healthcarebia/" target="_blank"><i class="fab fa-linkedin-in hvr-fade hv-opcity"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 ebook-form">
                 <h6 style="font-size: 18px;color: white;text-align: center">Download Our Free Precision Of Wellness eBook</h6>
                 <form action="/ebooks/download" method="POST" style="display:flex;flex-direction: column; justify-content: start;align-items: center; width:100%; gap:1em" class="mt-4">
                     <div class="col-md-12 mb-3">
@@ -487,7 +485,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <p>Copyright © 2025 Healthcarebia | All rights reserved.</p>
+                        <p>Copyright © 2025 healthcarebia | All rights reserved.</p>
                     </div>
                     <div class="col-md-6">
                         <ul class="copyright-list">
@@ -505,7 +503,10 @@
             </div>
         </div>
     </div>
-    <div id="iv-quiz-modal" style="display:none; position:fixed; top:0; left:0;
+    <video style="object-fit: cover; background-size: cover; width: 100%; height: 100%;" preload="auto" playsinline="" autoplay="" loop="" muted="" width="320" height="200">
+        <source src="<?= base_url() ?>assets/frontend/img/footer.mp4" type="video/mp4">
+    </video>
+        <div id="iv-quiz-modal" style="display:none; position:fixed; top:0; left:0;
         width:100%; height:100%; background:rgba(0,0,0,0.6); z-index:9999;
         align-items:center; justify-content:center;">
 
@@ -659,7 +660,6 @@
             </div>
         </div>
     </div>
-    
 </footer>
 <script>
     const form = document.querySelector('.ebook-form');

@@ -89,11 +89,7 @@
 
     <?php include 'includes/inc_head_tag.php'; ?>
 
-    <style>
-        .testimonials-slider .owl-nav button.owl-prev,.testimonials-slider .owl-nav button.owl-next{
-            bottom: 200px;
-        }
-    </style>
+
 
 
 
@@ -107,9 +103,9 @@
 
 
 
-<div class="mob-inner-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/doctor-on-call-banner.webp);">
+<div class="mob-inner-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/doctor-banner-mob.webp);">
 
-    <section class="sub-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/doctor-on-call-banner.webp);">
+    <section class="sub-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/doctor-banner.webp);">
 
         <div class="overlay">
 
@@ -153,7 +149,7 @@
 
             <div class="col-md-12">
 
-                <div class="text-center"><h2 class="text-lg-center mb-4">Why choose Healthcarebia?</h2></div>
+                <div class="text-center"><h2 class="text-center mb-4">Why choose Healthcarebia?</h2></div>
 
                 <div class="row mt-4">
 
@@ -288,52 +284,8 @@
     </div>
 
 </section>
-<section class=" section-gap what-therapy-bg">
-  <div class="container">
-    <h2 class="my-2 text-lg-center">Doctor on Call service / Doctor at home</h2>
-    <p class="mb-5 text-lg-center">
-        Healthcarebia’s Doctor on Call service brings DHA certified medical professionals to your doorstep.
-        Get consultations, examinations, and treatments without leaving home, with personalized care, prompt
-        attention, and peace of mind.
-    </p>
-    <div class="row d-flex justify-content-evenly">
-      <div class="col-md-6">
-        <img
-          class="img-fluid d-block"
-          src="<?= base_url() ?>assets/frontend/img/doctor-on-call-image.webp"
-          alt="Doctor on Call Dubai"
-        >
-      </div>
 
-      <div class="col-md-6 col-12 d-flex justify-content-center align-items-center flex-column gap-3">
-        <h5 class="mt-3 mb-2">Benefits of Doctor on Call Service</h5>
-        <ul class="benefits-of-drip">
-          <li>Convenient access to quality medical care at home</li>
-          <li>Avoids travel and waiting in crowded clinics or hospitals</li>
-          <li>Personalized, complete attention from a qualified healthcare professional</li>
-          <li>Specialised home doctor service for individual care needs</li>
-          <li>Ideal for those with mobility issues, busy schedules, or privacy needs</li>
-        </ul>
-
-        <h5>Services provided at Home</h5>
-        <ul class="benefits-of-drip">
-          <li>Medical consultations and teleconsultations for various health concerns</li>
-          <li>Diagnostic tests such as blood work, DNA analysis, and health check packages</li>
-          <li>Chronic disease management, including monitoring and medication adjustments</li>
-          <li>Physical examinations from the comfort of your home</li>
-          <li>Prescription issuance and medication management</li>
-          <li>Diagnosis and treatment of illnesses and minor injuries</li>
-          <li>Home based medical procedures such as wound care and injections</li>
-          <li>Referrals to specialists or additional diagnostic tests when needed</li>
-          <li>Patient education and counselling on health management and lifestyle changes</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<!-- <section class="section-gap what-therapy-bg light-green no-bottom">
+<section class="section-gap what-therapy-bg light-green no-bottom">
 
     <div class="container">
 
@@ -475,9 +427,9 @@
 
     </div>
 
-</section> -->
+</section>
 
-<!-- <section class="light-blue section-gap">
+<section class="light-blue section-gap">
 
     <div class="container">
 
@@ -559,7 +511,7 @@
 
     </div>
 
-</section> -->
+</section>
 
 <section class="faq-block section-gap">
 

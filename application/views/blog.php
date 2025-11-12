@@ -50,49 +50,6 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
-                <a href="<?= base_url() ?>inflammation-fatigue-weight-gain-blog" class="card-style3 card-style4 same">
-                    <img
-                    src="<?= base_url() ?>assets/frontend/img/blog44.jpg"
-                    alt="Inflammation: The Unseen Link to Fatigue and Weight Gain"
-                    class="img-fluid"
-                    loading="lazy"
-                    width="315"
-                    height="213"
-                    >
-                    <h6>Inflammation: The Unseen Link to Fatigue and Weight Gain</h6>
-                    <p>Learn how chronic inflammation drains energy and slows metabolism, and how DNA testing, blood analysis, and IV therapy in Dubai can help you recover at home with Healthcarebia.</p>
-                </a>
-            </div>
-
-            <div class="col-md-3 mb-3">
-                <a href="<?= base_url() ?>winter-wellness-dubai-iv-therapy-blog" class="card-style3 card-style4 same">
-                    <img
-                    src="<?= base_url() ?>assets/frontend/img/blog43.jpg"
-                    alt="Winter Wellness in Dubai: Stay Energized and Protected During Cooler Months"
-                    class="img-fluid"
-                    loading="lazy"
-                    width="315px"
-                    height="213px"
-                    >
-                    <h6>Winter Wellness in Dubai: Stay Energized and Protected</h6>
-                    <p>Discover how to maintain optimal health during Dubai's cooler months with IV therapy, DNA testing, and preventive care strategies for seasonal wellness.</p>
-                </a>
-            </div>
-            <div class="col-md-3 mb-3">
-                <a href="<?= base_url() ?>annual-health-checkups-what-tests-actually-matter-blog" class="card-style3 card-style4 same">
-                    <img
-                    src="<?= base_url() ?>assets/frontend/img/blog26.jpg"
-                    alt="Annual Health Checkups: What Tests Actually Matter"
-                    class="img-fluid"
-                    loading="lazy"
-                    width="315px"
-                    height="213px"
-                    >
-                    <h6>Annual Health Checkups: What Tests Actually Matter</h6>
-                    <p>Use this age-by-age roadmap to focus on the tests that matter and see when at-home labs with DHA-licensed nurses make life easier in Dubai.</p>
-                </a>
-            </div>
-            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>gut-health-energy-blog" class="card-style3 card-style4 same">
                     <img
                     src="<?= base_url() ?>assets/frontend/img/blog20.jpg"
@@ -325,6 +282,20 @@
                 </a>
             </div>
 
+            <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>annual-health-checkups-what-tests-actually-matter-blog" class="card-style3 card-style4 same">
+                    <img
+                    src="<?= base_url() ?>assets/frontend/img/blog26.jpg"
+                    alt="Annual Health Checkups: What Tests Actually Matter"
+                    class="img-fluid"
+                    loading="lazy"
+                    width:"315px"
+                    height:"213px"
+                    >
+                    <h6>Annual Health Checkups: What Tests Actually Matter</h6>
+                    <p>Use this age-by-age roadmap to focus on the tests that matter and see when at-home labs with DHA-licensed nurses make life easier in Dubai.</p>
+                </a>
+            </div>
             <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>healthy-lifestyle-habits-for-busy-professionals-blog" class="card-style3 card-style4 same">
                     <img

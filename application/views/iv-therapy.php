@@ -23,16 +23,124 @@
 <style>
     .banner-list ul>li{
         list-style: none;
-        color: white;
-        font-fimily: "Poppins",serif
+        color: white
     }
     @media(max-width:768px){
         .banner-list ul{
            flex-direction: column
         }
     }
+    /* --- IV Steps (scoped) --- */
+.iv-steps-section{
+  background:var(--green); /* match your green */
+  color:#fff;
+  padding:28px 16px;
+}
 
+.iv-steps-wrap{
+  max-width:1200px;
+  margin:0 auto;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:28px;
+  align-items:start;
+  position:relative;
+}
 
+/* Cards */
+.iv-step-card{
+  text-align:center;
+  position:relative;
+  padding:12px 10px 0;
+}
+
+.iv-step-media{
+  position:relative;
+  width:84px;
+  height:84px;
+  margin:0 auto 14px;
+}
+
+.iv-step-media img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  display:block;
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,.15));
+}
+
+.iv-step-num{
+  position:absolute;
+  right:-10px; top:-10px;
+  width:34px; height:34px;
+  border-radius:50%;
+  background:rgba(255,255,255,.18);
+  border:1px solid rgba(255,255,255,.35);
+  display:grid; place-items:center;
+  font-weight:700;
+  font-size:14px;
+}
+
+/* Headings & text */
+.iv-step-content h4{
+  font-size:18px;
+  line-height:1.3;
+  margin:0 0 8px;
+  color: white;
+  font-weight:800;
+}
+
+.iv-step-content p{
+  margin:0;
+  font-size:15px;
+  line-height:1.55;
+  font-weight:400;
+  opacity:.95;
+  color: white
+}
+
+/* link style for WhatsApp/CTA */
+.iv-step-link{
+  color:#fff;
+  text-decoration:underline;
+  text-underline-offset:3px;
+}
+
+.iv-step-count h3{
+    color: white;
+    border-radius: 50%;
+}
+
+/* Optional arrows between cards (desktop only) */
+@media (min-width: 992px){
+  /* .iv-step-card:not(:last-child)::after{
+    content:"";
+    position:absolute;
+    right:-14px; top:42px;
+    width:28px; height:2px;
+    background:rgba(255,255,255,.35);
+  } */
+}
+
+/* Tablet */
+@media (max-width: 991.98px){
+  .iv-steps-wrap{
+    grid-template-columns:1fr 1fr;
+  }
+  .iv-step-card:nth-child(2)::after{ display:none; }
+}
+
+/* Mobile */
+@media (max-width: 575.98px){
+  .iv-steps-wrap{
+    grid-template-columns:1fr;
+    gap:18px;
+  }
+  .iv-step-media{ width:72px; height:72px; }
+  .iv-step-content h4{ font-size:16px; }
+  .iv-step-content p{ font-size:14px; }
+  .iv-step-card::after{ display:none; }
+}
 
 </style>
 
@@ -79,7 +187,7 @@
                                 <li class="active" aria-current="page">IV Therapy Dubai</li>
 
                             </ul>
-                            <div class="mt-3" >
+                            <div class="mt-5" >
                                 <p style="color:white;font-weight:700">IV drip home service Dubai | 24 &#215; 7 | Within 30 minutes at your doorstep</p>
                             </div>
                             <div class="banner-list">
@@ -121,25 +229,25 @@
 
 
 
-<section
+<section style="background-image: url(<?= base_url() ?>assets/frontend/img/iv-therapy-banner2.webp);"
 
-         class="why-choose-therapy py-5">
+         class="why-choose-therapy section-gap">
 
     <div class="container">
 
-        <div class="row gap-3">
+        <div class="row">
 
-            <div class="col-md-12 d-flex flex-column justify-content-center align-items-center">
+            <div class="col-md-8 offset-md-4 d-flex flex-column justify-content-center align-items-center">
 
-                <h2 class="text-center">Why choose Healthcarebia for<br>
+                <h2>Why choose Healthcarebia for
 
                     IV Therapy?</h2>
 
 
 
-                <div class="row mb-3">
+                <div class="row mt-4">
 
-                    <div class="col-6 col-lg-4">
+                    <div class="col-md-4 mb-3">
 
                         <div class="therapy-choose-item">
 
@@ -147,7 +255,7 @@
 
                                 <div class="img">
 
-                                    <img src="<?= base_url() ?>assets/frontend/img/icons/Offer.svg" alt="IV Drip icon1" loading="lazy">
+                                    <img src="<?= base_url() ?>assets/frontend/img/iv-drip.svg" alt="IV Drip icon1" loading="lazy">
 
                                 </div>
 
@@ -163,7 +271,7 @@
 
 
 
-                    <div class="col-6 col-lg-4">
+                    <div class="col-md-4 mb-3">
 
                         <div class="therapy-choose-item">
 
@@ -171,7 +279,7 @@
 
                                 <div class="img">
 
-                                    <img src="<?= base_url() ?>assets/frontend/img/icons/Doctor.svg" alt="IV Drip icon2" loading="lazy">
+                                    <img src="<?= base_url() ?>assets/frontend/img/doctors.svg" alt="IV Drip icon2" loading="lazy">
 
                                 </div>
 
@@ -185,7 +293,7 @@
 
 
 
-                    <div class="col-6 col-lg-4">
+                    <div class="col-md-4 mb-3">
 
                         <div class="therapy-choose-item">
 
@@ -193,7 +301,7 @@
 
                                 <div class="img">
 
-                                    <img src="<?= base_url() ?>assets/frontend/img/icons/dha.svg" alt="IV Drip icon3" loading="lazy" style="height:50px;width:50px">
+                                    <img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="IV Drip icon3" loading="lazy">
 
                                 </div>
 
@@ -207,7 +315,7 @@
 
 
 
-                    <div class="col-6 col-lg-4">
+                    <div class="col-md-4 mb-3">
 
                         <div class="therapy-choose-item">
 
@@ -215,7 +323,7 @@
 
                                 <div class="img">
 
-                                    <img src="<?= base_url() ?>assets/frontend/img/icons/Complete.svg" alt="IV Drip icon4" loading="lazy">
+                                    <img src="<?= base_url() ?>assets/frontend/img/tick.svg" alt="IV Drip icon4" loading="lazy">
 
                                 </div>
 
@@ -227,7 +335,9 @@
 
                     </div>
 
-                    <div class="col-6 col-lg-4">
+
+
+                    <div class="col-md-4 mb-3">
 
                         <div class="therapy-choose-item">
 
@@ -235,7 +345,7 @@
 
                                 <div class="img">
 
-                                    <img src="<?= base_url() ?>assets/frontend/img/icons/Home.svg" alt="IV Drip icon5" loading="lazy">
+                                    <img src="<?= base_url() ?>assets/frontend/img/home-care.svg" alt="IV Drip icon5" loading="lazy">
 
                                 </div>
 
@@ -247,7 +357,11 @@
 
                     </div>
 
-                    <div class="col-6 col-lg-4">
+
+
+
+
+                    <div class="col-md-4 mb-3">
 
                         <div class="therapy-choose-item">
 
@@ -255,7 +369,7 @@
 
                                 <div class="img">
 
-                                    <img src="<?= base_url() ?>assets/frontend/img/icons/Location.svg" alt="IV Drip icon6" loading="lazy">
+                                    <img src="<?= base_url() ?>assets/frontend/img/map-icon.svg" alt="IV Drip icon6" loading="lazy">
 
                                 </div>
 
@@ -267,7 +381,9 @@
 
                     </div>
 
-                    <div class="col-6 col-lg-4">
+
+
+                    <div class="col-md-4 mb-3">
 
                         <div class="therapy-choose-item">
 
@@ -275,7 +391,7 @@
 
                                 <div class="img">
 
-                                    <img src="<?= base_url() ?>assets/frontend/img/icons/Certified.svg" alt="IV Drip icon7" loading="lazy">
+                                    <img src="<?= base_url() ?>assets/frontend/img/experience.svg" alt="IV Drip icon7" loading="lazy">
 
                                 </div>
 
@@ -287,7 +403,9 @@
 
                     </div>
 
-                    <div class="col-6 col-lg-4">
+
+
+                    <div class="col-md-4 mb-3">
 
                         <div class="therapy-choose-item">
 
@@ -295,7 +413,7 @@
 
                                 <div class="img">
 
-                                    <img src="<?= base_url() ?>assets/frontend/img/icons/Health.svg" alt="IV Drip icon8" loading="lazy">
+                                    <img src="<?= base_url() ?>assets/frontend/img/health.svg" alt="IV Drip icon8" loading="lazy">
 
                                 </div>
 
@@ -307,8 +425,12 @@
 
                     </div>
 
+
+
+
+
                 </div>
-                <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
+                <a class="primary-btn hvr-bounce-to-right green-btn my-3" href="<?= $whatsappHref ?>" target="_blank">
                                 Chat With Experts
                             </a>
 
@@ -320,65 +442,79 @@
 
 </section>
 
-<section class="mt-5" style="background-color: #f9f9f9;">
-
-    <div class="">
-        <h2 class="text-md-center text-left">Fast, Easy and Effective.<br> Get IV Drips at home in 3 easy steps</h2>
-        <div class="step-block-wrap">
-            <div class="step-block">
-                <img src="<?= base_url() ?>assets/frontend/img/book.jpg" alt="booking">
-                <div class="step-content">
-                    <h3>1</h3>
-                    <div class="iv-step-content">
-                        <h3>Book Your Appointment</h3>
-                        <p>
-                        Call or WhatsApp <a href="https://wa.me/971547077476" class="iv-step-link">971547077476</a> to book your
-                        IV drip at home in Dubai, choose from safe, effective options like a hydration drip.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="step-block">
-                <img src="<?= base_url() ?>assets/frontend/img/door step.jpg" alt="booking">
-                <div class="step-content">
-                    <h3>2</h3>
-                    <div class="iv-step-content">
-                        <h3>Nurse at Your Doorstep</h3>
-                        <p>
-                        Our DHA-licensed nurses ensure safe and professional IV drip administration for fast, effective results.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="step-block">
-                <img src="<?= base_url() ?>assets/frontend/img/energy.jpg" alt="booking">
-                <div class="step-content">
-                    <h3>3</h3>
-                    <div class="iv-step-content">
-                        <h3>Get Recharged</h3>
-                        <p>
-                        Rejuvenate your body in ~45 minutes with home IV therapy, boost energy, immunity, and hydration fast.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="contact-buttons d-flex gap-3 justify-content-center align-items-center py-3 px-1 col-12">
-            <a class="primary-btn hvr-bounce-to-right green-btn mt-2" href="tel:+97142250823">WhatsApp IV therapy near me</a>
-            <a class="primary-btn hvr-bounce-to-right green-btn mt-2" href="#contact_us">Request a Call Back</a>
-        </div>
-        
-    </div>
-
-</section>
-
-<section class="section-gap what-therapy-bg pb-3">
+<section class="section-gap my-5" style="background-color: #f9f9f9;">
 
     <div class="container">
 
-        <div class="row d-flex justify-content-center align-items-center">
+        <div class="row">
 
-            <div class="col-lg-8 col-12">
+        <div class="col-md-12 text-center">
+
+            <h2>Fast, Easy and Effective.<br> Get IV Drips at home in 3 easy steps</h2>
+            
+            <div class="iv-steps-section">
+            <div class="iv-steps-wrap">
+                <!-- Step 1 -->
+                <article class="iv-step-card">
+                <div class="iv-step-count">
+                    <h3>1</h3>
+                </div>
+                <div class="iv-step-content">
+                    <h4>Book Your Appointment</h4>
+                    <p>
+                    Call or WhatsApp <a href="https://wa.me/97142250823" class="iv-step-link">+97142250823</a> to book your
+                    IV drip at home in Dubai, choose from safe, effective options like a hydration drip.
+                    </p>
+                </div>
+                </article>
+                <article class="iv-step-card">
+                <div class="iv-step-count">
+                    <h3>2</h3>
+                </div>
+                <div class="iv-step-content">
+                    <h4>Nurse at Your Doorstep</h4>
+                    <p>
+                    Our DHA-licensed nurses ensure safe and professional IV drip administration for fast, effective results.
+                    </p>
+                </div>
+                </article>
+                <article class="iv-step-card">
+                <div class="iv-step-count">
+                    <h3>3</h3>
+                </div>
+                <div class="iv-step-content">
+                    <h4>Get Recharged</h4>
+                    <p>
+                    Rejuvenate your body in ~45 minutes with home IV therapy, boost energy, immunity, and hydration fast.
+                    </p>
+                </div>
+                </article>
+            </div>
+        </div>
+        <div class="contact-buttons d-flex gap-3 justify-content-center align-items-center pb-5 pt-3">
+            <a class="primary-btn hvr-bounce-to-right green-btn mt-2" href="tel:+97142250823">
+                                WhatsApp IV therapy near me
+                            </a><a class="primary-btn hvr-bounce-to-right green-btn mt-2" href="#contact_us">
+                                Request a Call Back
+                            </a>
+        </div>
+    </div>
+
+    </div>
+
+  </div>
+
+
+
+<section class="section-gap what-therapy-bg"
+
+         style="background-image: url(<?= base_url() ?>assets/frontend/img/gala-big-img.webp);">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-7">
 
                 <h2>What is IV Therapy ?</h2>
 
@@ -401,7 +537,7 @@
 
 
 
-                <h4 class="mt-4">Benefits of IV Therapy</h4>
+                <h6 class="mt-4">Benefits of IV Therapy</h6>
 
                 <ul class="listing-item">
 
@@ -425,11 +561,17 @@
                             </a>
 
             </div>
-            <div class="col-lg-4 what-iv-image">
 
-                <img src="<?= base_url() ?>assets/frontend/img/what-is-iv-section-image.webp" alt="IV Drip Dubai" class="img-fluid" loading="lazy">
+        </div>
+
+        <div class="row d-block d-md-none mt-3">
+
+            <div class="col-12">
+
+                <img src="<?= base_url() ?>assets/frontend/img/gala-big-img-mob.webp" alt="IV Drip Dubai" class="img-fluid" loading="lazy">
 
             </div>
+
         </div>
 
     </div>
@@ -437,7 +579,7 @@
 </section>
 
 
-
+</section>
 
 
 <!-- <section class="section-gap iv-drip-block">
@@ -751,9 +893,9 @@
 
 
 
-        <div class="row mt-4 d-flex justify-content-center align-items-center">
+        <div class="row mt-4">
 
-            <div class="col-lg-4 col-md-6 col-12 mb-3 p-2">
+            <div class="col-md-4 mb-3">
 
                 <div class="drip-box">
 
@@ -797,7 +939,7 @@
 
             </div>
 
-            <div class="col-lg-4 col-md-6 col-12 mb-3 p-2">
+            <div class="col-md-4 mb-3">
 
                 <div class="drip-box">
 
@@ -839,7 +981,7 @@
 
             </div>
 
-            <div class="col-lg-4 col-md-6 col-12 mb-3 p-2">
+            <div class="col-md-4 mb-3">
 
                 <div class="drip-box">
 
@@ -884,7 +1026,7 @@
 
             </div>
 
-            <div class="col-lg-4 col-md-6 col-12 mb-3 p-2">
+            <div class="col-md-4 mb-3">
 
                 <div class="drip-box">
 
@@ -929,7 +1071,7 @@
 
             </div>
 
-            <div class="col-lg-4 col-md-6 col-12 mb-3 p-2">
+            <div class="col-md-4 mb-3">
 
                 <div class="drip-box">
 
@@ -975,53 +1117,53 @@
                 </div>
 
             </div>
-            <div class="col-lg-4 col-md-6 col-12 mb-3 p-2">
+            <div class="col-md-4 mb-3">
 
-                <div class="drip-box">
+        <div class="drip-box">
 
-                    <div class="img">
+            <div class="img">
 
-                        <div class="img-inner">
-                            
-                            <a href="<?= $whatsappHref ?>"><img src="<?= base_url() ?>assets/frontend/img/cold-flu-iv-drip.webp" alt="Cold Flu IV Drip Dubai" class="img-fluid" loading="lazy"></a>
-                        
-                        </div>
+                <div class="img-inner">
+                    
+                    <a href="<?= $whatsappHref ?>"><img src="<?= base_url() ?>assets/frontend/img/cold-flu-iv-drip.webp" alt="Cold Flu IV Drip Dubai" class="img-fluid" loading="lazy"></a>
+                
+                </div>
 
-                    </div>
+            </div>
 
-                    <div class="text">
+            <div class="text">
 
-                        <a href="<?= base_url() ?>iv-drip-dubai"><h6>Cold &amp; Flu IV Drip</h6></a>
+                <a href="<?= base_url() ?>iv-drip-dubai"><h6>Cold &amp; Flu IV Drip</h6></a>
 
-                        <ul class="listing-item2">
+                <ul class="listing-item2">
 
-                            <li>Boosts immune system</li>
+                    <li>Boosts immune system</li>
 
-                            <li>Relieves cold &amp; flu symptoms</li>
+                    <li>Relieves cold &amp; flu symptoms</li>
 
-                            <li>Speeds up recovery</li>
+                    <li>Speeds up recovery</li>
 
-                        </ul>
+                </ul>
 
-                        <div class="price-blockl mt-3">
+                <div class="price-blockl mt-3">
 
-                            <span>From AED</span>
+                    <span>From AED</span>
 
-                            <h3>1,800* </h3>
-                            <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
-                                        Book Now
-                                    </a><br>
-                            <i>* T&C apply</i> 
-
-                        </div>
-
-                    </div>
+                    <h3>1,800* </h3>
+                    <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
+                                Book Now
+                            </a><br>
+                    <i>* T&C apply</i> 
 
                 </div>
 
             </div>
 
-            <div class="col-lg-4 col-md-6 col-12 mb-3 p-2">
+        </div>
+
+        </div>
+
+            <div class="col-md-4 mb-3">
 
                 <div class="drip-box">
 
@@ -1067,7 +1209,7 @@
 
             </div>
 
-            <div class="col-lg-4 col-md-6 col-12 mb-3 p-2">
+            <div class="col-md-4 mb-3">
 
                 <div class="drip-box">
 
@@ -1102,108 +1244,108 @@
 
                 </div>
 
-            </div>
+                </div>
 
-            <div class="col-lg-4 col-md-6 col-12 mb-3 p-2">
+                <div class="col-md-4 mb-3">
 
-                <div class="drip-box">
+                    <div class="drip-box">
 
-                    <div class="img">
-                        <div class="img-inner">
-                            <a href="<?= $whatsappHref ?>"><img src="<?= base_url() ?>assets/frontend/img/sunburn-iv-drip.webp" alt="Sunburn IV Drip Dubai" class="img-fluid" loading="lazy"></a>
+                        <div class="img">
+                            <div class="img-inner">
+                                <a href="<?= $whatsappHref ?>"><img src="<?= base_url() ?>assets/frontend/img/sunburn-iv-drip.webp" alt="Sunburn IV Drip Dubai" class="img-fluid" loading="lazy"></a>
+                            </div>
                         </div>
+
+                        <div class="text">
+                            <a href="<?= base_url() ?>iv-drip-dubai"><h6>Sunburn IV Drip</h6></a>
+                            <ul class="listing-item2">
+                                <li>Soothes sunburn symptoms</li>
+                                <li>Rehydrates and cools the skin</li>
+                                <li>Reduces inflammation and discomfort</li>
+                            </ul>
+                            <div class="price-blockl mt-3">
+                                <span>From AED</span>
+                                <h3>1,800*</h3>
+                                <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
+                                Book Now
+                                </a><br>
+                                <i>* T&C apply</i>
+                            </div>
+                        </div>
+
                     </div>
 
-                    <div class="text">
-                        <a href="<?= base_url() ?>iv-drip-dubai"><h6>Sunburn IV Drip</h6></a>
-                        <ul class="listing-item2">
-                            <li>Soothes sunburn symptoms</li>
-                            <li>Rehydrates and cools the skin</li>
-                            <li>Reduces inflammation and discomfort</li>
-                        </ul>
-                        <div class="price-blockl mt-3">
-                            <span>From AED</span>
-                            <h3>1,800*</h3>
-                            <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
-                            Book Now
+                </div>
+
+                <div class="col-md-4 mb-3">
+
+                    <div class="drip-box">
+
+                        <div class="img">
+                            <div class="img-inner">
+                                <a href="<?= base_url() ?>energy-focus-iv-drip"><img src="<?= base_url() ?>assets/frontend/img/energy-focus-iv-drip.webp" alt="Energy and Focus IV Drip Dubai, Hydration drip" class="img-fluid" loading="lazy"></a>
+                            </div>
+                        </div>
+
+                        <div class="text">
+                            <a href="<?= base_url() ?>energy-focus-iv-drip">
+                                <h6>Energy &amp; Focus IV Drip</h6>
+                            </a>
+                            
+                            <ul class="listing-item2">
+                                <li>Boosts mental clarity and focus</li>
+                                <li>Enhances overall energy levels</li>
+                                <li>Supports cognitive function and concentration</li>
+                            </ul>
+                            <div class="price-blockl mt-3">
+                                <span>From AED</span>
+                                <h3>1,100*</h3>
+                                <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
+                                Book Now
                             </a><br>
-                            <i>* T&C apply</i>
+                                <i>* T&C apply</i>
+                            </div>
                         </div>
+
+                    </div>
+
+                </div>
+                <div class="col-md-4 mb-3">
+
+                    <div class="drip-box">
+
+                        <div class="img">
+                            <div class="img-inner">
+                                <a href="<?= base_url() ?>good-sleep-iv-drip"><img src="<?= base_url() ?>assets/frontend/img/good-sleep-iv-drip.webp" alt="Good Sleep IV Drip Dubai" class="img-fluid" loading="lazy"></a>
+                            </div>
+                        </div>
+
+                        <div class="text">
+                            <a href="<?= base_url() ?>good-sleep-iv-drip">
+                                <h6>Good Sleep IV Drip</h6>
+                            </a>
+                            
+                            <ul class="listing-item2">
+                                <li>Promotes relaxation and deep sleep</li>
+                                <li>Enhances sleep quality</li>
+                                <li>Supports stress relief for a peaceful night</li>
+                            </ul>
+                            <div class="price-blockl mt-3">
+                                <span>From AED</span>
+                                <h3>1,300*</h3>
+                                <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
+                                Book Now
+                            </a><br>
+                                <i>* T&C apply</i>
+                            </div>
+                        </div>
+
                     </div>
 
                 </div>
 
-            </div>
 
-            <div class="col-lg-4 col-md-6 col-12 mb-3 p-2">
-
-                <div class="drip-box">
-
-                    <div class="img">
-                        <div class="img-inner">
-                            <a href="<?= base_url() ?>energy-focus-iv-drip"><img src="<?= base_url() ?>assets/frontend/img/energy-focus-iv-drip.webp" alt="Energy and Focus IV Drip Dubai, Hydration drip" class="img-fluid" loading="lazy"></a>
-                        </div>
-                    </div>
-
-                    <div class="text">
-                        <a href="<?= base_url() ?>energy-focus-iv-drip">
-                            <h6>Energy &amp; Focus IV Drip</h6>
-                        </a>
-                        
-                        <ul class="listing-item2">
-                            <li>Boosts mental clarity and focus</li>
-                            <li>Enhances overall energy levels</li>
-                            <li>Supports cognitive function and concentration</li>
-                        </ul>
-                        <div class="price-blockl mt-3">
-                            <span>From AED</span>
-                            <h3>1,100*</h3>
-                            <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
-                            Book Now
-                        </a><br>
-                            <i>* T&C apply</i>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-12 mb-3 p-2">
-
-                <div class="drip-box">
-
-                    <div class="img">
-                        <div class="img-inner">
-                            <a href="<?= base_url() ?>good-sleep-iv-drip"><img src="<?= base_url() ?>assets/frontend/img/good-sleep-iv-drip.webp" alt="Good Sleep IV Drip Dubai" class="img-fluid" loading="lazy"></a>
-                        </div>
-                    </div>
-
-                    <div class="text">
-                        <a href="<?= base_url() ?>good-sleep-iv-drip">
-                            <h6>Good Sleep IV Drip</h6>
-                        </a>
-                        
-                        <ul class="listing-item2">
-                            <li>Promotes relaxation and deep sleep</li>
-                            <li>Enhances sleep quality</li>
-                            <li>Supports stress relief for a peaceful night</li>
-                        </ul>
-                        <div class="price-blockl mt-3">
-                            <span>From AED</span>
-                            <h3>1,300*</h3>
-                            <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
-                            Book Now
-                        </a><br>
-                            <i>* T&C apply</i>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="col-lg-4 col-md-6 col-12 mb-3 p-2">
+            <div class="col-md-4 mb-3">
 
                 <div class="drip-box">
 
@@ -1248,7 +1390,7 @@
 
             </div>
 
-            <div class="col-lg-4 col-md-6 col-12 mb-3 p-2">
+            <div class="col-md-4 mb-3">
 
                 <div class="drip-box">
 
@@ -1284,7 +1426,7 @@
             </div>
 
 
-            <div class="col-lg-4 col-md-6 col-12 mb-3 p-2">
+            <div class="col-md-4 mb-3">
 
                 <div class="drip-box">
 
@@ -1572,7 +1714,7 @@
 
 
 
-<section class="section-gap testimonials">
+<section class="section-gap testimonials more-space-bottom">
 
     <div class="container">
 
@@ -1586,7 +1728,7 @@
 
             <div class="col-md-12">
 
-                <div class="testimonials-slider owl-carousel testimonials2-slider">
+                <div class="testimonials-slider owl-carousel">
 
                     <div class="item">
 
@@ -1690,12 +1832,12 @@
 
 </section>
 
-<section class="section-gap" id="contact_us" style="background-color: white;">
+<section class="section-gap" id="contact_us" style="background-image: url(<?= base_url() ?>assets/frontend/img/iv-therapy-banner.webp); background-size: cover; background-position: left;">
          <div class="container">
-            <div class="row d-flex justify-content-between align-items-center">
-               <div class="col-lg-6 col-md-12" style="background-color: white;">
+            <div class="row">
+               <div class="col-md-7" style="background-color: white">
                   <div class="card-style6 p-5">
-                     <h4 class="mb-4 text-center">Book an Appointment</h4>
+                     <h4 class="mb-4">Book an Appointment</h4>
                      <div class="row">
                         <div class="col-md-12">
                            <?php
@@ -1759,9 +1901,6 @@
                      </div>
                   </div>
                </div>
-               <div class="col-lg-4 face-image">
-                <img src="<?= base_url() ?>assets/frontend/img/face.webp" height="500px" width="auto" alt="Image of a face. Image next to book appointment form">
-            </div>
             </div>
          </div>
       </section>

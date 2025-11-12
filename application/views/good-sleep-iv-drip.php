@@ -94,13 +94,13 @@
 
     <!-- Preload Hero Images -->
     <link rel="preload" href="<?= base_url() ?>assets/frontend/img/good-sleep-banner.webp" as="image" media="(min-width: 768px)">
-    <!-- <link rel="preload" href="<?= base_url() ?>assets/frontend/img/good-sleep-banner-mob.webp" as="image" media="(max-width: 767px)"> -->
+    <link rel="preload" href="<?= base_url() ?>assets/frontend/img/good-sleep-banner-mob.webp" as="image" media="(max-width: 767px)">
 </head>
 <body>
 <?php include 'includes/inc_header.php'; ?>
 
 <!-- Banner Section -->
-<div class="mob-inner-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/good-sleep-banner.webp);">
+<div class="mob-inner-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/good-sleep-banner-mob.webp);">
     <section class="sub-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/good-sleep-banner.webp);">
         <div class="overlay">
             <div class="container">
@@ -127,7 +127,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="text-center">
-                    <h2 class="text-lg-center mb-4">Why choose Healthcarebia <br>for Good Sleep IV Drip in Dubai</h2>
+                    <h2 class="text-center mb-4">Why choose Healthcarebia <br>for Good Sleep IV Drip in Dubai</h2>
                 </div>
                 <div class="row mt-4">
                     <div class="col-6 col-md-3 mb-3">
@@ -207,32 +207,34 @@
 </section>
 
 <!-- What is Good Sleep IV Drip Section -->
-<section class=" section-gap what-therapy-bg">
-  <div class="container">
-    <div class="row d-flex justify-content-evenly">
-      <div class="col-md-6">
-        <img class="img-fluid d-block"
-             src="<?= base_url() ?>assets/frontend/img/good-sleep-image.webp"
-             alt="Benefits of Good Sleep IV drip Dubai">
-      </div>
-      <div class="col-md-6 col-12 d-flex justify-content-center align-items-center flex-column gap-3">
-        <h2 class="my-2">What is Good Sleep IV Drip?</h2>
-        <p>
-          The <strong>Good Sleep IV Drip</strong> promotes deep, restful sleep, relaxes tense muscles,
-          supports collagen production for healthier skin and joints, and helps maintain a steady heart rhythm.
-          It is a well rounded formula to support overall wellness.
-        </p>
-        <h5>Benefits of Good Sleep IV Drip</h5>
-        <ul class="benefits-of-drip">
-          <li>Improves sleep quality and helps regulate sleep patterns</li>
-          <li>Enhances collagen production for healthier skin and joints</li>
-          <li>Promotes muscle relaxation and recovery</li>
-        </ul>
-      </div>
+<section class="section-gap what-therapy-bg light-green">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mb-4 text-center">
+                <h2>What is Good Sleep IV Drip?</h2>
+                <p>The <strong>Good Sleep IV Drip </strong> promotes deep and restful sleep, relaxes tense muscles, boosts collagen production for healthier skin and joints, and even helps keep the heart rhythm steady. It’s a well-rounded formula for anyone looking to support their overall wellness.</p>
+            </div>
+            <div class="col-md-12 text-center mb-3">
+                <h5>Benefits of Good Sleep IV Drip</h5>
+            </div>
+            <div class="col-6 col-md-4 mb-3">
+                <div class="card-style1 same">
+                    <p>Improves sleep quality and regulates sleep patterns.</p>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 mb-3">
+                <div class="card-style1 same">
+                    <p>Enhances collagen production for healthier skin and joints.</p>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 mb-3">
+                <div class="card-style1 same">
+                    <p>Promotes muscle relaxation and recovery.</p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
-
 
 <!-- How It Works Section -->
 <section class="section-gap">
@@ -241,7 +243,7 @@
             <div class="col-md-10">
                 <div class="card-style2 p-0">
                     <div class="row">
-                        <div class="col-md-8 p-5 d-flex justify-content-center align-items-center flex-column">
+                        <div class="col-md-8 p-5">
                             <h2>How Good Sleep IV Drip Works?</h2>
                             <p>The <strong>Good Sleep IV Drip</strong> delivers a targeted infusion of Glycine, Magnesium, and Zinc directly into the bloodstream, helping the body ease into relaxation, regulate sleep patterns, and support collagen production. Together, these nutrients work to calm the nervous system and optimize natural sleep cycles.</p>
                             <a class="primary-btn hvr-bounce-to-right green-btn border-btn booking-btn" href="<?= $whatsappHref ?>" target="_blank">Book Your Session Now</a>

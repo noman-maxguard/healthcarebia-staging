@@ -756,7 +756,7 @@
         <h2 class="why-choose-heading-two animate" data-animation="fadeInUp">Why Choose Us</h2>
         <div class="why-image-wrap animate mb-4" data-animation="fadeInUp">
           <img
-            src="<?= base_url() ?>assets/frontend/img/why-choose-section-image.jpg"
+            src="<?= base_url() ?>assets/frontend/img/home-why-choose.jpg"
             alt="Why choose us"
             class="img-fluid shadow-sm rounded-4"
             loading="lazy" style="height:550px;width: 400px">

@@ -468,7 +468,7 @@
                 class="about-us-right col-lg-4 d-md-none d-lg-block col-12 d-flex justify-content-center align-items-center p-2 animate" data-animation="fadeInRight"
                 >
                 <div class="image">
-                    <img src="<?= base_url() ?>assets/frontend/img/home-about.jpg" alt="about us section image" loading="lazy" />
+                    <img src="<?= base_url() ?>assets/frontend/img/img4.webp" alt="about us section image" loading="lazy" />
                 </div>
             </div>
 
@@ -756,7 +756,7 @@
         <h2 class="why-choose-heading-two animate" data-animation="fadeInUp">Why Choose Us</h2>
         <div class="why-image-wrap animate mb-4" data-animation="fadeInUp">
           <img
-            src="<?= base_url() ?>assets/frontend/img/home-why-choose.jpg"
+            src="<?= base_url() ?>assets/frontend/img/why-choose-section-image.jpg"
             alt="Why choose us"
             class="img-fluid shadow-sm rounded-4"
             loading="lazy" style="height:550px;width: 400px">

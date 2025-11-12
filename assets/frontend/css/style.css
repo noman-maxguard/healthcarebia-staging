@@ -290,7 +290,7 @@ p {
 
 a:focus,
 button:focus,
-.main-menu>ul>li input:focus,
+input:focus,
 textarea:focus {
   outline: 0;
   text-decoration: none
@@ -305,12 +305,6 @@ h6 {
   -webkit-font-smoothing: antialiased;
   line-height: 1.1;
   font-weight: 500
-}
-
-h1,
-h2,
-h3 {
-  letter-spacing: -2px;
 }
 
 h2,
@@ -403,10 +397,6 @@ p {
 
 img {
   vertical-align: text-bottom
-}
-
-.main-banner .overlay {
-  background: linear-gradient(180deg, black -30%, transparent 100%);
 }
 
 .main-banner h1 {
@@ -639,10 +629,6 @@ header {
   padding: 20px
 }
 
-.header-main-menu .white-btn {
-  border-radius: 20px;
-}
-
 .header-main-menu>.container-fluid {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -651,10 +637,7 @@ header {
   justify-content: space-between;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 25px;
-  padding: 5px 10px;
+  align-items: center
 }
 
 .card-style4,
@@ -666,7 +649,7 @@ header {
 .main-menu>ul>li {
   display: inline-block;
   margin-right: 30px;
-  /* padding-bottom: 8px */
+  padding-bottom: 8px
 }
 
 .main-menu>ul>li>a {
@@ -1313,7 +1296,6 @@ footer .overlay {
   font-size: 18px;
   text-align: start;
   font-family: "poppins", serif !important;
-  text-transform: capitalize;
 }
 
 .mega-item ul li a,
@@ -1624,11 +1606,7 @@ ul.contact-info-list li {
 }
 
 .footer-banner .images img {
-  height: 40px;
-}
-
-.footer-banner .iso {
-  height: 110px !important;
+  height: 50px;
 }
 
 #fda {
@@ -2551,9 +2529,10 @@ ul.commen-listing li {
   font-weight: 600;
   font-size: 16px;
   color: var(--green);
+  /* font-style: normal; */
   letter-spacing: 1px;
   text-align: center;
-  text-transform: capitalize;
+  /* display: none; */
 }
 
 .trust-section div p {
@@ -2581,8 +2560,4 @@ ul.commen-listing li {
 
 .trust-section-mobile {
   display: none;
-}
-
-.face-image img {
-  border-radius: 15px;
 }

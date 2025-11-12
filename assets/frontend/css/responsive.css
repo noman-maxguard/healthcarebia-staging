@@ -74,8 +74,8 @@
     display: block;
     z-index: 9999999;
     position: absolute;
-    top: 16px;
-    right: 25px
+    top: 15px;
+    right: 17px
   }
 
   .mobile-menu .menu-toggle.active {
@@ -252,10 +252,6 @@
   }
 
   .why-image-wrap {
-    display: none;
-  }
-
-  .face-image {
     display: none;
   }
 }
@@ -577,7 +573,7 @@
 
   .service-block2 {
     display: block;
-    height: 650px;
+    height: 720px;
   }
 
   .services-slider-item {
@@ -692,17 +688,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-  }
-
-  .google-reviews {
-    flex-direction: column;
-  }
-
-  .footer-banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
   }
 }
 

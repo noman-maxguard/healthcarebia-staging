@@ -271,13 +271,16 @@
 
                         <p>Healthcarebia is the GCC’s First Concierge Wellness Service merging Luxury, Diagnostics & Rejuvenation with Privacy & Precision to your doorstep.</p>
 
-                        <p>Get your DHA-certified IV drip at home in just 60 minutes, anywhere in Dubai.</p>
+                        <p>Book your 
+                        DHA-certified IV Drip at 
+                        Home in Dubai within 60 
+                        minutes. Available across Dubai and Sharjah.</p>
 
                         <a href="<?= $whatsappHref ?>" class="primary-btn hvr-bounce-to-right white-btn my-3">Book IV Drip at Home</a>
                         <br>
                         <button
                             id="iv-quiz-btn"
-                            class="primary-btn hvr-bounce-to-right green-btn mt-2" style="border: 1px solid white; background-color: transparent;color: white;">
+                            class="primary-btn hvr-bounce-to-right green-btn mt-2" style="border: 1px solid white; background-color: transparent;color: white">
                             Get Your Personalized IV Drip
                         </button>
 
@@ -292,7 +295,7 @@
     </div>
     <video style="object-fit: cover; background-size: cover; width: 100%; height: 100%;" preload="auto" playsinline="" autoplay="" loop="" muted="" width="320" height="200">
 
-        <source src="<?= base_url() ?>assets/frontend/img/home-banner-video2.mov">
+        <source src="<?= base_url() ?>assets/frontend/img/banner-video.mp4">
 
     </video>
     <ul id="downArrow">
@@ -942,7 +945,7 @@
 
                 <div class="text-center testimonial-inner">
 
-                    <h2>Your health. Our mission. Anytime, Anywhere.</h2>
+                    <h2>Revitalize Your Body.</br> Elevate Your Life.</h2>
 
                     <a href="<?= base_url() ?>contact-us" class="primary-btn hvr-bounce-to-right green-btn book-now">Your Wellness Journey Starts Here.</a>
 

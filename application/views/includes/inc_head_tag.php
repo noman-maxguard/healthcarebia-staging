@@ -16,14 +16,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- Google tag manager --> 
 <link rel="icon" href="<?= base_url() ?>assets/frontend/img/favicon.svg" type="image/svg+xml" sizes="16x16">
 <!-- link to local bootstrap file -->
-<link rel="preload"
-      href="<?= base_url('assets/frontend/vendor/bootstrap.min.css') ?>"
-      as="style"
-      onload="this.rel='stylesheet'">
-<noscript>
-  <link rel="stylesheet" href="<?= base_url('assets/frontend/vendor/bootstrap.min.css') ?>">
-</noscript>
-
+<link rel="stylesheet" href="<?= base_url('assets/frontend/vendor/bootstrap.min.css') ?>" media="all">
 
 
 <!-- optimised google fonts delivery-->
@@ -59,26 +52,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="stylesheet" href="<?= base_url('assets/frontend/css/library.css?v='.$v_library) ?>">
 </noscript>
 <!-- custom styles -->
-<link rel="preload"
-      href="<?= base_url('assets/frontend/css/style.css?v='.$v_style) ?>"
-      as="style" onload="this.rel='stylesheet'">
-<noscript>
-  <link rel="stylesheet" href="<?= base_url('assets/frontend/css/style.css?v='.$v_style) ?>">
-</noscript>
-<link rel="stylesheet"
-      href="<?= base_url('assets/frontend/css/responsive.css?v='.$v_resp) ?>"
-      media="(max-width: 1300px)">
-<noscript>
-  <link rel="stylesheet" href="<?= base_url('assets/frontend/css/responsive.css?v='.$v_resp) ?>">
-</noscript>
+<link rel="stylesheet" href="<?= base_url('assets/frontend/css/style.css?v='.$v_style) ?>" media="all">
+<link rel="stylesheet" href="<?= base_url('assets/frontend/css/responsive.css?v='.$v_resp) ?>" media="all">
 <!-- link to loacl fontawesome file -->
-<link rel="preload"
-      href="<?= base_url('assets/frontend/vendor/fontawesome/css/all.min.css') ?>"
-      as="style" onload="this.rel='stylesheet'">
-<noscript>
-  <link rel="stylesheet" href="<?= base_url('assets/frontend/vendor/fontawesome/css/all.min.css') ?>">
-</noscript>
-
+<link rel="stylesheet" href="<?= base_url('assets/frontend/vendor/fontawesome/css/all.min.css') ?>" media="all">
+<!-- link to fontawesome swap file -->
+ <link rel="stylesheet" href="<?= base_url('assets/frontend/vendor/fontawesome/css/fa-display-swap.css') ?>" media="all">
 <!-- Meta Pixel Code -->
 <!-- <script>
 !function(f,b,e,v,n,t,s)

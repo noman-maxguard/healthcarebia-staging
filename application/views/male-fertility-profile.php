@@ -148,7 +148,7 @@
                     </div>
 
                     <div class="mt-4"><span class="price-tag">AED 700</span></div>
-
+                    <a href="<?= $whatsappHref ?>" class="primary-btn hvr-bounce-to-right green-btn book-now mt-4">Book your Appointment with us now</a>
                 </div>
 
             </div>
@@ -222,8 +222,6 @@
                                 <li>Creatinine</li>
 
                                 <li>Glucose Sugar- (RANDOM)</li>
-
-                                <li>Sperm Antibody-Total ASAB</li>
 
                                 <li>Testosterone Total</li>
 
@@ -299,6 +297,80 @@
 
 </section>
 
+<section class="faq-block section-gap" style="background-color: #ffffff;">
+    <div class="container">
+        <h2>FAQ's</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>1</span>What is a Male Fertility Profile test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>The Male Fertility Profile is a blood based assessment designed to give an overview of key factors that can influence male reproductive health. It looks at selected biomarkers linked to hormone balance and general health, so your doctor can better understand your fertility status and guide next steps if needed.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>2</span>Which biomarkers are usually included in the Male Fertility Profile Dubai panel?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>This profile typically covers a set of twelve biomarkers related to male hormones and metabolic health. The exact combination may include selected reproductive hormones and supporting markers, which together give a broader picture than a single hormone test on its own. Your doctor will explain which markers are being checked in your individual case.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>3</span>Who should consider doing a Male Fertility Profile test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>This test may be helpful for men who are planning a pregnancy with their partner, have been trying to conceive without success, have a history of hormonal issues, or simply want to understand their reproductive health as part of a preventive check. Your clinician can advise if this profile is suitable for you based on your history and goals.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>4</span>Do I need to prepare or fast before the Male Fertility Profile Dubai test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Preparation can vary depending on which biomarkers your doctor wants to measure. In some cases, fasting or taking the test at a certain time of day may be recommended for more consistent hormone readings. The Healthcarebia team or your clinician will let you know clearly if you need to follow any special instructions before your at home blood sample collection.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>5</span>How does at home blood sample collection work for this profile?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>A DHA licensed nurse from Healthcarebia visits your home at a time you choose, confirms your details, and collects a small blood sample using a standard venous draw. The sample is then transported to our accredited lab partners under strict safety and quality protocols, so you can complete your Male Fertility Profile Dubai test without visiting a clinic.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>6</span>Can this test diagnose infertility and how quickly will I get the results?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>The Male Fertility Profile provides useful information about biomarkers linked to fertility, but it does not by itself diagnose infertility. Only a doctor can make a diagnosis after reviewing your results, medical history, examination, and any additional tests if required. Results are typically available in as little as 12 hours and are shared by Healthcarebia through fast, secure, and confidential channels.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <?php include 'includes/inc_footer.php'; ?>

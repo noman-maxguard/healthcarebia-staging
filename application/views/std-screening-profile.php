@@ -141,6 +141,7 @@
                     </div>
 
                 </div>
+                <a href="<?= $whatsappHref ?>" class="primary-btn hvr-bounce-to-right green-btn book-now mt-4">Book your Appointment with us now</a>
 
             </div>
 
@@ -232,9 +233,9 @@
 
                                     <div class="col-md-4">
 
-                                        <div class="std-listing card-style3 same mb-3"><h5>STD 13 Panel</h5>
+                                        <div class="std-listing card-style3 same mb-3"><h5>STD 14 Panel</h5>
 
-                                            <h6>AED 500</h6>
+                                            <h6>AED 900</h6>
 
                                             <ul class="commen-listing">
 
@@ -324,7 +325,7 @@
 
                                         <div class="std-listing card-style3 same mb-3"><h5>STD 21 Panel</h5>
 
-                                            <h6>AED 800</h6>
+                                            <h6>AED 1,250</h6>
 
                                             <ul class="commen-listing">
 
@@ -620,8 +621,80 @@
 
 </section>
 
+<section class="faq-block section-gap" style="background-color: #ffffff;">
+    <div class="container">
+        <h2>FAQ's</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>1</span>What is an STD?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>STD stands for sexually transmitted disease. These are infections that are mainly passed from one person to another through sexual contact, including vaginal, anal, or oral sex. Some STDs cause clear symptoms, while others are silent for a long time, which is why testing and medical follow up are important.</p>
+                        </div>
+                    </div>
 
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>2</span>What is an STD test and what does it check for?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>An STD test is a medical check that looks for common sexually transmitted infections using blood samples, urine samples, or swabs, depending on the test requested. Your doctor will decide which infections to screen for based on your symptoms, history, and risk factors, and will explain what each test means for your health.</p>
+                        </div>
+                    </div>
 
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>3</span>Who should consider getting an STD test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Testing may be helpful if you are sexually active and have a new partner, more than one partner, have had unprotected sex, notice symptoms such as unusual discharge, pain, sores, or burning, or if a partner has been diagnosed with an infection. Even without symptoms, regular screening can support safer and more responsible sexual health.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>4</span>Is STD testing confidential with Healthcarebia?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Yes. STD testing with Healthcarebia is handled in a confidential and respectful way. Your results are shared only through secure channels with you and your treating clinician, so you can discuss next steps in privacy and confidence.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>5</span>How is an STD test done and is it painful?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Depending on the type of infection being checked, your doctor may request a blood sample, urine sample, or a gentle swab from the affected area. Most tests are quick and cause only mild and short lived discomfort. Your care team will explain each step so you know what to expect and can ask questions at any time.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>6</span>What happens after I get my STD test results?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Once your results are ready, a qualified clinician will review them with you. If an infection is found, they will discuss treatment options, partner notification where appropriate, and how to reduce the chance of future infections. If your results are clear, you can use the visit to ask questions and plan regular screening that fits your level of risk.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <?php include 'includes/inc_footer.php'; ?>

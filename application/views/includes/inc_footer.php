@@ -485,7 +485,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <p>Copyright © 2025 healthcarebia | All rights reserved.</p>
+                        <p>Copyright © 2025 Healthcarebia | All rights reserved.</p>
                     </div>
                     <div class="col-md-6">
                         <ul class="copyright-list">

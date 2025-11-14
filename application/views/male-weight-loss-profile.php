@@ -129,11 +129,11 @@
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="Male Weight Loss Profile Dubai Icon5">Results in as little
+                            <!-- <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="Male Weight Loss Profile Dubai Icon5">Results in as little
 
                                 as 12 hours.
 
-                            </li>
+                            </li> -->
 
                             <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" alt="Male Weight Loss Profile Dubai Icon6">Fast, secure,
 
@@ -146,7 +146,7 @@
                     </div>
 
                     <div class="mt-4"><span class="price-tag">AED 800</span></div>
-
+                    <a href="<?= $whatsappHref ?>" class="primary-btn hvr-bounce-to-right green-btn book-now mt-4">Book your Appointment with us now</a>
                 </div>
 
             </div>
@@ -311,6 +311,84 @@
 
     </div>
 
+</section>
+<section class="faq-block section-gap" style="background-color: #ffffff;">
+    <div class="container">
+        <h2>FAQ's</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>1</span>What is the Weight Loss Profile?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>The Weight Loss Profile is an assessment designed to explore health factors that may influence body weight and metabolism. It gives you and your healthcare professional structured information to support more personalised conversations about weight management, lifestyle choices and long term wellbeing rather than relying on general tips alone.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>2</span>What does the Weight Loss Profile usually assess?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Depending on the package, the Weight Loss Profile may include blood tests related to metabolism, blood sugar, cholesterol and other markers of general health. It is often combined with basic measurements such as weight, body mass index and blood pressure. Together, these findings help build a clearer picture of how your current health may be affecting your ability to lose or maintain weight.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>3</span>Who should consider doing the Weight Loss Profile?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>This assessment may be helpful for people who find it difficult to manage their weight despite lifestyle efforts, individuals with a family history of metabolic conditions, or those whose clinician has recommended a more detailed review before starting a structured weight management plan. It can also support anyone who prefers to base their wellness choices on objective health information rather than guesswork.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>4</span>Is the Weight Loss Profile a diet plan or treatment on its own?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>No. The Weight Loss Profile is not a complete diet plan or treatment by itself. It is an information tool that provides health data your clinician can use when advising you on nutrition, physical activity and other lifestyle changes. Any specific plan should be created or approved by a qualified healthcare professional who has reviewed your results and overall health.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>5</span>How is the Weight Loss Profile usually carried out at home?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>At your scheduled time, a DHA licensed nurse from healthcarebia visits your home, confirms your details and records basic measurements such as vital signs. They then collect the required blood samples using standard procedures. Samples are transported to accredited lab partners under strict safety and quality protocols so you receive clinic level testing with the comfort of staying at home.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>6</span>When will I receive my results and how should I use them?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Result timing is shared with you when you book and can vary depending on the exact tests included and laboratory workload. Once your report is ready it is delivered through secure and confidential channels. Your healthcare professional will then review the findings with you, explain how they relate to your weight and overall health, and help design or adjust a safe, realistic weight management plan rather than you interpreting the results on your own.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 

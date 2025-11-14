@@ -109,7 +109,7 @@
                     </div>
 
                 </div>
-
+                <a href="<?= $whatsappHref ?>" class="primary-btn hvr-bounce-to-right green-btn book-now mt-4">Book your Appointment with us now</a>
             </div>
 
         </div>
@@ -160,6 +160,84 @@
 
 </section>
 
+<section class="faq-block section-gap" style="background-color: #ffffff;">
+    <div class="container">
+        <h2>FAQ's</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>1</span>What is the Annual Health Checkup Service?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>The Annual Health Checkup Service is a planned health review that brings comprehensive screening and basic assessments to your home. It is designed to give you and your healthcare professional an overview of your current health so that you can make more informed decisions about prevention, lifestyle and follow up care.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>2</span>What is usually included in the Annual Health Checkup?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>The checkup typically includes vital signs such as blood pressure, pulse and temperature, a range of blood tests including complete blood count, cholesterol and blood sugar, as well as liver and kidney function tests. Depending on your age and risk profile, your doctor may also recommend cancer related screenings and a personalised consultation to discuss the findings.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>3</span>Who should consider booking an Annual Health Checkup at home?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>This service can be helpful for adults who want a structured yearly health review, people with risk factors such as a family history of chronic disease, and those who prefer home based care due to busy schedules or mobility concerns. It is also useful if you wish to track your health over time rather than waiting for symptoms to appear.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>4</span>How does the at home Annual Health Checkup work?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>At the booked time, a DHA licensed nurse or trained healthcare professional from healthcarebia visits your home. They record your vital signs, collect the required blood samples and ensure all requested tests are prepared for the lab. The process follows standard safety and quality protocols so you receive a clinic level service without leaving home.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>5</span>What are the main benefits of doing an Annual Health Checkup?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>An annual checkup supports early detection of possible health issues, offers the convenience of home based testing and gives you a personalised discussion about your results. It also helps you and your clinician create or update a wellness plan that fits your needs, so you can take active steps to maintain or improve your health with more confidence.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>6</span>When will I receive my results and what should I do with them?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Result timing is shared with you at the time of booking and may vary depending on the number and type of tests requested as well as laboratory workload. Once available, your reports are sent through secure and confidential channels. Your healthcare professional will then review the findings with you, explain any areas that need attention and suggest lifestyle changes or further evaluation if needed, rather than you trying to interpret the results on your own.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <?php include 'includes/inc_footer.php'; ?>

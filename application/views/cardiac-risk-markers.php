@@ -124,11 +124,11 @@
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="Cardiac Risk Markers Dubai Icon5">Results in as little
+                            <!-- <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="Cardiac Risk Markers Dubai Icon5">Results in as little
 
                                 as 12 hours.
 
-                            </li>
+                            </li> -->
 
                             <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" alt="Cardiac Risk Markers Dubai Icon6">Fast, secure,
 
@@ -141,7 +141,7 @@
                     </div>
 
                     <div class="mt-4"><span class="price-tag">AED 400</span></div>
-
+                    <a href="<?= $whatsappHref ?>" class="primary-btn hvr-bounce-to-right green-btn book-now mt-4">Book your Appointment with us now</a>
                 </div>
 
             </div>
@@ -284,8 +284,80 @@
 
 </section>
 
+<section class="faq-block section-gap" style="background-color:transparent">
+    <div class="container">
+        <h2>FAQ's</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>1</span>What is a Cardiac Risk Markers test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>A Cardiac Risk Markers test is a blood panel that measures specific biomarkers linked to heart health and long term cardiovascular risk. Our Cardiac Risk Markers Dubai profile looks at key proteins and inflammatory markers that help your doctor assess your risk of developing heart disease alongside your medical history and lifestyle.</p>
+                        </div>
+                    </div>
 
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>2</span>Which biomarkers are included in this Cardiac Risk Markers panel?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>This panel includes important markers such as Apolipoprotein A1 (APO A1), Apolipoprotein B (APO B), the Apolipoprotein B/A1 ratio (APO B/APO A1), High Sensitivity CRP (hs CRP), and Lipoprotein (Lp(a)). Together, these biomarkers give a more detailed picture of your cardiac risk than a standard cholesterol test alone.</p>
+                        </div>
+                    </div>
 
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>3</span>Who should consider doing the Cardiac Risk Markers test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>This test may be useful for people with a family history of heart disease, high cholesterol, diabetes, high blood pressure, or those who smoke or have a sedentary lifestyle. It can also support a more functional and preventive approach for individuals who want to understand their long term heart health, even if they feel well. Always discuss with your doctor whether this panel is right for you.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>4</span>How soon will I get my Cardiac Risk Markers results?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Results are typically available in as little as 12 hours after your sample reaches the lab. As soon as your report is ready, Healthcarebia will share it securely and confidentially, so you and your doctor can review the markers and decide on any next steps if needed.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>5</span>Is this test diagnostic for heart disease?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>No, the Cardiac Risk Markers panel does not by itself diagnose heart disease or replace a full cardiology workup. Instead, it provides additional information about your risk profile. Your doctor will interpret these biomarkers together with your history, examination, and any imaging or other tests before making a diagnosis or treatment plan.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>6</span>Why choose Healthcarebia for Cardiac Risk Markers in Dubai?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Healthcarebia combines convenient at home blood sample collection, DHA licensed nurses, and trusted lab partners to provide fast, secure, and confidential results. Our Cardiac Risk Markers Dubai package covers carefully selected biomarkers at an accessible price, helping you and your doctor take a more precise and preventive approach to heart health.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <?php include 'includes/inc_footer.php'; ?>

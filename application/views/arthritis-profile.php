@@ -122,11 +122,11 @@
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="Arthritis Profile Dubai Icon5">Results in as little
+                            <!-- <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="Arthritis Profile Dubai Icon5">Results in as little
 
                                 as 12 hours.
 
-                            </li>
+                            </li> -->
 
                             <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" alt="Arthritis Profile Dubai Icon6">Fast, secure,
 
@@ -139,7 +139,7 @@
                     </div>
 
                     <div class="mt-4"><span class="price-tag">AED 450</span></div>
-
+                    <a href="<?= $whatsappHref ?>" class="primary-btn hvr-bounce-to-right green-btn book-now mt-4">Book your Appointment with us now</a>
                 </div>
 
             </div>
@@ -274,6 +274,84 @@
 
     </div>
 
+</section>
+<section class="faq-block section-gap" style="background-color: #ffffff;">
+    <div class="container">
+        <h2>FAQ's</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>1</span>What is the Arthritis Profile?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>The Arthritis Profile is a set of tests and assessments designed to support the evaluation of joint-related symptoms such as pain, stiffness or swelling. It helps provide structured health information that you and your healthcare professional can use when discussing possible causes of arthritis, its impact on daily life, and appropriate next steps for care.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>2</span>What does the Arthritis Profile usually assess?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Depending on the specific package, the Arthritis Profile may look at markers related to inflammation and immune activity, as well as other factors that can be relevant to joint and bone health. This can include blood tests and a structured review of your symptoms, medical history and lifestyle, helping your clinician build a clearer picture of your overall joint health.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>3</span>Who might consider doing the Arthritis Profile?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>This assessment may be helpful for people who experience ongoing joint pain, morning stiffness, swelling, reduced range of motion or difficulty with everyday activities. It can also support those who already have an arthritis diagnosis and would like more structured information to monitor their condition and discuss management options with their healthcare professional.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>4</span>Does this profile diagnose the exact type of arthritis?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>No. The Arthritis Profile alone does not confirm a diagnosis or identify the exact type of arthritis. It is an additional tool that provides information to be used alongside your physical examination, medical history, imaging studies and other investigations. Only a qualified clinician can make a diagnosis and recommend treatment after reviewing your complete health picture.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>5</span>How is the Arthritis Profile usually carried out?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>The assessment typically includes a consultation and questionnaire together with laboratory tests such as blood work and, in some cases, additional samples or imaging ordered by your clinician. Clear instructions are provided before your appointment so you know how to prepare, and the process is designed to be as comfortable and straightforward as possible in both clinic and home-sampling settings, where available.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>6</span>When will I receive my results and how should I use them?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Result timing is shared with you at the time of booking and can vary depending on the specific tests and laboratory workflow. Once your report is ready, it is provided through secure and confidential channels. You can then review the findings with your rheumatologist or healthcare professional, who will help interpret them in context and guide you on appropriate treatment options, lifestyle adjustments or further evaluation if needed.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <?php include 'includes/inc_footer.php'; ?>

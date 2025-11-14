@@ -139,11 +139,11 @@
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="">Results in as little
+                            <!-- <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="">Results in as little
 
                                 as 12 hours.
 
-                            </li>
+                            </li> -->
 
                             <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" alt="">Fast, secure,
 
@@ -156,7 +156,7 @@
                     </div>
 
                     <div class="mt-4"><span class="price-tag">AED 850</span></div>
-
+                    <a href="<?= $whatsappHref ?>" class="primary-btn hvr-bounce-to-right green-btn book-now mt-4">Book your Appointment with us now</a>
                 </div>
 
             </div>
@@ -361,6 +361,119 @@
 
 </section>
 
+<section class="faq-block section-gap" style="background-color: #ffffff;">
+    <div class="container">
+        <h2>FAQ's</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>1</span>What is the Female Advanced Package designed to evaluate?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>
+                                The Female Advanced Package is a comprehensive health check that looks at 53 key biomarkers 
+                                related to blood health, hormones, cholesterol, blood sugar, liver and kidney function, iron status, 
+                                inflammation and vitamin levels. It is designed to give you and your healthcare professional a deeper, 
+                                data-driven overview of your current health so you can make more informed decisions about prevention, 
+                                treatment and lifestyle changes.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>2</span>Which main areas of my health are covered by this package?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>
+                                This panel brings together several important profiles in one visit, including a complete blood profile, 
+                                thyroid function (TSH, FT3, FT4), female hormone markers (FSH, prolactin, estradiol), lipid profile, 
+                                blood sugar and HbA1c, kidney and liver function tests, iron status, inflammatory marker (CRP), 
+                                and key vitamins such as vitamin D and B12. Together, they help build a broad picture of your overall 
+                                metabolic, hormonal and organ health.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>3</span>Who might benefit most from doing the Female Advanced Package?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>
+                                This package may be particularly useful for women who want a detailed baseline health check, 
+                                those experiencing non-specific symptoms such as fatigue, low mood, weight changes or menstrual changes, 
+                                or anyone monitoring risk factors like cholesterol, blood sugar, liver or kidney health. 
+                                It can also support women planning lifestyle changes, weight management or long-term health programmes 
+                                who want objective markers to track over time.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>4</span>Do I need to fast or stop any medications before this test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>
+                                Because this package includes markers such as blood sugar and cholesterol, fasting is often recommended 
+                                for the most accurate results. In addition, some medicines and supplements can influence hormone or 
+                                metabolic readings. When you book, you will receive specific instructions about fasting duration and 
+                                whether any medications should be discussed with your doctor before sampling, so you know exactly how 
+                                to prepare for your appointment or home visit.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>5</span>How does at-home blood sample collection work for this package?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>
+                                A DHA-licensed nurse visits your home or chosen location at the agreed time to collect your blood sample 
+                                using standard clinical procedures. The sample is then transported to our accredited laboratory partners 
+                                under controlled conditions. The process is designed to be convenient, safe and discreet, so you can 
+                                complete a detailed health check without needing to visit a clinic unless you prefer to do so.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>6</span>How quickly will I receive my Female Advanced Package results and what happens next?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>
+                                Results are typically available in as little as 12 hours, depending on laboratory workflow. 
+                                Once ready, your report is delivered through fast, secure and confidential channels. 
+                                You can then review the findings with your healthcare professional, who will help interpret each 
+                                biomarker in context and discuss any recommended follow-up, lifestyle changes, repeat testing schedule 
+                                or referrals to specialists where appropriate.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <?php include 'includes/inc_footer.php'; ?>

@@ -146,7 +146,7 @@
                     </div>
 
                     <div class="mt-4"><span class="price-tag">AED 600</span></div>
-
+                    <a href="<?= $whatsappHref ?>" class="primary-btn hvr-bounce-to-right green-btn book-now mt-4">Book your Appointment with us now</a>
                 </div>
 
             </div>
@@ -285,6 +285,84 @@
 
 </section>
 
+<section class="faq-block section-gap" style="background-color: #ffffff;">
+    <div class="container">
+        <h2>FAQ's</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>1</span>What is the Women’s Cancer Screening Profile?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>The Women’s Cancer Screening Profile is a preventive health assessment designed to support early detection of certain cancers that more commonly affect women. It helps gather structured information through tests and consultations that you and your healthcare professional can use when discussing your current health status, individual risk factors and recommended follow-up care.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>2</span>What does the Women’s Cancer Screening Profile usually assess?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Depending on the specific package, the screening profile may include tests that are commonly used to assess risk or look for early signs of cancers such as breast, cervical, ovarian or other female-related cancers. This can involve imaging, laboratory tests and a review of your symptoms, family history, age and lifestyle factors, helping your clinician build a clearer picture of your overall health and screening needs.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>3</span>Who might consider doing the Women’s Cancer Screening Profile?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>This assessment may be helpful for women who wish to take a proactive approach to their health, especially those in recommended screening age groups, with a family history of certain cancers, or with ongoing symptoms that need further evaluation. It can also support women who want structured information to discuss prevention, early detection and long-term health planning with their healthcare professional.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>4</span>Does this profile diagnose cancer or guarantee that I do not have it?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>No. The Women’s Cancer Screening Profile alone does not diagnose cancer and cannot guarantee that cancer is absent. It is a screening and risk-assessment tool that provides information to be used alongside your medical history, physical examination and, if needed, further investigations. Only a qualified clinician can make a diagnosis or provide treatment recommendations after reviewing your complete health picture.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>5</span>How is the Women’s Cancer Screening Profile usually carried out?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>The assessment typically includes a consultation and questionnaire together with recommended screening tests, which may involve blood work, imaging (such as mammography or ultrasound) and other samples as appropriate. Clear instructions are provided before your appointment so you know how to prepare, and the process is designed to be as respectful, private and comfortable as possible in a clinic setting.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>6</span>When will I receive my results and how should I use them?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Result timing is shared with you at the time of booking and can vary depending on the specific tests and laboratory workflow. Once your report is ready, it is provided through secure and confidential channels. You can then review the findings with your doctor, who will explain what they mean, discuss any recommended follow-up tests or lifestyle changes, and help you plan ongoing screening and preventive care suited to your needs.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 

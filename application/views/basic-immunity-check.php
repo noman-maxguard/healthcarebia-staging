@@ -130,11 +130,11 @@
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="Basic Immunity Check Dubai Icon5">Results in as little
+                            <!-- <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="Basic Immunity Check Dubai Icon5">Results in as little
 
                                 as 12 hours.
 
-                            </li>
+                            </li> -->
 
                             <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" alt="Basic Immunity Check Dubai Icon6">Fast, secure,
 
@@ -147,7 +147,7 @@
                     </div>
 
                     <div class="mt-4"><span class="price-tag">AED 500</span></div>
-
+                    <a href="<?= $whatsappHref ?>" class="primary-btn hvr-bounce-to-right green-btn book-now mt-4">Book your Appointment with us now</a>
                 </div>
 
             </div>
@@ -288,6 +288,80 @@
 
     </div>
 
+</section>
+<section class="faq-block section-gap" style="background-color: #ffffff;">
+    <div class="container">
+        <h2>FAQ's</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>1</span>What is a Basic Immunity Check?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>The Basic Immunity Check is a blood test panel designed to give an overview of how well your immune system is functioning. It looks at key markers of inflammation, infection, nutrient status, and general blood health to provide a foundation for understanding your natural defence mechanisms and overall wellbeing.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>2</span>Which biomarkers are included in the Basic Immunity Check Dubai panel?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>This panel includes important tests such as CBC, ESR, CRP C reactive protein, IgG total antibody, IgM total serum, serum iron, vitamin B12, and vitamin D total. In total, 18 biomarkers are assessed to give your doctor a broader picture of your baseline immune and nutritional status.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>3</span>Who should consider booking a Basic Immunity Check?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>This test may be helpful if you experience frequent infections, slow recovery from illness, persistent fatigue, low mood, or if you are curious about your immune health as part of a preventive check. It can also support people with busy lifestyles, high stress, or limited sun exposure who want to understand whether their vitamin and iron levels are within a healthy range.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>4</span>Do I need to fast or prepare in any special way for this test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Some markers, such as blood sugar or certain lipids, may be more accurate in a fasting state. Before your Basic Immunity Check Dubai appointment, the Healthcarebia team or your doctor will guide you on whether fasting is recommended and how many hours you should avoid food or specific supplements.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>5</span>How does at home blood sample collection work?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>A DHA licensed nurse from Healthcarebia visits your home at your chosen time, verifies your details, and collects a small blood sample using a standard venous draw. The sample is transported to our accredited lab partners using strict safety and quality protocols, so you can complete your Basic Immunity Check without visiting a clinic.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>6</span>How quickly will I receive my Basic Immunity Check results?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Results are typically available in as little as 12 hours after your sample reaches the lab. Once your report is ready, Healthcarebia shares it through fast, secure, and confidential channels, so you and your doctor can review the findings and decide on any follow up or supportive care if needed.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 

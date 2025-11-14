@@ -91,15 +91,13 @@
                             <li><img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="">DHA-licensed nurses & lab
                                 partners
                             </li>
-                            <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="">Results in as little
-                                as 12 hours.
-                            </li>
                             <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" alt="">Fast, secure,
                                 and confidential results.
                             </li>
                         </ul>
                     </div>
                     <div class="mt-4"><span class="price-tag">AED 700</span></div>
+                    <a href="<?= $whatsappHref ?>" class="primary-btn hvr-bounce-to-right green-btn book-now mt-4">Book your Appointment with us now</a>
                 </div>
             </div>
         </div>
@@ -173,6 +171,86 @@
         </div>
     </div>
 </section>
+<section class="faq-block section-gap" style="background-color: #ffffff;">
+    <div class="container">
+        <h2>FAQ's</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>1</span>What is the Alopecia Awareness and Insight Test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>The Alopecia Awareness and Insight Test is a blood based assessment designed to help you explore possible biological factors related to hair loss. It focuses on selected biomarkers that may be associated with alopecia, so that you and your healthcare professional can have a more informed discussion about your overall health and next steps.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>2</span>What does this alopecia panel usually include?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>This panel includes 9 carefully selected biomarkers that may be relevant in understanding hair loss, such as hormones, cholesterol, blood sugar and other related markers. Together, these results offer a broader picture of your internal health, which your clinician can review alongside your symptoms and history.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>3</span>Who might consider doing this Alopecia Awareness and Insight Test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>This test may be considered by individuals who have noticed ongoing hair thinning or patchy hair loss and would like to explore possible underlying factors in a structured way. It can also support those who want to better understand the health context of alopecia, including its potential emotional impact, as part of a guided conversation with their healthcare professional.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>4</span>Does this test diagnose alopecia or tell me exactly why I am losing hair?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>No. This alopecia related test does not by itself diagnose alopecia or identify the exact cause of hair loss. It is an informative tool that adds laboratory data to the wider picture of your health. Only a qualified clinician can make a diagnosis after reviewing your results together with your medical history, examination and any other necessary investigations.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>5</span>How does at home blood sample collection work for this test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>A DHA licensed nurse from healthcarebia visits your home at an agreed time, confirms your details and collects a small blood sample using standard procedures. The sample is then transported to our accredited lab partners under strict safety and quality protocols, so you can complete your alopecia related test without needing to travel to a clinic.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>6</span>How quickly will I receive my results and how should I use them?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Results are typically available in as little as 12 hours after your sample reaches the lab, although exact timing may vary depending on the specific test and laboratory workload. Your report is shared through fast, secure and confidential channels. You can then review the findings with your doctor or specialist, who can help interpret the biomarkers in context, discuss possible links with your hair loss and guide you on appropriate next steps rather than making changes on your own.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <?php include 'includes/inc_footer.php'; ?>
 
 

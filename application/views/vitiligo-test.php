@@ -90,15 +90,16 @@
                             <li><img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="">DHA-licensed nurses & lab
                                 partners
                             </li>
-                            <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="">Results in as little
+                            <!-- <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="">Results in as little
                                 as 12 hours.
-                            </li>
+                            </li> -->
                             <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" alt="">Fast, secure,
                                 and confidential results.
                             </li>
                         </ul>
                     </div>
                     <div class="mt-4"><span class="price-tag">AED 650</span></div>
+                    <a href="<?= $whatsappHref ?>" class="primary-btn hvr-bounce-to-right green-btn book-now mt-4">Book your Appointment with us now</a>
                 </div>
             </div>
         </div>
@@ -154,6 +155,84 @@
                             </ul>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="faq-block section-gap" style="background-color: #ffffff;">
+    <div class="container">
+        <h2>FAQ's</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>1</span>What is the Vitiligo Test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>The Vitiligo Test is an assessment designed to support the evaluation of possible factors that may be linked to changes in skin pigmentation. It adds structured health information that you and your healthcare professional can use when discussing vitiligo, its impact on daily life and appropriate next steps for care.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>2</span>What does the Vitiligo Test usually assess?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Depending on the specific package, the vitiligo related assessment may look at markers that can be relevant to skin and immune health, along with information about your symptoms, family history and lifestyle. Together, these details help create a broader picture that your clinician can review when considering your skin changes and overall wellbeing.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>3</span>Who might consider doing the Vitiligo Test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>This assessment may be helpful for people who have noticed new or progressive light patches on their skin, or who have already been told they have vitiligo and would like to explore possible contributing factors in a structured way. It can also support those who want a clearer understanding to help them cope with the appearance and emotional impact of vitiligo.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>4</span>Does this test diagnose vitiligo or explain exactly why I have it?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>No. The Vitiligo Test alone does not diagnose vitiligo or fully explain its cause. It is an additional tool that provides information which can be used alongside your clinical examination, history and other investigations. Only a qualified clinician can make a diagnosis and suggest treatment options after reviewing your complete health picture.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>5</span>How is the Vitiligo Test usually carried out?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>The assessment may include a consultation and questionnaire together with laboratory tests such as blood work or other samples, depending on the specific package. Clear instructions are provided before your appointment so you know how to prepare, and the process is designed to be as comfortable and straightforward as possible whether the sample is taken at home or in a clinic setting.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>6</span>When will I receive my results and how should I use them?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Result timing is shared with you when you book and can vary depending on the specific test and laboratory workflow. Once ready, your report is provided through secure and confidential channels. You can then review the findings with your dermatologist or healthcare professional, who will help interpret the results in context and guide you on appropriate skin care, follow up or further evaluation.</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

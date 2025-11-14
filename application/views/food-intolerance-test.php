@@ -142,11 +142,11 @@
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="Food Intolerance - Extended (200+ foods) Dubai Icon5">Results in as little
+                            <!-- <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="Food Intolerance - Extended (200+ foods) Dubai Icon5">Results in as little
 
                                 as 12 hours.
 
-                            </li>
+                            </li> -->
 
                             <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" alt="Food Intolerance - Extended (200+ foods) Dubai Icon6">Fast, secure,
 
@@ -159,7 +159,7 @@
                     </div>
 
                     <div class="mt-4"><span class="price-tag">AED 1600</span></div>
-
+                    <a href="<?= $whatsappHref ?>" class="primary-btn hvr-bounce-to-right green-btn book-now mt-4">Book your Appointment with us now</a>
                 </div>
 
             </div>
@@ -286,6 +286,84 @@
 
 </section>
 
+<section class="faq-block section-gap" style="background-color: #ffffff;">
+    <div class="container">
+        <h2>FAQ's</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>1</span>What is the 200+ Food Allergy and Intolerance Test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>The 200+ Food Allergy and Intolerance Test is a blood based assessment that checks your response to more than two hundred different foods. It is designed to help identify possible sensitivities so that you and your doctor or nutritionist can discuss patterns and make more informed dietary choices.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>2</span>What does the Food Intolerance Extended Dubai panel usually include?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>This panel looks at your immune response to a wide range of foods, which may include common items such as grains, dairy, fruits, vegetables, meats, nuts, and other everyday ingredients. In total, more than two hundred foods are assessed to provide a broad overview of potential food related sensitivities.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>3</span>Who should consider doing the 200+ Food Allergy and Intolerance Test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>This test may be considered by people who notice ongoing digestive discomfort, bloating, skin changes, headaches, or other symptoms they suspect may be linked to certain foods. It can also support those who want a structured way to review food related reactions as part of a guided plan with their healthcare professional.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>4</span>Does this test diagnose food allergies or medical conditions?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>No. The Food Intolerance Extended (200+ foods) Dubai test does not by itself diagnose food allergies or replace a full medical evaluation. It provides information that can be used alongside your history, examination, and other tests. Only a qualified clinician can make a diagnosis and create a treatment plan based on your overall health picture.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>5</span>How does at home blood sample collection work for this test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>A DHA licensed nurse from Healthcarebia visits your home at a time that suits you, confirms your details, and collects a small blood sample using a standard venous draw. The sample is then transported to our accredited lab partners using strict safety and quality protocols, so you can complete your Food Intolerance Extended (200+ foods) Dubai test without visiting a clinic.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>6</span>How quickly will I receive my results and how should I use them?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Results are typically available in as little as 12 hours after your sample reaches the lab. Healthcarebia shares your report through fast, secure, and confidential channels. Your doctor or nutrition professional can then review the findings with you, help interpret any highlighted foods, and guide you on safe and balanced dietary changes rather than self restricting without support.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <?php include 'includes/inc_footer.php'; ?>

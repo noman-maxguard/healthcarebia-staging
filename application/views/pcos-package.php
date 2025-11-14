@@ -143,11 +143,11 @@
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="">Results in as little
+                            <!-- <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="">Results in as little
 
                                 as 12 hours.
 
-                            </li>
+                            </li> -->
 
                             <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" alt="">Fast, secure,
 
@@ -160,7 +160,7 @@
                     </div>
 
                     <div class="mt-4"><span class="price-tag">AED 900</span></div>
-
+                    <a href="<?= $whatsappHref ?>" class="primary-btn hvr-bounce-to-right green-btn book-now mt-4">Book your Appointment with us now</a>
                 </div>
 
             </div>
@@ -313,6 +313,108 @@
 
 </section>
 
+<section class="faq-block section-gap" style="background-color: #ffffff;">
+    <div class="container">
+        <h2>FAQ's</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>1</span>What is the PCOS Package and who is it for?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>
+                                The PCOS Package is an assessment focused on hormone and metabolic markers linked to polycystic ovary syndrome (PCOS). 
+                                It is designed for women who have symptoms such as irregular periods, excess hair growth, acne, weight changes or suspected ovulatory problems, 
+                                and who want a structured evaluation to support discussions with their healthcare professional.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>2</span>What does the PCOS Package usually measure?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>
+                                The PCOS Package typically includes blood tests that look at reproductive hormones (such as LH, FSH, testosterone or related androgens), 
+                                cycle-related markers and often elements of metabolic health such as blood sugar or lipid profile. 
+                                These results are interpreted alongside your symptoms, cycle pattern and medical history to help build a clearer picture of whether PCOS may be contributing to your concerns.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>3</span>Do I need to have irregular periods to consider the PCOS Package?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>
+                                Not necessarily. While irregular or absent periods are common in PCOS, some women have relatively regular cycles but experience other features such as acne, 
+                                unwanted hair growth, weight changes or difficulties with fertility. 
+                                If you have concerns that suggest a PCOS pattern, this package may help your clinician explore those possibilities more systematically.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>4</span>Can the PCOS Package by itself confirm a PCOS diagnosis?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>
+                                No. PCOS is diagnosed using a combination of clinical features, hormone results and, in some cases, ultrasound findings. 
+                                The PCOS Package provides important laboratory information, but it does not replace a full clinical assessment. 
+                                Only a qualified clinician can make or exclude a diagnosis after reviewing your test results together with your symptoms, examination and any imaging that is requested.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>5</span>How is the PCOS Package usually carried out and do I need to time it with my cycle?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>
+                                The PCOS Package usually involves a consultation or questionnaire followed by blood tests taken in a clinic or sampling setting. 
+                                Some hormones are ideally checked on specific days of the cycle; if this is relevant, you will be advised which day to attend and whether any fasting or medication adjustments are needed. 
+                                Your doctor may also recommend a pelvic ultrasound separately as part of the overall PCOS assessment.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>6</span>How will the PCOS Package results guide my next steps?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>
+                                Once your results are ready, they are shared through secure and confidential channels and reviewed with your healthcare professional. 
+                                Together you can discuss how the findings relate to your symptoms and goals, including cycle regulation, skin and hair concerns, weight management or fertility planning. 
+                                Your clinician may suggest lifestyle strategies, medical treatment, further investigations or referral to a specialist depending on your individual results.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 

@@ -145,11 +145,11 @@
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="">Results in as little
+                            <!-- <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="">Results in as little
 
                                 as 12 hours.
 
-                            </li>
+                            </li> -->
 
                             <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" alt="">Fast, secure,
 
@@ -162,7 +162,7 @@
                     </div>
 
                     <div class="mt-4"><span class="price-tag">AED 400</span></div>
-
+                    <a href="<?= $whatsappHref ?>" class="primary-btn hvr-bounce-to-right green-btn book-now mt-4">Book your Appointment with us now</a>
                 </div>
 
             </div>
@@ -301,6 +301,84 @@
 
 </section>
 
+<section class="faq-block section-gap" style="background-color: #ffffff;">
+    <div class="container">
+        <h2>FAQ's</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>1</span>What is the Female Hormone Profile?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>The Female Hormone Profile is a group of tests and assessments designed to support the evaluation of hormone balance across different stages of a woman’s life. It provides structured information that you and your healthcare professional can use when discussing symptoms, menstrual cycles, fertility, perimenopause or menopause, and possible next steps for care.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>2</span>What does the Female Hormone Profile usually assess?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Depending on the specific package, the profile may include blood tests that look at hormones such as estrogen, progesterone, FSH, LH, prolactin and others, as well as sometimes thyroid or related markers. These results are considered together with information about your symptoms, menstrual pattern, contraception or medication use, family history and lifestyle to help build a clearer picture of your overall hormonal health.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>3</span>Who might consider doing the Female Hormone Profile?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>This assessment may be helpful for women who experience symptoms that could be related to hormone imbalance, such as irregular periods, heavy or very light bleeding, mood changes, hot flashes, low energy, skin or hair changes, weight fluctuations or difficulties with fertility. It can also support women who are approaching menopause or already post-menopausal and would like structured information to discuss with their healthcare professional.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>4</span>Does this profile diagnose a specific hormone disorder?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>No. The Female Hormone Profile alone does not provide a full diagnosis of any specific hormone condition. It is an additional tool that offers laboratory and clinical information to be used alongside your medical history, physical examination, imaging or further tests where needed. Only a qualified clinician can make a diagnosis and recommend treatment after reviewing your complete health picture.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>5</span>How is the Female Hormone Profile usually carried out?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>The assessment typically includes a consultation and questionnaire, followed by blood tests taken in a clinic or sample collection setting. For some tests, samples may be recommended on specific days of your cycle or at a particular time of day. Clear instructions are provided before your appointment so you know how to prepare, including any guidance about fasting or medication discussions. The process is designed to be as straightforward and comfortable as possible.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>6</span>When will I receive my results and how should I use them?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Result timing is shared with you when you book and can vary depending on the specific tests and laboratory workflow. Once your report is ready, it is provided through secure and confidential channels. You can then review the findings with your doctor, gynecologist or endocrinologist, who will help interpret the results in context and guide you on appropriate treatment options, lifestyle adjustments, cycle tracking or further evaluation if needed.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 

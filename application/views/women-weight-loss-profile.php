@@ -143,11 +143,11 @@
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="">Results in as little
+                            <!-- <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="">Results in as little
 
                                 as 12 hours.
 
-                            </li>
+                            </li> -->
 
                             <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" alt="">Fast, secure,
 
@@ -160,7 +160,7 @@
                     </div>
 
                     <div class="mt-4"><span class="price-tag">AED 800</span></div>
-
+                    <a href="<?= $whatsappHref ?>" class="primary-btn hvr-bounce-to-right green-btn book-now mt-4">Book your Appointment with us now</a>
                 </div>
 
             </div>
@@ -327,6 +327,113 @@
 
 </section>
 
+<section class="faq-block section-gap" style="background-color: #ffffff;">
+    <div class="container">
+        <h2>FAQ's</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>1</span>What is the Women’s Weight Loss Profile focused on?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>
+                                The Women’s Weight Loss Profile is a collection of tests designed to look at medical and metabolic factors
+                                that can influence body weight, appetite, energy and fat distribution. It gives your clinician objective
+                                information to help understand why weight may be difficult to lose or maintain, beyond diet and exercise alone.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>2</span>Which health markers are usually checked in this profile?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>
+                                Depending on the package, the Women’s Weight Loss Profile may assess markers related to metabolism, blood sugar
+                                regulation, thyroid function, cholesterol and sometimes hormone balance or vitamin levels. These results, combined
+                                with your history and lifestyle, help your healthcare professional identify factors that may be supporting or
+                                slowing your weight loss efforts.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>3</span>Who is this profile most suitable for?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>
+                                This assessment may be useful for women who find that their weight is not responding as expected to reasonable
+                                changes in diet and activity, who have a history of weight cycling, or who have symptoms such as low energy,
+                                cravings or central weight gain. It can also support women planning a structured weight management programme
+                                and wanting a clearer medical baseline before starting.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>4</span>Will this test by itself make me lose weight?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>
+                                No. The Women’s Weight Loss Profile does not cause weight loss on its own. It is a diagnostic and assessment tool
+                                that helps identify medical and metabolic aspects that may need attention. Lasting weight management usually
+                                combines test results with tailored nutrition, activity, sleep and lifestyle strategies agreed with your healthcare
+                                professional or weight management team.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>5</span>How should I prepare for the Women’s Weight Loss Profile tests?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>
+                                Preparation depends on the exact tests included. You may be asked to fast for a certain number of hours, come in
+                                at a particular time of day or discuss specific medications (such as diabetes or thyroid treatments) before
+                                sampling. All instructions are provided at booking so you know exactly how to prepare and what to expect on the day
+                                of your appointment.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>6</span>How are the results used to guide a weight loss plan?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>
+                                Once your results are ready, they are reviewed with you in a confidential consultation. Your clinician will explain
+                                how each marker relates to weight management and overall health, highlight any areas that may be affecting your
+                                progress, and help design or adjust a personalised plan. This may include nutrition guidance, activity targets,
+                                medical treatment where appropriate, and follow-up testing to track your response over time.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 

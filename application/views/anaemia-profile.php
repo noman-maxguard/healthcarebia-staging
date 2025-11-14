@@ -137,11 +137,11 @@
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="">Results in as little
+                            <!-- <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="">Results in as little
 
                                 as 12 hours.
 
-                            </li>
+                            </li> -->
 
                             <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" alt="">Fast, secure,
 
@@ -154,7 +154,7 @@
                     </div>
 
                     <div class="mt-4"><span class="price-tag">AED 450</span></div>
-
+                    <a href="<?= $whatsappHref ?>" class="primary-btn hvr-bounce-to-right green-btn book-now mt-4">Book your Appointment with us now</a>
                 </div>
 
             </div>
@@ -291,6 +291,84 @@
 
     </div>
 
+</section>
+<section class="faq-block section-gap" style="background-color: #ffffff;">
+    <div class="container">
+        <h2>FAQ's</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>1</span>What is the Anaemia Profile?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>The Anaemia Profile is a group of tests and assessments designed to support the evaluation of low blood count and related symptoms such as tiredness, weakness or shortness of breath. It provides structured health information that you and your healthcare professional can use when discussing possible causes of anaemia and appropriate next steps for care.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>2</span>What does the Anaemia Profile usually assess?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Depending on the specific package, the Anaemia Profile may include a complete blood count (CBC) along with additional markers related to iron, vitamin levels and red blood cell health. These results are considered together with your symptoms, medical history, diet and lifestyle to help create a broader picture of your overall blood and nutritional status.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>3</span>Who might consider doing the Anaemia Profile?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>This assessment may be helpful for people who feel unusually tired, weak or short of breath, or who notice paleness, frequent headaches, dizziness or reduced exercise tolerance. It can also support individuals with known risk factors for anaemia, such as heavy menstrual periods, certain dietary patterns, chronic illness or a previous history of low blood counts.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>4</span>Does this profile explain exactly why I have anaemia?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Not always. The Anaemia Profile alone may not fully explain the exact cause of anaemia. It is an important tool that provides laboratory information to be used alongside your medical history, physical examination and, if needed, further investigations. Only a qualified clinician can make a diagnosis and suggest treatment options after reviewing your complete health picture.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>5</span>How is the Anaemia Profile usually carried out?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>The assessment typically includes a brief consultation and questionnaire, followed by blood tests taken in a clinic or sample collection setting. Clear instructions are provided before your appointment so you know how to prepare, for example whether fasting is recommended. The process is designed to be quick, safe and as comfortable as possible.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>6</span>When will I receive my results and how should I use them?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Result timing is shared with you at the time of booking and can vary depending on the specific tests and laboratory workflow. Once your report is ready, it is provided through secure and confidential channels. You can then review the findings with your doctor or healthcare professional, who will help interpret the results in context and guide you on appropriate treatment, dietary changes or further evaluation if needed.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <?php include 'includes/inc_footer.php'; ?>

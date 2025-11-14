@@ -131,11 +131,11 @@
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="Kidney Profile Dubai Icon5">Results in as little
+                            <!-- <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="Kidney Profile Dubai Icon5">Results in as little
 
                                 as 12 hours.
 
-                            </li>
+                            </li> -->
 
                             <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" alt="Kidney Profile Dubai Icon6">Fast, secure,
 
@@ -148,7 +148,7 @@
                     </div>
 
                     <div class="mt-4"><span class="price-tag">AED 300</span></div>
-
+                    <a href="<?= $whatsappHref ?>" class="primary-btn hvr-bounce-to-right green-btn book-now mt-4">Book your Appointment with us now</a>
                 </div>
 
             </div>
@@ -291,6 +291,80 @@
 
     </div>
 
+</section>
+<section class="faq-block section-gap" style="background-color: #ffffff;">
+    <div class="container">
+        <h2>FAQ's</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>1</span>What is a Kidney Profile test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>The Kidney Profile test is a blood based assessment that looks at how well your kidneys are working. It measures key markers related to filtration, waste removal, and fluid balance, helping your doctor evaluate kidney function as part of preventive healthcare and overall wellbeing.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>2</span>Which biomarkers are usually included in the Kidney Profile Dubai panel?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>This panel typically includes markers such as creatinine, estimated glomerular filtration rate, blood urea, and important electrolytes like sodium and potassium. In total, 8 biomarkers are assessed to give a more complete picture of your kidney function and metabolic balance.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>3</span>Who should consider doing a Kidney Profile test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>This test may be helpful if you have diabetes, high blood pressure, a family history of kidney disease, swelling in the legs or around the eyes, changes in urination, or if you take medicines that can affect the kidneys. It can also be part of a routine check for people who want to monitor their kidney health before symptoms appear.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>4</span>Do I need to fast before the Kidney Profile Dubai test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Fasting is not always required for kidney function testing, but in some cases your doctor may advise you to avoid food or certain drinks for a few hours to improve the accuracy of related markers. The Healthcarebia team will let you know clearly if any specific preparation is needed before your at home blood sample collection.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>5</span>How does at home blood sample collection work for the Kidney Profile?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>A DHA licensed nurse from Healthcarebia visits your home at a time that suits you, confirms your details, and collects a small blood sample using a standard venous draw. The sample is transported to our accredited lab partners under strict safety and quality protocols, so you can complete your Kidney Profile Dubai test without visiting a clinic.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>6</span>How soon will I receive my Kidney Profile results and what do they tell me?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Results are typically available in as little as 12 hours after your sample reaches the lab. Once ready, Healthcarebia shares your Kidney Profile report through fast, secure, and confidential channels. Your doctor can then review the values with you, explain any low or high results, and guide you on lifestyle changes, further testing, or treatment if needed.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 

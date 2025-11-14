@@ -113,11 +113,11 @@
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="Acne Investigation Dubai Icon5">Results in as little
+                            <!-- <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="Acne Investigation Dubai Icon5">Results in as little
 
                                 as 12 hours.
 
-                            </li>
+                            </li> -->
 
                             <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" alt="Acne Investigation Dubai Icon6">Fast, secure,
 
@@ -130,7 +130,7 @@
                     </div>
 
                     <div class="mt-4"><span class="price-tag">From AED 300</span></div>
-
+                    <a href="<?= $whatsappHref ?>" class="primary-btn hvr-bounce-to-right green-btn book-now mt-4">Book your Appointment with us now</a>
                 </div>
 
             </div>
@@ -262,6 +262,86 @@
     </div>
 
 </section>
+
+<section class="faq-block section-gap" style="background-color: #ffffff;">
+    <div class="container">
+        <h2>FAQ's</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>1</span>What is an Acne Investigation test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>The Acne Investigation test is a blood based profile designed to explore possible internal factors that may be linked to acne, such as hormone balance, inflammation, and metabolic health. It supports your dermatologist or clinician in understanding potential root contributors, so that treatment and skincare plans can be more targeted.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>2</span>Which biomarkers are usually included in the Acne Investigation Dubai panel?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>This panel generally covers a set of fourteen biomarkers chosen from areas such as hormones, cholesterol, blood sugar, and related markers of inflammation or metabolic balance. The exact combination is selected by your clinician to match your symptoms and history, giving a broader view than surface level skin assessment alone.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>3</span>Who should consider doing an Acne Investigation test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>This test may be helpful if you have persistent or recurrent acne, breakouts that do not respond well to usual skincare, adult onset acne, or acne linked with other symptoms such as irregular periods, hair changes, or weight shifts. Your doctor or dermatologist can advise whether this profile is appropriate for your specific case.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>4</span>Do I need to fast or prepare in a special way before the Acne Investigation Dubai test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Some markers, especially blood sugar and certain hormones, can be affected by food, time of day, or medicines. Your clinician or the Healthcarebia team will let you know if fasting is recommended, whether to schedule your test at a specific time, and if any medicines or supplements should be paused before your at home blood sample collection.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>5</span>How does at home blood sample collection work for the Acne Investigation profile?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>A DHA licensed nurse from Healthcarebia visits your home at a time that suits you, confirms your details, and collects a small blood sample using a standard venous draw. The sample is then transported to our accredited lab partners under strict safety and quality protocols, so you can complete your Acne Investigation Dubai test without visiting a clinic.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>6</span>Can this test by itself treat or cure acne and how are results used?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>The Acne Investigation test does not by itself treat or cure acne, and it does not replace a full assessment by a dermatologist or doctor. It provides additional information that can guide a personalised plan, which may include skincare, lifestyle changes, or medicines. Results are typically available in as little as 12 hours and are shared by Healthcarebia through fast, secure, and confidential channels for you to review with your clinician.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <?php include 'includes/inc_footer.php'; ?>
 

@@ -93,15 +93,16 @@
                             <li><img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="">DHA-licensed nurses & lab
                                 partners
                             </li>
-                            <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="">Results in as little
+                            <!-- <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="">Results in as little
                                 as 12 hours.
-                            </li>
+                            </li> -->
                             <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" alt="">Fast, secure,
                                 and confidential results.
                             </li>
                         </ul>
                     </div>
                     <div class="mt-4"><span class="price-tag">AED 700</span></div>
+                    <a href="<?= $whatsappHref ?>" class="primary-btn hvr-bounce-to-right green-btn book-now mt-4">Book your Appointment with us now</a>
                 </div>
             </div>
         </div>
@@ -161,6 +162,84 @@
                             </ul>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="faq-block section-gap" style="background-color: #ffffff;">
+    <div class="container">
+        <h2>FAQ's</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>1</span>What is the Psoriasis Investigation Test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>The Psoriasis Investigation Test is an assessment designed to explore possible internal factors that may be associated with psoriasis. It provides structured health information that can support you and your healthcare professional when discussing skin symptoms, triggers and longer term management plans.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>2</span>What does the Psoriasis Investigation Test usually assess?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Depending on the package, this assessment may include blood tests and other markers related to inflammation, immune activity and general health. These results are considered together with your symptom history and lifestyle to help build a broader picture of how psoriasis may be affecting your body and wellbeing.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>3</span>Who might consider doing the Psoriasis Investigation Test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>This test may be helpful for people who have been told they have psoriasis or who have ongoing red, scaly or itchy patches on the skin and want to understand possible contributing factors in a structured way. It can also support those who are concerned about the wider health impact of psoriasis and would like objective information to discuss with their clinician.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>4</span>Does this test diagnose psoriasis or explain exactly why I have it?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>No. The Psoriasis Investigation Test by itself does not diagnose psoriasis and cannot fully explain its cause. It is an additional tool that provides laboratory and health information which can be used alongside your clinical examination, medical history and other investigations. Only a qualified clinician can make a diagnosis and suggest treatment options after reviewing your overall health picture.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>5</span>How is the Psoriasis Investigation Test usually carried out?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>The assessment typically involves a consultation or questionnaire together with blood sample collection. Depending on the service option you choose, a DHA licensed nurse from healthcarebia may visit your home to collect the sample, or you may attend a partner clinic. Clear instructions are provided in advance so you know how to prepare and what to expect on the day.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>6</span>When will I receive my results and how should I use them?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Results are often available within a short time frame after your sample reaches the lab, such as within 12 to 24 hours, although exact timing can vary depending on the specific test and laboratory workload. Your report is shared through secure and confidential channels. You can then review the findings with your dermatologist or healthcare professional, who will help interpret the results in context and guide you on suitable skin care, lifestyle changes or further evaluation rather than making changes on your own.</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

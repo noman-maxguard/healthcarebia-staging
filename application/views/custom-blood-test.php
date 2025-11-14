@@ -142,11 +142,11 @@
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="Custom Blood Test Dubai Icon5">Results in as little
+                            <!-- <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="Custom Blood Test Dubai Icon5">Results in as little
 
                                 as 12 hours.
 
-                            </li>
+                            </li> -->
 
                             <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" alt="Custom Blood Test Dubai Icon6">Fast, secure,
 
@@ -159,7 +159,7 @@
                     </div>
 
                     <div class="mt-4"><span class="price-tag">From AED 400</span></div>
-
+                    <a href="<?= $whatsappHref ?>" class="primary-btn hvr-bounce-to-right green-btn book-now mt-4">Book your Appointment with us now</a>
                 </div>
 
             </div>
@@ -262,6 +262,84 @@
 
 </section>
 
+<section class="faq-block section-gap" style="background-color: #ffffff;">
+    <div class="container">
+        <h2>FAQ's</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>1</span>What is a Custom Blood Test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>The Custom Blood Test is a flexible blood panel designed around your individual health needs. Instead of a fixed package, it allows your clinician to select specific biomarkers that are most relevant to your symptoms, risk factors, or goals, providing a more targeted view of your health.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>2</span>Which biomarkers can be included in a Custom Blood Test Dubai panel?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Depending on your requirements, your doctor can choose from a wide range of markers such as hormones, cholesterol, blood sugar, vitamins, inflammatory markers, and more. In a typical setup, at least one core biomarker is selected, and additional markers are added to build a personalised profile that matches your clinical needs.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>3</span>Who should consider a Custom Blood Test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>A Custom Blood Test may be helpful if you have specific symptoms, want to monitor an existing condition, are following up on previous test results, or prefer a tailored check instead of a standard panel. It is also useful for people building a preventive health plan with their doctor based on their history and lifestyle.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>4</span>How is a Custom Blood Test planned and chosen?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Before testing, your clinician will review your medical history, current concerns, and any previous reports. Based on this discussion, they will select the most relevant biomarkers for your Custom Blood Test Dubai profile, so the panel is focused and clinically meaningful rather than overly general.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>5</span>How does at home blood sample collection work for a Custom Blood Test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>A DHA licensed nurse from Healthcarebia visits your home at a convenient time, confirms your details, and collects a small blood sample using a standard venous draw. The sample is then transported to our accredited lab partners under strict safety and quality protocols, so you can complete your Custom Blood Test without visiting a clinic.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>6</span>How quickly will I receive my results and what happens next?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Results are typically available in as little as 12 hours after your sample reaches the lab. Healthcarebia shares your Custom Blood Test report through fast, secure, and confidential channels. Your doctor will then review the findings with you, explain any out of range values, and guide you on lifestyle changes, further testing, or treatment if required.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <?php include 'includes/inc_footer.php'; ?>

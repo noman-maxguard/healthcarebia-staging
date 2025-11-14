@@ -115,7 +115,7 @@
                     </div>
 
                 </div>
-
+                <a href="<?= $whatsappHref ?>" class="primary-btn hvr-bounce-to-right green-btn book-now mt-4">Book your Appointment with us now</a>
             </div>
 
         </div>

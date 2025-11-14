@@ -130,11 +130,11 @@
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="Basic Diabetes Screening Dubai Icon5">Results in as little
+                            <!-- <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="Basic Diabetes Screening Dubai Icon5">Results in as little
 
                                 as 12 hours.
 
-                            </li>
+                            </li> -->
 
                             <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" alt="Basic Diabetes Screening Dubai Icon6">Fast, secure,
 
@@ -147,7 +147,7 @@
                     </div>
 
                     <div class="mt-4"><span class="price-tag">AED 250</span></div>
-
+                    <a href="<?= $whatsappHref ?>" class="primary-btn hvr-bounce-to-right green-btn book-now mt-4">Book your Appointment with us now</a>
                 </div>
 
             </div>
@@ -286,6 +286,80 @@
 
     </div>
 
+</section>
+<section class="faq-block section-gap" style="background-color: #ffffff;">
+    <div class="container">
+        <h2>FAQ's</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>1</span>What is a Basic Diabetes Screening test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>The Basic Diabetes Screening test is a blood based assessment that looks at key markers related to blood sugar control and metabolic health. It helps identify early risk factors for diabetes, so you and your doctor can take action before more serious complications develop.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>2</span>Which biomarkers are usually checked in Basic Diabetes Screening Dubai?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>This panel focuses on core diabetes related markers such as blood sugar levels and other selected indicators that reflect how your body handles glucose. In total, three main biomarkers are assessed to give an initial picture of your diabetes risk and metabolic balance.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>3</span>Who should consider booking a Basic Diabetes Screening test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>This screening can be helpful if you have a family history of diabetes, are overweight, have a sedentary lifestyle, experience increased thirst or frequent urination, or have been advised by your doctor to monitor your blood sugar. It is also useful for anyone who wants to take a proactive step in understanding their long term metabolic health.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>4</span>Do I need to fast before the Basic Diabetes Screening Dubai test?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Because blood sugar levels can change after eating, your doctor or the Healthcarebia team may recommend a fasting period before the test. You will be informed clearly if you need to avoid food or certain drinks for a set number of hours before your at home blood sample collection.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>5</span>How does at home blood sample collection work for this screening?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>A DHA licensed nurse from Healthcarebia visits your home at your chosen time, confirms your details, and collects a small blood sample using a standard venous draw. The sample is then transported to our accredited lab partners using strict safety and quality protocols, so you can complete your Basic Diabetes Screening without visiting a clinic.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>6</span>Can this test diagnose diabetes and how quickly will I get results?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>The Basic Diabetes Screening test is designed to assess risk and identify possible abnormalities but does not replace a full medical evaluation. Only your doctor can diagnose diabetes after reviewing your results, symptoms, and any additional tests if needed. Results are typically available in as little as 12 hours and are shared by Healthcarebia through fast, secure, and confidential channels.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 

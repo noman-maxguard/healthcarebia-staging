@@ -123,11 +123,11 @@
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="Male Advanced Package Dubai Icon5">Results in as little
+                            <!-- <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="Male Advanced Package Dubai Icon5">Results in as little
 
                                 as 12 hours.
 
-                            </li>
+                            </li> -->
 
                             <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" alt="Male Advanced Package Dubai Icon6">Fast, secure,
 
@@ -140,7 +140,7 @@
                     </div>
 
                     <div class="mt-4"><span class="price-tag">AED 900</span></div>
-
+                    <a href="<?= $whatsappHref ?>" class="primary-btn hvr-bounce-to-right green-btn book-now mt-4">Book your Appointment with us now</a>
                 </div>
 
             </div>
@@ -349,9 +349,84 @@
 
 </section>
 
+<section class="faq-block section-gap" style="background-color: #ffffff;">
+    <div class="container">
+        <h2>FAQ's</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
 
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>1</span>What is the Men's Advanced Package?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>The Men's Advanced Package is a comprehensive health assessment designed for those who want a deeper look at key health indicators. It brings together an extended range of tests so you and your healthcare professional can have a more informed discussion about your current health, risk factors and next steps for long term wellbeing.</p>
+                        </div>
+                    </div>
 
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>2</span>What does the Men's Advanced Package usually include?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>This package typically covers 153 biomarkers, including hormones, cholesterol profile, blood sugar and other important markers related to general and metabolic health. The wider panel allows your clinician to review multiple systems together rather than looking at a single result in isolation.</p>
+                        </div>
+                    </div>
 
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>3</span>Who should consider the Men's Advanced Package?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>This assessment may be helpful for men who want a thorough health review, those with a family history of chronic conditions, or individuals whose lifestyle or work patterns could affect long term health. It can also support anyone who prefers to make health decisions based on detailed data rather than limited basic tests.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="accordion pt-md-3">
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>4</span>Does the Men's Advanced Package replace a visit to the doctor?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>No. The Men's Advanced Package provides detailed laboratory information but does not replace a full medical consultation. Results should always be interpreted by a qualified clinician who can review them alongside your history, examination and any symptoms before giving advice or making a diagnosis.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>5</span>How does at home blood sample collection work for this package?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>A DHA licensed nurse from healthcarebia visits your home at your scheduled time, confirms your details and collects the required blood samples using standard procedures. The samples are then transported to accredited lab partners under strict safety and quality protocols, so you receive an advanced level test without needing to travel to a clinic.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-box">
+                        <div class="accordion-item">
+                            <h5><span>6</span>When will I receive my results and how should I use them?</h5>
+                            <span class="plus-minus"></span>
+                        </div>
+                        <div class="data" style="display: none;">
+                            <p>Results are typically available in as little as 12 hours after your sample reaches the lab, although exact timing may vary depending on the number and type of tests requested and laboratory workload. Your report is shared through fast, secure and confidential channels. Your healthcare professional can then review the findings with you, explain what they mean in context and guide you on any lifestyle changes, follow up tests or treatments rather than you interpreting the results on your own.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php include 'includes/inc_footer.php'; ?>
 

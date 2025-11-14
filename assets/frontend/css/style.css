@@ -1526,7 +1526,7 @@ ul.listing-item2 li::before {
 
 .faq-block {
   display: block;
-  background: var(--light-green) url(../img/question.png) no-repeat right !important
+  background: var(--light-green);
 }
 
 .faq-block .accordion-box {

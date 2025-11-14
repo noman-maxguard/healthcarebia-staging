@@ -188,14 +188,14 @@
 
                             </ul>
                             <div class="mt-5" >
-                                <p style="color:white;font-weight:700">IV drip home service Dubai | 24 &#215; 7 | Within 30 minutes at your doorstep</p>
+                                <p style="color:white;font-weight:700">IV drip home service Dubai |  Within 30 minutes at your doorstep</p>
                             </div>
                             <div class="banner-list">
                                 <ul class="d-flex gap-lg-5">
                                     <li>&#10003; On demand and anywhere in the UAE</li>
                                     <li>&#10003; Feel better in less than 45 Minutes</li>
                                     <li>&#10003; Customized Vitamin Blends</li>
-                                    <li>&#10003; DHA-Liscensed Nurses</li>
+                                    <li>&#10003; DHA-licensed Nurses</li>
                                 </ul>
                             </div>
                             <div class="my-3">

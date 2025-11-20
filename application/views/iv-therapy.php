@@ -462,7 +462,7 @@
                 <div class="iv-step-content">
                     <h4>Book Your Appointment</h4>
                     <p>
-                    Call or WhatsApp <a href="https://wa.me/97142250823" class="iv-step-link">+97142250823</a> to book your
+                    Call or WhatsApp <a href="https://wa.me/971547077476" class="iv-step-link">+971 547 077476</a> to book your
                     IV drip at home in Dubai, choose from safe, effective options like a hydration drip.
                     </p>
                 </div>

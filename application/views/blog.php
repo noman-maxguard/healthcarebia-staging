@@ -50,6 +50,19 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>at-home-cancer-screening-blog" class="card-style3 card-style4 same">
+                    <img
+                        src="<?= base_url() ?>assets/frontend/img/blog46.jpg"
+                        alt="At Home Cancer Screening: What Exists Today And What Is Coming Next"
+                        class="img-fluid"
+                        loading="lazy"
+                    >
+                    <h6>At Home Cancer Screening</h6>
+                    <p>How stool tests, HPV self sampling, and new blood tests are changing early cancer detection and preventive care in Dubai.</p>
+                </a>
+            </div>
+
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>gut-health-energy-blog" class="card-style3 card-style4 same">
                     <img
                     src="<?= base_url() ?>assets/frontend/img/blog20.jpg"

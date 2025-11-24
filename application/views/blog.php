@@ -50,6 +50,20 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>winter-wellness-dubai-iv-therapy-blog" class="card-style3 card-style4 same">
+                    <img
+                    src="<?= base_url() ?>assets/frontend/img/blog43.jpg"
+                    alt="Winter Wellness in Dubai: Stay Energized and Protected During Cooler Months"
+                    class="img-fluid"
+                    loading="lazy"
+                    width="315px"
+                    height="213px"
+                    >
+                    <h6>Winter Wellness in Dubai: Stay Energized and Protected</h6>
+                    <p>Discover how to maintain optimal health during Dubai's cooler months with IV therapy, DNA testing, and preventive care strategies for seasonal wellness.</p>
+                </a>
+            </div>
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>at-home-cancer-screening-blog" class="card-style3 card-style4 same">
                     <img
                         src="<?= base_url() ?>assets/frontend/img/blog46.jpg"
@@ -256,7 +270,7 @@
                 </a>
             </div>
 
-            <div class="col-md-3 mb-3">
+            <!-- <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>confidential-at-home-std-testing-dubai-blog" class="card-style3 card-style4 same">
                     <img
                         src="<?= base_url() ?>assets/frontend/img/blog17.jpg "
@@ -267,7 +281,7 @@
                     <h6>Confidential At-Home STD Testing in Dubai</h6>
                     <p>DHA-licensed providers bring discreet STD testing to your home with fast results and treatment options.</p>
                 </a>
-            </div>
+            </div> -->
 
             <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>everyday-habits-weaken-immune-system-blog" class="card-style3 card-style4 same">

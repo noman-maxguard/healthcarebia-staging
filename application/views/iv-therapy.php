@@ -14,140 +14,34 @@
 }
 </script>
 
-</script>
-
-    <?php include 'includes/inc_head_tag.php'; ?>
-
-
+<?php include 'includes/inc_head_tag.php'; ?>
 
 <style>
-    .banner-list ul>li{
-        list-style: none;
-        color: white
+    .iv-drips-slider .owl-nav{
+        display: flex;
+        justify-content: space-between;
     }
-    @media(max-width:768px){
-        .banner-list ul{
-           flex-direction: column
-        }
+    .iv-drips-slider .owl-nav button{
+        position: absolute;
     }
-    /* --- IV Steps (scoped) --- */
-.iv-steps-section{
-  background:var(--green); /* match your green */
-  color:#fff;
-  padding:28px 16px;
-}
-
-.iv-steps-wrap{
-  max-width:1200px;
-  margin:0 auto;
-  display:grid;
-  grid-template-columns:repeat(3,1fr);
-  gap:28px;
-  align-items:start;
-  position:relative;
-}
-
-/* Cards */
-.iv-step-card{
-  text-align:center;
-  position:relative;
-  padding:12px 10px 0;
-}
-
-.iv-step-media{
-  position:relative;
-  width:84px;
-  height:84px;
-  margin:0 auto 14px;
-}
-
-.iv-step-media img{
-  width:100%;
-  height:100%;
-  object-fit:contain;
-  display:block;
-  filter: drop-shadow(0 2px 6px rgba(0,0,0,.15));
-}
-
-.iv-step-num{
-  position:absolute;
-  right:-10px; top:-10px;
-  width:34px; height:34px;
-  border-radius:50%;
-  background:rgba(255,255,255,.18);
-  border:1px solid rgba(255,255,255,.35);
-  display:grid; place-items:center;
-  font-weight:700;
-  font-size:14px;
-}
-
-/* Headings & text */
-.iv-step-content h4{
-  font-size:18px;
-  line-height:1.3;
-  margin:0 0 8px;
-  color: white;
-  font-weight:800;
-}
-
-.iv-step-content p{
-  margin:0;
-  font-size:15px;
-  line-height:1.55;
-  font-weight:400;
-  opacity:.95;
-  color: white
-}
-
-/* link style for WhatsApp/CTA */
-.iv-step-link{
-  color:#fff;
-  text-decoration:underline;
-  text-underline-offset:3px;
-}
-
-.iv-step-count h3{
-    color: white;
-    border-radius: 50%;
-}
-
-/* Optional arrows between cards (desktop only) */
-@media (min-width: 992px){
-  /* .iv-step-card:not(:last-child)::after{
-    content:"";
-    position:absolute;
-    right:-14px; top:42px;
-    width:28px; height:2px;
-    background:rgba(255,255,255,.35);
-  } */
-}
-
-/* Tablet */
-@media (max-width: 991.98px){
-  .iv-steps-wrap{
-    grid-template-columns:1fr 1fr;
-  }
-  .iv-step-card:nth-child(2)::after{ display:none; }
-}
-
-/* Mobile */
-@media (max-width: 575.98px){
-  .iv-steps-wrap{
-    grid-template-columns:1fr;
-    gap:18px;
-  }
-  .iv-step-media{ width:72px; height:72px; }
-  .iv-step-content h4{ font-size:16px; }
-  .iv-step-content p{ font-size:14px; }
-  .iv-step-card::after{ display:none; }
-}
-
+    .iv-drips-slider{
+        position: relative
+    }
+    .iv-drips-slider .owl-nav .owl-prev{
+        left:-30px;
+        bottom: 150px;
+    }
+    .iv-drips-slider .owl-nav .owl-next{
+        right: -30px;
+        bottom: 150px;
+    }
+    .iv-drips-slider .owl-nav span{
+        color: var(--green);
+        font-size: 48px;
+    }
+    
 </style>
-
 </head>
-
-
-
 <body>
 
 <?php include 'includes/inc_header.php'; ?>
@@ -441,7 +335,6 @@
     </div>
 
 </section>
-
 <section class="section-gap my-5" style="background-color: #f9f9f9;">
 
     <div class="container">
@@ -462,7 +355,7 @@
                 <div class="iv-step-content">
                     <h4>Book Your Appointment</h4>
                     <p>
-                    Call or WhatsApp <a href="https://wa.me/971547077476" class="iv-step-link">+971 547 077476</a> to book your
+                    Call or WhatsApp <a href="https://wa.me/97142250823" class="iv-step-link">+97142250823</a> to book your
                     IV drip at home in Dubai, choose from safe, effective options like a hydration drip.
                     </p>
                 </div>
@@ -503,7 +396,7 @@
     </div>
 
   </div>
-
+</section>
 
 
 <section class="section-gap what-therapy-bg"
@@ -577,890 +470,775 @@
     </div>
 
 </section>
-
-
-</section>
-
-
-<!-- <section class="section-gap iv-drip-block">
-
+<section class="section-gap iv-drip-block">
     <div class="container">
 
         <div class="row justify-content-center">
-
             <div class="col-md-8 text-center">
-
-                <h2>Express IV Drip</h2>
-
-
-
+                <h2>Immunity & Preventive Wellness</h2>
             </div>
-
         </div>
-
-
 
         <div class="row mt-4">
+            <div class="col-md-12">
+                <div class="iv-drips-slider owl-carousel">
 
-            <div class="col-md-4 mb-3">
+                    <!-- 1. Myers Cocktail (KEEP PAGE LINK) -->
+                    <div class="item">
+                        <div class="drip-box">
+                            <div class="img">
+                                <div class="img-inner">
+                                    <a href="<?= base_url() ?>myers-iv-drip">
+                                        <img src="<?= base_url() ?>assets/frontend/img/myers-cocktail.webp"
+                                             alt="Myers Cocktail Dubai also energy iv drip dubai"
+                                             class="img-fluid"
+                                             loading="lazy">
+                                    </a>
+                                </div>
+                            </div>
 
-                <div class="drip-box">
+                            <div class="text">
+                                <a href="<?= base_url() ?>myers-iv-drip">
+                                    <h6>Myers Cocktail</h6>
+                                </a>
 
+                                <ul class="listing-item2">
+                                    <li>Immunity booster</li>
+                                    <li>Increased vitality &amp; energy</li>
+                                    <li>Improved digestion</li>
+                                </ul>
 
-
-                    <div class="img">
-
-                        <div class="img-inner"><img src="<?= base_url() ?>assets/frontend/img/hydration-iv-drip.webp" alt="Swift Hydration IV Drip Dubai" class="img-fluid" loading="lazy"></div>
-
-                    </div>
-
-                    <div class="text">
-
-                        <h6>Swift Hydration IV Drip</h6>
-
-                        <ul class="listing-item2">
-
-                            <li>Rapid Skin Hydration</li>
-
-                            <li>Increase in Energy</li>
-
-                            <li>Reduced Skin inflammation</li>
-
-                        </ul>
-
-                        <div class="price-blockl mt-3">
-
-                            <span>From AED</span>
-
-                            <h3>400* </h3>
-
-                        <i>* T&C apply</i> 
+                                <div class="price-blockl mt-3">
+                                    <span>From AED</span>
+                                    <h3>2,300* </h3>
+                                    <a class="primary-btn hvr-bounce-to-right green-btn"
+                                       href="<?= $whatsappHref ?>" target="_blank">
+                                        Book Now
+                                    </a><br>
+                                    <i>* T&amp;C apply</i>
+                                </div>
+                            </div>
                         </div>
-
                     </div>
 
+                    <!-- 2. Immunity Mega Boost Drip (KEEP PAGE LINK) -->
+                    <div class="item">
+                        <div class="drip-box">
+                            <div class="img">
+                                <div class="img-inner">
+                                    <a href="<?= base_url() ?>immune-iv-drip">
+                                        <img src="<?= base_url() ?>assets/frontend/img/immune-booster-iv-drip.webp"
+                                             alt="Immunity Mega Boost Drip Dubai"
+                                             class="img-fluid"
+                                             loading="lazy">
+                                    </a>
+                                </div>
+                            </div>
 
+                            <div class="text">
+                                <a href="<?= base_url() ?>immune-iv-drip">
+                                    <h6>Immunity Mega Boost Drip</h6>
+                                </a>
 
+                                <ul class="listing-item2">
+                                    <li>Improved immunity</li>
+                                    <li>Enhanced healing ability</li>
+                                    <li>Prevents infections</li>
+                                </ul>
 
-
-                </div>
-
-            </div>
-
-
-
-
-
-            <div class="col-md-4 mb-3">
-
-                <div class="drip-box">
-
-
-
-                    <div class="img">
-
-                        <div class="img-inner"><img src="<?= base_url() ?>assets/frontend/img/her-iv-drip.webp" alt="Her IV Drip Dubai" class="img-fluid" loading="lazy"></div>
-
-                    </div>
-
-                    <div class="text">
-
-                        <h6>Her IV Drip</h6>
-
-                        <ul class="listing-item2">
-
-                            <li>Hydration</li>
-
-                            <li>Relief from cramps &amp; belly aches</li>
-
-                            <li>Nutrient boost</li>
-
-                        </ul>
-
-                        <div class="price-blockl mt-3">
-
-                            <span>From AED</span>
-
-                            <h3>975* </h3>
-                            <i>* T&C apply</i> 
+                                <div class="price-blockl mt-3">
+                                    <span>From AED</span>
+                                    <h3>1,105* </h3>
+                                    <a class="primary-btn hvr-bounce-to-right green-btn"
+                                       href="<?= $whatsappHref ?>" target="_blank">
+                                        Book Now
+                                    </a><br>
+                                    <i>* T&amp;C apply</i>
+                                </div>
+                            </div>
                         </div>
-
                     </div>
 
+                    <!-- 3. Cold & Flu Drip (WHATSAPP LINK) -->
+                    <div class="item">
+                        <div class="drip-box">
+                            <div class="img">
+                                <div class="img-inner">
+                                    <a href="<?= $whatsappHref ?>">
+                                        <img src="<?= base_url() ?>assets/frontend/img/cold-flu-iv-drip.webp"
+                                             alt="Cold and Flu Drip Dubai"
+                                             class="img-fluid"
+                                             loading="lazy">
+                                    </a>
+                                </div>
+                            </div>
 
+                            <div class="text">
+                                <a href="<?= $whatsappHref ?>">
+                                    <h6>Cold &amp; Flu Drip</h6>
+                                </a>
 
+                                <ul class="listing-item2">
+                                    <li>Eases congestion and fatigue</li>
+                                    <li>Strengthens immunity</li>
+                                    <li>Slows virus replication</li>
+                                </ul>
 
-
-                </div>
-
-            </div>
-
-
-
-
-
-            <div class="col-md-4 mb-3">
-
-                <div class="drip-box">
-
-
-
-                    <div class="img">
-
-                        <div class="img-inner"><img src="<?= base_url() ?>assets/frontend/img/glow-skin-iv-drip.webp" alt="Glow Skin IV Drip Dubai" class="img-fluid" loading="lazy"></div>
-
-                    </div>
-
-                    <div class="text">
-
-                        <a href="<?= base_url() ?>glutathione-iv-drip">
-                            <h6>Glow Skin IV Drip</h6>
-                        </a>
-
-                        <ul class="listing-item2">
-
-
-
-                            <li>Improve skin hydration</li>
-
-
-
-                            <li>Reduce fine lines wrinkles</li>
-
-
-
-                            <li>Promotes collagen production</li>
-
-
-
-                            <li>Powerful anti-oxidant</li>
-
-                        </ul>
-
-                        <div class="price-blockl mt-3">
-
-                            <span>From AED</span>
-
-                            <h3>720* </h3>
-                            <i>* T&C apply</i> 
+                                <div class="price-blockl mt-3">
+                                    <span>From AED</span>
+                                    <h3>1,800* </h3>
+                                    <a class="primary-btn hvr-bounce-to-right green-btn"
+                                       href="<?= $whatsappHref ?>" target="_blank">
+                                        Book Now
+                                    </a><br>
+                                    <i>* T&amp;C apply</i>
+                                </div>
+                            </div>
                         </div>
-
                     </div>
 
+                    <!-- 4. Mega C Drip (WHATSAPP LINK) -->
+                    <div class="item">
+                        <div class="drip-box">
+                            <div class="img">
+                                <div class="img-inner">
+                                    <a href="<?= $whatsappHref ?>">
+                                        <img src="<?= base_url() ?>assets/frontend/img/mega-c-iv-drip.webp"
+                                             alt="Mega C Drip Dubai"
+                                             class="img-fluid"
+                                             loading="lazy">
+                                    </a>
+                                </div>
+                            </div>
 
+                            <div class="text">
+                                <a href="<?= $whatsappHref ?>">
+                                    <h6>Mega C Drip</h6>
+                                </a>
 
+                                <ul class="listing-item2">
+                                    <li>Reduced fatigue</li>
+                                    <li>Detox</li>
+                                    <li>Increased immunity</li>
+                                </ul>
 
-
-                </div>
-
-            </div>
-
-
-
-
-
-            <div class="col-md-4 mb-3">
-
-                <div class="drip-box">
-
-
-
-                    <div class="img">
-
-                        <div class="img-inner"><img src="<?= base_url() ?>assets/frontend/img/energy-iv-drip.webp" alt="Energy IV Drip Dubai" class="img-fluid" loading="lazy"></div>
-
-                    </div>
-
-                    <div class="text">
-
-                        <h6>Energy IV Drip</h6>
-
-                        <ul class="listing-item2">
-
-
-
-                            <li>Improved energy</li>
-
-
-
-                            <li>Improved focus mental clarity</li>
-
-
-
-                            <li>Improved athletic performance</li>
-
-                        </ul>
-
-                        <div class="price-blockl mt-3">
-
-                            <span>From AED</span>
-
-                            <h3>715* </h3>
-                            <i>* T&C apply</i> 
+                                <div class="price-blockl mt-3">
+                                    <span>From AED</span>
+                                    <h3>1,500* </h3>
+                                    <a class="primary-btn hvr-bounce-to-right green-btn"
+                                       href="<?= $whatsappHref ?>" target="_blank">
+                                        Book Now
+                                    </a><br>
+                                    <i>* T&amp;C apply</i>
+                                </div>
+                            </div>
                         </div>
-
                     </div>
 
+                    <!-- 5. Good Sleep Drip (KEEP PAGE LINK) -->
+                    <div class="item">
+                        <div class="drip-box">
+                            <div class="img">
+                                <div class="img-inner">
+                                    <a href="<?= base_url() ?>good-sleep-iv-drip">
+                                        <img src="<?= base_url() ?>assets/frontend/img/good-sleep-iv-drip.webp"
+                                             alt="Good Sleep Drip Dubai"
+                                             class="img-fluid"
+                                             loading="lazy">
+                                    </a>
+                                </div>
+                            </div>
 
+                            <div class="text">
+                                <a href="<?= base_url() ?>good-sleep-iv-drip">
+                                    <h6>Good Sleep Drip</h6>
+                                </a>
 
+                                <ul class="listing-item2">
+                                    <li>Encourages deep sleep</li>
+                                    <li>Relaxes muscles and joints</li>
+                                    <li>Supports collagen and heart rhythm</li>
+                                </ul>
 
-
-                </div>
-
-            </div>
-
-
-
-
-
-            <div class="col-md-4 mb-3">
-
-                <div class="drip-box">
-
-
-
-                    <div class="img">
-
-                        <div class="img-inner"><img src="<?= base_url() ?>assets/frontend/img/mega-c-iv-drip.webp" alt="Mega C IV Drip Dubai" class="img-fluid" loading="lazy"></div>
-
-                    </div>
-
-                    <div class="text">
-
-                        <h6>Mega C IV Drip</h6>
-
-                        <ul class="listing-item2">
-
-                            <li>Source of concentrated Vitamin C</li>
-
-                            <li>Detox</li>
-
-                            <li>Increased immunity</li>
-
-                            <li>Reduced fatigue</li>
-
-                        </ul>
-
-                        <div class="price-blockl mt-3">
-
-                            <span>From AED</span>
-
-                            <h3>650* </h3>
-                            <i>* T&C apply</i> 
+                                <div class="price-blockl mt-3">
+                                    <span>From AED</span>
+                                    <h3>1,300* </h3>
+                                    <a class="primary-btn hvr-bounce-to-right green-btn"
+                                       href="<?= $whatsappHref ?>" target="_blank">
+                                        Book Now
+                                    </a><br>
+                                    <i>* T&amp;C apply</i>
+                                </div>
+                            </div>
                         </div>
-
                     </div>
 
+                    <!-- 6. Her Drip (WHATSAPP LINK) -->
+                    <div class="item">
+                        <div class="drip-box">
+                            <div class="img">
+                                <div class="img-inner">
+                                    <a href="<?= $whatsappHref ?>">
+                                        <img src="<?= base_url() ?>assets/frontend/img/her-iv-drip.webp"
+                                             alt="Her Drip Dubai"
+                                             class="img-fluid"
+                                             loading="lazy">
+                                    </a>
+                                </div>
+                            </div>
 
+                            <div class="text">
+                                <a href="<?= $whatsappHref ?>">
+                                    <h6>Her Drip</h6>
+                                </a>
 
+                                <ul class="listing-item2">
+                                    <li>Relieves cramps and bloating</li>
+                                    <li>Balances mood and sleep</li>
+                                    <li>Replenishes minerals and electrolytes</li>
+                                </ul>
 
+                                <div class="price-blockl mt-3">
+                                    <span>From AED</span>
+                                    <h3>1,500* </h3>
+                                    <a class="primary-btn hvr-bounce-to-right green-btn"
+                                       href="<?= $whatsappHref ?>" target="_blank">
+                                        Book Now
+                                    </a><br>
+                                    <i>* T&amp;C apply</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                </div>
+                    <!-- 7. Jet Lag Drip (WHATSAPP LINK) -->
+                    <div class="item">
+                        <div class="drip-box">
+                            <div class="img">
+                                <div class="img-inner">
+                                    <a href="<?= $whatsappHref ?>">
+                                        <img src="<?= base_url() ?>assets/frontend/img/jet-lag-iv-drip.webp"
+                                             alt="Jet Lag Drip Dubai"
+                                             class="img-fluid"
+                                             loading="lazy">
+                                    </a>
+                                </div>
+                            </div>
 
+                            <div class="text">
+                                <a href="<?= $whatsappHref ?>">
+                                    <h6>Jet Lag Drip</h6>
+                                </a>
+
+                                <ul class="listing-item2">
+                                    <li>Regulates sleep</li>
+                                    <li>Helps with fatigue</li>
+                                    <li>Boost energy</li>
+                                </ul>
+
+                                <div class="price-blockl mt-3">
+                                    <span>From AED</span>
+                                    <h3>1,500* </h3>
+                                    <a class="primary-btn hvr-bounce-to-right green-btn"
+                                       href="<?= $whatsappHref ?>" target="_blank">
+                                        Book Now
+                                    </a><br>
+                                    <i>* T&amp;C apply</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- .iv-drips-slider -->
             </div>
-
-
-
-
-
         </div>
-
-
-
-    </div>
-
-</section> -->
-
-
-
-
-
-<section class="section-gap iv-drip-block light-bg-color">
-
-    <div class="container">
 
         <div class="row justify-content-center">
-
             <div class="col-md-8 text-center">
-
-                <h2>Signature IV Drip</h2>
-
-
-
+                <h2 class="mt-5 mb-3">Detox, Hydration &amp; Recovery Renewal</h2>
             </div>
-
         </div>
-
-
 
         <div class="row mt-4">
+            <div class="col-md-12">
+                <div class="iv-drips-slider owl-carousel">
 
-            <div class="col-md-4 mb-3">
+                    <!-- 1. Ultra Detox Drip (WHATSAPP LINK) -->
+                    <div class="item">
+                        <div class="drip-box">
+                            <div class="img">
+                                <div class="img-inner">
+                                    <a href="<?= $whatsappHref ?>">
+                                        <img src="<?= base_url() ?>assets/frontend/img/ultra-detox.webp"
+                                             alt="Ultra Detox Drip Dubai"
+                                             class="img-fluid"
+                                             loading="lazy">
+                                    </a>
+                                </div>
+                            </div>
 
-                <div class="drip-box">
+                            <div class="text">
+                                <a href="<?= $whatsappHref ?>">
+                                    <h6>Ultra Detox Drip</h6>
+                                </a>
 
-                    <div class="img">
+                                <ul class="listing-item2">
+                                    <li>Fights harmful molecules</li>
+                                    <li>Powerful antioxidant</li>
+                                    <li>Improved organ functions</li>
+                                </ul>
 
-                        <div class="img-inner"><a href="<?= base_url() ?>myers-iv-drip"><img src="<?= base_url() ?>assets/frontend/img/myers-cocktail.webp" alt="Myers Cocktail Dubai also energy iv drip dubai" class="img-fluid" loading="lazy"></a></div>
-
-                    </div>
-
-                    <div class="text">
-
-                        <a href="<?= base_url() ?>myers-iv-drip">
-                            <h6>Myers Cocktail</h6>
-                        </a>
-                        
-
-                        <ul class="listing-item2">
-
-                            <li>Immunity booster</li>
-
-                            <li>Increased vitality &amp; energy</li>
-
-                            <li>Improved digestion</li>
-
-                        </ul>
-
-                        <div class="price-blockl mt-3">
-
-                            <span>From AED</span>
-
-                            <h3>2,300* </h3>
-                            <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
-                                Book Now
-                            </a><br>
-                            <i>* T&C apply</i> 
+                                <div class="price-blockl mt-3">
+                                    <span>From AED</span>
+                                    <h3>1,300* </h3>
+                                    <a class="primary-btn hvr-bounce-to-right green-btn"
+                                       href="<?= $whatsappHref ?>" target="_blank">
+                                        Book Now
+                                    </a><br>
+                                    <i>* T&amp;C apply</i>
+                                </div>
+                            </div>
                         </div>
-
                     </div>
 
-                </div>
+                    <!-- 2. Swift Hydration Drip (WHATSAPP LINK) -->
+                    <div class="item">
+                        <div class="drip-box">
+                            <div class="img">
+                                <div class="img-inner">
+                                    <a href="<?= $whatsappHref ?>">
+                                        <img src="<?= base_url() ?>assets/frontend/img/hydration-iv-drip.webp"
+                                             alt="Swift Hydration Drip Dubai"
+                                             class="img-fluid"
+                                             loading="lazy">
+                                    </a>
+                                </div>
+                            </div>
 
-            </div>
+                            <div class="text">
+                                <a href="<?= $whatsappHref ?>">
+                                    <h6>Swift Hydration Drip</h6>
+                                </a>
 
-            <div class="col-md-4 mb-3">
+                                <ul class="listing-item2">
+                                    <li>Rapid skin hydration</li>
+                                    <li>Increase in energy</li>
+                                    <li>Reduced skin inflammation</li>
+                                </ul>
 
-                <div class="drip-box">
-
-                    <div class="img">
-
-                        <div class="img-inner"><a href="<?= base_url() ?>hangover-iv-drip"><img src="<?= base_url() ?>assets/frontend/img/hangover-iv-drip.webp" alt="Pre/Post Party IV drip Dubai" class="img-fluid" loading="lazy"></a></div>
-
-                    </div>
-
-                    <div class="text">
-
-                        <a href="<?= base_url() ?>hangover-iv-drip">
-                            <h6>Pre/Post Party IV drip</h6>
-                        </a>
-                        <ul class="listing-item2">
-
-                            <li>Relief of Nausea, Headache and Body Pains</li>
-
-                            <li>Alcohol detoxification</li>
-
-                            <li>Energy increase</li>
-
-                        </ul>
-
-                        <div class="price-blockl mt-3">
-
-                            <span>From AED</span>
-
-                            <h3>1,600* </h3>
-                            <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
-                                Book Now
-                            </a><br>
-                            <i>* T&C apply</i> 
+                                <div class="price-blockl mt-3">
+                                    <span>From AED</span>
+                                    <h3>400* </h3>
+                                    <a class="primary-btn hvr-bounce-to-right green-btn"
+                                       href="<?= $whatsappHref ?>" target="_blank">
+                                        Book Now
+                                    </a><br>
+                                    <i>* T&amp;C apply</i>
+                                </div>
+                            </div>
                         </div>
-
                     </div>
 
-                </div>
+                    <!-- 3. Hangover Recovery Drip (KEEP PAGE LINK AS POST PARTY) -->
+                    <div class="item">
+                        <div class="drip-box">
+                            <div class="img">
+                                <div class="img-inner">
+                                    <a href="<?= base_url() ?>hangover-iv-drip">
+                                        <img src="<?= base_url() ?>assets/frontend/img/hangover-iv-drip.webp"
+                                             alt="Hangover Recovery Drip Dubai"
+                                             class="img-fluid"
+                                             loading="lazy">
+                                    </a>
+                                </div>
+                            </div>
 
-            </div>
+                            <div class="text">
+                                <a href="<?= base_url() ?>hangover-iv-drip">
+                                    <h6>Hangover Recovery Drip</h6>
+                                </a>
 
-            <div class="col-md-4 mb-3">
+                                <ul class="listing-item2">
+                                    <li>Relief of nausea, headache and body pains</li>
+                                    <li>Alcohol detoxification</li>
+                                    <li>Energy increase</li>
+                                </ul>
 
-                <div class="drip-box">
-
-                    <div class="img">
-
-                        <div class="img-inner"><a href="<?= base_url() ?>nad-iv-drip"><img src="<?= base_url() ?>assets/frontend/img/nad-iv-drip.webp" alt="NAD+ IV Drip Dubai" class="img-fluid" loading="lazy"></a></div>
-
-                    </div>
-
-                    <div class="text">
-                        <a href="<?= base_url() ?>nad-iv-drip">
-                            <h6>NAD+ IV Drip</h6>
-                        </a>
-                        
-
-                        <ul class="listing-item2">
-
-                            <li>Reverse the biological clock on a cellular level</li>
-
-                            <li>Promotes healthy brain function</li>
-
-                            <li>Slows cognitive decline</li>
-
-                            <li>Repairs damaged DNA</li>
-
-                        </ul>
-
-                        <div class="price-blockl mt-3">
-
-                            <span>From AED</span>
-
-                            <h3>1,900* </h3>
-                            <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
-                                Book Now
-                            </a><br>
-                            <i>* T&C apply</i> 
+                                <div class="price-blockl mt-3">
+                                    <span>From AED</span>
+                                    <h3>1,600* </h3>
+                                    <a class="primary-btn hvr-bounce-to-right green-btn"
+                                       href="<?= $whatsappHref ?>" target="_blank">
+                                        Book Now
+                                    </a><br>
+                                    <i>* T&amp;C apply</i>
+                                </div>
+                            </div>
                         </div>
-
                     </div>
 
-                </div>
+                    <!-- 4. Sunburn Recovery Drip (WHATSAPP LINK) -->
+                    <div class="item">
+                        <div class="drip-box">
+                            <div class="img">
+                                <div class="img-inner">
+                                    <a href="<?= $whatsappHref ?>">
+                                        <img src="<?= base_url() ?>assets/frontend/img/sunburn-iv-drip.webp"
+                                             alt="Sunburn Recovery Drip Dubai"
+                                             class="img-fluid"
+                                             loading="lazy">
+                                    </a>
+                                </div>
+                            </div>
 
-            </div>
+                            <div class="text">
+                                <a href="<?= $whatsappHref ?>">
+                                    <h6>Sunburn Recovery Drip</h6>
+                                </a>
 
-            <div class="col-md-4 mb-3">
+                                <ul class="listing-item2">
+                                    <li>Cools inflammation</li>
+                                    <li>Helps skin repair</li>
+                                    <li>Recovery from sun exposure</li>
+                                </ul>
 
-                <div class="drip-box">
-
-                    <div class="img">
-
-                        <div class="img-inner"><a href="<?= base_url() ?>immune-iv-drip"><img src="<?= base_url() ?>assets/frontend/img/immune-booster-iv-drip.webp" alt="Immune System Mega Boost IV Drip Dubai" class="img-fluid" loading="lazy"></a>
-
+                                <div class="price-blockl mt-3">
+                                    <span>From AED</span>
+                                    <h3>1,800* </h3>
+                                    <a class="primary-btn hvr-bounce-to-right green-btn"
+                                       href="<?= $whatsappHref ?>" target="_blank">
+                                        Book Now
+                                    </a><br>
+                                    <i>* T&amp;C apply</i>
+                                </div>
+                            </div>
                         </div>
-
                     </div>
 
-                    <div class="text">
-                        <a href="<?= base_url() ?>immune-iv-drip">
-                            <h6>Immune System Mega Boost IV Drip</h6>
-                        </a>
+                    <!-- 5. Gut Health Drip (KEEP PAGE LINK) -->
+                    <div class="item">
+                        <div class="drip-box">
+                            <div class="img">
+                                <div class="img-inner">
+                                    <a href="<?= base_url() ?>gut-health-iv-drip">
+                                        <img src="<?= base_url() ?>assets/frontend/img/gut-health-iv-drip.webp"
+                                             alt="Gut Health Drip Dubai"
+                                             class="img-fluid"
+                                             loading="lazy">
+                                    </a>
+                                </div>
+                            </div>
 
+                            <div class="text">
+                                <a href="<?= base_url() ?>gut-health-iv-drip">
+                                    <h6>Gut Health Drip</h6>
+                                </a>
 
-                        <ul class="listing-item2">
+                                <ul class="listing-item2">
+                                    <li>Soothes digestive upset</li>
+                                    <li>Helps with acidity</li>
+                                    <li>Lowers inflammation</li>
+                                </ul>
 
-                            <li>Improved immunity</li>
-
-                            <li>Improved healing ability</li>
-
-                            <li>Prevents infections</li>
-
-                        </ul>
-
-                        <div class="price-blockl mt-3">
-
-                            <span>From AED</span>
-
-                            <h3>1,700*</h3>
-                            <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
-                                Book Now
-                            </a><br>
-                            <i>* T&C apply</i> 
+                                <div class="price-blockl mt-3">
+                                    <span>From AED</span>
+                                    <h3>1,600* </h3>
+                                    <a class="primary-btn hvr-bounce-to-right green-btn"
+                                       href="<?= $whatsappHref ?>" target="_blank">
+                                        Book Now
+                                    </a><br>
+                                    <i>* T&amp;C apply</i>
+                                </div>
+                            </div>
                         </div>
-
                     </div>
 
-                </div>
+                    <!-- 6. Weight Loss Drip (WHATSAPP LINK) -->
+                    <div class="item">
+                        <div class="drip-box">
+                            <div class="img">
+                                <div class="img-inner">
+                                    <a href="<?= $whatsappHref ?>">
+                                        <img src="<?= base_url() ?>assets/frontend/img/weight-loss-iv-drip.webp"
+                                             alt="Weight Loss Drip Dubai"
+                                             class="img-fluid"
+                                             loading="lazy">
+                                    </a>
+                                </div>
+                            </div>
 
-            </div>
+                            <div class="text">
+                                <a href="<?= $whatsappHref ?>">
+                                    <h6>Weight Loss Drip</h6>
+                                </a>
 
-            <div class="col-md-4 mb-3">
+                                <ul class="listing-item2">
+                                    <li>Aids fat metabolism</li>
+                                    <li>Boosts energy</li>
+                                    <li>Energy during weight loss</li>
+                                </ul>
 
-                <div class="drip-box">
-
-
-
-                    <div class="img">
-
-                        <div class="img-inner">
-                            
-                        <a href="<?= $whatsappHref ?>"><img src="<?= base_url() ?>assets/frontend/img/beauty-iv-drip.webp" alt="Beauty IV Drip Dubai" class="img-fluid" loading="lazy"></a>
-                    
-                    </div>
-
-                    </div>
-
-                    <div class="text">
-
-                        <a href="<?= base_url() ?>iv-drip-dubai"><h6>Beauty IV Drip</h6></a>
-
-                        <ul class="listing-item2">
-
-                            <li>Improved skin &amp; hair health</li>
-
-                            <li>Fights against free radicals</li>
-
-                            <li>Radiant &amp; glowing skin</li>
-
-                        </ul>
-
-                        <div class="price-blockl mt-3">
-
-                            <span>From AED</span>
-
-                            <h3>1,600* </h3>
-                            <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
-                                Book Now
-                            </a><br>
-                            <i>* T&C apply</i> 
+                                <div class="price-blockl mt-3">
+                                    <span>From AED</span>
+                                    <h3>1,600* </h3>
+                                    <a class="primary-btn hvr-bounce-to-right green-btn"
+                                       href="<?= $whatsappHref ?>" target="_blank">
+                                        Book Now
+                                    </a><br>
+                                    <i>* T&amp;C apply</i>
+                                </div>
+                            </div>
                         </div>
-
                     </div>
 
-                </div>
+                    <!-- 7. Custom Drip (ALREADY WHATSAPP LINK) -->
+                    <div class="item">
+                        <div class="drip-box">
+                            <div class="img">
+                                <div class="img-inner">
+                                    <a href="<?= $whatsappHref ?>">
+                                        <img src="<?= base_url() ?>assets/frontend/img/custom-iv-drip.webp"
+                                             alt="Custom Detox Drip Dubai"
+                                             class="img-fluid"
+                                             loading="lazy">
+                                    </a>
+                                </div>
+                            </div>
 
+                            <div class="text">
+                                <a href="<?= $whatsappHref ?>">
+                                    <h6>Custom Drip</h6>
+                                </a>
+
+                                <ul class="listing-item2">
+                                    <li>Tailored detox formulas</li>
+                                    <li>Built around your lifestyle</li>
+                                    <li>Designed to match your needs</li>
+                                </ul>
+
+                                <div class="price-blockl mt-3">
+                                    <span>Price</span>
+                                    <h3>On assessment</h3>
+                                    <a class="primary-btn hvr-bounce-to-right green-btn"
+                                       href="<?= $whatsappHref ?>" target="_blank">
+                                        Contact Us
+                                    </a><br>
+                                    <i>* T&amp;C apply</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- .iv-drips-slider -->
             </div>
-            <div class="col-md-4 mb-3">
-
-        <div class="drip-box">
-
-            <div class="img">
-
-                <div class="img-inner">
-                    
-                    <a href="<?= $whatsappHref ?>"><img src="<?= base_url() ?>assets/frontend/img/cold-flu-iv-drip.webp" alt="Cold Flu IV Drip Dubai" class="img-fluid" loading="lazy"></a>
-                
-                </div>
-
-            </div>
-
-            <div class="text">
-
-                <a href="<?= base_url() ?>iv-drip-dubai"><h6>Cold &amp; Flu IV Drip</h6></a>
-
-                <ul class="listing-item2">
-
-                    <li>Boosts immune system</li>
-
-                    <li>Relieves cold &amp; flu symptoms</li>
-
-                    <li>Speeds up recovery</li>
-
-                </ul>
-
-                <div class="price-blockl mt-3">
-
-                    <span>From AED</span>
-
-                    <h3>1,800* </h3>
-                    <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
-                                Book Now
-                            </a><br>
-                    <i>* T&C apply</i> 
-
-                </div>
-
-            </div>
-
         </div>
 
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <h2 class="mt-5 mb-3">Anti-Aging, Longevity &amp; Performance Optimization</h2>
+            </div>
         </div>
 
-            <div class="col-md-4 mb-3">
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <div class="iv-drips-slider owl-carousel">
 
-                <div class="drip-box">
+                    <!-- 1. NAD⁺ Drip (KEEP PAGE LINK) -->
+                    <div class="item">
+                        <div class="drip-box">
+                            <div class="img">
+                                <div class="img-inner">
+                                    <a href="<?= base_url() ?>nad-iv-drip">
+                                        <img src="<?= base_url() ?>assets/frontend/img/nad-iv-drip.webp"
+                                             alt="NAD+ Drip Dubai"
+                                             class="img-fluid"
+                                             loading="lazy">
+                                    </a>
+                                </div>
+                            </div>
 
-                    <div class="img">
+                            <div class="text">
+                                <a href="<?= base_url() ?>nad-iv-drip">
+                                    <h6>NAD⁺ Drip</h6>
+                                </a>
 
-                        <div class="img-inner">
-                            
-                            <a href="<?= $whatsappHref ?>"><img src="<?= base_url() ?>assets/frontend/img/jet-lag-iv-drip.webp" alt="Jet Lag IV Drip Dubai" class="img-fluid" loading="lazy"></a>
-                        
+                                <ul class="listing-item2">
+                                    <li>Helps reverse the biological clock</li>
+                                    <li>Promotes healthy brain function</li>
+                                    <li>Supports DNA repair</li>
+                                </ul>
+
+                                <div class="price-blockl mt-3">
+                                    <span>From AED</span>
+                                    <h3>1,900* </h3>
+                                    <a class="primary-btn hvr-bounce-to-right green-btn"
+                                       href="<?= $whatsappHref ?>" target="_blank">
+                                        Book Now
+                                    </a><br>
+                                    <i>* T&amp;C apply</i>
+                                </div>
+                            </div>
                         </div>
-
                     </div>
 
-                    <div class="text">
+                    <!-- 2. Energy Drip (KEEP PAGE LINK) -->
+                    <div class="item">
+                        <div class="drip-box">
+                            <div class="img">
+                                <div class="img-inner">
+                                    <a href="<?= base_url() ?>energy-focus-iv-drip">
+                                        <img src="<?= base_url() ?>assets/frontend/img/energy-iv-drip.webp"
+                                             alt="Energy Drip Dubai"
+                                             class="img-fluid"
+                                             loading="lazy">
+                                    </a>
+                                </div>
+                            </div>
 
-                        <a href="<?= base_url() ?>iv-drip-dubai"><h6>Jet Lag IV Drip</h6></a>
+                            <div class="text">
+                                <a href="<?= base_url() ?>energy-focus-iv-drip">
+                                    <h6>Energy Drip</h6>
+                                </a>
 
-                        <ul class="listing-item2">
+                                <ul class="listing-item2">
+                                    <li>Improved energy</li>
+                                    <li>Better cognitive function</li>
+                                    <li>Boosts mental clarity</li>
+                                </ul>
 
-                            <li>Relieves jet lag fatigue</li>
-
-                            <li>Rehydrates and reenergizes</li>
-
-                            <li>Restores your natural body clock</li>
-
-                        </ul>
-
-                        <div class="price-blockl mt-3">
-
-                            <span>From AED</span>
-
-                            <h3>1,500* </h3>
-                            <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
-                                Book Now
-                            </a><br>
-                            <i>* T&C apply</i> 
-
+                                <div class="price-blockl mt-3">
+                                    <span>From AED</span>
+                                    <h3>1,100* </h3>
+                                    <a class="primary-btn hvr-bounce-to-right green-btn"
+                                       href="<?= $whatsappHref ?>" target="_blank">
+                                        Book Now
+                                    </a><br>
+                                    <i>* T&amp;C apply</i>
+                                </div>
+                            </div>
                         </div>
-
                     </div>
 
-                </div>
+                    <!-- 3. Beauty Drip (WHATSAPP LINK) -->
+                    <div class="item">
+                        <div class="drip-box">
+                            <div class="img">
+                                <div class="img-inner">
+                                    <a href="<?= $whatsappHref ?>">
+                                        <img src="<?= base_url() ?>assets/frontend/img/beauty-iv-drip.webp"
+                                             alt="Beauty Drip Dubai"
+                                             class="img-fluid"
+                                             loading="lazy">
+                                    </a>
+                                </div>
+                            </div>
 
+                            <div class="text">
+                                <a href="<?= $whatsappHref ?>">
+                                    <h6>Beauty Drip</h6>
+                                </a>
+
+                                <ul class="listing-item2">
+                                    <li>Improved skin and hair health</li>
+                                    <li>Fights free radicals</li>
+                                    <li>Radiant and glowing skin</li>
+                                </ul>
+
+                                <div class="price-blockl mt-3">
+                                    <span>From AED</span>
+                                    <h3>900* </h3>
+                                    <a class="primary-btn hvr-bounce-to-right green-btn"
+                                       href="<?= $whatsappHref ?>" target="_blank">
+                                        Book Now
+                                    </a><br>
+                                    <i>* T&amp;C apply</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 4. Glow Skin Drip (WHATSAPP LINK) -->
+                    <div class="item">
+                        <div class="drip-box">
+                            <div class="img">
+                                <div class="img-inner">
+                                    <a href="<?= $whatsappHref ?>">
+                                        <img src="<?= base_url() ?>assets/frontend/img/glow-skin-iv-drip.webp"
+                                             alt="Glow Skin Drip Dubai"
+                                             class="img-fluid"
+                                             loading="lazy">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="text">
+                                <a href="<?= $whatsappHref ?>">
+                                    <h6>Glow Skin Drip</h6>
+                                </a>
+
+                                <ul class="listing-item2">
+                                    <li>Improves skin hydration</li>
+                                    <li>Reduces fine lines and wrinkles</li>
+                                    <li>Powerful antioxidant support</li>
+                                </ul>
+
+                                <div class="price-blockl mt-3">
+                                    <span>From AED</span>
+                                    <h3>1,600* </h3>
+                                    <a class="primary-btn hvr-bounce-to-right green-btn"
+                                       href="<?= $whatsappHref ?>" target="_blank">
+                                        Book Now
+                                    </a><br>
+                                    <i>* T&amp;C apply</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 5. Myers Cocktail Drip (KEEP PAGE LINK) -->
+                    <div class="item">
+                        <div class="drip-box">
+                            <div class="img">
+                                <div class="img-inner">
+                                    <a href="<?= base_url() ?>myers-iv-drip">
+                                        <img src="<?= base_url() ?>assets/frontend/img/myers-cocktail.webp"
+                                             alt="Myers Cocktail Anti-Aging Drip Dubai"
+                                             class="img-fluid"
+                                             loading="lazy">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="text">
+                                <a href="<?= base_url() ?>myers-iv-drip">
+                                    <h6>Myers Cocktail Drip</h6>
+                                </a>
+
+                                <ul class="listing-item2">
+                                    <li>Immunity booster</li>
+                                    <li>Increased vitality and energy</li>
+                                    <li>Improved digestion</li>
+                                </ul>
+
+                                <div class="price-blockl mt-3">
+                                    <span>From AED</span>
+                                    <h3>2,300* </h3>
+                                    <a class="primary-btn hvr-bounce-to-right green-btn"
+                                       href="<?= $whatsappHref ?>" target="_blank">
+                                        Book Now
+                                    </a><br>
+                                    <i>* T&amp;C apply</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- .iv-drips-slider -->
             </div>
-
-            <div class="col-md-4 mb-3">
-
-                <div class="drip-box">
-
-                    <div class="img">
-                        <div class="img-inner">
-                            
-                            <a href="<?= $whatsappHref ?>"><img src="<?= base_url() ?>assets/frontend/img/weight-loss-iv-drip.webp" alt="Weight Loss IV Drip Dubai" class="img-fluid" loading="lazy"></a>
-                            
-                        </div>
-                    </div>
-
-                    <div class="text">
-
-                        <a href="<?= base_url() ?>iv-drip-dubai"><h6>Weight Loss IV Drip</h6></a>
-
-                        <ul class="listing-item2">
-                            <li>Enhances metabolism and fat burning</li>
-                            <li>Boosts energy and endurance</li>
-                            <li>Supports weight management</li>
-                        </ul>
-
-                        <div class="price-blockl mt-3">
-                            <span>From AED</span>
-                            <h3>1,600*</h3>
-                            <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
-                                Book Now
-                            </a><br>
-                            <i>* T&C apply</i>
-                        </div>
-
-                    </div>
-
-                </div>
-
-                </div>
-
-                <div class="col-md-4 mb-3">
-
-                    <div class="drip-box">
-
-                        <div class="img">
-                            <div class="img-inner">
-                                <a href="<?= $whatsappHref ?>"><img src="<?= base_url() ?>assets/frontend/img/sunburn-iv-drip.webp" alt="Sunburn IV Drip Dubai" class="img-fluid" loading="lazy"></a>
-                            </div>
-                        </div>
-
-                        <div class="text">
-                            <a href="<?= base_url() ?>iv-drip-dubai"><h6>Sunburn IV Drip</h6></a>
-                            <ul class="listing-item2">
-                                <li>Soothes sunburn symptoms</li>
-                                <li>Rehydrates and cools the skin</li>
-                                <li>Reduces inflammation and discomfort</li>
-                            </ul>
-                            <div class="price-blockl mt-3">
-                                <span>From AED</span>
-                                <h3>1,800*</h3>
-                                <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
-                                Book Now
-                                </a><br>
-                                <i>* T&C apply</i>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div class="col-md-4 mb-3">
-
-                    <div class="drip-box">
-
-                        <div class="img">
-                            <div class="img-inner">
-                                <a href="<?= base_url() ?>energy-focus-iv-drip"><img src="<?= base_url() ?>assets/frontend/img/energy-focus-iv-drip.webp" alt="Energy and Focus IV Drip Dubai, Hydration drip" class="img-fluid" loading="lazy"></a>
-                            </div>
-                        </div>
-
-                        <div class="text">
-                            <a href="<?= base_url() ?>energy-focus-iv-drip">
-                                <h6>Energy &amp; Focus IV Drip</h6>
-                            </a>
-                            
-                            <ul class="listing-item2">
-                                <li>Boosts mental clarity and focus</li>
-                                <li>Enhances overall energy levels</li>
-                                <li>Supports cognitive function and concentration</li>
-                            </ul>
-                            <div class="price-blockl mt-3">
-                                <span>From AED</span>
-                                <h3>1,100*</h3>
-                                <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
-                                Book Now
-                            </a><br>
-                                <i>* T&C apply</i>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="col-md-4 mb-3">
-
-                    <div class="drip-box">
-
-                        <div class="img">
-                            <div class="img-inner">
-                                <a href="<?= base_url() ?>good-sleep-iv-drip"><img src="<?= base_url() ?>assets/frontend/img/good-sleep-iv-drip.webp" alt="Good Sleep IV Drip Dubai" class="img-fluid" loading="lazy"></a>
-                            </div>
-                        </div>
-
-                        <div class="text">
-                            <a href="<?= base_url() ?>good-sleep-iv-drip">
-                                <h6>Good Sleep IV Drip</h6>
-                            </a>
-                            
-                            <ul class="listing-item2">
-                                <li>Promotes relaxation and deep sleep</li>
-                                <li>Enhances sleep quality</li>
-                                <li>Supports stress relief for a peaceful night</li>
-                            </ul>
-                            <div class="price-blockl mt-3">
-                                <span>From AED</span>
-                                <h3>1,300*</h3>
-                                <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
-                                Book Now
-                            </a><br>
-                                <i>* T&C apply</i>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-            <div class="col-md-4 mb-3">
-
-                <div class="drip-box">
-
-                    <div class="img">
-
-                        <div class="img-inner">
-                            
-                            <a href="<?= $whatsappHref ?>"><img src="<?= base_url() ?>assets/frontend/img/ultra-detox.webp" alt="Ultra Detox IV Drip Dubai" class="img-fluid" loading="lazy"></a>
-                    
-                        </div>
-
-                    </div>
-
-                    <div class="text">
-
-                        <a href="<?= base_url() ?>iv-drip-dubai"><h6>Ultra Detox IV Drip</h6></a>
-
-                        <ul class="listing-item2">
-
-                            <li>Fights against Harmful Molecules</li>
-
-                            <li>Powerful Antioxidant</li>
-
-                            <li>Improved digestive system and liver functions</li>
-
-                        </ul>
-
-                        <div class="price-blockl mt-3">
-
-                            <span>From AED</span>
-
-                            <h3>1,300* </h3>
-                            <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
-                                Book Now
-                            </a><br>
-                            <i>* T&C apply</i> 
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="col-md-4 mb-3">
-
-                <div class="drip-box">
-
-                    <div class="img">
-                        <div class="img-inner">
-                            <a href="<?= base_url() ?>gut-health-iv-drip"><img src="<?= base_url() ?>assets/frontend/img/food-poisoning-iv-drip.webp" alt="Food Poisoning IV Drip Dubai" class="img-fluid" loading="lazy"></a>
-                        </div>
-                    </div>
-
-                    <div class="text">
-                        <a href="<?= base_url() ?>gut-health-iv-drip">
-                            <h6>Gut Health IV Drip</h6>
-                        </a>
-                        
-                        <ul class="listing-item2">
-                            <li>Supports detoxification and rehydration</li>
-                            <li>Boosts immunity to fight off toxins</li>
-                            <li>Helps alleviate symptoms of food poisoning</li>
-                        </ul>
-                        <div class="price-blockl mt-3">
-                            <span>From AED</span>
-                            <h3>1,600*</h3>
-                            <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
-                                Book Now
-                            </a><br>
-                            <i>* T&C apply</i>
-                            
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-            <div class="col-md-4 mb-3">
-
-                <div class="drip-box">
-
-                    <div class="img">
-                        <div class="img-inner">
-                            <a href="<?= $whatsappHref ?>"><img src="<?= base_url() ?>assets/frontend/img/custom-iv-drip.webp" alt="Custom IV Drip Dubai" class="img-fluid" loading="lazy"></a>
-                        </div>
-                    </div>
-
-                    <div class="text">
-                        <a href="<?= base_url() ?>iv-drip-dubai"><h6>Custom IV Drip</h6></a>
-                        <ul class="listing-item2">
-                            <li>Tailored vitamin and mineral blend</li>
-                            <li>Personalized to your specific health needs</li>
-                            <li>Flexible treatment plans for optimal results</li>
-                        </ul>
-                        <div class="price-blockl mt-3">
-                            <a class="primary-btn hvr-bounce-to-right green-btn mt-2" href="<?= $whatsappHref ?>" target="_blank">
-                                Inquire Now*
-                            </a>
-                        </div>
-                    </div>
-
-            </div>
-
-        </div>
-
         </div>
 
     </div>
-
 </section>
-
-
 
 <section class="drip-at-home section-gap" style="background-image: url(<?= base_url() ?>assets/frontend/img/gwyer-bg.webp);">
 
@@ -1535,9 +1313,6 @@
     </div>
 
 </section>
-
-
-
 <section class="section-gap" style="background-color: #f9f9f9;">
 
   <div class="container">
@@ -1560,8 +1335,6 @@
   </div>
 
 </section>
-
-
 <section class="faq-block section-gap">
 
     <div class="container">
@@ -1709,11 +1482,6 @@
     </div>
 
 </section>
-
-
-
-
-
 <section class="section-gap testimonials more-space-bottom">
 
     <div class="container">
@@ -1831,7 +1599,6 @@
     </div>
 
 </section>
-
 <section class="section-gap" id="contact_us" style="background-image: url(<?= base_url() ?>assets/frontend/img/iv-therapy-banner.webp); background-size: cover; background-position: left;">
          <div class="container">
             <div class="row">
@@ -1903,22 +1670,30 @@
                </div>
             </div>
          </div>
-      </section>
-
-
-
-
-
+</section>
 <?php include 'includes/inc_footer.php'; ?>
-
-
-
-
-
-
-
 <?php include 'includes/inc_footer_scripts.php'; ?>
-
+<script>
+    $(document).ready(function () {
+        $('.iv-drips-slider').owlCarousel({
+        loop: true,
+        margin: 20,
+        nav: true,
+        dots: false,
+        autoplay: false,
+        responsive: {
+            0: {
+                items: 1
+            },
+            767: {
+                items: 2
+            },
+            992: {
+                items: 3
+            }
+        }
+    });
+    })    
+</script>
 </body>
-
 </html>

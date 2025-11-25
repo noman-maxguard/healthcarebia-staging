@@ -194,6 +194,18 @@
   .why-choose-out h4 {
     font-size: 25px
   }
+
+  .trust-box p {
+    display: none
+  }
+
+  .iv-steps-wrap {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .iv-step-card:nth-child(2)::after {
+    display: none;
+  }
 }
 
 @media (max-width:767px) {
@@ -280,7 +292,8 @@
   }
 
   .about-block {
-    background-image: none
+    background-image: none;
+    padding-top: 0;
   }
 
   .logo img {
@@ -460,5 +473,83 @@
     margin: 10px 0;
     width: 100%;
     text-align: center
+  }
+
+  .trust-section {
+    padding: 20px 0;
+  }
+
+  .trust-box p,
+  .trust-box h5 {
+    display: none
+  }
+
+  .trust-box {
+    height: auto;
+    box-shadow: none;
+  }
+
+  .trust-nabidh {
+    margin-bottom: 0;
+    margin-top: 30px;
+    height: 40px;
+    width: 40px;
+  }
+
+  .trust-dha {
+    margin-bottom: 0;
+    margin-top: 30px;
+  }
+
+  .banner-list ul {
+    flex-direction: column
+  }
+
+  .iv-steps-wrap {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .iv-step-media {
+    width: 72px;
+    height: 72px;
+  }
+
+  .iv-step-content h4 {
+    font-size: 16px;
+  }
+
+  .iv-step-content p {
+    font-size: 14px;
+  }
+
+  .iv-step-card::after {
+    display: none;
+  }
+
+  .iv-drips-slider .owl-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .iv-drips-slider .owl-nav button {
+    position: absolute;
+  }
+
+  .iv-drips-slider {
+    position: relative
+  }
+
+  .iv-drips-slider .owl-nav .owl-prev {
+    left: 0 !important;
+  }
+
+  .iv-drips-slider .owl-nav .owl-next {
+    right: 0 !important;
+  }
+
+  .iv-drips-slider .owl-nav span {
+    color: var(--green);
+    font-size: 48px;
   }
 }

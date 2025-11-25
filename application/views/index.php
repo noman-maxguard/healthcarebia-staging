@@ -243,12 +243,49 @@
     </video>
 
 </section>
+<section class="trust-section section-gap">
+  <div class="container">
+    <div class="trust-slider owl-carousel">
+
+      <div class="item">
+        <div class="trust-box">
+          <img src="<?= base_url() ?>assets/frontend/img/google.svg" alt="google reviews" class="trust-google">
+          <h5>Trusted on Google</h5>
+          <p>4.9 star rating from real clients in Dubai.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="trust-box">
+          <img src="<?= base_url() ?>assets/frontend/img/fda-green.svg" alt="fda icon" class="trust-fda">
+          <h5>FDA compliant formulations</h5>
+          <p>All products sourced from FDA compliant manufacturers</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="trust-box">
+          <img src="<?= base_url() ?>assets/frontend/img/nabidh.svg" alt="nabidh" class="trust-nabidh">
+          <h5>NABIDH ready records</h5>
+          <p>Records shared securely through NABIDH.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="trust-box">
+          <img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="dha" class="trust-dha mt-4">
+          <h5>100% DHA licensed nurses</h5>
+          <p>Care delivered at home by DHA licensed and experienced nurses.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
 
 
 <!--======== about ======-->
-
-
-<section class="about-block section-gap no-soacing-bottom">
+<section class="about-block section-gap no-soacing-bottom mb-3">
 
     <div class="container">
 
@@ -318,12 +355,6 @@
             </div>
 
         </div>
-
-    </div>
-
-    <div class="d-block d-sm-none">
-
-        <img width="619" height="268" src="<?= base_url() ?>assets/frontend/img/about-block-mob.webp" alt="Home Healthcare Dubai" class="img-fluid">
 
     </div>
 
@@ -825,13 +856,29 @@
 
 </section> -->
 
-
 <?php include 'includes/inc_footer.php'; ?>
 
 
 
 <?php include 'includes/inc_footer_scripts.php'; ?>
 <script>
+    $(document).ready(function () {
+  $('.trust-slider').owlCarousel({
+    loop: true,
+    margin: 30,
+    nav: false,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    responsive: {
+      0: { items: 3 },
+      576: { items: 3 },
+      992: { items: 4 }
+    }
+  });
+});
+
+</script>
+<script defer>
     document.addEventListener('DOMContentLoaded', function() {
         const videoModal = document.getElementById('videoModal');
         const videoIframe = document.getElementById('videoIframe');

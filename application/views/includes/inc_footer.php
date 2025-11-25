@@ -363,6 +363,41 @@
         box-shadow: 0 0 20px 0 rgba(255,255,255,0.8);
         filter: brightness(1.05);
     }
+    .callback-popup-overlay {
+   position: fixed;
+   inset: 0;
+   background: rgba(0, 0, 0, 0.7);
+   display: none;
+   align-items: center;
+   justify-content: center;
+   z-index: 9999;
+}
+
+.callback-popup-overlay.active {
+   display: flex;
+}
+
+.callback-popup-box {
+   background: #ffffff;
+   width: 90%;
+   max-width: 480px;
+   padding: 30px 25px 25px;
+   border-radius: 10px;
+   position: relative;
+   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.callback-popup-close {
+   position: absolute;
+   top: 8px;
+   right: 12px;
+   border: none;
+   background: transparent;
+   font-size: 22px;
+   cursor: pointer;
+   line-height: 1;
+}
+
   
 </style>
 <footer>
@@ -661,6 +696,68 @@
         </div>
     </div>
 </footer>
+
+<div id="callback-popup-overlay" class="callback-popup-overlay">
+   <div class="callback-popup-box">
+      <button type="button" class="callback-popup-close" id="callback-popup-close">&times;</button>
+
+      <h4 class="mb-3">Request a Call Back</h4>
+      <p class="mb-4">Share your details and our team will call you back shortly.</p>
+      <?php $form_index = 'callback'; ?>
+      <form class="row request-form contact_form" method="post" id="form_<?= $form_index ?>">
+         <div class="col-md-12 mb-3">
+            <input class="form-input" type="text" placeholder="Name" name="fname" required>
+         </div>
+
+         <div class="col-md-12 mb-3">
+            <input class="form-input" type="email" placeholder="Email" name="email" required>
+         </div>
+
+         <div class="col-md-12 mb-3">
+            <input class="form-input" type="text" placeholder="Phone" name="phone"
+                   onkeypress="return event.charCode >= 48 && event.charCode <= 57"
+                   maxlength="13" required>
+         </div>
+
+         <div class="col-md-12 mb-3">
+            <textarea class="form-textarea" placeholder="Preferred time or note"
+                      name="message"></textarea>
+         </div>
+
+         <div class="col-md-12 mb-3">
+            <div class="row">
+               <div class="col-md-6">
+                  <img src="<?= base_url() ?>mycaptcha/<?= $form_index ?>" width="100" height="50" alt="Security Captcha Code">
+               </div>
+               <div class="col-md-6">
+                  <input type="text" name="captcha" id="captcha_callback" autocomplete="off"
+                         class="form-input" required placeholder="Enter Captcha Code *">
+               </div>
+            </div>
+         </div>
+
+         <div class="col-md-12 mb-3">
+            <input type="hidden" name="url_from" value="<?= current_url() ?>">
+            <input type="hidden" name="form_name" value="<?= $form_index ?>">
+            <input type="hidden" name="page_name" value="Request Callback Popup">
+            <input type="hidden" name="source" value="popup">
+
+            <button id="submit_<?= $form_index ?>"
+                    class="primary-btn hvr-bounce-to-right green-btn mt-2 primary-btn-submit"
+                    type="submit" value="Submit">
+               <span>Request a Call Back</span>
+            </button>
+         </div>
+
+         <div class="col-md-12">
+            <div style="font-weight:bold;color:#fb4c42; font-size: 17px !important;"
+                 id="error_<?= $form_index ?>"></div>
+            <div style="font-weight:bold;color:#7ac142; font-size: 17px !important;"
+                 id="success_<?= $form_index ?>"></div>
+         </div>
+      </form>
+   </div>
+</div>
 <script>
     const form = document.querySelector('.ebook-form');
     const button = document.querySelector('.ebook-btn');
@@ -672,4 +769,37 @@
             button.innerText = 'Download Ebook';
         },3000)
     })
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+   var popupOverlay = document.getElementById("callback-popup-overlay");
+   var closeBtn = document.getElementById("callback-popup-close");
+
+   if (!popupOverlay || !closeBtn) return;
+
+   // Do not show again in this session once closed
+   if (sessionStorage.getItem("callbackPopupClosed")) {
+      return;
+   }
+
+   // Show after 10 seconds on page
+   setTimeout(function () {
+      if (!sessionStorage.getItem("callbackPopupClosed")) {
+         popupOverlay.classList.add("active");
+      }
+   }, 10000);
+
+   // Close on X
+   closeBtn.addEventListener("click", function () {
+      popupOverlay.classList.remove("active");
+      sessionStorage.setItem("callbackPopupClosed", "yes");
+   });
+
+   popupOverlay.addEventListener("click", function (e) {
+      if (e.target === popupOverlay) {
+         popupOverlay.classList.remove("active");
+         sessionStorage.setItem("callbackPopupClosed", "yes");
+      }
+   });
+});
 </script>

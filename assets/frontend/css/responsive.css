@@ -330,7 +330,6 @@
     text-align: center
   }
 
-  .sub-banner,
   .what-therapy-bg,
   .why-choose-therapy {
     background-image: none !important
@@ -551,5 +550,13 @@
   .iv-drips-slider .owl-nav span {
     color: var(--green);
     font-size: 48px;
+  }
+
+  .section-gap {
+    padding: 30px 0;
+  }
+
+  .vision-mission {
+    padding: 0 25px;
   }
 }

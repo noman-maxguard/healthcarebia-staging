@@ -50,6 +50,20 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>std-screening-profiles-blog" class="card-style3 card-style4 same">
+                    <img
+                        src="<?= base_url() ?>assets/frontend/img/blog47.jpg"
+                        alt="STD Screening Profiles: From Simple Checkups to Full Sexual Health Panels"
+                        class="img-fluid"
+                        loading="lazy"
+                        width="315"
+                        height="213"
+                    >
+                    <h6>STD Screening Profiles: From Simple Checkups to Full Sexual Health Panels</h6>
+                    <p>Understand healthcarebia’s STD 7, 14, 17, 21, 28, and 32 panels and how they support complete sexual health and discreet testing in Dubai.</p>
+                </a>
+            </div>
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>winter-wellness-dubai-iv-therapy-blog" class="card-style3 card-style4 same">
                     <img
                     src="<?= base_url() ?>assets/frontend/img/blog43.jpg"

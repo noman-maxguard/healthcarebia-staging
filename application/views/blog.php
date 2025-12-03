@@ -50,6 +50,20 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>nurse-at-home-in-dubai-better-than-hospital-blog" class="card-style3 card-style4 same">
+                    <img
+                        src="<?= base_url() ?>assets/frontend/img/blog49.jpg"
+                        alt="Nurse at Home in Dubai: When Is It Better Than Going to the Hospital?"
+                        class="img-fluid"
+                        loading="lazy"
+                        width="315"
+                        height="213"
+                    >
+                    <h6>Nurse at Home in Dubai: When Is It Better Than Going to the Hospital?</h6>
+                    <p>Find out when a DHA licensed nurse at home in Dubai is safer and more convenient than hospital visits, and when emergency care is still essential with Healthcarebia.</p>
+                </a>
+            </div>
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>std-screening-profiles-blog" class="card-style3 card-style4 same">
                     <img
                         src="<?= base_url() ?>assets/frontend/img/blog47.jpg"

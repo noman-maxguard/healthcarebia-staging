@@ -54,3 +54,4 @@ node_modules/        # if you ever add Node tooling
 /ads/vendor
 /ads/ci_sessions
 /ci_sessions
+/application/config/database.php

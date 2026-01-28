@@ -285,7 +285,7 @@
 
 
 <!--======== about ======-->
-<section class="about-block section-gap no-soacing-bottom mb-3">
+<section class="about-block section-gap no-soacing-bottom mb-3 mb-md-0">
 
     <div class="container">
 

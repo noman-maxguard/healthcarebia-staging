@@ -214,7 +214,7 @@
 
                     <div class="banner-inner">
 
-                        <h1>Healing Body, Mind and Soulsssssss.</h1>
+                        <h1>Healing Body, Mind and Soul.</h1>
 
                         <p>Healthcarebia is the GCC’s First Concierge Wellness Service merging Luxury, Diagnostics & Rejuvenation with Privacy & Precision to your doorstep.</p>
 

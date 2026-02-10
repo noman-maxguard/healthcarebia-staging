@@ -69,7 +69,7 @@
         opacity: 0.3;
     }
 
-    .quiz-header h1 {
+    .quiz-header h3 {
         font-size: 2rem;
         margin-bottom: 0.5rem;
         position: relative;
@@ -347,7 +347,7 @@
             margin: 1rem;
         }
             
-        .quiz-header h1 {
+        .quiz-header h3 {
             font-size: 1.5rem;
         }
             
@@ -547,7 +547,7 @@
 
         <div class="quiz-container">
             <div class="quiz-header">
-                <h1><i class="fas fa-vial me-2"></i>IV Drip Finder</h1>
+                <h3><i class="fas fa-vial me-2"></i>IV Drip Finder</h3>
                 <p>Let's find the right IV for you</p>
             </div>
 

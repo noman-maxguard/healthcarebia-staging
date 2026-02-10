@@ -49,6 +49,21 @@
 <section class="light-bg-color section-gap">
     <div class="container">
         <div class="row">
+
+            <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>identify-food-intolerance-blog" class="card-style3 card-style4 same">
+                    <img
+                        src="<?= base_url() ?>assets/frontend/img/blog50.jpg"
+                        alt="What Is Food Intolerance? How to Identify It at Home"
+                        class="img-fluid"
+                        loading="lazy"
+                        width="315"
+                        height="213"
+                    >
+                    <h6>What Is Food Intolerance? How to Identify It at Home</h6>
+                    <p>Learn how food intolerance can cause bloating, fatigue, and skin flare-ups, and discover simple ways to identify triggers from home in Dubai.</p>
+                </a>
+            </div>
             <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>nurse-at-home-in-dubai-better-than-hospital-blog" class="card-style3 card-style4 same">
                     <img

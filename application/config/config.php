@@ -25,7 +25,7 @@ date_default_timezone_set('Asia/Dubai');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'https://healthcarebia.ae';
+$config['base_url'] = 'https://3.109.5.94';
 
 /*
 |--------------------------------------------------------------------------

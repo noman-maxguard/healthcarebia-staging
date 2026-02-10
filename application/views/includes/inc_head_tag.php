@@ -54,7 +54,7 @@ src="https://www.facebook.com/tr?id=1280000576857900&ev=PageView&noscript=1"
 <title><?= !empty($commonData->meta_title) ? $commonData->meta_title : '' ?></title>
 <meta name="description" content="<?= !empty($commonData->meta_description) ? $commonData->meta_description : '' ?>"/>
 <meta name="keywords" content="<?= !empty($commonData->meta_keywords) ? $commonData->meta_keywords : '' ?>"/>
-
+<link rel="canonical" href="<?= current_url(); ?>" />
 
 <?= !empty($settings->script_header) ? $settings->script_header : '' ?>
 

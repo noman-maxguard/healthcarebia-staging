@@ -207,8 +207,7 @@
                             <strong>Conduct At-Home Tests</strong><br>
                             <p>There are some useful at-home tests that you can use to determine your food intolerance.</p>
                             <ul class="ingredients-list">
-                                <li>Immunoglobulin G (IgG) “Food Sensitivity” Finger Prick Tests indicate exposure to certain foods.</li>
-                                <li>Use lactose intolerance hydrogen breath test kits</li>
+                                <li>Allergy Test - general (44+ Food intolerance and respiratory) with IgE and complete blood count.</li>
                                 <li>DNA and Enzyme tests</li>
                             </ul>
                         </li>

@@ -12,6 +12,11 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule ^(.*)$ index.php/$1 [L]
+
+    # Force HTTPS on staging (TEST with 302 first)
+    RewriteCond %{HTTPS} !=on
+    RewriteRule ^ https://stage.healthcarebia.ae%{REQUEST_URI} [R=302,L]
+
 </IfModule>
 
 # URL redirects (static)

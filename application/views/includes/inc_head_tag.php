@@ -24,7 +24,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <link href="<?= base_url() ?>assets/frontend/css/fancybox.css" rel="stylesheet" media='all' defer as="style">
 <link href="<?= base_url() ?>assets/frontend/css/library.css" rel="stylesheet" media='all' defer as="style">
-<link href="<?= base_url() ?>assets/frontend/css/style.css?v=1" rel="stylesheet" media='all' defer as="style">
+<!-- <link href="<?= base_url() ?>assets/frontend/css/style.css?v=1" rel="stylesheet" media='all' defer as="style"> -->
+<link href="<?= base_url() ?>assets/frontend/css/style.css?v=' . time()) ?>" rel="stylesheet" media='all' defer as="style">
 <link href="<?= base_url() ?>assets/frontend/css/responsive.css?v=1" rel="stylesheet" media='all' defer as="style">
 <link
   rel="stylesheet"

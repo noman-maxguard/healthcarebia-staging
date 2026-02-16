@@ -81,7 +81,7 @@
                         <li class="active" aria-current="page">What Is Food Intolerance? How to Identify It at Home</li>
                     </ul>
 
-                    <h4>What Is Food Intolerance? How to Identify It at Home</h4>
+                    <h1>What Is Food Intolerance? How to Identify It at Home</h1>
 
                     <p>Food intolerance аffects millions of people worldwide. Certain foods can сause gut issues that may result in fatigue. Some people may experienсe skin conditions such as rashes as well. These health problems are a clear sign that your body has an intolerance for a specific food.</p>
                     <p>This blog walks you through the concept of What is food intolerance. It will also explore how you can do food intolerance testing at home. We will explore key dietary food triggers and hidden food intolerance causes that can impact your health. Let us get straight to it:</p>

@@ -2301,3 +2301,8 @@ ul.commen-listing li {
   font-size: 30px;
 }
 
+.single-blog-page h3 {
+    font-size: 16px;
+    margin: 2px 0px !important;
+    font-weight: bold;
+}

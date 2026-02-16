@@ -2286,3 +2286,18 @@ ul.commen-listing li {
   color: white;
   border-radius: 50%;
 }
+
+
+
+
+/********* Noman Commits ***********/
+
+.single-blog-page h1 {
+  font-size: 35px;
+  color: var(--green)
+}
+
+.single-blog-page h2 {
+  font-size: 30px;
+}
+

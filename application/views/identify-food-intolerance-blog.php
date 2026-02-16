@@ -8,13 +8,13 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "@id": "https://healthcarebia.ae/blog/nurse-at-home-dubai-vs-hospital#blogpost",
-  "headline": "Nurse at Home in Dubai: When Is It Better Than Going to the Hospital?",
-  "description": "Learn when a DHA licensed nurse at home in Dubai is safer and more practical than repeated hospital visits, and when you should still go straight to emergency care. Explore home nursing, elderly care, post surgery support, IV drips at home, oxygen therapy, lab tests, and more with healthcarebia.",
-  "image": "https://healthcarebia.ae/assets/frontend/img/blog-nurse-at-home-dubai.png",
-  "url": "https://healthcarebia.ae/blog/nurse-at-home-dubai-vs-hospital",
-  "datePublished": "2025-12-03",
-  "dateModified": "2025-12-03",
+  "@id": "https://healthcarebia.ae/blog/identify-food-intolerance-blog#blogpost",
+  "headline": "What Is Food Intolerance? How to Identify It at Home",
+  "description": "Learn how food intolerance can cause bloating, fatigue, and skin flare-ups, and discover simple ways to identify triggers from home in Dubai.",
+  "image": "https://healthcarebia.ae/assets/frontend/img/blog50",
+  "url": "https://healthcarebia.ae/blog/identify-food-intolerance-blog",
+  "datePublished": "2026-02-16",
+  "dateModified": "2026-02-16",
   "author": {
     "@type": "Organization",
     "@id": "https://healthcarebia.ae/#medicalbusiness",
@@ -32,7 +32,7 @@
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://healthcarebia.ae/blog/nurse-at-home-dubai-vs-hospital"
+    "@id": "https://healthcarebia.ae/blog/identify-food-intolerance-blog"
   }
 }
 </script>

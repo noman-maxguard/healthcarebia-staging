@@ -51,6 +51,20 @@
         <div class="row">
 
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>vitamin-d-deficiency-symptoms-uae-blog" class="card-style3 card-style4 same">
+                    <img
+                        src="<?= base_url() ?>assets/frontend/img/blog51.jpg"
+                        alt="Vitamin D Deficiency Symptoms in UAE: Complete Guide for HNWIs"
+                        class="img-fluid"
+                        loading="lazy"
+                        width="315"
+                        height="213"
+                    >
+                    <h6>Vitamin D Deficiency Symptoms in UAE: Complete Guide for HNWIs</h6>
+                    <p>Vitamin D Deficiency Symptoms quietly affect many HNWIs in the UAE. Learn what signs to catch before they escalate.</p>
+                </a>
+            </div>
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>identify-food-intolerance-blog" class="card-style3 card-style4 same">
                     <img
                         src="<?= base_url() ?>assets/frontend/img/blog50.jpg"

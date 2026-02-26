@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="en">
 <head>
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",

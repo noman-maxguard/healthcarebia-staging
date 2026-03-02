@@ -309,7 +309,7 @@
 
                 <div class="text-center"><h2 class="text-center mb-4">Home diagnostic test</h2>
 
-                    <p>At Healthcarebia, we provide the convenience of access to lab testing right at the comfort of your home. Get tested within the safety and privacy of your own space with results delivered quickly and securely.</p>
+                    <p class="mb-5">At Healthcarebia, we provide the convenience of access to lab testing right at the comfort of your home. Get tested within the safety and privacy of your own space with results delivered quickly and securely.</p>
 
                     <!-- Begin new lab-tests layout -->
                     <div class="lab-tests-section">

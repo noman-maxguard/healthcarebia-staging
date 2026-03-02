@@ -311,8 +311,6 @@
 
                     <p>At Healthcarebia, we provide the convenience of access to lab testing right at the comfort of your home. Get tested within the safety and privacy of your own space with results delivered quickly and securely.</p>
 
-                    <h5 class="mt-4 mb-5">We offer an extensive list of laboratory tests as your health and well-being is our priority</h5>
-
                     <!-- Begin new lab-tests layout -->
                     <div class="lab-tests-section">
 

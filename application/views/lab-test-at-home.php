@@ -6,164 +6,241 @@
 
     <?php include 'includes/inc_head_tag.php'; ?>
 
-    <style>
-      .lab-tests-section {
-        width: 100%;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        justify-content : center;
-        align-items: center;
-      }
-      
-      .lab-tests-section .test-row {
-        display: flex;
-        margin: 2rem;
-        max-width: 900px;
-        background: #ffffff;
-        border-radius: 100px;
-        padding:1rem;
-        border: 1px solid #e8e8e8;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-        position: relative;
-        justify-content:center;
-        align-items: center;
-        gap: 1rem;
-      }
+<style>
 
-      .lab-tests-section .test-row:hover{
-        box-shadow: 0 12px 36px rgba(0, 0, 0, 0.15);
-        transform: translateY(-4px);
-      }
-      
-      .lab-tests-section .test-row:nth-child(odd) {
-        flex-direction: row;
-        margin-left: 100px;
-      }
-      
-      .lab-tests-section .test-row:nth-child(even) {
-        flex-direction: row-reverse;
-        margin-right: 100px;
-      }
-      
-      .lab-tests-section .text-col {
-        flex: 1;
-        z-index: 1;
-        height: 60px;
-      }
-      
-      .lab-tests-section .text-box {
-        border-radius: 25px;
-        /* padding: 2rem 2.5rem; */
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-      }
-      
-      
-      .lab-tests-section .text-box h5 {
-        font-size: 1.4rem;
-        color: #2c3e50;
-        margin-bottom: 0.75rem;
-        font-weight: 600;
-      }
-      
-      .lab-tests-section .text-box p {
-        margin: 0;
-        color: #5a6c7d;
-        font-size: 1rem;
-        line-height: 1.5;
-      }
-      
-      .lab-tests-section .icon-col {
-        width: 140px;
-        flex-shrink: 0;
-        z-index: 2;
-        position: relative;
-      }
-      
-      .lab-tests-section .lab-icon {
-        width: 100%;
-        aspect-ratio: 1/1; 
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50%;
-        overflow: hidden;
-        background-color: var(--green)
-      }
-      
-      .lab-tests-section .lab-icon img {
-        object-fit: contain;
-        /* height: 10rem; */
-      }
-      
-      
-     @media (max-width: 992px) {
+  .why-choose-therapy{
+        background-color: #F2F2F2 !important;
+  }
 
-        /* card */
-        .lab-tests-section .test-row {
-          max-width: 700px;
-          padding: 1rem;
-          gap: 1rem;
-          border-radius: 80px;
-        }
+  .lab-tests-section {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+  
+.lab-tests-section .test-row {
+    display: flex;
+    max-width: 100%;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 1rem;
+    border: 1px solid #e8e8e8;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    justify-content: start;
+    text-align: left;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+    flex: 0 0 calc((100% - 140px) / 3);
+}
 
-        /* icon */
-        .lab-tests-section .icon-col { width: 110px; }
+.lab-tests-section .test-row .lab-test-grid-image {
+    width: 100%;
+}
 
-        /* text */
-        .lab-tests-section .text-box h5 { font-size: 1.2rem; }
-        .lab-tests-section .text-box p  { font-size: 0.95rem; }
-      }
+.lab-tests-section .test-row a {
+    display: block;
+    width: 100%;
+}
 
-      /* ==========   ≤ 768 px  (tablets / large phones)  ========== */
-      @media (max-width: 768px) {
+.lab-tests-section .test-row .lab-test-grid-image img {
+    border-radius: 12px;
+    width: 100%;
+    height: 16em;
+    object-fit: cover;
+}
 
-        /* stack icon above text */
-        .lab-tests-section .test-row {
-          flex-direction: column;
-          margin: 1.25rem 1rem;
-          padding: 0.9rem 1rem;
-          text-align: center;
-          border-radius: 60px;
-        }
 
-        /* cancel the 80-px stagger margins */
-        .lab-tests-section .test-row:nth-child(odd),
-        .lab-tests-section .test-row:nth-child(even) {
-          margin-left: 0;
-          margin-right: 0;
-        }
+  .lab-tests-section .test-row:hover{
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.15);
+    transform: translateY(-4px);
+  }
+  
+  .lab-tests-section .text-col {
+    flex: 1;
+    z-index: 1;
+    height: 60px;
+  }
+  
+  .lab-tests-section .text-box {
+    border-radius: 25px;
+    /* padding: 2rem 2.5rem; */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  
+  .lab-tests-section .text-box h5 {
+    font-size: 1.4rem;
+    color: #2c3e50;
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+  }
+  
+  .lab-tests-section .text-box p {
+    margin: 0;
+    color: #5a6c7d;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+.lab-tests-section .icon-col {
+    width: 100%;
+    z-index: 2;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 10px 0px;
+}
 
-        /* icon */
-        .lab-tests-section .icon-col {
-          width: 90px;
-          margin-bottom: 0.75rem;
-        }
+.lab-tests-section .lab-icon img {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+    margin-top: 5px;
+    max-width: 70px;
+}
 
-        /* text */
-        .lab-tests-section .text-box h5 { font-size: 1.1rem; }
-        .lab-tests-section .text-box p  { font-size: 0.9rem; }
-      }
+.lab-tests-section .icon-col .lab-icon {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: flex-start;
+    margin-right: 15px;
+}
 
-      /* ==========   ≤ 576 px  (phones)  ========== */
-      @media (max-width: 576px) {
+.lab-tests-section .icon-col h4 {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin: 0;
+    font-size: 28px;
+    color: #356438;
+}
 
-        .lab-tests-section .test-row {
-          max-width: 100%;
-          margin: 1rem 0.5rem;
-          padding: 1rem 0.8rem;
-          gap: 0.75rem;
-          border-radius: 60px;
-        }
+.lab-tests-section .icon-col p {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 20px 0 10px;
+    line-height: 22px;
+}
 
-        .lab-tests-section .icon-col { width: 70px; }
+.lab-tests-section .icon-col p strong {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 30px 0 0px;
+}
 
-        .lab-tests-section .text-box h5 { font-size: 1rem; }
-        .lab-tests-section .text-box p  { font-size: 0.85rem; }
-      }
+.sub-banner {
+    background-position: 70% 80%;
+    background-size: cover;
+}
 
-      .lab-tests-section .lab-icon img { height:400px}
-    </style>
+ @media (max-width: 1400px) {
+  .lab-tests-section .test-row {
+    flex: 0 0 calc((100% - 100px) / 3);
+}
+
+.lab-tests-section {
+    gap: 50px;
+}
+
+.lab-tests-section .icon-col {
+    padding: 25px 5px 0px;
+}
+
+.lab-tests-section .test-row .lab-test-grid-image img {
+    height: 13em;
+}
+
+.lab-tests-section .icon-col h4 {
+    font-size: 26px;
+}
+
+ }
+
+@media (max-width: 1200px) {
+  .lab-tests-section .test-row {
+    flex: 0 0 calc((100% - 80px) / 3);
+}
+
+.lab-tests-section {
+    gap: 40px;
+}
+
+.lab-tests-section .icon-col {
+    padding: 25px 5px 0px;
+}
+
+.lab-tests-section .test-row .lab-test-grid-image img {
+    height: 11em;
+}
+
+.lab-tests-section .icon-col h4 {
+    font-size: 22px;
+}
+
+.lab-tests-section .lab-icon img {
+    height: 40px;
+    max-width: 50px;
+}
+
+.lab-tests-section .icon-col p {
+    padding: 20px 0 5px;
+    line-height: 18px;
+}
+.lab-tests-section .icon-col p strong {
+    padding: 20px 0 0px;
+}
+
+ }
+
+  
+@media (max-width: 992px) {
+.lab-tests-section {
+    gap: 30px;
+}
+
+.lab-tests-section .test-row {
+    flex: 0 0 calc((100% - 60px) / 2);
+}
+
+.lab-tests-section .icon-col p {
+    font-size: 14px;
+}
+
+}
+
+  /* ==========   ≤ 768 px  (tablets / large phones)  ========== */
+  @media (max-width: 768px) {
+
+.sub-banner {
+    background-position: 70% 80%;
+}
+
+.lab-tests-section .test-row {
+    flex: 0 0 calc((100% - 10px) / 1);
+}
+.lab-tests-section .test-row .lab-test-grid-image img {
+        height: 17em;
+    }
+
+  }
+
+  /* ==========   ≤ 480 px  (phones)  ========== */
+  @media (max-width: 480px) {
+    .lab-tests-section .test-row .lab-test-grid-image img {
+        height: 15em;
+    }
+}
+
+</style>
 
 
 
@@ -183,9 +260,9 @@
 
 <div class="mob-inner-banner"
 
-     style="background-image: url(<?= base_url() ?>assets/frontend/img/lab-test-at-home-mob-banner.webp);">
+     style="background-image: url(<?= base_url() ?>assets/frontend/img/lab-test-at-home-banner.webp);">
 
-    <section class="sub-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/lab-test-at-home-desk-banner.webp);">
+    <section class="sub-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/lab-test-at-home-banner.webp);">
 
         <div class="overlay">
 
@@ -222,7 +299,7 @@
 </div>
 
 
-<section class="why-choose-therapy section-gap light-blue">
+<section class="why-choose-therapy section-gap">
 
     <div class="container">
 
@@ -230,182 +307,159 @@
 
             <div class="col-md-12">
 
-                <div class="text-center"><h2 class="text-center mb-4"> Lab test at home</h2>
+                <div class="text-center"><h2 class="text-center mb-4">Home diagnostic test</h2>
 
                     <p>At Healthcarebia, we provide the convenience of access to lab testing right at the comfort of your home. Get tested within the safety and privacy of your own space with results delivered quickly and securely.</p>
 
-                    <h5 class="mt-4 mb-4">We offer an extensive list of laboratory tests as your health and well-being is our priority:</h5>
+                    <h5 class="mt-4 mb-5">We offer an extensive list of laboratory tests as your health and well-being is our priority</h5>
 
                     <!-- Begin new lab-tests layout -->
                     <div class="lab-tests-section">
 
-                      <!-- ROW 1 -->
+                      <!-- Lab Test Categories 1 -->
                       <div class="test-row">
-                        <div class="icon-col">
-                          <a href="<?= base_url() ?>annual-health-check-up">
-                            <div class="lab-icon">
-                              <img src="<?= base_url() ?>assets/frontend/img/common-and-functional-tests.svg"
-                                  alt="Common & Functional Tests">
-                            </div>
-                          </a>
-                        </div>
-
                         <a href="<?= base_url() ?>annual-health-check-up">
-                          <div class="text-col">
-                            <div class="text-box">
-                              <h5>Common &amp; Functional Tests</h5>
-                              <p>Comprehensive routine testing for overall health assessment and early detection of common conditions.</p>
-                            </div>
+                          <div class="lab-test-grid-image">
+                            <img src="<?= base_url() ?>assets/frontend/img/common-and-functional-test.webp" alt="Common & Functional Tests">
+                          </div>
+                          <div class="icon-col">
+                              <div class="lab-icon">
+                                <img src="<?= base_url() ?>assets/frontend/img/labtest-1.svg" alt="Common & Functional Tests">
+                              </div>
+                                <h4>Common<br> & Functional Tests</h4>
+                                <p>Comprehensive routine testing for overall health assessment and early detection of common conditions.
+                                <strong>Read more</strong>
+                                </p>
                           </div>
                         </a>
                       </div>
 
-                      <!-- ROW 2 -->
+                      <!-- Lab Test Categories 2 -->
                       <div class="test-row">
                         <a href="<?= base_url() ?>allergy-test-general">
-                          <div class="text-col">
-                            <div class="text-box">
-                              <h5>Allergy &amp; Food Intolerance</h5>
-                              <p>Identify triggers and sensitivities to help you make informed dietary and lifestyle choices.</p>
-                            </div>
+                          <div class="lab-test-grid-image">
+                            <img src="<?= base_url() ?>assets/frontend/img/allergy-and-food-Intolerance.webp" alt="Common & Functional Tests">
+                          </div>
+                          <div class="icon-col">
+                              <div class="lab-icon">
+                                <img src="<?= base_url() ?>assets/frontend/img/labtest-2.svg" alt="Common & Functional Tests">
+                              </div>
+                                <h4>Allergy<br> & Food Intolerance</h4>
+                                <p>Identify triggers and sensitivities to help you make informed dietary and lifestyle choices.
+                                <strong>Read more</strong>
+                                </p>
                           </div>
                         </a>
-
-                        <div class="icon-col">
-                          <a href="<?= base_url() ?>allergy-test-general">
-                            <div class="lab-icon">
-                              <img src="<?= base_url() ?>assets/frontend/img/allergy-and-food-intolerance.svg"
-                                  alt="Allergy & Food Intolerance">
-                            </div>
-                          </a>
-                        </div>
                       </div>
 
-                      <!-- ROW 3 -->
+                      <!-- Lab Test Categories 3 -->
                       <div class="test-row">
-                        <div class="icon-col">
-                          <a href="<?= base_url() ?>dna-test">
-                            <div class="lab-icon">
-                              <img src="<?= base_url() ?>assets/frontend/img/dna-genetic-testing.svg"
-                                  alt="DNA & Genetic Testing">
-                            </div>
-                          </a>
-                        </div>
-
                         <a href="<?= base_url() ?>dna-test">
-                          <div class="text-col">
-                            <div class="text-box">
-                              <h5>DNA &amp; Genetic Testing</h5>
-                              <p>Unlock insights into your genetic makeup for personalized health recommendations and risk assessment.</p>
-                            </div>
+                          <div class="lab-test-grid-image">
+                            <img src="<?= base_url() ?>assets/frontend/img/dna-and-genetic-testing.webp" alt="Common & Functional Tests">
+                          </div>
+                          <div class="icon-col">
+                              <div class="lab-icon">
+                                <img src="<?= base_url() ?>assets/frontend/img/labtest-3.svg" alt="Common & Functional Tests">
+                              </div>
+                                <h4>DNA<br> & Genetic Testing</h4>
+                                <p>Unlock insights into your genetic makeup for personalized health recommendations and risk assessment.
+                                <strong>Read more</strong>
+                                </p>
                           </div>
                         </a>
                       </div>
 
-                      <!-- ROW 4 -->
+                      <!-- Lab Test Categories 4 -->
                       <div class="test-row">
                         <a href="<?= base_url() ?>custom-blood-test">
-                          <div class="text-col">
-                            <div class="text-box">
-                              <h5>Custom Blood Testing</h5>
-                              <p>Tailored blood panels designed to meet your specific health concerns and monitoring needs.</p>
-                            </div>
+                          <div class="lab-test-grid-image">
+                            <img src="<?= base_url() ?>assets/frontend/img/custom-blood-testing.webp" alt="Common & Functional Tests">
+                          </div>
+                          <div class="icon-col">
+                              <div class="lab-icon">
+                                <img src="<?= base_url() ?>assets/frontend/img/labtest-4.svg" alt="Common & Functional Tests">
+                              </div>
+                                <h4>Custom <br> Blood Testing</h4>
+                                <p>Tailored blood panels designed to meet your specific health concerns and monitoring needs.
+                                <strong>Read more</strong>
+                                </p>
                           </div>
                         </a>
-
-                        <div class="icon-col">
-                          <a href="<?= base_url() ?>custom-blood-test">
-                            <div class="lab-icon">
-                              <img src="<?= base_url() ?>assets/frontend/img/custom-blood-testing.svg"
-                                  alt="Custom Blood Testing">
-                            </div>
-                          </a>
-                        </div>
                       </div>
 
-                      <!-- ROW 5 -->
+                      <!-- Lab Test Categories 5 -->
                       <div class="test-row">
-                        <div class="icon-col">
-                          <a href="<?= base_url() ?>annual-health-check-up">
-                            <div class="lab-icon">
-                              <img src="<?= base_url() ?>assets/frontend/img/general-health-tests.svg"
-                                  alt="General Health Tests">
-                            </div>
-                          </a>
-                        </div>
-
                         <a href="<?= base_url() ?>annual-health-check-up">
-                          <div class="text-col">
-                            <div class="text-box">
-                              <h5>General Health Tests</h5>
-                              <p>Essential health screenings to maintain optimal wellness and track your health metrics over time.</p>
-                            </div>
+                          <div class="lab-test-grid-image">
+                            <img src="<?= base_url() ?>assets/frontend/img/general-health-tests.webp" alt="Common & Functional Tests">
+                          </div>
+                          <div class="icon-col">
+                              <div class="lab-icon">
+                                <img src="<?= base_url() ?>assets/frontend/img/labtest-5.svg" alt="Common & Functional Tests">
+                              </div>
+                                <h4>General<br> & Health Tests</h4>
+                                <p>Essential health screenings to maintain optimal wellness and track your health metrics over time.
+                                <strong>Read more</strong>
+                                </p>
                           </div>
                         </a>
                       </div>
 
-                      <!-- ROW 6 -->
+                      <!-- Lab Test Categories 6 -->
                       <div class="test-row">
                         <a href="<?= base_url() ?>std-testing">
-                          <div class="text-col">
-                            <div class="text-box">
-                              <h5>Intimacy &amp; Wellness</h5>
-                              <p>Confidential testing for sexual health and wellness to support your intimate well-being.</p>
-                            </div>
+                          <div class="lab-test-grid-image">
+                            <img src="<?= base_url() ?>assets/frontend/img/intimacy-and-wellness.webp" alt="Common & Functional Tests">
+                          </div>
+                          <div class="icon-col">
+                              <div class="lab-icon">
+                                <img src="<?= base_url() ?>assets/frontend/img/labtest-6.svg" alt="Common & Functional Tests">
+                              </div>
+                                <h4>Intimacy<br> & Wellness</h4>
+                                <p>Confidential testing for sexual health and wellness to support your intimate well-being.
+                                <strong>Read more</strong>
+                                </p>
                           </div>
                         </a>
-
-                        <div class="icon-col">
-                          <a href="<?= base_url() ?>std-testing">
-                            <div class="lab-icon">
-                              <img src="<?= base_url() ?>assets/frontend/img/intimacy-and-wellness.svg"
-                                  alt="Intimacy & Wellness">
-                            </div>
-                          </a>
-                        </div>
                       </div>
 
-                      <!-- ROW 7 -->
+                      <!-- Lab Test Categories 7 -->
                       <div class="test-row">
-                        <div class="icon-col">
-                          <a href="<?= base_url() ?>men-advanced-package">
-                            <div class="lab-icon">
-                              <img src="<?= base_url() ?>assets/frontend/img/mens-health-screening.svg"
-                                  alt="Men's Health Screening">
-                            </div>
-                          </a>
-                        </div>
-
                         <a href="<?= base_url() ?>men-advanced-package">
-                          <div class="text-col">
-                            <div class="text-box">
-                              <h5>Men's Health Screening</h5>
-                              <p>Specialized health assessments focusing on male-specific health concerns and preventive care.</p>
-                            </div>
+                          <div class="lab-test-grid-image">
+                            <img src="<?= base_url() ?>assets/frontend/img/mens-health-screening.webp" alt="Common & Functional Tests">
+                          </div>
+                          <div class="icon-col">
+                              <div class="lab-icon">
+                                <img src="<?= base_url() ?>assets/frontend/img/labtest-7.svg" alt="Common & Functional Tests">
+                              </div>
+                                <h4>Men's <br> Health Screening</h4>
+                                <p>Specialized health assessments focusing on male-specific health concerns and preventive care.
+                                <strong>Read more</strong>
+                                </p>
                           </div>
                         </a>
                       </div>
 
-                      <!-- ROW 8 -->
+                      <!-- Lab Test Categories 8 -->
                       <div class="test-row">
                         <a href="<?= base_url() ?>female-advanced-package">
-                          <div class="text-col">
-                            <div class="text-box">
-                              <h5>Women's Health Screening</h5>
-                              <p>Comprehensive women’s health testing including hormonal, reproductive, and preventive screenings.</p>
-                            </div>
+                          <div class="lab-test-grid-image">
+                            <img src="<?= base_url() ?>assets/frontend/img/womens-health-screening.webp" alt="Common & Functional Tests">
+                          </div>
+                          <div class="icon-col">
+                              <div class="lab-icon">
+                                <img src="<?= base_url() ?>assets/frontend/img/labtest-8.svg" alt="Common & Functional Tests">
+                              </div>
+                                <h4>Women's<br> Health Screening</h4>
+                                <p>Comprehensive women’s health testing including hormonal, reproductive, and preventive screenings.
+                                <strong>Read more</strong>
+                                </p>
                           </div>
                         </a>
-
-                        <div class="icon-col">
-                          <a href="<?= base_url() ?>female-advanced-package">
-                            <div class="lab-icon">
-                              <img src="<?= base_url() ?>assets/frontend/img/womens-health-screening.svg"
-                                  alt="Women's Health Screening">
-                            </div>
-                          </a>
-                        </div>
                       </div>
+
 
                     </div>
 

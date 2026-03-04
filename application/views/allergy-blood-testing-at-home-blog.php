@@ -212,13 +212,6 @@
                     </ul>
                     <p>Used correctly, they improve precision. But used alone, they just create more questions.</p>
 
-
-
-
-
-
-                    <p>Visit us at <a href="<?= base_url() ?>">Healthcarebia</a> today to get the best concierge healthcare and wellness services at your doorstep.</p>
-
                     <h2>FAQs</h2>
                     <ul class="tick-list">
                         <li><h3>How much does an allergy test cost in Dubai?</h3>

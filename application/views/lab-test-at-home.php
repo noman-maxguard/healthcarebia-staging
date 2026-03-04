@@ -134,6 +134,7 @@
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-weight: 700;
     padding: 30px 0 0px;
 }
 
@@ -224,19 +225,48 @@
     background-position: 70% 80%;
 }
 
+.lab-tests-section .icon-col h4 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
 .lab-tests-section .test-row {
     flex: 0 0 calc((100% - 10px) / 1);
+    padding: 0.8rem;
 }
 .lab-tests-section .test-row .lab-test-grid-image img {
         height: 17em;
     }
+    .lab-tests-section .icon-col .lab-icon, .lab-tests-section .icon-col h4 br{
+      display: none;
+    }
+
+ .lab-tests-section .icon-col p {
+        font-size: 14px;
+        width: 80%;
+        padding: 10px 0 5px;
+    }
+
+    .lab-tests-section .icon-col p strong{
+        padding: 25px 0 0px;
+    }
+
+    .why-choose-therapy p {
+    font-size: 13px;
+}
+.why-choose-therapy h2 {
+    font-size: 30px;
+}
 
   }
 
   /* ==========   ≤ 480 px  (phones)  ========== */
   @media (max-width: 480px) {
     .lab-tests-section .test-row .lab-test-grid-image img {
-        height: 15em;
+        height: 13em;
+    }
+    .lab-tests-section .icon-col h4 {
+        font-size: 22px;
     }
 }
 

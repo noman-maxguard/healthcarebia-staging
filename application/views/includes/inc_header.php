@@ -8,8 +8,12 @@
         height: 64px;
         border-radius: 50%;
         position: relative;
-        animation: pulse-glow 1.5s infinite ease-in-out;
+        animation: pulse-glow 2s infinite ease-in-out;
         overflow: visible;                  /* ensure glow isn't clipped */
+    }
+
+    a.whatsapp-icon.phone-icon{
+        animation: pulse-glow-phone 2s infinite ease-in-out !important;
     }
 
     .whatsapp-icon i {
@@ -32,13 +36,36 @@
                 0 0 15px  rgba(37,211,102,0.8),
                 0 0 30px  rgba(37,211,102,0.6),
                 0 0 45px  rgba(37,211,102,0.4);
-            transform: scale(1.1);
+            transform: scale(1.07);
         }
         100% {
             box-shadow:
                 0 0 5px   rgba(37,211,102,0.6),
                 0 0 10px  rgba(37,211,102,0.4),
                 0 0 20px  rgba(37,211,102,0.2);
+            transform: scale(1);
+        }
+    }
+       @keyframes pulse-glow-phone {
+        0% {
+            box-shadow:
+                0 0 5px   rgba(53,100,56,0.6),
+                0 0 10px  rgba(53,100,56,0.4),
+                0 0 20px  rgba(53,100,56,0.2);
+            transform: scale(1);
+        }
+        50% {
+            box-shadow:
+                0 0 15px  rgba(53,100,56,0.8),
+                0 0 30px  rgba(53,100,56,0.6),
+                0 0 45px  rgba(53,100,56,0.4);
+            transform: scale(1.07);
+        }
+        100% {
+            box-shadow:
+                0 0 5px   rgba(53,100,56,0.6),
+                0 0 10px  rgba(53,100,56,0.4),
+                0 0 20px  rgba(53,100,56,0.2);
             transform: scale(1);
         }
     }

@@ -559,4 +559,45 @@
   .vision-mission {
     padding: 0 25px;
   }
+
+  .whatsapp-icon {
+    width: 52px !important;
+    height: 52px !important;
+}
+
+.whatsapp-icon i {
+    font-size: 32px !important;
+}
+
+a.whatsapp-icon.phone-icon i {
+    font-size: 26px !important;
+}
+
+footer .google-reviews {
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

@@ -91,7 +91,7 @@
                     <ul class="tick-list">
                         <li>Vitamin D deficiency issue in the UAE.</li>
                         <li>It affects 60–90% of residents.</li>
-                        <li>Common Vitamin D deficiency symptoms are fatigue, low immunity, muscle and bone pain, mood changes, brain fog, hair thinning, and unexplained weight gain.
+                        <li>Common Vitamin D deficiency symptoms are fatigue, low immunity, muscle and bone pain, mood changes, brain fog, hair thinning, and unexplained weight gain.</li>
                         <li>Severe Vitamin D deficiency can lead to muscle weakness, soft bones, low calcium, and heart issues.</li>
                         <li>HNWIs are at high risk as they stay indoors. </li>
                         <li>Strict skincare regimes also cause the deficiency. </li>

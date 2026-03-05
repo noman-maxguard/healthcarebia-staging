@@ -210,6 +210,11 @@
 
 @media (max-width:767px) {
 
+
+.mega-item ul li::before {
+    margin: 0px 0 0;
+}
+
   .about-text,
   .banner-inner,
   .choose-item,

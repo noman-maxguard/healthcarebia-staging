@@ -258,6 +258,52 @@
     font-size: 30px;
 }
 
+
+.lab-test-trust-box h5 {
+    font-size: 13px;
+}
+
+.lab-test-trust-signals.d-md-none {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.lab-test-trust-box {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lab-test-trust-box .trust-fda{
+    height: 50px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.lab-test-trust-box .trust-google {
+    height: 50px;
+    width: 100px;
+    object-fit: contain;
+    padding: 7px;
+}
+
+.lab-test-trust-box .trust-dha {
+    height: 40px;
+}
+.lab-test-trust-box .trust-nabidh {
+        height: 40px;
+        width: 70px;
+}
+
+.lab-test-trust-box img {
+    margin: 10px 0 0 !important;
+    height: 60px !important;
+}
+
+
   }
 
   /* ==========   ≤ 480 px  (phones)  ========== */
@@ -268,6 +314,11 @@
     .lab-tests-section .icon-col h4 {
         font-size: 22px;
     }
+    .lab-test-trust-box h5 {
+    font-size: 12px;
+}
+
+
 }
 
 </style>
@@ -339,7 +390,31 @@
 
                 <div class="text-center"><h2 class="text-center mb-4">Home diagnostic test</h2>
 
-                    <p class="mb-5">At Healthcarebia, we provide the convenience of access to lab testing right at the comfort of your home. Get tested within the safety and privacy of your own space with results delivered quickly and securely.</p>
+                    <p class="mb-3">At Healthcarebia, we provide the convenience of access to lab testing right at the comfort of your home. Get tested within the safety and privacy of your own space with results delivered quickly and securely.</p>
+
+
+                   <div class="lab-test-trust-signals d-md-none mb-4">
+                      <div class="lab-test-trust-box">
+                        <img src="<?= base_url() ?>assets/frontend/img/google-reviews.svg" alt="google reviews" class="trust-google">
+                        <h5>Trusted by clients.</h5>
+                      </div>
+
+                      <div class="lab-test-trust-box">
+                        <img src="<?= base_url() ?>assets/frontend/img/fda-green.svg" alt="fda icon" class="trust-fda">
+                        <h5>FDA compliant formulations</h5>
+                      </div>
+
+                      <div class="lab-test-trust-box">
+                        <img src="<?= base_url() ?>assets/frontend/img/nabidh.svg" alt="nabidh" class="trust-nabidh">
+                        <h5>NABIDH ready records</h5>
+                      </div>
+
+                      <div class="lab-test-trust-box">
+                        <img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="dha" class="trust-dha mt-4">
+                        <h5>100% DHA licensed nurses</h5>
+                      </div>
+                    </div>
+
 
                     <!-- Begin new lab-tests layout -->
                     <div class="lab-tests-section">

@@ -358,7 +358,23 @@
         .ebook-form{
             margin-top: 3em;
         }
-    }
+
+        #callback-popup-overlay h4 {
+    font-size: 30px;
+}
+
+#callback-popup-overlay p {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+#callback-popup-overlay button#submit_callback {
+    width: 100%;
+}
+
+
+
+}
     .ebook-btn:hover{
         box-shadow: 0 0 20px 0 rgba(255,255,255,0.8);
         filter: brightness(1.05);
@@ -370,12 +386,13 @@
    display: none;
    align-items: center;
    justify-content: center;
-   z-index: 9999;
+   z-index: 999999;
 }
 
 .callback-popup-overlay.active {
    display: flex;
 }
+
 
 .callback-popup-box {
    background: #ffffff;
@@ -397,6 +414,8 @@
    cursor: pointer;
    line-height: 1;
 }
+
+
 
   
 </style>
@@ -422,7 +441,7 @@
                             <!-- <i class="fa fa-star-half-o"></i>  -->
                         </span>
                         </div>
-                        <a href="https://www.google.com/search?q=healthcarebia&oq=healthcarebia+&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORiABBiiBDIKCAEQABiABBiiBDIHCAIQABjvBTIGCAMQRRg8MgYIBBBFGDwyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQg2MDM4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#vhid=zephyr:1&vssid=atritem-&lrd=0x3e5f437ad48ce8ab:0x1441da8daee852a8,1,,,," target="_blank">Based on 49 reviews </a>
+                        <a href="https://www.google.com/search?q=healthcarebia&oq=healthcarebia+&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORiABBiiBDIKCAEQABiABBiiBDIHCAIQABjvBTIGCAMQRRg8MgYIBBBFGDwyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQg2MDM4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#vhid=zephyr:1&vssid=atritem-&lrd=0x3e5f437ad48ce8ab:0x1441da8daee852a8,1,,,," target="_blank">Based on 54 reviews </a>
                     </div>
                     <div class="icon-box"><div class="images"><img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="dha"><img id="fda" src="<?= base_url() ?>assets/frontend/img/fda.png" alt="fda"><img src="<?= base_url() ?>assets/frontend/img/nabidh.svg" alt="nabidh"></div></div>
                     
@@ -726,10 +745,10 @@
 
          <div class="col-md-12 mb-3">
             <div class="row">
-               <div class="col-md-6">
+               <div class="col-4 col-md-6">
                   <img src="<?= base_url() ?>mycaptcha/<?= $form_index ?>" width="100" height="50" alt="Security Captcha Code">
                </div>
-               <div class="col-md-6">
+               <div class="col-8 col-md-6">
                   <input type="text" name="captcha" id="captcha_callback" autocomplete="off"
                          class="form-input" required placeholder="Enter Captcha Code *">
                </div>

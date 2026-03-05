@@ -143,6 +143,40 @@
     background-size: cover;
 }
 
+
+
+.lab-test-trust-box img {
+    margin: 10px 0 0 !important;
+    height: 100px !important;
+    width: 90px;
+}
+
+.lab-test-trust-box .trust-dha {
+    width: 60px;
+}
+
+.lab-test-trust-signals {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+.lab-test-trust-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 23%;
+}
+
+.lab-test-trust-box h5 {
+    font-size: 18px;
+    margin-top: -5px;
+}
+
+
  @media (max-width: 1400px) {
   .lab-tests-section .test-row {
     flex: 0 0 calc((100% - 100px) / 3);
@@ -200,6 +234,10 @@
     padding: 20px 0 0px;
 }
 
+.lab-test-trust-box h5 {
+    font-size: 16px;
+}
+
  }
 
   
@@ -214,6 +252,10 @@
 
 .lab-tests-section .icon-col p {
     font-size: 14px;
+}
+
+.lab-test-trust-box h5 {
+    font-size: 12px !important;
 }
 
 }
@@ -263,11 +305,12 @@
     font-size: 13px;
 }
 
-.lab-test-trust-signals.d-md-none {
+.lab-test-trust-signals {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 0 !important;
 }
 .lab-test-trust-box {
     display: flex;
@@ -318,8 +361,8 @@
     font-size: 12px;
 }
 
-
 }
+
 
 </style>
 
@@ -393,7 +436,7 @@
                     <p class="mb-3">At Healthcarebia, we provide the convenience of access to lab testing right at the comfort of your home. Get tested within the safety and privacy of your own space with results delivered quickly and securely.</p>
 
 
-                   <div class="lab-test-trust-signals d-md-none mb-4">
+                   <div class="lab-test-trust-signals  mb-4">
                       <div class="lab-test-trust-box">
                         <img src="<?= base_url() ?>assets/frontend/img/google-reviews.svg" alt="google reviews" class="trust-google">
                         <h5>Trusted by clients.</h5>

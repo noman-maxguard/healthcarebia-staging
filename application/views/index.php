@@ -251,7 +251,7 @@
         <div class="trust-box">
           <img src="<?= base_url() ?>assets/frontend/img/google.svg" alt="google reviews" class="trust-google">
           <h5>Trusted on Google</h5>
-          <p>4.9 star rating from real clients in Dubai.</p>
+          <p>5.0 star rating from real clients in Dubai.</p>
         </div>
       </div>
 
@@ -842,13 +842,7 @@
 
             <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
 
-
-
             <div class="elfsight-app-0f5a1024-4605-437a-b978-bd308b024ae9"></div>
-
-
-
-
 
         </div>
 
@@ -867,10 +861,10 @@
     loop: true,
     margin: 30,
     nav: false,
-    autoplay: true,
+    autoplay: false,
     autoplayTimeout: 5000,
     responsive: {
-      0: { items: 3 },
+      0: { items: 1,margin: 0,dots: false, },
       576: { items: 3 },
       992: { items: 4 }
     }

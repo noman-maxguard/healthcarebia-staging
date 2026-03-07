@@ -861,10 +861,10 @@
     loop: true,
     margin: 30,
     nav: false,
-    autoplay: false,
+    autoplay: true,
     autoplayTimeout: 5000,
     responsive: {
-      0: { items: 1,margin: 0,dots: false, },
+      0: { items: 1,margin: 0,dots: false},
       576: { items: 3 },
       992: { items: 4 }
     }

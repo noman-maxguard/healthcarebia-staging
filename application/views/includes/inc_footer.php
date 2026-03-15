@@ -423,7 +423,7 @@
     <div class="overlay">
         <div class="container">
         <div class="row">
-            <div class="col-md-4 footer-banner">
+            <div class="col-md-6 col-lg-4 footer-banner">
                 <img loading="lazy" decoding="async" width="271" height="37" src="<?= base_url() ?>assets/frontend/img/logo.webp" class="mb-3" alt="Healthcarebia">
                 <p>Premium At-Home Healthcare in Dubai |
                     Expert IV therapy, comprehensive lab tests, and personalized wellness solutions delivered directly to your home.
@@ -447,7 +447,7 @@
                     
                 </div>
             </div>
-            <div class="col-md-1">
+            <div class="col-3 col-md-2 col-lg-1">
                 <ul class="fot-link">
                     <li><a href="<?= base_url() ?>" class="hvr-underline-from-left menu-line">Home</a></li>
                     <li><a href="<?= base_url() ?>about-us" class="hvr-underline-from-left menu-line">About us</a>
@@ -459,7 +459,7 @@
                     <li><a href="<?= base_url() ?>faq" class="hvr-underline-from-left menu-line">FAQs</a></li>
                 </ul>
             </div>
-            <div class="col-md-2">
+            <div class="col-5 col-md-2 col-lg-2">
                 <ul class="fot-link" >
                     <!-- <li><a href="<?= base_url() ?>iv-drip-dubai" class="hvr-underline-from-left menu-line">IV
                     Therapy Dubai</a></li>
@@ -495,7 +495,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-md-2">
+            <div class="col-4 col-md-2 col-lg-2">
                 <ul class="fot-link">
                     <li><a href="<?= base_url() ?>std-testing" class="hvr-underline-from-left menu-line">STD
                     Test Dubai</a>
@@ -518,7 +518,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-3 ebook-form">
+            <div class="col-md-12 col-lg-3 ebook-form">
                 <h6 style="font-size: 18px;color: white;text-align: center">Download Our Free Precision Of Wellness eBook</h6>
                 <form action="/ebooks/download" method="POST" style="display:flex;flex-direction: column; justify-content: start;align-items: center; width:100%; gap:1em" class="mt-4">
                     <div class="col-md-12 mb-3">

@@ -29,6 +29,46 @@
   }
 }
 
+@media (min-width:992px) and (max-width:1400px) {
+    .main-menu>ul>li {
+    margin-right: 15px;
+}
+
+
+.footer-banner .images img:nth-child(1) {
+    order: 1;
+    margin-right: 10px;
+}
+
+
+.footer-banner .images img:nth-child(2) {
+    order: 3;
+}
+
+
+.footer-banner .images img:nth-child(3) {
+    order: 2;
+}
+
+.footer-banner .images {
+    gap: 0px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+.footer-banner .google-review {
+    margin-top: 0px;
+    width: 38%;
+}
+
+.footer-banner .icon-box {
+    width: 62%;
+}
+
+
+}
+
 @media (max-width:1200px) {
   .main-menu>ul>li {
     margin-right: 10px;
@@ -47,7 +87,65 @@
   .main-menu>ul>li>a.white-btn {
     font-size: 13px !important
   }
+
+
+.footer-banner p {
+    font-size: 12px;
 }
+
+.footer-banner .google-review {
+        width: 45% !important;
+    }
+
+
+.footer-banner .icon-box {
+        width: 55%;
+    }
+.footer-banner .images img#fda {
+    /* object-fit: cover; */
+    height: 90px;
+    transform: scale(1.5);
+}
+
+ul.fot-link li a {
+    font-size: 11px;
+}
+
+ul.fot-link li {
+    padding: 2px 0;
+}
+
+.ebook-form h6 {
+    font-size: 14px !important;
+}
+
+.ebook-form input.form-input {
+    padding: 8px 22px 9px !important;
+    font-size: 12px !important;
+}
+.footer-banner .images {
+      flex-wrap: wrap !important;
+  }
+.ebook-form label.form-check-label {
+    margin-top: -2px;
+}
+
+.ebook-form label.form-check-label span {
+    font-size: 13px !important;
+}
+
+.copy-right p, .copyright-list li a{
+    font-size: 12px;
+}
+
+.copy-right p {
+    margin-top: 5px;
+}
+
+
+
+}
+
 
 @media (max-width:991px) {
 
@@ -206,6 +304,64 @@
   .iv-step-card:nth-child(2)::after {
     display: none;
   }
+
+footer .overlay {
+    padding: 40px 0 0;
+}
+
+.footer-banner img.mb-3 {
+    width: 100%;
+    object-fit: contain;
+}
+
+ul.fot-link li a {
+        font-size: 10px;
+    }
+
+.footer-banner .images img {
+    height: 40px;
+}
+
+.footer-banner .images {
+    gap: 0px 20px;
+}
+
+footer {
+    height: initial;
+}
+
+footer .ebook-form {
+    margin-top: 30px;
+}
+
+.copy-right {
+    margin-top: 30px;
+    position: relative;
+}
+
+footer, footer .overlay{
+    height: initial;
+    position: relative;
+}
+
+footer video {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+
+.copy-right p, .copyright-list li a {
+        font-size: 11px;
+    }
+.copyright-list li a {
+    margin-right: 5px;
+}
+
+.copy-right p {
+        margin-top: 6px;
+    }
+
 }
 
 @media (max-width:767px) {
@@ -579,13 +735,17 @@
     position: relative
   }
 
-  .iv-drips-slider .owl-nav .owl-prev {
+  .iv-drips-slider .owl-nav .owl-prev, .lab-tests-section-slider .owl-nav .owl-prev{
     left: 0 !important;
   }
 
-  .iv-drips-slider .owl-nav .owl-next {
+  .iv-drips-slider .owl-nav .owl-next, .lab-tests-section-slider .owl-nav .owl-next{
     right: 0 !important;
   }
+
+.header-main-menu .container-fluid {
+    padding: 0;
+}
 
   .iv-drips-slider .owl-nav span {
     color: var(--green);
@@ -613,25 +773,36 @@ a.whatsapp-icon.phone-icon i {
     font-size: 26px !important;
 }
 
-footer .google-reviews {
-    flex-direction: column;
+
+ul.fot-link li a {
+      font-size: 12px;
+  }
+
+
+.footer-banner {
+        margin: 30px 0;
+    }
+
+.footer-banner .images img {
+        height: 40px;
+        width: 40%;
+        object-fit: contain;
+    }
+
+
+.footer-banner .images img#fda {
+        /* object-fit: cover; */
+        height: 60px;
+        transform: scale(2.5);
+    }
+
+.footer-banner .google-reviews {
+    margin-top: 40px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.ebook-form form {
+    gap: 0 !important;
+}
 
 
 

@@ -542,7 +542,7 @@
                         <p>Copyright © 2025 Healthcarebia | All rights reserved.</p>
                     </div>
                     <div class="col-md-6">
-                        <ul class="copyright-list">
+                        <ul class="copyright-list text-end">
                             <li><a href="<?= base_url() ?>terms-and-conditions"
                                    class="hvr-underline-from-left menu-line">Terms and
                                     Conditions</a></li>

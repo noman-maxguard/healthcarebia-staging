@@ -295,7 +295,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    background-color: #ffffffdb;
+    background-color: #fffffff2;
     left: 0;
     top: 0;
 }
@@ -857,7 +857,7 @@ h2.mb-4 {
                       </div>
 
                       <!-- Featured Lab Test 2 -->
-                      <div class="test-row item" style="background-image: url(<?= base_url() ?>assets/frontend/img/common-and-functional-test.webp);">
+                      <div class="test-row item" style="background-image: url(<?= base_url() ?>assets/frontend/img/womens-health-screening.webp);">
                             <div class="icon-col">
                                 <h4>Advanced Health Screening</h4>
                                 <p>Comprehensive diagnostic analysis.</p>
@@ -883,7 +883,7 @@ h2.mb-4 {
                       </div>
 
                       <!-- Featured Lab Test 3 -->
-                      <div class="test-row item" style="background-image: url(<?= base_url() ?>assets/frontend/img/common-and-functional-test.webp);">
+                      <div class="test-row item" style="background-image: url(<?= base_url() ?>assets/frontend/img/allergy-and-food-Intolerance.webp);">
                             <div class="icon-col">
                                 <h4>Food Intolerance Test</h4>
                                 <p>Identify dietary sensitivities.</p>

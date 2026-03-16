@@ -589,7 +589,7 @@ h2.mb-4 {
 }
 
 .sub-banner {
-        min-height: 520px;
+        min-height: 580px;
     }
 
 .lab-tests-section-slider.lab-tests-section .owl-item {

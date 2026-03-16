@@ -249,15 +249,15 @@
 
       <div class="item">
         <div class="trust-box">
-          <img src="<?= base_url() ?>assets/frontend/img/google.svg" alt="google reviews" class="trust-google">
+          <div class="trust-box-img"><img src="<?= base_url() ?>assets/frontend/img/google-reviews.svg" alt="google reviews" class="trust-google"></div>
           <h5>Trusted on Google</h5>
-          <p>5.0 star rating from real clients in Dubai.</p>
+          <p>Highly Trusted by real clients in Dubai.</p>
         </div>
       </div>
 
       <div class="item">
         <div class="trust-box">
-          <img src="<?= base_url() ?>assets/frontend/img/fda-green.svg" alt="fda icon" class="trust-fda">
+          <div class="trust-box-img"><img src="<?= base_url() ?>assets/frontend/img/fda-green.svg" alt="fda icon" class="trust-fda"></div>
           <h5>FDA compliant formulations</h5>
           <p>All products sourced from FDA compliant manufacturers</p>
         </div>
@@ -265,7 +265,7 @@
 
       <div class="item">
         <div class="trust-box">
-          <img src="<?= base_url() ?>assets/frontend/img/nabidh.svg" alt="nabidh" class="trust-nabidh">
+          <div class="trust-box-img"><img src="<?= base_url() ?>assets/frontend/img/nabidh.svg" alt="nabidh" class="trust-nabidh"></div>
           <h5>NABIDH ready records</h5>
           <p>Records shared securely through NABIDH.</p>
         </div>
@@ -273,7 +273,7 @@
 
       <div class="item">
         <div class="trust-box">
-          <img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="dha" class="trust-dha mt-4">
+          <div class="trust-box-img"><img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="dha" class="trust-dha"></div>
           <h5>100% DHA licensed nurses</h5>
           <p>Care delivered at home by DHA licensed and experienced nurses.</p>
         </div>
@@ -864,7 +864,7 @@
     autoplay: true,
     autoplayTimeout: 5000,
     responsive: {
-      0: { items: 1,margin: 0,dots: false},
+      0: { items: 2,margin: 0,dots: false},
       576: { items: 3 },
       992: { items: 4 }
     }

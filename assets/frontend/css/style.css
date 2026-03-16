@@ -2158,44 +2158,50 @@ ul.commen-listing li {
 
 .trust-box {
   display: flex;
-  box-shadow: 0px 0px 4px 2px rgb(0 0 0 / 10%);
+  box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, .95);
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   text-align: center;
-  padding: 10px;
-  height: 230px;
+  padding: 10px 20px;
+  height: 210px;
   border-radius: 15px;
   margin: 10px;
+  transition: 0.3s all;
 }
 
-/*.trust-box:hover {
+.trust-box:hover {
   box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, .95);
-}*/
+}
 
 .trust-box h5 {
-  font-size: 15px;
+    font-size: 16px;
+    margin-bottom: 5px !important;
 }
 
 .trust-box p {
-  font-size: 12px;
+  font-size: 14px;
 }
 
-.trust-fda,
-.trust-google {
+.trust-box-img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+}
+
+.trust-fda{
   height: 110px;
-  width: 110px
 }
 
 .trust-nabidh {
   height: 40px;
-  margin-bottom: 30px;
 }
 
 .trust-dha {
   height: 50px;
   width: 50px;
-  margin-bottom: 30px;
 }
 
 .banner-list ul>li {
@@ -2233,7 +2239,6 @@ ul.commen-listing li {
   height: 84px;
   margin: 0 auto 14px;
 }
-
 
 .iv-step-media img {
   width: 100%;
@@ -2276,6 +2281,10 @@ ul.commen-listing li {
   color: white
 }
 
+.trust-box .trust-google {
+    height: 45px;
+}
+
 /* link style for WhatsApp/CTA */
 .iv-step-link {
   color: #fff;
@@ -2287,6 +2296,7 @@ ul.commen-listing li {
   color: white;
   border-radius: 50%;
 }
+
 
 /********* Noman Commits ***********/
 

@@ -51,6 +51,21 @@
         <div class="row">
 
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>types-of-iv-drips-and-their-benefits" class="card-style3 card-style4 same">
+                    <img
+                        src="<?= base_url() ?>assets/frontend/img/blog53.webp"
+                        alt="Types of IV Drips and Their Benefits"
+                        class="img-fluid"
+                        loading="lazy"
+                        width="315"
+                        height="213"
+                    >
+                    <h6>Types of IV Drips and Their Benefits</h6>
+                    <p>Want to feel revitalized? Explore the IV drip benefits and its types to find the right drip for your body’s needs.</p>
+                </a>
+            </div>
+
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>allergy-blood-testing-at-home-blog" class="card-style3 card-style4 same">
                     <img
                         src="<?= base_url() ?>assets/frontend/img/blog52.jpg"

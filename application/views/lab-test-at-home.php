@@ -730,7 +730,7 @@ h2.mb-4 {
                             </div>
                             <div class="banner-list">
                                 <ul class="d-flex gap-lg-5">
-                                    <li>⭐ 4.9-Star Rated Healthcare Provider</li>
+                                    <li>&#10003; ⭐ 5-Star Rated Healthcare Provider</li>
                                     <li>&#10003; ISO-Certified Laboratory Partners</li>
                                     <li>&#10003; DHA-Licensed Medical Professionals</li>
                                     <li>&#10003; Confidential & At-Home Testing</li>
@@ -1070,7 +1070,7 @@ h2.mb-4 {
 
           <div class="lab-test-trust-box">
             <img src="<?= base_url() ?>assets/frontend/img/google-reviews.svg" alt="google reviews" class="trust-google">
-            <h5>Top-Rated Healthcare Provider</h5>
+            <h5>5-Star Rated Healthcare Provider</h5>
             <p>Trusted by residents and executives across Dubai</p>
           </div>
 

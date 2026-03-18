@@ -358,23 +358,7 @@
         .ebook-form{
             margin-top: 3em;
         }
-
-        #callback-popup-overlay h4 {
-    font-size: 30px;
-}
-
-#callback-popup-overlay p {
-    font-size: 14px;
-    line-height: 18px;
-}
-
-#callback-popup-overlay button#submit_callback {
-    width: 100%;
-}
-
-
-
-}
+    }
     .ebook-btn:hover{
         box-shadow: 0 0 20px 0 rgba(255,255,255,0.8);
         filter: brightness(1.05);
@@ -386,13 +370,12 @@
    display: none;
    align-items: center;
    justify-content: center;
-   z-index: 999999;
+   z-index: 9999;
 }
 
 .callback-popup-overlay.active {
    display: flex;
 }
-
 
 .callback-popup-box {
    background: #ffffff;
@@ -415,15 +398,13 @@
    line-height: 1;
 }
 
-
-
   
 </style>
 <footer>
     <div class="overlay">
         <div class="container">
         <div class="row">
-            <div class="col-md-6 col-lg-4 footer-banner">
+            <div class="col-md-4 footer-banner">
                 <img loading="lazy" decoding="async" width="271" height="37" src="<?= base_url() ?>assets/frontend/img/logo.webp" class="mb-3" alt="Healthcarebia">
                 <p>Premium At-Home Healthcare in Dubai |
                     Expert IV therapy, comprehensive lab tests, and personalized wellness solutions delivered directly to your home.
@@ -434,20 +415,20 @@
                         src="<?= base_url() ?>assets/frontend/img/google-review.svg"
                         alt="">
                         <div class="review-item">
-                        <h5>4.9</h5>
+                        <h5>5.0</h5>
                         <span>
                             <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
                                 class="fa fa-star"></i> <i class="fa fa-star"></i>
                             <!-- <i class="fa fa-star-half-o"></i>  -->
                         </span>
                         </div>
-                        <a href="https://www.google.com/search?q=healthcarebia&oq=healthcarebia+&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORiABBiiBDIKCAEQABiABBiiBDIHCAIQABjvBTIGCAMQRRg8MgYIBBBFGDwyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQg2MDM4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#vhid=zephyr:1&vssid=atritem-&lrd=0x3e5f437ad48ce8ab:0x1441da8daee852a8,1,,,," target="_blank">Based on 54 reviews </a>
+                        <a href="https://www.google.com/search?q=healthcarebia&oq=healthcarebia+&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORiABBiiBDIKCAEQABiABBiiBDIHCAIQABjvBTIGCAMQRRg8MgYIBBBFGDwyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQg2MDM4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#vhid=zephyr:1&vssid=atritem-&lrd=0x3e5f437ad48ce8ab:0x1441da8daee852a8,1,,,," target="_blank">Based on 57 reviews </a>
                     </div>
                     <div class="icon-box"><div class="images"><img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="dha"><img id="fda" src="<?= base_url() ?>assets/frontend/img/fda.png" alt="fda"><img src="<?= base_url() ?>assets/frontend/img/nabidh.svg" alt="nabidh"></div></div>
                     
                 </div>
             </div>
-            <div class="col-3 col-md-2 col-lg-1">
+            <div class="col-md-1">
                 <ul class="fot-link">
                     <li><a href="<?= base_url() ?>" class="hvr-underline-from-left menu-line">Home</a></li>
                     <li><a href="<?= base_url() ?>about-us" class="hvr-underline-from-left menu-line">About us</a>
@@ -459,7 +440,7 @@
                     <li><a href="<?= base_url() ?>faq" class="hvr-underline-from-left menu-line">FAQs</a></li>
                 </ul>
             </div>
-            <div class="col-5 col-md-2 col-lg-2">
+            <div class="col-md-2">
                 <ul class="fot-link" >
                     <!-- <li><a href="<?= base_url() ?>iv-drip-dubai" class="hvr-underline-from-left menu-line">IV
                     Therapy Dubai</a></li>
@@ -495,7 +476,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-4 col-md-2 col-lg-2">
+            <div class="col-md-2">
                 <ul class="fot-link">
                     <li><a href="<?= base_url() ?>std-testing" class="hvr-underline-from-left menu-line">STD
                     Test Dubai</a>
@@ -518,7 +499,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-12 col-lg-3 ebook-form">
+            <div class="col-md-3 ebook-form">
                 <h6 style="font-size: 18px;color: white;text-align: center">Download Our Free Precision Of Wellness eBook</h6>
                 <form action="/ebooks/download" method="POST" style="display:flex;flex-direction: column; justify-content: start;align-items: center; width:100%; gap:1em" class="mt-4">
                     <div class="col-md-12 mb-3">
@@ -542,7 +523,7 @@
                         <p>Copyright © 2025 Healthcarebia | All rights reserved.</p>
                     </div>
                     <div class="col-md-6">
-                        <ul class="copyright-list text-end">
+                        <ul class="copyright-list">
                             <li><a href="<?= base_url() ?>terms-and-conditions"
                                    class="hvr-underline-from-left menu-line">Terms and
                                     Conditions</a></li>
@@ -745,10 +726,10 @@
 
          <div class="col-md-12 mb-3">
             <div class="row">
-               <div class="col-4 col-md-6">
+               <div class="col-md-6">
                   <img src="<?= base_url() ?>mycaptcha/<?= $form_index ?>" width="100" height="50" alt="Security Captcha Code">
                </div>
-               <div class="col-8 col-md-6">
+               <div class="col-md-6">
                   <input type="text" name="captcha" id="captcha_callback" autocomplete="off"
                          class="form-input" required placeholder="Enter Captcha Code *">
                </div>

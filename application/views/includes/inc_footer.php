@@ -434,7 +434,7 @@
                         src="<?= base_url() ?>assets/frontend/img/google-review.svg"
                         alt="">
                         <div class="review-item">
-                        <h5>5.0</h5>
+                        <h5>4.9</h5>
                         <span>
                             <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
                                 class="fa fa-star"></i> <i class="fa fa-star"></i>

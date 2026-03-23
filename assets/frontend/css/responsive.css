@@ -391,6 +391,10 @@ footer video {
     height: 180px;
 }
 
+.callback-popup-box {
+    max-height: 95vh;
+    overflow: auto;
+}
 
 }
 

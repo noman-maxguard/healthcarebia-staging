@@ -803,3 +803,57 @@ document.addEventListener("DOMContentLoaded", function () {
    });
 });
 </script>
+
+<script>
+console.log('WA tracker script loaded');
+
+function getBrowserName() {
+    var ua = navigator.userAgent;
+
+    if (ua.indexOf("Edg") > -1) return "Edge";
+    if (ua.indexOf("OPR") > -1 || ua.indexOf("Opera") > -1) return "Opera";
+    if (ua.indexOf("Chrome") > -1) return "Chrome";
+    if (ua.indexOf("Safari") > -1) return "Safari";
+    if (ua.indexOf("Firefox") > -1) return "Firefox";
+    if (ua.indexOf("SamsungBrowser") > -1) return "Samsung Browser";
+
+    return "Other";
+}
+
+document.addEventListener("click", function(e) {
+    var el = e.target.closest("a, .ht-ctc");
+    if (!el) return;
+
+    var href = el.getAttribute("href") || "";
+
+    var isWhatsAppLink =
+        href.indexOf("wa.me") > -1 ||
+        href.indexOf("api.whatsapp.com") > -1 ||
+        href.indexOf("web.whatsapp.com") > -1;
+
+    var isCTCButton = el.classList.contains("ht-ctc");
+
+    if (!isWhatsAppLink && !isCTCButton) return;
+
+    console.log("WhatsApp click detected:", href);
+
+    var formData = new FormData();
+    formData.append("page_url", window.location.href);
+    formData.append("link_text", (el.innerText || "WhatsApp Button").trim());
+    formData.append("browser", getBrowserName());
+
+    fetch("<?= base_url('track-whatsapp-click'); ?>", {
+        method: "POST",
+        body: formData
+    })
+    .then(function(response) {
+        return response.text();
+    })
+    .then(function(data) {
+        console.log("WA tracker response:", data);
+    })
+    .catch(function(error) {
+        console.error("WA tracker error:", error);
+    });
+});
+</script>

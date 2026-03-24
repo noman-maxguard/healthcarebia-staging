@@ -13,22 +13,15 @@ class Whatsapp_tracker extends CI_Controller
         log_message('error', '[wa_track] method reached');
 
         $page_url  = $this->input->post('page_url', true);
-        $wa_link   = $this->input->post('wa_link', true);
         $link_text = $this->input->post('link_text', true);
         $browser   = $this->input->post('browser', true);
 
         log_message('error', '[wa_track] POST: ' . json_encode([
             'page_url'  => $page_url,
-            'wa_link'   => $wa_link,
             'link_text' => $link_text,
             'browser'   => $browser
         ]));
 
-        // if (empty($wa_link)) {
-        //     log_message('error', '[wa_track] wa_link missing');
-        //     echo json_encode(['status' => 'error', 'message' => 'wa_link missing']);
-        //     return;
-        // }
 
         $subject = 'HCA - New WhatsApp Click Detected on website';
 

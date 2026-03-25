@@ -13,20 +13,32 @@ class Whatsapp_tracker extends CI_Controller
         log_message('error', '[wa_track] method reached');
 
         $page_url  = $this->input->post('page_url', true);
+        $wa_link   = $this->input->post('wa_link', true);
         $link_text = $this->input->post('link_text', true);
         $browser   = $this->input->post('browser', true);
 
         log_message('error', '[wa_track] POST: ' . json_encode([
             'page_url'  => $page_url,
+            'wa_link'   => $wa_link,
             'link_text' => $link_text,
             'browser'   => $browser
         ]));
 
+        // hard stop to prevent blank emails
+        if (empty($page_url) || empty($wa_link)) {
+            log_message('error', '[wa_track] invalid data, email skipped');
+            echo json_encode([
+                'status'  => 'error',
+                'message' => 'invalid data'
+            ]);
+            return;
+        }
 
         $subject = 'HCA - New WhatsApp Click Detected on website';
 
         $message  = "A visitor clicked a WhatsApp button on your website.\n\n";
         $message .= "Page URL: " . $page_url . "\n";
+        // $message .= "WhatsApp Link: " . $wa_link . "\n";
         $message .= "Button Text: " . $link_text . "\n\n";
         $message .= "Browser: " . $browser . "\n";
         $message .= "Time: " . date('F j, Y g:i A') . "\n";
@@ -47,7 +59,7 @@ class Whatsapp_tracker extends CI_Controller
 
         $this->load->library('email', $config, 'emailer');
 
-        $this->emailer->from('forms@mmzholdings.com', 'Whatsapp website Tracker');
+        $this->emailer->from('forms@mmzholdings.com', 'Whatsapp Website Tracker');
         $this->emailer->to([
             'noman@maxguard.ae',
             // 'info@healthcarebia.ae'
@@ -60,11 +72,20 @@ class Whatsapp_tracker extends CI_Controller
         if (!$sent) {
             $debug = $this->emailer->print_debugger(['headers', 'subject', 'body']);
             log_message('error', '[wa_track] EMAIL FAILED: ' . $debug);
-            echo json_encode(['status' => 'error', 'message' => 'mail failed', 'debug' => $debug]);
+
+            echo json_encode([
+                'status'  => 'error',
+                'message' => 'mail failed',
+                'debug'   => $debug
+            ]);
             return;
         }
 
         log_message('error', '[wa_track] EMAIL SENT');
-        echo json_encode(['status' => 'success']);
+
+        echo json_encode([
+            'status'  => 'success',
+            'message' => 'email sent'
+        ]);
     }
 }

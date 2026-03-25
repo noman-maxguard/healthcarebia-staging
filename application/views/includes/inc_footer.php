@@ -805,7 +805,6 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 
 <script>
-console.log('WA tracker script loaded');
 
 function getBrowserName() {
     var ua = navigator.userAgent;
@@ -821,7 +820,7 @@ function getBrowserName() {
 }
 
 document.addEventListener("click", function(e) {
-    var el = e.target.closest("a, .ht-ctc");
+    var el = e.target.closest("a");
     if (!el) return;
 
     var href = el.getAttribute("href") || "";
@@ -829,22 +828,25 @@ document.addEventListener("click", function(e) {
     var isWhatsAppLink =
         href.indexOf("wa.me") > -1 ||
         href.indexOf("api.whatsapp.com") > -1 ||
-        href.indexOf("web.whatsapp.com") > -1;
+        href.indexOf("web.whatsapp.com") > -1 ||
+        href.indexOf("whatsapp.com") > -1;
 
-    var isCTCButton = el.classList.contains("ht-ctc");
-
-    if (!isWhatsAppLink && !isCTCButton) return;
+    if (!isWhatsAppLink) return;
 
     console.log("WhatsApp click detected:", href);
 
-    var formData = new FormData();
-    formData.append("page_url", window.location.href);
-    formData.append("link_text", (el.innerText || "WhatsApp Button").trim());
-    formData.append("browser", getBrowserName());
+    var data = new URLSearchParams();
+    data.append("page_url", window.location.href);
+    data.append("wa_link", href);
+    data.append("link_text", (el.innerText || "WhatsApp Button").trim());
+    data.append("browser", getBrowserName());
 
     fetch("<?= base_url('track-whatsapp-click'); ?>", {
         method: "POST",
-        body: formData
+        headers: {
+            "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"
+        },
+        body: data.toString()
     })
     .then(function(response) {
         return response.text();

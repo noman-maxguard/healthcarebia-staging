@@ -54,11 +54,11 @@
 
 <div class="mob-inner-banner"
 
-     style="background-image: url(<?= base_url() ?>assets/frontend/img/ocean.png);background-repeat: no-repeat;background-size: cover; background-position: center bottom;">
+     style="background-image: url(<?= base_url() ?>assets/frontend/img/ocean.webp);background-repeat: no-repeat;background-size: cover; background-position: center bottom;">
 
     <section class="sub-banner"
 
-             style="background-image: url(<?= base_url() ?>assets/frontend/img/ocean.png);background-repeat: no-repeat;background-size: cover; background-position: bottom; min-height:600px">
+             style="background-image: url(<?= base_url() ?>assets/frontend/img/ocean.webp);background-repeat: no-repeat;background-size: cover; background-position: bottom; min-height:600px">
 
         <div class="overlay">
 
@@ -490,7 +490,7 @@
                                 <div class="img-inner">
                                     <a href="<?= base_url() ?>myers-iv-drip">
                                         <img src="<?= base_url() ?>assets/frontend/img/myers-cocktail.webp"
-                                             alt="Myers Cocktail Dubai also energy iv drip dubai"
+                                             alt="Myers Cocktail Dubai also energy iv drip dubai" 
                                              class="img-fluid"
                                              loading="lazy">
                                     </a>

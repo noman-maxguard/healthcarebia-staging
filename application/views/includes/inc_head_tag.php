@@ -35,7 +35,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link href="<?= base_url('assets/frontend/css/app.min.css?v=' . $asset_version) ?>" rel="stylesheet" media="all">
 
 <!-- Font-awesome -->
-<link href="<?= base_url('assets/frontend/css/all.min.css?v=' . $asset_version) ?>" rel="stylesheet" media="all">
+<!-- <link href="<?= base_url('assets/frontend/css/all.min.css?v=' . $asset_version) ?>" rel="stylesheet" media="all"> -->
+<link rel="preload" href="<?= base_url('assets/frontend/css/all.min.css?v=' . $asset_version) ?>" as="style" onload="this.rel='stylesheet'">
 
 <!-- 
 <link

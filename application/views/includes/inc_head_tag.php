@@ -20,9 +20,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- <link href="css/bootstrap.min.css" rel="stylesheet" media='all' defer as="style"> -->
 <link href="<?= base_url('assets/frontend/css/bootstrap.min.css?v=' . $asset_version) ?>" rel="stylesheet" media="all">
 
-
-<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Noto+Serif+Display:wght@400;600;700&display=swap" rel="stylesheet">
-
+<!-- <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> -->
 
 <?php $asset_version = time(); ?>
 

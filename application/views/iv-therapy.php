@@ -335,7 +335,7 @@
     </div>
 
 </section>
-<section class="section-gap my-5" style="background-color: #f9f9f9;">
+<section class="section-gap pt-5" style="background-color: #f9f9f9;">
 
     <div class="container">
 

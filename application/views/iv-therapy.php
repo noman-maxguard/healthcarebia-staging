@@ -1236,7 +1236,7 @@
     </div>
 </section>
 
-<section class="drip-at-home section-gap" style="background-image: url(<?= base_url() ?>assets/frontend/img/gwyer-bg.webp);">
+<section class="drip-at-home drip-at-home-parent-section section-gap" style="background-image: url(<?= base_url() ?>assets/frontend/img/gwyer-bg.webp);">
 
     <div class="container">
 

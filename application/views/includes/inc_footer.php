@@ -538,9 +538,19 @@
             </div>
         </div>
     </div>
-    <video style="object-fit: cover; background-size: cover; width: 100%; height: 100%;" preload="none" playsinline="" autoplay="" loop="" muted="" width="320" height="200">
+<!--     <video style="object-fit: cover; background-size: cover; width: 100%; height: 100%;" preload="none" playsinline="" autoplay="" loop="" muted="" width="320" height="200">
         <source src="<?= base_url() ?>assets/frontend/img/footer.mp4" type="video/mp4">
-    </video>
+    </video> -->
+
+    <script>
+        if (window.innerWidth > 768) {
+          document.write(`
+            <video style="object-fit: cover; background-size: cover; width: 100%; height: 100%;" preload="none" playsinline="" autoplay="" loop="" muted="" width="320" height="200">
+                <source src="<?= base_url() ?>assets/frontend/img/footer.mp4" type="video/mp4">
+            </video>
+          `);
+        }
+</script>
 
 
         <div id="iv-quiz-modal" style="display:none; position:fixed; top:0; left:0;
@@ -828,7 +838,7 @@ window.addEventListener('load', function () {
             playPromise.catch(function () {});
         }
 
-    }, 2500); // delay after full page load
+    }, 3000); // delay after full page load
 
 });
 </script>

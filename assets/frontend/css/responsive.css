@@ -401,6 +401,10 @@ footer video {
 @media (max-width:767px) {
 
 
+.drip-at-home-parent-section {
+    background: var(--light-green) !important;
+}
+
 .mega-item ul li::before {
     margin: 0px 0 0;
 }

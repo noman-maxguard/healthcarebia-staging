@@ -52,13 +52,9 @@
 
 <!--======== banner ======-->
 
-<div class="mob-inner-banner"
-
-     style="background-image: url(<?= base_url() ?>assets/frontend/img/ocean.webp);background-repeat: no-repeat;background-size: cover; background-position: center bottom;">
-
-    <section class="sub-banner"
-
-             style="background-image: url(<?= base_url() ?>assets/frontend/img/ocean.webp);background-repeat: no-repeat;background-size: cover; background-position: bottom; min-height:600px">
+<div class="mob-inner-banner">
+    <section class="sub-banner">
+             <img src="<?= base_url() ?>assets/frontend/img/ocean.webp" fetchpriority="high" loading="eager" width="100%" height="600" style="height:600px; width:100%; object-fit:cover; object-position: bottom;">
 
         <div class="overlay">
 

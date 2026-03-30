@@ -538,9 +538,11 @@
             </div>
         </div>
     </div>
-    <video style="object-fit: cover; background-size: cover; width: 100%; height: 100%;" preload="auto" playsinline="" autoplay="" loop="" muted="" width="320" height="200">
+    <video style="object-fit: cover; background-size: cover; width: 100%; height: 100%;" preload="none" playsinline="" autoplay="" loop="" muted="" width="320" height="200">
         <source src="<?= base_url() ?>assets/frontend/img/footer.mp4" type="video/mp4">
     </video>
+
+
         <div id="iv-quiz-modal" style="display:none; position:fixed; top:0; left:0;
         width:100%; height:100%; background:rgba(0,0,0,0.6); z-index:9999;
         align-items:center; justify-content:center;">
@@ -801,6 +803,33 @@ document.addEventListener("DOMContentLoaded", function () {
          sessionStorage.setItem("callbackPopupClosed", "yes");
       }
    });
+});
+</script>
+
+<script>
+window.addEventListener('load', function () {
+
+    setTimeout(function () {
+
+        var video = document.getElementById('footerVideo');
+        if (!video) return;
+
+        var source = video.querySelector('source');
+        if (!source) return;
+
+        var videoSrc = source.getAttribute('data-src');
+        if (!videoSrc) return;
+
+        source.src = videoSrc;
+        video.load();
+
+        var playPromise = video.play();
+        if (playPromise !== undefined) {
+            playPromise.catch(function () {});
+        }
+
+    }, 2500); // delay after full page load
+
 });
 </script>
 

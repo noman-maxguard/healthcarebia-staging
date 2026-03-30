@@ -24,22 +24,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <?php $asset_version = time(); ?>
 
-<!-- <link href="<?= base_url('assets/frontend/css/fancybox.css?v=' . $asset_version) ?>" rel="stylesheet" media="all">
+<!-- Unminified Css
+<link href="<?= base_url('assets/frontend/css/fancybox.css?v=' . $asset_version) ?>" rel="stylesheet" media="all">
 <link href="<?= base_url('assets/frontend/css/library.css?v=' . $asset_version) ?>" rel="stylesheet" media="all">
 <link href="<?= base_url('assets/frontend/css/style.css?v=' . $asset_version) ?>" rel="stylesheet" media="all">
-<link href="<?= base_url('assets/frontend/css/responsive.css?v=' . $asset_version) ?>" rel="stylesheet" media="all"> -->
+<link href="<?= base_url('assets/frontend/css/responsive.css?v=' . $asset_version) ?>" rel="stylesheet" media="all"> 
+-->
 
 <!-- Minified & Combined css -->
 <link href="<?= base_url('assets/frontend/css/app.min.css?v=' . $asset_version) ?>" rel="stylesheet" media="all">
 
+<!-- Font-awesome -->
+<link href="<?= base_url('assets/frontend/css/all.min.css?v=' . $asset_version) ?>" rel="stylesheet" media="all">
 
+<!-- 
 <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
   integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
   crossorigin="anonymous"
   referrerpolicy="no-referrer"
-/>
+/> -->
+
 <!-- Meta Pixel Code -->
 <!-- <script>
 !function(f,b,e,v,n,t,s)

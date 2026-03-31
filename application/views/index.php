@@ -238,7 +238,7 @@
 
     <video style="object-fit: cover; background-size: cover; width: 100%; height: 100%;" preload="auto" playsinline="" autoplay="" loop="" muted="" width="320" height="200">
 
-        <source src="<?= base_url() ?>assets/frontend/img/banner-video.mp4">
+        <source src="<?= base_url() ?>assets/frontend/img/banner-video-new.mp4">
 
     </video>
 
@@ -458,7 +458,7 @@
 
     <video style="object-fit: cover; background-size: cover; width: 100%; height: 100%;" preload="auto" playsinline="" autoplay="" loop="" muted="" width="320" height="200">
 
-        <source src="<?= base_url() ?>assets/frontend/img/beach.mp4" type="video/mp4">
+        <source src="<?= base_url() ?>assets/frontend/img/beach-new.mp4" type="video/mp4">
 
     </video>
 

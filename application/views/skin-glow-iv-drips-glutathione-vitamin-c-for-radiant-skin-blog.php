@@ -126,7 +126,7 @@
                         </li>
                         <li>
                             <h3>Additional Collagen-support blends</h3>
-                            <p>Skin glow IV drips also come with additional ingredients like vitamins, minerals, and amino acids that make your skin clearer and your body stronger. These drips come with B-complex vitamins that improve blood circulation as well as cell turnover. They also offer minerals like Zinc that help with inflammation control or healing.</p>
+                            <p>Skin glow IV drips also come with additional ingredients like B-complex vitamins, amino acids, and biotin.</p>
                             <p>These ingredients act as a support crew to the Glutathione and Vitamin C in these drips, which increases their effectiveness manifold.</p>
                         </li>
                     </ul>

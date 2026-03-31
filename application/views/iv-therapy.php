@@ -62,7 +62,7 @@
                       srcset="<?= base_url() ?>assets/frontend/img/ocean-mobile.webp">
 
               <!-- Desktop -->
-              <img src="<?= base_url() ?>assets/frontend/img/ocean.webp" alt="Premium IV Therapy at home in Dubai" fetchpriority="high" loading="eager" width="100%" height="600" style="height:600px; width:100%; object-fit:cover; object-position: bottom;">
+              <img src="<?= base_url() ?>assets/frontend/img/ocean.webp" alt="Premium IV Therapy at home in Dubai" fetchpriority="high" loading="eager" width="1280" height="720" style="height:600px; width:100%; object-fit:cover; object-position: bottom;">
 
             </picture>
 

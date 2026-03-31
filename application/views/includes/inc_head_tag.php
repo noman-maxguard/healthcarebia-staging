@@ -37,7 +37,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- Font-awesome -->
 <link rel="preload" href="<?= base_url('assets/frontend/css/all.min.css?v=' . $asset_version) ?>" as="style" onload="this.rel='stylesheet'">
 
-<link rel="preload" as="image" href="<?= base_url('assets/frontend/img/ocean.webp') ?>">
+<!-- Desktop -->
+<link rel="preload" as="image" href="<?= base_url() ?>assets/frontend/img/ocean.webp" media="(min-width: 769px)">
+
+<!-- Mobile -->
+<link rel="preload" as="image" href="<?= base_url() ?>assets/frontend/img/ocean-mobile.webp" media="(max-width: 768px)">
 <!-- 
 <link
   rel="stylesheet"

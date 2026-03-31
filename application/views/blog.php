@@ -51,6 +51,21 @@
         <div class="row">
 
             <div class="col-md-3 mb-3">
+                <a href="<?= base_url() ?>skin-glow-iv-drips-glutathione-vitamin-c-for-radiant-skin" class="card-style3 card-style4 same">
+                    <img
+                        src="<?= base_url() ?>assets/frontend/img/blog54.webp"
+                        alt="Skin glow IV Drips"
+                        class="img-fluid"
+                        loading="lazy"
+                        width="315"
+                        height="213"
+                    >
+                    <h6>Skin Glow IV Drips: Glutathione & Vitamin C for Radiant Skin</h6>
+                    <p>The science, the hype, the results, everything you need to know about Skin Glow IV Drips, revealing what actually works for radiant skin</p>
+                </a>
+            </div>
+
+            <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>types-of-iv-drips-and-their-benefits" class="card-style3 card-style4 same">
                     <img
                         src="<?= base_url() ?>assets/frontend/img/blog53.webp"

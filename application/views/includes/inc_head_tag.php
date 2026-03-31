@@ -99,7 +99,7 @@ fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=1280000576857900&ev=PageView&noscript=1"
-/></noscript> -->
+/></noscript>
 <!-- End Meta Pixel Code -->
 
 <title><?= !empty($commonData->meta_title) ? $commonData->meta_title : '' ?></title>

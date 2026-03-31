@@ -8,12 +8,45 @@ $whatsappHref = $this->MDL_Settings->renderWhatsappLink($whatsappPhoneString, $w
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Google tag manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5SZRK93F');</script>
+})(window,document,'script','dataLayer','GTM-5SZRK93F');</script> -->
 <!-- Google tag manager --> 
+
+
+<script>
+window.dataLayer = window.dataLayer || [];
+
+document.addEventListener('DOMContentLoaded', function () {
+  setTimeout(initGTM, 3500);
+});
+
+document.addEventListener('scroll', initGTMOnEvent, { once: true });
+document.addEventListener('mousemove', initGTMOnEvent, { once: true });
+document.addEventListener('touchstart', initGTMOnEvent, { once: true });
+
+function initGTMOnEvent() {
+  initGTM();
+}
+
+function initGTM() {
+  if (window.gtmDidInit) return;
+  window.gtmDidInit = true;
+
+  window.dataLayer.push({
+    'gtm.start': new Date().getTime(),
+    event: 'gtm.js'
+  });
+
+  var script = document.createElement('script');
+  script.async = true;
+  script.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-5SZRK93F'; // ✅ FIXED
+  document.head.appendChild(script);
+}
+</script>
+
 <link rel="icon" href="<?= base_url() ?>assets/frontend/img/favicon.svg" type="image/svg+xml" sizes="16x16">
 <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">-->
@@ -66,7 +99,7 @@ fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=1280000576857900&ev=PageView&noscript=1"
-/></noscript>
+/></noscript> -->
 <!-- End Meta Pixel Code -->
 
 <title><?= !empty($commonData->meta_title) ? $commonData->meta_title : '' ?></title>

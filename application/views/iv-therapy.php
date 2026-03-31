@@ -155,7 +155,7 @@
 
                                 <div class="img">
 
-                                    <img src="<?= base_url() ?>assets/frontend/img/iv-drip.svg" alt="IV Drip icon1" loading="lazy">
+                                    <img src="<?= base_url() ?>assets/frontend/img/iv-drip.svg" alt="IV Drip icon1" loading="lazy" width="52" height="62">
 
                                 </div>
 
@@ -179,7 +179,7 @@
 
                                 <div class="img">
 
-                                    <img src="<?= base_url() ?>assets/frontend/img/doctors.svg" alt="IV Drip icon2" loading="lazy">
+                                    <img src="<?= base_url() ?>assets/frontend/img/doctors.svg" alt="IV Drip icon2" loading="lazy"width="52" height="52" >
 
                                 </div>
 
@@ -201,7 +201,7 @@
 
                                 <div class="img">
 
-                                    <img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="IV Drip icon3" loading="lazy">
+                                    <img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="IV Drip icon3" loading="lazy" width="52" height="52">
 
                                 </div>
 
@@ -223,7 +223,7 @@
 
                                 <div class="img">
 
-                                    <img src="<?= base_url() ?>assets/frontend/img/tick.svg" alt="IV Drip icon4" loading="lazy">
+                                    <img src="<?= base_url() ?>assets/frontend/img/tick.svg" alt="IV Drip icon4" loading="lazy" width="52" height="62">
 
                                 </div>
 
@@ -245,7 +245,7 @@
 
                                 <div class="img">
 
-                                    <img src="<?= base_url() ?>assets/frontend/img/home-care.svg" alt="IV Drip icon5" loading="lazy">
+                                    <img src="<?= base_url() ?>assets/frontend/img/home-care.svg" alt="IV Drip icon5" loading="lazy" width="52" height="49">
 
                                 </div>
 
@@ -269,7 +269,7 @@
 
                                 <div class="img">
 
-                                    <img src="<?= base_url() ?>assets/frontend/img/map-icon.svg" alt="IV Drip icon6" loading="lazy">
+                                    <img src="<?= base_url() ?>assets/frontend/img/map-icon.svg" alt="IV Drip icon6" loading="lazy" width="52" height="62">
 
                                 </div>
 
@@ -291,7 +291,7 @@
 
                                 <div class="img">
 
-                                    <img src="<?= base_url() ?>assets/frontend/img/experience.svg" alt="IV Drip icon7" loading="lazy">
+                                    <img src="<?= base_url() ?>assets/frontend/img/experience.svg" alt="IV Drip icon7" loading="lazy" width="52" height="62">
 
                                 </div>
 
@@ -313,7 +313,7 @@
 
                                 <div class="img">
 
-                                    <img src="<?= base_url() ?>assets/frontend/img/health.svg" alt="IV Drip icon8" loading="lazy">
+                                    <img src="<?= base_url() ?>assets/frontend/img/health.svg" alt="IV Drip icon8" loading="lazy" width="52" height="40">
 
                                 </div>
 
@@ -497,7 +497,7 @@
                                     <a href="<?= base_url() ?>myers-iv-drip">
                                         <img src="<?= base_url() ?>assets/frontend/img/myers-cocktail.webp"
                                              alt="Myers Cocktail Dubai also energy iv drip dubai" 
-                                             class="img-fluid"
+                                             class="img-fluid" width="150" height="270"
                                              loading="lazy">
                                     </a>
                                 </div>
@@ -535,7 +535,7 @@
                                     <a href="<?= base_url() ?>immune-iv-drip">
                                         <img src="<?= base_url() ?>assets/frontend/img/immune-booster-iv-drip.webp"
                                              alt="Immunity Mega Boost Drip Dubai"
-                                             class="img-fluid"
+                                             class="img-fluid" width="150" height="270"
                                              loading="lazy">
                                     </a>
                                 </div>
@@ -573,7 +573,7 @@
                                     <a href="<?= $whatsappHref ?>">
                                         <img src="<?= base_url() ?>assets/frontend/img/cold-flu-iv-drip.webp"
                                              alt="Cold and Flu Drip Dubai"
-                                             class="img-fluid"
+                                             class="img-fluid" width="150" height="270"
                                              loading="lazy">
                                     </a>
                                 </div>
@@ -611,7 +611,7 @@
                                     <a href="<?= $whatsappHref ?>">
                                         <img src="<?= base_url() ?>assets/frontend/img/mega-c-iv-drip.webp"
                                              alt="Mega C Drip Dubai"
-                                             class="img-fluid"
+                                             class="img-fluid" width="150" height="270"
                                              loading="lazy">
                                     </a>
                                 </div>
@@ -649,7 +649,7 @@
                                     <a href="<?= base_url() ?>good-sleep-iv-drip">
                                         <img src="<?= base_url() ?>assets/frontend/img/good-sleep-iv-drip.webp"
                                              alt="Good Sleep Drip Dubai"
-                                             class="img-fluid"
+                                             class="img-fluid" width="150" height="270"
                                              loading="lazy">
                                     </a>
                                 </div>
@@ -687,7 +687,7 @@
                                     <a href="<?= $whatsappHref ?>">
                                         <img src="<?= base_url() ?>assets/frontend/img/her-iv-drip.webp"
                                              alt="Her Drip Dubai"
-                                             class="img-fluid"
+                                             class="img-fluid" width="150" height="270"
                                              loading="lazy">
                                     </a>
                                 </div>
@@ -725,7 +725,7 @@
                                     <a href="<?= $whatsappHref ?>">
                                         <img src="<?= base_url() ?>assets/frontend/img/jet-lag-iv-drip.webp"
                                              alt="Jet Lag Drip Dubai"
-                                             class="img-fluid"
+                                             class="img-fluid" width="150" height="270"
                                              loading="lazy">
                                     </a>
                                 </div>
@@ -777,7 +777,7 @@
                                     <a href="<?= $whatsappHref ?>">
                                         <img src="<?= base_url() ?>assets/frontend/img/ultra-detox.webp"
                                              alt="Ultra Detox Drip Dubai"
-                                             class="img-fluid"
+                                             class="img-fluid" width="150" height="270"
                                              loading="lazy">
                                     </a>
                                 </div>
@@ -815,7 +815,7 @@
                                     <a href="<?= $whatsappHref ?>">
                                         <img src="<?= base_url() ?>assets/frontend/img/hydration-iv-drip.webp"
                                              alt="Swift Hydration Drip Dubai"
-                                             class="img-fluid"
+                                             class="img-fluid" width="150" height="270"
                                              loading="lazy">
                                     </a>
                                 </div>
@@ -853,7 +853,7 @@
                                     <a href="<?= base_url() ?>hangover-iv-drip">
                                         <img src="<?= base_url() ?>assets/frontend/img/hangover-iv-drip.webp"
                                              alt="Hangover Recovery Drip Dubai"
-                                             class="img-fluid"
+                                             class="img-fluid" width="150" height="270"
                                              loading="lazy">
                                     </a>
                                 </div>
@@ -891,7 +891,7 @@
                                     <a href="<?= $whatsappHref ?>">
                                         <img src="<?= base_url() ?>assets/frontend/img/sunburn-iv-drip.webp"
                                              alt="Sunburn Recovery Drip Dubai"
-                                             class="img-fluid"
+                                             class="img-fluid" width="150" height="270"
                                              loading="lazy">
                                     </a>
                                 </div>
@@ -929,7 +929,7 @@
                                     <a href="<?= base_url() ?>gut-health-iv-drip">
                                         <img src="<?= base_url() ?>assets/frontend/img/gut-health-iv-drip.webp"
                                              alt="Gut Health Drip Dubai"
-                                             class="img-fluid"
+                                             class="img-fluid" width="150" height="270"
                                              loading="lazy">
                                     </a>
                                 </div>
@@ -967,7 +967,7 @@
                                     <a href="<?= $whatsappHref ?>">
                                         <img src="<?= base_url() ?>assets/frontend/img/weight-loss-iv-drip.webp"
                                              alt="Weight Loss Drip Dubai"
-                                             class="img-fluid"
+                                             class="img-fluid" width="150" height="270"
                                              loading="lazy">
                                     </a>
                                 </div>
@@ -1005,7 +1005,7 @@
                                     <a href="<?= $whatsappHref ?>">
                                         <img src="<?= base_url() ?>assets/frontend/img/custom-iv-drip.webp"
                                              alt="Custom Detox Drip Dubai"
-                                             class="img-fluid"
+                                             class="img-fluid" width="150" height="270"
                                              loading="lazy">
                                     </a>
                                 </div>
@@ -1057,7 +1057,7 @@
                                     <a href="<?= base_url() ?>nad-iv-drip">
                                         <img src="<?= base_url() ?>assets/frontend/img/nad-iv-drip.webp"
                                              alt="NAD+ Drip Dubai"
-                                             class="img-fluid"
+                                             class="img-fluid" width="150" height="270"
                                              loading="lazy">
                                     </a>
                                 </div>
@@ -1095,7 +1095,7 @@
                                     <a href="<?= base_url() ?>energy-focus-iv-drip">
                                         <img src="<?= base_url() ?>assets/frontend/img/energy-iv-drip.webp"
                                              alt="Energy Drip Dubai"
-                                             class="img-fluid"
+                                             class="img-fluid" width="150" height="270"
                                              loading="lazy">
                                     </a>
                                 </div>
@@ -1133,7 +1133,7 @@
                                     <a href="<?= $whatsappHref ?>">
                                         <img src="<?= base_url() ?>assets/frontend/img/beauty-iv-drip.webp"
                                              alt="Beauty Drip Dubai"
-                                             class="img-fluid"
+                                             class="img-fluid" width="150" height="270"
                                              loading="lazy">
                                     </a>
                                 </div>
@@ -1171,7 +1171,7 @@
                                     <a href="<?= $whatsappHref ?>">
                                         <img src="<?= base_url() ?>assets/frontend/img/glow-skin-iv-drip.webp"
                                              alt="Glow Skin Drip Dubai"
-                                             class="img-fluid"
+                                             class="img-fluid" width="150" height="270"
                                              loading="lazy">
                                     </a>
                                 </div>
@@ -1209,7 +1209,7 @@
                                     <a href="<?= base_url() ?>myers-iv-drip">
                                         <img src="<?= base_url() ?>assets/frontend/img/myers-cocktail.webp"
                                              alt="Myers Cocktail Anti-Aging Drip Dubai"
-                                             class="img-fluid"
+                                             class="img-fluid" width="150" height="270"
                                              loading="lazy">
                                     </a>
                                 </div>

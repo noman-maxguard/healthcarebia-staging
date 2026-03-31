@@ -102,9 +102,7 @@
                     <ul class="tick-list">
                         <li>Glutathione</li>
                         <li>Vitamin C</li>
-                        <li>B-complex vitamins</li>
-                        <li>Biotin</li>
-                        <li>Amino acids</li>
+                        <li>Zinc </li>
                     </ul>
                     <br>
                     <p>These ingredients in skin glow IV drips offer instant hydration to your skin. They also detoxify your skin from the inside, which results in skin clarity as well as radiance.</p>

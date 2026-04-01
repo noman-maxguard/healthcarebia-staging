@@ -704,7 +704,17 @@ h2.mb-4 {
 
      style="background-image: url(<?= base_url() ?>assets/frontend/img/lab-test-at-home-banner.webp);">
 
-    <section class="sub-banner" style="background-image: url(<?= base_url() ?>assets/frontend/img/lab-test-at-home-banner.webp);">
+    <section class="sub-banner">
+
+        <picture style="width: 100%;">
+          <!-- Mobile -->
+          <source media="(max-width: 768px)" 
+                  srcset="<?= base_url() ?>assets/frontend/img/lab-test-at-home-banner.webp">
+
+          <!-- Desktop -->
+          <img src="<?= base_url() ?>assets/frontend/img/lab-test-at-home-banner.webp" alt="Luxury private lab testing at home in Dubai" fetchpriority="high" loading="eager" width="1920" height="600" style="height:600px; width:100%; object-fit:cover; object-position: bottom;">
+
+        </picture>
 
         <div class="overlay">
 
@@ -939,7 +949,7 @@ h2.mb-4 {
                       <div class="test-row item">
                           <div class="icon-col">
                               <div class="lab-icon">
-                                <img src="<?= base_url() ?>assets/frontend/img/labtest-1.svg" alt="Common & Functional Tests">
+                                <img src="<?= base_url() ?>assets/frontend/img/labtest-1.svg" alt="Common & Functional Tests" width="43" height="50">
                               </div>
                                 <h4>General<br> Health Panels</h4>
                                 <p>Comprehensive routine testing for overall health assessment and early detection of common conditions.
@@ -952,7 +962,7 @@ h2.mb-4 {
                       <div class="test-row item">
                           <div class="icon-col">
                               <div class="lab-icon">
-                                <img src="<?= base_url() ?>assets/frontend/img/labtest-3.svg" alt="Common & Functional Tests">
+                                <img src="<?= base_url() ?>assets/frontend/img/labtest-3.svg" alt="Common & Functional Tests" width="50" height="50">
                               </div>
                                 <h4>DNA<br> & Genetic Testing</h4>
                                 <p>Unlock insights into your genetic makeup for personalized health recommendations and risk assessment.
@@ -965,7 +975,7 @@ h2.mb-4 {
                       <div class="test-row item">
                           <div class="icon-col">
                               <div class="lab-icon">
-                                <img src="<?= base_url() ?>assets/frontend/img/labtest-2.svg" alt="Common & Functional Tests">
+                                <img src="<?= base_url() ?>assets/frontend/img/labtest-2.svg" alt="Common & Functional Tests" width="29" height="50">
                               </div>
                                 <h4>Allergy<br> & Food Intolerance Testing</h4>
                                 <p>Identify triggers and sensitivities to help you make informed dietary and lifestyle choices.
@@ -978,7 +988,7 @@ h2.mb-4 {
                       <div class="test-row item">
                           <div class="icon-col">
                               <div class="lab-icon">
-                                <img src="<?= base_url() ?>assets/frontend/img/labtest-4.svg" alt="Common & Functional Tests">
+                                <img src="<?= base_url() ?>assets/frontend/img/labtest-4.svg" alt="Common & Functional Tests" width="50" height="50">
                               </div>
                                 <h4>Custom <br> Blood Panels</h4>
                                 <p>Tailored blood panels designed to meet your specific health concerns and monitoring needs.
@@ -991,7 +1001,7 @@ h2.mb-4 {
                       <div class="test-row item">
                           <div class="icon-col">
                               <div class="lab-icon">
-                                <img src="<?= base_url() ?>assets/frontend/img/labtest-5.svg" alt="Common & Functional Tests">
+                                <img src="<?= base_url() ?>assets/frontend/img/labtest-5.svg" alt="Common & Functional Tests" width="50" height="50">
                               </div>
                                 <h4>Hormone<br> Testing</h4>
                                 <p>Essential health screenings to maintain optimal wellness and track your health metrics over time.
@@ -1004,7 +1014,7 @@ h2.mb-4 {
                       <div class="test-row item">
                           <div class="icon-col">
                               <div class="lab-icon">
-                                <img src="<?= base_url() ?>assets/frontend/img/labtest-6.svg" alt="Common & Functional Tests">
+                                <img src="<?= base_url() ?>assets/frontend/img/labtest-6.svg" alt="Common & Functional Tests" width="70" height="50">
                               </div>
                                 <h4>STD<br> Testing</h4>
                                 <p>Confidential testing for sexual health and wellness to support your intimate well-being.
@@ -1017,7 +1027,7 @@ h2.mb-4 {
                       <div class="test-row item">
                           <div class="icon-col">
                               <div class="lab-icon">
-                                <img src="<?= base_url() ?>assets/frontend/img/labtest-7.svg" alt="Common & Functional Tests">
+                                <img src="<?= base_url() ?>assets/frontend/img/labtest-7.svg" alt="Common & Functional Tests" width="50" height="50">
                               </div>
                                 <h4>Men's <br> Health Tests</h4>
                                 <p>Specialized health assessments focusing on male-specific health concerns and preventive care.
@@ -1030,7 +1040,7 @@ h2.mb-4 {
                       <div class="test-row item">
                           <div class="icon-col">
                               <div class="lab-icon">
-                                <img src="<?= base_url() ?>assets/frontend/img/labtest-8.svg" alt="Common & Functional Tests">
+                                <img src="<?= base_url() ?>assets/frontend/img/labtest-8.svg" alt="Common & Functional Tests" width="35" height="50">
                               </div>
                                 <h4>Women's<br> Health Tests</h4>
                                 <p>Comprehensive women’s health testing including hormonal, reproductive, and preventive screenings.

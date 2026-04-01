@@ -6,7 +6,7 @@
 
     <?php include 'includes/inc_head_tag.php'; ?>
 
-    
+
 <!-- Desktop -->
 <link rel="preload" as="image" href="<?= base_url() ?>assets/frontend/img/lab-test-at-home-banner.webp" media="(min-width: 769px)">
 
@@ -500,7 +500,7 @@ section.why-choose-therapy.section-gap.lab-test-categories {
 }
 
 .sub-banner .banner-list ul li {
-    width: 50%;
+    width: 100%;
 }
 
 .iv-step-card {
@@ -629,15 +629,6 @@ h2.mb-4 {
     font-size: 12px;
 }
 
-.sub-banner P {
-    font-size: 12px;
-    color: #fff;
-}
-
-.sub-banner .banner-list ul li {
-        width: 50%;
-        font-size: 11px;
-    }
 
 .sub-banner a.primary-btn {
     width: 100%;

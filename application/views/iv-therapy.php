@@ -16,6 +16,13 @@
 
 <?php include 'includes/inc_head_tag.php'; ?>
 
+
+<!-- Desktop -->
+<link rel="preload" as="image" href="<?= base_url() ?>assets/frontend/img/ocean.webp" media="(min-width: 769px)">
+
+<!-- Mobile -->
+<link rel="preload" as="image" href="<?= base_url() ?>assets/frontend/img/ocean-mobile.webp" media="(max-width: 768px)">
+
 <style>
     .iv-drips-slider .owl-nav{
         display: flex;

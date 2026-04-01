@@ -6,6 +6,13 @@
 
     <?php include 'includes/inc_head_tag.php'; ?>
 
+    
+<!-- Desktop -->
+<link rel="preload" as="image" href="<?= base_url() ?>assets/frontend/img/lab-test-at-home-banner.webp" media="(min-width: 769px)">
+
+<!-- Mobile -->
+<link rel="preload" as="image" href="<?= base_url() ?>assets/frontend/img/lab-test-at-home-banner-mobile.webp" media="(max-width: 768px)">
+
 <style>
 
   .why-choose-therapy{
@@ -679,16 +686,9 @@ h2.mb-4 {
 }
 
 
-
-
-
 </style>
 
-
-
 </head>
-
-
 
 <body>
 
@@ -700,16 +700,14 @@ h2.mb-4 {
 
 <!--======== banner ======-->
 
-<div class="mob-inner-banner"
-
-     style="background-image: url(<?= base_url() ?>assets/frontend/img/lab-test-at-home-banner.webp);">
+<div class="mob-inner-banner">
 
     <section class="sub-banner">
 
         <picture style="width: 100%;">
           <!-- Mobile -->
           <source media="(max-width: 768px)" 
-                  srcset="<?= base_url() ?>assets/frontend/img/lab-test-at-home-banner.webp">
+                  srcset="<?= base_url() ?>assets/frontend/img/lab-test-at-home-banner-mobile.webp">
 
           <!-- Desktop -->
           <img src="<?= base_url() ?>assets/frontend/img/lab-test-at-home-banner.webp" alt="Luxury private lab testing at home in Dubai" fetchpriority="high" loading="eager" width="1920" height="600" style="height:600px; width:100%; object-fit:cover; object-position: bottom;">

@@ -50,7 +50,7 @@
 <body>
 <?php include 'includes/inc_header.php'; ?>
 <section class="sub-banner sub-banner-3"
-         style="background-image: url(<?= base_url() ?>assets/frontend/img/sub-banner-3.png);">
+         style="background-image: url(<?= base_url() ?>assets/frontend/img/sub-banner-3.webp);">
     <div class="overlay">
         <div class="container">
             <div class="row">
@@ -70,7 +70,7 @@
 <section class="section-gap">
     <div class="container">
         <div class="row">
-            <div class="col-md-5 mb-3"><img src="<?= base_url() ?>assets/frontend/img/alopecia-test.png"  width="497" height="490" alt="Alopecia Test Dubai"
+            <div class="col-md-5 mb-3"><img src="<?= base_url() ?>assets/frontend/img/alopecia-test.webp"  width="497" height="490" alt="Alopecia Test Dubai"
                                             class="img-fluid rounded "></div>
             <div class="col-md-7">
                 <div class="inner-page-right">

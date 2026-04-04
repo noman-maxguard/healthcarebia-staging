@@ -56,7 +56,7 @@
 <?php include 'includes/inc_header.php'; ?>
 
 <section class="sub-banner small-banner small-banner-inner"
-         style="background-image: url(<?= base_url() ?>assets/frontend/img/myers-banner.jpg);">
+         style="background-image: url(<?= base_url() ?>assets/frontend/img/small-banner.webp);">
     <div class="overlay"></div>
 </section>
 

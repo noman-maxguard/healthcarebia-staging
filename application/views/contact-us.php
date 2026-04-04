@@ -6,7 +6,7 @@
    <body>
       <?php include 'includes/inc_header.php'; ?>
       <section class="sub-banner small-banner"
-         style="background-image: url(<?= base_url() ?>assets/frontend/img/small-banner.png);">
+         style="background-image: url(<?= base_url() ?>assets/frontend/img/small-banner.webp);">
          <div class="overlay">
             <div class="container">
                <div class="row">

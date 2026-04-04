@@ -240,7 +240,7 @@
                 <div class="row">
                     <div class="col-md-5 mb-3 mb-sm-0">
 
-                            <div class="img-responsive" ><img src="<?= base_url() ?>assets/frontend/img/about-us-wellness.png" alt="Healthcare Mission" height="400" width="402" class="rounded d-md-block d-none"></div>
+                            <div class="img-responsive" ><img src="<?= base_url() ?>assets/frontend/img/about-us-wellness.webp" alt="Healthcare Mission" height="400" width="402" class="rounded d-md-block d-none"></div>
                   
 
                     </div>

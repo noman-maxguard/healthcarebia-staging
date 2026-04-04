@@ -32,7 +32,7 @@
   },
   "image": {
     "@type": "ImageObject",
-    "url": "https://www.healthcarebia.ae/assets/frontend/img/small-banner.png",
+    "url": "https://www.healthcarebia.ae/assets/frontend/img/small-banner.webp",
     "width": 1200,
     "height": 630
   }
@@ -49,7 +49,7 @@
 
 
 <section class="sub-banner small-banner small-banner-inner"
-         style="background-image: url(<?= base_url() ?>assets/frontend/img/small-banner.png);">
+         style="background-image: url(<?= base_url() ?>assets/frontend/img/small-banner.webp);">
     <div class="overlay"></div>
 </section>
 <section class="light-bg-color section-gap">

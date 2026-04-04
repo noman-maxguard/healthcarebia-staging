@@ -211,7 +211,7 @@
 
     </div>
 
-    <div class="col-md-12 text-center"><img src="<?= base_url() ?>assets/frontend/img/oxygen-img1.webp" alt="Oxygen Therapy Dubai" class="img-fluid"></div>
+    <div class="col-md-12 text-center"><img src="<?= base_url() ?>assets/frontend/img/oxygen-img1.webp" width="800" height="403" alt="Oxygen Therapy Dubai" class="img-fluid"></div>
 
 </section>
 <section class="faq-block section-gap">

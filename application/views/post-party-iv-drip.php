@@ -203,7 +203,7 @@
 
                             <div class="inner-box-style">
                                 
-                                <img src="<?= base_url() ?>assets/frontend/img/headache.svg" alt="Post Party IV Drip Dubai Icon1" loading="lazy">
+                                <img src="<?= base_url() ?>assets/frontend/img/headache.svg" width="60" height="55"alt="Post Party IV Drip Dubai Icon1" loading="lazy">
 
                                 <h6>Headache</h6></div>
 
@@ -211,7 +211,7 @@
 
                         <div class="col-6 col-md-4">
 
-                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/nausea.svg" alt="Post Party IV Drip Dubai Icon2" loading="lazy">
+                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/nausea.svg" width="60" height="55"alt="Post Party IV Drip Dubai Icon2" loading="lazy">
 
                                 <h6>Nausea</h6></div>
 
@@ -219,7 +219,7 @@
 
                         <div class="col-6 col-md-4">
 
-                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/fatigue.svg" alt="Post Party IV Drip Dubai Icon3" loading="lazy">
+                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/fatigue.svg" width="60" height="55"alt="Post Party IV Drip Dubai Icon3" loading="lazy">
 
                                 <h6>Fatigue</h6></div>
 
@@ -227,7 +227,7 @@
 
                         <div class="col-6 col-md-4">
 
-                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/dehydration.svg" alt="Post Party IV Drip Dubai Icon4" loading="lazy">
+                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/dehydration.svg" width="60" height="55"alt="Post Party IV Drip Dubai Icon4" loading="lazy">
 
                                 <h6>Dehydration</h6></div>
 
@@ -235,7 +235,7 @@
 
                         <div class="col-6 col-md-4">
 
-                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/dizziness.svg" alt="Post Party IV Drip Dubai Icon5" loading="lazy">
+                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/dizziness.svg" width="60" height="55"alt="Post Party IV Drip Dubai Icon5" loading="lazy">
 
                                 <h6>Dizziness</h6></div>
 
@@ -243,7 +243,7 @@
 
                         <div class="col-6 col-md-4">
 
-                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/muscle-aches.svg" alt="Post Party IV Drip Dubai Icon6" loading="lazy">
+                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/muscle-aches.svg" width="60" height="55"alt="Post Party IV Drip Dubai Icon6" loading="lazy">
 
                                 <h6>Muscle aches</h6></div>
 
@@ -263,7 +263,7 @@
 
                         <div class="col-6 col-md-4">
 
-                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/rapid-rehydration.svg" alt="Post Party IV Drip Dubai Icon7" loading="lazy">
+                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/rapid-rehydration.svg" width="60" height="55"alt="Post Party IV Drip Dubai Icon7" loading="lazy">
 
                                 <h6>Rapid rehydration</h6></div>
 
@@ -271,7 +271,7 @@
 
                         <div class="col-6 col-md-4">
 
-                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/headache-nausea.svg" alt="Post Party IV Drip Dubai Icon8" loading="lazy">
+                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/headache-nausea.svg" width="60" height="55"alt="Post Party IV Drip Dubai Icon8" loading="lazy">
 
                                 <h6>Alleviation of headache and nausea</h6></div>
 
@@ -279,7 +279,7 @@
 
                         <div class="col-6 col-md-4">
 
-                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/energy-levels.svg" alt="Post Party IV Drip Dubai Icon9" loading="lazy">
+                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/energy-levels.svg" width="60" height="55"alt="Post Party IV Drip Dubai Icon9" loading="lazy">
 
                                 <h6>Restored energy levels</h6></div>
 
@@ -287,7 +287,7 @@
 
                         <div class="col-6 col-md-4">
 
-                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/detoxification.svg" alt="Post Party IV Drip Dubai Icon10" loading="lazy">
+                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/detoxification.svg" width="60" height="55"alt="Post Party IV Drip Dubai Icon10" loading="lazy">
 
                                 <h6>Detoxification and elimination of toxins</h6></div>
 
@@ -295,7 +295,7 @@
 
                         <div class="col-6 col-md-4">
 
-                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/well-being.svg" alt="Post Party IV Drip Dubai Icon11" loading="lazy">
+                            <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/well-being.svg" width="60" height="55"alt="Post Party IV Drip Dubai Icon11" loading="lazy">
 
                                 <h6>Improved overall well-being</h6></div>
 

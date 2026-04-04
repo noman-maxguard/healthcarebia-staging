@@ -105,25 +105,25 @@
 
                         <ul class="listing-item3">
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/biomarkers.svg" alt="Male Weight Loss Profile Dubai Icon1">20 Biomarkers
+                            <li><img src="<?= base_url() ?>assets/frontend/img/biomarkers.svg" width="30" height="30" alt="Male Weight Loss Profile Dubai Icon1">20 Biomarkers
 
                                 tested
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/hormones.svg" alt="Male Weight Loss Profile Dubai Icon2"> Hormones,
+                            <li><img src="<?= base_url() ?>assets/frontend/img/hormones.svg" width="30" height="30" alt="Male Weight Loss Profile Dubai Icon2"> Hormones,
 
                                 Cholesterol, Blood Sugar & More
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/home.svg" alt="Male Weight Loss Profile Dubai Icon3">At home blood sample
+                            <li><img src="<?= base_url() ?>assets/frontend/img/home.svg" width="30" height="30" alt="Male Weight Loss Profile Dubai Icon3">At home blood sample
 
                                 collection
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="Male Weight Loss Profile Dubai Icon4">DHA-licensed nurses & lab
+                            <li><img src="<?= base_url() ?>assets/frontend/img/dha.svg" width="30" height="30" alt="Male Weight Loss Profile Dubai Icon4">DHA-licensed nurses & lab
 
                                 partners
 
@@ -135,7 +135,7 @@
 
                             </li> -->
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" alt="Male Weight Loss Profile Dubai Icon6">Fast, secure,
+                            <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" width="30" height="30" alt="Male Weight Loss Profile Dubai Icon6">Fast, secure,
 
                                 and confidential results.
 

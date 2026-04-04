@@ -157,9 +157,7 @@
                     src="<?= base_url() ?>assets/frontend/img/blog43.jpg"
                     alt="Winter Wellness in Dubai: Stay Energized and Protected During Cooler Months"
                     class="img-fluid"
-                    loading="lazy"
-                    width="315px"
-                    height="213px"
+                    loading="lazy" width="315" height="213"
                     >
                     <h6>Winter Wellness in Dubai: Stay Energized and Protected</h6>
                     <p>Winter in Dubai can affect energy, immunity, and hydration. Healthcarebia offers at-home IV therapy, DNA testing, and preventive checkups to keep you healthy, energized, and protected all season.</p>
@@ -171,7 +169,7 @@
                         src="<?= base_url() ?>assets/frontend/img/blog46.jpg"
                         alt="At Home Cancer Screening: What Exists Today And What Is Coming Next"
                         class="img-fluid"
-                        loading="lazy"
+                        loading="lazy" width="315" height="213"
                     >
                     <h6>At Home Cancer Screening</h6>
                     <p>At-home cancer screening makes early detection easier, from stool and HPV tests to emerging blood tests, helping Dubai residents start preventive care without leaving home.</p>
@@ -184,7 +182,7 @@
                     src="<?= base_url() ?>assets/frontend/img/blog20.jpg"
                     alt="The Link Between Gut Health and Energy: The Science You Need to Know"
                     class="img-fluid"
-                    loading="lazy"
+                    loading="lazy" width="315" height="213"
                     >
                     <h6>Gut Health and Energy</h6>
                     <p>Your gut health affects more than digestion, it drives energy, mood, and immunity. Learn how to support your microbiome, spot deficiencies, and restore vitality in Dubai’s busy lifestyle.</p>
@@ -196,7 +194,7 @@
                     src="<?= base_url() ?>assets/frontend/img/blog42.png"
                     alt="The Role of Magnesium in Stress, Sleep, and Energy and How to Replenish It"
                     class="img-fluid"
-                    loading="lazy"
+                    loading="lazy" width="315" height="213"
                     >
                     <h6>Magnesium for Stress, Sleep & Energy</h6>
                     <p>Magnesium is key for stress, sleep, and energy, yet many in Dubai are deficient. From leafy greens to IV drip therapy at home, here’s how to restore balance and feel revitalized.</p>
@@ -209,7 +207,7 @@
                         src="<?= base_url() ?>assets/frontend/img/blog17.jpg"
                         alt="Preventive Health in Dubai: The Essential Blood Test Guide"
                         class="img-fluid"
-                        loading="lazy"
+                        loading="lazy" width="315" height="213"
                     >
                     <h6>Preventive Health in Dubai</h6>
                     <p>Preventive health in Dubai explores essential blood tests, key markers, and how tracking nutrients, hormones, and lifestyle can support long-term wellness and energy.</p>
@@ -222,7 +220,7 @@
                     src="<?= base_url() ?>assets/frontend/img/healthy-skin-hair.png"
                     alt="Skin Health from Within: IV Nutrients, Collagen, and Antioxidants"
                     class="img-fluid"
-                    loading="lazy"
+                    loading="lazy" width="315" height="213"
                     >
                     <h6>Skin Health from Within</h6>
                     <p>How vitamin C, amino acids, B-complex, zinc, magnesium, and NAD+ IV therapy support collagen, glow, and recovery at the comfort of your home.</p>
@@ -235,7 +233,7 @@
                     src="<?= base_url() ?>assets/frontend/img/blog39.jpg"
                     alt="Food Intolerance Test Dubai: Symptoms, Science, and Smart Next Steps"
                     class="img-fluid"
-                    loading="lazy"
+                    loading="lazy" width="315" height="213"
                     >
                     <h6>Food Intolerance Test Dubai</h6>
                     <p>If you struggle with bloating, headaches, or skin flare-ups, a Food Intolerance Test in Dubai can help pinpoint triggers and guide a personalized nutrition plan to feel your best.</p>
@@ -248,7 +246,7 @@
                         src="<?= base_url() ?>assets/frontend/img/blog38.jpg"
                         alt="Digital Transformation in Healthcare: Personalized & Preventive Medicine in Dubai"
                         class="img-fluid"
-                        loading="lazy"
+                        loading="lazy" width="315" height="213"
                     >
                     <h6>Digital Transformation in Healthcare in Dubai</h6>
                     <p>Dubai’s healthcare evolves with at-home IV drips, DNA tests, lab checkups, and AI-driven preventive care, offering residents and travelers personalized, convenient, and proactive wellness.</p>
@@ -261,7 +259,7 @@
                         src="<?= base_url() ?>assets/frontend/img/blog17.jpg"
                         alt="Why Regular Blood Tests Are Essential for Preventive Health"
                         class="img-fluid"
-                        loading="lazy"
+                        loading="lazy" width="315" height="213"
                     >
                     <h6>Why Regular Blood Tests Are Essential for Preventive Health</h6>
                     <p>Discover why routine blood tests every 6–12 months are key to preventive health, early detection, and personalized wellness in Dubai.</p>
@@ -274,7 +272,7 @@
                         src="<?= base_url() ?>assets/frontend/img/blog32.jpg"
                         alt="Understanding Hair Loss: Causes, Treatments, and Innovative Solutions in Dubai"
                         class="img-fluid"
-                        loading="lazy"
+                        loading="lazy" width="315" height="213"
                     >
                     <h6>Understanding Hair Loss: Causes, Treatments, and Innovative Solutions</h6>
                     <p>Hair loss can stem from genetics, nutrient gaps, hormones, stress, or medical conditions. DNA testing and IV drips like Myers Cocktail, NAD+, and biotin-infused therapies boost growth and health at home.</p>
@@ -287,7 +285,7 @@
                         src="<?= base_url() ?>assets/frontend/img/blog35.jpg"
                         alt="IV Therapy for Mental Health: Can Drips Support Stress, Anxiety, and Mood?"
                         class="img-fluid"
-                        loading="lazy"
+                        loading="lazy" width="315" height="213"
                     >
                     <h6>IV Therapy for Mental Health: Can Drips Support Stress, Anxiety, and Mood?</h6>
                     <p>IV therapy in Dubai may support mental wellness by delivering B-vitamins, magnesium, amino acids, and NAD+ directly, aiding stress, mood, focus, and recovery via at-home DHA-approved drips.</p>
@@ -300,7 +298,7 @@
                         src="<?= base_url() ?>assets/frontend/img/blog34.png"
                         alt="The Future of Wellness in Dubai with Healthcarebia: IV Drips, DNA Testing & More"
                         class="img-fluid"
-                        loading="lazy"
+                        loading="lazy" width="315" height="213"
                     >
                     <h6>The Future of Wellness in Dubai with Healthcarebia: IV Drips, DNA Testing & More</h6>
                     <p>Dubai wellness evolves with DNA-based plans, preventive care, and at-home IV drips. Healthcarebia offers personalized testing, vitamin therapy, and concierge services for holistic health.</p>
@@ -313,7 +311,7 @@
                         src="<?= base_url() ?>assets/frontend/img/blog33.jpg"
                         alt="Why Do You Still Catch Colds and Flu Even with Healthy Habits"
                         class="img-fluid"
-                        loading="lazy"
+                        loading="lazy" width="315" height="213"
                     >
                     <h6>Why Do You Still Catch Colds and Flu Even with Healthy Habits?</h6>
                     <p>Even with healthy habits, stress, sleep loss, hydration, nutrient gaps, and environmental exposure can weaken immunity. Targeted support like immune-boosting IV drips at home in Dubai can strengthen defenses.</p>
@@ -326,7 +324,7 @@
                         src="<?= base_url() ?>assets/frontend/img/blog32.jpg"
                         alt="Why You Feel Tired and Lose Hair Even with Healthy Lifestyle"
                         class="img-fluid"
-                        loading="lazy"
+                        loading="lazy" width="315" height="213"
                     >
                     <h6>Why You Feel Tired and Lose Hair Even with Healthy Lifestyle</h6>
                     <p>Discover how nutrient deficiencies, stress, hormones, and dehydration contribute to fatigue and hair loss and how IV drip therapy in Dubai restores energy, balance, and hair health.</p>
@@ -339,7 +337,7 @@
                         src="<?= base_url() ?>assets/frontend/img/blog31.jpg"
                         alt="Female Hormone Profile & IV Therapy in Dubai"
                         class="img-fluid"
-                        loading="lazy"
+                        loading="lazy" width="315" height="213"
                     >
                     <h6>Female Hormone Profile & IV Therapy in Dubai</h6>
                     <p>A female hormone profile identifies imbalances affecting energy, mood, and metabolism. Paired with IV vitamin therapy like Myers, NAD+, or immune boost drips, it restores nutrients, energy, and overall wellness.</p>
@@ -352,7 +350,7 @@
                         src="<?= base_url() ?>assets/frontend/img/blog30.jpg"
                         alt="Oral Supplements vs. Vitamin IV Drips: Which Works Better for Your Health?"
                         class="img-fluid"
-                        loading="lazy"
+                        loading="lazy" width="315" height="213"
                     >
                     <h6>Oral Supplements vs. Vitamin IV Drips: Which Works Better for Your Health?</h6>
                     <p>IV drips in Dubai provide faster, near-complete nutrient absorption than oral supplements, supporting immunity, energy, and recovery. Pills are best for daily maintenance; both can be combined for optimal health.</p>
@@ -365,7 +363,7 @@
                         src="<?= base_url() ?>assets/frontend/img/blog29.jpg"
                         alt="DNA Testing in Dubai: A Smarter Approach to Health"
                         class="img-fluid"
-                        loading="lazy"
+                        loading="lazy" width="315" height="213"
                     >
                     <h6>DNA Testing in Dubai: A Smarter Approach to Health</h6>
                     <p>DNA testing reveals genetic risks, nutrient absorption, and disease tendencies, enabling personalized preventive care. Combined with IV therapy, it boosts immunity, energy, and overall health.</p>
@@ -378,7 +376,7 @@
                         src="<?= base_url() ?>assets/frontend/img/blog17.jpg "
                         alt="Confidential At-Home STD Testing in Dubai"
                         class="img-fluid"
-                        loading="lazy"
+                        loading="lazy" width="315" height="213"
                     >
                     <h6>Confidential At-Home STD Testing in Dubai</h6>
                     <p>DHA-licensed providers bring discreet STD testing to your home with fast results and treatment options.</p>
@@ -391,7 +389,7 @@
                         src="<?= base_url() ?>assets/frontend/img/blog7.png"
                         alt="Top 7 Everyday Habits That Weaken Your Immune System"
                         class="img-fluid"
-                        loading="lazy"
+                        loading="lazy" width="315" height="213"
                     >
                     <h6>Top 7 Everyday Habits That Weaken Your Immune System</h6>
                     <p>Everyday habits like poor sleep, high sugar, stress, inactivity, smoking, vitamin deficiencies, and dehydration weaken immunity. Lifestyle changes and IV vitamin therapy can help restore immune strength.</p>
@@ -404,7 +402,7 @@
                     src="<?= base_url() ?>assets/frontend/img/blog27.png"
                     alt="Vitamin D Deficiency in Dubai: Causes, Symptoms, and Treatment"
                     class="img-fluid"
-                    loading="lazy"
+                    loading="lazy" width="315" height="213"
                     >
                     <h6>Vitamin D Deficiency in Dubai: Causes, Symptoms, and Treatment</h6>
                     <p>Vitamin D deficiency in Dubai is widespread due to limited sun exposure, indoor lifestyles, and diet. Testing, safe sun, supplements, and diet help restore levels and support bone, immune, and muscle health.</p>
@@ -418,8 +416,8 @@
                     alt="Annual Health Checkups: What Tests Actually Matter"
                     class="img-fluid"
                     loading="lazy"
-                    width="315px"
-                    height="213px"
+                    width="315"
+                    height="213"
                     >
                     <h6>Annual Health Checkups: What Tests Actually Matter</h6>
                     <p>Annual checkups work best when focused on what matters: vitals, age-specific labs, targeted screenings, and lifestyle review. In Dubai, at-home lab tests and IV drips offer convenient, professional care.</p>
@@ -432,8 +430,8 @@
                     alt="Top 10 Healthy Lifestyle Habits for Busy Professionals"
                     class="img-fluid"
                     loading="lazy"
-                    width="315px"
-                    height="213px"
+                    width="315"
+                    height="213"
                     >
                     <h6>Top 10 Healthy Lifestyle Habits for Busy Professionals</h6>
                     <p>Busy professionals can boost health with hydration, balanced meals, sleep, exercise, stress management, immunity care, and modern solutions like IV drips or at-home wellness services.</p>
@@ -447,8 +445,8 @@
                         alt="Why Tourists Are Getting Hooked on IV Drips in Dubai"
                         class="img-fluid"
                         loading="lazy"
-                        width="315px"
-                        height="213px"
+                        width="315"
+                        height="213"
                     >
                     <h6>Why Tourists Are Getting Hooked on IV Drips in Dubai</h6>
                     <p>Tourists in Dubai love IV drips for quick hydration, energy, and immunity boosts. Healthcarebia offers fast, hotel-based, licensed care, letting visitors recover and enjoy their trip hassle-free.</p>
@@ -461,7 +459,7 @@
                     src="<?= base_url() ?>assets/frontend/img/blog23.jpg"
                     alt="Why We Often Notice Burnout Too Late – And How to Prevent It"
                     class="img-fluid"
-                    loading="lazy"
+                    loading="lazy" width="315" height="213"
                     >
                     <h6>Why We Often Notice Burnout Too Late And How to Prevent It</h6>
                     <p>Burnout often shows up too late because stress builds gradually and feels “normal.” Early recognition, self-care, boundaries, and supportive therapies like IV drips can help prevent and recover from it.</p>
@@ -474,7 +472,7 @@
                     src="<?= base_url() ?>assets/frontend/img/blog22.jpg"
                     alt="Oxygen Therapy Dubai: How Oxygen Reaches Your Cells"
                     class="img-fluid"
-                    loading="lazy"
+                    loading="lazy" width="315" height="213"
                     >
                     <h6>Oxygen Therapy Dubai: How Oxygen Reaches Your Cells</h6>
                     <p>Oxygen therapy boosts cellular oxygen for energy, focus, and recovery. At-home DHA-approved sessions ensure safe delivery, often combined with IV therapy for hydration and nutrient support.</p>

@@ -249,7 +249,7 @@
 
       <div class="item">
         <div class="trust-box">
-          <div class="trust-box-img"><img src="<?= base_url() ?>assets/frontend/img/google-reviews.svg" alt="google reviews" class="trust-google"></div>
+          <div class="trust-box-img"><img src="<?= base_url() ?>assets/frontend/img/google-reviews.svg" width="150" height="150" alt="google reviews" class="trust-google"></div>
           <h5>Trusted on Google</h5>
           <p>Highly Trusted by real clients in Dubai.</p>
         </div>
@@ -257,7 +257,7 @@
 
       <div class="item">
         <div class="trust-box">
-          <div class="trust-box-img"><img src="<?= base_url() ?>assets/frontend/img/fda-green.svg" alt="fda icon" class="trust-fda"></div>
+          <div class="trust-box-img"><img src="<?= base_url() ?>assets/frontend/img/fda-green.svg" width="150" height="150" alt="fda icon" class="trust-fda"></div>
           <h5>FDA compliant formulations</h5>
           <p>All products sourced from FDA compliant manufacturers</p>
         </div>
@@ -265,7 +265,7 @@
 
       <div class="item">
         <div class="trust-box">
-          <div class="trust-box-img"><img src="<?= base_url() ?>assets/frontend/img/nabidh.svg" alt="nabidh" class="trust-nabidh"></div>
+          <div class="trust-box-img"><img src="<?= base_url() ?>assets/frontend/img/nabidh.svg" width="150" height="150" alt="nabidh" class="trust-nabidh"></div>
           <h5>NABIDH ready records</h5>
           <p>Records shared securely through NABIDH.</p>
         </div>
@@ -273,7 +273,7 @@
 
       <div class="item">
         <div class="trust-box">
-          <div class="trust-box-img"><img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="dha" class="trust-dha"></div>
+          <div class="trust-box-img"><img src="<?= base_url() ?>assets/frontend/img/dha.svg" width="150" height="150" alt="dha" class="trust-dha"></div>
           <h5>100% DHA licensed nurses</h5>
           <p>Care delivered at home by DHA licensed and experienced nurses.</p>
         </div>

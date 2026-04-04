@@ -106,25 +106,25 @@
 
                         <ul class="listing-item3">
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/biomarkers.svg" alt="Basic Immunity Check Dubai Icon1">8 Biomarkers
+                            <li><img src="<?= base_url() ?>assets/frontend/img/biomarkers.svg" width="30" height="30" alt="Basic Immunity Check Dubai Icon1">8 Biomarkers
 
                                 tested
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/hormones.svg" alt="Basic Immunity Check Dubai Icon2"> Hormones,
+                            <li><img src="<?= base_url() ?>assets/frontend/img/hormones.svg" width="30" height="30" alt="Basic Immunity Check Dubai Icon2"> Hormones,
 
                                 Cholesterol, Blood Sugar & More
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/home.svg" alt="Basic Immunity Check Dubai Icon3">At home blood sample
+                            <li><img src="<?= base_url() ?>assets/frontend/img/home.svg" width="30" height="30" alt="Basic Immunity Check Dubai Icon3">At home blood sample
 
                                 collection
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="Basic Immunity Check Dubai Icon4">DHA-licensed nurses & lab
+                            <li><img src="<?= base_url() ?>assets/frontend/img/dha.svg" width="30" height="30" alt="Basic Immunity Check Dubai Icon4">DHA-licensed nurses & lab
 
                                 partners
 
@@ -136,7 +136,7 @@
 
                             </li> -->
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" alt="Basic Immunity Check Dubai Icon6">Fast, secure,
+                            <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" width="30" height="30" alt="Basic Immunity Check Dubai Icon6">Fast, secure,
 
                                 and confidential results.
 

@@ -121,25 +121,25 @@
 
                         <ul class="listing-item3">
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/biomarkers.svg" alt="Female Hormone Profile Dubai icon 1">4 Biomarkers
+                            <li><img src="<?= base_url() ?>assets/frontend/img/biomarkers.svg" width="30" height="30" alt="Female Hormone Profile Dubai icon 1">4 Biomarkers
 
                                 tested
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/hormones.svg" alt="Female Hormone Profile Dubai icon 2"> Hormones,
+                            <li><img src="<?= base_url() ?>assets/frontend/img/hormones.svg" width="30" height="30" alt="Female Hormone Profile Dubai icon 2"> Hormones,
 
                                 Cholesterol, Blood Sugar & More
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/home.svg" alt="Female Hormone Profile Dubai icon 3">At home blood sample
+                            <li><img src="<?= base_url() ?>assets/frontend/img/home.svg" width="30" height="30" alt="Female Hormone Profile Dubai icon 3">At home blood sample
 
                                 collection
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="Female Hormone Profile Dubai icon 4">DHA-licensed nurses & lab
+                            <li><img src="<?= base_url() ?>assets/frontend/img/dha.svg" width="30" height="30" alt="Female Hormone Profile Dubai icon 4">DHA-licensed nurses & lab
 
                                 partners
 
@@ -151,7 +151,7 @@
 
                             </li> -->
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" alt="Female Hormone Profile Dubai icon 5">Fast, secure,
+                            <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" width="30" height="30" alt="Female Hormone Profile Dubai icon 5">Fast, secure,
 
                                 and confidential results.
 

@@ -181,7 +181,7 @@
 
                                 <div class="img">
 
-                                    <img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="NAD+ IV Drip Dubai icon1" loading="lazy">
+                                    <img src="<?= base_url() ?>assets/frontend/img/dha.svg" width="52" height="62" alt="NAD+ IV Drip Dubai icon1" loading="lazy">
 
                                 </div>
 
@@ -209,7 +209,7 @@
 
                                 <div class="img">
 
-                                    <img src="<?= base_url() ?>assets/frontend/img/tick.svg" alt="NAD+ IV Drip Dubai icon2" loading="lazy">
+                                    <img src="<?= base_url() ?>assets/frontend/img/tick.svg" width="52" height="62" alt="NAD+ IV Drip Dubai icon2" loading="lazy">
 
                                 </div>
 
@@ -231,7 +231,7 @@
 
                                 <div class="img">
 
-                                    <img src="<?= base_url() ?>assets/frontend/img/like.svg" alt="NAD+ IV Drip Dubai icon3" loading="lazy">
+                                    <img src="<?= base_url() ?>assets/frontend/img/like.svg" width="52" height="62" alt="NAD+ IV Drip Dubai icon3" loading="lazy">
 
                                 </div>
 
@@ -253,7 +253,7 @@
 
                                 <div class="img">
 
-                                    <img src="<?= base_url() ?>assets/frontend/img/customers.svg" alt="NAD+ IV Drip Dubai icon4" loading="lazy">
+                                    <img src="<?= base_url() ?>assets/frontend/img/customers.svg" width="52" height="62" alt="NAD+ IV Drip Dubai icon4" loading="lazy">
 
                                 </div>
 
@@ -276,7 +276,7 @@
 
                                 <div class="img">
 
-                                    <img src="<?= base_url() ?>assets/frontend/img/patient-care.svg" alt="NAD+ IV Drip Dubai icon5" loading="lazy">
+                                    <img src="<?= base_url() ?>assets/frontend/img/patient-care.svg" width="52" height="62" alt="NAD+ IV Drip Dubai icon5" loading="lazy">
 
                                 </div>
 
@@ -297,7 +297,7 @@
 
                                 <div class="img">
 
-                                    <img src="<?= base_url() ?>assets/frontend/img/reviews.svg" alt="NAD+ IV Drip Dubai icon6" loading="lazy">
+                                    <img src="<?= base_url() ?>assets/frontend/img/reviews.svg" width="52" height="62" alt="NAD+ IV Drip Dubai icon6" loading="lazy">
 
                                 </div>
 
@@ -318,7 +318,7 @@
 
                                 <div class="img">
 
-                                    <img src="<?= base_url() ?>assets/frontend/img/available.svg" alt="NAD+ IV Drip Dubai icon7" loading="lazy">
+                                    <img src="<?= base_url() ?>assets/frontend/img/available.svg" width="52" height="62" alt="NAD+ IV Drip Dubai icon7" loading="lazy">
 
                                 </div>
 
@@ -502,7 +502,7 @@
                             <img src="<?= base_url() ?>assets/frontend/img/nad-before-aftre.webp" 
                                  alt="NAD+ IV Dubai" 
                                  class="img-fluid" 
-                                 loading="lazy">
+                                 loading="lazy" width="350" height="522">
 
                         </div>
 

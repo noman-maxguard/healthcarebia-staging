@@ -159,7 +159,7 @@
 
                             <div>
 
-                                <div class="img"><img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="Doctor on Call Dubai Icon1"></div>
+                                <div class="img"><img src="<?= base_url() ?>assets/frontend/img/dha.svg" width="52" height="62" alt="Doctor on Call Dubai Icon1"></div>
 
                             </div>
 
@@ -177,7 +177,7 @@
 
                             <div>
 
-                                <div class="img"><img src="<?= base_url() ?>assets/frontend/img/like.svg" alt="Doctor on Call Dubai Icon2"></div>
+                                <div class="img"><img src="<?= base_url() ?>assets/frontend/img/like.svg" width="52" height="62" alt="Doctor on Call Dubai Icon2"></div>
 
                             </div>
 
@@ -193,7 +193,7 @@
 
                             <div>
 
-                                <div class="img"><img src="<?= base_url() ?>assets/frontend/img/customers.svg" alt="Doctor on Call Dubai Icon3">
+                                <div class="img"><img src="<?= base_url() ?>assets/frontend/img/customers.svg" width="52" height="62" alt="Doctor on Call Dubai Icon3">
 
                                 </div>
 
@@ -211,7 +211,7 @@
 
                             <div>
 
-                                <div class="img"><img src="<?= base_url() ?>assets/frontend/img/health.svg" alt="Doctor on Call Dubai Icon4">
+                                <div class="img"><img src="<?= base_url() ?>assets/frontend/img/health.svg" width="52" height="62" alt="Doctor on Call Dubai Icon4">
 
                                 </div>
 
@@ -229,7 +229,7 @@
 
                             <div>
 
-                                <div class="img"><img src="<?= base_url() ?>assets/frontend/img/patient-care.svg" alt="Doctor on Call Dubai Icon5"></div>
+                                <div class="img"><img src="<?= base_url() ?>assets/frontend/img/patient-care.svg" width="52" height="62" alt="Doctor on Call Dubai Icon5"></div>
 
                             </div>
 
@@ -245,7 +245,7 @@
 
                             <div>
 
-                                <div class="img"><img src="<?= base_url() ?>assets/frontend/img/reviews.svg" alt="Doctor on Call Dubai Icon6">
+                                <div class="img"><img src="<?= base_url() ?>assets/frontend/img/reviews.svg" width="52" height="62" alt="Doctor on Call Dubai Icon6">
 
                                 </div>
 
@@ -263,7 +263,7 @@
 
                             <div>
 
-                                <div class="img"><img src="<?= base_url() ?>assets/frontend/img/available.svg" alt="Doctor on Call Dubai Icon7">
+                                <div class="img"><img src="<?= base_url() ?>assets/frontend/img/available.svg" width="52" height="62" alt="Doctor on Call Dubai Icon7">
 
                                 </div>
 
@@ -343,7 +343,7 @@
 
             </div>
 
-            <div class="col-md-12 text-center"><img src="<?= base_url() ?>assets/frontend/img/doctor-img1.webp" alt="Doctor on Call Dubai" class="img-fluid"></div>
+            <div class="col-md-12 text-center"><img src="<?= base_url() ?>assets/frontend/img/doctor-img1.webp" width="652" height="390" alt="Doctor on Call Dubai" class="img-fluid"></div>
 
         </div>
 
@@ -443,7 +443,7 @@
 
             <div class="col-md-3">
 
-                <div class="team-block same"><img src="<?= base_url() ?>assets/frontend/img/doctor-icon.svg" alt="Doctor on Call Dubai Team1">
+                <div class="team-block same"><img src="<?= base_url() ?>assets/frontend/img/doctor-icon.svg" width="150" height="150" alt="Doctor on Call Dubai Team1">
 
                     <h4>Dr. Gbemisola</h4>
 
@@ -461,7 +461,7 @@
 
             <div class="col-md-3">
 
-                <div class="team-block same"><img src="<?= base_url() ?>assets/frontend/img/nurse-icon.svg" alt="Doctor on Call Dubai Team2">
+                <div class="team-block same"><img src="<?= base_url() ?>assets/frontend/img/nurse-icon.svg" width="150" height="150" alt="Doctor on Call Dubai Team2">
 
                     <h4>Ms. Ivy </h4>
 
@@ -477,7 +477,7 @@
 
             <div class="col-md-3">
 
-                <div class="team-block same"><img src="<?= base_url() ?>assets/frontend/img/nurse-icon.svg" alt="Doctor on Call Dubai Team3">
+                <div class="team-block same"><img src="<?= base_url() ?>assets/frontend/img/nurse-icon.svg" width="150" height="150" alt="Doctor on Call Dubai Team3">
 
                     <h4>Ms. Erica</h4>
 
@@ -493,7 +493,7 @@
 
             <div class="col-md-3">
 
-                <div class="team-block same"><img src="<?= base_url() ?>assets/frontend/img/nurse-icon.svg" alt="Doctor on Call Dubai Team4">
+                <div class="team-block same"><img src="<?= base_url() ?>assets/frontend/img/nurse-icon.svg" width="150" height="150" alt="Doctor on Call Dubai Team4">
 
                     <h4>Ms Betty</h4>
 

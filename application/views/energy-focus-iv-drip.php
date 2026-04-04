@@ -133,7 +133,7 @@
                     <div class="col-6 col-md-3 mb-3">
                         <div class="therapy-choose-item">
                             <div class="img">
-                                <img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="DHA-Certified Energy & Focus IV Therapy in Dubai" loading="lazy">
+                                <img src="<?= base_url() ?>assets/frontend/img/dha.svg" width="52" height="62"alt="DHA-Certified Energy & Focus IV Therapy in Dubai" loading="lazy">
                             </div>
                             <div class="text">
                                 <p>DHA registered, experienced and qualified healthcare professionals.</p>
@@ -143,7 +143,7 @@
                     <div class="col-6 col-md-3 mb-3">
                         <div class="therapy-choose-item">
                             <div class="img">
-                                <img src="<?= base_url() ?>assets/frontend/img/tick.svg" alt="High-quality vitamins and minerals" loading="lazy">
+                                <img src="<?= base_url() ?>assets/frontend/img/tick.svg" width="52" height="62"alt="High-quality vitamins and minerals" loading="lazy">
                             </div>
                             <div class="text">
                                 <p>Use of 100% DHA-approved, premium-grade nutrients.</p>
@@ -153,7 +153,7 @@
                     <div class="col-6 col-md-3 mb-3">
                         <div class="therapy-choose-item">
                             <div class="img">
-                                <img src="<?= base_url() ?>assets/frontend/img/like.svg" alt="Convenient IV drip home service in Dubai" loading="lazy">
+                                <img src="<?= base_url() ?>assets/frontend/img/like.svg" width="52" height="62"alt="Convenient IV drip home service in Dubai" loading="lazy">
                             </div>
                             <div class="text">
                                 <p>Convenient, quick, and comfortable service at your doorstep.</p>
@@ -163,7 +163,7 @@
                     <div class="col-6 col-md-3 mb-3">
                         <div class="therapy-choose-item">
                             <div class="img">
-                                <img src="<?= base_url() ?>assets/frontend/img/customers.svg" alt="Knowledgeable support" loading="lazy">
+                                <img src="<?= base_url() ?>assets/frontend/img/customers.svg" width="52" height="62"alt="Knowledgeable support" loading="lazy">
                             </div>
                             <div class="text">
                                 <p>A complete and knowledgeable experience for all customers.</p>
@@ -173,7 +173,7 @@
                     <div class="col-6 col-md-3 mb-3">
                         <div class="therapy-choose-item">
                             <div class="img">
-                                <img src="<?= base_url() ?>assets/frontend/img/patient-care.svg" alt="Excellent patient care" loading="lazy">
+                                <img src="<?= base_url() ?>assets/frontend/img/patient-care.svg" width="52" height="62"alt="Excellent patient care" loading="lazy">
                             </div>
                             <div class="text">
                                 <p>Excellent customer service and attention to patient care.</p>
@@ -183,7 +183,7 @@
                     <div class="col-6 col-md-3 mb-3">
                         <div class="therapy-choose-item">
                             <div class="img">
-                                <img src="<?= base_url() ?>assets/frontend/img/reviews.svg" alt="Positive reviews" loading="lazy">
+                                <img src="<?= base_url() ?>assets/frontend/img/reviews.svg" width="52" height="62"alt="Positive reviews" loading="lazy">
                             </div>
                             <div class="text">
                                 <p>Positive reviews and testimonials from satisfied clients.</p>
@@ -193,7 +193,7 @@
                     <div class="col-6 col-md-3 mb-3">
                         <div class="therapy-choose-item">
                             <div class="img">
-                                <img src="<?= base_url() ?>assets/frontend/img/available.svg" alt="Available daily" loading="lazy">
+                                <img src="<?= base_url() ?>assets/frontend/img/available.svg" width="52" height="62"alt="Available daily" loading="lazy">
                             </div>
                             <div class="text">
                                 <p>Available to book 7 days a week, 365 days a year.</p>
@@ -248,7 +248,7 @@
                             <p>The <strong>Energy & Focus IV Drip</strong> is designed to quickly recharge the mind and body by delivering important vitamins, amino acids, and nutrients straight into the bloodstream. By skipping digestion, your body absorbs these nutrients faster, boosting the brain power, improving mental clarity, and keeping the person energized and focused throughout the day.</p>                            <a class="primary-btn hvr-bounce-to-right green-btn border-btn booking-btn" href="<?= $whatsappHref ?>" target="_blank">Book Your Session Now</a>
                         </div>
                         <div class="col-md-4 text-center mt-2 mt-md-4">
-                            <img src="<?= base_url() ?>assets/frontend/img/energy-focus-bottle.webp" alt="Energy & Focus IV Drip Dubai" class="img-fluid" loading="lazy">
+                            <img src="<?= base_url() ?>assets/frontend/img/energy-focus-bottle.webp" width="343" height="413" alt="Energy & Focus IV Drip Dubai" class="img-fluid" loading="lazy">
                         </div>
                     </div>
                 </div>

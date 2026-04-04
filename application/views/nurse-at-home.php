@@ -133,7 +133,7 @@
 
                                 <div class="img">
 
-                                    <img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="Nurses at Home Dubai Icon1">
+                                    <img src="<?= base_url() ?>assets/frontend/img/dha.svg" width="52" height="62"alt="Nurses at Home Dubai Icon1">
 
                                 </div>
 
@@ -161,7 +161,7 @@
 
                                 <div class="img">
 
-                                    <img src="<?= base_url() ?>assets/frontend/img/health-monitoring.svg" alt="Nurses at Home Dubai Icon2">
+                                    <img src="<?= base_url() ?>assets/frontend/img/health-monitoring.svg" width="52" height="62"alt="Nurses at Home Dubai Icon2">
 
                                 </div>
 
@@ -185,7 +185,7 @@
 
                                 <div class="img">
 
-                                    <img src="<?= base_url() ?>assets/frontend/img/like.svg" alt="Nurses at Home Dubai Icon3">
+                                    <img src="<?= base_url() ?>assets/frontend/img/like.svg" width="52" height="62"alt="Nurses at Home Dubai Icon3">
 
                                 </div>
 
@@ -209,7 +209,7 @@
 
                                 <div class="img">
 
-                                    <img src="<?= base_url() ?>assets/frontend/img/convenient.svg" alt="Nurses at Home Dubai Icon4">
+                                    <img src="<?= base_url() ?>assets/frontend/img/convenient.svg" width="52" height="62"alt="Nurses at Home Dubai Icon4">
 
                                 </div>
 
@@ -239,7 +239,7 @@
 
                                 <div class="img">
 
-                                    <img src="<?= base_url() ?>assets/frontend/img/experience.svg" alt="Nurses at Home Dubai Icon5">
+                                    <img src="<?= base_url() ?>assets/frontend/img/experience.svg" width="52" height="62"alt="Nurses at Home Dubai Icon5">
 
                                 </div>
 

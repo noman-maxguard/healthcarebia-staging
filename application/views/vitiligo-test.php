@@ -78,19 +78,19 @@
                             professionals in accurate assessments, aiding early detection and personalized management
                             strategies for those potentially affected by vitiligo.</p>
                         <ul class="listing-item3">
-                            <li><img src="<?= base_url() ?>assets/frontend/img/biomarkers.svg" alt="Vitiligo Test Dubai icon 2">8 Biomarkers
+                            <li><img src="<?= base_url() ?>assets/frontend/img/biomarkers.svg" width="30" height="30" alt="Vitiligo Test Dubai icon 2">8 Biomarkers
                                 tested
                             </li>
-                            <li><img src="<?= base_url() ?>assets/frontend/img/hormones.svg" alt="Vitiligo Test Dubai icon 3"> Hormones,
+                            <li><img src="<?= base_url() ?>assets/frontend/img/hormones.svg" width="30" height="30" alt="Vitiligo Test Dubai icon 3"> Hormones,
                                 Cholesterol, Blood Sugar & More
                             </li>
-                            <li><img src="<?= base_url() ?>assets/frontend/img/home.svg" alt="Vitiligo Test Dubai icon 4">At home blood sample
+                            <li><img src="<?= base_url() ?>assets/frontend/img/home.svg" width="30" height="30" alt="Vitiligo Test Dubai icon 4">At home blood sample
                                 collection
                             </li>
-                            <li><img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="Vitiligo Test Dubai icon 5">DHA-licensed nurses & lab
+                            <li><img src="<?= base_url() ?>assets/frontend/img/dha.svg" width="30" height="30" alt="Vitiligo Test Dubai icon 5">DHA-licensed nurses & lab
                                 partners
                             </li>
-                            <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" alt="Vitiligo Test Dubai icon 6">Fast, secure,
+                            <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" width="30" height="30" alt="Vitiligo Test Dubai icon 6">Fast, secure,
                                 and confidential results.
                             </li>
                         </ul>

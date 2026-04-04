@@ -32,6 +32,12 @@
                 margin-top:30px;
             }
         }
+        .img-responsive img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
         
     </style>
 </head>
@@ -102,7 +108,7 @@
 
                     <div class="col-md-3 col-6">
 
-                        <div class=" about-counter text-center same"><img src="<?= base_url() ?>assets/frontend/img/custom-made.svg" alt="Happy Client">
+                        <div class=" about-counter text-center same"><img src="<?= base_url() ?>assets/frontend/img/custom-made.svg" alt="Happy Client" width="60" height="60">
 
                             <div class="counter-box"><span class="counter" data-TargetNum="1" data-Speed="1000">1</span><i>K+</i>
 
@@ -116,7 +122,7 @@
 
                         <div class=" about-counter text-center same"><img
 
-                                    src="<?= base_url() ?>assets/frontend/img/expertise.svg" alt="Professionals">
+                                    src="<?= base_url() ?>assets/frontend/img/expertise.svg" alt="Professionals" width="60" height="60">
 
                             <div class="counter-box"><span class="counter" data-TargetNum="10"
 
@@ -132,7 +138,7 @@
 
                         <div class=" about-counter text-center same"><img
 
-                                    src="<?= base_url() ?>assets/frontend/img/quality.svg" alt="Satisfaction">
+                                    src="<?= base_url() ?>assets/frontend/img/quality.svg" alt="Satisfaction" width="60" height="60">
 
                             <div class="counter-box"><span class="counter" data-TargetNum="100"
 
@@ -148,7 +154,7 @@
 
                         <div class=" about-counter text-center same"><img
 
-                                    src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="DHA Certified Team">
+                                    src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="DHA Certified Team" width="60" height="60">
 
                             <div class="counter-box"><span class="counter" data-TargetNum="100"
 
@@ -172,7 +178,7 @@
 
                         <div class="card-style5 card-style6 same-height vision-mission">
 
-                            <div class="vision-img"><img src="<?= base_url() ?>assets/frontend/img/vision.svg" alt="Healthcare Vision" class="img-fluid"></div>
+                            <div class="vision-img"><img src="<?= base_url() ?>assets/frontend/img/vision.svg" alt="Healthcare Vision" class="img-fluid" width="60" height="60"></div>
 
                             <div><h5>Vision</h5>
 
@@ -188,7 +194,7 @@
 
                         <div class="card-style5 card-style6 same-height vision-mission">
 
-                            <div class="vision-img"><img src="<?= base_url() ?>assets/frontend/img/mission.svg" alt="Healthcare Mission" class="img-fluid"></div>
+                            <div class="vision-img"><img src="<?= base_url() ?>assets/frontend/img/mission.svg" alt="Healthcare Mission" class="img-fluid" width="60" height="60"></div>
 
                             <div><h5>Mission</h5>
 
@@ -225,7 +231,7 @@
                     </div>
                     <div class="col-md-5 mb-3 mb-sm-0">
 
-                            <div class="d-flex justify-content-end"><img src="<?= base_url() ?>assets/frontend/img/gala2.webp" alt="Healthcare Mission" height="400" class="rounded d-md-block d-none"></div>
+                            <div class="d-flex img-responsive justify-content-end"><img src="<?= base_url() ?>assets/frontend/img/gala2.webp" alt="Healthcare Mission" height="400" width="402" class="rounded d-md-block d-none"></div>
                     </div>
                 </div>
 
@@ -234,7 +240,7 @@
                 <div class="row">
                     <div class="col-md-5 mb-3 mb-sm-0">
 
-                            <div class=""><img src="<?= base_url() ?>assets/frontend/img/about-us-wellness.png" alt="Healthcare Mission" height="400" class="rounded d-md-block d-none"></div>
+                            <div class="img-responsive" ><img src="<?= base_url() ?>assets/frontend/img/about-us-wellness.png" alt="Healthcare Mission" height="400" width="402" class="rounded d-md-block d-none"></div>
                   
 
                     </div>
@@ -262,7 +268,7 @@
                 <div class="card-style5 card-style6 same-height vision-mission">
 
                     <div class="vision-img">
-                        <img src="<?= base_url() ?>assets/frontend/img/philosophy.svg" alt="Healthcarebia philosophy" class="img-fluid">
+                        <img src="<?= base_url() ?>assets/frontend/img/philosophy.svg" alt="Healthcarebia philosophy" class="img-fluid"  width="60" height="60">
                     </div>
 
                     <div>
@@ -279,7 +285,7 @@
                 <div class="card-style5 card-style6 same-height vision-mission">
 
                     <div class="vision-img">
-                        <img src="<?= base_url() ?>assets/frontend/img/home-care.svg" alt="Healthcarebia operates at home" class="img-fluid">
+                        <img src="<?= base_url() ?>assets/frontend/img/home-care.svg" alt="Healthcarebia operates at home" class="img-fluid"  width="60" height="60">
                     </div>
 
                     <div>

@@ -180,7 +180,7 @@
 
                             <div>
 
-                                <div class="img"><img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="Gluta Drip Dubai icon1" loading="lazy"></div>
+                                <div class="img"><img src="<?= base_url() ?>assets/frontend/img/dha.svg" width="52" height="62"alt="Gluta Drip Dubai icon1" loading="lazy"></div>
 
                             </div>
 
@@ -198,7 +198,7 @@
 
                             <div>
 
-                                <div class="img"><img src="<?= base_url() ?>assets/frontend/img/tick.svg" alt="Gluta Drip Dubai icon2" loading="lazy"></div>
+                                <div class="img"><img src="<?= base_url() ?>assets/frontend/img/tick.svg" width="52" height="62"alt="Gluta Drip Dubai icon2" loading="lazy"></div>
 
                             </div>
 
@@ -214,7 +214,7 @@
 
                             <div>
 
-                                <div class="img"><img src="<?= base_url() ?>assets/frontend/img/like.svg" alt="Gluta Drip Dubai icon3" loading="lazy"></div>
+                                <div class="img"><img src="<?= base_url() ?>assets/frontend/img/like.svg" width="52" height="62"alt="Gluta Drip Dubai icon3" loading="lazy"></div>
 
                             </div>
 
@@ -230,7 +230,7 @@
 
                             <div>
 
-                                <div class="img"><img src="<?= base_url() ?>assets/frontend/img/customers.svg" alt="Gluta Drip Dubai icon4" loading="lazy">
+                                <div class="img"><img src="<?= base_url() ?>assets/frontend/img/customers.svg" width="52" height="62"alt="Gluta Drip Dubai icon4" loading="lazy">
 
                                 </div>
 
@@ -248,7 +248,7 @@
 
                             <div>
 
-                                <div class="img"><img src="<?= base_url() ?>assets/frontend/img/patient-care.svg" alt="Gluta Drip Dubai icon5" loading="lazy"></div>
+                                <div class="img"><img src="<?= base_url() ?>assets/frontend/img/patient-care.svg" width="52" height="62"alt="Gluta Drip Dubai icon5" loading="lazy"></div>
 
                             </div>
 
@@ -264,7 +264,7 @@
 
                             <div>
 
-                                <div class="img"><img src="<?= base_url() ?>assets/frontend/img/reviews.svg" alt="Gluta Drip Dubai icon6" loading="lazy">
+                                <div class="img"><img src="<?= base_url() ?>assets/frontend/img/reviews.svg" width="52" height="62"alt="Gluta Drip Dubai icon6" loading="lazy">
 
                                 </div>
 
@@ -282,7 +282,7 @@
 
                             <div>
 
-                                <div class="img"><img src="<?= base_url() ?>assets/frontend/img/available.svg" alt="Gluta Drip Dubai icon7" loading="lazy">
+                                <div class="img"><img src="<?= base_url() ?>assets/frontend/img/available.svg" width="52" height="62"alt="Gluta Drip Dubai icon7" loading="lazy">
 
                                 </div>
 
@@ -379,7 +379,7 @@
 
             </div>
 
-            <div class="col-md-12 text-center"><img src="<?= base_url() ?>assets/frontend/img/glow-skin-img.webp" alt="Gluta IV Drip Dubai" class="img-fluid" loading="lazy"></div>
+            <div class="col-md-12 text-center"><img src="<?= base_url() ?>assets/frontend/img/glow-skin-img.webp" width="636" height="562"  alt="Gluta IV Drip Dubai" class="img-fluid" loading="lazy"></div>
 
         </div>
 
@@ -416,7 +416,7 @@
                                 function.</p>
                                 <a class="primary-btn hvr-bounce-to-right green-btn border-btn booking-btn" href="<?= $whatsappHref ?>" target="_blank">Book Your Session Now</a>                        </div>
 
-                        <div class="col-md-4"><img src="<?= base_url() ?>assets/frontend/img/glow-bottle.webp" alt="Glutathione IV Drip Injection Dubai" class="img-fluid" loading="lazy"></div>
+                        <div class="col-md-4"><img src="<?= base_url() ?>assets/frontend/img/glow-bottle.webp" width="343" height="413"  alt="Glutathione IV Drip Injection Dubai" class="img-fluid" loading="lazy"></div>
 
                     </div>
 

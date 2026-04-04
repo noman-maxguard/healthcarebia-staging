@@ -118,25 +118,25 @@
 
                         <ul class="listing-item3">
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/biomarkers.svg" alt="Food Intolerance - Extended (200+ foods) Dubai Icon1">1 Biomarkers
+                            <li><img src="<?= base_url() ?>assets/frontend/img/biomarkers.svg" width="30" height="30" alt="Food Intolerance - Extended (200+ foods) Dubai Icon1">1 Biomarkers
 
                                 tested
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/hormones.svg" alt="Food Intolerance - Extended (200+ foods) Dubai Icon2"> Hormones,
+                            <li><img src="<?= base_url() ?>assets/frontend/img/hormones.svg" width="30" height="30" alt="Food Intolerance - Extended (200+ foods) Dubai Icon2"> Hormones,
 
                                 Cholesterol, Blood Sugar & More
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/home.svg" alt="Food Intolerance - Extended (200+ foods) Dubai Icon3">At home blood sample
+                            <li><img src="<?= base_url() ?>assets/frontend/img/home.svg" width="30" height="30" alt="Food Intolerance - Extended (200+ foods) Dubai Icon3">At home blood sample
 
                                 collection
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="Food Intolerance - Extended (200+ foods) Dubai Icon4">DHA-licensed nurses & lab
+                            <li><img src="<?= base_url() ?>assets/frontend/img/dha.svg" width="30" height="30" alt="Food Intolerance - Extended (200+ foods) Dubai Icon4">DHA-licensed nurses & lab
 
                                 partners
 
@@ -148,7 +148,7 @@
 
                             </li> -->
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" alt="Food Intolerance - Extended (200+ foods) Dubai Icon6">Fast, secure,
+                            <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" width="30" height="30" alt="Food Intolerance - Extended (200+ foods) Dubai Icon6">Fast, secure,
 
                                 and confidential results.
 

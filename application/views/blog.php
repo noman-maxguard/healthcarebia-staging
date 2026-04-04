@@ -641,7 +641,7 @@ Expect minimal fuss, fast results, and DHA-certified care for a comfortable, saf
             <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>iv-drip-therapy-at-home-dubai-guide"
                 class="card-style3 card-style4 same">
-                    <img src="<?= base_url() ?>assets/frontend/img/blog9.png"
+                    <img src="<?= base_url() ?>assets/frontend/img/blog9.png" width="315" height="213"
                         alt="IV Drip Therapy at Home in Dubai Guide"
                         class="img-fluid" loading="lazy">
                     <h6>Comprehensive Guide to DHA-Certified IV Drip Therapy at Home in Dubai: Procedure, Safety, and Expected Results</h6>

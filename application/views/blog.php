@@ -483,7 +483,7 @@
                 <a href="<?= base_url() ?>myers-cocktail-iv-drip-blog" class="card-style3 card-style4 same">
                     <img src="<?= base_url() ?>assets/frontend/img/blog21.jpg"
                         alt="From Fatigue to Focus: The Myers Cocktail IV Drip"
-                        class="img-fluid">
+                        class="img-fluid" width="315" height="213">
                     <h6>From Fatigue to Focus: The Myers Cocktail IV Drip</h6>
                     <p>The Myers Cocktail IV drip delivers vitamins and minerals directly into your bloodstream for fast hydration, energy, and focus, with DHA-approved at-home care by licensed nurses.</p>
                 </a>
@@ -493,7 +493,7 @@
                 <a href="<?= base_url() ?>gut-health-iv-drip-dubai" class="card-style3 card-style4 same">
                     <img src="<?= base_url() ?>assets/frontend/img/blog20.jpg"
                         alt="Gut Health IV Drip in Dubai: Fast Relief for Digestive Health"
-                        class="img-fluid">
+                        class="img-fluid" width="315" height="213">
                     <h6>Gut Health IV Drip in Dubai</h6>
                     <p>Rapid relief from acidity, indigestion, and bloating with DHA-certified at-home IV therapy to restore balance and improve digestive health.</p>
                 </a>
@@ -503,7 +503,7 @@
                 <a href="<?= base_url() ?>iv-drip-therapy-dubai-blog" class="card-style3 card-style4 same">
                     <img src="<?= base_url() ?>assets/frontend/img/blog19.jpg"
                         alt="IV Drip Therapy Dubai – Science, Luxury & Benefits"
-                        class="img-fluid">
+                        class="img-fluid" width="315" height="213">
                     <h6>IV Drip Therapy, Science, Luxury & Benefits</h6>
                     <p>IV drip Dubai delivers vitamins, minerals, and fluids directly for hydration, energy, immunity, and wellness, with DHA-approved home service for safe, fast, and personalized care.</p>
                 </a>
@@ -513,7 +513,7 @@
                 <a href="<?= base_url() ?>iv-drips-for-sleep-dubai" class="card-style3 card-style4 same">
                     <img src="<?= base_url() ?>assets/frontend/img/blog18.jpg"
                         alt="Sleep Like a Baby: How IV Drips Can Improve Your Rest and Recovery"
-                        class="img-fluid">
+                        class="img-fluid" width="315" height="213">
                     <h6>Sleep Like a Baby: IV Drips for Better Rest</h6>
                     <p>In Dubai, DHA-approved IV drips deliver magnesium, B vitamins, amino acids, and electrolytes directly for deeper sleep, faster recovery, stress relief, and improved wellness.</p>
                 </a>
@@ -522,56 +522,56 @@
                 <a href="<?= base_url() ?>blood-test-to-bespoke-drip" class="card-style3 card-style4 same">
                     <img src="<?= base_url() ?>assets/frontend/img/blog17.jpg" 
                         alt="Blood Test to Bespoke Drip: Your Precision Wellness Plan" 
-                        class="img-fluid">
+                        class="img-fluid" width="315" height="213">
                     <h6>Blood Test to Bespoke Drip: Your Precision Wellness Plan</h6>
                     <p>Learn how healthcarebia turns your blood work and lab panel into a custom-mixed IV drip for millilitre perfect hydration and nutrient support, delivered at the comfort of your home.</p>
                 </a>
             </div> -->
             <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>mythbusting-iv-therapy" class="card-style3 card-style4 same">
-                    <img src="<?= base_url() ?>assets/frontend/img/blog16.jpg" alt="Mythbusting IV Therapy – Separating Fact from Fiction" class="img-fluid">
+                    <img src="<?= base_url() ?>assets/frontend/img/blog16.jpg" alt="Mythbusting IV Therapy – Separating Fact from Fiction" class="img-fluid" width="315" height="213">
                     <h6>Myth busting IV Therapy: Separating Fact from Fiction</h6>
                     <p>IV therapy in Dubai delivers fluids, vitamins, and minerals directly into your bloodstream for rapid hydration and nutrient boosts. Safe, fast, and backed by certified medical staff, IV drips support energy, immunity, athletic recovery, and overall wellness.</p>
                 </a>
             </div>
             <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>hydrate-or-crash-blog" class="card-style3 card-style4 same">
-                    <img src="<?= base_url() ?>assets/frontend/img/blog15.jpg" alt="Hydrate or Crash – IV Drips in Dubai" class="img-fluid">
+                    <img src="<?= base_url() ?>assets/frontend/img/blog15.jpg" alt="Hydrate or Crash – IV Drips in Dubai" class="img-fluid" width="315" height="213">
                     <h6>Hydrate or Crash: Ultimate Summer Recovery with IV Drips</h6>
                     <p>Dubai’s scorching summer causes rapid dehydration and nutrient loss, leaving residents fatigued and unfocused. IV drips deliver fluids and essential vitamins directly into the bloodstream, offering fast recovery and mental clarity.</p>
                 </a>
             </div>
             <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>iv-drip-safety-dubai" class="card-style3 card-style4 same">
-                    <img src="<?= base_url() ?>assets/frontend/img/blog14.png" alt="IV Drip Safety and Legality Dubai" class="img-fluid">
+                    <img src="<?= base_url() ?>assets/frontend/img/blog14.png" alt="IV Drip Safety and Legality Dubai" class="img-fluid" width="315" height="213">
                     <h6>Is IV Drip Therapy Safe and Legal in Dubai?</h6>
                     <p>Wellness IV drips have captured public attention, but questions about safety, legality, and effectiveness remain. A closer look at how these infusions actually work reveals insights beyond the marketing hype.</p>
                 </a>
             </div>
             <!-- <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>vitamin-d-deficiency-blog" class="card-style3 card-style4 same">
-                    <img src="<?= base_url() ?>assets/frontend/img/blog13.jpg" alt="Vitamin D Deficiency Dubai" class="img-fluid">
+                    <img src="<?= base_url() ?>assets/frontend/img/blog13.jpg" alt="Vitamin D Deficiency Dubai" class="img-fluid" width="315" height="213">
                     <h6>Vitamin D Deficiency in Dubai: Why Testing Matters</h6>
                     <p>Discover why vitamin D is low, even with Dubai sunshine. Learn the risks, symptoms, and book a quick home blood test today.</p>
                 </a>
             </div> -->
             <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>athletic-performance-blog" class="card-style3 card-style4 same">
-                    <img src="<?= base_url() ?>assets/frontend/img/blog12.jpg" alt="Athletic IV Drip Dubai" class="img-fluid">
+                    <img src="<?= base_url() ?>assets/frontend/img/blog12.jpg" alt="Athletic IV Drip Dubai" class="img-fluid" width="315" height="213">
                     <h6>Athletic IV Drip: Boost Performance & Speed Recovery</h6>
                     <p>Athletes lose more than water when they sweat, it’s electrolytes, minerals, and energy substrates. Targeted IV therapy bypasses digestion, rapidly replenishing what the body needs to perform and recover efficiently.</p>
                 </a>
             </div>
             <!-- <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>jet-lag-blog" class="card-style3 card-style4 same">
-                    <img src="<?= base_url() ?>assets/frontend/img/blog11.jpeg" alt="Jet Lag IV Drip" class="img-fluid">
+                    <img src="<?= base_url() ?>assets/frontend/img/blog11.jpeg" alt="Jet Lag IV Drip" class="img-fluid" width="315" height="213">
                     <h6>Jet Lag IV Drip: Relieve Fatigue, Rehydrate &amp; Restore Your Body Clock</h6>
                     <p>Beat jet lag fatigue and reset your circadian rhythm with our nurse-delivered IV therapy service in Dubai.</p>
                 </a>
             </div> -->
 	        <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>nad-for-cognitive-function" class="card-style3 card-style4 same">
-                    <img src="<?= base_url() ?>assets/frontend/img/blog10.jpg" alt="NAD+ IV Therapy for Executives" class="img-fluid">
+                    <img src="<?= base_url() ?>assets/frontend/img/blog10.jpg" alt="NAD+ IV Therapy for Executives" class="img-fluid" width="315" height="213">
                     <h6>NAD+ IV Therapy for CEOs: Enhance Focus & Cognitive Performance</h6>
                     <p>Cognitive fatigue is a real challenge for executives juggling multiple priorities. Emerging research shows that NAD+, a key cellular coenzyme, may support mental clarity, memory, and resilience under stress.</p>
                 </a>
@@ -579,14 +579,14 @@
             <!-- <div class="col-md-3 mb-3"><a href="<?= base_url() ?>iv-therapy-for-healthy-skin-and-hair"
                                           class="card-style3 card-style4 same"> <img
                             src="<?= base_url() ?>assets/frontend/img/healthy-skin-hair.png"
-                            alt="" class="img-fluid">
+                            alt="" class="img-fluid" width="315" height="213">
                     <h6>Beauty from the Inside Out: IV Therapy for Healthy Skin and Hair</h6>
                     <p>In the pursuit of radiant skin, lustrous hair, and overall beauty, many people turn to topical
                         treatments and cosmetic procedures.</p></a>
             </div> -->
             <div class="col-md-3 mb-3"><a href="<?= base_url() ?>power-of-nad-iv-drips"
                                           class="card-style3 card-style4 same"> <img
-                            src="<?= base_url() ?>assets/frontend/img/blog2.png" alt="The Power of NAD+ IV Drips" class="img-fluid">
+                            src="<?= base_url() ?>assets/frontend/img/blog2.png" alt="The Power of NAD+ IV Drips" class="img-fluid" width="315" height="213">
                     <h6>The Power of NAD+ IV
                         Drips: Enhancing Cellular Health and Energy</h6>
                     <p>Fatigue, colds, and seasonal illnesses often signal a weakened immune system. Exploring how antioxidants and trace minerals support immune cells offers insights into maintaining year-round resilience.</p></a>
@@ -594,14 +594,14 @@
             <div class="col-md-3 mb-3"><a href="<?= base_url() ?>power-of-iv-drips-for-immune-enhancement"
                                           class="card-style3 card-style4 same"> <img
                             src="<?= base_url() ?>assets/frontend/img/blog3.png" alt="Harnessing the Power of IV Drips for Immune Enhancement"
-                            class="img-fluid">
+                            class="img-fluid" width="315" height="213">
                     <h6>Harnessing the Power of IV Drips for Immune Enhancement</h6>
                     <p>Fatigue, colds, and seasonal illnesses often signal a weakened immune system.
 Exploring how antioxidants and trace minerals support immune cells offers insights into maintaining year-round resilience.</p></a>
             </div>
             <div class="col-md-3 mb-3"><a href="<?= base_url() ?>goodbye-hangovers"
                                           class="card-style3 card-style4 same"> <img
-                            src="<?= base_url() ?>assets/frontend/img/blog4.png" alt="Saying Goodbye to Hangovers" class="img-fluid">
+                            src="<?= base_url() ?>assets/frontend/img/blog4.png" alt="Saying Goodbye to Hangovers" class="img-fluid" width="315" height="213">
                     <h6>Saying Goodbye to
                         Hangovers: How IV Drip Therapy Provides Quick Relief</h6>
                     <p>"After a night of heavy drinking, dehydration, electrolyte loss, and oxidative stress can leave you feeling drained.
@@ -609,7 +609,7 @@ Understanding how the body recovers can help explain why certain nutrients speed
             </div>
             <div class="col-md-3 mb-3"><a href="<?= base_url() ?>at-home-std-testing"
                                           class="card-style3 card-style4 same"> <img
-                            src="<?= base_url() ?>assets/frontend/img/blog5.png" alt="Confidential and Convenient: At-Home STD Testing for Your Peace of Mind" class="img-fluid">
+                            src="<?= base_url() ?>assets/frontend/img/blog5.png" alt="Confidential and Convenient: At-Home STD Testing for Your Peace of Mind" class="img-fluid" width="315" height="213">
                     <h6>Confidential and
                         Convenient: At-Home STD Testing for Your Peace of Mind</h6>
                     <p>"Sexual health is an important part of overall well-being, yet testing is often delayed.
@@ -617,7 +617,7 @@ New approaches are helping people stay informed while maintaining privacy and pe
             </div>
             <div class="col-md-3 mb-3">
                     <a href="<?= base_url() ?>the-myers-cocktail-iv-drip" class="card-style3 card-style4 same">
-                        <img src="<?= base_url() ?>assets/frontend/img/blog6.png" alt="The Myers Cocktail IV Drip" class="img-fluid">
+                        <img src="<?= base_url() ?>assets/frontend/img/blog6.png" alt="The Myers Cocktail IV Drip" class="img-fluid" width="315" height="213">
                         <h6>The Myers Cocktail IV Drip: A Powerful Vitamin Infusion for Energy & Wellness</h6>
                         <p>Struggling with fatigue, stress, or nutrient deficiencies? The Myers Cocktail IV offers a powerful, fast-acting solution.
 With DHA-certified care, it can be administered at home or in a clinic for safe, targeted wellness.</p>
@@ -625,14 +625,14 @@ With DHA-certified care, it can be administered at home or in a clinic for safe,
             </div>
             <!-- <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>cold-flu-iv-therapy" class="card-style3 card-style4 same">
-                    <img src="<?= base_url() ?>assets/frontend/img/blog7.png" alt="Cold & Flu IV Therapy" class="img-fluid">
+                    <img src="<?= base_url() ?>assets/frontend/img/blog7.png" alt="Cold & Flu IV Therapy" class="img-fluid" width="315" height="213">
                     <h6>Cold & Flu IV Therapy: Fast Relief and Immune Support</h6>
                     <p>Get rapid relief from cold and flu symptoms with our specialized IV therapy treatment that boosts immunity and rehydrates your body.</p>
                 </a>
             </div> -->
             <div class="col-md-3 mb-3">
                 <a href="<?= base_url() ?>iv-drip-home-service-dubai" class="card-style3 card-style4 same">
-                    <img src="<?= base_url() ?>assets/frontend/img/blog8.png" alt="IV Drip Home Service Dubai" class="img-fluid">
+                    <img src="<?= base_url() ?>assets/frontend/img/blog8.png" alt="IV Drip Home Service Dubai" class="img-fluid" width="315" height="213">
                     <h6>IV Drip Home Service Dubai: What to Expect From Your First Visit</h6>
                     <p>"Your first home IV drip in Dubai starts with a quick consultation and ends with a monitored infusion of nutrients.
 Expect minimal fuss, fast results, and DHA-certified care for a comfortable, safe experience."</p>

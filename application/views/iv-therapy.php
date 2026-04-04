@@ -474,7 +474,7 @@
 
             <div class="col-12">
 
-                <img src="<?= base_url() ?>assets/frontend/img/gala-big-img-mob.webp" alt="IV Drip Dubai" class="img-fluid" loading="lazy">
+                <img src="<?= base_url() ?>assets/frontend/img/gala-big-img-mob.webp" width="767" height="396" alt="IV Drip Dubai" class="img-fluid" loading="lazy">
 
             </div>
 

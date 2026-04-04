@@ -29,7 +29,7 @@
                <div class="col-md-5">
                   <h6>Feel free to contact us any time. We will get back to you soon </h6>
                   <div class="card-style5 p-4 mt-4">
-                     <div><span><img src="<?= base_url() ?>assets/frontend/img/map-icon.svg" alt="Find Healthcarebia"></span></div>
+                     <div><span><img src="<?= base_url() ?>assets/frontend/img/map-icon.svg" width="50" height="60" alt="Find Healthcarebia"></span></div>
                      <div>
                         <h6>Location</h6>
                         <h5>DIFC, Dubai, UAE</h5>
@@ -37,7 +37,7 @@
                   </div>
                   <div class="card-style5 p-4 mt-4">
                      <div><span>							<img
-                        src="<?= base_url() ?>assets/frontend/img/contact-phone.svg" alt="Contact Healthcarebia"></span>
+                        src="<?= base_url() ?>assets/frontend/img/contact-phone.svg" width="50" height="39" alt="Contact Healthcarebia"></span>
                      </div>
                      <div>
                         <h6>Phone</h6>
@@ -47,7 +47,7 @@
                   </div>
                   <div class="card-style5 p-4 mt-4">
                      <div><span>							<img
-                        src="<?= base_url() ?>assets/frontend/img/contact-mail.svg" alt="Email Healthcarebia"></span>
+                        src="<?= base_url() ?>assets/frontend/img/contact-mail.svg" width="50" height="39" alt="Email Healthcarebia"></span>
                      </div>
                      <div>
                         <h6>Email</h6>

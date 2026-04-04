@@ -70,7 +70,7 @@
 <section class="section-gap">
     <div class="container">
         <div class="row">
-            <div class="col-md-5 mb-3"><img src="<?= base_url() ?>assets/frontend/img/alopecia-test.png" alt="Alopecia Test Dubai"
+            <div class="col-md-5 mb-3"><img src="<?= base_url() ?>assets/frontend/img/alopecia-test.png"  width="497" height="490" alt="Alopecia Test Dubai"
                                             class="img-fluid rounded "></div>
             <div class="col-md-7">
                 <div class="inner-page-right">

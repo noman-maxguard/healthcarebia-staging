@@ -53,7 +53,7 @@
     <div class="overlay">
         <div class="container">
             <div class="row">
-                <div class="col-12"><h2>`</h2>
+                <div class="col-12"><h2>Vitiligo Test</h2>
                     <nav aria-label="breadcrumb">
                         <ul class="breadcrumb">
                             <li><a href="<?= base_url() ?>" class="hvr-underline-from-left menu-line">Home</a></li>
@@ -69,7 +69,7 @@
 <section class="section-gap">
     <div class="container">
         <div class="row">
-            <div class="col-md-5 mb-3"><img src="<?= base_url() ?>assets/frontend/img/vitiligo.png" alt="Vitiligo Test Dubai icon 1"
+            <div class="col-md-5 mb-3"><img src="<?= base_url() ?>assets/frontend/img/vitiligo.png" alt="Vitiligo Test Dubai icon 1" width="497" height="490"
                                             class="img-fluid rounded "></div>
             <div class="col-md-7">
                 <div class="inner-page-right">

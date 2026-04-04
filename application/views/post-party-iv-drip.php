@@ -177,7 +177,7 @@
 
             <div class="col-md-12 text-center">
                 
-                <img src="<?= base_url() ?>assets/frontend/img/hangover-img.webp" alt="Post Party IV Drip Dubai" class="img-fluid" loading="lazy">
+                <img src="<?= base_url() ?>assets/frontend/img/hangover-img.webp" width="663" height="347" alt="Post Party IV Drip Dubai" class="img-fluid" loading="lazy">
             
             </div>
 

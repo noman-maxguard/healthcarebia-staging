@@ -1068,7 +1068,7 @@ h2.mb-4 {
         <div class="lab-test-trust-signals mb-5">
 
           <div class="lab-test-trust-box">
-            <img src="<?= base_url() ?>assets/frontend/img/google-reviews.svg" width="80" height="50" alt="google reviews" class="trust-google">
+            <img src="<?= base_url() ?>assets/frontend/img/google-reviews.svg" width="80" height="50" alt="google reviews icon" class="trust-google">
             <h5>5-Star Rated Healthcare Provider</h5>
             <p>Trusted by residents and executives across Dubai</p>
           </div>
@@ -1080,13 +1080,13 @@ h2.mb-4 {
           </div>
 
           <div class="lab-test-trust-box">
-            <img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="nabidh" width="60" height="50" class="trust-nabidh">
+            <img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="dha icon" width="60" height="50" class="trust-nabidh">
             <h5>DHA-Licensed Medical Professionals</h5>
             <p>Qualified healthcare staff conducting safe and accurate sample collection.</p>
           </div>
 
           <div class="lab-test-trust-box">
-            <img src="<?= base_url() ?>assets/frontend/img/home-service.svg" alt="dha" width="60" height="50" class="trust-dha mt-4">
+            <img src="<?= base_url() ?>assets/frontend/img/home-service.svg" alt="Home service" width="60" height="50" class="trust-dha mt-4">
             <h5>Discreet At-Home Testing</h5>
             <p>Private medical home blood test Dubai services without clinic visits.</p>
           </div>
@@ -1098,7 +1098,7 @@ h2.mb-4 {
           </div>
 
           <div class="lab-test-trust-box">
-            <img src="<?= base_url() ?>assets/frontend/img/medical-record.svg" alt="dha" class="trust-dha mt-4">
+            <img src="<?= base_url() ?>assets/frontend/img/medical-record.svg" alt="dha" width="60" height="50" class="trust-dha mt-4">
             <h5>Secure Digital Results</h5>
             <p>Access your lab reports safely through encrypted digital delivery.</p>
           </div>

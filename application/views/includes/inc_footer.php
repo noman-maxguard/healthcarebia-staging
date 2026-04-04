@@ -413,7 +413,7 @@
                     <div class="google-review">
                         <img width="136" height="61" class="img-fluid"
                         src="<?= base_url() ?>assets/frontend/img/google-review.svg"
-                        alt="">
+                        alt="Google Reviews">
                         <div class="review-item">
                         <h5>5.0</h5>
                         <span>

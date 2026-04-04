@@ -53,7 +53,7 @@
     <div class="overlay">
         <div class="container">
             <div class="row">
-                <div class="col-12"><h2>Vitiligo Test AED</h2>
+                <div class="col-12"><h2>`</h2>
                     <nav aria-label="breadcrumb">
                         <ul class="breadcrumb">
                             <li><a href="<?= base_url() ?>" class="hvr-underline-from-left menu-line">Home</a></li>
@@ -69,7 +69,7 @@
 <section class="section-gap">
     <div class="container">
         <div class="row">
-            <div class="col-md-5 mb-3"><img src="<?= base_url() ?>assets/frontend/img/vitiligo.png" alt=""
+            <div class="col-md-5 mb-3"><img src="<?= base_url() ?>assets/frontend/img/vitiligo.png" alt="Vitiligo Test Dubai icon 1"
                                             class="img-fluid rounded "></div>
             <div class="col-md-7">
                 <div class="inner-page-right">
@@ -78,22 +78,19 @@
                             professionals in accurate assessments, aiding early detection and personalized management
                             strategies for those potentially affected by vitiligo.</p>
                         <ul class="listing-item3">
-                            <li><img src="<?= base_url() ?>assets/frontend/img/biomarkers.svg" alt="">8 Biomarkers
+                            <li><img src="<?= base_url() ?>assets/frontend/img/biomarkers.svg" alt="Vitiligo Test Dubai icon 2">8 Biomarkers
                                 tested
                             </li>
-                            <li><img src="<?= base_url() ?>assets/frontend/img/hormones.svg" alt=""> Hormones,
+                            <li><img src="<?= base_url() ?>assets/frontend/img/hormones.svg" alt="Vitiligo Test Dubai icon 3"> Hormones,
                                 Cholesterol, Blood Sugar & More
                             </li>
-                            <li><img src="<?= base_url() ?>assets/frontend/img/home.svg" alt="">At home blood sample
+                            <li><img src="<?= base_url() ?>assets/frontend/img/home.svg" alt="Vitiligo Test Dubai icon 4">At home blood sample
                                 collection
                             </li>
-                            <li><img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="">DHA-licensed nurses & lab
+                            <li><img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="Vitiligo Test Dubai icon 5">DHA-licensed nurses & lab
                                 partners
                             </li>
-                            <!-- <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="">Results in as little
-                                as 12 hours.
-                            </li> -->
-                            <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" alt="">Fast, secure,
+                            <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" alt="Vitiligo Test Dubai icon 6">Fast, secure,
                                 and confidential results.
                             </li>
                         </ul>

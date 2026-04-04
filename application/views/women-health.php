@@ -59,7 +59,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-5 mb-3"><img src="<?= base_url() ?>assets/frontend/img/female-cancer-screening.png"
-                                            alt="" class="img-fluid rounded ">
+                                            alt="Female Cancer Screening Dubai icon 1" class="img-fluid rounded ">
             </div>
             <div class="col-md-7">
                 <div class="inner-page-right">
@@ -68,16 +68,16 @@
                             stages, enabling timely medical intervention. Prioritizing women's comfort and health, these
                             screenings are crucial components of comprehensive healthcare.</p>
                         <ul class="listing-item3">
-                            <li><img src="<?= base_url() ?>assets/frontend/img/biomarkers.svg" alt="">7 Biomarkers
+                            <li><img src="<?= base_url() ?>assets/frontend/img/biomarkers.svg" alt="Female Cancer Screening Dubai icon 2">7 Biomarkers
                                 tested
                             </li>
-                            <li><img src="<?= base_url() ?>assets/frontend/img/hormones.svg" alt=""> Hormones,
+                            <li><img src="<?= base_url() ?>assets/frontend/img/hormones.svg" alt="Female Cancer Screening Dubai icon 3"> Hormones,
                                 Cholesterol, Blood Sugar & More
                             </li>
-                            <li><img src="<?= base_url() ?>assets/frontend/img/home.svg" alt="">At home blood sample
+                            <li><img src="<?= base_url() ?>assets/frontend/img/home.svg" alt="Female Cancer Screening Dubai icon 4">At home blood sample
                                 collection
                             </li>
-                            <li><img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="">DHA-licensed nurses & lab
+                            <li><img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="Female Cancer Screening Dubai icon 5">DHA-licensed nurses & lab
                                 partners
                             </li>
                         </ul>

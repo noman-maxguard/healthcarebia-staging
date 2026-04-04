@@ -119,37 +119,37 @@
 
                         <ul class="listing-item3">
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/biomarkers.svg" alt="">12 Biomarkers
+                            <li><img src="<?= base_url() ?>assets/frontend/img/biomarkers.svg" alt="PCOS Package Dubai icon 1">12 Biomarkers
 
                                 tested
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/hormones.svg" alt=""> Hormones,
+                            <li><img src="<?= base_url() ?>assets/frontend/img/hormones.svg" alt="PCOS Package Dubai icon 2"> Hormones,
 
                                 Cholesterol, Blood Sugar & More
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/home.svg" alt="">At home blood sample
+                            <li><img src="<?= base_url() ?>assets/frontend/img/home.svg" alt="PCOS Package Dubai icon 3">At home blood sample
 
                                 collection
 
                             </li>
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="">DHA-licensed nurses & lab
+                            <li><img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="PCOS Package Dubai icon 4">DHA-licensed nurses & lab
 
                                 partners
 
                             </li>
 
-                            <!-- <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="">Results in as little
+                            <!-- <li><img src="<?= base_url() ?>assets/frontend/img/12-hour.svg" alt="PCOS Package Dubai icon 1">Results in as little
 
                                 as 12 hours.
 
                             </li> -->
 
-                            <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" alt="">Fast, secure,
+                            <li><img src="<?= base_url() ?>assets/frontend/img/results-icon.svg" alt="PCOS Package Dubai icon 5">Fast, secure,
 
                                 and confidential results.
 

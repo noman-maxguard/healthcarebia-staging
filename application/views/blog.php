@@ -588,14 +588,14 @@
             </div> -->
             <div class="col-md-3 mb-3"><a href="<?= base_url() ?>power-of-nad-iv-drips"
                                           class="card-style3 card-style4 same"> <img
-                            src="<?= base_url() ?>assets/frontend/img/blog2.png" alt="" class="img-fluid">
+                            src="<?= base_url() ?>assets/frontend/img/blog2.png" alt="The Power of NAD+ IV Drips" class="img-fluid">
                     <h6>The Power of NAD+ IV
                         Drips: Enhancing Cellular Health and Energy</h6>
                     <p>Fatigue, colds, and seasonal illnesses often signal a weakened immune system. Exploring how antioxidants and trace minerals support immune cells offers insights into maintaining year-round resilience.</p></a>
             </div>
             <div class="col-md-3 mb-3"><a href="<?= base_url() ?>power-of-iv-drips-for-immune-enhancement"
                                           class="card-style3 card-style4 same"> <img
-                            src="<?= base_url() ?>assets/frontend/img/blog3.png" alt=""
+                            src="<?= base_url() ?>assets/frontend/img/blog3.png" alt="Harnessing the Power of IV Drips for Immune Enhancement"
                             class="img-fluid">
                     <h6>Harnessing the Power of IV Drips for Immune Enhancement</h6>
                     <p>Fatigue, colds, and seasonal illnesses often signal a weakened immune system.
@@ -603,7 +603,7 @@ Exploring how antioxidants and trace minerals support immune cells offers insigh
             </div>
             <div class="col-md-3 mb-3"><a href="<?= base_url() ?>goodbye-hangovers"
                                           class="card-style3 card-style4 same"> <img
-                            src="<?= base_url() ?>assets/frontend/img/blog4.png" alt="" class="img-fluid">
+                            src="<?= base_url() ?>assets/frontend/img/blog4.png" alt="Saying Goodbye to Hangovers" class="img-fluid">
                     <h6>Saying Goodbye to
                         Hangovers: How IV Drip Therapy Provides Quick Relief</h6>
                     <p>"After a night of heavy drinking, dehydration, electrolyte loss, and oxidative stress can leave you feeling drained.
@@ -611,7 +611,7 @@ Understanding how the body recovers can help explain why certain nutrients speed
             </div>
             <div class="col-md-3 mb-3"><a href="<?= base_url() ?>at-home-std-testing"
                                           class="card-style3 card-style4 same"> <img
-                            src="<?= base_url() ?>assets/frontend/img/blog5.png" alt="" class="img-fluid">
+                            src="<?= base_url() ?>assets/frontend/img/blog5.png" alt="Confidential and Convenient: At-Home STD Testing for Your Peace of Mind" class="img-fluid">
                     <h6>Confidential and
                         Convenient: At-Home STD Testing for Your Peace of Mind</h6>
                     <p>"Sexual health is an important part of overall well-being, yet testing is often delayed.

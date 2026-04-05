@@ -104,7 +104,7 @@
                         <li class="active" aria-current="page">Is IV Drip Therapy Safe and Legal in Dubai?</li>
                     </ul>
 
-                    <h4>Is IV Drip Therapy Safe and Legal in Dubai?</h4>
+                    <h1>Is IV Drip Therapy Safe and Legal in Dubai?</h1>
 
                     <h5>Introduction</h5>
                     <p>Over the past decade, intravenous drip therapy has grown from a clinically essential procedure into a mainstream wellness trend in Dubai. What once was confined to hospital wards and emergency departments is now available at dedicated clinics and even luxury hotel spas. Busy executives, athletes, and leisure travelers alike seek quick hydration, vitamin boosts, and enhanced recovery via IV infusions. Social media influencers and celebrities frequently showcase their sessions, amplifying consumer interest. Despite its appeal, many factors, such as individual health status, infusion formulas, and clinical oversight, determine both safety and effectiveness.</p>

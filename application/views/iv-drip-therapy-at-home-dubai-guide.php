@@ -83,7 +83,7 @@
                     </ul>
 
                     <!-- Main Title -->
-                    <h4>Comprehensive Guide to DHA-Certified IV Drip Therapy at Home in Dubai: Procedure, Safety, and Expected Results</h4>
+                    <h1>Comprehensive Guide to DHA-Certified IV Drip Therapy at Home in Dubai: Procedure, Safety, and Expected Results</h1>
 
                     <!-- Introduction -->
                     <h5>Introduction</h5>

@@ -79,7 +79,7 @@
                         <li class="active" aria-current="page">Annual Health Checkups</li>
                     </ul>
 
-                    <h4>Annual Health Checkups: What Tests Actually Matter</h4>
+                    <h1>Annual Health Checkups: What Tests Actually Matter</h1>
 
                     <!-- Intro -->
                     <h5>Smart Screening Beats “More Tests”</h5>

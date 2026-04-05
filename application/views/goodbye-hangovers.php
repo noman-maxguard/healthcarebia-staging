@@ -55,7 +55,7 @@
                         <li><a href="<?= base_url() ?>blog" class="hvr-underline-from-left menu-line2">Blog</a></li>
                         <li class="active" aria-current="page">Goodbye to Hangovers</li>
                     </ul>
-                    <h4>Saying Goodbye to Hangovers: How IV Drip Therapy Provides Quick Relief</h4>
+                    <h1>Saying Goodbye to Hangovers: How IV Drip Therapy Provides Quick Relief</h1>
                     <p>Hangovers can be a dreaded aftermath of a night of indulgence and celebration. The pounding
                         headache, nausea, and overall fatigue can leave you feeling miserable and unable to function
                         properly. While there are various remedies and folk remedies to combat hangovers, <a href="<?= base_url() ?>hangover-iv-drip">IV drip therapy</a>

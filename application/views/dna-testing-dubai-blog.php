@@ -79,7 +79,7 @@
                         <li class="active" aria-current="page">DNA Testing in Dubai</li>
                     </ul>
 
-                    <h4>DNA Testing in Dubai: A Smarter Approach to Health</h4>
+                    <h1>DNA Testing in Dubai: A Smarter Approach to Health</h1>
 
                     <!-- Intro -->
                     <h5>Introduction</h5>

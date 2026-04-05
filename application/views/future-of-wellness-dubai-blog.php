@@ -82,7 +82,7 @@
                         <li class="active" aria-current="page">Future of Wellness in Dubai</li>
                     </ul>
 
-                    <h4>The Future of Wellness in Dubai with Healthcarebia: IV Drips, DNA Testing &amp; More</h4>
+                    <h1>The Future of Wellness in Dubai with Healthcarebia: IV Drips, DNA Testing &amp; More</h1>
 
                     <p>In a world that’s constantly evolving, so is the way we approach health. From personalized medicine to holistic self-care, people are redefining what it means to be well. The global wellness economy, now valued in the trillions, has shifted rapidly, fueled by lifestyle changes, technology, and a collective desire for longer, healthier lives.</p>
                     <p>As we embrace 2025, here are the biggest health and wellness trends shaping the future. Whether you’re a wellness enthusiast, health professional, or simply looking to live better, these insights will help you navigate what’s next.</p>

@@ -57,7 +57,7 @@
 
             <div class="row">
 
-                <div class="col-12"><h2>Liver Profile</h2>
+                <div class="col-12"><h1>Liver Profile</h1>
 
                     <nav aria-label="breadcrumb">
 

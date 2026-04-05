@@ -83,11 +83,8 @@
                         <li><a href="<?= base_url() ?>blog" class="hvr-underline-from-left menu-line2">Blog</a></li>
                         <li class="active" aria-current="page">The Link Between Gut Health and Energy</li>
                     </ul>
-                    <ul class="breadcrumb-blog">
-                        <li class="active" aria-current="page">Last Updated: 20-10-2025</li>
-                    </ul>
 
-                    <h4>The Link Between Gut Health and Energy: The Science You Need to Know</h4>
+                    <h1>The Link Between Gut Health and Energy: The Science You Need to Know</h1>
 
                     <!-- Introduction -->
                     <h5>Introduction</h5>

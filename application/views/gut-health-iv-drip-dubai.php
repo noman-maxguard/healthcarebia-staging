@@ -81,7 +81,7 @@
                         <li class="active" aria-current="page">Gut Health IV Drip in Dubai</li>
                     </ul>
 
-                    <h4>Gut Health IV Drip in Dubai: Fast Relief for Digestive Health</h4>
+                    <h1>Gut Health IV Drip in Dubai: Fast Relief for Digestive Health</h1>
 
                     <!-- Intro -->
                     <h5>Introduction</h5>

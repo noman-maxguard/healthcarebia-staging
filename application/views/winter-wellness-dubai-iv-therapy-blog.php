@@ -78,7 +78,7 @@
             <li class="active" aria-current="page">Winter Wellness in Dubai</li>
           </ul>
 
-          <h4>Winter Wellness in Dubai: Stay Energized and Protected</h4>
+          <h1>Winter Wellness in Dubai: Stay Energized and Protected</h1>
 
           <p>Your body faces new difficulties as Dubai’s cooler months approach. Reduced sunlight, more time spent outdoors, and decreased humidity can subtly affect immunity, hydration, skin health, and energy levels. At Healthcarebia, we provide professional care such as IV drips at home, DNA testing, and preventive examinations to help you stay at your best all season.</p>
           <p>This guide shares simple steps to stay healthy and energized through winter and explains how home healthcare in Dubai and IV therapy can make your routine easier. You will also see how options like antioxidant IVs, hangover drips, and essential health tests fit into a clear winter plan.</p>

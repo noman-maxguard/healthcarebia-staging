@@ -14,7 +14,7 @@
     <div class="overlay">
         <div class="container">
             <div class="row">
-                <div class="col-12"><h2>404 Error !</h2>
+                <div class="col-12"><h1>404 Error !</h1>
                     <nav aria-label="breadcrumb">
 
                     </nav>

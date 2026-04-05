@@ -214,9 +214,9 @@
 
                     <div class="banner-inner">
 
-                        <h1>Healing Body, Mind and Soul.</h1>
+                        <h1>Dubai’s Luxury Home Care & Concierge Healthcare Service</h1>
 
-                        <p>Healthcarebia is the GCC’s First Concierge Wellness Service merging Luxury, Diagnostics & Rejuvenation with Privacy & Precision to your doorstep.</p>
+                        <p>Healthcarebia is the GCC’s First Concierge Wellness Service, providing premium home care in Dubai with DHA-certified doctors, nurses, lab tests, and IV therapies delivered to your doorstep with privacy and precision.</p>
 
                         <a href="<?= base_url() ?>about-us" class="primary-btn hvr-bounce-to-right white-btn mt-2">Read More About Us</a>
                         <br>
@@ -300,7 +300,9 @@
                     <h2  ><span>Welcome to</span> Healthcarebia</h2>
                     <h3>Premium At-Home Healthcare in Dubai</h3>
 
-                    <p>HEALTHCAREBIA is Dubai's premier luxury mobile healthcare provider, delivering elite medical services to UAE's discerning clientele. Our DHA-certified professionals offer 24/7 concierge medicine, including premium IV therapy, executive health screenings, and diagnostics within the privacy of your residence. Trusted by royal families and business leaders, we combine world-class expertise with discretion, providing bespoke wellness solutions from preventive care to longevity treatments. Experience healthcare reimagined, where luxury meets medical excellence, exclusively for Dubai's high-net-worth individuals and VIP residents.</p>
+                    <p>Healthcarebia is Dubai's luxury concierge healthcare provider, delivering elite at-home medical services to discerning clients across the UAE. Our DHA-certified professionals provide 24/7 concierge medicine, including doctor on call, premium IV therapy service at home, executive health screenings, and diagnostics, all delivered with privacy, world-class expertise, and bespoke wellness solutions.
+                        <br>
+                    Trusted by royal families and business leaders, we offer preventive care, longevity programs, and personalized medical experiences designed exclusively for Dubai’s high-net-worth individuals and VIP residents. Experience healthcare reimagined, where luxury meets medical excellence.</p>
 
                     <div id="counters_3" class="statistics">
 
@@ -614,6 +616,8 @@
             <div class="col-md-12 text-center">
 
                 <h2>Testimonials</h2>
+
+                <p>From routine care to life-changing wellness, these Healthcarebia reviews show how our personalized home care Dubai transforms health and lifestyle for discerning residents.</p>
 
             </div>
 

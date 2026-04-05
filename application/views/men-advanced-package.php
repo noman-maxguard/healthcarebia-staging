@@ -53,7 +53,7 @@
 
             <div class="row">
 
-                <div class="col-12"><h2>Male Advanced Package</h2>
+                <div class="col-12"><h1>Male Advanced Package</h1>
 
                     <nav aria-label="breadcrumb">
 

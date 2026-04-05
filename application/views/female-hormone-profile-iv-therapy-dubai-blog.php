@@ -79,7 +79,7 @@
                         <li class="active" aria-current="page">Female Hormone Profile & IV Therapy</li>
                     </ul>
 
-                    <a href="<?= base_url() ?>female-hormone-profile "><h4>Female Hormone Profile & IV Therapy in Dubai</h4></a>
+                    <a href="<?= base_url() ?>female-hormone-profile "><h1>Female Hormone Profile & IV Therapy in Dubai</h1></a>
 
                     <!-- Intro -->
                     <h5>Hormones Shape a Woman’s Health</h5>

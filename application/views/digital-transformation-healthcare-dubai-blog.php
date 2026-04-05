@@ -79,7 +79,7 @@
                         <li class="active" aria-current="page">Digital Transformation in Healthcare</li>
                     </ul>
 
-                    <h4>Digital Transformation in Healthcare: How Technology is Shaping Personalized and Preventive Medicine in Dubai</h4>
+                    <h1>Digital Transformation in Healthcare: How Technology is Shaping Personalized and Preventive Medicine in Dubai</h1>
 
                     <p>The healthcare industry is undergoing one of the most significant revolutions in history. The digital transformation of healthcare has introduced new ways for people to take charge of their well-being. From telehealth services to wearable health monitoring devices, and from AI-driven predictive analytics to hyper-personalized treatments, the future of healthcare is not just about treating diseases, it’s about preventing them.</p>
                     <p>In Dubai, where innovation and lifestyle meet, these trends are growing faster than ever. People are embracing IV drip therapy, lab tests at home, DNA testing, and preventive health check-ups as part of a holistic approach to wellness.</p>

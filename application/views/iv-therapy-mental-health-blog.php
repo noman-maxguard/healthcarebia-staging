@@ -79,7 +79,7 @@
                         <li class="active" aria-current="page">IV Therapy for Mental Health in Dubai</li>
                     </ul>
 
-                    <h4>IV Therapy for Mental Health: Can Drips Support Stress, Anxiety, and Mood?</h4>
+                    <h1>IV Therapy for Mental Health: Can Drips Support Stress, Anxiety, and Mood?</h1>
 
                     <!-- Intro -->
                     <h5>Mental Health Needs a Whole Body Lens</h5>

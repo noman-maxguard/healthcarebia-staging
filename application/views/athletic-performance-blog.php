@@ -115,7 +115,7 @@
                         <li class="active" aria-current="page">How IV Drip Therapy Enhances Athletic Performance and Recovery in Dubai</li>
                     </ul>
 
-                    <h4>How IV Drip Therapy Enhances Athletic Performance and Recovery in Dubai</h4>
+                    <h1>How IV Drip Therapy Enhances Athletic Performance and Recovery in Dubai</h1>
 
                     <h5>Introduction</h5>
                     <p>Dubai has become a playground for sport. On any weekend runners fill Palm Jumeirah, cyclists test the climbs at Hatta, and CrossFit teams battle for podium spots in Al Quoz. Yet the desert climate is harsh. Daytime air often rises above 40°C, and the heat index can top 50°C. Sweat pours out fast, minerals drain away, and muscles stay sore for days.</p>

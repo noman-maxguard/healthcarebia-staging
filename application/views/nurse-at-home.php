@@ -71,9 +71,7 @@
 
                 <div class="row">
 
-                    <div class="col-12">
-
-                        <h2>Nurses at Home Dubai</h2>
+                    <div class="col-12"><h1>Nurses at Home Dubai</h1>
 
                         <nav aria-label="breadcrumb">
 

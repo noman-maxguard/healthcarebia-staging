@@ -78,7 +78,7 @@
                         <li class="active" aria-current="page">IV Drips for Better Sleep</li>
                     </ul>
 
-                    <h4>Sleep Like a Baby: How IV Drips Can Improve Your Rest and Recovery</h4>
+                    <h1>Sleep Like a Baby: How IV Drips Can Improve Your Rest and Recovery</h1>
 
                     <p>In Dubai’s busy lifestyle, quality sleep can be hard to come by. Long work hours, screen time, travel, and stress all disrupt your natural sleep cycle. Even with enough time in bed, you may still wake up tired. One solution gaining traction is <b>IV drips for sleep in Dubai</b>. At Healthcarebia, our sleep support IV therapy provides essential nutrients that promote deeper, more restorative rest. Every treatment is <b>DHA-approved</b> and follows wellness guidelines, so you can relax knowing it’s safe and effective.</p>
 

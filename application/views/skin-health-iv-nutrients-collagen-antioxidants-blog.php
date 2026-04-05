@@ -79,7 +79,7 @@
                         <li class="active" aria-current="page">Skin Health from Within</li>
                     </ul>
 
-                    <h4>Skin Health from Within: IV Nutrients, Collagen, and Antioxidants</h4>
+                    <h1>Skin Health from Within: IV Nutrients, Collagen, and Antioxidants</h1>
 
                     <p>Healthy skin starts deeper than creams can reach. Your dermis—where collagen, elastin, and hyaluronic acid live—depends on vitamins, minerals, amino acids, and antioxidants delivered by your bloodstream. When those inputs are low, fine lines, dull tone, and slow healing show up on the surface. That’s why many people in Dubai look beyond serums to <strong>IV drip therapy</strong>. With IV infusion therapy, nutrients go straight into the blood, bypassing the gut and reaching skin cells at effective levels.</p>
                     <p>Below is a clear guide to the nutrients that matter, how <strong>IV therapy in Dubai</strong> supports collagen and glow, who benefits, how <strong>IV drip at home in Dubai</strong> works, plus safety, price ranges, and smart next steps.</p>

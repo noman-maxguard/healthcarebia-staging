@@ -126,7 +126,7 @@
                         <li class="active" aria-current="page">For CEOs - How NAD+ Improves Cognitive Function During Multitasking</li>
                     </ul>
 
-                    <h4>For CEOs - How NAD+ Improves Cognitive Function During Multitasking</h4>
+                    <h1>For CEOs - How NAD+ Improves Cognitive Function During Multitasking</h1>
 
                     <h5>Introduction</h5>
                     <p>As a CEO or business leader managing multiple ventures, mental sharpness is non-negotiable. Between back-to-back meetings, strategic decisions, and frequent travel, cognitive overload is real. Enter <a href="<?= base_url() ?>nad-iv-drip">NAD+ therapy</a> for executives in Dubai — a concierge healthcare offering from HealthcareBIA designed to enhance focus, combat mental fatigue, and support top-level multitasking performance.</p>

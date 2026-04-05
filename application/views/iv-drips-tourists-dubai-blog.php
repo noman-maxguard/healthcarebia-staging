@@ -78,7 +78,7 @@
                         <li class="active" aria-current="page">Why Tourists Are Getting Hooked on IV Drips in Dubai</li>
                     </ul>
 
-                    <h4>Why Tourists Are Getting Hooked on IV Drips in Dubai</h4>
+                    <h1>Why Tourists Are Getting Hooked on IV Drips in Dubai</h1>
 
                     <p>Traveling is one of the most enriching experiences we can have. Whether it’s exploring new cultures, tasting local cuisines, or enjoying breathtaking sights, traveling allows us to reset, recharge, and create unforgettable memories. But it’s no secret that traveling also takes a toll on the body. Long flights, changing time zones, and packed itineraries can leave even the most seasoned traveler feeling drained.</p>
 

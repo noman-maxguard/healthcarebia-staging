@@ -79,7 +79,7 @@
                         <li class="active" aria-current="page">Vitamin D Deficiency in Dubai</li>
                     </ul>
 
-                    <h4>Vitamin D Deficiency: Causes, Symptoms, and Treatment</h4>
+                    <h1>Vitamin D Deficiency: Causes, Symptoms, and Treatment</h1>
 
                     <h5>Introduction</h5>
                     <p>It may seem almost impossible that people living in one of the sunniest cities in the world could suffer from a lack of vitamin D. Yet vitamin D deficiency in Dubai is extremely common. Despite year-round sunshine, studies estimate that up to <em>90% of residents</em> in the UAE have low vitamin D levels.</p>

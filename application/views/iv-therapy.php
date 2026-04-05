@@ -79,9 +79,7 @@
 
                 <div class="row">
 
-                    <div class="col-12">
-
-                        <h2>IV Therapy Dubai</h2>
+                    <div class="col-12"><h1>IV Therapy Dubai</h1>
 
                         <nav aria-label="breadcrumb">
 

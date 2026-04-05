@@ -81,7 +81,7 @@
                         <li class="active" aria-current="page">STD Screening Profiles: From Simple Checkups to Full Sexual Health Panels</li>
                     </ul>
 
-                    <h4>STD Screening Profiles: From Simple Checkups to Full Sexual Health Panels</h4>
+                    <h1>STD Screening Profiles: From Simple Checkups to Full Sexual Health Panels</h1>
 
                     <!-- Intro -->
                     <p>Sexual health is not only about avoiding infection. It is about peace of mind, confidence with your partner, and protecting your fertility and long term health. Many sexually transmitted infections can stay completely silent for months or even years. That is why structured STD screening is so valuable.</p>

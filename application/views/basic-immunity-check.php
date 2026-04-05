@@ -56,7 +56,7 @@
 
             <div class="row">
 
-                <div class="col-12"><h2>Basic Immunity Check </h2>
+                <div class="col-12"><h1>Basic Immunity Check </h1>
 
                     <nav aria-label="breadcrumb">
 

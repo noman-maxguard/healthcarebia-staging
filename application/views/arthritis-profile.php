@@ -48,7 +48,7 @@
 
             <div class="row">
 
-                <div class="col-12"><h2>Arthritis Profile</h2>
+                <div class="col-12"><h1>Arthritis Profile</h1>
 
                     <nav aria-label="breadcrumb">
 

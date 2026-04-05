@@ -104,7 +104,7 @@
                         <li><a href="<?= base_url() ?>blog" class="hvr-underline-from-left menu-line2">Blog</a></li>
                         <li class="active" aria-current="page">Myth busting IV Therapy: Separating Fact from Fiction</li>
                     </ul>
-                    <h5>Introduction</h5>
+                    <h1>Introduction</h1>
                     <p>Intravenous (IV) therapy has become very popular in Dubai. It delivers fluids, vitamins, and minerals directly into your bloodstream. You get rapid rehydration and a fast nutrient boost. Yet many people still ask: Is it safe? Does it hurt? Don’t I get enough vitamins from food and drinking water? In this guide, we will clear up the top IV drip myths. We’ll share the facts, answer your IV treatment FAQs, and help you decide if an IV therapy session is right for you.</p>
                     <h5>1. Myth: “IV Therapy Is Painful and Invasive”</h5>
                     <ul class="tick-list">

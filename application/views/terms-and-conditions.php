@@ -30,7 +30,7 @@
 
             <div class="row">
 
-                <div class="col-12"><h2>Terms and Conditions</h2>
+                <div class="col-12"><h1>Terms and Conditions</h1>
 
                     <nav aria-label="breadcrumb">
 

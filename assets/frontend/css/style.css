@@ -2369,3 +2369,13 @@ ul.commen-listing li {
     margin: 2px 0px !important;
     font-weight: bold;
 }
+
+.sub-banner h1 {
+    font-size: 60px;
+    color: #fff;
+}
+
+section.light-bg-color.section-gap h1 {
+    font-size: 35px;
+    color: var(--green);
+}

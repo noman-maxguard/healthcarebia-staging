@@ -30,7 +30,7 @@
 
             <div class="row">
 
-                <div class="col-12"><h2>Patient Rights and Responsibilities</h2>
+                <div class="col-12"><h1>Patient Rights and Responsibilities</h1>
 
                     <nav aria-label="breadcrumb">
 

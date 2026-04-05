@@ -59,7 +59,7 @@
 
                 <div class="row">
 
-                    <div class="col-12"><h2>About Us</h2>
+                    <div class="col-12"><h1>About Us</h1>
 
                         <nav aria-label="breadcrumb">
 

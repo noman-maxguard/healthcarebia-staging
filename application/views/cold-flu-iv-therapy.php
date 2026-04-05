@@ -144,7 +144,7 @@
                         </li>
                     </ul>
 
-                    <h4>Cold & Flu IV Therapy: Fast Relief and Immune Support</h4>
+                    <h1>Cold & Flu IV Therapy: Fast Relief and Immune Support</h1>
                     
                     <h5>Introduction</h5>
                     <p>When a cold or flu hits, the symptoms can be exhausting—fever, sore throat, body aches, and fatigue can disrupt your daily life. While over-the-counter medications may provide temporary relief, IV therapy for colds and flu is an advanced, fast-acting solution that can help you recover quicker and restore your energy levels.</p>

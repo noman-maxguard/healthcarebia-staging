@@ -119,7 +119,7 @@
                         <li class="active" aria-current="page">Oxygen Therapy Dubai</li>
                     </ul>
 
-                    <h4>Oxygen Therapy Dubai: How Oxygen Reaches Your Cells</h4>
+                    <h1>Oxygen Therapy Dubai: How Oxygen Reaches Your Cells</h1>
 
                     <p>Oxygen is the fuel your body uses to make energy. Every heartbeat, thought, and step depends on it. This guide shows how oxygen moves from the air to your cells and how at-home oxygen therapy in Dubai can help.</p>
 

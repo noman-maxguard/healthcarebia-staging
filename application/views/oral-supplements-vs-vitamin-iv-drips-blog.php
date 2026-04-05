@@ -79,7 +79,7 @@
                         <li class="active" aria-current="page">Oral Supplements vs. Vitamin IV Drips</li>
                     </ul>
 
-                    <h4>Oral Supplements vs. Vitamin IV Drips: Which Works Better for Your Health?</h4>
+                    <h1>Oral Supplements vs. Vitamin IV Drips: Which Works Better for Your Health?</h1>
 
                     <h5>Dubai’s Wellness Choice: Pills or Drips?</h5>
                     <p>Dubai has become a hub for modern wellness treatments. Alongside gyms, spas, and luxury health services, IV drip therapy now sits beside oral supplements as a popular option. Many people ask whether they should stick with capsules or choose an IV vitamin drip in Dubai. This page compares both and shows when a combined plan makes sense.</p>

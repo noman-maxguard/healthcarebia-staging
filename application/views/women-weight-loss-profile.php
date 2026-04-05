@@ -71,7 +71,7 @@
 
             <div class="row">
 
-                <div class="col-12"><h2>Weight Loss - Women</h2>
+                <div class="col-12"><h1>Weight Loss - Women</h1>
 
                     <nav aria-label="breadcrumb">
 

@@ -77,7 +77,7 @@
                         <li class="active" aria-current="page">Why We Often Notice Burnout Too Late And How to Prevent It</li>
                     </ul>
 
-                    <h4>Why We Often Notice Burnout Too Late And How to Prevent It</h4>
+                    <h1>Why We Often Notice Burnout Too Late And How to Prevent It</h1>
 
                     <p>In today’s demanding world, burnout recovery is no longer just a personal concern, it’s a global health issue. Many people push through poor work conditions, long hours, and endless responsibilities without recognizing the signs of burnout. The real danger is that the burnout symptoms usually become obvious only when it’s too late. By that time, workplace burnout has already damaged productivity, health, and relationships.</p>
 

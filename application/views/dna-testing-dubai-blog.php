@@ -163,7 +163,7 @@
 
                     <!-- CTA -->
                     <h5>Call to Action</h5>
-                    <p>Ready to discover what your DNA says about your health? <a href="<?= $whatsappHref ?>" target="_blank" class="button d-inline">WhatsApp Healthcarebia</a> to book your DNA Test in Dubai today and:</p>
+                    <p>Ready to discover what your DNA says about your health? <a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" class="button d-inline">WhatsApp Healthcarebia</a> to book your DNA Test in Dubai today and:</p>
                     <ul class="ingredients-list">
                         <li>Understand your genetic <strong>risk factors</strong></li>
                         <li>Build a personalised <strong>preventive healthcare</strong> plan</li>

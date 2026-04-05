@@ -247,7 +247,7 @@
                         <div class="col-md-8 p-5">
                             <h2>How Gut Health IV Drip Works?</h2>
                             <p>The <strong>Gut Health IV Drip</strong> delivers essential nutrients, including Glutamine, trace minerals, Glycine, and Glutathione, directly into the bloodstream. These compounds work quickly to reduce inflammation, repair the stomach lining, and support the activity of digestive enzymes, helping to restore optimal digestive health.</p>
-                            <a class="primary-btn hvr-bounce-to-right green-btn border-btn booking-btn" href="<?= $whatsappHref ?>" target="_blank">Book Your Session Now</a>
+                            <a class="primary-btn hvr-bounce-to-right green-btn border-btn booking-btn" href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">Book Your Session Now</a>
                         </div>
                         <div class="col-md-4 text-center mt-2 mt-md-4">
                             <img src="<?= base_url() ?>assets/frontend/img/gut-health-bottle.webp" width="343" height="413" alt="Gut Health IV Drip Dubai" class="img-fluid" loading="lazy">

@@ -184,18 +184,18 @@
 
                     <!-- CTA -->
                     <h5>Start Your Journey</h5>
-                    <p>Book your personalized plan at <a href="https://web.whatsapp.com/send?phone=971547077476&text=Hi%2C%20I%20contacted%20you%20through%20Healthcarebia%20website.%20Can%20I%20know%20more%20about%20your%20services%3F" target="_blank" rel="noopener">healthcarebia.ae</a>. Your health. Your space. Your schedule.</p>
+                    <p>Book your personalized plan at <a href="https://web.whatsapp.com/send?phone=971547077476&text=Hi%2C%20I%20contacted%20you%20through%20Healthcarebia%20website.%20Can%20I%20know%20more%20about%20your%20services%3F" target="_blank" rel="noopener noreferrer">healthcarebia.ae</a>. Your health. Your space. Your schedule.</p>
 
                     <!-- References -->
                     <h5>References</h5>
                     <ol class="ref-list">
-                        <li>Global Wellness Institute (2024). The Global Wellness Economy: Country Rankings and Analysis. <a href="https://globalwellnessinstitute.org" target="_blank" rel="noopener">globalwellnessinstitute.org</a></li>
-                        <li>Cleveland Clinic (2023). Why Preventive Health is the Future. <a href="https://health.clevelandclinic.org" target="_blank" rel="noopener">health.clevelandclinic.org</a></li>
-                        <li>Mayo Clinic (2024). IV Therapy: Benefits, Uses &amp; What to Expect. <a href="https://www.mayoclinic.org" target="_blank" rel="noopener">mayoclinic.org</a></li>
-                        <li>Harvard Health Publishing (2023). Sleep and Mental Health. <a href="https://www.health.harvard.edu" target="_blank" rel="noopener">health.harvard.edu</a></li>
-                        <li>Nature Medicine (2024). Longevity biomarkers and precision medicine. <a href="https://www.nature.com/nm" target="_blank" rel="noopener">nature.com/nm</a></li>
-                        <li>McKinsey &amp; Company (2023). Wellness: A $1.8 Trillion Opportunity for Brands. <a href="https://www.mckinsey.com" target="_blank" rel="noopener">mckinsey.com</a></li>
-                        <li>World Health Organization (2024). Integrating Mental Health Into Primary Care. <a href="https://www.who.int" target="_blank" rel="noopener">who.int</a></li>
+                        <li>Global Wellness Institute (2024). The Global Wellness Economy: Country Rankings and Analysis. <a href="https://globalwellnessinstitute.org" target="_blank" rel="noopener noreferrer">globalwellnessinstitute.org</a></li>
+                        <li>Cleveland Clinic (2023). Why Preventive Health is the Future. <a href="https://health.clevelandclinic.org" target="_blank" rel="noopener noreferrer">health.clevelandclinic.org</a></li>
+                        <li>Mayo Clinic (2024). IV Therapy: Benefits, Uses &amp; What to Expect. <a href="https://www.mayoclinic.org" target="_blank" rel="noopener noreferrer">mayoclinic.org</a></li>
+                        <li>Harvard Health Publishing (2023). Sleep and Mental Health. <a href="https://www.health.harvard.edu" target="_blank" rel="noopener noreferrer">health.harvard.edu</a></li>
+                        <li>Nature Medicine (2024). Longevity biomarkers and precision medicine. <a href="https://www.nature.com/nm" target="_blank" rel="noopener noreferrer">nature.com/nm</a></li>
+                        <li>McKinsey &amp; Company (2023). Wellness: A $1.8 Trillion Opportunity for Brands. <a href="https://www.mckinsey.com" target="_blank" rel="noopener noreferrer">mckinsey.com</a></li>
+                        <li>World Health Organization (2024). Integrating Mental Health Into Primary Care. <a href="https://www.who.int" target="_blank" rel="noopener noreferrer">who.int</a></li>
                     </ol>
 
                     <p><small><strong>Disclaimer:</strong> This article is for educational purposes and does not replace professional medical advice. Always consult a licensed practitioner if you have underlying conditions or severe symptoms.</small></p>

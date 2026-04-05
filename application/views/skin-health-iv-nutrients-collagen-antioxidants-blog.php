@@ -145,7 +145,7 @@
                         <li>Add baseline labs or a preventive health check-up to track progress.</li>
                     </ul>
                     <p>Call or WhatsApp to schedule your <strong>premium IV drip at home</strong> or in-clinic consultation. Ask for our best Myers cocktail IV, best immune boost IV drip, or a custom premium IV drip formulated for your skin goals.</p>
-                    <p><a href="<?= $whatsappHref ?>" target="_blank" class="button d-inline">WhatsApp Healthcarebia</a></p>
+                    <p><a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" class="button d-inline">WhatsApp Healthcarebia</a></p>
 
                     <p><small><strong>Disclaimer:</strong> Educational content only; not medical advice. Always consult a licensed practitioner if you have underlying conditions or severe symptoms.</small></p>
                 </div>

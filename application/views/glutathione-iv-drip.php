@@ -414,7 +414,7 @@
                                 also promotes a stronger immune system, healthy vision, reproductive health, and brain
 
                                 function.</p>
-                                <a class="primary-btn hvr-bounce-to-right green-btn border-btn booking-btn" href="<?= $whatsappHref ?>" target="_blank">Book Your Session Now</a>                        </div>
+                                <a class="primary-btn hvr-bounce-to-right green-btn border-btn booking-btn" href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">Book Your Session Now</a>                        </div>
 
                         <div class="col-md-4"><img src="<?= base_url() ?>assets/frontend/img/glow-bottle.webp" width="343" height="413"  alt="Glutathione IV Drip Injection Dubai" class="img-fluid" loading="lazy"></div>
 

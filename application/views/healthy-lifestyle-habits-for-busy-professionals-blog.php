@@ -187,7 +187,7 @@
 
                     <!-- Optional CTA -->
                     <h5>Ready to Optimise Your Routine?</h5>
-                    <p><a href="<?= $whatsappHref ?>" target="_blank" class="button d-inline">WhatsApp Healthcarebia</a> to book a personalised wellness plan—IV therapy, home lab tests, and at-home checkups—scheduled around your workday.</p>
+                    <p><a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" class="button d-inline">WhatsApp Healthcarebia</a> to book a personalised wellness plan—IV therapy, home lab tests, and at-home checkups—scheduled around your workday.</p>
 
                     <p><small><strong>Disclaimer:</strong> This article is for educational purposes and does not replace professional medical advice. Always consult a licensed practitioner if you have underlying conditions or severe symptoms.</small></p>
                 </div>

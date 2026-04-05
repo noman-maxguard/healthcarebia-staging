@@ -171,7 +171,7 @@
 
                     <h5>Call to action</h5>
                     <p>Ready to plan your preventive health check? Arrange blood test at home now, message us on WhatsApp and we’ll schedule sample collection and a follow-up consult the same week.</p>
-                    <p><a href="<?= $whatsappHref ?>" target="_blank" class="button d-inline">WhatsApp Healthcarebia</a></p>
+                    <p><a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" class="button d-inline">WhatsApp Healthcarebia</a></p>
 
                     <p><small><strong>Disclaimer:</strong> This article is for educational purposes and does not replace professional medical advice. Always consult a licensed practitioner for personalised recommendations.</small></p>
                 </div>

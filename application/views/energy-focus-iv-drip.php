@@ -245,7 +245,7 @@
                     <div class="row">
                         <div class="col-md-8 p-5">
                             <h2>How Energy & Focus IV Drip Works?</h2>
-                            <p>The <strong>Energy & Focus IV Drip</strong> is designed to quickly recharge the mind and body by delivering important vitamins, amino acids, and nutrients straight into the bloodstream. By skipping digestion, your body absorbs these nutrients faster, boosting the brain power, improving mental clarity, and keeping the person energized and focused throughout the day.</p>                            <a class="primary-btn hvr-bounce-to-right green-btn border-btn booking-btn" href="<?= $whatsappHref ?>" target="_blank">Book Your Session Now</a>
+                            <p>The <strong>Energy & Focus IV Drip</strong> is designed to quickly recharge the mind and body by delivering important vitamins, amino acids, and nutrients straight into the bloodstream. By skipping digestion, your body absorbs these nutrients faster, boosting the brain power, improving mental clarity, and keeping the person energized and focused throughout the day.</p>                            <a class="primary-btn hvr-bounce-to-right green-btn border-btn booking-btn" href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">Book Your Session Now</a>
                         </div>
                         <div class="col-md-4 text-center mt-2 mt-md-4">
                             <img src="<?= base_url() ?>assets/frontend/img/energy-focus-bottle.webp" width="343" height="413" alt="Energy & Focus IV Drip Dubai" class="img-fluid" loading="lazy">

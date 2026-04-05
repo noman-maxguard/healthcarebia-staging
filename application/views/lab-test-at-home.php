@@ -736,9 +736,9 @@ h2.mb-4 {
                                 </ul>
                             </div>
                             <div class="my-3">
-                                <a class="primary-btn hvr-bounce-to-right green-btn mt-2 me-2" href="<?= $whatsappHref ?>" target="_blank">
+                                <a class="primary-btn hvr-bounce-to-right green-btn mt-2 me-2" href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">
                                 Book a Home Lab Test</a>
-                                <a class="primary-btn hvr-bounce-to-right green-btn mt-2 me-2" href="<?= $whatsappHref ?>" target="_blank">
+                                <a class="primary-btn hvr-bounce-to-right green-btn mt-2 me-2" href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">
                                 Get Test Recommendation on WhatsApp</a>
                             </div>
                         </nav>
@@ -846,7 +846,7 @@ h2.mb-4 {
                                 <div class="price-blockl mt-3">
                                     <span>From AED</span>
                                     <h3>1,260* </h3>
-                                    <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
+                                    <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">
                                         Book Test
                                     </a><br>
                                     <i>* T&amp;C apply</i>
@@ -872,7 +872,7 @@ h2.mb-4 {
                                 <div class="price-blockl mt-3">
                                     <span>From AED</span>
                                     <h3>1,550* </h3>
-                                    <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
+                                    <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">
                                         Book Test
                                     </a><br>
                                     <i>* T&amp;C apply</i>
@@ -895,7 +895,7 @@ h2.mb-4 {
                                 <div class="price-blockl mt-3">
                                     <span>From AED</span>
                                     <h3>1,600* </h3>
-                                    <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank">
+                                    <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">
                                         Book Test
                                     </a><br>
                                     <i>* T&amp;C apply</i>
@@ -943,7 +943,7 @@ h2.mb-4 {
                                 <h4>General<br> Health Panels</h4>
                                 <p>Comprehensive routine testing for overall health assessment and early detection of common conditions.
                                 </p>
-                                <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= base_url() ?>annual-health-check-up" target="_blank">Book Test</a>
+                                <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= base_url() ?>annual-health-check-up" target="_blank" rel="noopener noreferrer">Book Test</a>
                           </div>
                       </div>
 
@@ -956,7 +956,7 @@ h2.mb-4 {
                                 <h4>DNA<br> & Genetic Testing</h4>
                                 <p>Unlock insights into your genetic makeup for personalized health recommendations and risk assessment.
                                 </p>
-                                <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= base_url() ?>dna-test" target="_blank">Book Test</a>
+                                <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= base_url() ?>dna-test" target="_blank" rel="noopener noreferrer">Book Test</a>
                           </div>
                       </div>
 
@@ -969,7 +969,7 @@ h2.mb-4 {
                                 <h4>Allergy<br> & Food Intolerance Testing</h4>
                                 <p>Identify triggers and sensitivities to help you make informed dietary and lifestyle choices.
                                 </p>
-                                <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= base_url() ?>allergy-test-general" target="_blank">Book Test</a>
+                                <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= base_url() ?>allergy-test-general" target="_blank" rel="noopener noreferrer">Book Test</a>
                           </div>
                       </div>
 
@@ -982,7 +982,7 @@ h2.mb-4 {
                                 <h4>Custom <br> Blood Panels</h4>
                                 <p>Tailored blood panels designed to meet your specific health concerns and monitoring needs.
                                 </p>
-                                <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= base_url() ?>custom-blood-test" target="_blank">Book Test</a>
+                                <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= base_url() ?>custom-blood-test" target="_blank" rel="noopener noreferrer">Book Test</a>
                           </div>
                       </div>
 
@@ -995,7 +995,7 @@ h2.mb-4 {
                                 <h4>Hormone<br> Testing</h4>
                                 <p>Essential health screenings to maintain optimal wellness and track your health metrics over time.
                                 </p>
-                                <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= base_url() ?>annual-health-check-up" target="_blank">Book Test</a>
+                                <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= base_url() ?>annual-health-check-up" target="_blank" rel="noopener noreferrer">Book Test</a>
                           </div>
                       </div>
 
@@ -1008,7 +1008,7 @@ h2.mb-4 {
                                 <h4>STD<br> Testing</h4>
                                 <p>Confidential testing for sexual health and wellness to support your intimate well-being.
                                 </p>
-                                <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= base_url() ?>std-testing" target="_blank">Book Test</a>
+                                <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= base_url() ?>std-testing" target="_blank" rel="noopener noreferrer">Book Test</a>
                           </div>
                       </div>
 
@@ -1021,7 +1021,7 @@ h2.mb-4 {
                                 <h4>Men's <br> Health Tests</h4>
                                 <p>Specialized health assessments focusing on male-specific health concerns and preventive care.
                                 </p>
-                                <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= base_url() ?>men-advanced-package" target="_blank">Book Test</a>
+                                <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= base_url() ?>men-advanced-package" target="_blank" rel="noopener noreferrer">Book Test</a>
                           </div>
                       </div>
 
@@ -1034,7 +1034,7 @@ h2.mb-4 {
                                 <h4>Women's<br> Health Tests</h4>
                                 <p>Comprehensive women’s health testing including hormonal, reproductive, and preventive screenings.
                                 </p>
-                                <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= base_url() ?>female-advanced-package" target="_blank">Book Test</a>
+                                <a class="primary-btn hvr-bounce-to-right green-btn" href="<?= base_url() ?>female-advanced-package" target="_blank" rel="noopener noreferrer">Book Test</a>
                           </div>
                       </div>
 
@@ -1176,8 +1176,8 @@ h2.mb-4 {
                     <h2 style="font-size: 40px;">Take Control of Your Health Without Leaving Home</h2>
 
                     <div class="mt-4">
-                    <a class="primary-btn hvr-bounce-to-right green-btn my-3 me-2" href="<?= $whatsappHref ?>" target="_blank" style="">Book Lab Test</a>
-                    <a class="primary-btn hvr-bounce-to-right green-btn my-3" href="<?= $whatsappHref ?>" target="_blank" style="">WhatsApp Consultation</a>
+                    <a class="primary-btn hvr-bounce-to-right green-btn my-3 me-2" href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" style="">Book Lab Test</a>
+                    <a class="primary-btn hvr-bounce-to-right green-btn my-3" href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" style="">WhatsApp Consultation</a>
                 </div>
                 </div>
             </div>

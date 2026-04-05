@@ -173,7 +173,7 @@
                     <!-- Booking -->
                     <h5>Booking With Healthcarebia—A 3-Step Snapshot</h5>
                     <ol>
-                        <li>WhatsApp <strong><a href="<?= $whatsappHref ?>" target="_blank">+971-54-707-7476</a></strong> your location and preferred time.</li>
+                        <li>WhatsApp <strong><a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">+971-54-707-7476</a></strong> your location and preferred time.</li>
                         <li>DHA-licensed nurse arrives with a sterile kit and BP monitor.</li>
                         <li>45&nbsp;min later you’re back to baseline—often better—with an e-receipt for insurance apps.</li>
                     </ol>
@@ -204,7 +204,7 @@
 
                     <!-- CTA -->
                     <h5>Call to Action</h5>
-                    <p>Don’t let desert fatigue steal another afternoon. <a href="<?= $whatsappHref ?>" target="_blank" class="button d-inline">WhatsApp Healthcarebia</a> now to book your personalised <strong>Summer Rescue IV</strong> and:</p>
+                    <p>Don’t let desert fatigue steal another afternoon. <a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" class="button d-inline">WhatsApp Healthcarebia</a> now to book your personalised <strong>Summer Rescue IV</strong> and:</p>
                     <ul class="ingredients-list">
                         <li>Regain mental clarity</li>
                         <li>Crush that evening workout</li>

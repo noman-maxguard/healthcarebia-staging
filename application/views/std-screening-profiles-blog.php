@@ -208,7 +208,7 @@
                     <h5>Book Your STD Panel or At Home Health Plan</h5>
                     <p>If you are ready to understand your sexual health, book an STD panel, or combine it with home diagnostics, <a href="<?= base_url() ?>iv-drip-dubai">IV therapy</a>, <a href="<?= base_url() ?>oxygen-therapy">oxygen therapy</a>, <a href="<?= base_url() ?>nurse-at-home">nurse at home</a>, or <a href="<?= base_url() ?>doctor-on-call">doctor on call,</a> support, contact healthcarebia today. The team will help you choose the safest and most suitable plan for your needs.</p>
                     <p>
-                        <a href="<?= $whatsappHref ?>" target="_blank" class="button d-inline">Book an STD Screening with Healthcarebia</a>
+                        <a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" class="button d-inline">Book an STD Screening with Healthcarebia</a>
                     </p>
                     <p><small><strong>Disclaimer:</strong> This page is for education only and does not replace a consultation with a licensed doctor. Always seek urgent care if you have severe pain, fever, or symptoms that worry you.</small></p>
 

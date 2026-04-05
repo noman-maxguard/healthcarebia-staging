@@ -182,11 +182,11 @@
                     <h5>Take the Next Step with Healthcarebia</h5>
                     <p>At Healthcarebia, we bring premium and VIP healthcare services directly to you. From IV drip therapy at home, immune boost drips, and NAD+ IV therapy, to DNA testing, STD checkups, and preventive health check-ups, our goal is to make wellness simple, safe, and accessible.</p>
                     <ul class="ingredients-list">
-                        <li>WhatsApp: <a href="<?= $whatsappHref ?>" target="_blank">+971-54-707-7476</a></li>
-                        <li>Website: <a href="https://www.healthcarebia.ae" target="_blank" rel="noopener">www.healthcarebia.ae</a></li>
-                        <li>Facebook: <a href="https://www.facebook.com/healthcarebia/" target="_blank" rel="noopener">Healthcarebia</a></li>
-                        <li>Instagram: <a href="https://www.instagram.com/p/CozTOq6pIPZ/" target="_blank" rel="noopener">@healthcarebia</a></li>
-                        <li>LinkedIn: <a href="https://www.linkedin.com/company/healthcarebia/" target="_blank" rel="noopener">Healthcarebia on LinkedIn</a></li>
+                        <li>WhatsApp: <a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">+971-54-707-7476</a></li>
+                        <li>Website: <a href="https://www.healthcarebia.ae" target="_blank" rel="noopener noreferrer">www.healthcarebia.ae</a></li>
+                        <li>Facebook: <a href="https://www.facebook.com/healthcarebia/" target="_blank" rel="noopener noreferrer">Healthcarebia</a></li>
+                        <li>Instagram: <a href="https://www.instagram.com/p/CozTOq6pIPZ/" target="_blank" rel="noopener noreferrer">@healthcarebia</a></li>
+                        <li>LinkedIn: <a href="https://www.linkedin.com/company/healthcarebia/" target="_blank" rel="noopener noreferrer">Healthcarebia on LinkedIn</a></li>
                     </ul>
 
                     <p><small><strong>Disclaimer:</strong> This article is for educational purposes and does not replace professional medical advice. Always consult a licensed practitioner if you have underlying conditions or severe symptoms.</small></p>

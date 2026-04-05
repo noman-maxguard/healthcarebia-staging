@@ -239,7 +239,7 @@
 
                     <!-- CTA -->
                     <h5>Talk to a Licensed Team in Dubai</h5>
-                    <p>Ready to breathe easier and feel clearer? Our DHA‑licensed nurses can guide you on testing, supplemental oxygen, and safe at‑home oxygen therapy.<a href="<?= $whatsappHref ?>" target="_blank" class="button d-inline">Contact Healthcarebia</a> Now!</p>
+                    <p>Ready to breathe easier and feel clearer? Our DHA‑licensed nurses can guide you on testing, supplemental oxygen, and safe at‑home oxygen therapy.<a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" class="button d-inline">Contact Healthcarebia</a> Now!</p>
 
                     <p><small><strong>Disclaimer:</strong> This article is for educational purposes and does not replace professional medical advice. Always consult a licensed practitioner if you have underlying conditions or severe symptoms.</small></p>
                 </div>

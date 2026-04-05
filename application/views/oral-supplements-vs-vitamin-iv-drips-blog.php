@@ -177,7 +177,7 @@
 
                     <h5>Ready to Book?</h5>
                     <ul class="ingredients-list">
-                        <li><a href="<?= $whatsappHref ?>" target="_blank"><strong>WhatsApp to schedule</strong></a> choose iv drip at home with licensed nurses</li>
+                        <li><a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer"><strong>WhatsApp to schedule</strong></a> choose iv drip at home with licensed nurses</li>
                         <li><strong>Pick your formula</strong> immune boost, glow skin, myers, or nad+</li>
                         <li><strong>Set your plan</strong> combine a monthly premium iv drip dubai with daily oral support</li>
                     </ul>

@@ -161,7 +161,7 @@
 
                     <h5>How to Book</h5>
                     <ol>
-                        <li>WhatsApp <a href="<?= $whatsappHref ?>" target="_blank">+971-54-707-7476</a> with your location and preferred time.</li>
+                        <li>WhatsApp <a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">+971-54-707-7476</a> with your location and preferred time.</li>
                         <li>A DHA-licensed nurse arrives with a sterile kit, checks vitals, and reviews your health condition and goals.</li>
                         <li>Most IV drip therapy sessions finish in about 45 minutes, with aftercare guidance included.</li>
                     </ol>

@@ -77,13 +77,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="floating-block">
     <ul>
         <li class="mb-2 d-block d-md-none mb-4">
-            <a aria-label="Phone" class="whatsapp-icon phone-icon" href="tel:+971 4 225 0823" target="_blank"> <i class="fa fa-phone" aria-hidden="true" style="font-size:32px"></i> </a></li>
+            <a aria-label="Phone" class="whatsapp-icon phone-icon" href="tel:+971 4 225 0823" target="_blank" rel="noopener noreferrer"> <i class="fa fa-phone" aria-hidden="true" style="font-size:32px"></i> </a></li>
         <li>
             <div class="d-none d-md-block">
-                <a aria-label="Whatsapp" class="whatsapp-icon" id="whatsapp-icon" href="<?= $whatsappHref ?>" target="_blank"> <i class="fab fa-whatsapp" aria-hidden="true"></i> </a>
+                <a aria-label="Whatsapp" class="whatsapp-icon" id="whatsapp-icon" href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer"> <i class="fab fa-whatsapp" aria-hidden="true"></i> </a>
             </div>
             <div class="d-block d-md-none">
-                <a aria-label="Whatsapp" class="whatsapp-icon" id="whatsapp-icon" href="<?= $whatsappHref ?>" target="_blank"> <i class="fab fa-whatsapp" aria-hidden="true"></i> </a>
+                <a aria-label="Whatsapp" class="whatsapp-icon" id="whatsapp-icon" href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer"> <i class="fab fa-whatsapp" aria-hidden="true"></i> </a>
             </div>
         </li>
     </ul>

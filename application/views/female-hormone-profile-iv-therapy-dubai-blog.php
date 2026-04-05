@@ -177,7 +177,7 @@
                     <!-- Booking -->
                     <h5>Book Your Test & Drip—In 3 Steps</h5>
                     <ol>
-                        <li>WhatsApp <a href="<?= $whatsappHref ?>" target="_blank">+971-54-707-7476</a> with your location and preferred time.</li>
+                        <li>WhatsApp <a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">+971-54-707-7476</a> with your location and preferred time.</li>
                         <li>DHA-licensed nurse arrives for blood draw and/or IV; results and notes are NABIDH-ready. We offer lab test at home in Dubai and blood test at home services.</li>
 
                         <li>Relax for ~45 minutes—finish with an e-receipt suitable for wellness/insurance apps.</li>
@@ -187,7 +187,7 @@
                     <h5>Ready to Start?</h5>
                     <p>Book your female hormone profile today. Let Healthcarebia guide your health journey with advanced iv drip in Dubai, plus add-ons like DNA test Dubai, food intolerance test Dubai, and blood test at home.</p>
 
-                    <p><a href="<?= $whatsappHref ?>" target="_blank" class="button d-inline">WhatsApp Healthcarebia</a> to schedule your panel and personalised IV plan.</p>
+                    <p><a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" class="button d-inline">WhatsApp Healthcarebia</a> to schedule your panel and personalised IV plan.</p>
 
                     <p><small><strong>Disclaimer:</strong> This article is for educational purposes and does not replace professional medical advice. Always consult a licensed practitioner, especially if you have underlying conditions or severe symptoms.</small></p>
                 </div>

@@ -192,7 +192,7 @@
                     <!-- Booking section -->
                     <h5>Booking a Nurse at Home With Healthcarebia</h5>
                     <ol>
-                        <li>WhatsApp <a href="<?= $whatsappHref ?>" target="_blank">+971-54-707-7476</a> with your location, a brief summary of the situation, and your preferred time.</li>
+                        <li>WhatsApp <a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">+971-54-707-7476</a> with your location, a brief summary of the situation, and your preferred time.</li>
                         <li>Our team reviews your message and arranges the right mix of nurse at home, doctor on call, or IV therapy at home as needed.</li>
                         <li>A DHA licensed nurse arrives with a sterile kit, checks vital signs, and follows a clear care plan with access to medical support in the background.</li>
                     </ol>

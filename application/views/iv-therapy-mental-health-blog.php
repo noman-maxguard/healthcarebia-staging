@@ -169,7 +169,7 @@
                     <!-- CTA -->
                     <h5>Book an At-Home IV in Dubai</h5>
                     <p>If you feel drained, stressed, or mentally foggy, our team can help you choose a suitable blend and schedule a visit at your home, office, or hotel.</p>
-                    <p><a href="<?= $whatsappHref ?>" target="_blank" class="button d-inline">WhatsApp Healthcarebia</a> to request a consultation, pricing, and same day availability.</p>
+                    <p><a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" class="button d-inline">WhatsApp Healthcarebia</a> to request a consultation, pricing, and same day availability.</p>
 
                     <p><small><strong>Disclaimer:</strong> This article is for educational purposes and does not replace medical advice. Always consult a licensed practitioner, particularly for ongoing symptoms or diagnosed conditions.</small></p>
                 </div>

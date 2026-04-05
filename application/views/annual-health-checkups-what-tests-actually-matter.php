@@ -224,12 +224,12 @@
                     <!-- CTA -->
                     <h5>Book At-Home Labs &amp; IV Drips in 3 Steps</h5>
                     <ol>
-                    <li>WhatsApp <a href="<?= $whatsappHref ?>" target="_blank">+971-54-707-7476</a> with your location and preferred time.</li>
+                    <li>WhatsApp <a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">+971-54-707-7476</a> with your location and preferred time.</li>
                     <li>A licensed nurse arrives, records vitals, collects your samples, and can provide an iv drip at home if clinically appropriate.</li>
                     <li>Results with guidance via tele-consult so you know exactly what to do next.</li>
                     </ol>
                     <p>Ask about <span>vip home iv therapy</span>, <span>premium iv drip at home</span>, and options like <span>hangover drip dubai</span>, <span>glutathione iv drip dubai</span>, <span>nad iv therapy</span>, or <span>myers cocktail iv</span>.</p>
-                    <p><a href="<?= $whatsappHref ?>" target="_blank" class="button d-inline">WhatsApp healthcarebia</a></p>
+                    <p><a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" class="button d-inline">WhatsApp healthcarebia</a></p>
                     <p><small>Disclaimer: This article is for educational purposes and does not replace professional medical advice. Always consult a licensed practitioner for personalised recommendations.</small></p>
                 </div>
             </div>

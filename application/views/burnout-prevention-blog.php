@@ -139,7 +139,7 @@
                     <h5>Final Thoughts</h5>
                     <p>Burnout is not a weakness, it’s a warning signal. By recognizing burnout symptoms early, practicing burnout prevention, and seeking timely support, you can protect your health and thrive at work and in life.</p>
 
-                    <p><a href="<?= $whatsappHref ?>" target="_blank" class="button d-inline">WhatsApp Healthcarebia</a> today to learn how our wellness therapies can support your burnout recovery and help you regain energy, clarity, and balance.</p>
+                    <p><a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" class="button d-inline">WhatsApp Healthcarebia</a> today to learn how our wellness therapies can support your burnout recovery and help you regain energy, clarity, and balance.</p>
 
                     <p><small><strong>Disclaimer:</strong> This blog is for educational purposes and does not replace medical advice. Always consult a healthcare professional for diagnosis or treatment.</small></p>
 

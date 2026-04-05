@@ -111,7 +111,7 @@
 
 
                                                     <td>
-                                                        <a href="<?= $one->url_from ?>" target="_blank">
+                                                        <a href="<?= $one->url_from ?>" target="_blank" rel="noopener noreferrer">
                                                             <?= $one->url_from ?>
                                                         </a>
                                                     </td>

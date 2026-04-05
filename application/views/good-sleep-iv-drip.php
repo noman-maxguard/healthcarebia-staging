@@ -246,7 +246,7 @@
                         <div class="col-md-8 p-5">
                             <h2>How Good Sleep IV Drip Works?</h2>
                             <p>The <strong>Good Sleep IV Drip</strong> delivers a targeted infusion of Glycine, Magnesium, and Zinc directly into the bloodstream, helping the body ease into relaxation, regulate sleep patterns, and support collagen production. Together, these nutrients work to calm the nervous system and optimize natural sleep cycles.</p>
-                            <a class="primary-btn hvr-bounce-to-right green-btn border-btn booking-btn" href="<?= $whatsappHref ?>" target="_blank">Book Your Session Now</a>
+                            <a class="primary-btn hvr-bounce-to-right green-btn border-btn booking-btn" href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">Book Your Session Now</a>
                         </div>
                         <div class="col-md-4 text-center mt-2 mt-md-4">
                             <img src="<?= base_url() ?>assets/frontend/img/good-sleep-bottle.webp" width="343" height="413" alt="Good Sleep IV Drip Dubai" class="img-fluid" loading="lazy">

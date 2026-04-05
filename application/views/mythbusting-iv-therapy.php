@@ -204,7 +204,7 @@
                         <li>Positive Reviews: Check real client feedback online.</li>
                     </ul>
 
-                    <p>IV therapy in Dubai can be a safe, efficient way to rehydrate, replenish nutrients, and target wellness goals. With myths debunked and facts laid out, you can decide confidently whether an IV drip is right for you. Ready to book your session? <a href="<?= $whatsappHref ?>" class="button d-inline" target="_blank">WhatsApp Healthcarebia</a> now and experience the difference!</p>
+                    <p>IV therapy in Dubai can be a safe, efficient way to rehydrate, replenish nutrients, and target wellness goals. With myths debunked and facts laid out, you can decide confidently whether an IV drip is right for you. Ready to book your session? <a href="<?= $whatsappHref ?>" class="button d-inline" target="_blank" rel="noopener noreferrer">WhatsApp Healthcarebia</a> now and experience the difference!</p>
 
                     <p><small><strong>Disclaimer:</strong> For educational purposes only. Consult a licensed practitioner for medical advice.</small></p>
                 </div>

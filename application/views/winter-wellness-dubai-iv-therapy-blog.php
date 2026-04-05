@@ -180,7 +180,7 @@
           <p>If you are ready to explore the best IV drip in Dubai, a high quality IV drip at home, or to arrange a preventive health examination, connect with Healthcarebia, your partner in personalized wellness.</p>
 
           <h5>Call to Action</h5>
-          <p>Message us to plan your winter routine or book a visit. <a href="<?= $whatsappHref ?>" target="_blank" class="button d-inline">WhatsApp Healthcarebia</a> to schedule your session at home or at your preferred location.</p>
+          <p>Message us to plan your winter routine or book a visit. <a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" class="button d-inline">WhatsApp Healthcarebia</a> to schedule your session at home or at your preferred location.</p>
 
           <p><small>This article is for educational purposes and does not replace professional medical advice. Always consult a licensed practitioner for underlying conditions or severe symptoms.</small></p>
         </div>

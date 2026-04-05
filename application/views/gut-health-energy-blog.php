@@ -174,7 +174,7 @@
                     <h5>Conclusion and Call to Action</h5>
                     <p>Your gut health is directly tied to how energetic and focused you feel. By maintaining a balanced diet, managing stress, and using preventive testing, you can protect your gut and keep your energy consistent.</p>
                     <p>At Healthcarebia, we offer advanced testing and premium IV drip therapies in Dubai, including our specialized Gut Health IV Drip, to help you restore balance and vitality.</p>
-                   <strong>Take the first step toward lasting energy today. Book your preventive health checkup, food intolerance test, or Gut Health IV Drip with <a href="<?= $whatsappHref ?>" target="_blank"Healthcarebia.>Healthcarebia</a></strong>
+                   <strong>Take the first step toward lasting energy today. Book your preventive health checkup, food intolerance test, or Gut Health IV Drip with <a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer"Healthcarebia.>Healthcarebia</a></strong>
                    
 <br>
                     <p><small>Disclaimer: This article is for educational purposes and does not replace medical advice. Consult a licensed practitioner for personalized guidance.</small></p>

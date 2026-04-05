@@ -2,7 +2,7 @@
     <div class="float-right d-none d-sm-block">
 
     </div>
-    <strong>Copyright &copy; <?= date('Y') ?> <a target="_blank" href="https://www.jaspermicron.com/">Jasper Micron</a>.</strong>
+    <strong>Copyright &copy; <?= date('Y') ?> <a target="_blank" rel="noopener noreferrer" href="https://www.jaspermicron.com/">Jasper Micron</a>.</strong>
     All rights
     reserved.
 </footer>

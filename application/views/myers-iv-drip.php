@@ -228,7 +228,7 @@
                         <div class="col-md-8 p-5">
                             <h2>How Myers Cocktail IV Drip Works?</h2>
                             <p>The <strong> Myers Cocktail IV Drip</strong> goes straight into the bloodstream, so the body can absorb all the essential nutrients right away, no waiting on digestion. This means getting quicker access to the ingredients that help recharge the cells, boost energy, and support the overall well-being. Whether recovering from a tough week or just looking for a wellness boost, this infusion helps feeling more energized, refreshed, and ready to take on the day.</p>
-                            <a class="primary-btn hvr-bounce-to-right green-btn border-btn booking-btn" href="<?= $whatsappHref ?>" target="_blank">Book Your Session Now</a>
+                            <a class="primary-btn hvr-bounce-to-right green-btn border-btn booking-btn" href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">Book Your Session Now</a>
                         </div>
                         <div class="col-md-4 text-center mt-2 mt-md-4">
                             <img src="<?= base_url() ?>assets/frontend/img/myers-bottle.webp" width="343" height="413"  alt="Myers Cocktail IV Drip Dubai" class="img-fluid" loading="lazy">

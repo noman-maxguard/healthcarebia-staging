@@ -220,7 +220,7 @@
                     <h5>Need Help Getting Started?</h5>
                     <p>Message us on WhatsApp and we’ll arrange testing and a personalised plan.</p>
                     <ol>
-                        <li>WhatsApp <strong><a href="<?= $whatsappHref ?>" target="_blank">+971-54-707-7476</a></strong>.</li>
+                        <li>WhatsApp <strong><a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">+971-54-707-7476</a></strong>.</li>
                         <li>We schedule home collection or clinic testing.</li>
                         <li>Get results, a clear plan, and follow-up reminders.</li>
                     </ol>

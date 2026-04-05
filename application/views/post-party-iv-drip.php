@@ -379,7 +379,7 @@
 
         <p>Healthcarebia offers an exclusive <strong>Hangover IV therapy home service in Dubai</strong>, providing immediate relief from hangover symptoms directly at your doorstep. Our dedicated healthcare experts deliver tailored <strong>IV infusion therapy at home</strong>, ensuring you experience quick recovery and rejuvenation after a night out. Known as a leading provider of <strong>Hangover IV therapy in Dubai</strong>, our convenient and effective <strong>VIP IV drip</strong> services restore your hydration, energy, and overall wellness swiftly and safely.</p>
         <div class="text-center">
-    <a class="primary-btn hvr-bounce-to-right green-btn border-btn booking-btn" href="<?= $whatsappHref ?>" target="_blank">
+    <a class="primary-btn hvr-bounce-to-right green-btn border-btn booking-btn" href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">
         Book Your Session Now
     </a>
 </div>

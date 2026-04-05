@@ -14,7 +14,7 @@ $user_role = $userdata['role'];
             <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <a target="_blank" href="<?= base_url() ?>" class="nav-link">Website</a>
+            <a target="_blank" rel="noopener noreferrer" href="<?= base_url() ?>" class="nav-link">Website</a>
         </li>
 
     </ul>

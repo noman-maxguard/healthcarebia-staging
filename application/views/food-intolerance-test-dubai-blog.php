@@ -215,7 +215,7 @@
           </ul>
 
           <h5>Ready to Find Your Triggers and Feel Better Fast?</h5>
-          <p>Book your Food Intolerance Test in Dubai today. WhatsApp <a href="<?= $whatsappHref ?>" target="_blank">Healthcarebia now</a>.</p>
+          <p>Book your Food Intolerance Test in Dubai today. WhatsApp <a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">Healthcarebia now</a>.</p>
 
           <p><small>Disclaimer, This article is for educational purposes and does not replace professional medical advice. Always consult a licensed practitioner if you have underlying conditions or severe symptoms.</small></p>
         </div>

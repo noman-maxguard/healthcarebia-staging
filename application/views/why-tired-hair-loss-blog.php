@@ -145,7 +145,7 @@
                         <li><strong>Comprehensive lab testing</strong> – to detect deficiencies and prevent illness.</li>
                         <li><strong>IV infusion therapy</strong> – designed for quick recovery and boosting immune health.</li>
                     </ul>
-                    <p>Visit: <a href="https://www.healthcarebia.ae" target="_blank">www.healthcarebia.ae</a></p>
+                    <p>Visit: <a href="https://www.healthcarebia.ae" target="_blank" rel="noopener noreferrer">www.healthcarebia.ae</a></p>
 
                     <p><small><strong>Disclaimer:</strong> This article is for educational purposes only and does not replace professional medical advice. Always consult a licensed practitioner if you have underlying conditions.</small></p>
                 </div>

@@ -159,7 +159,7 @@
                     </ul>
 
                     <h5>Call to Action</h5>
-                    <p>Don’t wait for symptoms choose prevention today. <a href="<?= $whatsappHref ?>" target="_blank" class="button d-inline">WhatsApp Healthcarebia</a> to book your blood test at home in Dubai and take the first step towards long-term health.</p>
+                    <p>Don’t wait for symptoms choose prevention today. <a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" class="button d-inline">WhatsApp Healthcarebia</a> to book your blood test at home in Dubai and take the first step towards long-term health.</p>
 
                     <h5>References</h5>
                     <ul class="ingredients-list">

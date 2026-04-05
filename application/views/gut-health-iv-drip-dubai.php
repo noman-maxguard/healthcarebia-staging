@@ -166,7 +166,7 @@
 
                     <!-- CTA -->
                     <h5>Call to Action</h5>
-                    <p>Don’t let digestive discomfort slow you down. <a href="<?= $whatsappHref ?>" target="_blank" class="button d-inline">WhatsApp Healthcarebia</a> now to book your Gut Health IV Drip in Dubai and enjoy the benefits of at home IV therapy designed to restore your stomach health and improve your daily energy.</p>
+                    <p>Don’t let digestive discomfort slow you down. <a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" class="button d-inline">WhatsApp Healthcarebia</a> now to book your Gut Health IV Drip in Dubai and enjoy the benefits of at home IV therapy designed to restore your stomach health and improve your daily energy.</p>
 
                     <!-- Disclaimer -->
                     <p><small><strong>Disclaimer:</strong> This content is for informational purposes only and should not replace professional medical advice. Always consult a qualified healthcare provider before starting any IV infusion therapy or new treatment.</small></p>

@@ -106,7 +106,7 @@
                                 </ul>
                             </div>
                             <div class="my-3">
-                                <a class="primary-btn hvr-bounce-to-right green-btn mt-2 me-2" href="<?= $whatsappHref ?>" target="_blank">
+                                <a class="primary-btn hvr-bounce-to-right green-btn mt-2 me-2" href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">
                                 Book IV drip home service Dubai
                                 </a>
                                 <a class="primary-btn hvr-bounce-to-right green-btn mt-2" href="tel:+97142250823">
@@ -337,7 +337,7 @@
 
 
                 </div>
-                <a class="primary-btn hvr-bounce-to-right green-btn my-3" href="<?= $whatsappHref ?>" target="_blank">
+                <a class="primary-btn hvr-bounce-to-right green-btn my-3" href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">
                                 Chat With Experts
                             </a>
 
@@ -462,7 +462,7 @@
                     <li>Lasting effects on health and well-being.</li>
 
                 </ul>
-                <a class="primary-btn hvr-bounce-to-right green-btn my-3" href="<?= $whatsappHref ?>" target="_blank" style="">
+                <a class="primary-btn hvr-bounce-to-right green-btn my-3" href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" style="">
                                 Get A Free Consultation
                             </a>
 
@@ -525,7 +525,7 @@
                                     <span>From AED</span>
                                     <h3>2,300* </h3>
                                     <a class="primary-btn hvr-bounce-to-right green-btn"
-                                       href="<?= $whatsappHref ?>" target="_blank">
+                                       href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">
                                         Book Now
                                     </a><br>
                                     <i>* T&amp;C apply</i>
@@ -563,7 +563,7 @@
                                     <span>From AED</span>
                                     <h3>1,105* </h3>
                                     <a class="primary-btn hvr-bounce-to-right green-btn"
-                                       href="<?= $whatsappHref ?>" target="_blank">
+                                       href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">
                                         Book Now
                                     </a><br>
                                     <i>* T&amp;C apply</i>
@@ -601,7 +601,7 @@
                                     <span>From AED</span>
                                     <h3>1,800* </h3>
                                     <a class="primary-btn hvr-bounce-to-right green-btn"
-                                       href="<?= $whatsappHref ?>" target="_blank">
+                                       href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">
                                         Book Now
                                     </a><br>
                                     <i>* T&amp;C apply</i>
@@ -639,7 +639,7 @@
                                     <span>From AED</span>
                                     <h3>1,500* </h3>
                                     <a class="primary-btn hvr-bounce-to-right green-btn"
-                                       href="<?= $whatsappHref ?>" target="_blank">
+                                       href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">
                                         Book Now
                                     </a><br>
                                     <i>* T&amp;C apply</i>
@@ -677,7 +677,7 @@
                                     <span>From AED</span>
                                     <h3>1,300* </h3>
                                     <a class="primary-btn hvr-bounce-to-right green-btn"
-                                       href="<?= $whatsappHref ?>" target="_blank">
+                                       href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">
                                         Book Now
                                     </a><br>
                                     <i>* T&amp;C apply</i>
@@ -715,7 +715,7 @@
                                     <span>From AED</span>
                                     <h3>1,500* </h3>
                                     <a class="primary-btn hvr-bounce-to-right green-btn"
-                                       href="<?= $whatsappHref ?>" target="_blank">
+                                       href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">
                                         Book Now
                                     </a><br>
                                     <i>* T&amp;C apply</i>
@@ -753,7 +753,7 @@
                                     <span>From AED</span>
                                     <h3>1,500* </h3>
                                     <a class="primary-btn hvr-bounce-to-right green-btn"
-                                       href="<?= $whatsappHref ?>" target="_blank">
+                                       href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">
                                         Book Now
                                     </a><br>
                                     <i>* T&amp;C apply</i>
@@ -805,7 +805,7 @@
                                     <span>From AED</span>
                                     <h3>1,300* </h3>
                                     <a class="primary-btn hvr-bounce-to-right green-btn"
-                                       href="<?= $whatsappHref ?>" target="_blank">
+                                       href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">
                                         Book Now
                                     </a><br>
                                     <i>* T&amp;C apply</i>
@@ -843,7 +843,7 @@
                                     <span>From AED</span>
                                     <h3>400* </h3>
                                     <a class="primary-btn hvr-bounce-to-right green-btn"
-                                       href="<?= $whatsappHref ?>" target="_blank">
+                                       href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">
                                         Book Now
                                     </a><br>
                                     <i>* T&amp;C apply</i>
@@ -881,7 +881,7 @@
                                     <span>From AED</span>
                                     <h3>1,600* </h3>
                                     <a class="primary-btn hvr-bounce-to-right green-btn"
-                                       href="<?= $whatsappHref ?>" target="_blank">
+                                       href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">
                                         Book Now
                                     </a><br>
                                     <i>* T&amp;C apply</i>
@@ -919,7 +919,7 @@
                                     <span>From AED</span>
                                     <h3>1,800* </h3>
                                     <a class="primary-btn hvr-bounce-to-right green-btn"
-                                       href="<?= $whatsappHref ?>" target="_blank">
+                                       href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">
                                         Book Now
                                     </a><br>
                                     <i>* T&amp;C apply</i>
@@ -957,7 +957,7 @@
                                     <span>From AED</span>
                                     <h3>1,600* </h3>
                                     <a class="primary-btn hvr-bounce-to-right green-btn"
-                                       href="<?= $whatsappHref ?>" target="_blank">
+                                       href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">
                                         Book Now
                                     </a><br>
                                     <i>* T&amp;C apply</i>
@@ -995,7 +995,7 @@
                                     <span>From AED</span>
                                     <h3>1,600* </h3>
                                     <a class="primary-btn hvr-bounce-to-right green-btn"
-                                       href="<?= $whatsappHref ?>" target="_blank">
+                                       href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">
                                         Book Now
                                     </a><br>
                                     <i>* T&amp;C apply</i>
@@ -1033,7 +1033,7 @@
                                     <span>Price</span>
                                     <h3>On assessment</h3>
                                     <a class="primary-btn hvr-bounce-to-right green-btn"
-                                       href="<?= $whatsappHref ?>" target="_blank">
+                                       href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">
                                         Contact Us
                                     </a><br>
                                     <i>* T&amp;C apply</i>
@@ -1085,7 +1085,7 @@
                                     <span>From AED</span>
                                     <h3>1,900* </h3>
                                     <a class="primary-btn hvr-bounce-to-right green-btn"
-                                       href="<?= $whatsappHref ?>" target="_blank">
+                                       href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">
                                         Book Now
                                     </a><br>
                                     <i>* T&amp;C apply</i>
@@ -1123,7 +1123,7 @@
                                     <span>From AED</span>
                                     <h3>1,100* </h3>
                                     <a class="primary-btn hvr-bounce-to-right green-btn"
-                                       href="<?= $whatsappHref ?>" target="_blank">
+                                       href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">
                                         Book Now
                                     </a><br>
                                     <i>* T&amp;C apply</i>
@@ -1161,7 +1161,7 @@
                                     <span>From AED</span>
                                     <h3>900* </h3>
                                     <a class="primary-btn hvr-bounce-to-right green-btn"
-                                       href="<?= $whatsappHref ?>" target="_blank">
+                                       href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">
                                         Book Now
                                     </a><br>
                                     <i>* T&amp;C apply</i>
@@ -1199,7 +1199,7 @@
                                     <span>From AED</span>
                                     <h3>1,600* </h3>
                                     <a class="primary-btn hvr-bounce-to-right green-btn"
-                                       href="<?= $whatsappHref ?>" target="_blank">
+                                       href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">
                                         Book Now
                                     </a><br>
                                     <i>* T&amp;C apply</i>
@@ -1237,7 +1237,7 @@
                                     <span>From AED</span>
                                     <h3>2,300* </h3>
                                     <a class="primary-btn hvr-bounce-to-right green-btn"
-                                       href="<?= $whatsappHref ?>" target="_blank">
+                                       href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">
                                         Book Now
                                     </a><br>
                                     <i>* T&amp;C apply</i>
@@ -1312,7 +1312,7 @@
                             </li>
 
                         </ul>
-                        <a class="primary-btn hvr-bounce-to-right green-btn my-3" href="<?= $whatsappHref ?>" target="_blank" style="">
+                        <a class="primary-btn hvr-bounce-to-right green-btn my-3" href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" style="">
                                 Book Your IV Drip Now
                             </a>
                     </div>

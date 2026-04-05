@@ -490,7 +490,7 @@
 
 
                                 <a class="primary-btn hvr-bounce-to-right green-btn border-btn booking-btn" 
-                                   href="<?= $whatsappHref ?>" target="_blank">
+                                   href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">
                                    Book Your Session Now
                                 </a>
 

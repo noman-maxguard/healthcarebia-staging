@@ -160,7 +160,7 @@
                     <h5>Call to Action</h5>
                     <p>Don’t wait for symptoms—regular testing for STDs provides certainty and protects partners. Book your confidential STD testing at home in Dubai with DHA-licensed healthcare providers today.</p>
                     <ol>
-                        <li>WhatsApp <a href="<?= $whatsappHref ?>" target="_blank">+971-54-707-7476</a> to schedule.</li>
+                        <li>WhatsApp <a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">+971-54-707-7476</a> to schedule.</li>
                         <li>A nurse arrives to collect your sample at your preferred time.</li>
                         <li>Receive secure results with guidance on next steps.</li>
                     </ol>

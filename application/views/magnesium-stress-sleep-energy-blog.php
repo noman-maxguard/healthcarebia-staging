@@ -205,7 +205,7 @@
 
                     <!-- CTA (optional, uses WhatsApp var if present) -->
                     <h5>Book Your At-Home IV Session</h5>
-                    <p><a href="<?= isset($whatsappHref) ? $whatsappHref : 'https://wa.me/971547077476' ?>" target="_blank" class="button d-inline">WhatsApp Healthcarebia</a> to schedule a DHA-licensed nurse visit for a personalized magnesium-focused IV drip.</p>
+                    <p><a href="<?= isset($whatsappHref) ? $whatsappHref : 'https://wa.me/971547077476' ?>" target="_blank" rel="noopener noreferrer" class="button d-inline">WhatsApp Healthcarebia</a> to schedule a DHA-licensed nurse visit for a personalized magnesium-focused IV drip.</p>
 
                     <p><small><strong>Disclaimer:</strong> This article is for educational purposes and does not replace professional medical advice. Always consult a licensed practitioner if you have underlying conditions or severe symptoms.</small></p>
                 </div>

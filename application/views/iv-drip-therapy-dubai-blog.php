@@ -153,7 +153,7 @@
 
                     <h5>Ready to book?</h5>
                     <p>Enjoy science-led care with the ease of a private visit. Whether you want an <b>immune boost iv dubai</b>, performance support, or <b>iv hydration dubai</b>, our team can help. Schedule your <b>iv vitamin therapy today and experience <b>luxury wellness dubai</b>, delivered.</p>
-                    <p><a href="<?= $whatsappHref ?>" target="_blank" class="button d-inline">Book Now</a></p>
+                    <p><a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" class="button d-inline">Book Now</a></p>
 
                     <p><small>Disclaimer: This article is for educational purposes only and does not replace professional medical advice.</small></p>
                 </div>

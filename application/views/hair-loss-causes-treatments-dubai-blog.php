@@ -150,7 +150,7 @@
                     <p>Hair loss can feel discouraging, but effective solutions exist. With IV drip therapy, genetic testing, and personalized wellness plans, people in Dubai can achieve lasting results. Options like the Myers Cocktail IV, glutathione drips, and NAD+ IV therapy restore balance and improve both health and hair quality.</p>
                     <p>At Healthcarebia, our goal is simple: to restore not only your hair but also your confidence. With advanced tools, expert guidance, and VIP home IV therapy in Dubai, you get results that are safe, effective, and designed just for you.</p>
                     <!-- cta -->
-                    <p>Ready to take the first step toward healthier, fuller hair? <a href="<?= $whatsappHref ?>" target="_blank" class="button d-inline">WhatsApp Healthcarebia</a> today to book your personalized consultation or IV drip therapy session in Dubai.</p>
+                    <p>Ready to take the first step toward healthier, fuller hair? <a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" class="button d-inline">WhatsApp Healthcarebia</a> today to book your personalized consultation or IV drip therapy session in Dubai.</p>
                     <!-- Disclaimer -->
                     <p><small><strong>Disclaimer:</strong> This article is for educational purposes and does not replace professional medical advice. Always consult a licensed practitioner if you have underlying conditions or severe symptoms.</small></p>
                 </div>

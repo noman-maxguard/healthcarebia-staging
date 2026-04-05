@@ -125,9 +125,9 @@
 
                     <h5>Connect with Healthcarebia</h5>
                     <p>
-                        WhatsApp: <a href="https://wa.me/971547077476" target="_blank">+971 547077476</a><br>
-                        Instagram: <a href="https://instagram.com/healthcarebia.ae" target="_blank">@healthcarebia.ae</a><br>
-                        Website: <a href="https://healthcarebia.ae" target="_blank">www.healthcarebia.ae</a>
+                        WhatsApp: <a href="https://wa.me/971547077476" target="_blank" rel="noopener noreferrer">+971 547077476</a><br>
+                        Instagram: <a href="https://instagram.com/healthcarebia.ae" target="_blank" rel="noopener noreferrer">@healthcarebia.ae</a><br>
+                        Website: <a href="https://healthcarebia.ae" target="_blank" rel="noopener noreferrer">www.healthcarebia.ae</a>
                     </p>
 
                     <p><small><strong>Disclaimer:</strong> This blog is for educational purposes only and does not replace medical advice. Always consult a healthcare professional before undergoing any treatment.</small></p>

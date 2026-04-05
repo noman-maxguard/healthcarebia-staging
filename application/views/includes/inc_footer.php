@@ -427,7 +427,7 @@
                     <div class="icon-box">
                         <div class="images">
                             <img src="<?= base_url() ?>assets/frontend/img/dha.svg" alt="dha" width="50" height="50">
-                            <img id="fda" src="<?= base_url() ?>assets/frontend/img/fda-logo.webp" alt="fda" width="80" height="100">
+                            <img id="fda" src="<?= base_url() ?>assets/frontend/img/fda-logo.png" alt="fda" width="80" height="100">
                             <img src="<?= base_url() ?>assets/frontend/img/nabidh.svg" alt="nabidh" width="87" height="50">
                         </div>
                     </div>

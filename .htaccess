@@ -109,6 +109,7 @@ Redirect permanent "/patientrights" "/patient-rights"
   Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
   Header set X-Content-Type-Options "nosniff"
   Header set Referrer-Policy "strict-origin-when-cross-origin"
+  Header set X-Frame-Options "SAMEORIGIN"
   Header always set Content-Security-Policy "default-src * data: blob: 'unsafe-inline' 'unsafe-eval';"
 </IfModule>
 

@@ -71,7 +71,7 @@
 
             <div class="row">
 
-                <div class="col-12"><h2>PCOS Package</h2>
+                <div class="col-12"><h1>PCOS Package</h1>
 
                     <nav aria-label="breadcrumb">
 

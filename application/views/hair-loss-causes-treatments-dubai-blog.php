@@ -79,7 +79,7 @@
                         <li class="active" aria-current="page">Understanding Hair Loss in Dubai</li>
                     </ul>
 
-                    <h4>Understanding Hair Loss: Causes, Treatments, and Innovative Solutions in Dubai</h4>
+                    <h1>Understanding Hair Loss: Causes, Treatments, and Innovative Solutions in Dubai</h1>
 
                     <!-- Intro -->
                     <p>Hair is more than appearance. It reflects health, vitality, and confidence. When hair starts to thin or fall out, the impact is both physical and emotional. In Dubai, hair loss is a common concern. The good news is that modern solutions like IV drip therapy and DNA testing make it easier to manage and even prevent hair thinning.</p>

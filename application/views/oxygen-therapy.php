@@ -65,7 +65,7 @@
 
                 <div class="row">
 
-                    <div class="col-12"><h2>Oxygen Therapy</h2>
+                    <div class="col-12"><h1>Oxygen Therapy</h1>
 
                         <nav aria-label="breadcrumb">
 

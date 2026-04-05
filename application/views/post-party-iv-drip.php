@@ -119,7 +119,7 @@
 
                 <div class="row">
 
-                    <div class="col-12"><h2>Hangover IV Therapy</h2>
+                    <div class="col-12"><h1>Hangover IV Therapy</h1>
 
                         <nav aria-label="breadcrumb">
 

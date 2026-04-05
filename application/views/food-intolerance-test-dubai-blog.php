@@ -80,7 +80,7 @@
             <li class="active" aria-current="page">Food Intolerance Test Dubai</li>
           </ul>
 
-          <h4>Food Intolerance Test Dubai: Symptoms, Science, and Smart Next Steps</h4>
+          <h1>Food Intolerance Test Dubai: Symptoms, Science, and Smart Next Steps</h1>
 
           <p>If your gut feels off, bloating after lunch, 4&nbsp;p.m. headaches, or skin flares that won’t quit, you’re not alone. Many people in Dubai live with food reactions without a clear diagnosis. A Food Intolerance Test Dubai package can help you connect the dots between symptoms and triggers, then build a plan that actually fits your lifestyle. Below is a clear guide to symptoms, the science behind testing, and the smartest next steps so you can move from guesswork to a results-driven nutrition plan.</p>
 

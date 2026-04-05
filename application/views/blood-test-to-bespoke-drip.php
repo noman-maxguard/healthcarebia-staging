@@ -77,7 +77,7 @@
                         <li class="active" aria-current="page">Blood Test to Bespoke Drip</li>
                     </ul>
 
-                    <h4>Blood Test to Bespoke Drip: Your Precision Wellness Plan</h4>
+                    <h1>Blood Test to Bespoke Drip: Your Precision Wellness Plan</h1>
 
                     <p>Dubai heat, back-to-back meetings, and late brunches can sap your body fast. Water alone often is not enough. That is why healthcarebia begins every IV journey with facts, not guesses. A fast blood draw, a deep lab panel, and a doctor consult turn raw numbers into a bespoke IV drip mixed to the millilitre. Below you will see how we move from test tube to tailored bag of IV infusions, whether at your office or at the comfort of your home.</p>
 

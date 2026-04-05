@@ -58,9 +58,7 @@
 
                 <div class="row">
 
-                    <div class="col-12">
-
-                        <h2>DNA Test</h2>
+                    <div class="col-12"><h1>DNA Test</h1>
 
                         <nav aria-label="breadcrumb">
 

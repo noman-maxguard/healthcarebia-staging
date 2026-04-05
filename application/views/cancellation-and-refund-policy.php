@@ -30,7 +30,7 @@
 
             <div class="row">
 
-                <div class="col-12"><h2>Cancellation Policy – Appointment Abandoned</h2>
+                <div class="col-12"><h1>Cancellation Policy – Appointment Abandoned</h1>
 
                     <nav aria-label="breadcrumb">
 

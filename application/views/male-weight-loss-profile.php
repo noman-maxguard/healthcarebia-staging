@@ -57,7 +57,7 @@
 
             <div class="row">
 
-                <div class="col-12"><h2>Male Weight Loss Profile</h2>
+                <div class="col-12"><h1>Male Weight Loss Profile</h1>
 
                     <nav aria-label="breadcrumb">
 

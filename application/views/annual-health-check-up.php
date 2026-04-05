@@ -38,9 +38,7 @@
 
                 <div class="row">
 
-                    <div class="col-12">
-
-                        <h2>Annual Health Check-Up</h2>
+                    <div class="col-12"><h1>Annual Health Check-Up</h1>
 
                         <nav aria-label="breadcrumb">
 

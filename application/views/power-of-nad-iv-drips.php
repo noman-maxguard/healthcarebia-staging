@@ -47,7 +47,7 @@
                         <li><a href="<?= base_url() ?>blog" class="hvr-underline-from-left menu-line2">Blog</a></li>
                         <li class="active" aria-current="page">The Power of NAD+ IV Drips: Enhancing Cellular Health and Energy</li>
                     </ul>
-                    <h4>The Power of NAD+ IV Drips: Enhancing Cellular Health and Energy</h4>
+                    <h1>The Power of NAD+ IV Drips: Enhancing Cellular Health and Energy</h1>
                     <p>In healthcare, scientists and researchers are always finding new ways to improve our health. One such breakthrough is <a href="<?= base_url() ?>nad-iv-drip">NAD+ IV drip therapy</a>, often referred to as NAD IV therapy or NAD drip, which has gained significant attention for its ability to enhance cellular health and boost cellular energy production. In this article, we will explore the benefits of NAD therapy in detail and discuss its various uses, shedding light on its potential as a long-term game-changer in the field of healthcare.</p>
                     <h5>Understanding NAD+:</h5>
                     <p>NAD+ (also known as Nicotinamide Adenine Dinucleotide) is a coenzyme found in every living cell in our bodies. NAD plays a critical role in cellular function and cellular metabolism, being involved in numerous cellular processes, including DNA repair, gene expression, and metabolic process regulation. However, as we age, our NAD+ levels naturally decline, which can lead to decreased cellular function and increased energy levels becoming harder to maintain. By replenishing NAD levels, NAD+ IV therapy can help counteract these changes.</p>

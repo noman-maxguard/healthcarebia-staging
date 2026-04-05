@@ -39,7 +39,7 @@
 
             <div class="row">
 
-                <div class="col-12"><h2>Acne Investigation</h2>
+                <div class="col-12"><h1>Acne Investigation</h1>
 
                     <nav aria-label="breadcrumb">
 

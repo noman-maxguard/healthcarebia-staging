@@ -67,7 +67,7 @@
 
             <div class="row">
 
-                <div class="col-12"><h2>Female Cancer Screening</h2>
+                <div class="col-12"><h1>Female Cancer Screening</h1>
 
                     <nav aria-label="breadcrumb">
 

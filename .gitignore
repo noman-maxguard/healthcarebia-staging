@@ -26,6 +26,7 @@ Thumbs.db
 logs/
 application/logs/
 application/cache/
+application/sessions/
 system/cache/
 assets/cache/
 

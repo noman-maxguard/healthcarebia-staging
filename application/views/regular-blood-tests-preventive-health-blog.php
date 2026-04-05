@@ -79,7 +79,7 @@
                         <li class="active" aria-current="page">Why Regular Blood Tests Are Essential for Preventive Health</li>
                     </ul>
 
-                    <h4>Why Regular Blood Tests Are Essential for Preventive Health</h4>
+                    <h1>Why Regular Blood Tests Are Essential for Preventive Health</h1>
 
                     <p>In today’s fast-paced world, many people only go for a blood test when symptoms appear. But research shows that <strong>regular blood tests every 6–12 months</strong> are among the most effective ways to detect health issues early and maintain long-term wellness.</p>
 

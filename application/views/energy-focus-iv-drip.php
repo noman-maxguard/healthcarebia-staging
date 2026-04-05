@@ -105,8 +105,7 @@
         <div class="overlay">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
-                        <h2>Energy & Focus IV Drip Dubai</h2>
+                    <div class="col-12"><h1>Energy & Focus IV Drip Dubai</h1>
                         <nav aria-label="breadcrumb">
                             <ul class="breadcrumb">
                                 <li><a href="<?= base_url() ?>" class="hvr-underline-from-left menu-line">Home</a></li>

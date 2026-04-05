@@ -67,7 +67,7 @@
 
             <div class="row">
 
-                <div class="col-12"><h2>Female Fertility Profile</h2>
+                <div class="col-12"><h1>Female Fertility Profile</h1>
 
                     <nav aria-label="breadcrumb">
 

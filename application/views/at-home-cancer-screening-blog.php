@@ -127,7 +127,7 @@
                         <li class="active" aria-current="page">At-Home Cancer Screening: What Exists Today And What Is Coming Next</li>
                     </ul>
 
-                    <h4>At-Home Cancer Screening: What Exists Today And What Is Coming Next</h4>
+                    <h1>At-Home Cancer Screening: What Exists Today And What Is Coming Next</h1>
 
                     <h5>Introduction</h5>
                     <p>Cancer remains one of the leading causes of deaths globally. Fortunately, if cancer is found early, treatment often works more effectively and survival is much higher. That is why screening matters so much.</p>

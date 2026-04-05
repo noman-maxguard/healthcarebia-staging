@@ -78,7 +78,7 @@
                         <li class="active" aria-current="page">Preventive Health in Dubai: The Essential Blood Test</li>
                     </ul>
 
-                    <h4>Preventive Health in Dubai: The Essential Blood Test</h4>
+                    <h1>Preventive Health in Dubai: The Essential Blood Test</h1>
 
                     <p>Life in Dubai moves fast early meetings, late dinners, heat, and frequent travel. A preventive health check-up makes sure your body keeps pace. Blood tests give a clear picture of how you’re doing today and where things may trend tomorrow. With the right panels, sensible intervals, and practical interpretation, you can adjust food, sleep, training, and recovery tools (including IV drip or IV infusion therapy when appropriate) before small issues become real problems.</p>
                     <p>This guide outlines the core tests most adults should discuss with a clinician, optional add-ons for specific goals, when to repeat them, and how IV therapy can fit into a broader plan focused on prevention and performance.</p>

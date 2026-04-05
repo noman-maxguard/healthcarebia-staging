@@ -101,7 +101,7 @@
                         <li class="active" aria-current="page">Vitamin D Deficiency in Dubai: Why Testing Matters</li>
                     </ul>
 
-                    <h4>Vitamin D Deficiency in Dubai: Why Testing Matters</h4>
+                    <h1>Vitamin D Deficiency in Dubai: Why Testing Matters</h1>
 
                     <h5>Introduction</h5>
                     <p>It sounds like a contradiction: Dubai is drenched in sunshine nearly every day, but over 80% of residents—locals and expats—are vitamin D deficient. Many spend time outside, yet their levels still fall short. How is this possible?</p>

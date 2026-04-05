@@ -63,7 +63,7 @@
 
             <div class="row">
 
-                <div class="col-12"><h2>Anaemia Profile</h2>
+                <div class="col-12"><h1>Anaemia Profile</h1>
 
                     <nav aria-label="breadcrumb">
 

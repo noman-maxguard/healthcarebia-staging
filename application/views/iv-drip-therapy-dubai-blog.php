@@ -78,7 +78,7 @@
                         <li class="active" aria-current="page">IV Drip Therapy Dubai – Science, Luxury & Benefits</li>
                     </ul>
 
-                    <h4>IV Drip Therapy Dubai. Science, Luxury & At-Home Benefits</h4>
+                    <h1>IV Drip Therapy Dubai. Science, Luxury & At-Home Benefits</h1>
 
                     <p>Life here moves fast. Wellness should keep up. That’s why <a href="<?= base_url() ?>iv-drip-dubai" class="menu-line2">IV drip Dubai</a> has become a go-to for quick recovery, clear focus and calm self-care. It blends evidence-led care with the feel of a private spa. If you’re looking for <b>IV therapy Dubai</b> with convenience, Healthcarebia brings the clinic to you with <b>IV drip at home Dubai</b>.</p>
 

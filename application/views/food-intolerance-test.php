@@ -72,7 +72,7 @@
 
             <div class="row">
 
-                <div class="col-12"><h2>Food Intolerance - Extended (200+ foods) </h2>
+                <div class="col-12"><h1>Food Intolerance - Extended (200+ foods) </h1>
 
                     <nav aria-label="breadcrumb">
 

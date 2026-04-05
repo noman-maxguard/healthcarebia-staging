@@ -81,7 +81,7 @@
                         <li class="active" aria-current="page">Hydrate or Crash: IV Drips in Dubai</li>
                     </ul>
 
-                    <h4>Hydrate or Crash: Why IV Drips Are the Ultimate Summer Recovery Tool in Dubai</h4>
+                    <h1>Hydrate or Crash: Why IV Drips Are the Ultimate Summer Recovery Tool in Dubai</h1>
 
                     <!-- Dubai heat -->
                     <h5>Dubai’s Summer Isn’t Just “Hot”—It’s a Health Stress Test</h5>

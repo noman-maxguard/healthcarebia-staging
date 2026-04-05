@@ -198,7 +198,7 @@
 
 
 .sub-banner h1 {
-    font-size: 46px;
+    font-size: 60px;
     color: #fff;
 }
 
@@ -354,10 +354,6 @@ section.lab-test-trust-signals-parent {
     background: #ffffffde;
     padding: 45px;
     border-radius: 20px;
-}
-
-.sub-banner h1 {
-    font-size: 60px;
 }
 
 

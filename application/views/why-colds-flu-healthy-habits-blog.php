@@ -79,7 +79,7 @@
                         <li class="active" aria-current="page">Why You Still Catch Colds &amp; Flu</li>
                     </ul>
 
-                    <h4>Why Do You Still Catch Colds and Flu Even with Healthy Habits?</h4>
+                    <h1>Why Do You Still Catch Colds and Flu Even with Healthy Habits?</h1>
 
                     <p>Even with nutritious food, exercise, and good habits, colds and flu can still break through. Stress, sleep, hydration, micronutrients, gut health, and your daily environment all influence how well your immune system responds. Below is a practical guide to strengthen your defenses and where supportive options like IV drip home service in Dubai may help.</p>
 

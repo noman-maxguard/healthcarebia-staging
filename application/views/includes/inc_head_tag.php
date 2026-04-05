@@ -57,7 +57,7 @@ function initGTM() {
 
 <?php $asset_version = time(); ?>
 
-<!-- Unminified Css
+<!-- Unminified Css 
 <link href="<?= base_url('assets/frontend/css/fancybox.css?v=' . $asset_version) ?>" rel="stylesheet" media="all">
 <link href="<?= base_url('assets/frontend/css/library.css?v=' . $asset_version) ?>" rel="stylesheet" media="all">
 <link href="<?= base_url('assets/frontend/css/style.css?v=' . $asset_version) ?>" rel="stylesheet" media="all">

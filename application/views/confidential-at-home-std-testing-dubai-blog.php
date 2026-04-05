@@ -79,7 +79,7 @@
                         <li class="active" aria-current="page">Confidential At-Home STD Testing in Dubai</li>
                     </ul>
 
-                    <h4>Confidential At-Home STD Testing in Dubai</h4>
+                    <h1>Confidential At-Home STD Testing in Dubai</h1>
 
                     <p>Taking care of your sexual health is essential for long-term well-being. Yet many delay STD testing in Dubai due to stigma, privacy concerns, or busy schedules. With confidential at-home STD testing in Dubai, DHA-licensed nurses come to your home in Dubai to collect your sample discreetly and deliver test results fast—giving you peace of mind.</p>
 

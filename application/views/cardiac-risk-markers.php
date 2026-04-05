@@ -54,7 +54,7 @@
 
             <div class="row">
 
-                <div class="col-12"><h2>Cardiac Risk Markers</h2>
+                <div class="col-12"><h1>Cardiac Risk Markers</h1>
 
                     <nav aria-label="breadcrumb">
 

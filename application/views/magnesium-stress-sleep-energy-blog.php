@@ -77,11 +77,8 @@
                         <li><a href="<?= base_url() ?>blog" class="hvr-underline-from-left menu-line2">Blog</a></li>
                         <li class="active" aria-current="page">Magnesium for Stress, Sleep & Energy</li>
                     </ul>
-                    <ul class="breadcrumb-blog">
-                        <li class="active" aria-current="page">Last Updated: 16-10-2025</li>
-                    </ul>
 
-                    <h4>The Role of Magnesium in Stress, Sleep, and Energy and How to Replenish It</h4>
+                    <h1>The Role of Magnesium in Stress, Sleep, and Energy and How to Replenish It</h1>
 
                     <!-- Intro -->
                     <p>In the fast-paced lifestyle of Dubai, where long working hours, travel, and constant connectivity can lead to fatigue and burnout, magnesium often becomes the most overlooked nutrient in maintaining health and balance. This essential mineral is involved in more than 300 biochemical reactions in the human body, from producing energy to calming the nervous system, yet studies show that a large percentage of people are magnesium-deficient without even realizing it.</p>

@@ -39,7 +39,7 @@
                         <li><a href="<?= base_url() ?>blog" class="hvr-underline-from-left menu-line2">Blog</a></li>
                         <li class="active" aria-current="page">Harnessing the Power of IV Drips for Immune Enhancement</li>
                     </ul>
-                    <h4>Harnessing the Power of IV Drips for Immune Enhancement</h4>
+                    <h1>Harnessing the Power of IV Drips for Immune Enhancement</h1>
                     <p>In recent years, the use of IV therapy for immune support has gained significant popularity. These specialized IV treatments, offered by Healthcarebia, are designed to boost immunity and strengthen the immune system functioning. Whether you're looking to recover from a cold or flu, combat chronic fatigue, or simply enhance your body's defense mechanisms, an <a href="<?= base_url() ?>immune-iv-drip">IV therapy immune system session</a> can help.</p>
                     <h5>Key Ingredients in an IV Drip to Boost the Immune System:</h5>
                     <p>Vitamin C: Vitamin C is a potent antioxidant that plays a crucial role in immune health. It aids in the production of white blood cells, which are essential for fighting off infections. Vitamin C also helps reduce the duration and severity of common cold symptoms and supports the overall health of the immune system.</p>

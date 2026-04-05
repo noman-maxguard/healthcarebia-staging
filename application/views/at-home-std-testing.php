@@ -62,7 +62,7 @@
                         <li><a href="<?= base_url() ?>blog" class="hvr-underline-from-left menu-line2">Blog</a></li>
                         <li class="active" aria-current="page">At-Home STD Testing for Your Peace of Mind</li>
                     </ul>
-                    <h4>Confidential and Convenient: At-Home STD Testing for Your Peace of Mind</h4>
+                    <h1>Confidential and Convenient: At-Home STD Testing for Your Peace of Mind</h1>
                     <p>Taking care of your sexual health is crucial for overall well-being, but many individuals feel
                         uncomfortable or hesitant when it comes to getting tested for sexually transmitted diseases
                         (STDs). With options like at-home STD testing and lab test at home in Dubai, you can now manage your sexual health discreetly and efficiently from your own space. Thankfully, advancements in medical technology have made it easier than ever to

@@ -132,7 +132,7 @@
 
                 <div class="row">
 
-                    <div class="col-12"><h2>Glutathione & Vitamin C IV Drip</h2>
+                    <div class="col-12"><h1>Glutathione & Vitamin C IV Drip</h1>
 
                         <nav aria-label="breadcrumb">
 

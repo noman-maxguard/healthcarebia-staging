@@ -78,7 +78,7 @@
                         <li class="active" aria-current="page">Top 7 Everyday Habits That Weaken Your Immune System</li>
                     </ul>
 
-                    <h4>Top 7 Everyday Habits That Weaken Your Immune System</h4>
+                    <h1>Top 7 Everyday Habits That Weaken Your Immune System</h1>
 
                     <h5>Introduction</h5>
                     <p>Your immune system is your body’s frontline defense against infections, viruses, and chronic medical conditions. When it works well, it deploys specialized immune cells and triggers timely immune responses to keep you healthy. Yet many people unknowingly maintain everyday habits that weaken immunity. Over time, these behaviors erode resilience and lead to fatigue, frequent illness, and other health issues.</p>

@@ -79,7 +79,7 @@
                         <li class="active" aria-current="page">Top 10 Healthy Lifestyle Habits for Busy Professionals</li>
                     </ul>
 
-                    <h4>Top 10 Healthy Lifestyle Habits for Busy Professionals</h4>
+                    <h1>Top 10 Healthy Lifestyle Habits for Busy Professionals</h1>
 
                     <!-- Introduction -->
                     <h5>Introduction</h5>

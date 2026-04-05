@@ -55,7 +55,7 @@
                             and Hair
                         </li>
                     </ul>
-                    <h4>Beauty from the Inside Out: IV Therapy for Healthy Skin and Hair</h4>
+                    <h1>Beauty from the Inside Out: IV Therapy for Healthy Skin and Hair</h1>
                     <p>In the pursuit of radiant skin, lustrous hair, and overall beauty, many people turn to topical
                         treatments and cosmetic procedures. However, true beauty starts from within. One innovative and
                         effective approach to achieving healthy skin and hair is through IV therapy. Intravenous (IV)

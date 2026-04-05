@@ -69,7 +69,7 @@
 
             <div class="row">
 
-                <div class="col-12"><h2>Female Hormone Profile</h2>
+                <div class="col-12"><h1>Female Hormone Profile</h1>
 
                     <nav aria-label="breadcrumb">
 

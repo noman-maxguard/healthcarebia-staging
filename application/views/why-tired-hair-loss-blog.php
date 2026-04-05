@@ -78,7 +78,7 @@
                         <li class="active" aria-current="page">Why You Feel Tired and Lose Hair Even with Healthy Lifestyle</li>
                     </ul>
 
-                    <h4>Why You Feel Tired and Lose Hair Even with Healthy Lifestyle</h4>
+                    <h1>Why You Feel Tired and Lose Hair Even with Healthy Lifestyle</h1>
 
                     <p>Tired all the time and noticing unusual hair fall even though you live healthy? You’re not alone. Many people in Dubai eat nutritious meals, exercise regularly, and drink plenty of water, yet still feel drained and frustrated.</p>
                     <p>The truth is, tiredness and hair loss can stem from hidden issues like nutrient deficiencies, stress, sleep problems, or an untreated medical condition. The good news? With modern wellness options like IV drip therapy, IV drip home service Dubai, vitamin infusion treatments, and NAD IV therapy, you can restore balance, energy, and confidence.</p>

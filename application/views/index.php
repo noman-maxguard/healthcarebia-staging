@@ -725,6 +725,36 @@
 
 </section>
 
+
+
+<section class="section-gap light-bg-color testimonials">
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12 text-center">
+
+                <h2>Reviews</h2>
+
+            </div>
+
+            <div class="col-md-12 mt-4">
+                <script src="https://widget.senja.io/widget/b0215f3b-085d-43e9-b476-255b8f7b7f23/platform.js" type="text/javascript" async></script>
+                <div class="senja-embed" data-id="b0215f3b-085d-43e9-b476-255b8f7b7f23" data-mode="shadow" data-lazyload="false" style="display: block; width: 100%;"></div>
+
+            </div>
+
+        </div>
+
+        
+    </div>
+
+</section>
+
+
+
+
 <div class="video-modal" id="videoModal" style="display: none;">
     <div class="video-modal-overlay">
         <div class="video-modal-content">
@@ -736,7 +766,7 @@
     </div>
 </div>
 
-<section class="healing-body section-gap mt-5">
+<section class="healing-body section-gap">
 
     <div class="container">
 
@@ -919,6 +949,21 @@
             }
         });
     });
+
+
+    const removeSenjaBranding = () => {
+  const host = document.querySelector('.senja-embed');
+  if (!host || !host.shadowRoot) return;
+
+  const el = host.shadowRoot.querySelector('.sj-powered-by');
+  if (el) {
+    el.remove();
+    console.log('Removed');
+  }
+};
+
+setInterval(removeSenjaBranding, 1000);
+
 </script>
 
 </body>

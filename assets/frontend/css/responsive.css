@@ -826,6 +826,9 @@ ul.fot-link li a {
 .sub-banner h1 {
         font-size: 36px;
     }
+.testimonials-slider .owl-nav {
+    bottom: -10px;
+}
 }
 
 @media (max-width:480px) {

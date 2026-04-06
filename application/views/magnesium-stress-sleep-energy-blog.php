@@ -66,7 +66,7 @@
     <div class="overlay"></div>
 </section>
 
-<section class="light-bg-color section-gap">
+<section class="light-bg-color section-gap single-blog-page">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9">
@@ -85,7 +85,7 @@
                     <p>If you’ve been experiencing low energy, poor sleep, or persistent stress, magnesium deficiency might be quietly contributing. Fortunately, modern wellness services such as IV drip therapy in Dubai now make it possible to replenish essential nutrients quickly, safely, and conveniently, even from home.</p>
 
                     <!-- Why Magnesium Matters -->
-                    <h5>Why Magnesium Matters</h5>
+                    <h2>Why Magnesium Matters</h2>
                     <p>Magnesium is a cornerstone of preventive health. It helps regulate muscle and nerve function, maintain steady heart rhythm, support immunity, and assist in the production of ATP, the energy currency of the body. When your magnesium levels drop, your body’s natural ability to handle stress, recover from fatigue, and sleep deeply also declines.</p>
 
                     <ol>
@@ -101,7 +101,7 @@
                     </ol>
 
                     <!-- Signs of deficiency -->
-                    <h5>Signs You Might Be Magnesium-Deficient</h5>
+                    <h2>Signs You Might Be Magnesium-Deficient</h2>
                     <ul class="ingredients-list">
                         <li>Persistent fatigue or weakness</li>
                         <li>Trouble sleeping or frequent waking</li>
@@ -114,7 +114,7 @@
                     <p>If several of these symptoms sound familiar, a simple lab test at home in Dubai or during a preventive health checkup can measure your magnesium levels and identify other underlying deficiencies.</p>
 
                     <!-- Replenish Naturally -->
-                    <h5>How to Replenish Magnesium Naturally</h5>
+                    <h2>How to Replenish Magnesium Naturally</h2>
                     <ol>
                         <li><strong>Dietary Sources</strong><br>
                             Include more magnesium-rich foods in your diet:
@@ -136,13 +136,13 @@
                     </ol>
 
                     <!-- Rise of IV -->
-                    <h5>The Rise of IV Therapy in Dubai</h5>
+                    <h2>The Rise of IV Therapy in Dubai</h2>
                     <p>Dubai’s wellness landscape has embraced IV drip home services for their effectiveness and convenience. Whether it’s a hangover drip in Dubai, a glutathione IV drip for skin glow, or a Myers Cocktail IV to boost energy, the trend reflects a growing shift toward personalized preventive care.</p>
                     <p>IV therapy in Dubai is administered by DHA-licensed nurses, ensuring safety and comfort. You can book a home IV therapy session at your preferred time from your living room, office, or hotel suite.</p>
                     <p>IV drip at home Dubai services cater to hydration, immune support, fatigue recovery, and even anti-aging needs. A premium IV drip at home can include magnesium, B vitamins, vitamin C, and amino acids in one vitamin cocktail IV.</p>
 
                     <!-- Myers -->
-                    <h5>Magnesium and the Myers Cocktail IV</h5>
+                    <h2>Magnesium and the Myers Cocktail IV</h2>
                     <p>One of the most popular formulations that includes magnesium is the Myers Cocktail IV drip, a blend of essential vitamins and minerals like magnesium, calcium, vitamin C, and B-complex. Originally developed to improve energy and immunity, this drip helps with:</p>
                     <ul class="ingredients-list">
                         <li><strong>Stress and anxiety relief</strong></li>
@@ -155,7 +155,7 @@
                     <p>If you’re searching for the best IV drip in Dubai, consider a provider that offers DHA-certified IV infusion therapy at home, transparency about the IV drip Dubai price, and customizable blends like the best Myers Cocktail IV or premium NAD IV therapy.</p>
 
                     <!-- Complementary IVs -->
-                    <h5>Beyond Magnesium: Complementary IV Therapies</h5>
+                    <h2>Beyond Magnesium: Complementary IV Therapies</h2>
                     <ul class="ingredients-list">
                       <li>
                         
@@ -185,7 +185,7 @@
                     <p>For those pursuing preventive health checkups, DNA tests in Dubai, or food intolerance testing, IV drips can support nutrient balance and recovery between assessments.</p>
 
                     <!-- Choosing service -->
-                    <h5>Choosing the Right IV Drip Service</h5>
+                    <h2>Choosing the Right IV Drip Service</h2>
                     <ol>
                         <li><strong>DHA-licensed professionals</strong> for safety and hygiene.</li>
                         <li><strong>Custom formulations</strong> based on your symptoms and test results.</li>
@@ -195,13 +195,13 @@
                     <p>Providers such as VIP home IV therapy services offer premium IV drips tailored for stress relief, detox, and sleep enhancement.</p>
 
                     <!-- Conclusion -->
-                    <h5>Conclusion: Reclaim Your Energy and Calm</h5>
+                    <h2>Conclusion: Reclaim Your Energy and Calm</h2>
                     <p>Magnesium might be small in quantity but its impact on your stress levels, sleep quality, and energy production is massive. Whether through a nutrient-rich diet or targeted IV infusion therapy, restoring magnesium balance can transform how you feel, calmer, more focused, and full of vitality.</p>
                     <p>For Dubai residents seeking fast, effective recovery, IV drip therapy offers an advanced solution. From magnesium-rich Myers Cocktail IVs to premium NAD+ IV therapy, the options are designed to fit your lifestyle.</p>
                     <p>Replenish smarter, rest deeper, and energize your body, all from the comfort of your home with IV drip home service in Dubai.</p>
 
                     <!-- CTA (optional, uses WhatsApp var if present) -->
-                    <h5>Book Your At-Home IV Session</h5>
+                    <h2>Book Your At-Home IV Session</h2>
                     <p><a href="<?= isset($whatsappHref) ? $whatsappHref : 'https://wa.me/971547077476' ?>" target="_blank" rel="noopener noreferrer" class="button d-inline">WhatsApp Healthcarebia</a> to schedule a DHA-licensed nurse visit for a personalized magnesium-focused IV drip.</p>
 
                     <p><small><strong>Disclaimer:</strong> This article is for educational purposes and does not replace professional medical advice. Always consult a licensed practitioner if you have underlying conditions or severe symptoms.</small></p>

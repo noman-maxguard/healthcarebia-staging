@@ -22,16 +22,16 @@
             </div>
          </div>
       </section>
-      <section class="section-gap">
+      <section class="section-gap contact-us-page">
          <div class="container">
             <div class="row">
                <div class="col-md-5">
-                  <h6>Feel free to contact us any time. We will get back to you soon </h6>
+                  <h2>Feel free to contact us any time. We will get back to you soon </h2>
                   <div class="card-style5 p-4 mt-4">
                      <div><span><img src="<?= base_url() ?>assets/frontend/img/map-icon.svg" width="50" height="60" alt="Find Healthcarebia"></span></div>
                      <div>
-                        <h6>Location</h6>
-                        <h5>DIFC, Dubai, UAE</h5>
+                        <h2>Location</h2>
+                        <h3>DIFC, Dubai, UAE</h3>
                      </div>
                   </div>
                   <div class="card-style5 p-4 mt-4">
@@ -39,9 +39,9 @@
                         src="<?= base_url() ?>assets/frontend/img/contact-phone.svg" width="50" height="39" alt="Contact Healthcarebia"></span>
                      </div>
                      <div>
-                        <h6>Phone</h6>
-                        <h5><a href="tel:+97142250823">+971 4 22 50823</a></h5>
-                        <h5><a href="tel:+971547077476">+971 547 077476</a></h5>
+                        <h2>Phone</h2>
+                        <h3><a href="tel:+97142250823">+971 4 22 50823</a></h3>
+                        <h3><a href="tel:+971547077476">+971 547 077476</a></h3>
                      </div>
                   </div>
                   <div class="card-style5 p-4 mt-4">
@@ -49,8 +49,8 @@
                         src="<?= base_url() ?>assets/frontend/img/contact-mail.svg" width="50" height="39" alt="Email Healthcarebia"></span>
                      </div>
                      <div>
-                        <h6>Email</h6>
-                        <h5><a href="mailto:info@healthcarebia.ae">info@healthcarebia.ae</a></h5>
+                        <h2>Email</h2>
+                        <h3><a href="mailto:info@healthcarebia.ae">info@healthcarebia.ae</a></h3>
                      </div>
                   </div>
                </div>

@@ -67,7 +67,7 @@
     <div class="overlay"></div>
 </section>
 
-<section class="light-bg-color section-gap">
+<section class="light-bg-color section-gap single-blog-page">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9">
@@ -86,7 +86,7 @@
                     <p>This article explains the main causes of hair loss, the treatments available in Dubai, and how innovative wellness approaches can help restore both hair and confidence.</p>
 
                     <!-- Causes -->
-                    <h5>Common Causes of Hair Loss</h5>
+                    <h2>Common Causes of Hair Loss</h2>
                     <p>Hair loss, also called alopecia, has many triggers. Finding the cause is the first step to effective treatment.</p>
                     <ul class="ingredients-list">
                         <li><strong>Genetics (Hereditary Hair Loss):</strong> The most common type is androgenetic alopecia, often called male-pattern or female-pattern baldness. It is passed down through genes and linked to hormone sensitivity, especially DHT.</li>
@@ -97,7 +97,7 @@
                     </ul>
 
                     <!-- DNA testing -->
-                    <h5>How DNA and Genetic Testing Help</h5>
+                    <h2>How DNA and Genetic Testing Help</h2>
                     <p>DNA health testing is one of the newest tools in hair loss care. Clinics in Dubai offer DNA tests, ancestry DNA testing, and at-home DNA kits to reveal your health profile.</p>
                     <ul class="ingredients-list">
                         <li><strong>What it shows:</strong> Risks for baldness, vitamin absorption issues, and hormone-related imbalances.</li>
@@ -106,7 +106,7 @@
                     </ul>
 
                     <!-- IV therapy -->
-                    <h5>IV Drip Therapy for Hair Growth</h5>
+                    <h2>IV Drip Therapy for Hair Growth</h2>
                     <p>Many people try oral supplements or topical oils but see little change. The problem is absorption. With IV infusion therapy, nutrients go straight into the bloodstream. This allows maximum delivery to cells, including hair follicles.</p>
                     <p>Popular IV Drips in Dubai for Hair Health include:</p>
                     <ul class="ingredients-list">
@@ -118,7 +118,7 @@
                     </ul>
 
                     <!-- Home IV -->
-                    <h5>IV Drip Home Service in Dubai</h5>
+                    <h2>IV Drip Home Service in Dubai</h2>
                     <p>A major benefit in Dubai is IV drip home service. Licensed nurses provide safe treatments at home, in offices, or even in hotels.</p>
                     <ul class="tick-list">
                         <li><strong>IV drip home service Dubai:</strong> Convenience for busy clients.</li>
@@ -127,7 +127,7 @@
                     </ul>
 
                     <!-- Lifestyle -->
-                    <h5>Lifestyle and Prevention</h5>
+                    <h2>Lifestyle and Prevention</h2>
                     <p>Modern treatments are powerful, but lifestyle still matters:</p>
                     <ul class="ingredients-list">
                         <li><strong>Eat well:</strong> Add protein, omega-3s, and vitamins for stronger hair.</li>
@@ -137,7 +137,7 @@
                     </ul>
 
                     <!-- Why choose -->
-                    <h5>Why Choose Healthcarebia in Dubai?</h5>
+                    <h2>Why Choose Healthcarebia in Dubai?</h2>
                     <ul class="tick-list">
                         <li><a href="<?= base_url() ?>dna-test"><strong>DNA testing in Dubai:</strong></a> Check genetic risks, vitamin absorption, and hormone imbalances.</li>
                         <li><a href="<?= base_url() ?>custom-blood-test"><strong>Blood test at home Dubai:</strong></a> Panels for Vitamin D, iron, thyroid, B12, and more.</li>
@@ -146,7 +146,7 @@
                     </ul>
 
                     <!-- Conclusion -->
-                    <h5>Conclusion</h5>
+                    <h2>Conclusion</h2>
                     <p>Hair loss can feel discouraging, but effective solutions exist. With IV drip therapy, genetic testing, and personalized wellness plans, people in Dubai can achieve lasting results. Options like the Myers Cocktail IV, glutathione drips, and NAD+ IV therapy restore balance and improve both health and hair quality.</p>
                     <p>At Healthcarebia, our goal is simple: to restore not only your hair but also your confidence. With advanced tools, expert guidance, and VIP home IV therapy in Dubai, you get results that are safe, effective, and designed just for you.</p>
                     <!-- cta -->

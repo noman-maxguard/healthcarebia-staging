@@ -43,7 +43,7 @@
          style="background-image: url(<?= base_url() ?>assets/frontend/img/small-banner.webp);">
     <div class="overlay"></div>
 </section>
-<section class="light-bg-color section-gap">
+<section class="light-bg-color section-gap single-blog-page">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9">

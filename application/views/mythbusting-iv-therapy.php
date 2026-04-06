@@ -93,7 +93,7 @@
     <div class="overlay"></div>
 </section>
 
-<section class="light-bg-color section-gap">
+<section class="light-bg-color section-gap single-blog-page">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9">
@@ -106,49 +106,49 @@
                     </ul>
                     <h1>Introduction</h1>
                     <p>Intravenous (IV) therapy has become very popular in Dubai. It delivers fluids, vitamins, and minerals directly into your bloodstream. You get rapid rehydration and a fast nutrient boost. Yet many people still ask: Is it safe? Does it hurt? Don’t I get enough vitamins from food and drinking water? In this guide, we will clear up the top IV drip myths. We’ll share the facts, answer your IV treatment FAQs, and help you decide if an IV therapy session is right for you.</p>
-                    <h5>1. Myth: “IV Therapy Is Painful and Invasive”</h5>
+                    <h2>1. Myth: “IV Therapy Is Painful and Invasive”</h2>
                     <ul class="tick-list">
                         <li><strong>Ultra-fine Needles:</strong> Modern IV catheters are as thin as a hair. You feel only a quick pinch, not deep pain.</li>
                         <li><strong>Expert Hands:</strong> Our nurses have years of experience in safe IV placement, ensuring first-try success.</li>
                         <li><strong>Relaxed Setting:</strong> Enjoy a comfy recliner, soft music, and gentle lighting. Scroll your phone or nap during infusion.</li>
                     </ul>
 
-                    <h5>2. Myth: “IV Therapy Is Unsafe, It’s Only for Hospitals”</h5>
+                    <h2>2. Myth: “IV Therapy Is Unsafe, It’s Only for Hospitals”</h2>
                     <ul class="tick-list">
                         <li><strong>Sterile, Single-Use Supplies:</strong> Every IV bag, tube, and needle is new, sealed, and discarded after one use.</li>
                         <li><strong>Physician-Approved Formulas:</strong> All IV fluids and vitamin blends are signed off by a doctor.</li>
                         <li><strong>Emergency Readiness:</strong> Nurses carry life-support gear and train in first aid for rare complications.</li>
                     </ul>
 
-                    <h5>3. Myth: “If I Eat Well and Drink Water, I Don’t Need IV Drips”</h5>
+                    <h2>3. Myth: “If I Eat Well and Drink Water, I Don’t Need IV Drips”</h2>
                     <ul class="ingredients-list">
                         <li><strong>Full Nutrient Delivery:</strong> Oral supplements absorb at only 20–50%, while IV delivers nearly 100% of each nutrient.</li>
                         <li><strong>Rapid Rehydration:</strong> Drinking water can take hours; an IV can hydrate you in 20–30 minutes.</li>
                         <li><strong>Balanced Electrolytes:</strong> IV fluids restore sodium, potassium, and magnesium fast, supporting muscles and nerves.</li>
                     </ul>
 
-                    <h5>4. Myth: “IV Therapy Is Just a Fad”</h5>
+                    <h2>4. Myth: “IV Therapy Is Just a Fad”</h2>
                     <ul class="ingredients-list">
                         <li><strong>Hospital Origins:</strong> IV fluids have treated severe dehydration since the early 1900s.</li>
                         <li><strong>Chemotherapy Support:</strong> Oncologists use IV infusions to help patients tolerate cancer treatment.</li>
                         <li><strong>Wellness Applications:</strong> Studies show IV vitamin C cuts cold symptoms faster; B12 drips boost energy and mood.</li>
                     </ul>
 
-                    <h5>5. Myth: “I’ll Overdose on Vitamins”</h5>
+                    <h2>5. Myth: “I’ll Overdose on Vitamins”</h2>
                     <ul class="tick-list">
                         <li><strong>Safe, Controlled Formulas:</strong> We follow published guidelines for each infusion.</li>
                         <li><strong>Water-Soluble Vitamins Flush Out:</strong> Excess vitamin C or B complex passes harmlessly in urine.</li>
                         <li><strong>Kidney Screening:</strong> We assess kidney function before each session.</li>
                     </ul>
 
-                    <h5>6. Myth: “Anyone Can Give an IV, It’s Not Technical”</h5>
+                    <h2>6. Myth: “Anyone Can Give an IV, It’s Not Technical”</h2>
                     <ul class="tick-list">
                         <li><strong>Certified Nurses:</strong> All staff hold advanced IV therapy certificates and train in aseptic technique.</li>
                         <li><strong>Standardized Protocols:</strong> We follow Infusion Nurses Society guidelines for safe line flushing and bag changes.</li>
                         <li><strong>Regular Audits:</strong> Health authorities inspect our office for infection control and emergency readiness.</li>
                     </ul>
 
-                    <h5>7. Myth: “IV Drips Are Only for Hangovers or Celebrities”</h5>
+                    <h2>7. Myth: “IV Drips Are Only for Hangovers or Celebrities”</h2>
                     <ul class="ingredients-list">
                         <li><strong>Hangover Relief:</strong> Saline, B vitamins, and electrolytes ease post-party headaches fast.</li>
                         <li><strong>Immunity Boost:</strong> Vitamins and minerals support your defense system during cold season.</li>
@@ -156,14 +156,14 @@
                         <li><strong>Athletic Recovery:</strong> Magnesium and amino acids aid muscle repair and reduce cramps.</li>
                     </ul>
 
-                    <h5>8. Myth: “IV Therapy Is Too Expensive”</h5>
+                    <h2>8. Myth: “IV Therapy Is Too Expensive”</h2>
                     <ul class="ingredients-list">
                         <li><strong>Transparent Pricing:</strong> Base sessions start at AED 850; bundle plans reduce cost per drip.</li>
                         <li><strong>Time Saved:</strong> Get back to peak performance in hours, not days.</li>
                         <li><strong>Preventive Health:</strong> Regular sessions can help avoid costly doctor visits.</li>
                     </ul>
 
-                    <h5>9. Who Benefits Most from IV Therapy?</h5>
+                    <h2>9. Who Benefits Most from IV Therapy?</h2>
                     <table>
                       <thead>
                         <tr><th>Profile</th><th>Primary Benefit</th></tr>
@@ -178,7 +178,7 @@
                       </tbody>
                     </table>
 
-                    <h5>10. What to Expect During Your First IV Session</h5>
+                    <h2>10. What to Expect During Your First IV Session</h2>
                     <ol>
                         <li><strong>Pre-Session Assessment:</strong> Medical history review, vitals check, discuss goals (hydration, immunity, energy, beauty).</li>
                         <li><strong>Setup & Comfort:</strong> Clean insertion site, ultra-fine catheter, cozy chair, pillow, blanket.</li>
@@ -186,7 +186,7 @@
                         <li><strong>Post-Session Care:</strong> Catheter removal, cover with bandage, drink water, follow aftercare tips, schedule follow-up if desired.</li>
                     </ol>
 
-                    <h5>11. Frequently Asked Questions</h5>
+                    <h2>11. Frequently Asked Questions</h2>
                     <ul class="tick-list">
                         <li><strong>Does it hurt?</strong> Just a quick pinch, then a cool fluid flow, no lasting pain.</li>
                         <li><strong>How often?</strong> Weekly for chronic fatigue, monthly for upkeep, or as needed.</li>
@@ -195,7 +195,7 @@
                         <li><strong>Insurance?</strong> E-receipts available; coverage varies by plan.</li>
                     </ul>
 
-                    <h5>12. Choosing a Safe IV Service in the UAE</h5>
+                    <h2>12. Choosing a Safe IV Service in the UAE</h2>
                     <ul class="tick-list">
                         <li>Licensed Medical Staff: DHA licenses & IV therapy certificates.</li>
                         <li>Doctor-Approved Drips: Physician oversight on all formulas.</li>

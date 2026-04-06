@@ -207,7 +207,7 @@
                 <p>The <strong> Myers Cocktail </strong> is a powerful IV treatment that helps recharge the energy, strengthen the immune system, and support overall wellness.  It’s especially beneficial for those experiencing fatigue, high stress, or nutrient deficiencies.</p>
             </div>
             <div class="col-md-12 text-center mb-3">
-                <h5>Benefits of Myers Cocktail IV Drip</h5>
+                <h3>Benefits of Myers Cocktail IV Drip</h3>
             </div>
             <div class="col-6 col-md-4 mb-3"><div class="card-style1 same"><p>Boosts energy levels and reduces fatigue for a more active lifestyle.</p></div></div>
             <div class="col-6 col-md-4 mb-3"><div class="card-style1 same"><p>Supports immune function and overall wellness.</p></div></div>
@@ -259,7 +259,7 @@
                 <div class="accordion pt-md-3">
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>1</span>How long does a Myers Cocktail IV session last?</h5>
+                            <h3><span>1</span>How long does a Myers Cocktail IV session last?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -268,7 +268,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>2</span>What are the key ingredients in a Myers Cocktail IV Drip?</h5>
+                            <h3><span>2</span>What are the key ingredients in a Myers Cocktail IV Drip?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -277,7 +277,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>3</span>How soon will I feel the effects?</h5>
+                            <h3><span>3</span>How soon will I feel the effects?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -286,7 +286,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>4</span>How often should I receive a Myers Cocktail IV Drip?</h5>
+                            <h3><span>4</span>How often should I receive a Myers Cocktail IV Drip?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -295,7 +295,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>5</span>Can I resume normal activities after a Myers Cocktail IV session?</h5>
+                            <h3><span>5</span>Can I resume normal activities after a Myers Cocktail IV session?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -308,7 +308,7 @@
                 <div class="accordion pt-md-3">
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>6</span>Can the treatment help with chronic fatigue?</h5>
+                            <h3><span>6</span>Can the treatment help with chronic fatigue?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -317,7 +317,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>7</span>Are there any side effects?</h5>
+                            <h3><span>7</span>Are there any side effects?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -326,7 +326,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>8</span>Who is an ideal candidate for Myers Cocktail IV Drip?</h5>
+                            <h3><span>8</span>Who is an ideal candidate for Myers Cocktail IV Drip?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -335,7 +335,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>9</span>Can Myers Cocktail IV therapy boost immunity?</h5>
+                            <h3><span>9</span>Can Myers Cocktail IV therapy boost immunity?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -344,7 +344,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>10</span>Is a consultation required before getting a Myers Cocktail IV Drip?</h5>
+                            <h3><span>10</span>Is a consultation required before getting a Myers Cocktail IV Drip?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">

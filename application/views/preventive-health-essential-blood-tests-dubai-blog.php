@@ -66,7 +66,7 @@
     <div class="overlay"></div>
 </section>
 
-<section class="light-bg-color section-gap">
+<section class="light-bg-color section-gap single-blog-page">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9">
@@ -83,10 +83,10 @@
                     <p>Life in Dubai moves fast early meetings, late dinners, heat, and frequent travel. A preventive health check-up makes sure your body keeps pace. Blood tests give a clear picture of how you’re doing today and where things may trend tomorrow. With the right panels, sensible intervals, and practical interpretation, you can adjust food, sleep, training, and recovery tools (including IV drip or IV infusion therapy when appropriate) before small issues become real problems.</p>
                     <p>This guide outlines the core tests most adults should discuss with a clinician, optional add-ons for specific goals, when to repeat them, and how IV therapy can fit into a broader plan focused on prevention and performance.</p>
 
-                    <h5>Why test</h5>
+                    <h2>Why test</h2>
                     <p>Think of blood work as a dashboard. A single value may look fine in isolation, but trends reveal the story. In a city where heat, dehydration, and jet-lag are common, tracking electrolytes, kidney function, iron status, and glucose is especially useful. If Ramadan fasting, intense training, or frequent flights are part of your year, regular blood tests in Dubai help you course correct early. Many people pair labs with convenient services like blood test at home or lab test at home to avoid losing time to traffic.</p>
 
-                    <h5>Core blood panels (and what they mean)</h5>
+                    <h2>Core blood panels (and what they mean)</h2>
                     <ol>
                         <li><strong>Complete Blood Count (CBC)</strong><br>
                             Screens red cells, white cells, and platelets. It can flag anemia, infection, and clotting issues. If you’re dealing with fatigue, frequent colds, or slow recovery after workouts, start here and add iron studies.
@@ -120,7 +120,7 @@
                         </li>
                     </ol>
 
-                    <h5>Useful add-ons by goal</h5>
+                    <h2>Useful add-ons by goal</h2>
                     <p><strong>Food symptoms, skin, or bloating</strong><br>
                     Consider a structured elimination plan or a guided food intolerance test dubai. Home sample collection via lab test at home in dubai can make it easier. Use results to tweak meals for 8–12 weeks, then reassess symptoms.</p>
 
@@ -136,7 +136,7 @@
                     <p><strong>Recovery therapies</strong><br>
                     Some clients explore hyperbaric oxygen therapy . Providers should review your medical history first. These are adjuncts, not replacements for care.</p>
 
-                    <h5>How often should you test?</h5>
+                    <h2>How often should you test?</h2>
                     <ul class="ingredients-list">
                         <li><strong>Annually for most healthy adults:</strong> CBC, iron studies with ferritin, CMP, lipid profile, HbA1c, vitamin D, B12, TSH</li>
                         <li><strong>Every 6–12 months if at risk:</strong> fasting insulin, HOMA-IR, hs-CRP, ApoB or Lp(a)</li>
@@ -144,7 +144,7 @@
                     </ul>
                     <p>If you change your training, diet, or medication, or start therapies like IV infusion therapy, recheck targeted markers in about three months to confirm you’re moving in the right direction.</p>
 
-                    <h5>Making sense of results without stress</h5>
+                    <h2>Making sense of results without stress</h2>
                     <ul class="ingredients-list">
                         <li><strong>Aim for direction, not perfection.</strong></li>
                         <li>If fasting glucose or triglycerides creep up, raise fiber, lift or walk most days, and lock in 7–8 hours of sleep for six weeks, then recheck.</li>
@@ -153,7 +153,7 @@
                         <li>If inflammation (hs-CRP) is high, look for sleep debt, oral health issues, inactivity, or ultra-processed foods before chasing exotic solutions.</li>
                     </ul>
 
-                    <h5>Simple action plan</h5>
+                    <h2>Simple action plan</h2>
                     <ol>
                         <li>Book a preventive health check with the core panels above.</li>
                         <li>Add targeted tests based on your goals: food intolerance test, female hormone profile, STD testing, or DNA health testing.</li>
@@ -162,14 +162,14 @@
                         <li>Recheck key markers in 3–6 months after big changes; otherwise repeat annually.</li>
                     </ol>
 
-                    <h5>FAQs</h5>
+                    <h2>FAQs</h2>
                     <ul class="tick-list">
                         <li><strong>How much does an IV drip in Dubai cost?</strong> Prices vary by ingredients, dose, and setting. Clinic infusions are typically lower than concierge home services. Compare more than price, ask about credentials, sourcing, and follow-up.</li>
                         <li><strong>Is IV therapy safe at home?</strong> Yes, when delivered by licensed clinicians using sterile technique, proper screening, and clear protocols. Always disclose medical history, medications, and allergies.</li>
                         <li><strong>How often should I repeat preventive blood tests?</strong> Once a year for core panels; sooner if you start a new treatment, change lifestyle significantly, or are tracking a specific deficiency or condition.</li>
                     </ul>
 
-                    <h5>Call to action</h5>
+                    <h2>Call to action</h2>
                     <p>Ready to plan your preventive health check? Arrange blood test at home now, message us on WhatsApp and we’ll schedule sample collection and a follow-up consult the same week.</p>
                     <p><a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" class="button d-inline">WhatsApp Healthcarebia</a></p>
 

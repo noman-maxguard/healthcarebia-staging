@@ -295,7 +295,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>1</span>What is the 200+ Food Allergy and Intolerance Test?</h5>
+                            <h3><span>1</span>What is the 200+ Food Allergy and Intolerance Test?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -305,7 +305,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>2</span>What does the Food Intolerance Extended Dubai panel usually include?</h5>
+                            <h3><span>2</span>What does the Food Intolerance Extended Dubai panel usually include?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -315,7 +315,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>3</span>Who should consider doing the 200+ Food Allergy and Intolerance Test?</h5>
+                            <h3><span>3</span>Who should consider doing the 200+ Food Allergy and Intolerance Test?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -331,7 +331,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>4</span>Does this test diagnose food allergies or medical conditions?</h5>
+                            <h3><span>4</span>Does this test diagnose food allergies or medical conditions?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -341,7 +341,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>5</span>How does at home blood sample collection work for this test?</h5>
+                            <h3><span>5</span>How does at home blood sample collection work for this test?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -351,7 +351,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>6</span>How quickly will I receive my results and how should I use them?</h5>
+                            <h3><span>6</span>How quickly will I receive my results and how should I use them?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">

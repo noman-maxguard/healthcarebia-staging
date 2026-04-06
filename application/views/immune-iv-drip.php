@@ -207,7 +207,7 @@
                 <p>This specialized IV therapy is designed to enhance your body's natural defenses and support overall immune function. It is an ideal solution for individuals seeking a proactive approach to maintaining optimal health and vitality.</p>
             </div>
             <div class="col-md-12 text-center mb-3">
-                <h5>Benefits of Immune System Boost IV Drip</h5>
+                <h3>Benefits of Immune System Boost IV Drip</h3>
             </div>
             <div class="col-6 col-md-4 mb-3"><div class="card-style1 same"><p>Enhances immune response and boosts natural defenses.</p></div></div>
             <div class="col-6 col-md-4 mb-3"><div class="card-style1 same"><p>Improves energy levels and promotes overall wellness.</p></div></div>
@@ -260,31 +260,31 @@
             <div class="col-md-6">
                 <div class="accordion pt-md-3">
                     <div class="accordion-box">
-                        <div class="accordion-item"><h5><span>1</span>What exactly is an Immune Boost IV Drip?</h5><span class="plus-minus"></span></div>
+                        <div class="accordion-item"><h3><span>1</span>What exactly is an Immune Boost IV Drip?</h3><span class="plus-minus"></span></div>
                         <div class="data" style="display: none;">
                             <p>The <strong>Immune Boost IV Drip</strong> is a specialized <strong>vitamin cocktail IV</strong> that enhances your body’s defenses through <strong>premium IV drip therapy</strong>. It delivers high doses of Vitamin C, Zinc, and antioxidants directly into your bloodstream for maximum absorption and faster results perfect for those seeking the <strong>best immune boost IV drip</strong> in Dubai.</p>
                         </div>
                     </div>
                     <div class="accordion-box">
-                        <div class="accordion-item"><h5><span>2</span>Who is this IV therapy for?</h5><span class="plus-minus"></span></div>
+                        <div class="accordion-item"><h3><span>2</span>Who is this IV therapy for?</h3><span class="plus-minus"></span></div>
                         <div class="data" style="display: none;">
                             <p>This <strong>VIP IV drip service</strong> is designed for anyone looking to strengthen their immunity and overall wellness. It’s ideal for busy professionals, travelers, or those recovering from fatigue or illness. As one of the <strong>best IV drip therapies in Dubai</strong>, it’s a convenient and effective way to boost your immune system naturally.</p>
                         </div>
                     </div>
                     <div class="accordion-box">
-                        <div class="accordion-item"><h5><span>3</span>How long does the IV drip session take?</h5><span class="plus-minus"></span></div>
+                        <div class="accordion-item"><h3><span>3</span>How long does the IV drip session take?</h3><span class="plus-minus"></span></div>
                         <div class="data" style="display: none;">
                             <p>A session for our <strong>immune boost IV drip</strong> takes around 30–60 minutes. With our <strong>IV drip home service Dubai</strong> option, you can enjoy <strong>VIP IV therapy at home</strong> in comfort, whether you’re at home, the office, or your hotel. It’s quick, convenient, and completely private.</p>
                         </div>
                     </div>
                     <div class="accordion-box">
-                        <div class="accordion-item"><h5><span>4</span>When will I feel the effects of the immune boost?</h5><span class="plus-minus"></span></div>
+                        <div class="accordion-item"><h3><span>4</span>When will I feel the effects of the immune boost?</h3><span class="plus-minus"></span></div>
                         <div class="data" style="display: none;">
                             <p>Most clients experience an instant sense of hydration and energy following their <strong>IV therapy in Dubai</strong>. The complete immune-enhancing benefits appear over 24–48 hours as your body absorbs the nutrients. This makes it one of the most popular <strong>IV drips in Dubai</strong> for fast recovery and vitality.</p>
                         </div>
                     </div>
                     <div class="accordion-box">
-                        <div class="accordion-item"><h5><span>5</span>Is it better than taking oral vitamins?</h5><span class="plus-minus"></span></div>
+                        <div class="accordion-item"><h3><span>5</span>Is it better than taking oral vitamins?</h3><span class="plus-minus"></span></div>
                         <div class="data" style="display: none;">
                             <p>Yes. <strong>IV therapy to boost immune system</strong> function is significantly more efficient than oral supplements. Pills lose potency during digestion, while <strong>IV infusion therapy</strong> ensures 100% direct delivery to your bloodstream. It’s why so many choose our <strong>VIP IV therapy</strong> for results you can feel quickly.</p>
                         </div>
@@ -294,31 +294,31 @@
             <div class="col-md-6">
                 <div class="accordion pt-md-3">
                     <div class="accordion-box">
-                        <div class="accordion-item"><h5><span>6</span>Can I get this IV Drip at home?</h5><span class="plus-minus"></span></div>
+                        <div class="accordion-item"><h3><span>6</span>Can I get this IV Drip at home?</h3><span class="plus-minus"></span></div>
                         <div class="data" style="display: none;">
                             <p>Absolutely. Our <strong>VIP home IV therapy</strong> brings the clinic experience to you. This <strong>IV drip home service</strong> is administered by DHA-licensed nurses, ensuring comfort, safety, and privacy. It’s the perfect choice for those who prefer <strong>premium IV drip</strong> treatments in the comfort of their homes.</p>
                         </div>
                     </div>
                     <div class="accordion-box">
-                        <div class="accordion-item"><h5><span>7</span>How often should I get an Immune Boost IV Drip?</h5><span class="plus-minus"></span></div>
+                        <div class="accordion-item"><h3><span>7</span>How often should I get an Immune Boost IV Drip?</h3><span class="plus-minus"></span></div>
                         <div class="data" style="display: none;">
                             <p>We recommend one <strong>IV drip therapy</strong> session per month as part of your preventive wellness routine. However, those under stress or recovering from illness may benefit from more frequent <strong>IV therapy at home</strong>. Our medical team can create a customized <strong>VIP IV drip service</strong> plan suited to your health goals.</p>
                         </div>
                     </div>
                     <div class="accordion-box">
-                        <div class="accordion-item"><h5><span>8</span>Are there other IVs that can help my immune system?</h5><span class="plus-minus"></span></div>
+                        <div class="accordion-item"><h3><span>8</span>Are there other IVs that can help my immune system?</h3><span class="plus-minus"></span></div>
                         <div class="data" style="display: none;">
                             <p>Yes. Alongside the <strong>best immune boost IV drip</strong>, we offer complementary options like <strong>Glutathione IV drip</strong> for detox and glow, and <strong>NAD IV therapy</strong> for cellular regeneration. Each <strong>premium IV drip Dubai</strong> formula is tailored to your unique wellness needs.</p>
                         </div>
                     </div>
                     <div class="accordion-box">
-                        <div class="accordion-item"><h5><span>9</span>Is this IV therapy safe?</h5><span class="plus-minus"></span></div>
+                        <div class="accordion-item"><h3><span>9</span>Is this IV therapy safe?</h3><span class="plus-minus"></span></div>
                         <div class="data" style="display: none;">
                             <p>Yes, our <strong>IV drip Dubai</strong> procedures are extremely safe. All treatments use medical-grade ingredients and are performed by certified professionals. With our trusted <strong>VIP IV drip service</strong>, safety and quality are guaranteed at every step.</p>
                         </div>
                     </div>
                     <div class="accordion-box">
-                        <div class="accordion-item"><h5><span>10</span>What is the price for this IV Drip service in Dubai?</h5><span class="plus-minus"></span></div>
+                        <div class="accordion-item"><h3><span>10</span>What is the price for this IV Drip service in Dubai?</h3><span class="plus-minus"></span></div>
                         <div class="data" style="display: none;">
                             <p>The <strong>IV drip Dubai price</strong> for our Immune Boost formula is affordable given its premium quality and results. We also provide customized <strong>IV drip home service</strong> packages and multi-session plans for long-term wellness. Contact us today to experience the <strong>best IV drip Dubai</strong> has to offer.</p>
                         </div>

@@ -66,7 +66,7 @@
   <div class="overlay"></div>
 </section>
 
-<section class="light-bg-color section-gap">
+<section class="light-bg-color section-gap single-blog-page">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-9">
@@ -83,7 +83,7 @@
           <p>Your body faces new difficulties as Dubai’s cooler months approach. Reduced sunlight, more time spent outdoors, and decreased humidity can subtly affect immunity, hydration, skin health, and energy levels. At Healthcarebia, we provide professional care such as IV drips at home, DNA testing, and preventive examinations to help you stay at your best all season.</p>
           <p>This guide shares simple steps to stay healthy and energized through winter and explains how home healthcare in Dubai and IV therapy can make your routine easier. You will also see how options like antioxidant IVs, hangover drips, and essential health tests fit into a clear winter plan.</p>
 
-          <h5>Why Dubai’s Winter Health Is Important</h5>
+          <h2>Why Dubai’s Winter Health Is Important</h2>
           <ul class="ingredients-list">
             <li>Less sunlight lowers vitamin D, which supports immune resilience.</li>
             <li>Indoor air conditioning or heating can dry mucous membranes and weaken respiratory defenses.</li>
@@ -92,7 +92,7 @@
           </ul>
           <p>Winter is the ideal time to focus on immune support and steady energy even without freezing temperatures.</p>
 
-          <h5>Essential Winter Health Habits</h5>
+          <h2>Essential Winter Health Habits</h2>
           <ol>
             <li>Choose nutrient dense, immune boosting meals.</li>
             <li>Emphasize vitamins A and C with colorful fruits and vegetables and healthy fats like walnuts and salmon. Add probiotic foods such as kefir or yogurt for gut health.</li>
@@ -110,10 +110,10 @@
             <li>Consider a female hormone profile, food intolerance test in Dubai, or a preventive health checkup. DNA testing and an STD blood test can also clarify your overall health picture.</li>
           </ol>
 
-          <h5>How IV Therapy and Home Health Services Help</h5>
+          <h2>How IV Therapy and Home Health Services Help</h2>
           <p>Healthcarebia provides IV drip Dubai, IV therapy Dubai, and IV drip at home Dubai to support hydration, energy, and resilience through the cooler season.</p>
 
-          <h5>What Is IV Therapy and Why It Matters</h5>
+          <h2>What Is IV Therapy and Why It Matters</h2>
           <p>IV therapy delivers vitamins, minerals, antioxidants, and fluids directly into the bloodstream for fast absorption. In winter, when the immune system may need extra support, IV drips can provide a timely boost.</p>
           <ul class="ingredients-list">
             <li>Immune Boost IV Drip to help reduce seasonal fatigue.</li>
@@ -124,10 +124,10 @@
             <li>VIP home IV therapy and premium IV drip at home for concierge style care at your door.</li>
           </ul>
 
-          <h5>The Best Choice Is Home IV Service</h5>
+          <h2>The Best Choice Is Home IV Service</h2>
           <p>Receiving your IV drip at home in Dubai lets you rest and saves travel time. It is ideal when you feel run down or prefer private care. With skilled nurses and sterile technique, our IV drip home service delivers medical grade hydration and nutrients where you are most comfortable.</p>
 
-          <h5>Choosing the Best IV Drip Dubai</h5>
+          <h2>Choosing the Best IV Drip Dubai</h2>
           <ul class="tick-list">
             <li>Licensed medical professionals who follow strict hygiene standards.</li>
             <li>Clear ingredients and safe dosing.</li>
@@ -136,7 +136,7 @@
             <li>Follow up support and access to diagnostics like hormone profiles and DNA health testing.</li>
           </ul>
 
-          <h5>Personalized IV Therapy Using Diagnostic Testing</h5>
+          <h2>Personalized IV Therapy Using Diagnostic Testing</h2>
           <p>Personal insights guide better plans. Healthcarebia combines DNA testing, blood test at home in Dubai, and preventive checkups to tailor IV therapy.</p>
           <ul class="ingredients-list">
             <li>DNA test Dubai, DNA health testing, DNA test UAE, or home DNA test to understand nutrient needs and detox pathways for a precise IV plan.</li>
@@ -148,7 +148,7 @@
           </ul>
           <p>Get precise results at home with the best at home DNA paternity test, home DNA ancestry test, or ancestry DNA test UAE.</p>
 
-          <h5>How to Plan Your Winter Health Routine</h5>
+          <h2>How to Plan Your Winter Health Routine</h2>
           <table>
             <thead>
               <tr>
@@ -171,15 +171,15 @@
               </tr>
             </tbody>
           </table>
-          <h5>Why Choose Healthcarebia</h5>
+          <h2>Why Choose Healthcarebia</h2>
           <p>In Dubai, Healthcarebia provides VIP home healthcare that blends wellness, therapy, and diagnostics. Whether you want IV infusion therapy, a premium IV drip in Dubai, a NAD drip, or a Myers IV drip, our medical team focuses on safety, comfort, and accuracy.</p>
           <p>We also offer DNA testing, STD testing, and lab testing at home in Dubai, combining technology with attentive care. From immune boost IV drip and oxygen therapy Dubai to hyperbaric oxygen therapy Dubai, our approach supports recovery, hydration, and rejuvenation for long term health.</p>
 
-          <h5>Final Thoughts</h5>
+          <h2>Final Thoughts</h2>
           <p>Dubai’s winter brings questions about immunity, energy balance, and hydration. With home IV therapy, preventive testing, and smart nutrition, you can feel your best throughout the season.</p>
           <p>If you are ready to explore the best IV drip in Dubai, a high quality IV drip at home, or to arrange a preventive health examination, connect with Healthcarebia, your partner in personalized wellness.</p>
 
-          <h5>Call to Action</h5>
+          <h2>Call to Action</h2>
           <p>Message us to plan your winter routine or book a visit. <a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" class="button d-inline">WhatsApp Healthcarebia</a> to schedule your session at home or at your preferred location.</p>
 
           <p><small>This article is for educational purposes and does not replace professional medical advice. Always consult a licensed practitioner for underlying conditions or severe symptoms.</small></p>

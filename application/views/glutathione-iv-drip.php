@@ -464,9 +464,9 @@
 
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>1</span>How many sessions do I require to see a result?
+                        <div class="accordion-item"><h3><span>1</span>How many sessions do I require to see a result?
 
-                            </h5>                                    <span class="plus-minus"></span></div>
+                            </h3>                                    <span class="plus-minus"></span></div>
 
                         <div class="data" style="display: none;"><p>Experts recommend a minimum of 5 sessions to truly
 
@@ -476,7 +476,7 @@
 
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>2</span>Where can I have IV Therapy? </h5>
+                        <div class="accordion-item"><h3><span>2</span>Where can I have IV Therapy? </h3>
 
                             <span class="plus-minus"></span></div>
 
@@ -490,9 +490,9 @@
 
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>3</span> I heard that this can make me whiter, is this
+                        <div class="accordion-item"><h3><span>3</span> I heard that this can make me whiter, is this
 
-                                true? </h5>                                    <span class="plus-minus"></span></div>
+                                true? </h3>                                    <span class="plus-minus"></span></div>
 
                         <div class="data"><p>Whilst Glutathione and Vitamin C do inhibit the production of melatonin.
 
@@ -504,7 +504,7 @@
 
                     <div class="accordion-box">
 
-                    <div class="accordion-item"><h5><span>4</span>Is Glutathione IV Better Than Oral Supplements?</h5>
+                    <div class="accordion-item"><h3><span>4</span>Is Glutathione IV Better Than Oral Supplements?</h3>
 
                         <span class="plus-minus"></span></div>
 
@@ -524,7 +524,7 @@
 
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>5</span>How soon can I feel the effects?</h5>
+                        <div class="accordion-item"><h3><span>5</span>How soon can I feel the effects?</h3>
 
                             <span class="plus-minus"></span></div>
 
@@ -538,7 +538,7 @@
 
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>6</span>Does it hurt? </h5>
+                        <div class="accordion-item"><h3><span>6</span>Does it hurt? </h3>
 
                             <span class="plus-minus"></span></div>
 
@@ -552,7 +552,7 @@
 
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>7</span> Is it safe?</h5>
+                        <div class="accordion-item"><h3><span>7</span> Is it safe?</h3>
 
                             <span class="plus-minus"></span></div>
 
@@ -567,7 +567,7 @@
 
                     <div class="accordion-box">
 
-                    <div class="accordion-item"><h5><span>8</span>How Often Should I Get Glutathione IV Drips?</h5>
+                    <div class="accordion-item"><h3><span>8</span>How Often Should I Get Glutathione IV Drips?</h3>
 
                         <span class="plus-minus"></span></div>
 

@@ -358,7 +358,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>1</span>What is the Men's Advanced Package?</h5>
+                            <h3><span>1</span>What is the Men's Advanced Package?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -368,7 +368,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>2</span>What does the Men's Advanced Package usually include?</h5>
+                            <h3><span>2</span>What does the Men's Advanced Package usually include?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -378,7 +378,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>3</span>Who should consider the Men's Advanced Package?</h5>
+                            <h3><span>3</span>Who should consider the Men's Advanced Package?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -394,7 +394,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>4</span>Does the Men's Advanced Package replace a visit to the doctor?</h5>
+                            <h3><span>4</span>Does the Men's Advanced Package replace a visit to the doctor?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -404,7 +404,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>5</span>How does at home blood sample collection work for this package?</h5>
+                            <h3><span>5</span>How does at home blood sample collection work for this package?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -414,7 +414,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>6</span>When will I receive my results and how should I use them?</h5>
+                            <h3><span>6</span>When will I receive my results and how should I use them?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">

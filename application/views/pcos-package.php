@@ -322,7 +322,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>1</span>What is the PCOS Package and who is it for?</h5>
+                            <h3><span>1</span>What is the PCOS Package and who is it for?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -336,7 +336,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>2</span>What does the PCOS Package usually measure?</h5>
+                            <h3><span>2</span>What does the PCOS Package usually measure?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -350,7 +350,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>3</span>Do I need to have irregular periods to consider the PCOS Package?</h5>
+                            <h3><span>3</span>Do I need to have irregular periods to consider the PCOS Package?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -370,7 +370,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>4</span>Can the PCOS Package by itself confirm a PCOS diagnosis?</h5>
+                            <h3><span>4</span>Can the PCOS Package by itself confirm a PCOS diagnosis?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -384,7 +384,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>5</span>How is the PCOS Package usually carried out and do I need to time it with my cycle?</h5>
+                            <h3><span>5</span>How is the PCOS Package usually carried out and do I need to time it with my cycle?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -398,7 +398,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>6</span>How will the PCOS Package results guide my next steps?</h5>
+                            <h3><span>6</span>How will the PCOS Package results guide my next steps?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">

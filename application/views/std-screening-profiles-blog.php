@@ -69,7 +69,7 @@
     <div class="overlay"></div>
 </section>
 
-<section class="light-bg-color section-gap">
+<section class="light-bg-color section-gap single-blog-page">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9">
@@ -97,7 +97,7 @@
                     </ul>
 
                     <!-- Why STD screening matters -->
-                    <h5>Why STD Screening Matters</h5>
+                    <h2>Why STD Screening Matters</h2>
                     <p>Many infections such as chlamydia and gonorrhoea can show no symptoms at all. You may feel well, but still pass infection to a partner or allow it to slowly damage your reproductive system.</p>
                     <p>Regular screening helps you:</p>
                     <ul class="tick-list">
@@ -108,7 +108,7 @@
                     </ul>
 
                     <!-- How panels work -->
-                    <h5>How Healthcarebia STD Panels Work</h5>
+                    <h2>How Healthcarebia STD Panels Work</h2>
                     <p>Each STD panel is a group of tests run together on your sample. As the panel number increases, the breadth of information and the number of organisms checked also increases.</p>
                     <ul class="ingredients-list">
                         <li><strong>Lower panels:</strong> focus on core, common STDs that most people worry about.</li>
@@ -118,7 +118,7 @@
                     <p>Below is a panel by panel explanation so you can see where you fit.</p>
 
                     <!-- STD 7 Panel -->
-                    <h5>STD 7 Panel &ndash; Core Essential STD Screen</h5>
+                    <h2>STD 7 Panel &ndash; Core Essential STD Screen</h2>
                     <p><strong>What this panel checks</strong></p>
                     <p>The STD 7 Panel is the starting point for many patients. It focuses on common bacterial and parasitic infections that affect the urethra, cervix, and genital tract. These are the typical infections picked up after unprotected sex or a new partner.</p>
                     <p><strong>Who this panel is for</strong></p>
@@ -130,7 +130,7 @@
                     </ul>
 
                     <!-- STD 14 Panel -->
-                    <h5>STD 14 Panel &ndash; Extended STD Plus BV and Herpes Coverage</h5>
+                    <h2>STD 14 Panel &ndash; Extended STD Plus BV and Herpes Coverage</h2>
                     <p><strong>What this panel checks</strong></p>
                     <p>The STD 14 Panel builds on the 7 Panel and adds key organisms linked with genital ulcers, herpes, and bacterial vaginosis. It gives a more complete picture for people with more specific symptoms or a higher risk pattern.</p>
                     <p><strong>Who this panel is for</strong></p>
@@ -141,7 +141,7 @@
                     </ul>
 
                     <!-- STD 17 Panel -->
-                    <h5>STD 17 Panel &ndash; Focus on Recurrent or Resistant Yeast Infections</h5>
+                    <h2>STD 17 Panel &ndash; Focus on Recurrent or Resistant Yeast Infections</h2>
                     <p><strong>What this panel checks</strong></p>
                     <p>The STD 17 Panel includes everything in the 14 Panel and adds several non albicans Candida species. This matters in recurrent or treatment resistant thrush where standard medication is no longer working well.</p>
                     <p><strong>Who this panel is for</strong></p>
@@ -152,7 +152,7 @@
                     </ul>
 
                     <!-- STD 21 Panel -->
-                    <h5>STD 21 Panel &ndash; Broad STD Plus Blood Borne Infection Screen</h5>
+                    <h2>STD 21 Panel &ndash; Broad STD Plus Blood Borne Infection Screen</h2>
                     <p><strong>What this panel checks</strong></p>
                     <p>The STD 21 Panel combines genital infections, bacterial vaginosis related organisms, Candida species, and major blood borne infections. It is a comprehensive sexual health screen in a single profile.</p>
                     <p><strong>Who this panel is for</strong></p>
@@ -164,7 +164,7 @@
                     </ul>
 
                     <!-- STD 28 Panel -->
-                    <h5>STD 28 Panel &ndash; Advanced Vaginal Microbiome and STD Panel</h5>
+                    <h2>STD 28 Panel &ndash; Advanced Vaginal Microbiome and STD Panel</h2>
                     <p><strong>What this panel checks</strong></p>
                     <p>The STD 28 Panel still includes core STD markers but adds a deep analysis of the vaginal microbiome and additional viruses and bacteria that influence genital health and pregnancy outcomes. This is helpful when symptoms are chronic, complex, or unexplained.</p>
                     <p><strong>Who this panel is for</strong></p>
@@ -176,7 +176,7 @@
                     </ul>
 
                     <!-- STD 32 Panel -->
-                    <h5>STD 32 Panel &ndash; Full Spectrum STD and Microbiome Assessment</h5>
+                    <h2>STD 32 Panel &ndash; Full Spectrum STD and Microbiome Assessment</h2>
                     <p><strong>What this panel checks</strong></p>
                     <p>The STD 32 Panel combines everything in the advanced 28 Panel with blood borne infection markers. It is the most complete option in this series and is designed as a full spectrum look at sexual health.</p>
                     <p><strong>Who this panel is for</strong></p>
@@ -188,7 +188,7 @@
                     </ul>
 
                     <!-- Why choose healthcarebia -->
-                    <h5>Why Choose Healthcarebia for STD Screening</h5>
+                    <h2>Why Choose Healthcarebia for STD Screening</h2>
                     <p>Choosing where and how you test is as important as the test itself. At healthcarebia, sexual health services are built around medical quality and patient comfort.</p>
                     <ul class="tick-list">
                         <li><strong>Comprehensive panel design:</strong> panels are created by doctors to match real life situations rather than random lists of tests.</li>
@@ -199,13 +199,13 @@
                     </ul>
 
                     <!-- Beyond STD panels -->
-                    <h5>Beyond STD Panels: Home Diagnostics and Wellness with Healthcarebia</h5>
+                    <h2>Beyond STD Panels: Home Diagnostics and Wellness with Healthcarebia</h2>
                     <p>Healthcarebia is centred around a simple idea. Bring doctor led care to you at home, instead of making you sit in traffic and waiting rooms. STD screening is one part of that, but many patients also use wider services to look after their overall health.</p>
                     <p>Healthcarebia can arrange discreet lab tests at home in Dubai, including routine <a href="<?= base_url() ?>custom-blood-test">blood work</a>, <a href="<?= base_url() ?>female-hormone-profile">hormone profiles,</a>, <strong>std blood test</strong>, <strong><a href="<?= base_url() ?>food-intolerance-test">food intolerance test Dubai</a></strong>, and <strong><a href="<?= base_url() ?>dna-test">DNA test</a></strong> , all coordinated as part of a personalised <strong>preventive health check up</strong> plan.</p>
                     <p>For recovery, energy, and immunity, healthcarebia also provides home IV therapy in Dubai, as well as oxygen therapy in selected cases, a nurse at home service for ongoing clinical support, and doctor on call visits when you need rapid medical attention without leaving your home.</p>
 
                     <!-- CTA -->
-                    <h5>Book Your STD Panel or At Home Health Plan</h5>
+                    <h2>Book Your STD Panel or At Home Health Plan</h2>
                     <p>If you are ready to understand your sexual health, book an STD panel, or combine it with home diagnostics, <a href="<?= base_url() ?>iv-drip-dubai">IV therapy</a>, <a href="<?= base_url() ?>oxygen-therapy">oxygen therapy</a>, <a href="<?= base_url() ?>nurse-at-home">nurse at home</a>, or <a href="<?= base_url() ?>doctor-on-call">doctor on call,</a> support, contact healthcarebia today. The team will help you choose the safest and most suitable plan for your needs.</p>
                     <p>
                         <a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" class="button d-inline">Book an STD Screening with Healthcarebia</a>

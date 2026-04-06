@@ -64,7 +64,7 @@
     <div class="overlay"></div>
 </section>
 
-<section class="light-bg-color section-gap">
+<section class="light-bg-color section-gap single-blog-page">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9">
@@ -83,11 +83,11 @@
 
                     <p>Why does this happen? And what can we do about burnout prevention, burnout treatment, and learning how to manage burnout before it takes control of our lives?</p>
 
-                    <h5>What is Burnout?</h5>
+                    <h2>What is Burnout?</h2>
                     <p>Burnout is more than just tiredness. It is a state of prolonged stress that causes exhaustion, emotional detachment, and physical symptoms. Unlike normal fatigue, it does not go away after a weekend of sleep. It lingers, lowers energy levels, and impacts overall physical and mental health.</p>
                     <p>The World Health Organization recognizes burnout as an occupational condition. It is directly tied to unhealthy work environment, high work related stress, and a lack of support systems.</p>
 
-                    <h5>Why Do We Notice Burnout Too Late?</h5>
+                    <h2>Why Do We Notice Burnout Too Late?</h2>
                     <ul class="ingredients-list">
                         <li>Burnout builds slowly: starts with tiredness, evolves into lack of motivation, and ends in exhaustion.</li>
                         <li>Stress feels normal: modern culture glorifies busyness, masking early signs.</li>
@@ -95,7 +95,7 @@
                         <li>Fear of admitting it: people avoid acknowledging they feel overwhelmed, delaying recovery.</li>
                     </ul>
 
-                    <h5>The Impact of Burnout</h5>
+                    <h2>The Impact of Burnout</h2>
                     <p>Burnout and mental health are closely linked. Its consequences affect every part of life:</p>
                     <ul class="tick-list">
                         <li>On physical health: weakened immunity, chronic fatigue, digestive issues, and heart disease risk.</li>
@@ -104,7 +104,7 @@
                         <li>On work: reduced creativity, errors, and lower productivity.</li>
                     </ul>
 
-                    <h5>How to Recognize Burnout Early</h5>
+                    <h2>How to Recognize Burnout Early</h2>
                     <ul class="ingredients-list">
                         <li>Constant fatigue, even after rest</li>
                         <li>Difficulty focusing or remembering details</li>
@@ -114,7 +114,7 @@
                         <li>Persistent headaches, stomach problems, or sleep issues</li>
                     </ul>
 
-                    <h5>Burnout Prevention and Recovery</h5>
+                    <h2>Burnout Prevention and Recovery</h2>
                     <p>Here are evidence based strategies for burnout prevention and stress and fatigue recovery:</p>
                     <ul class="tick-list">
                         <li>Prioritize self-care: sleep, nutrition, and physical activity.</li>
@@ -124,7 +124,7 @@
                         <li>Listen to your body: treat physical symptoms early to avoid escalation.</li>
                     </ul>
 
-                    <h5>Practical Lifestyle Adjustments</h5>
+                    <h2>Practical Lifestyle Adjustments</h2>
                     <ul class="ingredients-list">
                         <li>Start mornings with meditation or stretching</li>
                         <li>Avoid checking emails late at night</li>
@@ -133,10 +133,10 @@
                         <li>Practice breathing exercises during stress</li>
                     </ul>
 
-                    <h5>How Healthcarebia Supports Burnout Recovery</h5>
+                    <h2>How Healthcarebia Supports Burnout Recovery</h2>
                     <p>At Healthcarebia, we provide IV drip therapies that complement lifestyle changes by supporting burnout recovery, stress and fatigue recovery, and boosting immunity. These treatments help recover from burnout more effectively while reinforcing long-term resilience.</p>
 
-                    <h5>Final Thoughts</h5>
+                    <h2>Final Thoughts</h2>
                     <p>Burnout is not a weakness, it’s a warning signal. By recognizing burnout symptoms early, practicing burnout prevention, and seeking timely support, you can protect your health and thrive at work and in life.</p>
 
                     <p><a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" class="button d-inline">WhatsApp Healthcarebia</a> today to learn how our wellness therapies can support your burnout recovery and help you regain energy, clarity, and balance.</p>

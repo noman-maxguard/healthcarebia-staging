@@ -297,7 +297,7 @@
                 <div class="accordion pt-md-3">
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>1</span>What is a Basic Immunity Check?</h5>
+                            <h3><span>1</span>What is a Basic Immunity Check?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -307,7 +307,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>2</span>Which biomarkers are included in the Basic Immunity Check Dubai panel?</h5>
+                            <h3><span>2</span>Which biomarkers are included in the Basic Immunity Check Dubai panel?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -317,7 +317,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>3</span>Who should consider booking a Basic Immunity Check?</h5>
+                            <h3><span>3</span>Who should consider booking a Basic Immunity Check?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -331,7 +331,7 @@
                 <div class="accordion pt-md-3">
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>4</span>Do I need to fast or prepare in any special way for this test?</h5>
+                            <h3><span>4</span>Do I need to fast or prepare in any special way for this test?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -341,7 +341,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>5</span>How does at home blood sample collection work?</h5>
+                            <h3><span>5</span>How does at home blood sample collection work?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -351,7 +351,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>6</span>How quickly will I receive my Basic Immunity Check results?</h5>
+                            <h3><span>6</span>How quickly will I receive my Basic Immunity Check results?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">

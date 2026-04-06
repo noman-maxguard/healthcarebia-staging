@@ -84,7 +84,7 @@
 
 </div>
 
-<section class="section-gap">
+<section class="section-gap lab-test-pages-child">
 
     <div class="container">
 
@@ -102,7 +102,7 @@
 
                     <div class="mt-4">
                         
-                        <h4>DNA test</h4>
+                        <h2>DNA test</h2>
 
                         <p>Our DNA testing services are designed to provide you with accurate and comprehensive information about your genetics. Whether you're interested in optimizing your nutrition and fitness or uncovering potential health risks. Your health and well-being are our top priorities.</p>
                         
@@ -168,7 +168,7 @@
         <div class="accordion pt-md-3">
           <div class="accordion-box">
             <div class="accordion-item">
-              <h5><span>1</span>What can a DNA health test actually tell me?</h5>
+              <h3><span>1</span>What can a DNA health test actually tell me?</h3>
               <span class="plus-minus"></span>
             </div>
             <div class="data" style="display: none;">
@@ -178,7 +178,7 @@
 
           <div class="accordion-box">
             <div class="accordion-item">
-              <h5><span>2</span>How is the sample collected and how long do results take?</h5>
+              <h3><span>2</span>How is the sample collected and how long do results take?</h3>
               <span class="plus-minus"></span>
             </div>
             <div class="data" style="display: none;">
@@ -188,7 +188,7 @@
 
           <div class="accordion-box">
             <div class="accordion-item">
-              <h5><span>3</span>Do I need to prepare in any way before providing a DNA sample?</h5>
+              <h3><span>3</span>Do I need to prepare in any way before providing a DNA sample?</h3>
               <span class="plus-minus"></span>
             </div>
             <div class="data" style="display: none;">
@@ -203,7 +203,7 @@
         <div class="accordion pt-md-3">
           <div class="accordion-box">
             <div class="accordion-item">
-              <h5><span>4</span>Is DNA testing accurate and is my data private?</h5>
+              <h3><span>4</span>Is DNA testing accurate and is my data private?</h3>
               <span class="plus-minus"></span>
             </div>
             <div class="data" style="display: none;">
@@ -213,7 +213,7 @@
 
           <div class="accordion-box">
             <div class="accordion-item">
-              <h5><span>5</span>Can children take a DNA test and will it affect insurance or employment?</h5>
+              <h3><span>5</span>Can children take a DNA test and will it affect insurance or employment?</h3>
               <span class="plus-minus"></span>
             </div>
             <div class="data" style="display: none;">
@@ -223,7 +223,7 @@
 
           <div class="accordion-box">
             <div class="accordion-item">
-              <h5><span>6</span>Will I need to repeat a DNA test in the future?</h5>
+              <h3><span>6</span>Will I need to repeat a DNA test in the future?</h3>
               <span class="plus-minus"></span>
             </div>
             <div class="data" style="display: none;">

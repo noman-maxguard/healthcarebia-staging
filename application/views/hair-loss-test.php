@@ -158,7 +158,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>1</span>What is the Hair Loss Test?</h5>
+                            <h3><span>1</span>What is the Hair Loss Test?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -168,7 +168,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>2</span>What does the Hair Loss Test usually assess?</h5>
+                            <h3><span>2</span>What does the Hair Loss Test usually assess?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -178,7 +178,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>3</span>Who should consider doing the Hair Loss Test?</h5>
+                            <h3><span>3</span>Who should consider doing the Hair Loss Test?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -194,7 +194,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>4</span>Does this test diagnose the exact cause of my hair loss?</h5>
+                            <h3><span>4</span>Does this test diagnose the exact cause of my hair loss?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -204,7 +204,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>5</span>How is the Hair Loss Test usually carried out?</h5>
+                            <h3><span>5</span>How is the Hair Loss Test usually carried out?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -214,7 +214,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>6</span>What should I do with my Hair Loss Test results?</h5>
+                            <h3><span>6</span>What should I do with my Hair Loss Test results?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">

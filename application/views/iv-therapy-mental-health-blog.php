@@ -67,7 +67,7 @@
     <div class="overlay"></div>
 </section>
 
-<section class="light-bg-color section-gap">
+<section class="light-bg-color section-gap single-blog-page">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9">
@@ -82,12 +82,12 @@
                     <h1>IV Therapy for Mental Health: Can Drips Support Stress, Anxiety, and Mood?</h1>
 
                     <!-- Intro -->
-                    <h5>Mental Health Needs a Whole Body Lens</h5>
+                    <h2>Mental Health Needs a Whole Body Lens</h2>
                     <p>Mental health is as important as physical health. In a fast-paced city like Dubai, long work hours, constant notifications, and performance pressure can build into burnout, poor sleep, and low mood. Many people start with lifestyle changes, counseling, or medication. Alongside these, there is growing interest in supportive options that nourish the body and mind together such as IV therapy at home.</p>
                     <p>At Healthcarebia, we provide DHA-approved IV drips at home in Dubai. These blends are designed to restore energy, improve focus, and help balance mood. Below is a practical guide on how IV therapy may support mental well-being and who it is suitable for.</p>
 
                     <!-- Why the body shapes mental health -->
-                    <h5>Why the Body Shapes Mental Health</h5>
+                    <h2>Why the Body Shapes Mental Health</h2>
                     <p>Stress and mood are influenced by physiology. Deficiencies, dehydration, and weak cellular energy can heighten anxiety and fatigue. Examples include:</p>
                     <ul class="ingredients-list">
                         <li>Magnesium deficiency linked with tension, anxious feelings, and restless sleep.</li>
@@ -98,26 +98,26 @@
                     <p>IV infusion therapy delivers nutrients directly to the bloodstream, bypassing digestion so the brain and nervous system receive what they need more quickly.</p>
 
                     <!-- How IV drips help -->
-                    <h5>How IV Drips May Support Stress and Mood</h5>
+                    <h2>How IV Drips May Support Stress and Mood</h2>
                     <p>Compared with oral supplements, IV vitamin drips offer high bioavailability within a 30–60 minute infusion. Many clients report calmer energy, clearer focus, and better sleep in the hours following an infusion.</p>
 
-                    <h6 style="margin-top:12px;">Magnesium IV Drips</h6>
+                    <h3 style="margin-top:12px;">Magnesium IV Drips</h3>
                     <p>Magnesium helps regulate the body’s stress response and relaxes muscles. Due to diet and chronic stress, many people have low levels, so replenishment may support relaxation and sleep quality.</p>
 
-                    <h6>B-Complex IV Drips</h6>
+                    <h3>B-Complex IV Drips</h3>
                     <p>B6, B9, and B12 support neurotransmitter production and energy metabolism. Balanced levels are associated with steadier mood, improved motivation, and reduced brain fog.</p>
 
-                    <h6>Amino Acid IV Drips</h6>
+                    <h3>Amino Acid IV Drips</h3>
                     <p>Amino acids serve as raw materials for neurotransmitters. Ingredients such as glutamine and tryptophan can support clearer thinking and a more even mood.</p>
 
-                    <h6>NAD+ IV Therapy</h6>
+                    <h3>NAD+ IV Therapy</h3>
                     <p>NAD+ is a coenzyme central to cellular energy and neuronal repair. Lower levels are associated with fatigue and cognitive decline. NAD+ IV therapy is popular among professionals seeking sustained focus and resilience under stress.</p>
 
-                    <h6>Myers Cocktail IV</h6>
+                    <h3>Myers Cocktail IV</h3>
                     <p>A well-known wellness blend combining vitamin C, B-complex, magnesium, and calcium. It is often chosen for overall vitality, immune support, and mental clarity.</p>
 
                     <!-- Benefits -->
-                    <h5>Potential Benefits for Mental Wellness</h5>
+                    <h2>Potential Benefits for Mental Wellness</h2>
                     <ul class="ingredients-list">
                         <li>Quick relief: direct bloodstream delivery can feel faster than oral supplements.</li>
                         <li>Better sleep: magnesium-rich drips may help regulate sleep cycles.</li>
@@ -127,7 +127,7 @@
                     </ul>
 
                     <!-- Home service -->
-                    <h5>How Healthcarebia’s IV Drip Home Service Works</h5>
+                    <h2>How Healthcarebia’s IV Drip Home Service Works</h2>
                     <p>Convenience is a key reason IV therapy has grown in Dubai, no clinic commute or waiting room time. A typical visit looks like this:</p>
                     <ol>
                         <li>Consultation: a licensed nurse or doctor reviews goals and medical history.</li>
@@ -139,7 +139,7 @@
                     <p>Travelers also use the service, for example, a hangover drip after late nights or an immune boost IV before flying.</p>
 
                     <!-- Safety -->
-                    <h5>Safety and Professional Standards</h5>
+                    <h2>Safety and Professional Standards</h2>
                     <p>IV therapy in Dubai is regulated by the Dubai Health Authority (DHA). At Healthcarebia, all infusions are delivered by DHA-licensed nurses with medical oversight. Records can be logged to NABIDH for continuity of care.</p>
                     <p>Beyond drips, we partner with ISO 15189-certified laboratories for:</p>
                     <ul class="tick-list">
@@ -152,7 +152,7 @@
                     <p>This integrated approach keeps the experience safe, discreet, and personalized.</p>
 
                     <!-- Who benefits -->
-                    <h5>Who May Benefit Most</h5>
+                    <h2>Who May Benefit Most</h2>
                     <ul class="ingredients-list">
                         <li>Busy professionals facing sustained deadlines and high stress</li>
                         <li>Students and executives preparing for exams, pitches, or public speaking</li>
@@ -162,12 +162,12 @@
                     </ul>
 
                     <!-- Final thoughts -->
-                    <h5>Final Thoughts</h5>
+                    <h2>Final Thoughts</h2>
                     <p>Mental health and physical health are interconnected. The brain relies on hydration, nutrients, and efficient cellular energy. IV therapy is not a cure for depression or severe anxiety, but it may be a useful adjunct for stress management, mood balance, and mental clarity especially when paired with lifestyle changes and professional care.</p>
                     <p>At Healthcarebia, IV drip therapy, at-home lab tests, and preventive checkups are combined to create tailored programs. From NAD+ IV therapy to the Myers Cocktail, our service brings VIP IV therapy at home in Dubai with a focus on safety and privacy.</p>
 
                     <!-- CTA -->
-                    <h5>Book an At-Home IV in Dubai</h5>
+                    <h2>Book an At-Home IV in Dubai</h2>
                     <p>If you feel drained, stressed, or mentally foggy, our team can help you choose a suitable blend and schedule a visit at your home, office, or hotel.</p>
                     <p><a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" class="button d-inline">WhatsApp Healthcarebia</a> to request a consultation, pricing, and same day availability.</p>
 

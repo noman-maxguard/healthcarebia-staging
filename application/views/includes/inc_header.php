@@ -111,7 +111,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                         <img width="85" height="76" src="<?= base_url() ?>assets/frontend/img/iv-drip-thumb.webp" alt="Healthcarebia">
                                                     </div>
                                                     <div class="text">
-                                                        <h4>IV Drip</h4>
+                                                        <div class="mega-menu-title-heading">IV Drip</div>
                                                         <p>Revitalize with IV therapy in the comfort of home</p>
                                                     </div>
                                                 </div>
@@ -137,7 +137,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                         <img width="85" height="76" src="<?= base_url() ?>assets/frontend/img/wellness-thumb.webp" alt="Healthcarebia">
                                                     </div>
                                                     <div class="text">
-                                                        <h4>Wellness</h4>
+                                                        <div class="mega-menu-title-heading">Wellness</div>
                                                         <p>Elevate your wellness journey right at home</p>
                                                     </div>
                                                 </div>
@@ -165,7 +165,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                         <img width="85" height="76" src="<?= base_url() ?>assets/frontend/img/women-health.webp" alt="Healthcarebia">
                                                     </div>
                                                     <div class="text">
-                                                        <h4>Women's Health</h4>
+                                                        <div class="mega-menu-title-heading">Women's Health</div>
                                                         <p>Convenient Women's Health Screening in the Comfort of Home</p>
                                                     </div>
                                                 </div>
@@ -203,7 +203,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                 <div>
                                                     <div class="img"><img width="85" height="76" src="<?= base_url() ?>assets/frontend/img/mens-health.webp" alt="Healthcarebia"></div>
                                                     <div class="text">
-                                                        <h4>Men's Health</h4>
+                                                        <div class="mega-menu-title-heading">Men's Health</div>
                                                         <p>Proactive Men's Health Screening in the Comfort of Home</p>
                                                     </div>
                                                 </div>
@@ -232,7 +232,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                 src="<?= base_url() ?>assets/frontend/img/functional-tests.webp"
                                                                 alt="Healthcarebia"></div>
                                                     <div class="text">
-                                                        <h4>Common and Functional Tests</h4>
+                                                        <div class="mega-menu-title-heading">Common and Functional Tests</div>
                                                         <p>Unlocking Wellness: Functional Tests at Home</p>
                                                     </div>
                                                 </div>
@@ -267,7 +267,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                 alt="Healthcarebia">
                                                     </div>
                                                     <div class="text">
-                                                        <h4>Intimacy and Wellness</h4>
+                                                        <div class="mega-menu-title-heading">Intimacy and Wellness</div>
                                                         <p>Confidential STD Screening Profile in Your Home</p>
                                                     </div>
                                                 </div>
@@ -287,7 +287,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                 src="<?= base_url() ?>assets/frontend/img/dna-test2.webp"
                                                                 alt="Healthcarebia"></div>
                                                     <div class="text">
-                                                        <h4>DNA Test</h4>
+                                                        <div class="mega-menu-title-heading">DNA Test</div>
                                                         <p>Genetic health insights with DNA test at home</p>
                                                     </div>
                                                 </div>
@@ -306,8 +306,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                 src="<?= base_url() ?>assets/frontend/img/custom-blood-test.webp"
                                                                 alt="Healthcarebia"></div>
                                                     <div class="text">
-                                                        <h4>Custom Blood
-                                                            Test</h4>
+                                                        <div class="mega-menu-title-heading">Custom Blood
+                                                            Test</div>
                                                         <p>Tailored Health Insights: Custom Blood Testing</p>
                                                     </div>
                                                 </div>
@@ -327,7 +327,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                 src="<?= base_url() ?>assets/frontend/img/allergy-food.webp"
                                                                 alt="Healthcarebia"></div>
                                                     <div class="text">
-                                                        <h4>Allergy & Food Intolerance Tests</h4>
+                                                        <div class="mega-menu-title-heading">Allergy & Food Intolerance Tests</div>
                                                         <p>Unlocking Dietary Wellness: Allergy and Intolerance
                                                             Testing</p>
                                                     </div>
@@ -354,7 +354,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                 src="<?= base_url() ?>assets/frontend/img/general-health.webp"
                                                                 alt="Healthcarebia"></div>
                                                     <div class="text">
-                                                        <h4>General Health</h4>
+                                                        <div class="mega-menu-title-heading">General Health</div>
                                                         <p>Promoting Wellness through General Health Testing</p>
                                                     </div>
                                                 </div>

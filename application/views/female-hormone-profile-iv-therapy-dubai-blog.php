@@ -67,7 +67,7 @@
     <div class="overlay"></div>
 </section>
 
-<section class="light-bg-color section-gap">
+<section class="light-bg-color section-gap single-blog-page">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9">
@@ -82,12 +82,12 @@
                     <a href="<?= base_url() ?>female-hormone-profile "><h1>Female Hormone Profile & IV Therapy in Dubai</h1></a>
 
                     <!-- Intro -->
-                    <h5>Hormones Shape a Woman’s Health</h5>
+                    <h2>Hormones Shape a Woman’s Health</h2>
                     <p>Hormones influence mood, fertility, metabolism, and energy production. When they drift out of balance, women may notice fatigue, weight changes, skin issues, or irregular cycles. A female hormone profile is a simple blood test that detects these issues early and pairs well with IV therapy Dubai for energy and recovery.</p>
                     <p>Healthcarebia makes care convenient with lab test at home Dubai, wellness programs, and IV infusion therapy. Paired with targeted IV drip in Dubai and genetic testing, women gain better control over energy, skin, and long-term health.</p>
 
                     <!-- What is a Female Hormone Profile -->
-                    <h5>What Is a Female Hormone Profile?</h5>
+                    <h2>What Is a Female Hormone Profile?</h2>
                     <p>A comprehensive panel measuring estrogen, progesterone, thyroid hormones, and cortisol. These regulate reproduction, metabolism, and mood; imbalance can drive chronic fatigue, cycle symptoms, and other health conditions.</p>
                     <ul class="ingredients-list">
                         <li><strong>Private & quick:</strong> lab test at home Dubai collection with discreet results.</li>
@@ -95,7 +95,7 @@
                     </ul>
 
                     <!-- Why hormones matter -->
-                    <h5>Why Hormones Matter</h5>
+                    <h2>Why Hormones Matter</h2>
                     <ul class="ingredients-list">
                         <li><strong>Reproductive health:</strong> balanced hormones regulate cycles, ovulation, and pregnancy.</li>
                         <li><strong>Mental health:</strong> affect stress response, memory, and mood balance.</li>
@@ -104,7 +104,7 @@
                     </ul>
 
                     <!-- IV therapy & hormonal support -->
-                    <h5>IV Therapy & Hormonal Support</h5>
+                    <h2>IV Therapy & Hormonal Support</h2>
                     <p>After testing comes support. IV infusion therapy Dubai delivers vitamin and mineral blends directly to the bloodstream, bypassing digestion for faster nutrient absorption and increased energy—available as IV drip therapy or IV therapy at home.</p>
 
                     <table>
@@ -121,28 +121,28 @@
                     <p>Women use iv vitamin therapy to boost immune supporting functions and feel a sustained lift in energy.</p>
 
                     <!-- Vitamin & Mineral Support -->
-                    <h5>Vitamin & Mineral Support</h5>
+                    <h2>Vitamin & Mineral Support</h2>
                     <p>A vitamin cocktail IV blends complex vitamins and minerals to restore nutrient absorption and assist metabolism. A vitamin IV drip session—often chosen as a IV vitamin drip Dubai service—can reduce chronic fatigue and brighten the skin.</p>
 
 
                     <!-- Myers -->
-                    <a href=""><h5>Myers Cocktail IV</h5></a>
+                    <a href=""><h2>Myers Cocktail IV</h2></a>
                     <p>The myers cocktail iv (magnesium, vitamin C, B-vitamins) is among the best iv drip choices for all-round support. Many women book a myers iv drip to increase energy and immune function.</p>
 
                     <!-- Glutathione -->
-                    <h5>Antioxidant Drip </h5>
+                    <h2>Antioxidant Drip </h2>
                     <p>The Antioxidant iv drip counters oxidative stress from free radicals, promoting clarity and radiance. Some opt for injection or a whitening injection as part of cosmetic wellness goals.</p>
 
                     <!-- NAD -->
-                    <a href="<?= base_url() ?>nad-iv-drip"><h5>NAD<sup>+</sup> Energy Therapy</h5></a>
+                    <a href="<?= base_url() ?>nad-iv-drip"><h2>NAD<sup>+</sup> Energy Therapy</h2></a>
                     <p>Nad iv therapy (offered as nad+ iv therapy, nad iv drip, or nad iv) supports cellular energy, repair, and focus—helpful for low-energy states.</p>
 
                     <!-- Immune -->
-                    <a href="<?= base_url() ?>immune-iv-drip"><h5>Immune-Boosting Options</h5></a>
+                    <a href="<?= base_url() ?>immune-iv-drip"><h2>Immune-Boosting Options</h2></a>
                     <p>An immune boost iv drip provides immune supporting nutrients and is often chosen as the best immune boost iv drip in Dubai for quick recovery. Both iv therapy to boost immune system and an iv drip to boost immune system help restore resilience during stress.</p>
 
                     <!-- At-home -->
-                    <h5>At-Home IV Services in Dubai</h5>
+                    <h2>At-Home IV Services in Dubai</h2>
                     <p>With iv drip home service in dubai, care comes to you—quietly and comfortably.</p>
                     <ul class="tick-list">
                         <li><strong>Hangover drip dubai:</strong> rapid recovery for busy schedules.</li>
@@ -153,7 +153,7 @@
                     <p>Healthcarebia also offers vip home healthcare in Dubai, including dna paternity test in Dubai, std panel test, and blood test at home.</p>
 
                     <!-- DNA & genetics -->
-                    <h5>DNA & Genetic Insights</h5>
+                    <h2>DNA & Genetic Insights</h2>
                     <p>Hormones are only one piece. Genetics guide how your body handles nutrition and lifestyle. With a DNA test Dubai (or DNA test UAE) and comprehensive DNA health testing, you can tailor your IV plan to your biology.</p>
 
                     <ul class="ingredients-list">
@@ -163,11 +163,11 @@
                     </ul>
 
                     <!-- Pricing -->
-                    <h5>How Much Does an IV Drip Cost in Dubai?</h5>
+                    <h2>How Much Does an IV Drip Cost in Dubai?</h2>
                     <p>The <strong>IV drip Dubai price</strong> depends on the infusion type and goals. A basic <strong>IV vitamin drip</strong> is most affordable, while advanced options—<strong>premium IV drip Dubai</strong>, <strong>VIP IV therapy at home</strong>, or <strong>NAD IV therapy</strong>—cost more. Pricing also varies by medical condition and history. Healthcarebia is transparent and trusted for comprehensive, safe <strong>IV drip therapy</strong>—often rated among the <strong>best IV drip Dubai</strong> services.</p>
 
                     <!-- Conclusion -->
-                    <h5>Conclusion</h5>
+                    <h2>Conclusion</h2>
                     <p>A female hormone profile reveals what your body needs. Paired with iv infusion therapy at home and targeted iv vitamin therapy, it builds a strong foundation for energy, skin, and mood.</p>
                     <ul class="ingredients-list">
                         <li>Goals can include weight balance, fighting free radicals, or restoring energy production.</li>
@@ -175,7 +175,7 @@
                     </ul>
 
                     <!-- Booking -->
-                    <h5>Book Your Test & Drip—In 3 Steps</h5>
+                    <h2>Book Your Test & Drip—In 3 Steps</h2>
                     <ol>
                         <li>WhatsApp <a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">+971-54-707-7476</a> with your location and preferred time.</li>
                         <li>DHA-licensed nurse arrives for blood draw and/or IV; results and notes are NABIDH-ready. We offer lab test at home in Dubai and blood test at home services.</li>
@@ -184,7 +184,7 @@
                     </ol>
 
                     <!-- CTA -->
-                    <h5>Ready to Start?</h5>
+                    <h2>Ready to Start?</h2>
                     <p>Book your female hormone profile today. Let Healthcarebia guide your health journey with advanced iv drip in Dubai, plus add-ons like DNA test Dubai, food intolerance test Dubai, and blood test at home.</p>
 
                     <p><a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" class="button d-inline">WhatsApp Healthcarebia</a> to schedule your panel and personalised IV plan.</p>

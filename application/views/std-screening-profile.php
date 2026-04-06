@@ -100,7 +100,7 @@
 
 </section>
 
-<section class="section-gap">
+<section class="section-gap lab-test-pages-child">
 
     <div class="container">
 
@@ -112,7 +112,7 @@
 
                 <div class="inner-page-right">
 
-                    <div class="mt-4"><h4>What is STD</h4>
+                    <div class="mt-4"><h2>What is STD</h2>
 
                         <p>STD stands for Sexually Transmitted Disease. It refers to infections that are primarily
 
@@ -122,7 +122,7 @@
 
                             crucial. If you suspect that you may have STD, contact our STD testing team today in
 
-                            confidence.</p>                    <h6>Benefits of STD Test</h6>
+                            confidence.</p>                    <h3>Benefits of STD Test</h3>
 
                         <ul class="listing-item">
 
@@ -205,9 +205,9 @@
 
                                     <div class="col-md-4">
 
-                                        <div class="std-listing card-style3 same mb-3"><h5>STD 7 Panel</h5>
+                                        <div class="std-listing card-style3 same mb-3"><h3>STD 7 Panel</h3>
 
-                                            <h6>AED 350</h6>
+                                            <h4>AED 350</h4>
 
                                             <ul class="commen-listing">
 
@@ -233,9 +233,9 @@
 
                                     <div class="col-md-4">
 
-                                        <div class="std-listing card-style3 same mb-3"><h5>STD 14 Panel</h5>
+                                        <div class="std-listing card-style3 same mb-3"><h3>STD 14 Panel</h3>
 
-                                            <h6>AED 900</h6>
+                                            <h4>AED 900</h4>
 
                                             <ul class="commen-listing">
 
@@ -273,9 +273,9 @@
 
                                     <div class="col-md-4">
 
-                                        <div class="std-listing card-style3 same mb-3"><h5>STD 17 Panel</h5>
+                                        <div class="std-listing card-style3 same mb-3"><h3>STD 17 Panel</h3>
 
-                                            <h6>AED 700</h6>
+                                            <h4>AED 700</h4>
 
                                             <ul class="commen-listing">
 
@@ -319,13 +319,13 @@
 
                                     </div>
 
-                                    <!-- <div class="col-md-4">							<div class="std-listing card-style3 same mb-3">								<h5>STD 17</h5>								<ul class="commen-listing">									<li>Chlamydia Trachomatis</li>									<li>Neisseria Gonorrhoeae</li>									<li>Trichomonas Vaginalis</li>									<li>Mycoplasma Hominis</li>									<li>Mycoplasma Genitalium</li>									<li>Ureaplasma Urealyticum</li>									<li>Ureaplasma Parvum</li>									<li>Candida Albicans</li>									<li>Haemophilus Ducreyi</li>									<li>Treponema Pallidum</li>									<li>Herpes Simplex Virus 1</li>									<li>Herpes Simplex Virus 2</li>									<li>Gardnerella Vaginalis</li>									<li>Candida Glabrata</li>									<li>Candida Krusei</li>									<li>Candida Parapsilosis</li>									<li>Candida Tropicans</li>								</ul>							</div>												</div> -->
+                                    <!-- <div class="col-md-4">							<div class="std-listing card-style3 same mb-3">								<h3>STD 17</h3>								<ul class="commen-listing">									<li>Chlamydia Trachomatis</li>									<li>Neisseria Gonorrhoeae</li>									<li>Trichomonas Vaginalis</li>									<li>Mycoplasma Hominis</li>									<li>Mycoplasma Genitalium</li>									<li>Ureaplasma Urealyticum</li>									<li>Ureaplasma Parvum</li>									<li>Candida Albicans</li>									<li>Haemophilus Ducreyi</li>									<li>Treponema Pallidum</li>									<li>Herpes Simplex Virus 1</li>									<li>Herpes Simplex Virus 2</li>									<li>Gardnerella Vaginalis</li>									<li>Candida Glabrata</li>									<li>Candida Krusei</li>									<li>Candida Parapsilosis</li>									<li>Candida Tropicans</li>								</ul>							</div>												</div> -->
 
                                     <div class="col-md-4">
 
-                                        <div class="std-listing card-style3 same mb-3"><h5>STD 21 Panel</h5>
+                                        <div class="std-listing card-style3 same mb-3"><h3>STD 21 Panel</h3>
 
-                                            <h6>AED 1,250</h6>
+                                            <h4>AED 1,250</h4>
 
                                             <ul class="commen-listing">
 
@@ -379,9 +379,9 @@
 
                                     <div class="col-md-4">
 
-                                        <div class="std-listing card-style3 same mb-3"><h5>STD 28 Panel</h5>
+                                        <div class="std-listing card-style3 same mb-3"><h3>STD 28 Panel</h3>
 
-                                            <h6>AED 2000</h6>
+                                            <h4>AED 2000</h4>
 
                                             <ul class="commen-listing">
 
@@ -449,9 +449,9 @@
 
                                     <div class="col-md-4">
 
-                                        <div class="std-listing card-style3 same mb-3"><h5>STD 32 Panel</h5>
+                                        <div class="std-listing card-style3 same mb-3"><h3>STD 32 Panel</h3>
 
-                                            <h6>AED 2400</h6>
+                                            <h4>AED 2400</h4>
 
                                             <ul class="commen-listing">
 
@@ -629,7 +629,7 @@
                 <div class="accordion pt-md-3">
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>1</span>What is an STD?</h5>
+                            <h3><span>1</span>What is an STD?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -639,7 +639,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>2</span>What is an STD test and what does it check for?</h5>
+                            <h3><span>2</span>What is an STD test and what does it check for?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -649,7 +649,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>3</span>Who should consider getting an STD test?</h5>
+                            <h3><span>3</span>Who should consider getting an STD test?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -663,7 +663,7 @@
                 <div class="accordion pt-md-3">
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>4</span>Is STD testing confidential with Healthcarebia?</h5>
+                            <h3><span>4</span>Is STD testing confidential with Healthcarebia?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -673,7 +673,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>5</span>How is an STD test done and is it painful?</h5>
+                            <h3><span>5</span>How is an STD test done and is it painful?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -683,7 +683,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>6</span>What happens after I get my STD test results?</h5>
+                            <h3><span>6</span>What happens after I get my STD test results?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">

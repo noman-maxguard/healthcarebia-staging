@@ -364,7 +364,7 @@
 
             <div class="col-md-12 text-center mb-3">
 
-                <h5>Benefits of NAD+ IV Drip</h5>
+                <h3>Benefits of NAD+ IV Drip</h3>
 
             </div>
 
@@ -577,7 +577,7 @@
 
 
 
-                            <h5><span>1</span>How long does an NAD+ IV drip session typically last?</h5>
+                            <h3><span>1</span>How long does an NAD+ IV drip session typically last?</h3>
 
 
 
@@ -633,7 +633,7 @@
 
 
 
-                            <h5><span>2</span>How does NAD+ IV therapy differ from oral NAD+ supplements?</h5>
+                            <h3><span>2</span>How does NAD+ IV therapy differ from oral NAD+ supplements?</h3>
 
 
 
@@ -691,7 +691,7 @@
 
 
 
-                            <h5><span>3</span>How does NAD+ IV therapy work in the body?</h5>
+                            <h3><span>3</span>How does NAD+ IV therapy work in the body?</h3>
 
 
 
@@ -751,7 +751,7 @@
 
 
 
-                            <h5><span>4</span>How often should I receive NAD+ IV drip therapy?</h5>
+                            <h3><span>4</span>How often should I receive NAD+ IV drip therapy?</h3>
 
 
 
@@ -794,7 +794,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>5</span>Who is an ideal candidate for NAD+ IV drip therapy?</h5>
+                            <h3><span>5</span>Who is an ideal candidate for NAD+ IV drip therapy?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -838,7 +838,7 @@
 
 
 
-                            <h5><span>6</span>How long do the effects of NAD+ IV therapy last?</h5>
+                            <h3><span>6</span>How long do the effects of NAD+ IV therapy last?</h3>
 
 
 
@@ -896,7 +896,7 @@
 
 
 
-                            <h5><span>7</span>How does NAD+ IV therapy compare to other IV drip treatments?</h5>
+                            <h3><span>7</span>How does NAD+ IV therapy compare to other IV drip treatments?</h3>
 
 
 
@@ -954,7 +954,7 @@
 
 
 
-                            <h5><span>8</span>How soon will I feel the effects of NAD+ IV therapy?</h5>
+                            <h3><span>8</span>How soon will I feel the effects of NAD+ IV therapy?</h3>
 
 
 
@@ -998,7 +998,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>9</span> Is NAD+ IV therapy effective for anti-aging?</h5>
+                            <h3><span>9</span> Is NAD+ IV therapy effective for anti-aging?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -1007,7 +1007,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>10</span>Can NAD+ IV therapy help with mental clarity and focus?</h5>
+                            <h3><span>10</span>Can NAD+ IV therapy help with mental clarity and focus?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">

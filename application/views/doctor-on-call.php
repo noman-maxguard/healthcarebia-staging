@@ -301,7 +301,7 @@
 
                     personalized care, prompt attention, and peace of mind for your healthcare needs. </p></div>
 
-            <div class="col-md-12 text-center mb-3"><h5>Benefits of Doctor on Call Service</h5></div>
+            <div class="col-md-12 text-center mb-3"><h3>Benefits of Doctor on Call Service</h3></div>
 
             <div class="col-6 col-md-4 mb-3">
 
@@ -445,9 +445,9 @@
 
                 <div class="team-block same"><img src="<?= base_url() ?>assets/frontend/img/doctor-icon.svg" width="150" height="150" alt="Doctor on Call Dubai Team1">
 
-                    <h4>Dr. Gbemisola</h4>
+                    <h3>Dr. Gbemisola</h3>
 
-                    <h6>General Practitioner</h6>
+                    <h4>General Practitioner</h4>
 
                     <p>With experience in homecare and hospital emergency settings, Dr. Adewale possesses expertise in
 
@@ -463,9 +463,9 @@
 
                 <div class="team-block same"><img src="<?= base_url() ?>assets/frontend/img/nurse-icon.svg" width="150" height="150" alt="Doctor on Call Dubai Team2">
 
-                    <h4>Ms. Ivy </h4>
+                    <h3>Ms. Ivy </h3>
 
-                    <h6>DHA Registered Nurse</h6>
+                    <h4>DHA Registered Nurse</h4>
 
                     <p>With 11 years of delivering compassionate care, Ivy is a proud and knowledgeable member of our
 
@@ -479,9 +479,9 @@
 
                 <div class="team-block same"><img src="<?= base_url() ?>assets/frontend/img/nurse-icon.svg" width="150" height="150" alt="Doctor on Call Dubai Team3">
 
-                    <h4>Ms. Erica</h4>
+                    <h3>Ms. Erica</h3>
 
-                    <h6>DHA Registered Nurse</h6>
+                    <h4>DHA Registered Nurse</h4>
 
                     <p>Erica is an experienced nurse with 14 years of expertise in various healthcare settings. Her
 
@@ -495,9 +495,9 @@
 
                 <div class="team-block same"><img src="<?= base_url() ?>assets/frontend/img/nurse-icon.svg" width="150" height="150" alt="Doctor on Call Dubai Team4">
 
-                    <h4>Ms Betty</h4>
+                    <h3>Ms Betty</h3>
 
-                    <h6>DHA Registered Nurse</h6>
+                    <h4>DHA Registered Nurse</h4>
 
                     <p>Betty is our experienced nurse with 4 years of international work experience. Her helpful nature,
 
@@ -525,7 +525,7 @@
 
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>1</span>How can I schedule a call with doctor? </h5>
+                        <div class="accordion-item"><h3><span>1</span>How can I schedule a call with doctor? </h3>
 
                             <span class="plus-minus"></span></div>
 
@@ -539,7 +539,7 @@
 
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>2</span>What conditions can be treated by a doctor on call?</h5>                                    <span class="plus-minus"></span></div>
+                        <div class="accordion-item"><h3><span>2</span>What conditions can be treated by a doctor on call?</h3>                                    <span class="plus-minus"></span></div>
 
                         <div class="data"><p>A doctor on call can treat a wide range of conditions, including common
 
@@ -549,9 +549,9 @@
 
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>3</span>Is a doctor on call covered by insurance?
+                        <div class="accordion-item"><h3><span>3</span>Is a doctor on call covered by insurance?
 
-                            </h5>                                    <span class="plus-minus"></span></div>
+                            </h3>                                    <span class="plus-minus"></span></div>
 
                         <div class="data"><p>Healthcarebia does not currently accept insurance plans. Patients will be
 
@@ -569,9 +569,9 @@
 
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>4</span>How long does a typical doctor on call last?
+                        <div class="accordion-item"><h3><span>4</span>How long does a typical doctor on call last?
 
-                            </h5>                                            <span class="plus-minus"></span></div>
+                            </h3>                                            <span class="plus-minus"></span></div>
 
                         <div class="data" style="display: none;"><p>The duration of a call can vary
 
@@ -581,9 +581,9 @@
 
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>5</span>Can a doctor on call provide emergency medical
+                        <div class="accordion-item"><h3><span>5</span>Can a doctor on call provide emergency medical
 
-                                care?</h5>                                            <span class="plus-minus"></span>
+                                care?</h3>                                            <span class="plus-minus"></span>
 
                         </div>
 
@@ -593,9 +593,9 @@
 
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>6</span>Is doctor on call available during
+                        <div class="accordion-item"><h3><span>6</span>Is doctor on call available during
 
-                                weekends and holidays?</h5>                                            <span
+                                weekends and holidays?</h3>                                            <span
 
                                     class="plus-minus"></span></div>
 
@@ -633,7 +633,7 @@
 
                         <div class="testimonials-box no-testimonials-box ">
 
-                            <div class="testimonials-text same"><h4>Kettle</h4>
+                            <div class="testimonials-text same"><h3>Kettle</h3>
 
                                 <p>Dr. Gbemisola was knowledgeable, attentive, and took the time to address all my concerns. It was a truly convenient and comfortable healthcare experience.</p></div>
 
@@ -645,7 +645,7 @@
 
                         <div class="testimonials-box no-testimonials-box">
 
-                            <div class="testimonials-text same"><h4>Marwa</h4>
+                            <div class="testimonials-text same"><h3>Marwa</h3>
 
                                 <p>The doctor on call service exceeded my expectations.  Dr. Gbemisola conducted a quick but thorough examination and provided effective treatment options. It's a game-changer for busy people like me.</p></div>
 
@@ -657,7 +657,7 @@
 
                         <div class="testimonials-box no-testimonials-box">
 
-                            <div class="testimonials-text same"><h4>Ansari</h4>
+                            <div class="testimonials-text same"><h3>Ansari</h3>
 
                                 <p>I was amazed by the convenience and professionalism of Healthcarebia's doctor at home
 
@@ -673,7 +673,7 @@
 
                         <div class="testimonials-box no-testimonials-box">
 
-                            <div class="testimonials-text same"><h4>Langdon</h4>
+                            <div class="testimonials-text same"><h3>Langdon</h3>
 
                                 <p>The home doctor service from Healthcarebia was such an ease for my elderly mother.
 

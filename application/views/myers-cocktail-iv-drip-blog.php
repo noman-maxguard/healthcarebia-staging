@@ -60,7 +60,7 @@
     <div class="overlay"></div>
 </section>
 
-<section class="light-bg-color section-gap">
+<section class="light-bg-color section-gap single-blog-page">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9">
@@ -76,10 +76,10 @@
 
                     <p>Feeling fatigued, foggy, or low on energy? You are not alone. Long workdays, frequent travel, and stress can drain the body quickly. When rest, hydration, and coffee are not enough, many people look for treatments that deliver results faster. One of the most reliable options is the Myers Cocktail IV drip, a supervised infusion of vitamins and minerals that you can receive at home. With <b>at-home iv therapy</b>, a registered nurse comes to your location so you can restore energy and balance without visiting a clinic.</p>
 
-                    <h5>What is the Myers Cocktail IV Drip?</h5>
+                    <h2>What is the Myers Cocktail IV Drip?</h2>
                     <p>First created by Dr. John Myers, this treatment combines multiple <b>essential nutrients</b> into one infusion. Unlike single-nutrient drips, the Myers formula contains a mix of <b>complex vitamins</b> and minerals designed to support energy, immunity, and overall health. Many clients turn to this <b>iv drip therapy</b> when they feel depleted by heavy workloads, jet lag, or high stress. It is a leading option for people who want an effective, time-saving vitamin drip that works quickly.</p>
 
-                    <h5>What is inside the drip?</h5>
+                    <h2>What is inside the drip?</h2>
                     <ul class="ingredients-list">
                         <li><b>Vitamin C</b> – supports immunity boosting and cell protection</li>
                         <li><b>Vitamin B12</b> – improves mental clarity and boosts energy</li>
@@ -89,11 +89,11 @@
                     </ul>
                     <p>All <b>vitamins and nutrients</b> are delivered directly into your bloodstream under the supervision of a <b>registered nurse</b>. This ensures maximum absorption and steady results.</p>
 
-                    <h5>How does it work?</h5>
+                    <h2>How does it work?</h2>
                     <p><b>IV therapy services</b> allow you to receive iv fluids and nutrients directly into the bloodstream, bypassing digestion. This makes it more effective than relying only on <b>oral supplements</b>. Clients often notice improved hydration, focus, and energy production soon after treatment.</p>
                     <p>The Myers Cocktail is not a medical cure, but it can fill nutritional gaps, restore balance, and provide noticeable <b>health benefits</b>. Many clients report feeling revitalized, with more focus and reduced fatigue.</p>
 
-                    <h5>Why choose healthcarebia?</h5>
+                    <h2>Why choose healthcarebia?</h2>
                     <p>healthcarebia provides a trusted <b>iv drip home service</b> with a focus on safety, comfort, and professional care. Appointments are available every day, and a <b>registered nurse</b> will visit your home, office, or hotel.</p>
                     <ul class="tick-list">
                         <li>Every infusion is performed by licensed nurses</li>
@@ -102,7 +102,7 @@
                         <li>Professional standards with the convenience of <b>mobile iv drip</b> services</li>
                     </ul>
 
-                    <h5>Who benefits from the Myers Cocktail?</h5>
+                    <h2>Who benefits from the Myers Cocktail?</h2>
                     <ul class="ingredients-list">
                         <li>Feel fatigued or stressed</li>
                         <li>Need better focus and mental clarity during demanding work</li>
@@ -112,7 +112,7 @@
                     </ul>
                     <p>If you are pregnant, dealing with health issues, or taking prescription medication, always consult your doctor before booking an IV session.</p>
 
-                    <h5>What to expect during an at-home session</h5>
+                    <h2>What to expect during an at-home session</h2>
                     <ol>
                         <li>Check-in. The nurse reviews your health history and goals.</li>
                         <li>Setup. A sterile space is prepared.</li>
@@ -122,20 +122,20 @@
                     </ol>
                     <p>Most clients feel refreshed within hours, while others notice improvements over the next 24–48 hours.</p>
 
-                    <h5>Safety, side effects, and frequency</h5>
+                    <h2>Safety, side effects, and frequency</h2>
                     <p>The Myers Cocktail is considered safe when administered by a <b>registered nurse</b>. Side effects are rare and usually limited to mild discomfort at the IV site or a cool sensation in the arm.</p>
                     <p>Frequency depends on personal goals. Some clients book weekly treatments for a short period, others schedule monthly maintenance, and some only use it during travel or high stress. A provider will recommend the best plan for you.</p>
 
-                    <h5>IV therapy vs. oral supplements</h5>
+                    <h2>IV therapy vs. oral supplements</h2>
                     <p>While <b>oral supplements</b> can support health, they must pass through digestion before reaching the bloodstream. With IV delivery, nutrients bypass this process for faster and more complete absorption. Many clients continue daily supplements but add the Myers Cocktail IV drip for targeted support.</p>
 
-                    <h5>Why at-home therapy fits modern life</h5>
+                    <h2>Why at-home therapy fits modern life</h2>
                     <p>Fast-paced lifestyles leave little time for clinic visits. <b>Mobile iv therapy</b> solves this problem by bringing treatment to your location. A nurse home visit means you can keep working, resting, or spending time with family during the infusion. If you are looking for an iv drip for energy or comparing iv drip clinic options, an at-home service offers the same professional standards with far greater convenience.</p>
 
-                    <h5>Booking is easy</h5>
+                    <h2>Booking is easy</h2>
                     <p>You can book your session through healthcarebia’s <a href="<?= $whatsappHref ?>">WhatsApp</a> link or by phone. A <b>registered nurse</b> will arrive at your chosen location with your prepared Myers Cocktail IV drip.</p>
 
-                    <h5>Tips for the best results</h5>
+                    <h2>Tips for the best results</h2>
                     <ul class="ingredients-list">
                         <li>Drink water before and after your drip</li>
                         <li>Eat a light snack ahead of time</li>
@@ -144,10 +144,10 @@
                         <li>Track your focus, sleep, and energy afterward</li>
                     </ul>
 
-                    <h5>The bottom line</h5>
+                    <h2>The bottom line</h2>
                     <p>From fatigue to focus, the Myers Cocktail IV drip is a proven way to restore balance and improve wellness. With healthcarebia’s <b>at-home iv therapy</b> and <b>mobile iv drip</b> service, you receive professional <b>iv vitamin therapy</b> under the care of a licensed nurse—without leaving your home. This treatment provides hydration, essential nutrients, and steady energy support, making it a practical choice for anyone seeking better health and performance.</p>
 
-                    <h5>Ready to Recharge?</h5>
+                    <h2>Ready to Recharge?</h2>
                     <p><b>Book your Myers Cocktail IV drip today and experience the difference.</b><br>
                     healthcarebia’s <b>registered nurses</b> are available seven days a week—at home, in your office, or in your hotel.
                     <a href="<?= $whatsappHref ?>" class="my-3">Click here to book now via WhatsApp</a></p>

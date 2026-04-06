@@ -176,7 +176,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>1</span>What is the Psoriasis Investigation Test?</h5>
+                            <h3><span>1</span>What is the Psoriasis Investigation Test?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -186,7 +186,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>2</span>What does the Psoriasis Investigation Test usually assess?</h5>
+                            <h3><span>2</span>What does the Psoriasis Investigation Test usually assess?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -196,7 +196,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>3</span>Who might consider doing the Psoriasis Investigation Test?</h5>
+                            <h3><span>3</span>Who might consider doing the Psoriasis Investigation Test?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -212,7 +212,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>4</span>Does this test diagnose psoriasis or explain exactly why I have it?</h5>
+                            <h3><span>4</span>Does this test diagnose psoriasis or explain exactly why I have it?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -222,7 +222,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>5</span>How is the Psoriasis Investigation Test usually carried out?</h5>
+                            <h3><span>5</span>How is the Psoriasis Investigation Test usually carried out?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -232,7 +232,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>6</span>When will I receive my results and how should I use them?</h5>
+                            <h3><span>6</span>When will I receive my results and how should I use them?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">

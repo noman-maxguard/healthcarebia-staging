@@ -272,7 +272,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>1</span>What is an Acne Investigation test?</h5>
+                            <h3><span>1</span>What is an Acne Investigation test?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -282,7 +282,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>2</span>Which biomarkers are usually included in the Acne Investigation Dubai panel?</h5>
+                            <h3><span>2</span>Which biomarkers are usually included in the Acne Investigation Dubai panel?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -292,7 +292,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>3</span>Who should consider doing an Acne Investigation test?</h5>
+                            <h3><span>3</span>Who should consider doing an Acne Investigation test?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -308,7 +308,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>4</span>Do I need to fast or prepare in a special way before the Acne Investigation Dubai test?</h5>
+                            <h3><span>4</span>Do I need to fast or prepare in a special way before the Acne Investigation Dubai test?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -318,7 +318,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>5</span>How does at home blood sample collection work for the Acne Investigation profile?</h5>
+                            <h3><span>5</span>How does at home blood sample collection work for the Acne Investigation profile?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -328,7 +328,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>6</span>Can this test by itself treat or cure acne and how are results used?</h5>
+                            <h3><span>6</span>Can this test by itself treat or cure acne and how are results used?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">

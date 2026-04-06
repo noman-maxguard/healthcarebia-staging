@@ -91,7 +91,7 @@
 
         <div class="row justify-content-center">
 
-            <div class="col-lg-10 text-center about-pra"><h4 class="mb-0">About</h4>
+            <div class="col-lg-10 text-center about-pra"><h2 class="mb-0 sub-heading">About</h2>
 
                 <h2 class="text-center">Healthcarebia</h2>
 
@@ -112,7 +112,7 @@
 
                             <div class="counter-box"><span class="counter" data-TargetNum="1" data-Speed="1000">1</span><i>K+</i>
 
-                                <h6>Happy Clients</h6></div>
+                                <h3>Happy Clients</h3></div>
 
                         </div>
 
@@ -126,7 +126,7 @@
 
                             <div class="counter-box"><span class="counter" data-TargetNum="10"
 
-                                                           data-Speed="1000">10</span><i>+</i> <h6>Professionals</h6>
+                                                           data-Speed="1000">10</span><i>+</i> <h3>Professionals</h3>
 
                             </div>
 
@@ -142,7 +142,7 @@
 
                             <div class="counter-box"><span class="counter" data-TargetNum="100"
 
-                                                           data-Speed="1000">100</span><i>%</i> <h6>Satisfaction</h6>
+                                                           data-Speed="1000">100</span><i>%</i> <h3>Satisfaction</h3>
 
                             </div>
 
@@ -158,9 +158,9 @@
 
                             <div class="counter-box"><span class="counter" data-TargetNum="100"
 
-                                                           data-Speed="1000">100</span><i>%</i> <h6>DHA Certified
+                                                           data-Speed="1000">100</span><i>%</i> <h3>DHA Certified
 
-                                    Team</h6></div>
+                                    Team</h3></div>
 
                         </div>
 
@@ -180,7 +180,7 @@
 
                             <div class="vision-img"><img src="<?= base_url() ?>assets/frontend/img/vision.svg" alt="Healthcare Vision" class="img-fluid" width="60" height="60"></div>
 
-                            <div><h5>Vision</h5>
+                            <div><h3>Vision</h3>
 
                                 <p>Personalized care, delivered with heart. Bringing bespoke home healthcare to your
 
@@ -196,7 +196,7 @@
 
                             <div class="vision-img"><img src="<?= base_url() ?>assets/frontend/img/mission.svg" alt="Healthcare Mission" class="img-fluid" width="60" height="60"></div>
 
-                            <div><h5>Mission</h5>
+                            <div><h3>Mission</h3>
 
                                 <p>Our mission is to uphold human and ethical values, delivering quality healthcare. We
 
@@ -217,7 +217,7 @@
                     <div class="col-md-7 mb-3 mb-sm-0">
                         <div class="card-style5 card-style6 same-height d-flex flex-column align-items-center justify-content-center" style="margin-bottom:0;padding-bottom:0;">
                             <div>
-                                <h5>Medical Services</h5>
+                                <h3>Medical Services</h3>
                                 <ul class="listing-item2 d-flex flex-column align-items-start justify-content-center gap-3 mt-3">
                                     <li>IV Drip Therapy & Supplementation</li>
                                     <li>Home Based Nurse & Teleconsultation</li>
@@ -247,7 +247,7 @@
                     <div class="col-md-7 mb-3 mb-sm-0">
                         <div class="card-style5 card-style6 same-height d-flex flex-column align-items-center justify-content-center">
                             <div>
-                                <h5>Wellness & Lifestyle Therapies</h5>
+                                <h3>Wellness & Lifestyle Therapies</h3>
                                 <ul class="listing-item2 d-flex flex-column align-items-start justify-content-center gap-3 mt-3">
                                     <li>Oxygen Therapy</li>
                                     <li>LED Facial Light Therapy</li>
@@ -272,7 +272,7 @@
                     </div>
 
                     <div>
-                        <h5>Our Philosophy</h5>
+                        <h3>Our Philosophy</h3>
                         <p>We believe that healing begins with comfort, trust, and personalization. Our model is built on three core pillars. Clinical Integrity, with every service administered by DHA licensed professionals; Client Centric Care, where every detail is tailored for safety, convenience, and peace of mind; and Holistic Healing, addressing not only physical health, but also mental clarity and emotional wellbeing.
                         </p>
                     </div>
@@ -289,7 +289,7 @@
                     </div>
 
                     <div>
-                        <h5>Where We Operate</h5>
+                        <h3>Where We Operate</h3>
                         <p>Healthcarebia delivers in home and on site services across Dubai and the UAE. Whether at a private residence, hotel, yacht, or corporate suite we bring care where you are.
                         </p>
                     </div>

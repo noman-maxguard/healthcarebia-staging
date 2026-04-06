@@ -161,9 +161,9 @@
 
                     solution to replenish your body's nutrients and hydration levels. Our at-home service ensures
 
-                    you can recover in the comfort of your own space.</p>            <h5 class="mt-4">Hangover IV
-
-                    Therapy at Home</h5>
+                    you can recover in the comfort of your own space.</p>            
+                    
+                    <h3 class="mt-4">Hangover IV Therapy at Home</h3>
 
                     <p>Receive expert care and treatment for hangovers in the convenience of your home. Our skilled
 
@@ -187,7 +187,7 @@
 
 </section>
 
-<section class="section-gap what-therapy-bg light-green">
+<section class="section-gap what-therapy-bg light-green hangover-iv-drip-symptoms">
 
     <div class="container">
 
@@ -195,7 +195,7 @@
 
             <div class="col-md-6 mb-4">
 
-                <div class="card-style3 text-center same"><h4>Symptoms of Hangover</h4>
+                <div class="card-style3 text-center same"><h3>Symptoms of Hangover</h3>
 
                     <div class="row mt-4">
 
@@ -205,7 +205,7 @@
                                 
                                 <img src="<?= base_url() ?>assets/frontend/img/headache.svg" width="60" height="55"alt="Post Party IV Drip Dubai Icon1" loading="lazy">
 
-                                <h6>Headache</h6></div>
+                                <h4>Headache</h4></div>
 
                         </div>
 
@@ -213,7 +213,7 @@
 
                             <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/nausea.svg" width="60" height="55"alt="Post Party IV Drip Dubai Icon2" loading="lazy">
 
-                                <h6>Nausea</h6></div>
+                                <h4>Nausea</h4></div>
 
                         </div>
 
@@ -221,7 +221,7 @@
 
                             <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/fatigue.svg" width="60" height="55"alt="Post Party IV Drip Dubai Icon3" loading="lazy">
 
-                                <h6>Fatigue</h6></div>
+                                <h4>Fatigue</h4></div>
 
                         </div>
 
@@ -229,7 +229,7 @@
 
                             <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/dehydration.svg" width="60" height="55"alt="Post Party IV Drip Dubai Icon4" loading="lazy">
 
-                                <h6>Dehydration</h6></div>
+                                <h4>Dehydration</h4></div>
 
                         </div>
 
@@ -237,7 +237,7 @@
 
                             <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/dizziness.svg" width="60" height="55"alt="Post Party IV Drip Dubai Icon5" loading="lazy">
 
-                                <h6>Dizziness</h6></div>
+                                <h4>Dizziness</h4></div>
 
                         </div>
 
@@ -245,7 +245,7 @@
 
                             <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/muscle-aches.svg" width="60" height="55"alt="Post Party IV Drip Dubai Icon6" loading="lazy">
 
-                                <h6>Muscle aches</h6></div>
+                                <h4>Muscle aches</h4></div>
 
                         </div>
 
@@ -257,7 +257,7 @@
 
             <div class="col-md-6">
 
-                <div class="card-style3 text-center same"><h4>Benefits of Post Party IV Drip</h4>
+                <div class="card-style3 text-center same"><h3>Benefits of Post Party IV Drip</h3>
 
                     <div class="row mt-4">
 
@@ -265,7 +265,7 @@
 
                             <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/rapid-rehydration.svg" width="60" height="55"alt="Post Party IV Drip Dubai Icon7" loading="lazy">
 
-                                <h6>Rapid rehydration</h6></div>
+                                <h4>Rapid rehydration</h4></div>
 
                         </div>
 
@@ -273,7 +273,7 @@
 
                             <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/headache-nausea.svg" width="60" height="55"alt="Post Party IV Drip Dubai Icon8" loading="lazy">
 
-                                <h6>Alleviation of headache and nausea</h6></div>
+                                <h4>Alleviation of headache and nausea</h4></div>
 
                         </div>
 
@@ -281,7 +281,7 @@
 
                             <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/energy-levels.svg" width="60" height="55"alt="Post Party IV Drip Dubai Icon9" loading="lazy">
 
-                                <h6>Restored energy levels</h6></div>
+                                <h4>Restored energy levels</h4></div>
 
                         </div>
 
@@ -289,7 +289,7 @@
 
                             <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/detoxification.svg" width="60" height="55"alt="Post Party IV Drip Dubai Icon10" loading="lazy">
 
-                                <h6>Detoxification and elimination of toxins</h6></div>
+                                <h4>Detoxification and elimination of toxins</h4></div>
 
                         </div>
 
@@ -297,7 +297,7 @@
 
                             <div class="inner-box-style"><img src="<?= base_url() ?>assets/frontend/img/well-being.svg" width="60" height="55"alt="Post Party IV Drip Dubai Icon11" loading="lazy">
 
-                                <h6>Improved overall well-being</h6></div>
+                                <h4>Improved overall well-being</h4></div>
 
                         </div>
 
@@ -403,9 +403,9 @@
 
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>1</span> How long does the Post Party IV Drip session
+                        <div class="accordion-item"><h3><span>1</span> How long does the Post Party IV Drip session
 
-                                last?</h5>                                    <span class="plus-minus"></span></div>
+                                last?</h3>                                    <span class="plus-minus"></span></div>
 
                         <div class="data" style="display: none;"><p>The duration of a Post Party IV Drip session
 
@@ -415,9 +415,9 @@
 
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>2</span>Can I receive Post Party IV Drip if I have
+                        <div class="accordion-item"><h3><span>2</span>Can I receive Post Party IV Drip if I have
 
-                                allergies?</h5>                                    <span class="plus-minus"></span>
+                                allergies?</h3>                                    <span class="plus-minus"></span>
 
                         </div>
 
@@ -431,9 +431,9 @@
 
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>3</span>Can the Post Party IV Drip be administered at my
+                        <div class="accordion-item"><h3><span>3</span>Can the Post Party IV Drip be administered at my
 
-                                home or hotel in Dubai?</h5>                                        <span class="plus-minus"></span></div>
+                                home or hotel in Dubai?</h3>                                        <span class="plus-minus"></span></div>
 
                         <div class="data"><p>Yes, our Post Party IV Drip service is conveniently available at your home,
 
@@ -445,9 +445,9 @@
 
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>4</span>Are there any side effects associated with Post
+                        <div class="accordion-item"><h3><span>4</span>Are there any side effects associated with Post
 
-                                Party IV Drip ?</h5>                                                    <span
+                                Party IV Drip ?</h3>                                                    <span
 
                                     class="plus-minus"></span></div>
 
@@ -464,7 +464,7 @@
                 </div>
                 <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>5</span>How soon after a night out should I book the Post Party IV Drip?</h5>                                        <span class="plus-minus"></span></div>
+                        <div class="accordion-item"><h3><span>5</span>How soon after a night out should I book the Post Party IV Drip?</h3>                                        <span class="plus-minus"></span></div>
 
                         <div class="data"><p>You can schedule your IV drip as early as the next morning. The sooner it’s administered, the faster it replenishes fluids, electrolytes, and vitamins to relieve fatigue, nausea, and dehydration.</p></div>
 
@@ -480,7 +480,7 @@
 
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>6</span>How often can I receive Post Party IV Drip?</h5>
+                        <div class="accordion-item"><h3><span>6</span>How often can I receive Post Party IV Drip?</h3>
 
                             <span class="plus-minus"></span></div>
 
@@ -494,9 +494,9 @@
 
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>7</span>How quickly will I feel the effects of the
+                        <div class="accordion-item"><h3><span>7</span>How quickly will I feel the effects of the
 
-                                treatment?</h5>                                    <span class="plus-minus"></span>
+                                treatment?</h3>                                    <span class="plus-minus"></span>
 
                         </div>
 
@@ -512,9 +512,9 @@
 
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>8</span>Is the Post Party IV Drip suitable after just a
+                        <div class="accordion-item"><h3><span>8</span>Is the Post Party IV Drip suitable after just a
 
-                                mild hangover?</h5>                                        <span class="plus-minus"></span></div>
+                                mild hangover?</h3>                                        <span class="plus-minus"></span></div>
 
                         <div class="data"><p>Yes, the Post Party IV Drip is beneficial even for mild hangovers. It helps
 
@@ -526,9 +526,9 @@
 
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>9</span>Do I need to prepare or avoid anything before
+                        <div class="accordion-item"><h3><span>9</span>Do I need to prepare or avoid anything before
 
-                                receiving the Post Party IV Drip?</h5>                                        <span class="plus-minus"></span></div>
+                                receiving the Post Party IV Drip?</h3>                                        <span class="plus-minus"></span></div>
 
                         <div class="data"><p>No special preparation is required. However, staying hydrated and avoiding
 
@@ -539,7 +539,7 @@
                     </div>
                     <div class="accordion-box">
 
-                        <div class="accordion-item"><h5><span>10</span>What ingredients are typically included in the Post Party IV Drip?</h5>                                        <span class="plus-minus"></span></div>
+                        <div class="accordion-item"><h3><span>10</span>What ingredients are typically included in the Post Party IV Drip?</h3>                                        <span class="plus-minus"></span></div>
 
                         <div class="data"><p>The drip usually includes a blend of electrolytes, vitamin B complex, vitamin C, magnesium, and anti-nausea medication.</p></div>
 
@@ -573,7 +573,7 @@
 
                         <div class="testimonials-box no-testimonials-box ">
 
-                            <div class="testimonials-text same"><h4>Sarah</h4>
+                            <div class="testimonials-text same"><h3>Sarah</h3>
 
                                 <p>Hangover IV therapy saved me from a terrible morning after. I felt refreshed and
 
@@ -587,7 +587,7 @@
 
                         <div class="testimonials-box no-testimonials-box">
 
-                            <div class="testimonials-text same"><h4>John</h4>
+                            <div class="testimonials-text same"><h3>John</h3>
 
                                 <p> The convenience of receiving Post Party IV Drip at home was a game-changer. It's now
 
@@ -601,7 +601,7 @@
 
                         <div class="testimonials-box no-testimonials-box">
 
-                            <div class="testimonials-text same"><h4>Mark</h4>
+                            <div class="testimonials-text same"><h3>Mark</h3>
 
                                 <p>Professional and friendly service. Post Party IV Drip provided the relief I
 
@@ -615,7 +615,7 @@
 
                         <div class="testimonials-box no-testimonials-box">
 
-                            <div class="testimonials-text same"><h4>Emily</h4>
+                            <div class="testimonials-text same"><h3>Emily</h3>
 
                                 <p>I was amazed at how quickly Hangover IV therapy relieved my symptoms. It's the
 

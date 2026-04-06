@@ -67,7 +67,7 @@
     <div class="overlay"></div>
 </section>
 
-<section class="light-bg-color section-gap">
+<section class="light-bg-color section-gap single-blog-page">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9">
@@ -85,7 +85,7 @@
                     <p>In Dubai, where innovation and lifestyle meet, these trends are growing faster than ever. People are embracing IV drip therapy, lab tests at home, DNA testing, and preventive health check-ups as part of a holistic approach to wellness.</p>
 
                     <!-- Telehealth -->
-                    <h5>The Rise of Telehealth and At-Home Services</h5>
+                    <h2>The Rise of Telehealth and At-Home Services</h2>
                     <p>Telehealth has become one of the most powerful examples of digital transformation in medicine. Instead of waiting for hours at a clinic, patients can now consult doctors online through teleconsultations. This approach not only saves time but also allows for faster responses to health concerns.</p>
                     <p>In Dubai, services such as IV drip home service and lab test at home Dubai have become incredibly popular. Patients can request:</p>
                     <ul class="ingredients-list">
@@ -96,7 +96,7 @@
                     <p>These services highlight a major shift: healthcare is moving toward the patient’s home rather than requiring the patient to go to healthcare facilities.</p>
 
                     <!-- Wearables -->
-                    <h5>Wearable Health Monitoring Devices</h5>
+                    <h2>Wearable Health Monitoring Devices</h2>
                     <p>Another major advancement is the use of wearable health technology. Smartwatches and health trackers now monitor:</p>
                     <ul class="ingredients-list">
                         <li>Heart rate and rhythm</li>
@@ -107,12 +107,12 @@
                     <p>These devices generate real-time data that help doctors and individuals make informed health decisions. For example, someone recovering from illness may use a wearable device to monitor heart rate while also receiving IV infusion therapy at home for hydration and nutrition.</p>
 
                     <!-- AI & Big Data -->
-                    <h5>The Role of AI and Big Data in Preventive Medicine</h5>
+                    <h2>The Role of AI and Big Data in Preventive Medicine</h2>
                     <p>Artificial intelligence (AI) and big data are transforming healthcare by analyzing millions of data points to predict and prevent diseases. Instead of waiting for symptoms, AI tools can identify patterns that suggest early signs of conditions like diabetes, hypertension, or even cancer.</p>
                     <p>For instance, when combined with DNA health testing and food intolerance tests Dubai, AI can create hyper-personalized health plans. These plans might include recommendations for vitamin IV drips, lifestyle adjustments, or preventive screenings.</p>
 
                     <!-- IV therapy popularity -->
-                    <h5>Why Patients Prefer IV Drip Therapy in Dubai</h5>
+                    <h2>Why Patients Prefer IV Drip Therapy in Dubai</h2>
                     <p>One of the most noticeable wellness trends in Dubai is the popularity of IV therapy. While oral supplements are useful, IV drips deliver nutrients directly into the bloodstream, ensuring higher absorption rates and faster results.</p>
                     <p>Tourists and residents alike choose services like:</p>
                     <ul class="ingredients-list">
@@ -132,7 +132,7 @@
                     </ul>
 
                     <!-- Preventive -->
-                    <h5>Preventive Health Check-Ups: Beyond Treatment</h5>
+                    <h2>Preventive Health Check-Ups: Beyond Treatment</h2>
                     <p>The future of healthcare is prevention, not just cure. Digital transformation allows for easy preventive health check-ups with the following:</p>
                     <ul class="ingredients-list">
                         <li><a href="<?= base_url() ?>lab-test-at-home"><strong>Lab test at home in Dubai</strong></a> (blood sugar, cholesterol, vitamin levels)</li>
@@ -143,7 +143,7 @@
                     <p>By combining these diagnostics with IV vitamin drip Dubai and oral supplements, people can build long-term health resilience.</p>
 
                     <!-- IV + Oral -->
-                    <h5>The Combination of IV Therapy and Oral Supplements</h5>
+                    <h2>The Combination of IV Therapy and Oral Supplements</h2>
                     <p>A key question people ask is: Do I still need oral supplements if I get IV drips? The answer is yes. IV infusion therapy provides an immediate boost by bypassing digestion and delivering nutrients directly into the bloodstream. However, continuing with oral supplements afterward helps maintain nutrient levels daily.</p>
                     <ul class="ingredients-list">
                         <li><strong>antioxidant IV drip Dubai</strong> can instantly raise antioxidant levels, while oral glutathione maintains them over time.</li>
@@ -153,7 +153,7 @@
                     <p>This combination approach ensures both short-term impact and long-term health benefits.</p>
 
                     <!-- Future -->
-                    <h5>The Future: Hyper-Personalized Wellness</h5>
+                    <h2>The Future: Hyper-Personalized Wellness</h2>
                     <p>With telehealth, wearable tech, and AI-driven diagnostics, the future of healthcare in Dubai is hyper-personalized medicine. Imagine a system where:</p>
                     <ul class="ingredients-list">
                         <li>Your smartwatch data syncs with your doctor’s AI dashboard</li>
@@ -164,7 +164,7 @@
                     <p>This is no longer science fiction, it’s happening now.</p>
 
                     <!-- Why Dubai -->
-                    <h5>Why Dubai Leads the Way</h5>
+                    <h2>Why Dubai Leads the Way</h2>
                     <p>Dubai’s healthcare industry is uniquely positioned to adopt these technologies because of its:</p>
                     <ul class="ingredients-list">
                         <li>Innovative ecosystem that supports medical startups</li>
@@ -174,12 +174,12 @@
                     <p>This is why more people are choosing IV drip in Dubai, lab test at home Dubai, and DNA test UAE services compared to traditional clinic-based approaches.</p>
 
                     <!-- Final thoughts -->
-                    <h5>Final Thoughts</h5>
+                    <h2>Final Thoughts</h2>
                     <p>Digital transformation is reshaping healthcare everywhere, but Dubai is at the forefront. From IV therapy Dubai to teleconsultations and AI-driven preventive health check-ups, patients now have more control, convenience, and confidence in their wellness journey.</p>
                     <p>By blending IV infusion therapy, oral supplements, lab tests, and DNA health testing, individuals can achieve the goal of modern medicine: staying healthier, longer.</p>
 
                     <!-- CTA / Healthcarebia -->
-                    <h5>Take the Next Step with Healthcarebia</h5>
+                    <h2>Take the Next Step with Healthcarebia</h2>
                     <p>At Healthcarebia, we bring premium and VIP healthcare services directly to you. From IV drip therapy at home, immune boost drips, and NAD+ IV therapy, to DNA testing, STD checkups, and preventive health check-ups, our goal is to make wellness simple, safe, and accessible.</p>
                     <ul class="ingredients-list">
                         <li>WhatsApp: <a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">+971-54-707-7476</a></li>

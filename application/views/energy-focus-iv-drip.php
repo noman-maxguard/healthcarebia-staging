@@ -214,7 +214,7 @@
                 <p>The Energy & Focus IV Drip is specifically formulated to enhance cognitive performance, boost mental clarity, and increase overall energy levels, ideal for those experiencing fatigue or reduced productivity.</p>
             </div>
             <div class="col-md-12 text-center mb-3">
-                <h5>Benefits of Energy & Focus IV Drip</h5>
+                <h3>Benefits of Energy & Focus IV Drip</h3>
             </div>
             <div class="col-6 col-md-4 mb-3">
                 <div class="card-style1 same">
@@ -277,7 +277,7 @@
                 <div class="accordion pt-md-3">
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>1</span>How long does an Energy & Focus IV Drip session in Dubai last?</h5>
+                            <h3><span>1</span>How long does an Energy & Focus IV Drip session in Dubai last?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -286,7 +286,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>2</span>What are the main ingredients in an Energy & Focus IV Drip?</h5>
+                            <h3><span>2</span>What are the main ingredients in an Energy & Focus IV Drip?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -295,7 +295,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>3</span>How soon can I feel the effects of IV therapy?</h5>
+                            <h3><span>3</span>How soon can I feel the effects of IV therapy?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -304,7 +304,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>4</span>How often should I receive an Energy & Focus IV Drip?</h5>
+                            <h3><span>4</span>How often should I receive an Energy & Focus IV Drip?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -313,7 +313,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>5</span>Can I combine the Energy & Focus IV Drip with other treatments?</h5>
+                            <h3><span>5</span>Can I combine the Energy & Focus IV Drip with other treatments?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -326,7 +326,7 @@
                 <div class="accordion pt-md-3">
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>6</span>Who can benefit from the Energy & Focus IV Drip?</h5>
+                            <h3><span>6</span>Who can benefit from the Energy & Focus IV Drip?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -335,7 +335,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>7</span>Are there any side effects?</h5>
+                            <h3><span>7</span>Are there any side effects?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -344,7 +344,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>8</span>Is the Energy & Focus IV Drip safe?</h5>
+                            <h3><span>8</span>Is the Energy & Focus IV Drip safe?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -353,7 +353,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>9</span>Does the Energy & Focus IV Drip really work?</h5>
+                            <h3><span>9</span>Does the Energy & Focus IV Drip really work?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -362,7 +362,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>10</span>How should I prepare before my Energy & Focus IV Drip session?</h5>
+                            <h3><span>10</span>How should I prepare before my Energy & Focus IV Drip session?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">

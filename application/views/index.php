@@ -250,7 +250,7 @@
       <div class="item">
         <div class="trust-box">
           <div class="trust-box-img"><img src="<?= base_url() ?>assets/frontend/img/google-reviews.svg" width="150" height="150" alt="google reviews" class="trust-google"></div>
-          <h5>Trusted on Google</h5>
+          <h2>Trusted on Google</h2>
           <p>Highly Trusted by real clients in Dubai.</p>
         </div>
       </div>
@@ -258,7 +258,7 @@
       <div class="item">
         <div class="trust-box">
           <div class="trust-box-img"><img src="<?= base_url() ?>assets/frontend/img/fda-green.svg" width="150" height="150" alt="fda icon" class="trust-fda"></div>
-          <h5>FDA compliant formulations</h5>
+          <h2>FDA compliant formulations</h2>
           <p>All products sourced from FDA compliant manufacturers</p>
         </div>
       </div>
@@ -266,7 +266,7 @@
       <div class="item">
         <div class="trust-box">
           <div class="trust-box-img"><img src="<?= base_url() ?>assets/frontend/img/nabidh.svg" width="150" height="150" alt="nabidh" class="trust-nabidh"></div>
-          <h5>NABIDH ready records</h5>
+          <h2>NABIDH ready records</h2>
           <p>Records shared securely through NABIDH.</p>
         </div>
       </div>
@@ -274,7 +274,7 @@
       <div class="item">
         <div class="trust-box">
           <div class="trust-box-img"><img src="<?= base_url() ?>assets/frontend/img/dha.svg" width="150" height="150" alt="dha" class="trust-dha"></div>
-          <h5>100% DHA licensed nurses</h5>
+          <h2>100% DHA licensed nurses</h2>
           <p>Care delivered at home by DHA licensed and experienced nurses.</p>
         </div>
       </div>
@@ -312,7 +312,7 @@
 
                                 <div class="counter-box"><span class="counter" data-TargetNum="1" data-Speed="1000">1</span><i>K+</i>
 
-                                    <h6>Happy Clients</h6>
+                                    <h4>Happy Clients</h4>
 
                                 </div>
 
@@ -322,7 +322,7 @@
 
                                 <div class="counter-box"><span class="counter" data-TargetNum="10" data-Speed="4000">10</span><i>+</i>
 
-                                    <h6>Professionals</h6>
+                                    <h4>Professionals</h4>
 
                                 </div>
 
@@ -332,7 +332,7 @@
 
                                 <div class="counter-box"><span class="counter" data-TargetNum="100" data-Speed="7000">100</span><i>%</i>
 
-                                    <h6>Satisfaction</h6>
+                                    <h4>Satisfaction</h4>
 
                                 </div>
 
@@ -342,7 +342,7 @@
 
                                 <div class="counter-box"><span class="counter" data-TargetNum="100" data-Speed="10000">100</span><i>%</i>
 
-                                    <h6>DHA Certified Team</h6>
+                                    <h4>DHA Certified Team</h4>
 
                                 </div>
 
@@ -497,7 +497,7 @@
 
                                 <div class="text">
 
-                                    <h4>Expertise</h4>
+                                    <h3>Expertise</h3>
 
                                     <p>Our highly experienced team of DHA-certified multinational nurses and doctors are
 
@@ -527,7 +527,7 @@
 
                                 <div class="text">
 
-                                    <h4>Excellence</h4>
+                                    <h3>Excellence</h3>
 
                                     <p>With over 30+ years of collective expertise in IV Therapy, we are committed to
 
@@ -555,7 +555,7 @@
 
                                 <div class="text">
 
-                                    <h4>Custom-made</h4>
+                                    <h3>Custom-made</h3>
 
                                     <p>We use only FDA-approved Grade A products from USA/UK, providing personalized
 
@@ -583,7 +583,7 @@
 
                                 <div class="text">
 
-                                    <h4>Quality</h4>
+                                    <h3>Quality</h3>
 
                                     <p>All our products are DHA & MOH approved, and we take pride in preparing them
 
@@ -607,7 +607,7 @@
 
 </section>
 
-<section class="section-gap testimonials">
+<section class="section-gap testimonials testimonials-home">
 
     <div class="container">
 
@@ -644,7 +644,7 @@
 
                             <div class="testimonials-text">
 
-                                <h4>Mo Aziz</h4>
+                                <h3>Mo Aziz</h3>
 
                                 <p>"I just had a NAD+ drip via Healthcarebia’s IV drip home service in Dubai, and I feel absolutely incredible.
                                      Their IV therapy is efficient, reliable, and truly top-notch, making a real difference in my productivity and energy level."</p>
@@ -674,7 +674,7 @@
 
                             <div class="testimonials-text">
 
-                                <h4>Gala</h4>
+                                <h3>Gala</h3>
 
                                 <p>"After trying Healthcarebia’s immune booster IV drip, I experienced a noticeable boost in energy and overall wellness.
                                      The treatment was effective, professionally administered, and made me feel confident about my health journey."</p>
@@ -704,7 +704,7 @@
 
                             <div class="testimonials-text">
 
-                                <h4>Jeremy Gwyer</h4>
+                                <h3>Jeremy Gwyer</h3>
 
                                 <p>"Healthcarebia’s at home IV therapy in Dubai is really convenient. Their team arrived promptly, making the process smooth and stress-free.
                                      I had the Myers Cocktail, and the personalized care made the experience so comfortable."</p>
@@ -792,7 +792,7 @@
                                     
                                     </span>
 
-                                    <h5>+971 4 225 0823</h5>
+                                    <h3>+971 4 225 0823</h3>
 
                                 </div>
 
@@ -812,7 +812,7 @@
                                     
                                     </span>
 
-                                    <h5>+971 54 707 7476</h5>
+                                    <h3>+971 54 707 7476</h3>
 
                                 </div>
 
@@ -829,7 +829,7 @@
                                     
                                     </span>
 
-                                    <h5>+971 54 707 7476</h5>
+                                    <h3>+971 54 707 7476</h3>
 
                                 </div>
 
@@ -848,7 +848,7 @@
                                     
                                     </span>
 
-                                    <h5>info@healthcarebia.ae</h5>
+                                    <h3>info@healthcarebia.ae</h3>
 
                                 </div>
 

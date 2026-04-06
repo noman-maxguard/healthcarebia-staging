@@ -410,7 +410,7 @@
 </section>
 
 
-<section class="section-gap what-therapy-bg"
+<section class="section-gap what-therapy-bg what-is-iv-therapy"
 
          style="background-image: url(<?= base_url() ?>assets/frontend/img/gala-big-img.webp);">
 
@@ -441,7 +441,7 @@
 
 
 
-                <h6 class="mt-4">Benefits of IV Therapy</h6>
+                <h3 class="mt-4">Benefits of IV Therapy</h3>
 
                 <ul class="listing-item">
 
@@ -510,7 +510,7 @@
 
                             <div class="text">
                                 <a href="<?= base_url() ?>myers-iv-drip">
-                                    <h6>Myers Cocktail</h6>
+                                    <h2>Myers Cocktail</h2>
                                 </a>
 
                                 <ul class="listing-item2">
@@ -548,7 +548,7 @@
 
                             <div class="text">
                                 <a href="<?= base_url() ?>immune-iv-drip">
-                                    <h6>Immunity Mega Boost Drip</h6>
+                                    <h2>Immunity Mega Boost Drip</h2>
                                 </a>
 
                                 <ul class="listing-item2">
@@ -586,7 +586,7 @@
 
                             <div class="text">
                                 <a href="<?= $whatsappHref ?>">
-                                    <h6>Cold &amp; Flu Drip</h6>
+                                    <h2>Cold &amp; Flu Drip</h2>
                                 </a>
 
                                 <ul class="listing-item2">
@@ -624,7 +624,7 @@
 
                             <div class="text">
                                 <a href="<?= $whatsappHref ?>">
-                                    <h6>Mega C Drip</h6>
+                                    <h2>Mega C Drip</h2>
                                 </a>
 
                                 <ul class="listing-item2">
@@ -662,7 +662,7 @@
 
                             <div class="text">
                                 <a href="<?= base_url() ?>good-sleep-iv-drip">
-                                    <h6>Good Sleep Drip</h6>
+                                    <h2>Good Sleep Drip</h2>
                                 </a>
 
                                 <ul class="listing-item2">
@@ -700,7 +700,7 @@
 
                             <div class="text">
                                 <a href="<?= $whatsappHref ?>">
-                                    <h6>Her Drip</h6>
+                                    <h2>Her Drip</h2>
                                 </a>
 
                                 <ul class="listing-item2">
@@ -738,7 +738,7 @@
 
                             <div class="text">
                                 <a href="<?= $whatsappHref ?>">
-                                    <h6>Jet Lag Drip</h6>
+                                    <h2>Jet Lag Drip</h2>
                                 </a>
 
                                 <ul class="listing-item2">
@@ -790,7 +790,7 @@
 
                             <div class="text">
                                 <a href="<?= $whatsappHref ?>">
-                                    <h6>Ultra Detox Drip</h6>
+                                    <h2>Ultra Detox Drip</h2>
                                 </a>
 
                                 <ul class="listing-item2">
@@ -828,7 +828,7 @@
 
                             <div class="text">
                                 <a href="<?= $whatsappHref ?>">
-                                    <h6>Swift Hydration Drip</h6>
+                                    <h2>Swift Hydration Drip</h2>
                                 </a>
 
                                 <ul class="listing-item2">
@@ -866,7 +866,7 @@
 
                             <div class="text">
                                 <a href="<?= base_url() ?>hangover-iv-drip">
-                                    <h6>Hangover Recovery Drip</h6>
+                                    <h2>Hangover Recovery Drip</h2>
                                 </a>
 
                                 <ul class="listing-item2">
@@ -904,7 +904,7 @@
 
                             <div class="text">
                                 <a href="<?= $whatsappHref ?>">
-                                    <h6>Sunburn Recovery Drip</h6>
+                                    <h2>Sunburn Recovery Drip</h2>
                                 </a>
 
                                 <ul class="listing-item2">
@@ -942,7 +942,7 @@
 
                             <div class="text">
                                 <a href="<?= base_url() ?>gut-health-iv-drip">
-                                    <h6>Gut Health Drip</h6>
+                                    <h2>Gut Health Drip</h2>
                                 </a>
 
                                 <ul class="listing-item2">
@@ -980,7 +980,7 @@
 
                             <div class="text">
                                 <a href="<?= $whatsappHref ?>">
-                                    <h6>Weight Loss Drip</h6>
+                                    <h2>Weight Loss Drip</h2>
                                 </a>
 
                                 <ul class="listing-item2">
@@ -1018,7 +1018,7 @@
 
                             <div class="text">
                                 <a href="<?= $whatsappHref ?>">
-                                    <h6>Custom Drip</h6>
+                                    <h2>Custom Drip</h2>
                                 </a>
 
                                 <ul class="listing-item2">
@@ -1070,7 +1070,7 @@
 
                             <div class="text">
                                 <a href="<?= base_url() ?>nad-iv-drip">
-                                    <h6>NAD⁺ Drip</h6>
+                                    <h2>NAD⁺ Drip</h2>
                                 </a>
 
                                 <ul class="listing-item2">
@@ -1108,7 +1108,7 @@
 
                             <div class="text">
                                 <a href="<?= base_url() ?>energy-focus-iv-drip">
-                                    <h6>Energy Drip</h6>
+                                    <h2>Energy Drip</h2>
                                 </a>
 
                                 <ul class="listing-item2">
@@ -1146,7 +1146,7 @@
 
                             <div class="text">
                                 <a href="<?= $whatsappHref ?>">
-                                    <h6>Beauty Drip</h6>
+                                    <h2>Beauty Drip</h2>
                                 </a>
 
                                 <ul class="listing-item2">
@@ -1184,7 +1184,7 @@
 
                             <div class="text">
                                 <a href="<?= $whatsappHref ?>">
-                                    <h6>Glow Skin Drip</h6>
+                                    <h2>Glow Skin Drip</h2>
                                 </a>
 
                                 <ul class="listing-item2">
@@ -1222,7 +1222,7 @@
 
                             <div class="text">
                                 <a href="<?= base_url() ?>myers-iv-drip">
-                                    <h6>Myers Cocktail Drip</h6>
+                                    <h2>Myers Cocktail Drip</h2>
                                 </a>
 
                                 <ul class="listing-item2">
@@ -1360,7 +1360,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>1</span>  How long does an IV drip take at home in Dubai?</h5>
+                            <h3><span>1</span>  How long does an IV drip take at home in Dubai?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -1370,7 +1370,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>2</span> Where can I have an IV drip in Dubai, at home, hotel, or office?</h5>
+                            <h3><span>2</span> Where can I have an IV drip in Dubai, at home, hotel, or office?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data">
@@ -1380,7 +1380,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>3</span> Does IV Therapy Really Work?</h5>
+                            <h3><span>3</span> Does IV Therapy Really Work?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data">
@@ -1390,7 +1390,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>4</span> Can I customize my IV drip at home?</h5>
+                            <h3><span>4</span> Can I customize my IV drip at home?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data">
@@ -1400,7 +1400,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>5</span> What Is the Difference Between Medical IV Therapy and Wellness IV Therapy?</h5>
+                            <h3><span>5</span> What Is the Difference Between Medical IV Therapy and Wellness IV Therapy?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data">
@@ -1409,7 +1409,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>6</span> Who is an ideal candidate for IV therapy at home?</h5>
+                            <h3><span>6</span> Who is an ideal candidate for IV therapy at home?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data">
@@ -1427,7 +1427,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>7</span> How soon can I feel the effects of an IV drip?</h5>
+                            <h3><span>7</span> How soon can I feel the effects of an IV drip?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data">
@@ -1437,7 +1437,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>8</span> Does an IV drip hurt, and is it safe?</h5>
+                            <h3><span>8</span> Does an IV drip hurt, and is it safe?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data">
@@ -1447,7 +1447,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>9</span> Is IV Therapy FDA-approved?</h5>
+                            <h3><span>9</span> Is IV Therapy FDA-approved?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data">
@@ -1457,7 +1457,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>10</span> How do I know which IV Drip is best for me?</h5>
+                            <h3><span>10</span> How do I know which IV Drip is best for me?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -1467,7 +1467,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>11</span> How Is IV Therapy Different from Drinking Water and Taking Supplements?</h5>
+                            <h3><span>11</span> How Is IV Therapy Different from Drinking Water and Taking Supplements?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data">
@@ -1476,7 +1476,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>12</span> How often should I receive IV therapy to maintain optimal benefits?</h5>
+                            <h3><span>12</span> How often should I receive IV therapy to maintain optimal benefits?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data">
@@ -1519,7 +1519,7 @@
 
                             <div class="testimonials-text same">
 
-                                <h4>Samman</h4>
+                                <h3>Samman</h3>
 
                                 <p>My first IV therapy in Dubai, and it was fantastic. I’d definitely recommend it. I tried the post party drip and
                                      felt the results the next day.</p>
@@ -1542,7 +1542,7 @@
 
                             <div class="testimonials-text same">
 
-                                <h4>Beaussen</h4>
+                                <h3>Beaussen</h3>
 
                                 <p>
 
@@ -1566,7 +1566,7 @@
 
                             <div class="testimonials-text same">
 
-                                <h4>Zahra</h4>
+                                <h3>Zahra</h3>
 
                                 <p>Very efficient and excellent service provided by the team. I feel refreshed after the beauty IV drip.
                                     Definitely worth it.</p>
@@ -1585,7 +1585,7 @@
 
                             <div class="testimonials-text same">
 
-                                <h4>Ali</h4>
+                                <h3>Ali</h3>
 
                                 <p>Fantastic service! Well-being at your doorstop with great knowledge and experience.
 

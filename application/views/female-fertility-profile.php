@@ -297,7 +297,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>1</span>What is the Female Fertility Profile designed to check?</h5>
+                            <h3><span>1</span>What is the Female Fertility Profile designed to check?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -310,7 +310,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>2</span>Which hormones and markers are usually included in this profile?</h5>
+                            <h3><span>2</span>Which hormones and markers are usually included in this profile?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -324,7 +324,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>3</span>When in my menstrual cycle should I book the Female Fertility Profile?</h5>
+                            <h3><span>3</span>When in my menstrual cycle should I book the Female Fertility Profile?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -344,7 +344,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>4</span>Can the Female Fertility Profile tell me if I will definitely get pregnant?</h5>
+                            <h3><span>4</span>Can the Female Fertility Profile tell me if I will definitely get pregnant?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -359,7 +359,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>5</span>How should I prepare for the Female Fertility Profile?</h5>
+                            <h3><span>5</span>How should I prepare for the Female Fertility Profile?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -373,7 +373,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>6</span>What happens after I receive my Female Fertility Profile results?</h5>
+                            <h3><span>6</span>What happens after I receive my Female Fertility Profile results?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">

@@ -415,7 +415,7 @@
                         src="<?= base_url() ?>assets/frontend/img/google-review.svg"
                         alt="Google Reviews">
                         <div class="review-item">
-                        <h5>5.0</h5>
+                        <div class="review-item-rating">5.0</div>
                         <span>
                             <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
                                 class="fa fa-star"></i> <i class="fa fa-star"></i>
@@ -506,7 +506,7 @@
                 </div>
             </div>
             <div class="col-md-3 ebook-form">
-                <h6 style="font-size: 18px;color: white;text-align: center">Download Our Free Precision Of Wellness eBook</h6>
+                <h2 style="font-size: 18px;color: white;text-align: center">Download Our Free Precision Of Wellness eBook</h2>
                 <form action="/ebooks/download" method="POST" style="display:flex;flex-direction: column; justify-content: start;align-items: center; width:100%; gap:1em" class="mt-4">
                     <div class="col-md-12 mb-3">
                     <input class="form-input" type="email" placeholder="Enter your email" name="email" required style="width:100%;height:100%;padding: 13px 32px;border-radius:30px;border:none">

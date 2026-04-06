@@ -52,7 +52,7 @@
          style="background-image: url(<?= base_url() ?>assets/frontend/img/small-banner.webp);">
     <div class="overlay"></div>
 </section>
-<section class="light-bg-color section-gap">
+<section class="light-bg-color section-gap single-blog-page">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9">
@@ -68,20 +68,20 @@
                         (STDs). With options like at-home STD testing and lab test at home in Dubai, you can now manage your sexual health discreetly and efficiently from your own space. Thankfully, advancements in medical technology have made it easier than ever to
                         prioritize your sexual health without compromising privacy or convenience. In this article, we
                         will explore the benefits of <a href="<?= base_url() ?>std-testing">at-home STD testing</a>, which provides confidential and convenient
-                        options for individuals seeking peace of mind.</p>                    <h5>Confidentiality:
-                        Protecting Your Privacy</h5>
+                        options for individuals seeking peace of mind.</p>                    <h2>Confidentiality:
+                        Protecting Your Privacy</h2>
                     <p>One of the most significant concerns for many people when considering STD testing is the fear of
                         breach of privacy. At-home STD testing eliminates the need to visit a clinic or interact with
                         medical professionals in person, ensuring complete confidentiality. Whether you’re looking for private STD testing near me or STD check Dubai, these at-home options protect your privacy while delivering accurate results. By opting for an at-home
                         test, you can maintain your privacy and discreetly address any concerns you may have regarding
-                        your sexual health.</p>                    <h5>Convenience: Testing on Your Own Terms</h5>
+                        your sexual health.</p>                    <h2>Convenience: Testing on Your Own Terms</h2>
                     <p>Traditional STD testing often requires scheduling appointments, visiting clinics, and dealing
                         with long waiting times. This process can be inconvenient and time-consuming, making it a
                         barrier for individuals who have busy schedules or limited access to healthcare facilities.
                         At-home STD testing allows you to take control of your testing experience by providing you with
                         the flexibility to test at a time and place that suits you best. Whether it's during your lunch
                         break or in the comfort of your own home, at-home testing ensures convenience and eliminates
-                        unnecessary stress.</p><h5>How At-Home STD Testing Works:</h5>
+                        unnecessary stress.</p><h2>How At-Home STD Testing Works:</h2>
                     <p>At-home STD testing kits are designed to be user-friendly and straightforward, ensuring that
                         anyone can easily perform the tests without medical expertise. The process typically involves
                         the following steps:</p>
@@ -96,19 +96,19 @@
                         instructions provided to maintain sample integrity and expedite the process.</p>
                     <p>Receiving the Results: Once the laboratory analyzes your sample, you will receive your results
                         via a secure online portal or through a confidential phone call. Reputable providers ensure that
-                        the results are delivered discreetly and promptly, usually within a few days.</p><h5>
-                        Professional Guidance and Support:</h5>
+                        the results are delivered discreetly and promptly, usually within a few days.</p><h2>
+                        Professional Guidance and Support:</h2>
                     <p>While at-home STD testing offers convenience and privacy, it is essential to have access to
                         professional guidance and support throughout the process. <a href="<?= base_url() ?>">Healthcarebia</a> has a team of trained
                         healthcare professionals available to answer any questions or concerns you may have before,
                         during, or after the testing process. They can provide information about STDs, help you
-                        interpret your results, and guide you towards appropriate medical care, if necessary.</p><h5>
-                        Next Steps:</h5>
+                        interpret your results, and guide you towards appropriate medical care, if necessary.</p><h2>
+                        Next Steps:</h2>
                     <p>If your results come back positive for an STD, it is important not to panic. Many STDs are
                         treatable, and early detection plays a crucial role in effective treatment. Reach out to your
                         healthcare provider or the at-home testing provider for guidance on seeking appropriate medical
                         care and treatment options. Taking care of your sexual health is a responsible and empowering
-                        choice.</p><h5>Conclusion:</h5>
+                        choice.</p><h2>Conclusion:</h2>
                     <p>At-home STD testing provides a confidential and convenient solution for individuals seeking peace
                         of mind regarding their sexual health. By eliminating the barriers of privacy concerns and
                         offering flexibility in testing, at-home kits empower individuals to prioritize their sexual

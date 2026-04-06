@@ -75,7 +75,7 @@
 .trust-box p {
     font-size: 12px;
 }
-.trust-box h5 {
+.trust-box h2 {
     font-size: 15px;
     margin-bottom: 0 !important;
 }
@@ -139,7 +139,7 @@ ul.fot-link li {
     padding: 2px 0;
 }
 
-.ebook-form h6 {
+.ebook-form h2 {
     font-size: 14px !important;
 }
 
@@ -170,7 +170,7 @@ ul.fot-link li {
     padding: 10px 10px;
 }
 
-.trust-box h5 {
+.trust-box h2 {
     font-size: 13px;
     margin-bottom: 0 !important;
 }
@@ -829,6 +829,11 @@ ul.fot-link li a {
 .testimonials-slider .owl-nav {
     bottom: -10px;
 }
+
+.testimonials-slider.owl-carousel .item {
+    margin-bottom: 60px;
+}
+
 }
 
 @media (max-width:480px) {

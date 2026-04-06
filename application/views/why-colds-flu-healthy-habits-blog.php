@@ -67,7 +67,7 @@
     <div class="overlay"></div>
 </section>
 
-<section class="light-bg-color section-gap">
+<section class="light-bg-color section-gap single-blog-page">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9">
@@ -84,7 +84,7 @@
                     <p>Even with nutritious food, exercise, and good habits, colds and flu can still break through. Stress, sleep, hydration, micronutrients, gut health, and your daily environment all influence how well your immune system responds. Below is a practical guide to strengthen your defenses and where supportive options like IV drip home service in Dubai may help.</p>
 
                     <!-- Stress & Sleep -->
-                    <h5>Stress and Sleep Deprivation</h5>
+                    <h2>Stress and Sleep Deprivation</h2>
                     <p>Stress elevates cortisol, which can dampen immune responses. Adults sleeping fewer than seven hours nightly are more likely to catch common respiratory infections.</p>
                     <ul class="ingredients-list">
                         <li>Create a consistent bedtime routine</li>
@@ -94,27 +94,27 @@
                     </ul>
 
                     <!-- Environment -->
-                    <h5>Environmental Exposure</h5>
+                    <h2>Environmental Exposure</h2>
                     <p>Crowded offices, schools, and public transport increase viral exposure. Air-conditioning or heating can dry nasal passages and reduce natural defenses. Simple changes help: open windows when possible, use a humidifier, sanitize hands, and regularly clean high touch items like phones and keyboards.</p>
 
                     <!-- Hydration -->
-                    <h5>Hydration Matters</h5>
+                    <h2>Hydration Matters</h2>
                     <p>Hydration supports nutrient transport, detox pathways, and moist mucous membranes that trap pathogens. In hot climates like Dubai or during workouts fluid needs rise. If you struggle to maintain intake, IV infusion therapy at home can rapidly restore fluids and electrolytes as a supplemental option.</p>
 
                     <!-- Micronutrients -->
-                    <h5>Micronutrient Deficiencies</h5>
+                    <h2>Micronutrient Deficiencies</h2>
                     <p>Even balanced diets can miss essentials such as vitamin C, vitamin D, zinc, and magnesium. Consider periodic blood tests or preventive health check-ups in Dubai to identify gaps. Some choose antioxidant, vitamin, or Myers Cocktail IV therapy for faster bioavailability compared to oral supplements.</p>
 
                     <!-- Exercise balance -->
-                    <h5>Exercise, Too Much or Too Little</h5>
+                    <h2>Exercise, Too Much or Too Little</h2>
                     <p>Moderate, regular movement supports immune health; overtraining can do the opposite. Watch for warning signs like persistent fatigue, soreness, sleep disruption, or frequent illness. Active individuals sometimes explore NAD IV therapy or NAD+ IV drips in Dubai to support recovery.</p>
 
                     <!-- Gut health -->
-                    <h5>Gut Health and Immunity</h5>
+                    <h2>Gut Health and Immunity</h2>
                     <p>Much of the immune system is connected to the gut. Build a diverse microbiome with probiotic foods (yogurt, kefir, kimchi, sauerkraut) and prebiotic foods (onions, garlic, bananas, whole grains). Some residents pair these dietary steps with home IV therapy in Dubai such as immune boost or vitamin IV drips to complement overall wellness goals.</p>
 
                     <!-- Habits & hygiene -->
-                    <h5>Habits and Hygiene</h5>
+                    <h2>Habits and Hygiene</h2>
                     <p>Small behaviors shape outcomes. Avoid touching your face, wash hands frequently, and don’t share utensils or water bottles. Keep personal items separate, especially while traveling.</p>
                     <ul class="tick-list">
                         <li>Disinfect phones, keyboards, and doorknobs</li>
@@ -123,11 +123,11 @@
                     </ul>
 
                     <!-- Individual differences -->
-                    <h5>Differences in Immune System</h5>
+                    <h2>Differences in Immune System</h2>
                     <p>Age, genetics, and medical conditions influence immune responses. Two people can be exposed to the same virus and have very different outcomes. The realistic goal is risk reduction, not total prevention.</p>
 
                     <!-- Lifestyle checklist -->
-                    <h5>Lifestyle Adjustments That Add Up</h5>
+                    <h2>Lifestyle Adjustments That Add Up</h2>
                     <ul class="ingredients-list">
                         <li>Prioritize sleep and stress management</li>
                         <li>Stay hydrated throughout the day</li>
@@ -138,11 +138,11 @@
                     <p>For added resilience, many opt for premium IV drips at home in Dubai such as immune support blends or adjunct services like hyperbaric oxygen therapy via VIP home healthcare providers.</p>
 
                     <!-- Nurse perspective -->
-                    <h5>Nurse’s Perspective</h5>
+                    <h2>Nurse’s Perspective</h2>
                     <p>Patients often maintain “perfect” diet and gym habits yet still fall sick due to stress, sleep deficits, dehydration, or nutrient gaps. Simple tweaks drinking more water, adding fermented foods, or booking at-home lab tests in Dubai (female hormone profiles, STD panels, even DNA health testing) can make a noticeable difference.</p>
 
                     <!-- Additional Support -->
-                    <h5>Additional Support: Multivitamin & Specialty IV Drips</h5>
+                    <h2>Additional Support: Multivitamin & Specialty IV Drips</h2>
                     <ul class="ingredients-list">
                         <li><a href="<?= base_url() ?>myers-iv-drip"><strong>Myers IV drip</strong></a> for general energy and immune support</li>
                         <li><a href="<?= base_url() ?>nad-iv-drip"><strong>NAD IV drip</strong></a> for recovery and anti-ageing goals</li>
@@ -152,7 +152,7 @@
                     <p>When delivered via IV drip at home in Dubai, these options can suit busy professionals, frequent travelers, or those recovering from illness subject to clinical screening.</p>
 
                     <!-- Conclusion -->
-                    <h5>Conclusion</h5>
+                    <h2>Conclusion</h2>
                     <p>Catching colds or flu isn’t a failure of healthy living. It often signals blind spots in stress, sleep, hydration, nutrients, or daily exposures.<a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" class="button d-inline"> Book your session now </a>to build durable resilience and enjoy fewer sick days.</p>
 
                     <p><small><em>Disclaimer: This article is for educational purposes only and does not replace professional medical advice. Always consult licensed clinicians, especially if you have underlying conditions or severe symptoms.</em></small></p>

@@ -105,7 +105,7 @@
     <div class="overlay"></div>
 </section>
 
-<section class="light-bg-color section-gap">
+<section class="light-bg-color section-gap single-blog-page">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9">
@@ -124,14 +124,14 @@
 
                     <h1>The Myers Cocktail IV Drip: A Powerful Vitamin Infusion for Energy &amp; Wellness</h1>
                     
-                    <h5>Introduction</h5>
+                    <h2>Introduction</h2>
                     <p>In today's fast-paced world, maintaining optimal health can be a challenge. Whether you struggle with fatigue, stress, chronic conditions, or nutrient deficiencies, IV therapy offers an effective solution to replenish essential vitamins and minerals. One of the most popular and widely used IV infusions is the Myers Cocktail IV, a blend of powerful nutrients designed to enhance overall wellness.</p>
                     <p>Developed by Dr. John Myers, this vitamin cocktail IV has been used for decades to help reduce fatigue, improve brain function, support immune health, and alleviate muscle spasms. Whether administered in a clinic or at home, the Myers IV drip is a go-to solution for those seeking a natural energy boost and improved health.</p>
                     
-                    <h5>What is the Myers Cocktail IV?</h5>
+                    <h2>What is the Myers Cocktail IV?</h2>
                     <p>The <a href="<?= base_url() ?>myers-iv-drip">Myers Cocktail</a> is a specially formulated intravenous vitamin infusion that delivers a concentrated blend of essential vitamins and minerals directly into the bloodstream. Unlike oral supplements, which must be digested, IV therapy allows for 100% absorption, ensuring maximum effectiveness.</p>
                     
-                    <h5>Key Ingredients in a Myers IV Drip</h5>
+                    <h2>Key Ingredients in a Myers IV Drip</h2>
 
                     <ul class="ingredients-list">
                         <li><strong>Vitamin C</strong>: Boosts the immune system and fights oxidative stress.</li>
@@ -144,7 +144,7 @@
 
                     <p>These water-soluble vitamins and minerals are quickly absorbed, making the Myers Cocktail IV an effective option for various medical conditions and wellness goals.</p>
                     
-                    <h5>Benefits of the Myers Cocktail IV Drip</h5>
+                    <h2>Benefits of the Myers Cocktail IV Drip</h2>
                     <ol>
                         <li>
                             <strong>Boosts Energy &amp; Reduces Fatigue</strong>
@@ -184,7 +184,7 @@
                         </li>
                     </ol>
                     
-                    <h5>Who Can Benefit from a Myers Cocktail IV?</h5>
+                    <h2>Who Can Benefit from a Myers Cocktail IV?</h2>
                     <p>The Myers Cocktail IV drip is commonly recommended for people dealing with:</p>
                     <ul class="tick-list">
                         <li>Chronic fatigue syndrome</li>
@@ -198,10 +198,10 @@
                     </ul>
                     <p>Whether you are managing a specific health condition or looking for a natural energy boost, the Myers IV drip provides a safe and effective solution.</p>
                     
-                    <h5>Myers Cocktail at Home: Can You Do It?</h5>
+                    <h2>Myers Cocktail at Home: Can You Do It?</h2>
                     <p>For those who prefer convenience and privacy, Myers Cocktail IV therapy at home is now an option. Many IV therapy providers offer home infusion services, allowing individuals to receive their vitamin cocktail IV without visiting a clinic.</p>
                     
-                    <h5>How Does At-Home IV Therapy Work?</h5>
+                    <h2>How Does At-Home IV Therapy Work?</h2>
                     <ol>
                         <li><strong>Consultation with a Medical Professional</strong>: A licensed healthcare professional assesses your health condition and needs.</li>
                         <li><strong>Customized IV Formulation</strong>: The Myers Cocktail is prepared with the correct vitamin and mineral balance.</li>
@@ -210,7 +210,7 @@
                     </ol>
                     <p>At-home IV therapy is a safe, effective, and time-saving option for busy professionals, individuals with mobility limitations, and those looking for regular vitamin therapy.</p>
                     
-                    <h5>Are There Any Side Effects?</h5>
+                    <h2>Are There Any Side Effects?</h2>
                     <p>The Myers Cocktail IV is generally safe and well-tolerated. However, mild side effects may occur, such as:</p>
                     <ul class="ingredients-list">
                         <li>Temporary discomfort at the injection site</li>
@@ -218,7 +218,7 @@
                     </ul>
                     <p>These effects are rare and typically resolve quickly. As with any IV vitamin therapy, it is recommended to receive treatment from a licensed medical professional.</p>
                     
-                    <h5>Frequently Asked Questions</h5>
+                    <h2>Frequently Asked Questions</h2>
                     <ol>
                         <li>
                             <strong>How often should I get a Myers IV drip?</strong> 
@@ -238,7 +238,7 @@
                         </li>
                     </ol>
                     
-                    <h5>Final Thoughts: Is the Myers Cocktail IV Right for You?</h5>
+                    <h2>Final Thoughts: Is the Myers Cocktail IV Right for You?</h2>
                     <p>The Myers Cocktail IV drip is a powerful, science-backed therapy designed to deliver essential vitamins and minerals for energy, immunity, and wellness.</p>
                     <p>All IV drips at Healthcarebia are administered in accordance with Dubai Health Authority (DHA) guidelines, and our protocols align with NABID best practices and the Shryan clinical framework to ensure maximum safety, efficacy, and compliance.</p>
 

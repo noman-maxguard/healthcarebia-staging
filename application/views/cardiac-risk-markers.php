@@ -292,7 +292,7 @@
                 <div class="accordion pt-md-3">
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>1</span>What is a Cardiac Risk Markers test?</h5>
+                            <h3><span>1</span>What is a Cardiac Risk Markers test?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -302,7 +302,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>2</span>Which biomarkers are included in this Cardiac Risk Markers panel?</h5>
+                            <h3><span>2</span>Which biomarkers are included in this Cardiac Risk Markers panel?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -312,7 +312,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>3</span>Who should consider doing the Cardiac Risk Markers test?</h5>
+                            <h3><span>3</span>Who should consider doing the Cardiac Risk Markers test?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -326,7 +326,7 @@
                 <div class="accordion pt-md-3">
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>4</span>How soon will I get my Cardiac Risk Markers results?</h5>
+                            <h3><span>4</span>How soon will I get my Cardiac Risk Markers results?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -336,7 +336,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>5</span>Is this test diagnostic for heart disease?</h5>
+                            <h3><span>5</span>Is this test diagnostic for heart disease?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -346,7 +346,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>6</span>Why choose Healthcarebia for Cardiac Risk Markers in Dubai?</h5>
+                            <h3><span>6</span>Why choose Healthcarebia for Cardiac Risk Markers in Dubai?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">

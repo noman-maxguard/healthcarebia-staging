@@ -64,7 +64,7 @@
 
 </div>
 
-<section class="section-gap">
+<section class="section-gap lab-test-pages-child">
 
     <div class="container">
 
@@ -82,11 +82,11 @@
 
                     <div class="mt-4">
                         
-                        <h4>Annual Health Check-Up</h4>
+                        <h2>Annual Health Check-Up</h2>
 
                         <p>Our convenient Annual Health Checkup Service, bringing comprehensive healthcare to the comfort of your home.</p>
 
-                        <h5>What's Included in Our Annual Health Checkup Service?</h5>
+                        <h3>What's Included in Our Annual Health Checkup Service?</h3>
                         
                         <p>Our comprehensive annual health checkup typically includes:</p>
                         
@@ -167,7 +167,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>1</span>What is the Annual Health Checkup Service?</h5>
+                            <h3><span>1</span>What is the Annual Health Checkup Service?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -177,7 +177,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>2</span>What is usually included in the Annual Health Checkup?</h5>
+                            <h3><span>2</span>What is usually included in the Annual Health Checkup?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -187,7 +187,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>3</span>Who should consider booking an Annual Health Checkup at home?</h5>
+                            <h3><span>3</span>Who should consider booking an Annual Health Checkup at home?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -203,7 +203,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>4</span>How does the at home Annual Health Checkup work?</h5>
+                            <h3><span>4</span>How does the at home Annual Health Checkup work?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -213,7 +213,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>5</span>What are the main benefits of doing an Annual Health Checkup?</h5>
+                            <h3><span>5</span>What are the main benefits of doing an Annual Health Checkup?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -223,7 +223,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>6</span>When will I receive my results and what should I do with them?</h5>
+                            <h3><span>6</span>When will I receive my results and what should I do with them?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">

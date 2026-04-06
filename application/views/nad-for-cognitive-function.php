@@ -115,7 +115,7 @@
     <div class="overlay"></div>
 </section>
 
-<section class="light-bg-color section-gap">
+<section class="light-bg-color section-gap single-blog-page">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9">
@@ -128,20 +128,20 @@
 
                     <h1>For CEOs - How NAD+ Improves Cognitive Function During Multitasking</h1>
 
-                    <h5>Introduction</h5>
+                    <h2>Introduction</h2>
                     <p>As a CEO or business leader managing multiple ventures, mental sharpness is non-negotiable. Between back-to-back meetings, strategic decisions, and frequent travel, cognitive overload is real. Enter <a href="<?= base_url() ?>nad-iv-drip">NAD+ therapy</a> for executives in Dubai — a concierge healthcare offering from HealthcareBIA designed to enhance focus, combat mental fatigue, and support top-level multitasking performance.</p>
 
-                    <h5>Why Busy Executives Need More Than Coffee</h5>
+                    <h2>Why Busy Executives Need More Than Coffee</h2>
                     <p>Multitasking depletes cellular energy reserves and contributes to oxidative stress in the brain. Standard routines—coffee, power naps, sugar fixes—may offer temporary relief but don’t address the root cause: cellular fatigue. That’s where NAD+ comes in—a master coenzyme in every cell pivotal for mitochondrial energy production, <a href="<?= base_url() ?>lab-test-at-home">DNA</a> repair, and neuroprotection (Rajman et al., 2018).</p>
 
-                    <h5>The Science Behind NAD+ &amp; Brain Function</h5>
+                    <h2>The Science Behind NAD+ &amp; Brain Function</h2>
                     <ol>
                         <li><strong>Boosting Neuronal Communication:</strong> Elevating NAD+ levels has been shown to improve synaptic signaling, supporting memory retention and mental clarity (Gong et al., 2013).</li>
                         <li><strong>Combating Neuroinflammation:</strong> In preclinical models, NAD+ protocols reduced oxidative damage and inflammatory markers, preserving mitochondrial function and cognitive performance under stress (Hou et al., 2018).</li>
                         <li><strong>Long-Term Brain Health:</strong> Early human trials with NAD+ precursors such as NR and NMN indicate potential for sustaining cognitive health and repairing age-related mitochondrial dysfunction—especially under high-stress conditions (Martens et al., 2018).</li>
                     </ol>
 
-                    <h5>Why Executives Are Turning to NAD+ Therapy</h5>
+                    <h2>Why Executives Are Turning to NAD+ Therapy</h2>
                     <ul class="ingredients-list">
                         <li><strong>Real Energy Without the Crash:</strong> IV-administered NAD+ bypasses digestion, delivering coenzyme directly into circulation for a cleaner, more powerful boost than oral supplements.</li>
                         <li><strong>Mental Clarity for Better Decisions:</strong> Executives report marked improvements in focus, memory recall, and processing speed—essential for high-stakes meetings and strategic planning.</li>
@@ -149,21 +149,21 @@
                         <li><strong>Performance-Driven Longevity:</strong> Many see NAD+ not as a treatment but as a future-proofing investment in sustained productivity and wellbeing.</li>
                     </ul>
 
-                    <h5>How You Can Incorporate NAD+ at Work</h5>
+                    <h2>How You Can Incorporate NAD+ at Work</h2>
                     <ul class="ingredients-list">
                         <li><strong>Morning Power Start:</strong> Kick off the day with <a href="<?= base_url() ?>nad-iv-drip">NAD+</a> infusion before major strategy meetings or public speaking engagements.</li>
                         <li><strong>Midday Reset:</strong> Schedule a quick session between afternoon calls to combat the post-lunch cognitive dip and maintain peak performance.</li>
                         <li><strong>Travel Companion:</strong> Use NAD+ IV during layovers to offset jet lag and sharpen focus across time zones.</li>
                     </ul>
 
-                    <h5>What the Studies Say</h5>
+                    <h2>What the Studies Say</h2>
                     <ul class="ingredients-list">
                         <li>NAD+ reversed memory deficits and reduced brain inflammation in rodent stress models (Hou et al., 2018).</li>
                         <li>NAD+ precursors improved biomarkers of cellular aging in healthy middle-aged adults, hinting at brain-protective benefits under metabolic stress (Martens et al., 2018).</li>
                         <li>Clinical narratives highlight enhanced neuronal connectivity and mood stabilization—critical when juggling complex decision trees (Gong et al., 2013).</li>
                     </ul>
 
-                    <h5>Is NAD+ Therapy Right for You?</h5>
+                    <h2>Is NAD+ Therapy Right for You?</h2>
                     <p>If you’re a leader who refuses to tolerate brain fog, mental fatigue, or performance dips, NAD+ IV therapy could be your strategic edge. Discover how it integrates with our Strategic Achiever wellness approach.</p>
                     <p>All IV drips at Healthcarebia are administered in accordance with Dubai Health Authority (DHA) guidelines, and our protocols align with NABID best practices and the Shryan clinical framework to ensure maximum safety, efficacy, and compliance.</p>
 
@@ -174,7 +174,7 @@
                         <li>Real-time alignment with travel, business, and peak performance schedules</li>
                     </ul>
 
-                    <h5>Book Your Cognitive Edge Today</h5>
+                    <h2>Book Your Cognitive Edge Today</h2>
                     <p>If multitasking, razor-sharp focus, and sustained energy are critical to your success, discover how HealthcareBIA’s NAD+ IV therapy can transform your executive performance:</p>
                     <ul class="ingredients-list">
                         <li>Chat with our concierge team on WhatsApp to book</li>
@@ -182,7 +182,7 @@
                         <li>Take our “Find Your Drip” quiz to match symptoms with tailored drips</li>
                     </ul>
 
-                    <h5>References</h5>
+                    <h2>References</h2>
                     <ol>
                         <li>Gong, B. et al. (2013). NAD+ supplementation improves cognitive function in Alzheimer’s disease mouse models. <em>Journal of Neuroscience</em>.</li>
                         <li>Hou, Y. et al. (2018). NAD+ supplementation reduces neuroinflammation and cellular senescence in the aging brain. <em>Cell Reports</em>.</li>

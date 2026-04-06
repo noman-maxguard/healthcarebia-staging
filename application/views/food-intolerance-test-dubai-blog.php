@@ -68,7 +68,7 @@
   <div class="overlay"></div>
 </section>
 
-<section class="light-bg-color section-gap">
+<section class="light-bg-color section-gap single-blog-page">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-9">
@@ -84,14 +84,14 @@
 
           <p>If your gut feels off, bloating after lunch, 4&nbsp;p.m. headaches, or skin flares that won’t quit, you’re not alone. Many people in Dubai live with food reactions without a clear diagnosis. A Food Intolerance Test Dubai package can help you connect the dots between symptoms and triggers, then build a plan that actually fits your lifestyle. Below is a clear guide to symptoms, the science behind testing, and the smartest next steps so you can move from guesswork to a results-driven nutrition plan.</p>
 
-          <h5>Intolerance vs. Allergy vs. Sensitivity</h5>
+          <h2>Intolerance vs. Allergy vs. Sensitivity</h2>
           <ul class="ingredients-list">
             <li><strong>Food allergy (IgE):</strong> Immediate immune reaction—hives, swelling, wheeze, or anaphylaxis. This is urgent medical territory and needs an allergy specialist.</li>
             <li><strong>Food intolerance/sensitivity:</strong> Delayed or non-immune reactions—gas, bloating, reflux, fatigue, brain fog, headaches, joint aches, or skin issues <em>hours to days</em> after a meal. Uncomfortable and draining, but usually not dangerous.</li>
           </ul>
           <p class="note">Why this matters, Knowing which bucket you’re in guides the right test, and the right plan.</p>
 
-          <h5>Common Symptoms Linked to Food Intolerance</h5>
+          <h2>Common Symptoms Linked to Food Intolerance</h2>
           <ul class="ingredients-list">
             <li>Bloating, gas, abdominal discomfort, reflux</li>
             <li>Irregular bowel habits (constipation or diarrhea)</li>
@@ -102,7 +102,7 @@
           </ul>
           <p>If you spot patterns—say <em>dairy at breakfast → bloating by noon</em>—testing plus a structured diet trial often brings relief in weeks.</p>
 
-          <h5>The Science: Which Tests Make Sense?</h5>
+          <h2>The Science: Which Tests Make Sense?</h2>
           <p>There isn’t one “best” test for everyone. The right food intolerance test depends on your symptoms and history.</p>
 
           <table>
@@ -140,10 +140,10 @@
 
           <p class="note">Tip, A short clinical screen often narrows choices. Start with the highest-yield test for your symptoms, then layer more only if needed.</p>
 
-          <h5>Why Test in Dubai?</h5>
+          <h2>Why Test in Dubai?</h2>
           <p>Life here is unique, late dinners, frequent travel, buffet-style events. Add heat stress and variable sleep, and the gut can struggle. A Food Intolerance Test Dubai program tailored to local diets (Arabic, Indian, Filipino, Levant, Western) plus practical coaching helps you change meals without losing culture or convenience. Prefer privacy? Lab test at home Dubai options make the process easy.</p>
 
-          <h5>A Smart, Four Week Game Plan</h5>
+          <h2>A Smart, Four Week Game Plan</h2>
 
           <p><strong>Week 0, Baseline &amp; Setup</strong></p>
           <ul class="ingredients-list">
@@ -172,7 +172,7 @@
             <li>If labs were low, correct with food first; consider supplements only if needed.</li>
           </ul>
 
-          <h5>Sample One Day Menu (Adjust to Your Results)</h5>
+          <h2>Sample One Day Menu (Adjust to Your Results)</h2>
           <ul class="ingredients-list">
             <li><strong>Breakfast:</strong> Eggs with spinach &amp; cherry tomatoes; GF toast or rice cakes; lactose free yogurt on workout days.</li>
             <li><strong>Lunch:</strong> Grilled chicken or paneer with quinoa; cucumber &amp; carrots with lemon olive oil.</li>
@@ -182,21 +182,21 @@
             <li><strong>Optional:</strong> If labs show deficiencies, discuss a vitamin IV drip (e.g., Myers style) as a short term replenishment tool during high stress weeks, always alongside diet work.</li>
           </ul>
 
-          <h5>When to Add IV or Supportive Care</h5>
+          <h2>When to Add IV or Supportive Care</h2>
           <ul class="tick-list">
             <li><strong>Severe fatigue or low labs</strong> (iron, B12, vitamin D, magnesium), Fix the root cause (diet, absorption). Short blocks of IV therapy may support recovery while you rebuild with food.</li>
             <li><strong>Frequent travel or events:</strong> A tailored hydration or immune boost IV can help during demanding periods.</li>
             <li><strong>Rule of thumb:</strong> IVs support the plan, they don’t replace trigger management.</li>
           </ul>
 
-          <h5>Red Flags, See a Specialist Promptly</h5>
+          <h2>Red Flags, See a Specialist Promptly</h2>
           <ul class="ingredients-list">
             <li>Unintentional weight loss, persistent vomiting, blood in stool, fever, nighttime symptoms, or severe pain</li>
             <li>Family history of celiac, IBD, or colorectal cancer</li>
             <li>New symptoms after starting a medication, review with your doctor</li>
           </ul>
 
-          <h5>FAQs</h5>
+          <h2>FAQs</h2>
           <p>How long until I feel better?<br>
           Many notice changes within 2–3 weeks of a targeted plan. Deeper gut repair can take longer, especially after SIBO or celiac treatment.</p>
 
@@ -206,7 +206,7 @@
           <p>Are at home tests accurate?<br>
           When performed correctly and chosen well (breath tests, celiac screen, nutrient panels), they’re reliable. We handle lab test at home in Dubai sampling, nurse visits, and physician review to keep quality high.</p>
 
-          <h5>How Healthcarebia Can Help</h5>
+          <h2>How Healthcarebia Can Help</h2>
           <ul class="tick-list">
             <li><strong>Food Intolerance Test Dubai:</strong> Breath tests (lactose, fructose, SIBO), celiac screening, nutrient panels, and targeted stool tests when needed.</li>
             <li><strong>Lab test at home in Dubai:</strong> Nurse visit, fast turnaround, private results.</li>
@@ -214,7 +214,7 @@
             <li><strong>Optional IV support:</strong> Short term vitamin IV or Myers style protocols for low labs or heavy travel, guided by clinicians.</li>
           </ul>
 
-          <h5>Ready to Find Your Triggers and Feel Better Fast?</h5>
+          <h2>Ready to Find Your Triggers and Feel Better Fast?</h2>
           <p>Book your Food Intolerance Test in Dubai today. WhatsApp <a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">Healthcarebia now</a>.</p>
 
           <p><small>Disclaimer, This article is for educational purposes and does not replace professional medical advice. Always consult a licensed practitioner if you have underlying conditions or severe symptoms.</small></p>

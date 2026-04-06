@@ -45,7 +45,7 @@
          style="background-image: url(<?= base_url() ?>assets/frontend/img/small-banner.webp);">
     <div class="overlay"></div>
 </section>
-<section class="light-bg-color section-gap">
+<section class="light-bg-color section-gap single-blog-page">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9">
@@ -62,7 +62,7 @@
                         has emerged as a popular and effective solution to provide quick relief. This article
                         will delve into the world of IV drip therapy and explore how its ingredients, such as Vitamin
                         B12, B complex, Vitamin C, Magnesium, Glutathione, and trace minerals, offer numerous benefits
-                        for combating hangovers.</p>                    <h5>How does a Hangover occur?</h5>
+                        for combating hangovers.</p>                    <h2>How does a Hangover occur?</h2>
                     <p>When alcohol is consumed, it is quickly absorbed into the bloodstream and spreads throughout the
                         body. Alcohol acts as a diuretic, causing increased urine production and dehydration. This,
                         along with the loss of important electrolytes, disrupts the body's normal fluid balance. The
@@ -71,7 +71,7 @@
                         metabolism produces toxic by-products, including acetaldehyde, which contribute to hangover
                         symptoms such as headaches, fatigue, and a general feeling of being unwell. In addition, alcohol
                         disrupts sleep patterns and immune function, further contributing to the discomfort experienced
-                        during a hangover.</p><h5>What do I need to get rid of a Hangover?</h5>
+                        during a hangover.</p><h2>What do I need to get rid of a Hangover?</h2>
                     <p>Vitamin B12: Vitamin B12 plays a crucial role in energy production and neurological function.
                         Excessive alcohol consumption can deplete B12 levels in the body, leading to fatigue and mental
                         fog. By replenishing B12 through IV drip therapy, energy levels are restored, and cognitive
@@ -93,7 +93,7 @@
                         in detoxification and reducing oxidative stress. It also supports liver function, which is
                         crucial for alcohol metabolism and elimination from the body.</p>
                     <p>Trace Minerals: These minerals support various enzymatic reactions in the body, enhance immune
-                        function, and contribute to overall well-being.</p><h5>Conclusion:</h5>
+                        function, and contribute to overall well-being.</p><h2>Conclusion:</h2>
                     <p><a href="<?= base_url() ?>iv-drip-dubai">IV Therapy</a> has revolutionized hangover relief by providing quick and effective relief from the
                         symptoms of excessive alcohol consumption. Healthcarebia's Hangover Recovery Drip has the
                         combination of essential ingredients such as Vitamin B12, B complex, Vitamin C, Magnesium,

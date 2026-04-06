@@ -214,7 +214,7 @@
                 <p>The <strong>Good Sleep IV Drip </strong> promotes deep and restful sleep, relaxes tense muscles, boosts collagen production for healthier skin and joints, and even helps keep the heart rhythm steady. It’s a well-rounded formula for anyone looking to support their overall wellness.</p>
             </div>
             <div class="col-md-12 text-center mb-3">
-                <h5>Benefits of Good Sleep IV Drip</h5>
+                <h3>Benefits of Good Sleep IV Drip</h3>
             </div>
             <div class="col-6 col-md-4 mb-3">
                 <div class="card-style1 same">
@@ -279,7 +279,7 @@
                 <div class="accordion pt-md-3">
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>1</span>How long does a Good Sleep IV Drip session last?</h5>
+                            <h3><span>1</span>How long does a Good Sleep IV Drip session last?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -288,7 +288,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>2</span>Who should consider a Good Sleep IV Drip?</h5>
+                            <h3><span>2</span>Who should consider a Good Sleep IV Drip?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -297,7 +297,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>3</span>How soon will I notice an improvement in my sleep?</h5>
+                            <h3><span>3</span>How soon will I notice an improvement in my sleep?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -306,7 +306,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>4</span>What nutrients are in the Good Sleep IV Drip and how do they work?</h5>
+                            <h3><span>4</span>What nutrients are in the Good Sleep IV Drip and how do they work?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -315,7 +315,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>5</span>Can I have the Good Sleep IV Drip if I’m already taking sleep medication or supplements?</h5>
+                            <h3><span>5</span>Can I have the Good Sleep IV Drip if I’m already taking sleep medication or supplements?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -328,7 +328,7 @@
                 <div class="accordion pt-md-3">
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>6</span>How often can I receive the Good Sleep IV Drip?</h5>
+                            <h3><span>6</span>How often can I receive the Good Sleep IV Drip?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -337,7 +337,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>7</span>Is the Good Sleep IV Drip safe?</h5>
+                            <h3><span>7</span>Is the Good Sleep IV Drip safe?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -346,7 +346,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>8</span>Are there any side effects?</h5>
+                            <h3><span>8</span>Are there any side effects?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -355,7 +355,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>9</span>How quickly can I expect to see improvement in my sleep quality after receiving the Good Sleep IV Drip?</h5>
+                            <h3><span>9</span>How quickly can I expect to see improvement in my sleep quality after receiving the Good Sleep IV Drip?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -364,7 +364,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>10</span>Who should avoid the Good Sleep IV Drip?</h5>
+                            <h3><span>10</span>Who should avoid the Good Sleep IV Drip?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">

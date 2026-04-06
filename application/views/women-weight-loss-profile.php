@@ -336,7 +336,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>1</span>What is the Women’s Weight Loss Profile focused on?</h5>
+                            <h3><span>1</span>What is the Women’s Weight Loss Profile focused on?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -350,7 +350,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>2</span>Which health markers are usually checked in this profile?</h5>
+                            <h3><span>2</span>Which health markers are usually checked in this profile?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -365,7 +365,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>3</span>Who is this profile most suitable for?</h5>
+                            <h3><span>3</span>Who is this profile most suitable for?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -386,7 +386,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>4</span>Will this test by itself make me lose weight?</h5>
+                            <h3><span>4</span>Will this test by itself make me lose weight?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -401,7 +401,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>5</span>How should I prepare for the Women’s Weight Loss Profile tests?</h5>
+                            <h3><span>5</span>How should I prepare for the Women’s Weight Loss Profile tests?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -416,7 +416,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>6</span>How are the results used to guide a weight loss plan?</h5>
+                            <h3><span>6</span>How are the results used to guide a weight loss plan?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">

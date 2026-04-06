@@ -67,7 +67,7 @@
     <div class="overlay"></div>
 </section>
 
-<section class="light-bg-color section-gap">
+<section class="light-bg-color section-gap single-blog-page">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9">
@@ -82,12 +82,12 @@
                     <h1>Top 10 Healthy Lifestyle Habits for Busy Professionals</h1>
 
                     <!-- Introduction -->
-                    <h5>Introduction</h5>
+                    <h2>Introduction</h2>
                     <p>Life as a busy professional often means long working hours, high stress, and little time for personal well-being. Skipping meals, sitting for hours, and relying on caffeine may help meet deadlines, but they take a toll on your overall health. Over time, these patterns can lead to health issues, fatigue, and even serious medical conditions like high blood pressure or heart disease.</p>
                     <p>The good news is that adopting healthy lifestyle habits can keep you energized, focused, and resilient. In this guide, we share the top 10 wellness tips for professionals, along with how modern solutions such as IV drip therapy, home lab tests, and healthcare services at home can help you stay at your best.</p>
 
                     <!-- 1 -->
-                    <h5>1. Prioritize Hydration</h5>
+                    <h2>1. Prioritize Hydration</h2>
                     <p>Dehydration is one of the fastest ways to lose energy and focus. Professionals often forget to drink water during back-to-back meetings.</p>
                     <ul class="ingredients-list">
                         <li>Carry a water bottle and sip regularly</li>
@@ -96,7 +96,7 @@
                     <p>Unlike oral supplements, IV fluids deliver nutrients directly into your bloodstream, ensuring maximum absorption.</p>
 
                     <!-- 2 -->
-                    <h5>2. Eat a Balanced Diet</h5>
+                    <h2>2. Eat a Balanced Diet</h2>
                     <p>Fast food and late-night meals may be convenient, but they harm your health in the long run. A diet rich in fruits and vegetables, lean proteins, and whole grains improves concentration and stamina.</p>
                     <ul class="ingredients-list">
                         <li>Pack healthy snacks like nuts and seeds</li>
@@ -106,7 +106,7 @@
                     <p>Balanced nutrition supports mental health, helps regulate weight, and reduces the risk of chronic medical conditions.</p>
 
                     <!-- 3 -->
-                    <h5>3. Protect Your Sleep</h5>
+                    <h2>3. Protect Your Sleep</h2>
                     <p>Sleep is your body’s natural repair mechanism. Without enough rest, productivity drops and health issues rise.</p>
                     <ul class="ingredients-list">
                         <li>Aim for 7–8 hours each night</li>
@@ -115,7 +115,7 @@
                     <p>Better sleep not only boosts focus but also reduces stress and inflammation.</p>
 
                     <!-- 4 -->
-                    <h5>4. Move Daily, Even if Briefly</h5>
+                    <h2>4. Move Daily, Even if Briefly</h2>
                     <p>Long hours at a desk can harm posture, metabolism, and circulation. Even short bursts of activity make a difference.</p>
                     <ul class="ingredients-list">
                         <li>Take the stairs instead of the elevator</li>
@@ -125,7 +125,7 @@
                     <p>Exercise improves overall health, supports mental health, and strengthens immunity.</p>
 
                     <!-- 5 -->
-                    <h5>5. Manage Stress Levels</h5>
+                    <h2>5. Manage Stress Levels</h2>
                     <p>High-pressure work environments trigger stress, which impacts mental health and weakens the immune system.</p>
                     <ul class="ingredients-list">
                         <li>Practice meditation or deep breathing for 5 minutes daily</li>
@@ -134,7 +134,7 @@
                     <p>Stress management is not a luxury, it’s a key to long-term success.</p>
 
                     <!-- 6 -->
-                    <h5>6. Get Preventive Health Checkups</h5>
+                    <h2>6. Get Preventive Health Checkups</h2>
                     <p>Many professionals delay medical care until symptoms appear. But preventive healthcare is far more effective.</p>
                     <ul class="ingredients-list">
                         <li>Schedule annual screenings to detect problems early</li>
@@ -144,7 +144,7 @@
                     <p>With <strong>healthcare services at home</strong>, you can access expert care without interrupting your busy schedule.</p>
 
                     <!-- 7 -->
-                    <h5>7. Strengthen Immunity Year-Round</h5>
+                    <h2>7. Strengthen Immunity Year-Round</h2>
                     <p>Crowded offices and frequent travel increase exposure to germs. Boosting immunity should be a priority.</p>
                     <ul class="ingredients-list">
                         <li>Add Vitamin C and Zinc to your diet</li>
@@ -153,7 +153,7 @@
                     <p>This is especially important for those prone to colds, fatigue, or slow healing.</p>
 
                     <!-- 8 -->
-                    <h5>8. Limit Caffeine and Sugary Drinks</h5>
+                    <h2>8. Limit Caffeine and Sugary Drinks</h2>
                     <p>Coffee and energy drinks are popular quick fixes, but too much can cause crashes and anxiety.</p>
                     <ul class="ingredients-list">
                         <li>Replace energy drinks with herbal teas</li>
@@ -161,7 +161,7 @@
                     </ul>
 
                     <!-- 9 -->
-                    <h5>9. Maintain Work-Life Balance</h5>
+                    <h2>9. Maintain Work-Life Balance</h2>
                     <p>Overworking may feel productive but leads to burnout, mental health struggles, and strained relationships.</p>
                     <ul class="ingredients-list">
                         <li>Set boundaries between work and personal time</li>
@@ -171,7 +171,7 @@
                     <p>Work-life balance is not just about happiness, it protects your overall health.</p>
 
                     <!-- 10 -->
-                    <h5>10. Invest in Professional Wellness Services</h5>
+                    <h2>10. Invest in Professional Wellness Services</h2>
                     <p>Even with the best intentions, busy professionals may miss essential nutrients or medical checks. Modern wellness solutions bridge this gap.</p>
                     <ul class="ingredients-list">
                         <li><strong>IV drip therapy:</strong> Delivers essential vitamins directly into the bloodstream</li>
@@ -182,11 +182,11 @@
                     <p>For executives, athletes, or anyone under pressure, these services provide the best IV therapy experience for convenience and results.</p>
 
                     <!-- Conclusion -->
-                    <h5>Conclusion</h5>
+                    <h2>Conclusion</h2>
                     <p>Maintaining health in a demanding career is not easy, but it is possible. By adopting these healthy lifestyle habits, hydration, balanced nutrition, quality sleep, exercise, stress management, and regular checkups, you can improve focus, productivity, and resilience.</p>
 
                     <!-- Optional CTA -->
-                    <h5>Ready to Optimise Your Routine?</h5>
+                    <h2>Ready to Optimise Your Routine?</h2>
                     <p><a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" class="button d-inline">WhatsApp Healthcarebia</a> to book a personalised wellness plan—IV therapy, home lab tests, and at-home checkups—scheduled around your workday.</p>
 
                     <p><small><strong>Disclaimer:</strong> This article is for educational purposes and does not replace professional medical advice. Always consult a licensed practitioner if you have underlying conditions or severe symptoms.</small></p>

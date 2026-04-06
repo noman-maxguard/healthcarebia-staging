@@ -304,7 +304,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>1</span>What is a General Allergy Test?</h5>
+                            <h3><span>1</span>What is a General Allergy Test?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -314,7 +314,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>2</span>What does the Allergy Test General Dubai panel usually include?</h5>
+                            <h3><span>2</span>What does the Allergy Test General Dubai panel usually include?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -324,7 +324,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>3</span>Who should consider doing a General Allergy Test?</h5>
+                            <h3><span>3</span>Who should consider doing a General Allergy Test?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -340,7 +340,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>4</span>How is the General Allergy Test performed and is it painful?</h5>
+                            <h3><span>4</span>How is the General Allergy Test performed and is it painful?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -350,7 +350,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>5</span>How does at home blood sample collection work for Allergy Test General Dubai?</h5>
+                            <h3><span>5</span>How does at home blood sample collection work for Allergy Test General Dubai?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -360,7 +360,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>6</span>How quickly will I receive my results and how are they used?</h5>
+                            <h3><span>6</span>How quickly will I receive my results and how are they used?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">

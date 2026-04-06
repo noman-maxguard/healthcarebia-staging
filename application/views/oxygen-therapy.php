@@ -111,7 +111,7 @@
 
                         great addition to IV Therapy, allowing nutrients to be absorbed more effectively.</p>
 
-                    <h5 class="mt-4 mb-4">Lack of Oxygen Symptoms</h5>
+                    <h3 class="mt-4 mb-4">Lack of Oxygen Symptoms</h3>
 
                     <div class="row justify-content-center">
 
@@ -223,7 +223,7 @@
         <div class="accordion pt-md-3">
           <div class="accordion-box">
             <div class="accordion-item">
-              <h5><span>1</span>What is hyperbaric oxygen therapy and how does it work?</h5>
+              <h3><span>1</span>What is hyperbaric oxygen therapy and how does it work?</h3>
               <span class="plus-minus"></span>
             </div>
             <div class="data" style="display: none;">
@@ -233,7 +233,7 @@
 
           <div class="accordion-box">
             <div class="accordion-item">
-              <h5><span>2</span>Is oxygen therapy safe for everyone?</h5>
+              <h3><span>2</span>Is oxygen therapy safe for everyone?</h3>
               <span class="plus-minus"></span>
             </div>
             <div class="data" style="display: none;">
@@ -243,7 +243,7 @@
 
           <div class="accordion-box">
             <div class="accordion-item">
-              <h5><span>3</span>How long does a session take and what should I expect?</h5>
+              <h3><span>3</span>How long does a session take and what should I expect?</h3>
               <span class="plus-minus"></span>
             </div>
             <div class="data" style="display: none;">
@@ -258,7 +258,7 @@
         <div class="accordion pt-md-3">
           <div class="accordion-box">
             <div class="accordion-item">
-              <h5><span>4</span>What conditions can oxygen therapy help with?</h5>
+              <h3><span>4</span>What conditions can oxygen therapy help with?</h3>
               <span class="plus-minus"></span>
             </div>
             <div class="data" style="display: none;">
@@ -268,7 +268,7 @@
 
           <div class="accordion-box">
             <div class="accordion-item">
-              <h5><span>5</span>How many oxygen therapy sessions do I need?</h5>
+              <h3><span>5</span>How many oxygen therapy sessions do I need?</h3>
               <span class="plus-minus"></span>
             </div>
             <div class="data" style="display: none;">
@@ -278,7 +278,7 @@
 
           <div class="accordion-box">
             <div class="accordion-item">
-              <h5><span>6</span>Are there any side effects or who should avoid HBOT?</h5>
+              <h3><span>6</span>Are there any side effects or who should avoid HBOT?</h3>
               <span class="plus-minus"></span>
             </div>
             <div class="data" style="display: none;">

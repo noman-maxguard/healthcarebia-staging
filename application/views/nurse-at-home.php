@@ -393,7 +393,7 @@
         <div class="accordion pt-md-3">
           <div class="accordion-box">
             <div class="accordion-item">
-              <h5><span>1</span>What does the Nurse at Home service include?</h5>
+              <h3><span>1</span>What does the Nurse at Home service include?</h3>
               <span class="plus-minus"></span>
             </div>
             <div class="data" style="display: none;">
@@ -408,7 +408,7 @@
         <div class="accordion pt-md-3">
           <div class="accordion-box">
             <div class="accordion-item">
-              <h5><span>2</span>How do I book and how fast can a nurse arrive?</h5>
+              <h3><span>2</span>How do I book and how fast can a nurse arrive?</h3>
               <span class="plus-minus"></span>
             </div>
             <div class="data" style="display: none;">

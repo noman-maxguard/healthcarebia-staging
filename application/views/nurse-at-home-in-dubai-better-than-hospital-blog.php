@@ -69,7 +69,7 @@
     <div class="overlay"></div>
 </section>
 
-<section class="light-bg-color section-gap">
+<section class="light-bg-color section-gap single-blog-page">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9">
@@ -84,13 +84,13 @@
                     <h1>Nurse at Home in Dubai: When Is It Better Than Going to the Hospital?</h1>
 
                     <!-- Intro: why families choose home nursing -->
-                    <h5>Why More Families in Dubai Are Choosing Nurse at Home Services</h5>
+                    <h2>Why More Families in Dubai Are Choosing Nurse at Home Services</h2>
                     <p>In a city as fast moving as Dubai, it is not always practical or safe to sit in traffic, wait in crowded emergency rooms, and move a fragile family member for every checkup. Many people now search for nurse at home Dubai, home nursing Dubai, or home nurse services Dubai when a loved one needs regular medical support but does not require a full hospital stay.</p>
                     <p>A well planned nurse at home visit can feel like bringing a small part of the hospital to your living room. Monitors, medication schedules, wound care, and even IV drip at home Dubai can all be delivered where the patient feels safest. For families who are balancing work, children, and older relatives, this model often provides a calmer and more organised routine.</p>
                     <p>This becomes especially powerful when home nursing is part of an integrated model like healthcarebia, where the same team can coordinate doctor on call Dubai, lab test at home Dubai, STD test Dubai, DNA test Dubai, and other services, rather than just offering occasional visits.</p>
 
                     <!-- What nurse at home really means -->
-                    <h5>What Does “Nurse at Home” Really Mean in Dubai?</h5>
+                    <h2>What Does “Nurse at Home” Really Mean in Dubai?</h2>
                     <p>A home nursing visit is more than a kind caregiver dropping in. It is a clinical service and part of wider home healthcare Dubai. A DHA licensed nurse follows clear medical orders, infection control standards, and safety protocols, similar to those used inside hospitals.</p>
                     <ul class="tick-list">
                         <li>Every nurse should have an active DHA licence that can be checked on the Sheryan portal.</li>
@@ -101,7 +101,7 @@
                     <p>These services sit inside a larger ecosystem of Dubai home care services and home medical care Dubai, which can also include physiotherapy at home, IV therapy, oxygen therapy Dubai, and discreet sexual health or STD screening Dubai. The key question is simple: when is this model safer and more comfortable than going back to hospital, and when do you still need emergency or inpatient care?</p>
 
                     <!-- When home nurse is better -->
-                    <h5>When a Nurse at Home Is Better Than Going to the Hospital</h5>
+                    <h2>When a Nurse at Home Is Better Than Going to the Hospital</h2>
                     <p>Not every health problem needs a hospital bed. In many cases, a structured nurse at home service in Dubai is safer, more comfortable, and easier for the entire family.</p>
 
                     <ol>
@@ -170,7 +170,7 @@
                     </ol>
 
                     <!-- When hospital is needed -->
-                    <h5>When You Need to Go Straight to the Hospital or Emergency</h5>
+                    <h2>When You Need to Go Straight to the Hospital or Emergency</h2>
                     <p>A nurse at home is not a replacement for emergency services. You should bypass home care and call emergency services or go to the nearest hospital if any of the following are present:</p>
                     <ul class="ingredients-list">
                         <li>Sudden chest pain, especially with sweating or shortness of breath</li>
@@ -184,13 +184,13 @@
                     <p>Under DHA frameworks, DHA approved home care services are required to have clear escalation paths. Nurses are trained to recognise danger signs, call an ambulance, and direct you to emergency care without delay when needed. Home visits are designed for stable or semi stable patients. Emergency departments are for life threatening or rapidly worsening conditions.</p>
 
                     <!-- How healthcarebia fits -->
-                    <h5>How Healthcarebia Fits Into Your Decision</h5>
+                    <h2>How Healthcarebia Fits Into Your Decision</h2>
                     <p>Choosing between home and hospital is not only a medical decision. It also affects your time, your family obligations, and your sense of safety. A service like healthcarebia can help you decide which setting is right for your current situation.</p>
                     <p>With integrated home nursing Dubai, doctor on call Dubai, IV drip at home, oxygen therapy, and lab test at home, the team can look at your symptoms, medical history, and goals rather than just treating one visit in isolation.</p>
                     <p>You can contact healthcarebia for a simple review and a clear recommendation about whether a home visit is suitable or whether you should go directly to hospital. When home care is appropriate, a personalised plan can be set up that may include a nurse at home, a doctor visit, and ongoing monitoring.</p>
 
                     <!-- Booking section -->
-                    <h5>Booking a Nurse at Home With Healthcarebia</h5>
+                    <h2>Booking a Nurse at Home With Healthcarebia</h2>
                     <ol>
                         <li>WhatsApp <a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">+971-54-707-7476</a> with your location, a brief summary of the situation, and your preferred time.</li>
                         <li>Our team reviews your message and arranges the right mix of nurse at home, doctor on call, or IV therapy at home as needed.</li>
@@ -198,7 +198,7 @@
                     </ol>
 
                     <!-- Final reality check -->
-                    <h5>Making the Right Choice for Your Family</h5>
+                    <h2>Making the Right Choice for Your Family</h2>
                     <p>Hospital care will always be essential for emergencies and complex procedures. Yet for many everyday situations, a well organised nurse at home service in Dubai gives you hospital level care with less stress, less travel, and more comfort.</p>
                     <p><small><strong>Disclaimer:</strong> This article is for educational purposes and does not replace professional medical advice. Always consult a licensed practitioner if you have underlying conditions or severe symptoms.</small></p>
                 </div>

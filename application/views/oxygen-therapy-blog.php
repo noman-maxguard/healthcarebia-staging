@@ -107,7 +107,7 @@
     <div class="overlay"></div>
 </section>
 
-<section class="light-bg-color section-gap">
+<section class="light-bg-color section-gap single-blog-page">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9">
@@ -129,7 +129,7 @@
                     <p>Key idea: Deep, steady breaths reach more alveoli than fast, shallow breaths. In heat, stress, or fatigue, shallow breathing can reduce oxygen transfer common in Dubai’s climate.</p>
 
                     <!-- Measuring -->
-                    <h5>Measuring Oxygen (What the Numbers Mean)</h5>
+                    <h2>Measuring Oxygen (What the Numbers Mean)</h2>
                     <ul class="ingredients-list">
                         <li><strong>Oxygen saturation (SpO₂ / spo₂):</strong> How much of your hemoglobin carries oxygen. A fingertip sensor uses pulse oximetry to estimate it. Typical resting values for healthy adults are in the mid‑to‑high 90s.</li>
                         <li><strong>Arterial blood gas tests:</strong> A blood sample gives a more exact level of oxygen.</li>
@@ -138,16 +138,16 @@
                     <p>In oxygen therapy Dubai services, we look at <em>readings and symptoms together</em>, not just the device number.</p>
 
                     <!-- Step 2 -->
-                    <h5>Step 2: Hemoglobin—Your Oxygen Shuttle</h5>
+                    <h2>Step 2: Hemoglobin—Your Oxygen Shuttle</h2>
                     <p>Red blood cells carry hemoglobin, a protein that picks up oxygen in the lungs and releases it in tissues. Hemoglobin lets go of oxygen more easily in warm, active muscles. This helps match supply to demand when you move or exercise.</p>
 
                     <!-- Step 3 -->
-                    <h5>Step 3: The “Last Mile” to the Cell</h5>
+                    <h2>Step 3: The “Last Mile” to the Cell</h2>
                     <p>Arteries narrow into capillaries that wrap around your cells. Oxygen leaves hemoglobin, crosses the capillary wall, and diffuses into cells. Inside, it feeds the mitochondria, which make ATP, your energy currency.</p>
                     <p>When delivery falls short, you may feel brain fog, heavy legs on stairs, or slow recovery after workouts or illness.</p>
 
                     <!-- Benefits -->
-                    <h5>Oxygen Therapy Benefits You Can Feel</h5>
+                    <h2>Oxygen Therapy Benefits You Can Feel</h2>
                     <p>Even a small boost can bring real oxygen therapy benefits:</p>
                     <ul class="ingredients-list">
                         <li><strong>Sharper focus:</strong> The brain needs steady oxygen.</li>
@@ -158,7 +158,7 @@
                     <p>These effects do not come from a stimulant. They come from cells finally getting what they need.</p>
 
                     <!-- Devices -->
-                    <h5>Devices &amp; Delivery at Home</h5>
+                    <h2>Devices &amp; Delivery at Home</h2>
                     <p>Most home healthcare Dubai</ plans use a soft nasal cannula attached to an oxygen concentrator. The concentrator filters room air to provide extra oxygen at set flow rates (different amounts of oxygen for different needs). A licensed clinician:</p>
                     <ul class="tick-list">
                         <li>Chooses the starting flow</li>
@@ -168,11 +168,11 @@
                     </ul>
 
                     <!-- HBOT -->
-                    <h5>When HBOT Is Used (Special Cases)</h5>
+                    <h2>When HBOT Is Used (Special Cases)</h2>
                     <p><strong>Hyperbaric oxygen therapy (HBOT)</strong> delivers oxygen at higher pressure in hyperbaric oxygen chambers. Doctors use HBOT for specific problems such as carbon monoxide poisoning, decompression sickness, and some traumatic brain injury cases. HBOT is different from standard at‑home oxygen therapy.</p>
 
                     <!-- High altitude, sleep, sport -->
-                    <h5>High Altitude, Sleep, and Sport</h5>
+                    <h2>High Altitude, Sleep, and Sport</h2>
                     <ul class="ingredients-list">
                         <li><strong>High altitudes:</strong> Thinner air means less oxygen pressure. Some people feel short of breath until they adjust.</li>
                         <li><strong>Sleep apnea:</strong> The main treatment is airway support (CPAP). Oxygen may be added only when appropriate.</li>
@@ -180,7 +180,7 @@
                     </ul>
 
                     <!-- Signs low -->
-                    <h5>Signs Your Oxygen Delivery May Be Low</h5>
+                    <h2>Signs Your Oxygen Delivery May Be Low</h2>
                     <ul class="ingredients-list">
                         <li>Shortness of breath or rapid breathing</li>
                         <li>Headache, dizziness, or heavy fatigue out of proportion to activity</li>
@@ -190,11 +190,11 @@
                     <p><strong>Urgent red flags:</strong> sudden severe breathlessness, chest pain, or fainting. Call emergency services.</p>
 
                     <!-- Where supplemental fits -->
-                    <h5>Where Supplemental Oxygen Fits</h5>
+                    <h2>Where Supplemental Oxygen Fits</h2>
                     <p>Supplemental oxygen raises the oxygen in the air you breathe so more can bind to hemoglobin and reach your tissues. Common goals include easier breathing during activity, better focus when levels run low, and support during hot weather or after travel. Oxygen helps, but it is not a cure by itself. A licensed professional who knows your history should manage your plan.</p>
 
                     <!-- At-home visit -->
-                    <h5>What an At‑Home Visit Looks Like</h5>
+                    <h2>What an At‑Home Visit Looks Like</h2>
                     <ol>
                         <li>Review history and check vitals, including oxygen saturation (SpO₂ / spo₂).</li>
                         <li>Set up a clean, calibrated oxygen concentrator and nasal cannula.</li>
@@ -204,11 +204,11 @@
                     </ol>
 
                     <!-- Oxygen + IV -->
-                    <h5>Oxygen + IV: Delivery and Use</h5>
+                    <h2>Oxygen + IV: Delivery and Use</h2>
                     <p>People searching for <a href="https://www.healthcarebia.ae/iv-drip-dubai">iv therapy in dubai</a> often ask about combining an IV drip with oxygen. Hydration improves circulation (delivery). Targeted nutrients support mitochondrial energy pathways (use). Together, the goal is better delivery and better use of oxygen. Your clinician will advise if this makes sense for your goals and medical conditions.</p>
 
                     <!-- Practical tips -->
-                    <h5>Practical Tips You Can Start Today</h5>
+                    <h2>Practical Tips You Can Start Today</h2>
                     <ul class="ingredients-list">
                         <li><strong>Breathe low and slow:</strong> Use your diaphragm to reach the bases of your lungs.</li>
                         <li><strong>Posture matters:</strong> Keep your chest open, especially if you sit long hours.</li>
@@ -218,7 +218,7 @@
                     </ul>
 
                     <!-- Key takeaways -->
-                    <h5>Key Takeaways</h5>
+                    <h2>Key Takeaways</h2>
                     <ul class="ingredients-list">
                         <li><strong>Route:</strong> Lungs → hemoglobin → capillaries → cells → mitochondria → ATP.</li>
                         <li>When supply meets demand, you feel clearer, calmer, and more energetic.</li>
@@ -227,7 +227,7 @@
                     </ul>
 
                     <!-- FAQs section (on-page copy mirrors FAQPage JSON-LD) -->
-                    <h5>FAQs</h5>
+                    <h2>FAQs</h2>
                     <ul class="tick-list">
                         <li><strong>Is deep breathing the same as oxygen therapy?</strong> No. Deep breathing helps air reach more alveoli. Supplemental oxygen increases the oxygen concentration you inhale and requires clinical oversight.</li>
                         <li><strong>How long does a home session take?</strong> It depends on your SpO₂, symptoms, and goals. Your nurse will explain the plan and the expected time.</li>
@@ -238,7 +238,7 @@
                     </ul>
 
                     <!-- CTA -->
-                    <h5>Talk to a Licensed Team in Dubai</h5>
+                    <h2>Talk to a Licensed Team in Dubai</h2>
                     <p>Ready to breathe easier and feel clearer? Our DHA‑licensed nurses can guide you on testing, supplemental oxygen, and safe at‑home oxygen therapy.<a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" class="button d-inline">Contact Healthcarebia</a> Now!</p>
 
                     <p><small><strong>Disclaimer:</strong> This article is for educational purposes and does not replace professional medical advice. Always consult a licensed practitioner if you have underlying conditions or severe symptoms.</small></p>

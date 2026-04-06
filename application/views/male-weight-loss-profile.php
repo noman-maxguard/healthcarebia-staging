@@ -321,7 +321,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>1</span>What is the Weight Loss Profile?</h5>
+                            <h3><span>1</span>What is the Weight Loss Profile?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -331,7 +331,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>2</span>What does the Weight Loss Profile usually assess?</h5>
+                            <h3><span>2</span>What does the Weight Loss Profile usually assess?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -341,7 +341,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>3</span>Who should consider doing the Weight Loss Profile?</h5>
+                            <h3><span>3</span>Who should consider doing the Weight Loss Profile?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -357,7 +357,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>4</span>Is the Weight Loss Profile a diet plan or treatment on its own?</h5>
+                            <h3><span>4</span>Is the Weight Loss Profile a diet plan or treatment on its own?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -367,7 +367,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>5</span>How is the Weight Loss Profile usually carried out at home?</h5>
+                            <h3><span>5</span>How is the Weight Loss Profile usually carried out at home?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -377,7 +377,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>6</span>When will I receive my results and how should I use them?</h5>
+                            <h3><span>6</span>When will I receive my results and how should I use them?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">

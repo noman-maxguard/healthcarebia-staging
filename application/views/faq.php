@@ -50,7 +50,7 @@
                 <div class="accordion pt-md-3">
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>1</span>Can I get an IV drip while fasting during Ramadan in Dubai?</h5>
+                            <h3><span>1</span>Can I get an IV drip while fasting during Ramadan in Dubai?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -59,7 +59,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>2</span>Is IV hydration safe during pregnancy?</h5>
+                            <h3><span>2</span>Is IV hydration safe during pregnancy?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -68,7 +68,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>3</span>Which IV therapies are best for athletes or runners in Dubai?</h5>
+                            <h3><span>3</span>Which IV therapies are best for athletes or runners in Dubai?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -77,7 +77,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>4</span>Can I get an IV drip in my Dubai hotel room?</h5>
+                            <h3><span>4</span>Can I get an IV drip in my Dubai hotel room?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -86,7 +86,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>5</span>What is a VIP IV drip service in Dubai?</h5>
+                            <h3><span>5</span>What is a VIP IV drip service in Dubai?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -95,7 +95,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>6</span>How can I check if my nurse is DHA licensed?</h5>
+                            <h3><span>6</span>How can I check if my nurse is DHA licensed?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -104,7 +104,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>7</span>Can IV therapy help with jet lag?</h5>
+                            <h3><span>7</span>Can IV therapy help with jet lag?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -113,7 +113,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>8</span>What’s the best IV drip for recovery after illness?</h5>
+                            <h3><span>8</span>What’s the best IV drip for recovery after illness?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -122,7 +122,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>9</span>Is glutathione IV legal and available in Dubai?</h5>
+                            <h3><span>9</span>Is glutathione IV legal and available in Dubai?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -131,7 +131,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>10</span>Is it safer to get an IV at home or in a clinic?</h5>
+                            <h3><span>10</span>Is it safer to get an IV at home or in a clinic?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -140,7 +140,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>11</span>Can I customize my own IV nutrient blend in Dubai?</h5>
+                            <h3><span>11</span>Can I customize my own IV nutrient blend in Dubai?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -149,7 +149,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>12</span>Do you offer micronutrient testing before IV therapy?</h5>
+                            <h3><span>12</span>Do you offer micronutrient testing before IV therapy?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -158,7 +158,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>13</span>Does an IV drip hurt?</h5>
+                            <h3><span>13</span>Does an IV drip hurt?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -167,7 +167,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>14</span>How much does an at-home IV drip cost in Dubai?</h5>
+                            <h3><span>14</span>How much does an at-home IV drip cost in Dubai?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -176,7 +176,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>15</span>Does insurance cover IV therapy in Dubai?</h5>
+                            <h3><span>15</span>Does insurance cover IV therapy in Dubai?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -185,7 +185,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>16</span>Can I schedule regular IV therapy sessions for ongoing wellness?</h5>
+                            <h3><span>16</span>Can I schedule regular IV therapy sessions for ongoing wellness?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -198,7 +198,7 @@
                 <div class="accordion pt-md-3">
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>17</span>Are there side effects to IV therapy?</h5>
+                            <h3><span>17</span>Are there side effects to IV therapy?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -207,7 +207,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>18</span>Is IV therapy safe for elderly patients?</h5>
+                            <h3><span>18</span>Is IV therapy safe for elderly patients?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -216,7 +216,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>19</span>Can IV therapy treat dehydration quickly?</h5>
+                            <h3><span>19</span>Can IV therapy treat dehydration quickly?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -225,7 +225,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>20</span>Which vitamins and minerals can I get in a Dubai IV drip?</h5>
+                            <h3><span>20</span>Which vitamins and minerals can I get in a Dubai IV drip?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -234,7 +234,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>21</span>Can I get emergency IV therapy at home?</h5>
+                            <h3><span>21</span>Can I get emergency IV therapy at home?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -243,7 +243,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>22</span>Is IV therapy safe for children?</h5>
+                            <h3><span>22</span>Is IV therapy safe for children?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -252,7 +252,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>23</span>Which areas of Dubai do you cover for at-home IV?</h5>
+                            <h3><span>23</span>Which areas of Dubai do you cover for at-home IV?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -261,7 +261,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>24</span>Can I get an IV drip after surgery at home?</h5>
+                            <h3><span>24</span>Can I get an IV drip after surgery at home?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -270,7 +270,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>25</span>Do you offer IV drips for hangover recovery in Dubai?</h5>
+                            <h3><span>25</span>Do you offer IV drips for hangover recovery in Dubai?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -279,7 +279,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>26</span>How quickly can I book an IV nurse?</h5>
+                            <h3><span>26</span>How quickly can I book an IV nurse?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -288,7 +288,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>27</span>What ingredients are in your IV drips?</h5>
+                            <h3><span>27</span>What ingredients are in your IV drips?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -297,7 +297,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>28</span>How do I make a complaint about an IV therapy session?</h5>
+                            <h3><span>28</span>How do I make a complaint about an IV therapy session?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -306,7 +306,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>29</span>What’s the risk of infection with at-home IVs?</h5>
+                            <h3><span>29</span>What’s the risk of infection with at-home IVs?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -315,7 +315,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>30</span>Can travelers get IV therapy legally in Dubai?</h5>
+                            <h3><span>30</span>Can travelers get IV therapy legally in Dubai?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -324,7 +324,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>31</span>How is my privacy protected during a home IV service?</h5>
+                            <h3><span>31</span>How is my privacy protected during a home IV service?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -333,7 +333,7 @@
                     </div>
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>32</span>Can I combine multiple wellness goals in one drip?</h5>
+                            <h3><span>32</span>Can I combine multiple wellness goals in one drip?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">

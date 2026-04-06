@@ -310,7 +310,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>1</span>What is the Female Hormone Profile?</h5>
+                            <h3><span>1</span>What is the Female Hormone Profile?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -320,7 +320,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>2</span>What does the Female Hormone Profile usually assess?</h5>
+                            <h3><span>2</span>What does the Female Hormone Profile usually assess?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -330,7 +330,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>3</span>Who might consider doing the Female Hormone Profile?</h5>
+                            <h3><span>3</span>Who might consider doing the Female Hormone Profile?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -346,7 +346,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>4</span>Does this profile diagnose a specific hormone disorder?</h5>
+                            <h3><span>4</span>Does this profile diagnose a specific hormone disorder?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -356,7 +356,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>5</span>How is the Female Hormone Profile usually carried out?</h5>
+                            <h3><span>5</span>How is the Female Hormone Profile usually carried out?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -366,7 +366,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>6</span>When will I receive my results and how should I use them?</h5>
+                            <h3><span>6</span>When will I receive my results and how should I use them?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">

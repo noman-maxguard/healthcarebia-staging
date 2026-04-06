@@ -65,7 +65,7 @@
     <div class="overlay"></div>
 </section>
 
-<section class="light-bg-color section-gap">
+<section class="light-bg-color section-gap single-blog-page">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9">
@@ -84,7 +84,7 @@
 
                     <p>In recent years, a new trend has emerged among tourists in Dubai: IV drip therapy. Once seen only in hospitals, IV drips in Dubai are now a wellness must-have for many travelers. But why exactly are visitors turning to this treatment during their stay in Dubai? And why is Healthcarebia IV drip service one of the top choices for those seeking high quality care? Let’s dive deeper.</p>
 
-                    <h5>Why Tourists Love IV Drips in Dubai</h5>
+                    <h2>Why Tourists Love IV Drips in Dubai</h2>
                     <ol>
                         <li><strong>Fast Relief, More Time for Fun</strong><br>Unlike waiting in clinics for hours, a hydration drip in Dubai with Healthcarebia is quick, convenient, and effective. Sessions usually take less than an hour, meaning visitors can still enjoy their day without losing precious vacation time.</li>
                         <li><strong>Boosting Energy and Immunity</strong><br>IV drip therapy delivers essential nutrients, vitamins, minerals, and hydration directly into the bloodstream, offering:
@@ -100,7 +100,7 @@
                         <li><strong>Convenience at the Hotel</strong><br>Visitors especially love receiving IV drips in their hotels. After a long day, they can relax while being treated, then resume plans fully energized.</li>
                     </ol>
 
-                    <h5>Real-Life Scenarios: Why Tourists Ask for IV Drips</h5>
+                    <h2>Real-Life Scenarios: Why Tourists Ask for IV Drips</h2>
                     <ul class="tick-list">
                         <li><strong>The Long-Haul Traveler:</strong> After 12+ hour flights, hydration and energy are quickly restored.</li>
                         <li><strong>The Business Traveler:</strong> With critical meetings, jet lag IV drips help them stay sharp.</li>
@@ -108,10 +108,10 @@
                         <li><strong>The Adventure Seeker:</strong> After safaris, water sports, and shopping, drips restore stamina for more fun.</li>
                     </ul>
 
-                    <h5>The Bigger Picture: Dubai Wellness Tourism</h5>
+                    <h2>The Bigger Picture: Dubai Wellness Tourism</h2>
                     <p>Dubai has positioned itself as a luxury travel and wellness tourism hub. IV drip therapy fits perfectly into this trend, offering convenience, energy, and preventive health benefits. Unlike oral supplements, IV therapy delivers nutrients directly into the bloodstream for faster results.</p>
 
-                    <h5>Healthcarebia: Your Trusted Partner for Tourist Wellness in Dubai</h5>
+                    <h2>Healthcarebia: Your Trusted Partner for Tourist Wellness in Dubai</h2>
                     <p>Tourists choose Healthcarebia IV drip therapy for:</p>
                     <ul class="tick-list">
                         <li>Affordable services compared to other countries</li>
@@ -123,7 +123,7 @@
 
                     <p>Whether you’re visiting Dubai for a short stay or passing through as a frequent flyer, Healthcarebia ensures you stay energized, refreshed, and ready to enjoy every moment of your journey.</p>
 
-                    <h5>Connect with Healthcarebia</h5>
+                    <h2>Connect with Healthcarebia</h2>
                     <p>
                         WhatsApp: <a href="https://wa.me/971547077476" target="_blank" rel="noopener noreferrer">+971 547077476</a><br>
                         Instagram: <a href="https://instagram.com/healthcarebia.ae" target="_blank" rel="noopener noreferrer">@healthcarebia.ae</a><br>

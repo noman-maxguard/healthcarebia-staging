@@ -69,7 +69,7 @@
     <div class="overlay"></div>
 </section>
 
-<section class="light-bg-color section-gap">
+<section class="light-bg-color section-gap single-blog-page">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9">
@@ -84,7 +84,7 @@
                     <h1>Hydrate or Crash: Why IV Drips Are the Ultimate Summer Recovery Tool in Dubai</h1>
 
                     <!-- Dubai heat -->
-                    <h5>Dubai’s Summer Isn’t Just “Hot”—It’s a Health Stress Test</h5>
+                    <h2>Dubai’s Summer Isn’t Just “Hot”—It’s a Health Stress Test</h2>
                     <p>By late July, daytime highs routinely hit <strong>45&nbsp;°C (113&nbsp;°F)</strong> and stay above <strong>33&nbsp;°C (91&nbsp;°F)</strong> well past midnight. Authorities issue excessive-heat alerts almost daily, urging limited exposure and constant hydration.</p>
                     <p>These figures matter because they drive:</p>
                     <ul class="ingredients-list">
@@ -94,7 +94,7 @@
                     <p>Even with shaded walkways and misting fans, most residents still feel “wilted” after a short Metro-to-mall walk.</p>
 
                     <!-- Why water isn't enough -->
-                    <h5>Why Water Alone Won’t Save You</h5>
+                    <h2>Why Water Alone Won’t Save You</h2>
                     <p>Chugging a 1.5&nbsp;L bottle feels heroic, yet your gut absorbs only <strong>600–800&nbsp;ml per hour</strong>. Meanwhile minerals vanish:</p>
                     <table>
                       <thead>
@@ -110,7 +110,7 @@
                     <p>Miss the balance and symptoms appear: dry mouth, dizziness, cramps, brain fog.</p>
 
                     <!-- IV hydration -->
-                    <h5>Enter IV Hydration: 100&nbsp;% Absorption in Under an Hour</h5>
+                    <h2>Enter IV Hydration: 100&nbsp;% Absorption in Under an Hour</h2>
                     <p><strong>Intravenous (IV) therapy</strong> bypasses the gut to deliver fluids and nutrients directly to your bloodstream. Evidence shows:</p>
                     <ul class="ingredients-list">
                         <li>Near-100&nbsp;% bioavailability</li>
@@ -120,7 +120,7 @@
                     <p>With heat-related ER visits soaring, Dubai residents now use IVs proactively for “performance hydration.”</p>
 
                     <!-- Home IV safety -->
-                    <h5>Why At-Home IV Beats a Clinic Visit in 45&nbsp;°C Heat</h5>
+                    <h2>Why At-Home IV Beats a Clinic Visit in 45&nbsp;°C Heat</h2>
                     <p>Dragging yourself through traffic for a drip is counter-productive. Dubai’s gold standard is <strong>door-to-door nurse delivery—fast, convenient, and clinically safe</strong>, all under the strict oversight of the Dubai Health Authority (DHA):</p>
                     <ul class="tick-list">
                         <li><strong>Licensed via Sheryan:</strong> every nurse holds an active DHA license on the Sheryan portal, ensuring verified credentials and up-to-date clinical training.</li>
@@ -130,7 +130,7 @@
                     <p><em>Bottom line:</em> you recover faster, skip waiting rooms, and avoid extra heat stress from parking lots or taxi queues.</p>
 
                     <!-- Bag contents -->
-                    <h5>What’s Inside a “Summer Rescue” Drip?</h5>
+                    <h2>What’s Inside a “Summer Rescue” Drip?</h2>
                     <table>
                       <thead>
                         <tr><th>Component</th><th>Why It Matters in Extreme Heat</th></tr>
@@ -147,7 +147,7 @@
                     <p>A DHA-licensed nurse checks vitals and adjusts flow (~45&nbsp;min). Read, work, or nap while cells reload.</p>
 
                     <!-- Who benefits -->
-                    <h5>Who Benefits the Most</h5>
+                    <h2>Who Benefits the Most</h2>
                     <ol>
                         <li><strong>Early-bird &amp; night-owl athletes</strong>—35&nbsp;°C dawn jogs burn glycogen &amp; electrolytes fast.</li>
                         <li><strong>Construction &amp; delivery pros</strong>—reflective PPE becomes a mobile sauna.</li>
@@ -157,7 +157,7 @@
                     </ol>
 
                     <!-- SAFETY FAQ -->
-                    <h5>Safety FAQs (Because You Should Ask)</h5>
+                    <h2>Safety FAQs (Because You Should Ask)</h2>
                     <ul class="tick-list">
                         <li><strong>Is IV hydration safe for everyone?</strong> Generally yes—screening plus tele-doctor clearance if needed.</li>
                         <li><strong>Risk of infection?</strong> Single-use gear and strict aseptic technique.</li>
@@ -167,11 +167,11 @@
                     </ul>
 
                     <!-- Science -->
-                    <h5>The Science—More Than a Trend</h5>
+                    <h2>The Science—More Than a Trend</h2>
                     <p>Journal of Sports Medicine studies show a <strong>25&nbsp;% faster recovery</strong> with IV electrolytes versus oral alone. Dubai’s health blueprint champions “patient-first, location-agnostic” care—a vision realised via NABIDH and Sheryan oversight.</p>
 
                     <!-- Booking -->
-                    <h5>Booking With Healthcarebia—A 3-Step Snapshot</h5>
+                    <h2>Booking With Healthcarebia—A 3-Step Snapshot</h2>
                     <ol>
                         <li>WhatsApp <strong><a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer">+971-54-707-7476</a></strong> your location and preferred time.</li>
                         <li>DHA-licensed nurse arrives with a sterile kit and BP monitor.</li>
@@ -179,7 +179,7 @@
                     </ol>
 
                     <!-- Heat tips -->
-                    <h5>Pro Tips for Heat Resilience (Between IV Sessions)</h5>
+                    <h2>Pro Tips for Heat Resilience (Between IV Sessions)</h2>
                     <ul class="ingredients-list">
                         <li>40-20 rule: 40&nbsp;min outdoors → 20&nbsp;min AC cool-down.</li>
                         <li>DIY electrolyte: pinch of pink salt + lime.</li>
@@ -189,11 +189,11 @@
                     </ul>
 
                     <!-- Reality check -->
-                    <h5>The Ultimate Reality Check</h5>
+                    <h2>The Ultimate Reality Check</h2>
                     <p>Dubai’s climate edges toward 50&nbsp;°C summers. AC helps, but ignoring hydration risks heat exhaustion, kidney stress, and lost performance.</p>
 
                     <!-- Ready to feel like you again -->
-                    <h5>Ready to Feel Like You Again?</h5>
+                    <h2>Ready to Feel Like You Again?</h2>
                     <p>Back-to-back DIFC meetings or Old Dubai tours—either way, an on-demand drip is:</p>
                     <ul class="ingredients-list">
                         <li><strong>Fast:</strong> nurse at your door in under an hour.</li>
@@ -203,7 +203,7 @@
                     </ul>
 
                     <!-- CTA -->
-                    <h5>Call to Action</h5>
+                    <h2>Call to Action</h2>
                     <p>Don’t let desert fatigue steal another afternoon. <a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" class="button d-inline">WhatsApp Healthcarebia</a> now to book your personalised <strong>Summer Rescue IV</strong> and:</p>
                     <ul class="ingredients-list">
                         <li>Regain mental clarity</li>

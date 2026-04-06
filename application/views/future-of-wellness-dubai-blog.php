@@ -70,7 +70,7 @@
     <div class="overlay"></div>
 </section>
 
-<section class="light-bg-color section-gap">
+<section class="light-bg-color section-gap single-blog-page">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9">
@@ -88,7 +88,7 @@
                     <p>As we embrace 2025, here are the biggest health and wellness trends shaping the future. Whether you’re a wellness enthusiast, health professional, or simply looking to live better, these insights will help you navigate what’s next.</p>
 
                     <!-- 1. Personalized Wellness -->
-                    <h5>1. Personalized Wellness Is the New Standard</h5>
+                    <h2>1. Personalized Wellness Is the New Standard</h2>
                     <p>One-size-fits-all advice is fading. People want plans tailored to their biology,using DNA insights, metabolic markers, and lifestyle data. Clinics and apps now use genetic profiles to design customized fitness routines, diet plans, and supplementation.</p>
                     <p>At Healthcarebia, we integrate DNA testing with IV drip therapy to target individual nutrient needs. Examples include:</p>
                     <ul class="ingredients-list">
@@ -98,7 +98,7 @@
                     </ul>
 
                     <!-- 2. Preventive Health -->
-                    <h5>2. Preventive Health Is the Priority</h5>
+                    <h2>2. Preventive Health Is the Priority</h2>
                     <p>The focus has shifted to preventing illness before it starts. In Dubai, convenient at-home services make staying proactive simpler than ever.</p>
                     <ul class="tick-list">
                         <li><a href="<?= base_url() ?>lab-test-at-home"><strong>Regular lab tests at home </strong></a> early detection and tracking of key biomarkers.</li>
@@ -109,12 +109,12 @@
                     <p>Healthcarebia delivers these services at home, helping clients manage health without clinic visits.</p>
 
                     <!-- 3. IV Drip Therapy -->
-                    <h5>3. IV Drip Therapy Goes Mainstream</h5>
+                    <h2>3. IV Drip Therapy Goes Mainstream</h2>
                     <p>Once a celebrity recovery tool, IV infusion therapy is now a widely used wellness option. With modern stressors and nutrient gaps, IVs deliver rapid results by bypassing the gut and infusing nutrients directly into the bloodstream.</p>
                     <p>Mobile services now bring <em>IV drip at home Dubai</em> or <em>IV drip home service Dubai</em>, hospital-grade care in the comfort of your space.</p>
 
                     <!-- 4. Longevity & Biohacking -->
-                    <h5>4. Longevity &amp; Biohacking Take the Spotlight</h5>
+                    <h2>4. Longevity &amp; Biohacking Take the Spotlight</h2>
                     <p>The aim is to live better, not just longer. Longevity programs and biohacking protocols are becoming mainstream.</p>
                     <ul class="tick-list">
                         <li><a href="<?= base_url() ?>nad-iv-drip"><strong>NAD IV drip therapy:</strong></a>focused on mitochondrial function and healthy aging.</li>
@@ -124,12 +124,12 @@
                     <p>Healthcarebia offers premium NAD IV therapy and VIP IV drip services as part of structured longevity plans.</p>
 
                     <!-- 5. Digital Wellness -->
-                    <h5>5. Digital Wellness &amp; AI Health Assistants</h5>
+                    <h2>5. Digital Wellness &amp; AI Health Assistants</h2>
                     <p>Smart wearables and AI tools now integrate continuously with care. From glucose and stress-tracking to AI nutrition coaching and telemedicine, health management is increasingly digital.</p>
                     <p>With Healthcarebia, clients can book IV therapy in Dubai, review at-home lab results, and access doctor notes on a secure platform wellness at your fingertips.</p>
 
                     <!-- 6. Mental Health -->
-                    <h5>6. Mental Health Integration</h5>
+                    <h2>6. Mental Health Integration</h2>
                     <p>Mental and physical health are treated as one system. Corporate programs, fitness centers, and clinics increasingly bake in stress management and emotional well-being.</p>
                     <ul class="ingredients-list">
                         <li><strong>Mindfulness &amp; mood tracking:</strong> to reduce stress load.</li>
@@ -139,7 +139,7 @@
                     </ul>
 
                     <!-- 7. Functional Medicine -->
-                    <h5>7. Holistic &amp; Functional Medicine on the Rise</h5>
+                    <h2>7. Holistic &amp; Functional Medicine on the Rise</h2>
                     <p>Integrative care blends modern diagnostics with proven complementary therapies. Approaches pair nutritional, gut-brain, and recovery strategies.</p>
                     <ul class="tick-list">
                         <li><strong>IV vitamin drips + acupuncture/cupping:</strong> for recovery and pain support.</li>
@@ -149,7 +149,7 @@
                     <p>Healthcarebia links DNA testing, IV infusion therapy, and functional strategies into a single, personalized plan.</p>
 
                     <!-- 8. Corporate Wellness -->
-                    <h5>8. Corporate Wellness Becomes Personal</h5>
+                    <h2>8. Corporate Wellness Becomes Personal</h2>
                     <p>Companies recognize the productivity impact of health. Executive-focused, at-home, and on-site programs are rising across Dubai.</p>
                     <ul class="ingredients-list">
                         <li><strong>On-site or at-home IV drips for executives</strong> before peak work weeks or travel.</li>
@@ -160,7 +160,7 @@
                     <p>Healthcarebia partners with HR teams to deliver tailored wellness benefits.</p>
 
                     <!-- 9. Wellness as Luxury -->
-                    <h5>9. Wellness Is the New Luxury</h5>
+                    <h2>9. Wellness Is the New Luxury</h2>
                     <p>Premium, concierge experiences are redefining status. In Dubai, transformation—not just treatment—is in demand.</p>
                     <ul class="tick-list">
                         <li><strong>VIP IV drip services at home</strong> with concierge scheduling.</li>
@@ -170,7 +170,7 @@
                     </ul>
 
                     <!-- Final Thoughts -->
-                    <h5>Final Thoughts</h5>
+                    <h2>Final Thoughts</h2>
                     <p>Wellness in 2025 is a movement—personal, preventive, and holistic. From IV drip therapy and DNA testing to functional medicine, mental health, and digital tools, the future of well-being is coordinated and convenient.</p>
 
                     <p>Healthcarebia brings this future to life through:</p>
@@ -183,11 +183,11 @@
                     <p>Whether you want a glutathione IV drip in Dubai for beauty, a hangover drip for fast recovery, or a premium at-home IV, we deliver care on your terms.</p>
 
                     <!-- CTA -->
-                    <h5>Start Your Journey</h5>
+                    <h2>Start Your Journey</h2>
                     <p>Book your personalized plan at <a href="https://web.whatsapp.com/send?phone=971547077476&text=Hi%2C%20I%20contacted%20you%20through%20Healthcarebia%20website.%20Can%20I%20know%20more%20about%20your%20services%3F" target="_blank" rel="noopener noreferrer">healthcarebia.ae</a>. Your health. Your space. Your schedule.</p>
 
                     <!-- References -->
-                    <h5>References</h5>
+                    <h2>References</h2>
                     <ol class="ref-list">
                         <li>Global Wellness Institute (2024). The Global Wellness Economy: Country Rankings and Analysis. <a href="https://globalwellnessinstitute.org" target="_blank" rel="noopener noreferrer">globalwellnessinstitute.org</a></li>
                         <li>Cleveland Clinic (2023). Why Preventive Health is the Future. <a href="https://health.clevelandclinic.org" target="_blank" rel="noopener noreferrer">health.clevelandclinic.org</a></li>

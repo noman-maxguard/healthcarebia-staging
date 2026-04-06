@@ -66,7 +66,7 @@
     <div class="overlay"></div>
 </section>
 
-<section class="light-bg-color section-gap">
+<section class="light-bg-color section-gap single-blog-page">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9">
@@ -83,7 +83,7 @@
                     <p>In Dubai’s busy lifestyle, quality sleep can be hard to come by. Long work hours, screen time, travel, and stress all disrupt your natural sleep cycle. Even with enough time in bed, you may still wake up tired. One solution gaining traction is <b>IV drips for sleep in Dubai</b>. At Healthcarebia, our sleep support IV therapy provides essential nutrients that promote deeper, more restorative rest. Every treatment is <b>DHA-approved</b> and follows wellness guidelines, so you can relax knowing it’s safe and effective.</p>
 
 
-                    <h5>1 Why Sleep Quality Matters</h5>
+                    <h2>1 Why Sleep Quality Matters</h2>
                     <p>Sleep is when your body repairs itself, balances hormones, and restores energy. Poor sleep can:</p>
                     <ul class="tick-list">
                         <li>Lower your immune function</li>
@@ -93,7 +93,7 @@
                     </ul>
                     <p>Nutrient deficiencies, dehydration, and high stress are common reasons people struggle to sleep well.</p>
 
-                    <h5>2 Nutrients That Help You Sleep</h5>
+                    <h2>2 Nutrients That Help You Sleep</h2>
                     <ul class="ingredients-list">
                         <li><b>Magnesium</b> — Eases muscle tension, calms the mind, and supports melatonin production</li>
                         <li><b>Vitamin B complex</b> — Helps your body make the brain chemicals that regulate sleep patterns</li>
@@ -103,7 +103,7 @@
                     <p>If you’re low on these, falling or staying asleep can be harder.</p>
 
 
-                    <h5>3 Why IV Drips Work Better</h5>
+                    <h2>3 Why IV Drips Work Better</h2>
                     <p>Oral supplements pass through the digestive system, which can slow or limit absorption. <b>IV therapy</b> delivers nutrients directly into the bloodstream for faster, more complete results.</p>
                     <p>Our Healthcarebia IV drip for sleep may include:</p>
                     <ul class="ingredients-list">
@@ -116,7 +116,7 @@
                     <p>This approach targets several root causes of poor sleep in one treatment.</p>
 
 
-                    <h5>4 Who Can Benefit</h5>
+                    <h2>4 Who Can Benefit</h2>
                     <ul class="tick-list">
                         <li>Professionals with high stress levels</li>
                         <li>Frequent travellers with <b>jet lag IV drip Dubai</b> needs</li>
@@ -127,7 +127,7 @@
                     </ul>
 
 
-                    <h5>5 Safety and Compliance</h5>
+                    <h2>5 Safety and Compliance</h2>
                     <ul class="tick-list">
                         <li>All treatments are <b>DHA-approved IV drips</b> that meet strict medical standards</li>
                         <li>We follow wellness procedures to keep your health data secure</li>
@@ -137,7 +137,7 @@
                     <p>These safeguards make us a trusted provider for safe IV therapy.</p>
 
 
-                    <h5>6 What to Expect During Your Visit</h5>
+                    <h2>6 What to Expect During Your Visit</h2>
                     <ol>
                         <li><b>Consultation</b> — We discuss your sleep pattern, history, and goals</li>
                         <li><b>Custom formula</b> — Your drip is tailored to your needs</li>
@@ -146,11 +146,11 @@
                         <li><b>Aftercare tips</b> — Hydration and sleep hygiene advice to help results last</li>
                     </ol>
 
-                    <h5>7 Are IV Drips Safe for Sleep?</h5>
+                    <h2>7 Are IV Drips Safe for Sleep?</h2>
                     <p>Yes. When performed by trained professionals, IV drips are safe and well tolerated. Nutrients are gently dosed for each client. The most common side effect is mild soreness at the insertion site, which fades quickly. At Healthcarebia, safety and comfort are top priorities.</p>
 
 
-                    <h5>8 More Than Just Better Sleep</h5>
+                    <h2>8 More Than Just Better Sleep</h2>
                     <ul class="tick-list">
                         <li>More daytime energy</li>
                         <li>Better mood and less irritability</li>
@@ -159,7 +159,7 @@
                         <li>Reduced reliance on caffeine</li>
                     </ul>
 
-                    <h5>9 Why Choose Healthcarebia</h5>
+                    <h2>9 Why Choose Healthcarebia</h2>
                     <ul class="tick-list">
                         <li>DHA-approved IV drips</li>
                         <li>Skilled, licensed healthcare professionals</li>
@@ -169,7 +169,7 @@
                     <p>We blend medical expertise with a personalised wellness approach.</p>
 
 
-                    <h5>10 Conclusion</h5>
+                    <h2>10 Conclusion</h2>
                     <p>Deep, restorative sleep is essential for health and wellbeing. With Healthcarebia’s sleep support IV therapy, you can address nutrient gaps, reduce stress, and stay hydrated—all in one safe session. Our treatments are DHA approved and designed to help you feel the difference. Whether you’re battling jet lag, stress, or long-term insomnia, we can help you get back to sleeping soundly.</p>
                     <p>Book your session today at <b><a href="<?= $whatsappHref ?>" target="blank" class="button d-inline">healthcarebia</a></b>, your trusted Dubai wellness provider.</p>
 

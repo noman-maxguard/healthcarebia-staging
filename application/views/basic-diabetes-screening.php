@@ -295,7 +295,7 @@
                 <div class="accordion pt-md-3">
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>1</span>What is a Basic Diabetes Screening test?</h5>
+                            <h3><span>1</span>What is a Basic Diabetes Screening test?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -305,7 +305,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>2</span>Which biomarkers are usually checked in Basic Diabetes Screening Dubai?</h5>
+                            <h3><span>2</span>Which biomarkers are usually checked in Basic Diabetes Screening Dubai?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -315,7 +315,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>3</span>Who should consider booking a Basic Diabetes Screening test?</h5>
+                            <h3><span>3</span>Who should consider booking a Basic Diabetes Screening test?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -329,7 +329,7 @@
                 <div class="accordion pt-md-3">
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>4</span>Do I need to fast before the Basic Diabetes Screening Dubai test?</h5>
+                            <h3><span>4</span>Do I need to fast before the Basic Diabetes Screening Dubai test?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -339,7 +339,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>5</span>How does at home blood sample collection work for this screening?</h5>
+                            <h3><span>5</span>How does at home blood sample collection work for this screening?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">
@@ -349,7 +349,7 @@
 
                     <div class="accordion-box">
                         <div class="accordion-item">
-                            <h5><span>6</span>Can this test diagnose diabetes and how quickly will I get results?</h5>
+                            <h3><span>6</span>Can this test diagnose diabetes and how quickly will I get results?</h3>
                             <span class="plus-minus"></span>
                         </div>
                         <div class="data" style="display: none;">

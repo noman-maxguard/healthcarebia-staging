@@ -66,7 +66,7 @@
     <div class="overlay"></div>
 </section>
 
-<section class="light-bg-color section-gap">
+<section class="light-bg-color section-gap single-blog-page">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9">
@@ -82,12 +82,12 @@
                     <h1>DNA Testing in Dubai: A Smarter Approach to Health</h1>
 
                     <!-- Intro -->
-                    <h5>Introduction</h5>
+                    <h2>Introduction</h2>
                     <p>DNA testing in Dubai is becoming an essential part of modern healthcare. It reveals family history, risk factors for diseases, and helps create personalised treatment plans. Beyond curiosity, genetic testing now supports preventive healthcare and integrates with healthcare services at home.</p>
                     <p>With licensed medical centers and healthcare professionals, DNA testing offers insights into overall health, identifying medical conditions, vitamin deficiency symptoms, and even how your body reacts to food, exercise, and medication.</p>
 
                     <!-- What is DNA testing -->
-                    <h5>What Is DNA Testing?</h5>
+                    <h2>What Is DNA Testing?</h2>
                     <p>DNA testing analyzes your unique genetic code using a saliva or blood sample. It can highlight:</p>
                     <ul class="ingredients-list">
                         <li><strong>Medical conditions</strong> likely to develop over time.</li>
@@ -98,7 +98,7 @@
                     <p>By identifying risk factors early, you can reduce future health problems and enjoy long-term health benefits.</p>
 
                     <!-- Why DNA matters -->
-                    <h5>Why DNA Testing Matters</h5>
+                    <h2>Why DNA Testing Matters</h2>
                     <p>Globally, DNA testing is now part of routine medical care. In the UAE, it plays a vital role:</p>
                     <ul class="ingredients-list">
                         <li><strong>Vitamin D deficiency UAE:</strong> affects most residents, and DNA can show genetic absorption limits.</li>
@@ -108,7 +108,7 @@
                     <p>Learning this early lets you adapt diet, lifestyle, and treatments to improve your health condition.</p>
 
                     <!-- Preventive healthcare -->
-                    <h5>Preventive Healthcare with DNA Testing</h5>
+                    <h2>Preventive Healthcare with DNA Testing</h2>
                     <p>Rather than waiting for illness, DNA testing enables preventive healthcare. Examples include:</p>
                     <ul class="ingredients-list">
                         <li>Increased risk of heart disease → eat antioxidant-rich foods to fight <strong>free radicals</strong>.</li>
@@ -117,7 +117,7 @@
                     </ul>
 
                     <!-- Lifestyle -->
-                    <h5>DNA Testing for Lifestyle Choices</h5>
+                    <h2>DNA Testing for Lifestyle Choices</h2>
                     <p>DNA also guides everyday decisions:</p>
                     <ul class="ingredients-list">
                         <li><strong>Weight loss:</strong> cardio vs. strength training effectiveness differs per DNA.</li>
@@ -126,7 +126,7 @@
                     </ul>
 
                     <!-- At-home testing -->
-                    <h5>DNA Testing at Home in Dubai</h5>
+                    <h2>DNA Testing at Home in Dubai</h2>
                     <ol>
                         <li>A licensed nurse visits your home for saliva or blood collection.</li>
                         <li>The lab runs <strong>genetic testing</strong>.</li>
@@ -135,7 +135,7 @@
                     <p>This makes testing private, stress-free, and accurate—part of trusted healthcare services at home.</p>
 
                     <!-- Immune system -->
-                    <h5>DNA Testing and the Immune System</h5>
+                    <h2>DNA Testing and the Immune System</h2>
                     <p>Your immune system defends your body. DNA may reveal weak immune responses, increasing risk of infection.</p>
                     <ul class="ingredients-list">
                         <li><strong>NAD+ IV therapy:</strong> boosts energy and cellular repair.</li>
@@ -144,7 +144,7 @@
                     </ul>
 
                     <!-- DNA + IV therapy -->
-                    <h5>The Link Between DNA and IV Therapy</h5>
+                    <h2>The Link Between DNA and IV Therapy</h2>
                     <p>Dubai is a leader in advanced IV drip therapy. Combining DNA insights makes care precise:</p>
                     <ul class="ingredients-list">
                         <li><strong>IV therapy for professionals:</strong> combats work fatigue.</li>
@@ -153,16 +153,16 @@
                     </ul>
 
                     <!-- Safety -->
-                    <h5>Safety, Privacy, and Peace of Mind</h5>
+                    <h2>Safety, Privacy, and Peace of Mind</h2>
                     <p>Licensed healthcare professionals and medical centers ensure your DNA samples are handled securely. Results remain confidential, giving you peace of mind and helping you make informed healthcare decisions.</p>
 
                     <!-- Conclusion -->
-                    <h5>Conclusion</h5>
+                    <h2>Conclusion</h2>
                     <p>DNA testing is more than a trend—it is the future of personalized preventive healthcare. It identifies risk factors, guides diet, improves immunity, and works hand-in-hand with IV drip therapy options like antioxidant IV drip, hydration IV drip, and Vitamin C IV therapy.</p>
                     <p>With healthcare services at home and expert guidance, DNA testing empowers you to act early and secure long-term health benefits.</p>
 
                     <!-- CTA -->
-                    <h5>Call to Action</h5>
+                    <h2>Call to Action</h2>
                     <p>Ready to discover what your DNA says about your health? <a href="<?= $whatsappHref ?>" target="_blank" rel="noopener noreferrer" class="button d-inline">WhatsApp Healthcarebia</a> to book your DNA Test in Dubai today and:</p>
                     <ul class="ingredients-list">
                         <li>Understand your genetic <strong>risk factors</strong></li>

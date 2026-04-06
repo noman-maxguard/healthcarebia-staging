@@ -215,7 +215,7 @@
                 <p>The Gut Health IV Drip works to energize your digestive system by supporting stomach enzymes and helping to soothe, heal, and shield the stomach lining. It's designed to prevent and relieve common issues such as acidity, indigestion, diarrhea, and general discomfort.</p>
             </div>
             <div class="col-md-12 text-center mb-3">
-                <h5>Benefits of Gut Health IV Drip</h5>
+                <h3>Benefits of Gut Health IV Drip</h3>
             </div>
             <div class="col-6 col-md-4 mb-3">
                 <div class="card-style1 same">
@@ -278,7 +278,7 @@
         <div class="accordion pt-md-3">
           <div class="accordion-box">
             <div class="accordion-item">
-              <h5><span>1</span>How long does a Gut Health IV Drip session last?</h5>
+              <h3><span>1</span>How long does a Gut Health IV Drip session last?</h3>
               <span class="plus-minus"></span>
             </div>
             <div class="data">
@@ -288,7 +288,7 @@
 
           <div class="accordion-box">
             <div class="accordion-item">
-              <h5><span>2</span>Who should consider a Gut Health IV Drip?</h5>
+              <h3><span>2</span>Who should consider a Gut Health IV Drip?</h3>
               <span class="plus-minus"></span>
             </div>
             <div class="data">
@@ -298,7 +298,7 @@
 
           <div class="accordion-box">
             <div class="accordion-item">
-              <h5><span>3</span>How quickly can I expect relief?</h5>
+              <h3><span>3</span>How quickly can I expect relief?</h3>
               <span class="plus-minus"></span>
             </div>
             <div class="data">
@@ -308,7 +308,7 @@
 
           <div class="accordion-box">
             <div class="accordion-item">
-              <h5><span>4</span>How often should I schedule sessions?</h5>
+              <h3><span>4</span>How often should I schedule sessions?</h3>
               <span class="plus-minus"></span>
             </div>
             <div class="data">
@@ -318,7 +318,7 @@
 
           <div class="accordion-box">
             <div class="accordion-item">
-              <h5><span>5</span>Can Gut Health IV Drip help with bloating or indigestion?</h5>
+              <h3><span>5</span>Can Gut Health IV Drip help with bloating or indigestion?</h3>
               <span class="plus-minus"></span>
             </div>
             <div class="data">
@@ -328,7 +328,7 @@
 
           <div class="accordion-box">
             <div class="accordion-item">
-                <h5><span>6</span>Can IV therapy support gut health and steady energy?</h5>
+                <h3><span>6</span>Can IV therapy support gut health and steady energy?</h3>
                 <span class="plus-minus"></span>
             </div>
             <div class="data">
@@ -342,7 +342,7 @@
         <div class="accordion pt-md-3">
           <div class="accordion-box">
             <div class="accordion-item">
-              <h5><span>6</span>Is it safe?</h5>
+              <h3><span>6</span>Is it safe?</h3>
               <span class="plus-minus"></span>
             </div>
             <div class="data">
@@ -352,7 +352,7 @@
 
           <div class="accordion-box">
             <div class="accordion-item">
-              <h5><span>7</span>Any side effects?</h5>
+              <h3><span>7</span>Any side effects?</h3>
               <span class="plus-minus"></span>
             </div>
             <div class="data">
@@ -362,7 +362,7 @@
 
           <div class="accordion-box">
             <div class="accordion-item">
-              <h5><span>8</span>What nutrients are included and how do they help?</h5>
+              <h3><span>8</span>What nutrients are included and how do they help?</h3>
               <span class="plus-minus"></span>
             </div>
             <div class="data">
@@ -372,7 +372,7 @@
 
           <div class="accordion-box">
             <div class="accordion-item">
-              <h5><span>9</span>How does Gut Health IV Drip therapy support overall digestive wellness?</h5>
+              <h3><span>9</span>How does Gut Health IV Drip therapy support overall digestive wellness?</h3>
               <span class="plus-minus"></span>
             </div>
             <div class="data">
@@ -382,7 +382,7 @@
 
           <div class="accordion-box">
             <div class="accordion-item">
-              <h5><span>10</span>Can I combine Gut Health IV Drip with other treatments?</h5>
+              <h3><span>10</span>Can I combine Gut Health IV Drip with other treatments?</h3>
               <span class="plus-minus"></span>
             </div>
             <div class="data">
@@ -391,7 +391,7 @@
           </div>
           <div class="accordion-box">
             <div class="accordion-item">
-                <h5><span>12</span>What should I search for if I want gut-focused testing and IV support in Dubai?</h5>
+                <h3><span>12</span>What should I search for if I want gut-focused testing and IV support in Dubai?</h3>
                 <span class="plus-minus"></span>
             </div>
             <div class="data">

@@ -97,7 +97,7 @@
     <div class="overlay"></div>
 </section>
 
-<section class="light-bg-color section-gap">
+<section class="light-bg-color section-gap single-blog-page">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-9">
@@ -110,10 +110,10 @@
 
                     <h1>IV Drip Home service in Dubai: What to Expect During Your First Session</h1>
 
-                    <h5>Introduction</h5>
+                    <h2>Introduction</h2>
                     <p>Thinking about trying an <a href="<?= base_url() ?>iv-drip-dubai">IV drip at home in Dubai?</a> You're not alone, more and more people are turning to these convenient wellness treatments to boost energy, hydration, and recovery, all from the comfort of their own home. If it's your first time, here's a simple guide on what to expect from start to finish.</p>
 
-                    <h5>Why Try an IV Drip at Home?</h5>
+                    <h2>Why Try an IV Drip at Home?</h2>
                     <ul class="tick-list">
                         <li>No traffic, no waiting rooms, just healthcare that comes to you</li>
                         <li>Personalized vitamin and nutrient blends based on how you feel and what you need</li>
@@ -121,7 +121,7 @@
                         <li>Administered by DHA-licensed professionals for peace of mind</li>
                     </ul>
 
-                    <h5>Popular IV Options Delivered Right to You</h5>
+                    <h2>Popular IV Options Delivered Right to You</h2>
                     <ul class="tick-list">
                         <li><strong><a href="<?= base_url() ?>hangover-iv-drip">Hangover Recovery Drip:</a></strong> Bounces you back fast after a night out</li>
                         <li><strong><a href="<?= base_url() ?>glutathione-iv-drip">Glutathione Boost:</a></strong> For glowing skin and internal detox</li>
@@ -130,7 +130,7 @@
                         <li><strong><a href="<?= base_url() ?>nad-iv-drip">NAD+ Therapy:</a></strong> Popular for anti-aging and cellular repair</li>
                     </ul>
 
-                    <h5>What Happens During Your First IV Drip Session?</h5>
+                    <h2>What Happens During Your First IV Drip Session?</h2>
                     <ol>
                         <li><strong>Quick Consultation</strong>
                             <ul>
@@ -164,7 +164,7 @@
                         </li>
                     </ol>
 
-                    <h5>Who Is It For?</h5>
+                    <h2>Who Is It For?</h2>
                     <ul class="tick-list">
                         <li>Juggling a busy schedule</li>
                         <li>Bouncing back from jet lag or a late night</li>
@@ -172,15 +172,15 @@
                         <li>Looking for a discreet and comfy wellness option</li>
                     </ul>
 
-                    <h5>Is It Safe?</h5>
+                    <h2>Is It Safe?</h2>
                     <p>Yes, when done by DHA-certified professionals, IV therapy at home is not only safe but also regulated and reliable. The drips are made with high-quality ingredients and handled with strict hygiene protocols.</p>
 
-                    <h5>Any Side Effects?</h5>
+                    <h2>Any Side Effects?</h2>
                     <p>Minor ones are rare, but you might experience slight bruising or a little redness at the site. These usually clear up quickly and don't require any extra care.</p>
                     <p>All IV drips at Healthcarebia are administered in accordance with Dubai Health Authority (DHA) guidelines, and our protocols align with NABID best practices and the Shryan clinical framework to ensure maximum safety, efficacy, and compliance.</p>
 
 
-                    <h5>FAQs</h5>
+                    <h2>FAQs</h2>
                     <ol>
                         <li><strong>How much does an IV session at home cost in Dubai?</strong>
                             <p>It depends on the drip you choose. You'll get full price details during bookingm no surprises.</p>
@@ -193,7 +193,7 @@
                         </li>
                     </ol>
 
-                    <h5>Final Thoughts</h5>
+                    <h2>Final Thoughts</h2>
                     <p>Getting an IV drip at home in Dubai is one of the easiest ways to take care of yourself without stepping out the door. Whether you're in it for recovery, energy, beauty, or immune support, the experience is safe, efficient, and tailored to what your body needs.</p>
 
                 </div>
